@@ -17,11 +17,11 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_002`.
 - Completed cycle: `cycle_001`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, and `FJ28`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, and `FJ29`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
 - Completed cycle reflection: `reflections/cycle_001_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ29`, concrete residual attack-surface selection for `T-001`.
+- Current procedural target: begin `FJ30`, Brown/BNS kernel-recognition verification for `T-001`.
 
 ## Current established results
 
@@ -68,6 +68,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ26` subtracts the hyperbolic-by-cyclic/free-by-cyclic route from `T-001`: torsion-free one-relator groups are removed from the active residual target only once the project records a mapping-torus bridge matching the Bestvina--Fujiwara--Wigglesworth hypotheses, or a finite-rank free-by-cyclic bridge. Epimorphisms to \(\mathbb Z\), HNN splittings, and hierarchy data are not treated as mapping-torus proofs by themselves.
 - `FJ27` subtracts source-verified inheritance routes from `T-001` only when the exact inheritance bridge is recorded and the version flag is preserved. Coefficient K-theory rows and Lueck's full \(\mathcal{FJ}\) survey rows are not merged into one unlabeled closure principle.
 - `FJ28` assembles the conservative `T-001` residual ledger after the named and inheritance route subtractions. The residual ledger records missing project bridges, not counterexamples or negative Farrell--Jones results.
+- `FJ29` selects `RB-004`, finite-rank free-kernel recognition over \(\mathbb Z\), as the next attack surface and Brown (1987) as the first source to verify. It does not use Brown as a theorem source yet.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 

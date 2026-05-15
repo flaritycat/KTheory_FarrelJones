@@ -111,6 +111,9 @@
 | `T-001` residual | project-state collection of torsion-free one-relator cases not yet removed by recorded route bridges | active term | FJ28 | Not a negative theorem and not a class of counterexamples. |
 | residual bucket | bookkeeping category for `T-001` cases sharing the same missing bridge or source-recognition problem | active term | FJ28 | Used in `ledgers/t001_residual.md`. |
 | attack-surface candidate | residual bucket specific enough to support a source search or reduction attempt | active term | FJ28 | `FJ29` should select one candidate. |
+| selected residual attack surface | residual bucket chosen for the next bounded source-verification or reduction attempt | active term | FJ29 | Project-selection term, not a theorem label. |
+| kernel-recognition attack surface | the `RB-004` problem of controlling kernels of maps to \(\mathbb Z\), especially finite-rank free kernels | active term | FJ29 | Chosen as the next `T-001` attack surface. |
+| first verification source | first external source selected for exact theorem and hypothesis checking in the next module | active term | FJ29 | Brown (1987) is selected for `FJ30`, but not yet active theorem input. |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |
 | \(\mathcal{All}(G)\) | family of all subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{All}}G\) is modeled by \(\mathrm{pt}\). |

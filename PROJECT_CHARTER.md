@@ -342,13 +342,26 @@ project-state residual into source-recognition buckets. It explicitly
 records that the residual is not a class of counterexamples or negative
 Farrell--Jones results.
 
-The next module is `FJ29`, concrete residual attack-surface selection
-for `T-001`. Its task is to choose one residual bucket from `FJ28` for
-the next source-verification or reduction attempt, with finite-rank
-free-kernel recognition, finite-index/virtually compact special
-handling, compact-special/CAT(0) cases beyond hyperbolicity, virtually
-solvable recognition, and hierarchy-to-route extraction as candidate
-directions.
+The next step after `FJ28` was `FJ29`, concrete residual attack-surface
+selection for `T-001`. Its task was to choose one residual bucket from
+`FJ28` for the next source-verification or reduction attempt, with
+finite-rank free-kernel recognition, finite-index/virtually compact
+special handling, compact-special/CAT(0) cases beyond hyperbolicity,
+virtually solvable recognition, and hierarchy-to-route extraction as
+candidate directions.
+
+Current status: `FJ29`, residual attack-surface selection for `T-001`,
+has first-pass coverage. It selects `RB-004`, finite-rank
+free-kernel recognition for epimorphisms to \(\mathbb Z\), as the next
+attack surface because it feeds directly into the `FJ26`
+finite-rank free-by-cyclic route if the kernel bridge is verified. It
+selects Brown (1987) as the first source to verify, without upgrading
+Brown to theorem-use status.
+
+The next module is `FJ30`, Brown/BNS kernel-recognition verification
+for `T-001`. Its task is to check Brown (1987) for exact hypotheses and
+conclusions about one-relator epimorphisms, BNS data, finitely
+generated kernels, and finite-rank free-kernel bridges.
 
 ## GitHub persistence policy
 

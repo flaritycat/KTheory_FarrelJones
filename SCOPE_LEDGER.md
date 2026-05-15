@@ -83,11 +83,12 @@ Unless explicitly imported later:
 35. Which one-relator groups are compact special beyond the hyperbolic route?
 36. Which source should classify or recognize the virtually solvable one-relator cases if the project needs enumeration beyond conditional route bookkeeping?
 37. Which part of the `T-001` residual is removed by the hyperbolic-by-cyclic/free-by-cyclic route? First-pass resolved by `FJ26`.
-38. Which one-relator source should the project verify for recognizing finite-rank free kernels over \(\mathbb Z\)?
+38. Which one-relator source should the project verify for recognizing finite-rank free kernels over \(\mathbb Z\)? First-pass source selected by `FJ29`: Brown (1987).
 39. Which source-verified inheritance routes remove additional cases from the remaining `T-001` residual? First-pass resolved by `FJ27`.
 40. What is the conservative `T-001` residual ledger after subtracting the named routes and version-aware inheritance routes? First-pass resolved by `FJ28`.
-41. Which concrete surviving one-relator subclasses should become the next attack surface?
-42. Which source should be checked first for the selected residual bucket?
+41. Which concrete surviving one-relator subclasses should become the next attack surface? First-pass resolved by `FJ29`: `RB-004`, finite-rank free-kernel recognition over \(\mathbb Z\).
+42. Which source should be checked first for the selected residual bucket? First-pass resolved by `FJ29`: Brown (1987), without theorem-use status.
+43. What exact theorem in Brown (1987), if any, gives a finite-generation or finite-rank free-kernel criterion for one-relator epimorphisms to \(\mathbb Z\)?
 
 ## Established results
 
@@ -141,6 +142,7 @@ The active project target is `T-001`, torsion-free one-relator residual gap anal
 - Module `FJ26` records the first-pass hyperbolic-by-cyclic/free-by-cyclic route subtraction for `T-001`, subtracting only groups with a source-verified mapping-torus bridge or finite-rank free-by-cyclic bridge and rejecting bare epimorphisms to \(\mathbb Z\), HNN splittings, and hierarchy data as insufficient by themselves.
 - Module `FJ27` records the first-pass source-verified inheritance-route subtraction for `T-001`, subtracting only groups with exact inheritance bridges and preserving the distinction between coefficient K-theory rows, K-theory directed-colimit rows, and full \(\mathcal{FJ}\) survey rows.
 - Module `FJ28` records the first-pass conservative residual ledger for `T-001`, creating `ledgers/t001_residual.md` and organizing unremoved project-state cases into source-recognition buckets rather than negative Farrell--Jones classes.
+- Module `FJ29` selects `RB-004`, finite-rank free-kernel recognition over \(\mathbb Z\), as the next concrete attack surface for `T-001`, and selects Brown (1987) as the first source to verify without treating it as theorem input yet.
 
 ## Selected target
 
@@ -161,6 +163,10 @@ Current source toolkit:
   `FJ25`, hyperbolic-by-cyclic/free-by-cyclic route in `FJ26`, and
   version-aware inheritance route in `FJ27`;
 - residual ledger: `ledgers/t001_residual.md`, created by `FJ28`;
+- selected residual attack surface: `RB-004`, finite-rank free-kernel
+  recognition over \(\mathbb Z\), selected by `FJ29`;
+- next verification source: Brown (1987), selected by `FJ29` but not yet
+  upgraded to theorem-use status;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -168,4 +174,4 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ29`, concrete residual attack-surface selection for `T-001`.
+Begin `FJ30`, Brown/BNS kernel-recognition verification for `T-001`.

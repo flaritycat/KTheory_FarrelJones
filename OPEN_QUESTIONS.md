@@ -825,8 +825,9 @@ bridge from one-relator hypotheses to hyperbolicity.
 First-pass resolved by `FJ23`. `FJ24`, `FJ25`, `FJ26`, and `FJ27` have
 completed the next CAT(0), virtually solvable,
 hyperbolic-by-cyclic/free-by-cyclic, and inheritance route subtractions;
-`FJ28` has assembled the first-pass residual ledger. Continue with `FJ29`,
-the concrete residual attack-surface selection.
+`FJ28` has assembled the first-pass residual ledger, and `FJ29` has selected
+`RB-004` as the next attack surface. Continue with `FJ30`, Brown/BNS
+kernel-recognition verification.
 
 ## OQ-030. Which part of T-001 is removed by the CAT(0) route?
 
@@ -862,8 +863,9 @@ proper cocompact finite-dimensional CAT(0) action.
 
 First-pass resolved by `FJ24`. `FJ25`, `FJ26`, and `FJ27` have completed the
 virtually solvable, hyperbolic-by-cyclic/free-by-cyclic, and inheritance route
-subtractions; `FJ28` has assembled the first-pass residual ledger. Continue
-with `FJ29`, the concrete residual attack-surface selection.
+subtractions; `FJ28` has assembled the first-pass residual ledger, and `FJ29`
+has selected `RB-004` as the next attack surface. Continue with `FJ30`,
+Brown/BNS kernel-recognition verification.
 
 ## OQ-031. Which part of T-001 is removed by the virtually solvable route?
 
@@ -901,8 +903,9 @@ bookkeeping.
 
 First-pass resolved by `FJ25`. `FJ26` and `FJ27` have completed the
 hyperbolic-by-cyclic/free-by-cyclic and inheritance route subtractions.
-`FJ28` has assembled the first-pass residual ledger. Continue with `FJ29`,
-the concrete residual attack-surface selection.
+`FJ28` has assembled the first-pass residual ledger, and `FJ29` has selected
+`RB-004` as the next attack surface. Continue with `FJ30`, Brown/BNS
+kernel-recognition verification.
 
 ## OQ-032. Which finite-index source should support virtually compact special route use?
 
@@ -1032,7 +1035,8 @@ to identify a group as hyperbolic-by-cyclic or finite-rank free-by-cyclic.
 
 First-pass resolved by `FJ26`. `FJ27` has completed the source-verified
 inheritance-route subtraction. `FJ28` has assembled the first-pass residual
-ledger. Continue with `FJ29`, the concrete residual attack-surface selection.
+ledger, and `FJ29` has selected `RB-004` as the next attack surface. Continue
+with `FJ30`, Brown/BNS kernel-recognition verification.
 
 ## OQ-036. Which source should recognize finite-rank free kernels over Z?
 
@@ -1048,8 +1052,9 @@ Open inside project.
 \]
 with \(n<\infty\) gives a finite-rank free-by-cyclic bridge. It does not prove
 that any particular one-relator epimorphism has finitely generated free
-kernel. Brown's BNS-invariant paper remains a found-to-verify source for this
-kind of recognition problem.
+kernel. `FJ29` selects Brown's BNS-invariant paper as the first source to
+verify for this recognition problem, while keeping it out of theorem-use
+status until `FJ30`.
 
 ### Relevant modules
 
@@ -1063,7 +1068,8 @@ criterion selected later.
 
 ### Next action
 
-Defer until the residual analysis needs concrete free-by-cyclic recognition.
+`FJ29` selected this as the next residual attack surface. Continue with
+`FJ30`, Brown/BNS kernel-recognition verification.
 
 ## OQ-037. Which inheritance routes remove additional T-001 cases?
 
@@ -1098,8 +1104,9 @@ Lueck's survey-level full \(\mathcal{FJ}\) inheritance table.
 ### Next action
 
 First-pass resolved by `FJ27`. `FJ28` has assembled the residual ledger after
-named and inheritance route subtractions. Continue with `FJ29`, the concrete
-residual attack-surface selection.
+named and inheritance route subtractions, and `FJ29` has selected `RB-004` as
+the next attack surface. Continue with `FJ30`, Brown/BNS kernel-recognition
+verification.
 
 ## OQ-038. What remains in T-001 after the route-subtraction pass?
 
@@ -1139,46 +1146,53 @@ from `FJ20`, and `ledgers/t001_residual.md`.
 
 ### Next action
 
-First-pass resolved by `FJ28`. Continue with `FJ29`, concrete residual
-attack-surface selection.
+First-pass resolved by `FJ28`. `FJ29` has selected `RB-004` as the concrete
+residual attack surface. Continue with `FJ30`, Brown/BNS kernel-recognition
+verification.
 
 ## OQ-039. Which concrete surviving one-relator subclasses should be attacked next?
 
 ### Status
 
-Open inside project.
+Resolved for first-pass attack-surface selection.
 
 ### Context
 
 After the residual ledger is assembled, the project should choose a concrete
-attack surface rather than continuing to list broad known routes. Candidate
-subclasses must be selected from repository-recorded residual data, not from
-unverified memory.
+attack surface rather than continuing to list broad known routes. `FJ29`
+selects `RB-004`, finite-rank free-kernel recognition over \(\mathbb Z\), as
+the next attack surface. Candidate subclasses must be selected from
+repository-recorded residual data, not from unverified memory.
 
 ### Relevant modules
 
 - FJ20
 - FJ28
+- FJ29
 
 ### Dependencies
 
-The `FJ28` residual ledger and the source-status ledgers.
+The `FJ28` residual ledger, the source-status ledgers, and the `FJ26`
+finite-rank free-by-cyclic route.
 
 ### Next action
 
-Begin `FJ29`, concrete residual attack-surface selection for `T-001`.
+First-pass resolved by `FJ29`. Continue with `FJ30`, Brown/BNS
+kernel-recognition verification.
 
 ## OQ-040. Which source should be checked first for the selected residual bucket?
 
 ### Status
 
-Open inside project.
+Resolved for first-pass source selection.
 
 ### Context
 
 `FJ28` lists candidate residual attack surfaces, but each candidate has a
 different source-risk profile. After `FJ29` selects a bucket, the project
 should choose the first source to verify before making theorem-level claims.
+`FJ29` selects Brown (1987) as the first verification source for `RB-004`,
+without upgrading it to theorem-use status.
 
 ### Relevant modules
 
@@ -1196,4 +1210,34 @@ virtually solvable recognition, and hierarchy-to-route extraction.
 
 ### Next action
 
-Defer until `FJ29` selects a residual attack surface.
+First-pass resolved by `FJ29`. Continue with `FJ30`, which should check
+Brown (1987) for exact statements, hypotheses, and conclusions.
+
+## OQ-041. What exact Brown/BNS theorem recognizes finite-rank kernels?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ29` selects `RB-004` and Brown (1987) as the first source to verify. The
+project still needs the exact theorem statement, hypotheses, and conclusion:
+whether Brown gives finite generation, freeness, finite rank, a BNS-invariant
+criterion, or only a weaker/conditional result.
+
+### Relevant modules
+
+- FJ21
+- FJ26
+- FJ29
+- FJ30
+
+### Dependencies
+
+Brown (1987), the `FJ26` finite-rank free-by-cyclic bridge, and any secondary
+BNS or one-relator source if Brown alone is insufficient.
+
+### Next action
+
+Begin `FJ30`, Brown/BNS kernel-recognition verification for `T-001`.

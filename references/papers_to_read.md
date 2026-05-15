@@ -61,15 +61,15 @@
 7. Linton, M.; Nyberg-Brodda, C.-F. *The theory of one-relator groups: history and recent progress*. Status: active orientation source for `FJ21`; use as a literature map, not a proof source.
 8. Lyndon, R. C.; Schupp, P. E. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
 9. Magnus, W.; Karrass, A.; Solitar, D. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
-10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: found; verify before using BNS/free-by-cyclic splitting arguments; named in `FJ26` only as a future kernel-recognition source.
+10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: found; selected for `FJ30` verification; verify before using BNS/free-by-cyclic splitting arguments; named in `FJ26` only as a future kernel-recognition source and selected in `FJ29` for `RB-004`.
 11. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: found; verify before using negative-immersion or primitivity-rank routes.
 
-Next one-relator reading task: for `FJ29`, select one concrete residual attack
-surface from `ledgers/t001_residual.md` and choose the first source to verify.
-The likely source queues are Brown/BNS for finite-rank free-kernel recognition,
-one-relator cubulation or specialness sources for CAT(0)/compact-special
-residual cases, and a classification or recognition source for virtually
-solvable one-relator cases.
+Next one-relator reading task: for `FJ30`, verify Brown (1987) for the
+`RB-004` kernel-recognition attack surface selected in `FJ29`. Extract exact
+hypotheses and conclusions about BNS data, one-relator epimorphisms to
+\(\mathbb Z\), finitely generated kernels, freeness, and finite-rank
+free-kernel bridges. If Brown alone is insufficient, record the gap and name
+the next source to check.
 
 ## Reading protocol
 

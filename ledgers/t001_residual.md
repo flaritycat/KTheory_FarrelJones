@@ -2,7 +2,8 @@
 
 ## Status
 
-First-pass residual ledger created in `FJ28`.
+First-pass residual ledger created in `FJ28`. First concrete attack surface
+selected in `FJ29`.
 
 ## Warning
 
@@ -43,7 +44,23 @@ cases not yet removed by the repository's current source-verified route data.
 | Virtually solvable one-relator recognition | It could convert `FJ25` from a conditional row into a more explicit example ledger | Needs a classification or recognition source |
 | Hierarchy-to-route extraction | It uses the adopted Linton hierarchy vocabulary to search for route bridges | Must not treat hierarchy language as a Farrell--Jones route without an additional source |
 
+## FJ29 selected attack surface
+
+Selected bucket: `RB-004`, epimorphisms to \(\mathbb Z\) or HNN splittings
+with unknown kernel control.
+
+Selected first source to verify: Brown (1987), *Trees, valuations, and the
+Bieri--Neumann--Strebel invariant*.
+
+Reason for selection: a verified finite-rank free-kernel bridge would feed
+directly into the `FJ26` finite-rank free-by-cyclic route, while the source
+verification task is narrow enough for a single module.
+
+Non-use warning: Brown (1987) remains a source to verify. `FJ29` does not use
+it as a theorem source and does not assert that any one-relator epimorphism
+has finitely generated kernel.
+
 ## Next action
 
-Use `FJ29` to select one concrete residual attack surface from the candidate
-list above. Selection should be source-readiness driven.
+Use `FJ30` to verify whether Brown (1987) provides an exact finite-generation
+or finite-rank free-kernel criterion usable for `RB-004`.
