@@ -5,7 +5,8 @@
 First-pass residual ledger created in `FJ28`. First concrete attack surface
 selected in `FJ29`. Brown/BNS kernel-recognition route checked in `FJ30`.
 First Brown calibration example completed in `FJ31`. Nontrivial next Brown
-test case selected in `FJ32`.
+test case selected in `FJ32`. Concrete \(G_{2,3}\) route bridge completed in
+`FJ33`.
 
 ## Warning
 
@@ -108,7 +109,20 @@ Project status:
 - no target-status bridge for `T-001` has been recorded;
 - no finite-rank free-kernel bridge has been recorded.
 
+## FJ33 worked bridge update
+
+`FJ33` completes the \(G_{2,3}\) worked example.
+
+Outcome:
+
+- both \([\chi]\) and \([-\chi]\) pass Brown's maximum-count test;
+- \(G_{2,3}\cong F_2\rtimes_\varphi\mathbb Z\);
+- \(\ker(\chi)\cong F_2\);
+- \(G_{2,3}\) is internally verified as a torsion-free one-relator group;
+- the concrete example is removed by the `FJ26` finite-rank
+  free-by-cyclic route.
+
 ## Next action
 
-Use `FJ33` to run the worked Brown test for \(G_{2,3}\) and decide what
-additional bridge is required before any route subtraction.
+Use `FJ34` to test a nearby Brown family generalization while preserving the
+distinction between one concrete route bridge and a family theorem.

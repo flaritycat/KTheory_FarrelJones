@@ -9,7 +9,7 @@
 | \(RG\) | alternative notation for \(R[G]\) | inactive alternative | FJ01 | Do not use without recording a notation change. |
 | \(K_n(R[G])\) | algebraic \(K\)-group of the group ring | active/black box | FJ01 | For all \(n\in\mathbb Z\), this requires a nonconnective model. |
 | \(\mathbb Z\) | infinite cyclic group under addition | active | FJ04 | Used to define type I virtually cyclic groups. |
-| \(t\) | chosen generator of \(\mathbb Z\) in multiplicative notation | local/active | FJ06 | Used to identify \(R[\mathbb Z]\cong R[t,t^{-1}]\). |
+| \(t\) | chosen generator of \(\mathbb Z\) in multiplicative notation | local/active | FJ06 | Used to identify \(R[\mathbb Z]\cong R[t,t^{-1}]\). Also used locally in `FJ33` as the semidirect-product generator for \(G_{2,3}\). |
 | \(R[t,t^{-1}]\) | Laurent polynomial ring over \(R\) | active | FJ06 | Identified with \(R[\mathbb Z]\) after choosing generator \(t\). |
 | \(R[t^{-1}]\) | polynomial ring in the inverse variable \(t^{-1}\) | active | FJ07 | Used in the Bass--Heller--Swan split exact sequence. |
 | \(NK_n(R)\) | cokernel of \(K_n(R)\to K_n(R[t])\) | active | FJ07 | Nil-term notation used in the Bass--Heller--Swan decomposition. |
@@ -120,7 +120,10 @@
 | Brown-positive kernel-recognition bridge | verification that both \([\chi]\) and \([-\chi]\) pass Brown's relevant criterion for a surjection \(\chi\colon G\to\mathbb Z\) | active term | FJ30 | May feed into the finite-rank free-by-cyclic route only after the free finite-rank kernel is recorded. |
 | \(s_i\) | proper initial segment \(x_1x_2\cdots x_{i-1}\) of a cyclically reduced relator \(r=x_1\cdots x_n\) | local/active | FJ31 | Used to compute the Brown initial-segment sequence \(\chi(s_i)\). |
 | Brown initial-segment sequence | sequence of values \(\chi(s_i)\) used in Brown's two-generator maximum-count test | active term | FJ31 | In `FJ31`, the sequence for \(\chi\) is \(0,1,1,0\), and for \(-\chi\) is \(0,-1,-1,0\). |
-| \(G_{2,3}\) | selected two-generator one-relator Brown test case \(\langle x,y\mid x^2y^{-3}\rangle\) | local/active | FJ32 | Selected for the next worked Brown test; no finite-rank free-kernel bridge is claimed yet. |
+| \(G_{2,3}\) | selected two-generator one-relator Brown test case \(\langle x,y\mid x^2y^{-3}\rangle\) | local/active | FJ32 | `FJ33` proves \(G_{2,3}\cong F_2\rtimes\mathbb Z\). |
+| \(a,b\) | braid-presentation generators for \(G_{2,3}\), with \(G_{2,3}\cong\langle a,b\mid aba=bab\rangle\) | local/active | FJ33 | Defined by \(a=y^{-1}x\), \(b=x^{-1}y^2\). |
+| \(p,q\) | free-kernel generators in the \(G_{2,3}\cong F(p,q)\rtimes\mathbb Z\) bridge | local/active | FJ33 | Defined by \(p=ba^{-1}\), \(q=tpt^{-1}\). |
+| \(\varphi\) | automorphism of \(F(p,q)\) with \(\varphi(p)=q\), \(\varphi(q)=p^{-1}q\) | local/active | FJ33 | Gives the semidirect product \(F(p,q)\rtimes_\varphi\mathbb Z\). |
 | simple vertex / special edge | Brown's convex-hull terms in the two-generator one-relator criterion | active term | FJ30 | Used for the geometric version of the Brown criterion. |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |

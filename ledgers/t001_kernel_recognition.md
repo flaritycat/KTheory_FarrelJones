@@ -2,7 +2,8 @@
 
 ## Status
 
-Created in `FJ30`.
+Created in `FJ30`. First nontrivial finite-rank free-kernel bridge recorded
+in `FJ33`.
 
 ## Warning
 
@@ -57,13 +58,24 @@ does not subtract a new residual case from `T-001`.
 
 | Presentation | Character | Preliminary Brown result | Kernel bridge | Route status |
 |---|---|---|---|---|
-| \(G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle\) | \(\chi(x)=3,\ \chi(y)=2\) | \([\chi]\) and \([-\chi]\) preliminarily pass the nonzero-on-both-generators maximum-count test | not yet recorded; `FJ33` must decide whether the kernel is finite-rank free | selected for next worked Brown test |
+| \(G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle\) | \(\chi(x)=3,\ \chi(y)=2\) | \([\chi]\) and \([-\chi]\) preliminarily pass the nonzero-on-both-generators maximum-count test | deferred at selection stage; completed in the `FJ33` row below | selected for next worked Brown test |
 
-The `FJ32` row is a selection row, not a completed route row. It may not be
-used to invoke the `FJ26` finite-rank free-by-cyclic route until `FJ33` or a
-later module records the missing kernel bridge.
+The `FJ32` row is a selection row, not a completed route row. The completed
+route bridge is the `FJ33` row below.
+
+## FJ33 worked route bridge
+
+| Presentation | Character | Brown result | Kernel bridge | Route status |
+|---|---|---|---|---|
+| \(G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle\) | \(\chi(x)=3,\ \chi(y)=2\) | \([\chi]\) and \([-\chi]\) pass the nonzero-on-both-generators maximum-count test | \(\ker(\chi)\cong F_2\), and \(G_{2,3}\cong F_2\rtimes_\varphi\mathbb Z\) | concrete `FJ26` finite-rank free-by-cyclic route bridge |
+
+The semidirect bridge uses the internal presentation change recorded in
+`FJ33`, with
+\[
+\varphi(p)=q,\qquad \varphi(q)=p^{-1}q.
+\]
 
 ## Next action
 
-Use `FJ33` to run the worked Brown test for \(G_{2,3}\) and determine whether
-the kernel bridge required by `FJ26` can be recorded.
+Use `FJ34` to test how much of the \(G_{2,3}\) bridge generalizes to nearby
+presentations without importing unverified classification claims.

@@ -94,8 +94,10 @@ Unless explicitly imported later:
 46. Which source handles `RB-004` cases outside Brown's two-generator criterion?
 47. Which Brown test case is not already removed by the virtually solvable route? First-pass selection resolved by `FJ32`: use \(G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle\), while keeping route status unclaimed until the required bridges are verified.
 48. Which nonabelian two-generator one-relator family should be tested next? First-pass resolved by `FJ32`: the selected next case is \(G_{2,3}\) with \(\chi(x)=3\), \(\chi(y)=2\).
-49. Does \(G_{2,3}\) have a source-verified or internally proved target-status bridge for `T-001`?
-50. Can the Brown-positive kernel in \(G_{2,3}\to\mathbb Z\) be identified as a finite-rank free group?
+49. Does \(G_{2,3}\) have a source-verified or internally proved target-status bridge for `T-001`? First-pass resolved by `FJ33`: yes, internally, via the \(F_2\rtimes\mathbb Z\) presentation and torsion-freeness check.
+50. Can the Brown-positive kernel in \(G_{2,3}\to\mathbb Z\) be identified as a finite-rank free group? First-pass resolved by `FJ33`: yes, \(\ker(\chi)\cong F_2\).
+51. Which nearby presentation family should be tested next, for example \(\langle x,y\mid x^p y^{-q}\rangle\) with \(\gcd(p,q)=1\)?
+52. Which parts of the \(G_{2,3}\) proof generalize without importing unverified torus-knot or one-relator classification claims?
 
 ## Established results
 
@@ -153,6 +155,7 @@ The active project target is `T-001`, torsion-free one-relator residual gap anal
 - Module `FJ30` verifies Brown (1987) as a first-pass Brown/BNS kernel-recognition source for selected `RB-004` cases and creates `ledgers/t001_kernel_recognition.md`; it records that Brown supplies a computable two-generator one-relator criterion, not a global positive theorem for all one-relator epimorphisms.
 - Module `FJ31` applies Brown's two-generator criterion to the calibration example \(\langle x,y\mid xyx^{-1}y^{-1}\rangle\), verifies the maximum-count test for both \([\chi]\) and \([-\chi]\), identifies the kernel as \(F_1\), and records that the example is already covered by the virtually solvable route.
 - Module `FJ32` selects the nonabelian presentation \(G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle\) as the next Brown test case, records the character \(\chi(x)=3,\chi(y)=2\), verifies a quotient onto \(S_3\), and stores only a preliminary Brown-positive computation pending the full `FJ33` route check.
+- Module `FJ33` completes the worked Brown test for \(G_{2,3}\), proves internally that \(G_{2,3}\cong F_2\rtimes\mathbb Z\), verifies torsion-free target status, and records the concrete finite-rank free-by-cyclic route bridge through `FJ26`.
 
 ## Selected target
 
@@ -182,6 +185,8 @@ Current source toolkit:
   \(\langle x,y\mid xyx^{-1}y^{-1}\rangle\) and recording route overlap with
   the virtually solvable subtraction;
 - selected nontrivial Brown test case: \(G_{2,3}\), selected by `FJ32`;
+- first nontrivial Brown route bridge: \(G_{2,3}\cong F_2\rtimes\mathbb Z\),
+  completed by `FJ33`;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -189,4 +194,5 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ33`, worked Brown test for the selected \(G_{2,3}\) presentation.
+Begin `FJ34`, nearby Brown family generalization for
+\(\langle x,y\mid x^p y^{-q}\rangle\)-style presentations.

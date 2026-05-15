@@ -17,11 +17,11 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_002`.
 - Completed cycle: `cycle_001`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, and `FJ32`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, and `FJ33`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
 - Completed cycle reflection: `reflections/cycle_001_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ33`, worked Brown test for the selected \(G_{2,3}\) presentation.
+- Current procedural target: begin `FJ34`, nearby Brown family generalization for \(G_{2,3}\)-style presentations.
 
 ## Current established results
 
@@ -72,6 +72,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ30` verifies Brown (1987) as a first-pass kernel-recognition source for selected `RB-004` cases. Brown gives a computable criterion for two-generator one-relator groups, but not a global positive theorem for every one-relator epimorphism to \(\mathbb Z\).
 - `FJ31` runs Brown's criterion on the calibration example \(\langle x,y\mid xyx^{-1}y^{-1}\rangle\) with \(\chi(x)=1\), \(\chi(y)=0\). The example verifies the Brown workflow and gives a finite-rank free-by-cyclic bridge, but it is already covered by the virtually solvable route and is not a new residual removal.
 - `FJ32` selects \(G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle\), \(\chi(x)=3\), \(\chi(y)=2\), as the next nonabelian Brown test case. It records a preliminary Brown-positive maximum-count computation, but does not yet claim a finite-rank free-kernel bridge or a new Farrell--Jones route subtraction.
+- `FJ33` completes the worked Brown test for \(G_{2,3}\), rewrites it as \(F_2\rtimes\mathbb Z\), verifies target status as a torsion-free one-relator group, and records a concrete finite-rank free-by-cyclic route bridge through `FJ26`.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 

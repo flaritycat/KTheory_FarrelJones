@@ -405,12 +405,30 @@ computation indicating that both \([\chi]\) and \([-\chi]\) pass the
 Brown test. It does not yet record a finite-rank free-kernel bridge or a
 new residual subtraction.
 
-The next module is `FJ33`, worked Brown test for the selected
-\(G_{2,3}\) presentation. Its task is to turn the preliminary `FJ32`
-selection into a full route-checking module: verify the Brown test,
-decide what can be concluded about \(\ker(\chi)\), and determine what
-additional proof or citation is needed before the `FJ26` finite-rank
-free-by-cyclic route can be used.
+The next step after `FJ32` was `FJ33`, worked Brown test for the
+selected \(G_{2,3}\) presentation. Its task was to turn the preliminary
+`FJ32` selection into a full route-checking module: verify the Brown
+test, decide what can be concluded about \(\ker(\chi)\), and determine
+what additional proof or citation is needed before the `FJ26`
+finite-rank free-by-cyclic route can be used.
+
+Current status: `FJ33` has first-pass coverage as a worked Brown test
+and route-bridge module. It verifies Brown's maximum-count test for
+\(G_{2,3}\), changes presentation to \(\langle a,b\mid aba=bab\rangle\),
+then rewrites the group as
+\[
+F(p,q)\rtimes_\varphi\mathbb Z,\qquad
+\varphi(p)=q,\quad \varphi(q)=p^{-1}q.
+\]
+Thus \(\ker(\chi)\cong F_2\), and the concrete group is removed from the
+active `T-001` residual by the finite-rank free-by-cyclic route from
+`FJ26`. This is a single example bridge, not a theorem for all
+two-generator one-relator groups.
+
+The next module is `FJ34`, nearby Brown family generalization. Its task
+is to test how much of the \(G_{2,3}\) bridge extends to presentations
+of the form \(\langle x,y\mid x^p y^{-q}\rangle\), while avoiding any
+unverified torus-knot or one-relator classification claims.
 
 ## GitHub persistence policy
 

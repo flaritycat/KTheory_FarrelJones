@@ -827,9 +827,9 @@ completed the next CAT(0), virtually solvable,
 hyperbolic-by-cyclic/free-by-cyclic, and inheritance route subtractions;
 `FJ28` has assembled the first-pass residual ledger, and `FJ29` has selected
 `RB-004` as the next attack surface. `FJ30` has verified Brown's limited
-kernel-recognition route, and `FJ31` has completed a calibration Brown test
-case. `FJ32` has selected \(G_{2,3}\). Continue with `FJ33`, a worked Brown
-test for the selected presentation.
+kernel-recognition route, `FJ31` has completed a calibration Brown test
+case, `FJ32` has selected \(G_{2,3}\), and `FJ33` has completed the worked
+Brown test. Continue with `FJ34`, a nearby Brown family generalization.
 
 ## OQ-030. Which part of T-001 is removed by the CAT(0) route?
 
@@ -867,9 +867,10 @@ First-pass resolved by `FJ24`. `FJ25`, `FJ26`, and `FJ27` have completed the
 virtually solvable, hyperbolic-by-cyclic/free-by-cyclic, and inheritance route
 subtractions; `FJ28` has assembled the first-pass residual ledger, and `FJ29`
 has selected `RB-004` as the next attack surface. `FJ30` has verified
-Brown's limited kernel-recognition route, and `FJ31` has completed a
-calibration Brown test case. `FJ32` has selected \(G_{2,3}\). Continue with
-`FJ33`, a worked Brown test for the selected presentation.
+Brown's limited kernel-recognition route, `FJ31` has completed a calibration
+Brown test case, `FJ32` has selected \(G_{2,3}\), and `FJ33` has completed
+the worked Brown test. Continue with `FJ34`, a nearby Brown family
+generalization.
 
 ## OQ-031. Which part of T-001 is removed by the virtually solvable route?
 
@@ -909,9 +910,9 @@ First-pass resolved by `FJ25`. `FJ26` and `FJ27` have completed the
 hyperbolic-by-cyclic/free-by-cyclic and inheritance route subtractions.
 `FJ28` has assembled the first-pass residual ledger, and `FJ29` has selected
 `RB-004` as the next attack surface. `FJ30` has verified Brown's limited
-kernel-recognition route, and `FJ31` has completed a calibration Brown test
-case. `FJ32` has selected \(G_{2,3}\). Continue with `FJ33`, a worked Brown
-test for the selected presentation.
+kernel-recognition route, `FJ31` has completed a calibration Brown test
+case, `FJ32` has selected \(G_{2,3}\), and `FJ33` has completed the worked
+Brown test. Continue with `FJ34`, a nearby Brown family generalization.
 
 ## OQ-032. Which finite-index source should support virtually compact special route use?
 
@@ -1043,9 +1044,9 @@ First-pass resolved by `FJ26`. `FJ27` has completed the source-verified
 inheritance-route subtraction. `FJ28` has assembled the first-pass residual
 ledger, `FJ29` has selected `RB-004` as the next attack surface, and `FJ30`
 has verified Brown's limited two-generator kernel-recognition route. `FJ31`
-has completed a calibration Brown test case, and `FJ32` has selected
-\(G_{2,3}\). Continue with `FJ33`, a worked Brown test for the selected
-presentation.
+has completed a calibration Brown test case, `FJ32` has selected
+\(G_{2,3}\), and `FJ33` has completed the worked Brown test. Continue with
+`FJ34`, a nearby Brown family generalization.
 
 ## OQ-036. Which source should recognize finite-rank free kernels over Z?
 
@@ -1083,8 +1084,8 @@ two-generator criterion.
 ### Next action
 
 First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
-case, and `FJ32` has selected \(G_{2,3}\). Continue with `FJ33`, a worked
-Brown test for the selected presentation.
+case, `FJ32` has selected \(G_{2,3}\), and `FJ33` has completed the worked
+Brown test. Continue with `FJ34`, a nearby Brown family generalization.
 
 ## OQ-037. Which inheritance routes remove additional T-001 cases?
 
@@ -1121,9 +1122,9 @@ Lueck's survey-level full \(\mathcal{FJ}\) inheritance table.
 First-pass resolved by `FJ27`. `FJ28` has assembled the residual ledger after
 named and inheritance route subtractions, `FJ29` has selected `RB-004` as the
 next attack surface, and `FJ30` has verified Brown's limited
-kernel-recognition route. `FJ31` has completed a calibration Brown test case.
-`FJ32` has selected \(G_{2,3}\). Continue with `FJ33`, a worked Brown test
-for the selected presentation.
+kernel-recognition route. `FJ31` has completed a calibration Brown test case,
+`FJ32` has selected \(G_{2,3}\), and `FJ33` has completed the worked Brown
+test. Continue with `FJ34`, a nearby Brown family generalization.
 
 ## OQ-038. What remains in T-001 after the route-subtraction pass?
 
@@ -1165,9 +1166,9 @@ from `FJ20`, and `ledgers/t001_residual.md`.
 
 First-pass resolved by `FJ28`. `FJ29` has selected `RB-004` as the concrete
 residual attack surface, and `FJ30` has verified Brown's limited
-kernel-recognition route. `FJ31` has completed a calibration Brown test case.
-`FJ32` has selected \(G_{2,3}\). Continue with `FJ33`, a worked Brown test
-for the selected presentation.
+kernel-recognition route. `FJ31` has completed a calibration Brown test case,
+`FJ32` has selected \(G_{2,3}\), and `FJ33` has completed the worked Brown
+test. Continue with `FJ34`, a nearby Brown family generalization.
 
 ## OQ-039. Which concrete surviving one-relator subclasses should be attacked next?
 
@@ -1197,9 +1198,9 @@ finite-rank free-by-cyclic route.
 ### Next action
 
 First-pass resolved by `FJ29`. `FJ30` has verified Brown's limited
-kernel-recognition route. `FJ31` has completed a calibration Brown test case.
-`FJ32` has selected \(G_{2,3}\). Continue with `FJ33`, a worked Brown test
-for the selected presentation.
+kernel-recognition route. `FJ31` has completed a calibration Brown test case,
+`FJ32` has selected \(G_{2,3}\), and `FJ33` has completed the worked Brown
+test. Continue with `FJ34`, a nearby Brown family generalization.
 
 ## OQ-040. Which source should be checked first for the selected residual bucket?
 
@@ -1233,8 +1234,9 @@ virtually solvable recognition, and hierarchy-to-route extraction.
 
 First-pass resolved by `FJ29`. `FJ30` has checked Brown (1987) for exact
 statements, hypotheses, and conclusions. `FJ31` has completed a calibration
-Brown test case, and `FJ32` has selected \(G_{2,3}\). Continue with `FJ33`,
-a worked Brown test for the selected presentation.
+Brown test case, `FJ32` has selected \(G_{2,3}\), and `FJ33` has completed
+the worked Brown test. Continue with `FJ34`, a nearby Brown family
+generalization.
 
 ## OQ-041. What exact Brown/BNS theorem recognizes finite-rank kernels?
 
@@ -1267,8 +1269,8 @@ project-facing route criterion in `ledgers/t001_kernel_recognition.md`.
 ### Next action
 
 First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
-case, and `FJ32` has selected \(G_{2,3}\). Continue with `FJ33`, a worked
-Brown test for the selected presentation.
+case, `FJ32` has selected \(G_{2,3}\), and `FJ33` has completed the worked
+Brown test. Continue with `FJ34`, a nearby Brown family generalization.
 
 ## OQ-042. Which first Brown criterion test case should be used?
 
@@ -1307,8 +1309,9 @@ finite-rank free-by-cyclic route.
 
 ### Next action
 
-First-pass resolved by `FJ31`. `FJ32` has selected \(G_{2,3}\). Continue
-with `FJ33`, a worked Brown test for the selected presentation.
+First-pass resolved by `FJ31`. `FJ32` has selected \(G_{2,3}\), and `FJ33`
+has completed the worked Brown test. Continue with `FJ34`, a nearby Brown
+family generalization.
 
 ## OQ-043. Should the original BNS normal-subgroup theorem be checked directly?
 
@@ -1389,6 +1392,11 @@ a first-pass selection: the repository has not yet recorded a
 virtual-solvability bridge, a target-status bridge for `T-001`, or a
 finite-rank free-kernel bridge.
 
+`FJ33` records the finite-rank free-by-cyclic bridge
+\[
+G_{2,3}\cong F_2\rtimes\mathbb Z.
+\]
+
 ### Relevant modules
 
 - FJ25
@@ -1404,8 +1412,7 @@ finite-rank free-kernel bridge.
 
 ### Next action
 
-First-pass selection resolved by `FJ32`. Use `FJ33` to run the full worked
-Brown test and determine which additional bridge is needed.
+First-pass selection resolved by `FJ32`; route bridge completed by `FJ33`.
 
 ## OQ-046. Which nonabelian two-generator one-relator family should be tested next?
 
@@ -1439,13 +1446,13 @@ bridge.
 
 ### Next action
 
-First-pass selection resolved by `FJ32`. Use `FJ33` for the worked Brown test.
+First-pass selection resolved by `FJ32`; worked test completed by `FJ33`.
 
 ## OQ-047. Does G_{2,3} have a target-status bridge for T-001?
 
 ### Status
 
-Open inside project.
+Resolved for first-pass route bridge.
 
 ### Context
 
@@ -1455,6 +1462,13 @@ but it does not yet record a source-verified or internally proved
 target-status bridge placing this presentation inside the active
 torsion-free one-relator target rather than merely inside the Brown-workflow
 examples.
+
+`FJ33` resolves this by rewriting
+\[
+G_{2,3}\cong F_2\rtimes\mathbb Z.
+\]
+The original presentation is one-relator, and the semidirect-product form
+gives an internal torsion-freeness check.
 
 ### Relevant modules
 
@@ -1472,14 +1486,13 @@ torsion-free target status.
 
 ### Next action
 
-Use `FJ33` to decide whether target status is needed for the worked test or
-whether the module should remain explicitly a Brown-workflow example.
+First-pass resolved by `FJ33`.
 
 ## OQ-048. Can the Brown-positive kernel for G_{2,3} be identified as finite-rank free?
 
 ### Status
 
-Open inside project.
+Resolved for first-pass route bridge.
 
 ### Context
 
@@ -1488,6 +1501,13 @@ Brown's Corollary 3.2 gives finite generation of the kernel after both
 finite-rank free-kernel bridge. `FJ32` records only the preliminary
 Brown-positive computation for \(G_{2,3}\), not the full kernel
 identification.
+
+`FJ33` identifies the kernel internally:
+\[
+\ker(\chi)\cong F_2.
+\]
+It uses a change to the braid presentation and then an explicit
+semidirect-product presentation.
 
 ### Relevant modules
 
@@ -1503,5 +1523,69 @@ kernel computation or source for the kernel structure.
 
 ### Next action
 
-Use `FJ33` to determine whether the kernel can be identified as finite-rank
-free and whether the `FJ26` route can be invoked.
+First-pass resolved by `FJ33`. The `FJ26` route can be invoked for this
+concrete example.
+
+## OQ-049. Which nearby Brown family should be tested next?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ33` proves the finite-rank free-by-cyclic bridge for
+\(G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle\). A natural next question is
+whether nearby presentations
+\[
+\langle x,y\mid x^p y^{-q}\rangle
+\]
+with \(\gcd(p,q)=1\) admit a similar Brown computation and semidirect-product
+bridge. This should be tested directly rather than imported as torus-knot
+folklore.
+
+### Relevant modules
+
+- FJ30
+- FJ32
+- FJ33
+- FJ34
+
+### Dependencies
+
+Brown (1987), the explicit \(G_{2,3}\) computation in `FJ33`, and any later
+source or internal proof used for the family-level kernel bridge.
+
+### Next action
+
+Use `FJ34` to test the nearby family without relying on unverified
+classification claims.
+
+## OQ-050. Which parts of the G_{2,3} proof generalize without new sources?
+
+### Status
+
+Open inside project.
+
+### Context
+
+The `FJ33` proof has several distinct ingredients: the Brown
+initial-segment computation, the braid-presentation change, the explicit
+semidirect-product rewrite, and the torsion-free target-status check. A later
+module should separate which pieces are formal in \(p,q\), which are special
+to \(2,3\), and which require a source before theorem-level use.
+
+### Relevant modules
+
+- FJ30
+- FJ33
+- FJ34
+
+### Dependencies
+
+The internal proof in `FJ33`, Brown (1987), and any family-level presentation
+or kernel-recognition source selected later.
+
+### Next action
+
+Use `FJ34` to create a conservative family-generalization boundary.

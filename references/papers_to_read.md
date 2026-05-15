@@ -53,7 +53,7 @@
 ## Priority 2f: one-relator groups
 
 1. Lueck, W. *Survey on the Farrell-Jones Conjecture*. Status: active reference for `FJ19`; Section 11 checked for the open-status warning about torsion-free one-relator groups and locally indicable groups in the Full Farrell--Jones formulation.
-2. Bestvina, M.; Fujiwara, K.; Wigglesworth, D. *The Farrell-Jones conjecture for hyperbolic-by-cyclic groups*. Status: active reference for `FJ19` and `FJ26`; main theorem, coefficient convention, and extension theorem checked at first-pass level.
+2. Bestvina, M.; Fujiwara, K.; Wigglesworth, D. *The Farrell-Jones conjecture for hyperbolic-by-cyclic groups*. Status: active reference for `FJ19`, `FJ26`, and `FJ33`; main theorem, coefficient convention, and extension theorem checked at first-pass level. `FJ33` uses the existing `FJ26` route for \(G_{2,3}\).
 3. Howie, J. *A short proof of a theorem of Brodskii*. Status: active reference for `FJ19`; used for local indicability of torsion-free one-relator groups.
 4. Newman, B. B. *Some results on one-relator groups*. Status: background only for `FJ19`; recorded for torsion one-relator contrast.
 5. Linton, M. *One-relator hierarchies*. Status: active reference for `FJ22`; arXiv v3 checked for the hierarchy theorem, one-relator-complex vocabulary, \(\mathbb Z\)-stable hierarchy vocabulary, quasi-convex and acylindrical hierarchy vocabulary, and the main equivalence theorem. Published-version numbering still needs verification.
@@ -61,14 +61,14 @@
 7. Linton, M.; Nyberg-Brodda, C.-F. *The theory of one-relator groups: history and recent progress*. Status: active orientation source for `FJ21`; use as a literature map, not a proof source.
 8. Lyndon, R. C.; Schupp, P. E. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
 9. Magnus, W.; Karrass, A.; Solitar, D. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
-10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: active reference for `FJ30`--`FJ32`; Proposition 3.1, Corollary 3.2, Theorems 4.2--4.4, and Theorem 5.2 checked for the Brown/BNS kernel-recognition route. `FJ31` uses the checked criterion on the commutator-presentation calibration example. `FJ32` uses the checked criterion to select \(G_{2,3}\) as the next worked test case.
+10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: active reference for `FJ30`--`FJ33`; Proposition 3.1, Corollary 3.2, Theorems 4.2--4.4, and Theorem 5.2 checked for the Brown/BNS kernel-recognition route. `FJ31` uses the checked criterion on the commutator-presentation calibration example. `FJ32` uses the checked criterion to select \(G_{2,3}\) as the next worked test case. `FJ33` uses the checked criterion for the full \(G_{2,3}\) Brown test.
 11. Bieri, R.; Neumann, W. D.; Strebel, R. *A geometric invariant of discrete groups*. Status: found; EuDML bibliographic record checked in `FJ30`; direct theorem use deferred.
 12. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: found; verify before using negative-immersion or primitivity-rank routes.
 
-Next one-relator reading task: for `FJ33`, run the worked Brown test for
-\(G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle\). Determine whether the
-Brown-positive kernel can be identified as finite-rank free and whether a
-target-status bridge for `T-001` is needed before using the `FJ26` route.
+Next one-relator reading task: for `FJ34`, test whether the
+\(G_{2,3}\) computation generalizes to nearby presentations such as
+\(\langle x,y\mid x^p y^{-q}\rangle\), while keeping any torus-knot or
+family-level classification claims out of theorem use until sourced.
 
 ## Reading protocol
 
