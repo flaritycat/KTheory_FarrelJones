@@ -18,9 +18,9 @@
 2. Bartels, A.; Lueck, W. *The Borel Conjecture for hyperbolic and CAT(0)-groups*. Status: active reference for `FJ11`; class \(\mathcal B\) and Theorem B checked.
 3. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ11`, `FJ14`, `FJ15`, and `FJ17`; main theorem, proof route, obstruction-category vocabulary, and transfer-primer sections checked.
 4. Wegner, C. *The Farrell-Jones conjecture for virtually solvable groups*. Status: active reference for `FJ11` and `FJ25`; main theorem checked and used for the virtually solvable route subtraction.
-5. Bartels, A.; Reich, H. *Coefficients for the Farrell-Jones Conjecture*. Status: active reference for `FJ12`; Section 4 checked for pullback and subgroup inheritance.
-6. Bartels, A.; Echterhoff, S.; Lueck, W. *Inheritance of Isomorphism Conjectures under Colimits*. Status: active reference for `FJ12`; theorem on directed colimits checked.
-7. Lueck, W. *Survey on the Farrell-Jones Conjecture*. Status: active reference for `FJ12`; full \(\mathcal{FJ}\) inheritance list checked at survey level.
+5. Bartels, A.; Reich, H. *Coefficients for the Farrell-Jones Conjecture*. Status: active reference for `FJ12` and `FJ27`; Section 4 checked for pullback and subgroup inheritance.
+6. Bartels, A.; Echterhoff, S.; Lueck, W. *Inheritance of Isomorphism Conjectures under Colimits*. Status: active reference for `FJ12` and `FJ27`; theorem on directed colimits checked.
+7. Lueck, W. *Survey on the Farrell-Jones Conjecture*. Status: active reference for `FJ12` and `FJ27`; full \(\mathcal{FJ}\) inheritance list checked at survey level.
 8. Bartels, A.; Lueck, W. *Induction Theorems and Isomorphism Conjectures for K- and L-Theory*. Status: found; possible future source for induction and transitivity refinements.
 
 ## Priority 2b: hyperbolic proof technology
@@ -64,12 +64,10 @@
 10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: found; verify before using BNS/free-by-cyclic splitting arguments; named in `FJ26` only as a future kernel-recognition source.
 11. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: found; verify before using negative-immersion or primitivity-rank routes.
 
-Next one-relator reading task: for `FJ27`, isolate the source-verified
-inheritance-route subtraction using `FJ12`, `ER-010`, `FJ19`, and the
-completed route subtractions `FJ23`--`FJ26`. Keep coefficient K-theory
-inheritance rows separate from Lueck's full \(\mathcal{FJ}\) survey rows, and
-trace primary sources before proof-sensitive use of survey-level inheritance
-claims.
+Next one-relator reading task: for `FJ28`, assemble the conservative residual
+ledger after named and inheritance route subtractions using `FJ19`--`FJ27`,
+`OPEN_QUESTIONS.md`, and `ledgers/source_status.md`. Do not treat unremoved
+cases as counterexamples or negative Farrell--Jones results.
 
 ## Reading protocol
 

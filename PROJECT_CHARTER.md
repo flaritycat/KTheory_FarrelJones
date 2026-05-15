@@ -313,12 +313,26 @@ or to a finite-rank free-by-cyclic group. It also records that bare HNN
 splittings, epimorphisms to \(\mathbb Z\), and hierarchy data are not
 mapping-torus certificates by themselves.
 
-The next module is `FJ27`, source-verified inheritance-route
-subtraction for `T-001`. Its task is to decide which remaining
-one-relator cases can be removed by the inheritance rows already
-recorded in `FJ12`, while keeping version flags separate between
-coefficient K-theory rows and Lueck's full \(\mathcal{FJ}\) survey
-class.
+The next step after `FJ26` was `FJ27`, source-verified
+inheritance-route subtraction for `T-001`. Its task was to decide which
+remaining one-relator cases can be removed by the inheritance rows
+already recorded in `FJ12`, while keeping version flags separate
+between coefficient K-theory rows and Lueck's full \(\mathcal{FJ}\)
+survey class.
+
+Current status: `FJ27`, source-verified inheritance-route subtraction
+for `T-001`, has first-pass coverage. It records that inheritance rows
+subtract a torsion-free one-relator group only when the project has an
+inheritance bridge matching the exact source hypotheses and preserving
+the version flag. It keeps coefficient K-theory inheritance rows,
+K-theory directed-colimit rows, and full \(\mathcal{FJ}\) survey rows
+separate.
+
+The next module is `FJ28`, residual ledger after named and inheritance
+route subtractions for `T-001`. Its task is to assemble the conservative
+remaining attack surface after `FJ23`--`FJ27`, without reclassifying
+groups as unsolved merely because the project has not yet recorded a
+bridge.
 
 ## GitHub persistence policy
 

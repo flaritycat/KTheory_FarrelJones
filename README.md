@@ -17,11 +17,11 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_002`.
 - Completed cycle: `cycle_001`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, and `FJ26`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, and `FJ27`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
 - Completed cycle reflection: `reflections/cycle_001_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ27`, source-verified inheritance-route subtraction for `T-001`.
+- Current procedural target: begin `FJ28`, residual ledger after named and inheritance route subtractions for `T-001`.
 
 ## Current established results
 
@@ -66,6 +66,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ24` subtracts the finite-dimensional CAT(0) route from `T-001`. Compact finite-dimensional special cube complex groups are recorded as CAT(0)-route bridge cases, but merely virtual-special statements still require finite-index handling before proof-sensitive use.
 - `FJ25` subtracts the virtually solvable route from `T-001`: torsion-free one-relator groups are removed from the active residual target only once the project records a virtual-solvability bridge. Local indicability, nontrivial abelianization, and one-relator HNN hierarchy data are not treated as virtual-solvability proofs.
 - `FJ26` subtracts the hyperbolic-by-cyclic/free-by-cyclic route from `T-001`: torsion-free one-relator groups are removed from the active residual target only once the project records a mapping-torus bridge matching the Bestvina--Fujiwara--Wigglesworth hypotheses, or a finite-rank free-by-cyclic bridge. Epimorphisms to \(\mathbb Z\), HNN splittings, and hierarchy data are not treated as mapping-torus proofs by themselves.
+- `FJ27` subtracts source-verified inheritance routes from `T-001` only when the exact inheritance bridge is recorded and the version flag is preserved. Coefficient K-theory rows and Lueck's full \(\mathcal{FJ}\) survey rows are not merged into one unlabeled closure principle.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 

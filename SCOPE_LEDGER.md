@@ -84,7 +84,9 @@ Unless explicitly imported later:
 36. Which source should classify or recognize the virtually solvable one-relator cases if the project needs enumeration beyond conditional route bookkeeping?
 37. Which part of the `T-001` residual is removed by the hyperbolic-by-cyclic/free-by-cyclic route? First-pass resolved by `FJ26`.
 38. Which one-relator source should the project verify for recognizing finite-rank free kernels over \(\mathbb Z\)?
-39. Which source-verified inheritance routes remove additional cases from the remaining `T-001` residual?
+39. Which source-verified inheritance routes remove additional cases from the remaining `T-001` residual? First-pass resolved by `FJ27`.
+40. What is the conservative `T-001` residual ledger after subtracting the named routes and version-aware inheritance routes?
+41. Which concrete surviving one-relator subclasses should become the next attack surface?
 
 ## Established results
 
@@ -136,6 +138,7 @@ The active project target is `T-001`, torsion-free one-relator residual gap anal
 - Module `FJ24` records the first-pass finite-dimensional CAT(0)-route subtraction for `T-001`, including compact finite-dimensional special cube complex groups as bridge cases and leaving merely virtual-special statements conditional on finite-index handling.
 - Module `FJ25` records the first-pass virtually solvable-route subtraction for `T-001`, subtracting only groups with a source-verified or internally proved virtual-solvability bridge and rejecting local indicability, abelianization data, and HNN hierarchy structure as insufficient by themselves.
 - Module `FJ26` records the first-pass hyperbolic-by-cyclic/free-by-cyclic route subtraction for `T-001`, subtracting only groups with a source-verified mapping-torus bridge or finite-rank free-by-cyclic bridge and rejecting bare epimorphisms to \(\mathbb Z\), HNN splittings, and hierarchy data as insufficient by themselves.
+- Module `FJ27` records the first-pass source-verified inheritance-route subtraction for `T-001`, subtracting only groups with exact inheritance bridges and preserving the distinction between coefficient K-theory rows, K-theory directed-colimit rows, and full \(\mathcal{FJ}\) survey rows.
 
 ## Selected target
 
@@ -153,7 +156,8 @@ Current source toolkit:
   hierarchy theorem from `One-relator hierarchies`;
 - route subtractions completed: hyperbolic route in `FJ23`,
   finite-dimensional CAT(0) route in `FJ24`, and virtually solvable route in
-  `FJ25`, and hyperbolic-by-cyclic/free-by-cyclic route in `FJ26`;
+  `FJ25`, hyperbolic-by-cyclic/free-by-cyclic route in `FJ26`, and
+  version-aware inheritance route in `FJ27`;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -161,4 +165,5 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ27`, source-verified inheritance-route subtraction for `T-001`.
+Begin `FJ28`, residual ledger after named and inheritance route subtractions
+for `T-001`.
