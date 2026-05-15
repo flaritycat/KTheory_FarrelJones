@@ -19,9 +19,13 @@ H_n^1(\mathrm{pt};\mathbf K_R)
 
 is the identity map on \(K_n(R)\) for every \(n\in\mathbb Z\), assuming the black-box normalization of the equivariant homology theory used in `FJ01`.
 
-### Proof location
+### Proof locations
 
 `modules/cycle_001/FJ01_minimal_statement.md`
+
+Standalone expansion:
+
+`modules/cycle_001/FJ05_trivial_group_example.md`
 
 ### Assumptions
 

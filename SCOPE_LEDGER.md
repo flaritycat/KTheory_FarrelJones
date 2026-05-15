@@ -35,6 +35,7 @@ Unless explicitly imported later:
 - Careful notation.
 - Explicit assumptions.
 - Source checking for known theorems and open status.
+- APA-style external citations, while preserving project source-status labels.
 - No hidden dependence on previous conversations.
 - Algebraic \(K\)-theory is the chosen branch.
 - Farrell--Jones is the chosen primary path.
@@ -69,7 +70,8 @@ The active mathematical scope is the simplified K-theoretic Farrell--Jones conje
 - Module `FJ01` states the simplified conjecture and proves the trivial-group example.
 - Module `FJ03` defines classifying spaces for families, records the source-verified homotopy characterization, and connects \(E_{\mathcal{VCyc}}G\to\mathrm{pt}\) back to the simplified assembly map.
 - Module `FJ04` records the finite/infinite and type I/type II structure of virtually cyclic groups, and proves that \(\mathcal{VCyc}(G)\) is a family.
+- Module `FJ05` gives a standalone worked proof of the trivial-group example, expanding ER-001 without creating a duplicate result number.
 
 ## Next mathematical move
 
-Proceed to module `FJ05`: the trivial group example as a standalone artifact, while avoiding unmarked duplication of `FJ01`.
+Proceed to module `FJ06`: the infinite cyclic group example and the appearance of \(R[t,t^{-1}]\).

@@ -61,6 +61,12 @@ Every serious mathematical claim should eventually be traceable to one of:
 
 A heuristic is not a proof. A conjecture is not a theorem. A literature theorem must be stated with hypotheses and source status.
 
+## Citation standard
+
+External sources should be recorded in APA style where practical, while preserving the project's additional source-status fields such as `found`, `to verify`, `partially read`, `verified`, `active reference`, `background only`, and `do not use`.
+
+Internal repository dependencies may be cited by module or ledger path.
+
 ## Module-cycle protocol
 
 The project proceeds in cycles:
