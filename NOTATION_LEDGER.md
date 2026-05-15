@@ -120,6 +120,7 @@
 | Brown-positive kernel-recognition bridge | verification that both \([\chi]\) and \([-\chi]\) pass Brown's relevant criterion for a surjection \(\chi\colon G\to\mathbb Z\) | active term | FJ30 | May feed into the finite-rank free-by-cyclic route only after the free finite-rank kernel is recorded. |
 | \(s_i\) | proper initial segment \(x_1x_2\cdots x_{i-1}\) of a cyclically reduced relator \(r=x_1\cdots x_n\) | local/active | FJ31 | Used to compute the Brown initial-segment sequence \(\chi(s_i)\). |
 | Brown initial-segment sequence | sequence of values \(\chi(s_i)\) used in Brown's two-generator maximum-count test | active term | FJ31 | In `FJ31`, the sequence for \(\chi\) is \(0,1,1,0\), and for \(-\chi\) is \(0,-1,-1,0\). |
+| \(G_{2,3}\) | selected two-generator one-relator Brown test case \(\langle x,y\mid x^2y^{-3}\rangle\) | local/active | FJ32 | Selected for the next worked Brown test; no finite-rank free-kernel bridge is claimed yet. |
 | simple vertex / special edge | Brown's convex-hull terms in the two-generator one-relator criterion | active term | FJ30 | Used for the geometric version of the Brown criterion. |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |

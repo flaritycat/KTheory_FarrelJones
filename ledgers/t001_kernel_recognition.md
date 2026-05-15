@@ -53,7 +53,17 @@ Use of this row is limited to workflow calibration. It verifies that the
 Brown test has been translated correctly into project bookkeeping, but it
 does not subtract a new residual case from `T-001`.
 
+## FJ32 selected next test case
+
+| Presentation | Character | Preliminary Brown result | Kernel bridge | Route status |
+|---|---|---|---|---|
+| \(G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle\) | \(\chi(x)=3,\ \chi(y)=2\) | \([\chi]\) and \([-\chi]\) preliminarily pass the nonzero-on-both-generators maximum-count test | not yet recorded; `FJ33` must decide whether the kernel is finite-rank free | selected for next worked Brown test |
+
+The `FJ32` row is a selection row, not a completed route row. It may not be
+used to invoke the `FJ26` finite-rank free-by-cyclic route until `FJ33` or a
+later module records the missing kernel bridge.
+
 ## Next action
 
-Use `FJ32` to choose a nontrivial Brown test case or small family, preferably
-one not already removed by the virtually solvable route.
+Use `FJ33` to run the worked Brown test for \(G_{2,3}\) and determine whether
+the kernel bridge required by `FJ26` can be recorded.

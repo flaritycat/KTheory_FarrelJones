@@ -387,11 +387,30 @@ finite-rank free-by-cyclic bridge. It also records that the example is
 already covered by the virtually solvable route, so it is not a new
 residual removal.
 
-The next module is `FJ32`, nontrivial Brown test-family selection for
-`T-001`. Its task is to choose a Brown-compatible two-generator
-one-relator example or small family that is less redundant than the
-abelian calibration case, preferably one not already removed by the
-virtually solvable route.
+The next step after `FJ31` was `FJ32`, nontrivial Brown test-family
+selection for `T-001`. Its task was to choose a Brown-compatible
+two-generator one-relator example or small family that is less
+redundant than the abelian calibration case, preferably one not already
+removed by the virtually solvable route.
+
+Current status: `FJ32` has first-pass coverage as a nontrivial Brown
+test-family selection module. It selects
+\[
+G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle
+\]
+with \(\chi(x)=3\) and \(\chi(y)=2\) as the next worked Brown case. The
+module verifies internally that the selected presentation is nonabelian
+by mapping onto \(S_3\), and it records a preliminary maximum-count
+computation indicating that both \([\chi]\) and \([-\chi]\) pass the
+Brown test. It does not yet record a finite-rank free-kernel bridge or a
+new residual subtraction.
+
+The next module is `FJ33`, worked Brown test for the selected
+\(G_{2,3}\) presentation. Its task is to turn the preliminary `FJ32`
+selection into a full route-checking module: verify the Brown test,
+decide what can be concluded about \(\ker(\chi)\), and determine what
+additional proof or citation is needed before the `FJ26` finite-rank
+free-by-cyclic route can be used.
 
 ## GitHub persistence policy
 

@@ -4,7 +4,8 @@
 
 First-pass residual ledger created in `FJ28`. First concrete attack surface
 selected in `FJ29`. Brown/BNS kernel-recognition route checked in `FJ30`.
-First Brown calibration example completed in `FJ31`.
+First Brown calibration example completed in `FJ31`. Nontrivial next Brown
+test case selected in `FJ32`.
 
 ## Warning
 
@@ -90,7 +91,24 @@ Outcome:
 - the example is already removed by the virtually solvable route and should
   not be counted as a new residual subtraction.
 
+## FJ32 nontrivial Brown selection update
+
+`FJ32` selects
+\[
+G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle,\qquad
+\chi(x)=3,\quad \chi(y)=2
+\]
+as the next Brown test case.
+
+Project status:
+
+- the presentation is nonabelian by an internal quotient map to \(S_3\);
+- preliminary Brown initial-segment values pass in both directions;
+- no virtual-solvability bridge has been recorded;
+- no target-status bridge for `T-001` has been recorded;
+- no finite-rank free-kernel bridge has been recorded.
+
 ## Next action
 
-Use `FJ32` to choose and run a nontrivial Brown test case, preferably one not
-already removed by the virtually solvable route.
+Use `FJ33` to run the worked Brown test for \(G_{2,3}\) and decide what
+additional bridge is required before any route subtraction.

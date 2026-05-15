@@ -61,15 +61,14 @@
 7. Linton, M.; Nyberg-Brodda, C.-F. *The theory of one-relator groups: history and recent progress*. Status: active orientation source for `FJ21`; use as a literature map, not a proof source.
 8. Lyndon, R. C.; Schupp, P. E. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
 9. Magnus, W.; Karrass, A.; Solitar, D. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
-10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: active reference for `FJ30` and `FJ31`; Proposition 3.1, Corollary 3.2, Theorems 4.2--4.4, and Theorem 5.2 checked for the Brown/BNS kernel-recognition route. `FJ31` uses the checked criterion on the commutator-presentation calibration example.
+10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: active reference for `FJ30`--`FJ32`; Proposition 3.1, Corollary 3.2, Theorems 4.2--4.4, and Theorem 5.2 checked for the Brown/BNS kernel-recognition route. `FJ31` uses the checked criterion on the commutator-presentation calibration example. `FJ32` uses the checked criterion to select \(G_{2,3}\) as the next worked test case.
 11. Bieri, R.; Neumann, W. D.; Strebel, R. *A geometric invariant of discrete groups*. Status: found; EuDML bibliographic record checked in `FJ30`; direct theorem use deferred.
 12. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: found; verify before using negative-immersion or primitivity-rank routes.
 
-Next one-relator reading task: for `FJ32`, choose a nontrivial
-Brown-compatible two-generator one-relator presentation or small family,
-preferably one not already removed by the virtually solvable route. Record
-whether both \([\chi]\) and \([-\chi]\) pass the Brown test and whether the
-result supplies a finite-rank free-by-cyclic bridge into `FJ26`.
+Next one-relator reading task: for `FJ33`, run the worked Brown test for
+\(G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle\). Determine whether the
+Brown-positive kernel can be identified as finite-rank free and whether a
+target-status bridge for `T-001` is needed before using the `FJ26` route.
 
 ## Reading protocol
 
