@@ -283,10 +283,25 @@ finite-dimensional special cube complex groups as CAT(0)-route bridge
 cases, while keeping merely virtual-special statements conditional until
 finite-index handling is sourced.
 
-The next module is `FJ25`, virtually solvable route subtraction for
-`T-001`. Its task is to determine which remaining one-relator groups are
-removed by the virtually solvable known-case row, without treating
-local indicability or abelianization data as a virtual-solvability proof.
+The next step after `FJ24` was `FJ25`, virtually solvable route
+subtraction for `T-001`. Its task was to determine which remaining
+one-relator groups are removed by the virtually solvable known-case row,
+without treating local indicability, nontrivial abelianization, or
+one-relator HNN hierarchy data as a virtual-solvability proof.
+
+Current status: `FJ25`, virtually solvable route subtraction for
+`T-001`, has first-pass coverage. It records that torsion-free
+one-relator groups are removed from the active residual target once the
+project has a source-verified bridge to virtual solvability. It also
+records that local indicability, abelianization data, and one-relator
+hierarchy structure are not virtual-solvability certificates.
+
+The next module is `FJ26`,
+hyperbolic-by-cyclic/free-by-cyclic route subtraction for `T-001`. Its
+task is to determine which remaining one-relator groups are removed by
+the Bestvina--Fujiwara--Wigglesworth known-case row and related
+free-by-cyclic bridge data, without using an HNN splitting as a mapping
+torus proof unless the required hypotheses are source-verified.
 
 ## GitHub persistence policy
 

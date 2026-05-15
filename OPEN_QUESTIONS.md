@@ -727,9 +727,9 @@ one-relator subclass checks.
 
 ### Next action
 
-Continue subtracting known Farrell--Jones routes after the `FJ23` hyperbolic
-and `FJ24` CAT(0) subtractions, beginning with the virtually solvable route in
-`FJ25`.
+Continue subtracting known Farrell--Jones routes after the `FJ23`
+hyperbolic, `FJ24` CAT(0), and `FJ25` virtually solvable subtractions,
+beginning with the hyperbolic-by-cyclic/free-by-cyclic route in `FJ26`.
 
 ## OQ-027. Which exact hierarchy theorem should FJ22 adopt?
 
@@ -821,8 +821,9 @@ bridge from one-relator hypotheses to hyperbolicity.
 
 ### Next action
 
-First-pass resolved by `FJ23`. `FJ24` has completed the next CAT(0)-route
-subtraction; continue with `FJ25`, the virtually solvable route subtraction.
+First-pass resolved by `FJ23`. `FJ24` and `FJ25` have completed the next
+CAT(0) and virtually solvable route subtractions; continue with `FJ26`, the
+hyperbolic-by-cyclic/free-by-cyclic route subtraction.
 
 ## OQ-030. Which part of T-001 is removed by the CAT(0) route?
 
@@ -856,23 +857,26 @@ proper cocompact finite-dimensional CAT(0) action.
 
 ### Next action
 
-First-pass resolved by `FJ24`. Continue with `FJ25`, the virtually solvable
-route subtraction.
+First-pass resolved by `FJ24`. `FJ25` has completed the virtually solvable
+route subtraction; continue with `FJ26`, the
+hyperbolic-by-cyclic/free-by-cyclic route subtraction.
 
 ## OQ-031. Which part of T-001 is removed by the virtually solvable route?
 
 ### Status
 
-Open inside project.
+Resolved for first-pass virtually solvable-route subtraction.
 
 ### Context
 
 `ER-009` records virtually solvable groups as a known Farrell--Jones class.
 `FJ19` includes virtually solvable one-relator groups as a conditional positive
-route. The next task is to decide which residual torsion-free one-relator
-groups can be source-verified as virtually solvable without confusing local
-indicability, largeness, abelianization, or HNN structure with virtual
-solvability.
+route. `FJ25` records the conservative subtraction rule: subtract torsion-free
+one-relator groups only after a source-verified or internally proved bridge to
+virtual solvability.
+
+`FJ25` also records that local indicability, nontrivial abelianization, and HNN
+hierarchy structure are not virtual-solvability proofs by themselves.
 
 ### Relevant modules
 
@@ -884,13 +888,15 @@ solvability.
 
 ### Dependencies
 
-`ER-009`, Wegner's virtually solvable theorem as recorded in `FJ11`, and a
-source-verified classification or criterion for the virtually solvable
-one-relator cases if the project needs more than a conditional row.
+`ER-009`, Wegner's virtually solvable theorem as recorded in `FJ11`, and any
+later source-verified classification or criterion for the virtually solvable
+one-relator cases if the project needs enumeration beyond conditional route
+bookkeeping.
 
 ### Next action
 
-Begin `FJ25`, virtually solvable route subtraction for `T-001`.
+First-pass resolved by `FJ25`. Continue with `FJ26`, the
+hyperbolic-by-cyclic/free-by-cyclic route subtraction.
 
 ## OQ-032. Which finite-index source should support virtually compact special route use?
 
@@ -953,3 +959,66 @@ Haglund--Wise bridge.
 ### Next action
 
 Defer until after the route-subtraction pass reaches surviving examples.
+
+## OQ-034. Which source should classify or recognize virtually solvable one-relator cases?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ25` supplies a conditional subtraction rule for virtually solvable
+one-relator groups, but it does not classify them. If the project later needs
+an enumerated list of virtually solvable one-relator examples, it should first
+choose a source-verified classification or recognition criterion.
+
+### Relevant modules
+
+- FJ11
+- FJ19
+- FJ25
+
+### Dependencies
+
+Wegner's virtually solvable theorem as recorded in `FJ11`, plus a future
+one-relator-specific source for virtual-solvability recognition if enumeration
+becomes necessary.
+
+### Next action
+
+Defer unless the residual analysis needs more than the conditional `FJ25`
+route table.
+
+## OQ-035. Which part of T-001 is removed by the hyperbolic-by-cyclic/free-by-cyclic route?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ19` records the Bestvina--Fujiwara--Wigglesworth theorem as a positive route
+for hyperbolic-by-cyclic groups, including finite-rank free-by-cyclic groups
+under the source hypotheses. After the hyperbolic, CAT(0), and virtually
+solvable subtractions, the next task is to decide which remaining
+torsion-free one-relator groups have a source-verified bridge to that route.
+
+### Relevant modules
+
+- FJ19
+- FJ23
+- FJ24
+- FJ25
+- FJ26
+
+### Dependencies
+
+Bestvina--Fujiwara--Wigglesworth (2023), the mapping-torus notation from
+`FJ19`, and any one-relator splitting or kernel-finiteness source used to
+identify a group as hyperbolic-by-cyclic or finite-rank free-by-cyclic.
+
+### Next action
+
+Begin `FJ26`, hyperbolic-by-cyclic/free-by-cyclic route subtraction for
+`T-001`.
