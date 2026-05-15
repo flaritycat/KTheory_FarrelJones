@@ -4,8 +4,9 @@
 
 Created in `FJ30`. First nontrivial finite-rank free-kernel bridge recorded
 in `FJ33`. The \(G_{p,q}\)-family bridge was recorded in `FJ36`; `FJ37`
-selected beyond-Brown source selection, and `FJ38` selected the
-normal-subgroup source cluster for verification in `FJ39`.
+selected beyond-Brown source selection, `FJ38` selected the normal-subgroup
+source cluster, and `FJ39` verified the Karrass--Solitar finitely
+presented-kernel bridge.
 
 ## Warning
 
@@ -20,10 +21,10 @@ epimorphism to \(\mathbb Z\) has finitely generated kernel.
 | Character-sphere and HNN-valuation formulation | Brown checked at first-pass level | Brown (1987), Sections 3 and 5 |
 | Kernel finite-generation criterion for a surjection \(G\to\mathbb Z\) | Brown checked at first-pass level | Brown (1987), Corollary 3.2 |
 | Two-generator one-relator computable criterion | Brown checked at first-pass level | Brown (1987), Theorems 4.2--4.4 |
-| Original BNS invariant paper | selected for direct verification in `FJ39` | Bieri--Neumann--Strebel (1987) |
+| Original BNS invariant paper | orientation checked in `FJ39`; exact theorem use remains open | Bieri--Neumann--Strebel (1987) |
 | Higher finiteness invariant context | selected as secondary source if stronger finiteness hypotheses arise | Bieri--Renz (1988) |
-| Normal-subgroup bridge in CD2/duality settings | selected for exact hypothesis verification | Bieri (1976) |
-| One-relator finitely presented normal-subgroup comparator | selected for exact hypothesis verification | Karrass--Solitar (1978) |
+| Normal-subgroup bridge in CD2/duality settings | cited through Karrass--Solitar, but not independently verified | Bieri (1976) |
+| One-relator finitely presented normal-subgroup comparator | checked as a bridge theorem for finite-presentation input | Karrass--Solitar (1978) |
 
 ## Project-facing route criterion
 
@@ -136,6 +137,18 @@ finitely generated, finitely presented, free, or finite rank. `FJ39` must
 verify the exact statements before this ledger can record any new route
 criterion.
 
+## FJ39 finitely presented-kernel bridge
+
+| Input | Source-verified output | Route status |
+|---|---|---|
+| One-relator \(G\) with \(1\ne H\trianglelefteq G\), \(H\) finitely presented, and \([G:H]=\infty\) | \(G\) is torsion-free, two-generator, and an infinite cyclic or infinite dihedral extension of a finitely generated free group | bridge source verified; no concrete residual subtraction yet |
+
+This row uses Karrass--Solitar (1978). It does not apply to kernels known
+only to be finitely generated. The infinite cyclic alternative is aligned with
+the `FJ26` finite-rank free-by-cyclic route, but the infinite dihedral
+alternative needs finite-index and version handling before route use.
+
 ## Next action
 
-Use `FJ39` for normal-subgroup bridge source verification for `RB-004`.
+Use `FJ40` to select a concrete finitely presented-kernel test case for
+`RB-004`, or record that no such test case is source-ready.

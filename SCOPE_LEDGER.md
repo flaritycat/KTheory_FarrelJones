@@ -103,9 +103,11 @@ Unless explicitly imported later:
 55. Can Serre's *Trees* be verified in the exact Bass--Serre form needed for the \(K_{p,q}\) freeness bridge? Tracked as `OQ-053`; first-pass resolved by `FJ36` using Serre as the canonical reference with auxiliary exact source checks.
 56. Which residual `RB-004` family or subgroup should be attacked after the \(G_{p,q}\)-family route bridge? Tracked as `OQ-054`; first-pass resolved by `FJ37`, selecting `OQ-044` as the next source-selection target.
 57. Should the exact rank of \(K_{p,q}\) be computed later, or is finite rank sufficient for the route ledger? Tracked as `OQ-055`; deferred by `FJ37` because finite rank is enough for the `FJ26` route.
-58. Which concrete non-Brown `RB-004` test case should be used after a broader source is selected? Tracked as `OQ-056`; deferred until `FJ39` verifies the usable hypotheses.
-59. Which exact hypotheses in Bieri (1976) and Karrass--Solitar (1978) are needed: finitely generated, finitely presented, \(\mathrm{FP}_2\), or another finiteness condition? Tracked as `OQ-057`.
-60. Does BNS (1987), without Brown's two-generator computation, give a usable finite-generation criterion for any concrete `RB-004` family already in the repository? Tracked as `OQ-058`.
+58. Which concrete non-Brown `RB-004` test case should be used after a broader source is selected? Tracked as `OQ-056`; selected for `FJ40` after `FJ39` verifies the finitely presented-kernel bridge.
+59. Which exact hypotheses in Bieri (1976) and Karrass--Solitar (1978) are needed: finitely generated, finitely presented, \(\mathrm{FP}_2\), or another finiteness condition? Tracked as `OQ-057`; first-pass partially resolved by `FJ39`: the checked Karrass--Solitar bridge requires finite presentation.
+60. Does BNS (1987), without Brown's two-generator computation, give a usable finite-generation criterion for any concrete `RB-004` family already in the repository? Tracked as `OQ-058`; still open after `FJ39`.
+61. Which concrete `RB-004` example has a nontrivial finitely presented kernel of infinite index, if any? Tracked as `OQ-059`.
+62. Can the infinite-dihedral alternative in Karrass--Solitar be routed through existing finite-index inheritance rows without changing formulations? Tracked as `OQ-060`.
 
 ## Established results
 
@@ -169,6 +171,7 @@ The active project target is `T-001`, torsion-free one-relator residual gap anal
 - Module `FJ36` verifies the Bass--Serre freeness bridge for \(K_{p,q}\), records a finite-rank free-by-cyclic bridge \(G_{p,q}\cong F_n\rtimes\mathbb Z\), and removes this family from the active `T-001` residual through `FJ26`.
 - Module `FJ37` audits the post-\(G_{p,q}\) residual, defers exact rank computation for \(K_{p,q}\), and selects beyond-Brown `RB-004` source selection as the next target.
 - Module `FJ38` selects the BNS/Bieri--Renz/Bieri/Karrass--Solitar normal-subgroup source cluster for beyond-Brown `RB-004` work and assigns exact hypothesis verification to `FJ39`.
+- Module `FJ39` verifies Karrass--Solitar (1978) as a finitely presented normal-subgroup bridge, keeps BNS direct theorem use open, and records no residual subtraction.
 
 ## Selected target
 
@@ -211,7 +214,11 @@ Current source toolkit:
   `OQ-044` as the next `RB-004` source-selection target;
 - beyond-Brown source cluster: `FJ38` selects Bieri--Neumann--Strebel
   (1987), Bieri--Renz (1988), Bieri (1976), and Karrass--Solitar (1978) for
-  direct verification in `FJ39`;
+  verification; `FJ39` first verifies only the Karrass--Solitar
+  finite-presentation bridge;
+- finitely presented-kernel bridge: `FJ39` verifies Karrass--Solitar (1978)
+  under the hypothesis of a nontrivial finitely presented normal subgroup of
+  infinite index;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -219,4 +226,4 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ39`, normal-subgroup bridge source verification for `RB-004`.
+Begin `FJ40`, finitely presented-kernel test selection for `RB-004`.

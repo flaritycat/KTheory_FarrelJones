@@ -7,9 +7,9 @@ selected in `FJ29`. Brown/BNS kernel-recognition route checked in `FJ30`.
 First Brown calibration example completed in `FJ31`. Nontrivial next Brown
 test case selected in `FJ32`. Concrete \(G_{2,3}\) route bridge completed in
 `FJ33`. The \(G_{p,q}\)-family route bridge was completed in `FJ36`, `FJ37`
-selected beyond-Brown `RB-004` source selection as the next target, and
-`FJ38` selected the normal-subgroup source cluster for verification in
-`FJ39`.
+selected beyond-Brown `RB-004` source selection as the next target, `FJ38`
+selected the normal-subgroup source cluster, and `FJ39` verified the
+Karrass--Solitar finitely presented-kernel bridge.
 
 ## Warning
 
@@ -218,6 +218,23 @@ Background only at this stage:
 No residual bucket is removed by `FJ38`. It selects sources; it does not
 verify theorem hypotheses or record a new free-kernel bridge.
 
+## FJ39 source-verification update
+
+`FJ39` verifies the main Karrass--Solitar bridge for one-relator groups with a
+nontrivial finitely presented normal subgroup of infinite index.
+
+Outcome:
+
+- the checked bridge requires finite presentation of the normal subgroup;
+- finite generation alone is not enough for this bridge;
+- the output is an infinite cyclic or infinite dihedral extension of a
+  finitely generated free group;
+- direct BNS theorem use remains open;
+- Bieri (1976) is recorded only as a cited dependency inside the
+  Karrass--Solitar proof until the primary source is checked;
+- no residual bucket is removed yet.
+
 ## Next action
 
-Use `FJ39` for normal-subgroup bridge source verification for `RB-004`.
+Use `FJ40` to select a concrete finitely presented-kernel test case for
+`RB-004`, or record that no such test case is source-ready.

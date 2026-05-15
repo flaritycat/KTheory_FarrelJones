@@ -17,11 +17,11 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_002`.
 - Completed cycle: `cycle_001`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, and `FJ38`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, and `FJ39`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
 - Completed cycle reflection: `reflections/cycle_001_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ39`, normal-subgroup bridge source verification for `RB-004`.
+- Current procedural target: begin `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## Current established results
 
@@ -77,7 +77,8 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ35` selects a Bass--Serre freeness bridge, sourced from Serre's *Trees*, as the clean route from Brown finite generation to finite-rank freeness for \(K_{p,q}=\ker(\chi_{p,q})\), without invoking `FJ26` at that stage.
 - `FJ36` verifies the Bass--Serre freeness bridge for \(K_{p,q}\), records \(G_{p,q}\cong F_n\rtimes\mathbb Z\) for some finite \(n\), and removes this family through the `FJ26` finite-rank free-by-cyclic route.
 - `FJ37` audits the residual after the \(G_{p,q}\)-family route bridge, defers exact rank computation for \(K_{p,q}\), and selects `OQ-044` as the next target: source selection for `RB-004` cases outside Brown's checked two-generator criterion.
-- `FJ38` selects the BNS/Bieri--Renz/Bieri/Karrass--Solitar normal-subgroup source cluster for beyond-Brown `RB-004` work. This is source selection only: exact theorem statements and hypotheses remain to be checked in `FJ39`.
+- `FJ38` selects the BNS/Bieri--Renz/Bieri/Karrass--Solitar normal-subgroup source cluster for beyond-Brown `RB-004` work. It is source selection only; `FJ39` checks the Karrass--Solitar bridge first and leaves direct BNS theorem use open.
+- `FJ39` verifies Karrass--Solitar (1978) as a finitely presented normal-subgroup bridge: the checked theorem requires a nontrivial finitely presented normal subgroup of infinite index. It does not upgrade BNS finite-generation statements to direct theorem use and does not remove a residual bucket.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 

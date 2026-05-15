@@ -830,7 +830,7 @@ hyperbolic-by-cyclic/free-by-cyclic, and inheritance route subtractions;
 kernel-recognition route, `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-Continue with `FJ39`, normal-subgroup bridge source verification for `RB-004`.
+FJ39 has completed normal-subgroup bridge source verification for `RB-004`. Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-030. Which part of T-001 is removed by the CAT(0) route?
 
@@ -871,8 +871,8 @@ has selected `RB-004` as the next attack surface. `FJ30` has verified
 Brown's limited kernel-recognition route, `FJ31` has completed a calibration
 Brown test case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed
 the worked Brown test, and `FJ34` has completed the nearby Brown family
-boundary. Continue with `FJ39`, normal-subgroup bridge source verification
-for `RB-004`.
+boundary. FJ39 has completed normal-subgroup bridge source verification
+for `RB-004`. Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-031. Which part of T-001 is removed by the virtually solvable route?
 
@@ -915,7 +915,7 @@ hyperbolic-by-cyclic/free-by-cyclic and inheritance route subtractions.
 kernel-recognition route, `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-Continue with `FJ39`, normal-subgroup bridge source verification for `RB-004`.
+FJ39 has completed normal-subgroup bridge source verification for `RB-004`. Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-032. Which finite-index source should support virtually compact special route use?
 
@@ -1049,8 +1049,8 @@ ledger, `FJ29` has selected `RB-004` as the next attack surface, and `FJ30`
 has verified Brown's limited two-generator kernel-recognition route. `FJ31`
 has completed a calibration Brown test case, `FJ32` has selected
 \(G_{2,3}\), `FJ33` has completed the worked Brown test, and `FJ34` has
-completed the nearby Brown family boundary. Continue with `FJ39`,
-normal-subgroup bridge source verification for `RB-004`.
+completed the nearby Brown family boundary. `FJ39` has completed
+normal-subgroup bridge source verification for `RB-004`. Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-036. Which source should recognize finite-rank free kernels over Z?
 
@@ -1090,7 +1090,7 @@ two-generator criterion.
 First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-Continue with `FJ39`, normal-subgroup bridge source verification for `RB-004`.
+FJ39 has completed normal-subgroup bridge source verification for `RB-004`. Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-037. Which inheritance routes remove additional T-001 cases?
 
@@ -1131,7 +1131,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-Continue with `FJ39`, normal-subgroup bridge source verification for `RB-004`.
+FJ39 has completed normal-subgroup bridge source verification for `RB-004`. Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-038. What remains in T-001 after the route-subtraction pass?
 
@@ -1177,7 +1177,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-Continue with `FJ39`, normal-subgroup bridge source verification for `RB-004`.
+FJ39 has completed normal-subgroup bridge source verification for `RB-004`. Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-039. Which concrete surviving one-relator subclasses should be attacked next?
 
@@ -1211,7 +1211,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-Continue with `FJ39`, normal-subgroup bridge source verification for `RB-004`.
+FJ39 has completed normal-subgroup bridge source verification for `RB-004`. Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-040. Which source should be checked first for the selected residual bucket?
 
@@ -1247,8 +1247,8 @@ First-pass resolved by `FJ29`. `FJ30` has checked Brown (1987) for exact
 statements, hypotheses, and conclusions. `FJ31` has completed a calibration
 Brown test case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed
 the worked Brown test, and `FJ34` has completed the nearby Brown family
-boundary. Continue with `FJ39`, normal-subgroup bridge source verification
-for `RB-004`.
+boundary. FJ39 has completed normal-subgroup bridge source verification
+for `RB-004`. Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-041. What exact Brown/BNS theorem recognizes finite-rank kernels?
 
@@ -1283,7 +1283,7 @@ project-facing route criterion in `ledgers/t001_kernel_recognition.md`.
 First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-Continue with `FJ39`, normal-subgroup bridge source verification for `RB-004`.
+FJ39 has completed normal-subgroup bridge source verification for `RB-004`. Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-042. Which first Brown criterion test case should be used?
 
@@ -1324,8 +1324,8 @@ finite-rank free-by-cyclic route.
 
 First-pass resolved by `FJ31`. `FJ32` has selected \(G_{2,3}\), `FJ33`
 has completed the worked Brown test, and `FJ34` has completed the nearby
-Brown family boundary. Continue with `FJ39`, normal-subgroup bridge source
-verification for `RB-004`.
+Brown family boundary. `FJ39` has completed normal-subgroup bridge source
+verification for `RB-004`. Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-043. Should the original BNS normal-subgroup theorem be checked directly?
 
@@ -1397,8 +1397,8 @@ tracked in `FJ21`--`FJ22`.
 
 ### Next action
 
-Use `FJ39` for normal-subgroup bridge source verification. Do not use any new
-kernel-recognition theorem until exact source hypotheses have been checked.
+`FJ39` has completed normal-subgroup bridge source verification. Use `FJ40`
+to select a finitely presented-kernel test case before any route subtraction.
 
 ## OQ-045. Which Brown test case is not already removed by the virtually solvable route?
 
@@ -1600,8 +1600,8 @@ source or internal proof used for the family-level kernel bridge.
 ### Next action
 
 First-pass resolved by `FJ34`; the family-level bridge is now completed by
-`FJ36`. Continue with `FJ39`, normal-subgroup bridge source verification for
-`RB-004`.
+`FJ36`. `FJ39` has completed normal-subgroup bridge source verification for
+`RB-004`. Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-050. Which parts of the G_{2,3} proof generalize without new sources?
 
@@ -1637,8 +1637,9 @@ or kernel-recognition source selected later.
 ### Next action
 
 First-pass resolved by `FJ34`; `FJ36` records the missing Bass--Serre bridge
-for the \(G_{p,q}\)-family. Continue with `FJ39`, normal-subgroup bridge
-source verification for `RB-004`.
+for the \(G_{p,q}\)-family. `FJ39` has completed normal-subgroup bridge
+source verification for `RB-004`. Continue with `FJ40`, finitely
+presented-kernel test selection for `RB-004`.
 
 ## OQ-051. Can \(\ker(\chi_{p,q})\) be identified as finite-rank free?
 
@@ -1771,8 +1772,8 @@ Margalit (2017), Brown (1987), and the \(G_{p,q}\) setup from `FJ34`.
 
 ### Next action
 
-First-pass resolved by `FJ36`. Continue with `FJ39`, normal-subgroup bridge
-source verification for `RB-004`.
+First-pass resolved by `FJ36`; `FJ39` has completed normal-subgroup bridge
+source verification for `RB-004`. Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-054. Which residual RB-004 family or subgroup should be attacked after the G_{p,q} bridge?
 
@@ -1806,9 +1807,9 @@ source selected by `FJ38` and verified by `FJ39`.
 
 ### Next action
 
-First-pass resolved by `FJ37`; source selection completed by `FJ38`.
-Continue with `FJ39`, normal-subgroup bridge source verification for
-`RB-004`.
+First-pass resolved by `FJ37`; source selection completed by `FJ38`, and
+`FJ39` has completed normal-subgroup bridge source verification for `RB-004`.
+Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-055. Should the exact rank of K_{p,q} be computed?
 
@@ -1842,14 +1843,14 @@ The Bass--Serre bridge in `FJ36` and any later rank-computation method.
 
 ### Next action
 
-Keep deferred. Continue with `FJ39`, normal-subgroup bridge source
-verification for `RB-004`.
+Keep deferred. `FJ39` has completed normal-subgroup bridge source
+verification for `RB-004`. Continue with `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## OQ-056. Which concrete non-Brown RB-004 test case should follow broader source selection?
 
 ### Status
 
-Open inside project; deferred until after `FJ39`.
+Open inside project; selected for `FJ40`.
 
 ### Context
 
@@ -1858,9 +1859,9 @@ two-generator criterion as the next module. After `FJ38` chooses a broader
 source cluster, the project will need a concrete test case or subfamily to
 avoid keeping the discussion purely bibliographic.
 
-`FJ38` chooses the BNS/Bieri--Renz/Bieri/Karrass--Solitar source cluster, but
-does not yet verify a theorem usable for a concrete test case. The exact
-source hypotheses should be checked first in `FJ39`.
+`FJ38` chooses the BNS/Bieri--Renz/Bieri/Karrass--Solitar source cluster.
+`FJ39` verifies the Karrass--Solitar finitely presented normal-subgroup bridge
+as the usable first subroute, while leaving direct BNS theorem use open.
 
 ### Relevant modules
 
@@ -1870,18 +1871,20 @@ source hypotheses should be checked first in `FJ39`.
 
 ### Dependencies
 
-The source cluster selected by `FJ38`, after exact verification in `FJ39`.
+The Karrass--Solitar bridge verified by `FJ39`, plus the still-open direct
+BNS verification question.
 
 ### Next action
 
-Defer until `FJ39` identifies what part of the selected beyond-Brown source
-cluster is actually usable.
+Use `FJ40` to select a concrete finitely presented-kernel test case or decide
+that no such case is currently available inside the repository.
 
 ## OQ-057. What exact normal-subgroup bridge hypotheses are needed?
 
 ### Status
 
-Open inside project; generated by `FJ38`.
+Partially resolved by `FJ39`; still open for Bieri (1976) and Bieri--Renz
+(1988).
 
 ### Context
 
@@ -1891,25 +1894,32 @@ cohomological-dimension-\(2\) structure. The project must not blur finitely
 generated, finitely presented, \(\mathrm{FP}_2\), and other finiteness
 hypotheses.
 
+`FJ39` verifies the Karrass--Solitar bridge under the hypothesis that the
+normal subgroup is nontrivial, finitely presented, and of infinite index. It
+does not verify a Bieri (1976) primary theorem directly, and it does not turn
+finite generation alone into a bridge.
+
 ### Relevant modules
 
 - FJ38
+- FJ39
 
 ### Dependencies
 
-Bieri (1976), Karrass--Solitar (1978), and any source-verified one-relator
-or cohomological-dimension-\(2\) bridge checked in `FJ39`.
+Karrass--Solitar (1978), Bieri (1976), and any later source-verified
+one-relator or cohomological-dimension-\(2\) bridge.
 
 ### Next action
 
-Use `FJ39` to verify exact theorem statements and hypotheses before applying
-either source to `RB-004`.
+For the immediate subroute, use the finite-presentation hypothesis recorded
+from Karrass--Solitar. Keep Bieri's primary theorem and any \(\mathrm{FP}_2\)
+variant open until a later source check.
 
 ## OQ-058. Does direct BNS use give a concrete non-Brown RB-004 family?
 
 ### Status
 
-Open inside project; generated by `FJ38`.
+Open inside project; unchanged by `FJ39`.
 
 ### Context
 
@@ -1920,11 +1930,15 @@ needs to know whether that source, without Brown's two-generator computation,
 actually produces a usable finite-generation criterion for a concrete
 `RB-004` family already in the repository.
 
+`FJ39` checks BNS only at orientation level and does not verify the exact
+normal-subgroup theorem from the original paper.
+
 ### Relevant modules
 
 - FJ30
 - FJ37
 - FJ38
+- FJ39
 
 ### Dependencies
 
@@ -1933,6 +1947,66 @@ recognition ledgers.
 
 ### Next action
 
-Use `FJ39` to test whether direct BNS theorem use supplies a concrete
-beyond-Brown `RB-004` candidate, or whether the project must keep searching
-after source verification.
+Keep open. The next immediate move is `FJ40`, using the verified
+Karrass--Solitar finite-presentation bridge rather than direct BNS theorem
+use.
+
+## OQ-059. Which RB-004 example has a finitely presented kernel?
+
+### Status
+
+Open inside project; generated by `FJ39`.
+
+### Context
+
+`FJ39` verifies Karrass--Solitar (1978) as a bridge for one-relator groups
+with a nontrivial finitely presented normal subgroup of infinite index. To use
+this bridge constructively, the project needs a concrete `RB-004` example or
+subfamily where the kernel is known, internally or by source, to be finitely
+presented.
+
+### Relevant modules
+
+- FJ38
+- FJ39
+
+### Dependencies
+
+Karrass--Solitar (1978), the `RB-004` residual ledger, and any source or
+internal computation proving finite presentation of a kernel.
+
+### Next action
+
+Use `FJ40` to search for a concrete test case or record that no candidate is
+currently source-ready.
+
+## OQ-060. How should the infinite-dihedral Karrass--Solitar alternative be routed?
+
+### Status
+
+Open inside project; generated by `FJ39`.
+
+### Context
+
+Karrass--Solitar allows the ambient one-relator group to be an infinite
+cyclic or infinite dihedral extension of a finitely generated free group. The
+infinite cyclic case aligns directly with the `FJ26` finite-rank
+free-by-cyclic route. The infinite dihedral case would require a finite-index
+or virtually cyclic extension step, and the project must preserve the version
+discipline from `FJ27`.
+
+### Relevant modules
+
+- FJ26
+- FJ27
+- FJ39
+
+### Dependencies
+
+Karrass--Solitar (1978), the `FJ26` route ledger, and version-aware
+finite-index inheritance rows from `FJ27`.
+
+### Next action
+
+Do not use the infinite-dihedral alternative as a route until a later module
+checks the finite-index/inheritance formulation.

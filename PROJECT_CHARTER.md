@@ -508,9 +508,27 @@ It selects the Bieri--Neumann--Strebel, Bieri--Renz, Bieri, and
 Karrass--Solitar normal-subgroup source cluster for `RB-004` beyond Brown's
 checked two-generator one-relator criterion. Friedl--Tillmann and Kielak are
 recorded as background or possible later sources, not as the immediate
-beyond-Brown route. The next module is `FJ39`, normal-subgroup bridge source
-verification for `RB-004`; it must check exact theorem statements and exact
-finiteness hypotheses before any route subtraction is made.
+beyond-Brown route. This selection led to `FJ39`, normal-subgroup bridge
+source verification for `RB-004`, whose task was to check exact theorem
+statements and exact finiteness hypotheses before any route subtraction.
+
+The next step after `FJ38` was `FJ39`, normal-subgroup bridge source
+verification for `RB-004`. Its task was to determine which part of the
+selected source cluster can actually be used as a theorem source, and whether
+the needed hypothesis is finite generation, finite presentation,
+\(\mathrm{FP}_2\), or another finiteness condition.
+
+Current status: `FJ39` has first-pass coverage as a source-verification
+module. It verifies Karrass--Solitar (1978) as a narrow but genuine
+finitely presented normal-subgroup bridge: a one-relator group with a
+nontrivial finitely presented normal subgroup of infinite index is an
+infinite cyclic or infinite dihedral extension of a finitely generated free
+group, with the relation between the subgroup and the free kernel specified
+in the source. This does not apply to kernels known only to be finitely
+generated. BNS remains selected for direct theorem verification, Bieri--Renz
+remains higher-finiteness context, and Bieri (1976) is recorded only as a
+dependency cited by Karrass--Solitar until the primary text is checked. The
+next module is `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
 ## GitHub persistence policy
 
