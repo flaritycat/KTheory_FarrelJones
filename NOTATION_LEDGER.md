@@ -36,6 +36,12 @@
 | \(P_d(G)\) | Rips complex of \(G\) at scale \(d\) | source-level active | FJ13 | Used in the Bartels--Lueck--Reich hyperbolic-groups proof skeleton. |
 | \(\partial X\) | Gromov boundary of the hyperbolic complex \(X\) in FJ13 source notation | source-level active | FJ13 | Appears in the compactification \(\overline X=X\cup\partial X\). |
 | \(\overline X\) | compactification \(X\cup\partial X\) used in the hyperbolic proof skeleton | source-level active | FJ13 | In FJ13, \(X=P_d(G)\). |
+| \(Y\) | finite-dimensional CAT(0)-space used in the CAT(0)-group proof source | source-level active | FJ14 | Wegner uses a proper cocompact isometric \(G\)-action on \(Y\). |
+| \(\overline B_R(x_0)\) | closed ball of radius \(R\) around \(x_0\) in a CAT(0)-space | source-level active | FJ14 | Used as the compact transfer space in Wegner's CAT(0) proof route. |
+| \(FS(Y)\) | flow space of generalized geodesics in the CAT(0)-space \(Y\) | source-level active | FJ14 | Bartels--Lueck flow-space cover technology is a deferred proof dependency. |
+| \(\Psi\) | strong homotopy action | source-level active | FJ14 | Used because closed CAT(0) balls are not generally honest \(G\)-spaces. |
+| \(\int_G\mathcal A\) | additive category/group-action construction appearing in Wegner's target \(K_m(\int_G\mathcal A)\) | source-level flag | FJ14 | Internal additive-category foundations remain deferred to FJ02. |
+| \(\mathcal O^G(E_{\mathcal F}G,\mathrm{pt};\mathcal A)\) | obstruction category for the assembly map in the controlled proof route | source-level flag | FJ14 | Located as proof technology; not internally developed yet. |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |
 | \(\mathcal{All}(G)\) | family of all subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{All}}G\) is modeled by \(\mathrm{pt}\). |

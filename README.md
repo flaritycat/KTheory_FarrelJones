@@ -17,9 +17,9 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_001`
 - First milestone: modules `FJ01`--`FJ07`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, and `FJ13`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, and `FJ14`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
-- Current primary target: `FJ14`, the CAT(0)-groups case, using the same version-checked source discipline.
+- Current primary target: `FJ15`, the controlled topology primer, using the proof-technology boundaries identified in `FJ13` and `FJ14`.
 
 ## Current established results
 
@@ -31,7 +31,7 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - `ER-006`: conditional Whitehead-group vanishing from Farrell--Jones for torsion-free groups with regular coefficients.
 - `ER-007`: conditional vanishing of \(\widetilde K_0(\mathbb Z[G])\), with the finiteness-obstruction interpretation for finitely presented groups.
 - `ER-008`: conditional Borel consequence from low-dimensional K-theory vanishing and \(L^{\langle -\infty\rangle}\)-theory assembly.
-- `ER-009`: first source-verified known classes: hyperbolic groups, finite-dimensional CAT(0)-groups, and virtually solvable groups, with version flags.
+- `ER-009`: first source-verified known classes: hyperbolic groups, finite-dimensional CAT(0)-groups, and virtually solvable groups, with version flags and first-pass proof-route maps for hyperbolic and CAT(0)-groups.
 - `ER-010`: first source-verified inheritance-properties ledger, separating coefficient K-theory inheritance from survey-level full \(\mathcal{FJ}\) closure properties.
 
 See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, and source status.
@@ -48,6 +48,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ11` records "with coefficients in additive categories" as a source-level strength flag; the internal additive-category formulation remains deferred to `FJ02`.
 - `FJ12` records inheritance properties with version flags. Pullback and subgroup inheritance are source-verified for the coefficient K-theoretic formulation; several broader closure rows are recorded as survey-level statements about Lueck's full class \(\mathcal{FJ}\).
 - `FJ13` is a proof-skeleton map for hyperbolic groups, not an internal reconstruction of the Bartels--Lueck--Reich proof.
+- `FJ14` is a proof-skeleton map for CAT(0)-groups, not an internal reconstruction of Wegner's proof or the Bartels--Lueck flow-space cover technology.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 

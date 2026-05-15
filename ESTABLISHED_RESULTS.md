@@ -320,6 +320,10 @@ Proof-skeleton expansion:
 
 `modules/cycle_001/FJ13_hyperbolic_groups_case.md`
 
+CAT(0)-group proof-route expansion:
+
+`modules/cycle_001/FJ14_cat0_groups_case.md`
+
 Ledger table:
 
 `ledgers/known_classes.md`
@@ -337,7 +341,8 @@ Ledger table:
 
 Source-verified from Bartels, Lueck, and Reich (2008), main theorem;
 Bartels and Lueck (2012), definition of the class \(\mathcal B\) and
-Theorem B; Wegner (2012), main theorem; and Wegner (2015), main theorem.
+Theorem B; Wegner (2012), main theorem, strong-transfer-reducibility
+route, and CAT(0)-group theorem; and Wegner (2015), main theorem.
 
 ## ER-010. First source-verified inheritance-properties ledger
 

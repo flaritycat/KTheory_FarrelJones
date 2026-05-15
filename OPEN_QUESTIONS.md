@@ -407,3 +407,36 @@ Bartels--Lueck--Reich (2008), especially the Main Theorem, Theorem
 Before `FJ15`--`FJ17` use any of the proof mechanisms in detail,
 choose which dependencies to check directly and record their exact
 hypotheses in the bibliography and source-status ledger.
+
+## OQ-017. Which CAT(0) proof dependencies need direct checking?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ14` uses Wegner's CAT(0)-groups paper as the active source
+for the K-theoretic proof skeleton. The proof route depends on strong
+transfer reducibility, strong homotopy actions, controlled domination of
+large CAT(0) balls, and the Bartels--Lueck geodesic-flow cover
+technology.
+
+### Relevant modules
+
+- FJ14
+- FJ15
+- FJ16
+- FJ17
+
+### Dependencies
+
+Wegner (2012), especially the main theorem, the strong-transfer-
+reducibility theorem, and the CAT(0)-group verification; Bartels--Lueck
+(2012), especially the flow-space cover results used by Wegner.
+
+### Next action
+
+Before `FJ16`--`FJ17` use flow spaces or transfers in detail, identify
+the exact lemmas needed from Wegner and Bartels--Lueck and record their
+hypotheses in the bibliography and source-status ledger.

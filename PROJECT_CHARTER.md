@@ -144,10 +144,16 @@ theorem, the axiomatic reduction, and the Rips-complex verification,
 while leaving obstruction categories, wide covers, and transfers for
 the later proof-technology modules.
 
-Current status: `FJ14`, the CAT(0)-groups case, is the next target.
-It should follow the same convention: verify the source theorem and
-record the proof architecture without pretending to rebuild the whole
-technical proof internally.
+Current status: `FJ14`, the CAT(0)-groups case, has first-pass coverage
+as a proof-strategy map. It records Wegner's K-theory theorem, the route
+through strong transfer reducibility, the role of strong homotopy
+actions and CAT(0) flow-space covers, and a comparison with the
+hyperbolic proof skeleton from `FJ13`.
+
+Current status: `FJ15`, the controlled topology primer, is the next
+target. It should introduce only the controlled-topology vocabulary
+needed to read the obstruction-category, cover, and transfer arguments
+in `FJ13` and `FJ14`.
 
 ## GitHub persistence policy
 

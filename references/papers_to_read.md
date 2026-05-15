@@ -16,7 +16,7 @@
 
 1. Bartels, A.; Lueck, W.; Reich, H. *The K-theoretic Farrell-Jones Conjecture for hyperbolic groups*. Status: active reference for `FJ11` and `FJ13`; main theorem and proof skeleton checked.
 2. Bartels, A.; Lueck, W. *The Borel Conjecture for hyperbolic and CAT(0)-groups*. Status: active reference for `FJ11`; class \(\mathcal B\) and Theorem B checked.
-3. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ11`; main theorem checked.
+3. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ11` and `FJ14`; main theorem and proof route checked.
 4. Wegner, C. *The Farrell-Jones conjecture for virtually solvable groups*. Status: active reference for `FJ11`; main theorem checked.
 5. Bartels, A.; Reich, H. *Coefficients for the Farrell-Jones Conjecture*. Status: active reference for `FJ12`; Section 4 checked for pullback and subgroup inheritance.
 6. Bartels, A.; Echterhoff, S.; Lueck, W. *Inheritance of Isomorphism Conjectures under Colimits*. Status: active reference for `FJ12`; theorem on directed colimits checked.
@@ -27,6 +27,11 @@
 
 1. Bartels, A.; Lueck, W.; Reich, H. *The K-theoretic Farrell-Jones Conjecture for hyperbolic groups*. Status: active reference for `FJ13`; proof outline, axiomatic theorem, and Section 2 checked.
 2. Bartels, A.; Lueck, W.; Reich, H. *Equivariant covers for hyperbolic groups*. Status: found; check Theorem 1.2 before `FJ16` uses wide covers.
+
+## Priority 2c: CAT(0) proof technology
+
+1. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ14`; check the detailed transfer and obstruction-category arguments before `FJ17`.
+2. Bartels, A.; Lueck, W. *Geodesic flow for CAT(0)-groups*. Status: found as a proof dependency for `FJ14`; check the flow-space cover theorem before `FJ16`.
 
 ## Reading protocol
 
