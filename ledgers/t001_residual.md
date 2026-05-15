@@ -13,8 +13,10 @@ Karrass--Solitar finitely presented-kernel bridge. `FJ40` audits that
 subroute and selects no new non-Brown source-ready test case. `FJ41` verifies
 the original BNS finite-generation criterion but makes no residual
 subtraction. `FJ43` pauses automatic `RB-004` source-cluster continuation,
-`FJ44` selects `RB-005` as the next attack packet, and `FJ45` records that
-only the full \(\mathcal{FJ}\) finite-index bridge is currently usable.
+`FJ44` selects `RB-005` as the next attack packet, `FJ45` records that only
+the full \(\mathcal{FJ}\) finite-index bridge is currently usable, and
+`FJ46` selects an `FJ02` source-convention interruption before further
+proof-sensitive `RB-005` work.
 
 ## Warning
 
@@ -40,7 +42,7 @@ cases not yet removed by the repository's current source-verified route data.
 | RB-002 | Locally indicable-only torsion-free one-relator data | Local indicability is structural and is not a Farrell--Jones theorem route in the project | OQ-026 |
 | RB-003 | One-relator hierarchy-only data from the Linton vocabulary | A hierarchy is not automatically a bridge to hyperbolicity, CAT(0), virtual solvability, a mapping torus, or an inheritance row | OQ-038, OQ-039 |
 | RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge | OQ-036 |
-| RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ45` licenses only the full \(\mathcal{FJ}\) finite-index row; coefficient K-theory, direct CAT(0), and `FJCw`/`FICwF` finite-index passages remain unresolved | OQ-032, OQ-067 |
+| RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ45` licenses only the full \(\mathcal{FJ}\) finite-index row; `FJ46` selects `FJ02` before more coefficient K-theory, direct CAT(0), or `FJCw`/`FICwF` route use | OQ-002, OQ-022, OQ-032 |
 | RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | The project needs a source-verified bridge not already absorbed by `FJ23` | OQ-033 |
 | RB-007 | Virtually solvable-looking one-relator cases without a recognition source | `FJ25` deliberately does not classify virtually solvable one-relator groups | OQ-034 |
 | RB-008 | Countable-free-kernel or extension cases without exact inheritance data | `FJ27` requires the exact sequence, quotient status, and source version flag | OQ-037 |
@@ -347,8 +349,27 @@ Outcome:
   is verified;
 - no residual bucket is removed by `FJ45`.
 
-## Next action
+## Historical next action after FJ45
 
 Begin `FJ46`, deciding whether `RB-005` proceeds by source-verifying a
 coefficient K-theory finite-index bridge or by interrupting for
 `FJ02`/source-convention reconciliation.
+
+## FJ46 source-convention decision update
+
+`FJ46` resolves the next-move decision after the finite-index checkpoint.
+
+Outcome:
+
+- do not continue `RB-005` by a narrow coefficient finite-index theorem
+  search as the immediate next step;
+- interrupt for `FJ02`, because source-level coefficient, full
+  \(\mathcal{FJ}\), CAT(0)-route, `FJCw`, and `FICwF` labels are now
+  proof-level inputs;
+- keep the full \(\mathcal{FJ}\) finite-index bridge available only with its
+  full-formulation flag;
+- make no residual bucket subtraction.
+
+## Next action
+
+Begin `FJ02`, the additive-category/source-convention formulation module.

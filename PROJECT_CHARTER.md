@@ -641,6 +641,22 @@ The next step after `FJ45` is `FJ46`: decide whether `RB-005` should proceed
 by verifying a coefficient K-theory finite-index source, or by interrupting
 the current one-relator route for `FJ02`/source-convention reconciliation.
 
+Current status: `FJ46` has first-pass coverage as the source-convention
+decision for `RB-005`. It selects the interruption route: the project should
+begin the deferred `FJ02` additive-category/source-convention module before
+any further proof-sensitive `RB-005` use. This is because `FJ45` made
+coefficient K-theory, full \(\mathcal{FJ}\), CAT(0)-route, `FJCw`, and
+`FICwF` distinctions into active proof-level inputs.
+
+The route decision after `FJ46` is that a narrow coefficient finite-index
+source search is not the immediate next step. Even a positive coefficient
+finite-index theorem would not by itself reconcile the project's source
+labels. `FJ02` should now provide the minimum additive-category formulation,
+source-label comparison policy, and route-use rule needed before `RB-005`
+resumes.
+
+The next step after `FJ46` is to interrupt cycle 003 and begin `FJ02`.
+
 ## GitHub persistence policy
 
 The GitHub repository `flaritycat/KTheory_FarrelJones` is the durable archive and source of truth.
