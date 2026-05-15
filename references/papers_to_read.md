@@ -61,11 +61,11 @@
 7. Linton, M.; Nyberg-Brodda, C.-F. *The theory of one-relator groups: history and recent progress*. Status: active orientation source for `FJ21`; use as a literature map, not a proof source.
 8. Lyndon, R. C.; Schupp, P. E. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
 9. Magnus, W.; Karrass, A.; Solitar, D. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
-10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: active reference for `FJ30`--`FJ38`; Proposition 3.1, Corollary 3.2, Theorems 4.2--4.4, and Theorem 5.2 checked for the Brown/BNS kernel-recognition route. `FJ31` uses the checked criterion on the commutator-presentation calibration example. `FJ32` uses the checked criterion to select \(G_{2,3}\) as the next worked test case. `FJ33` uses the checked criterion for the full \(G_{2,3}\) Brown test. `FJ34` uses the checked criterion for the \(G_{p,q}\)-family finite-generation statement. `FJ35` carries the Brown finite-generation result into a conditional Bass--Serre bridge map. `FJ36` combines that finite generation with the Bass--Serre freeness bridge. `FJ37` and `FJ38` use Brown only to audit the limits of the checked two-generator route.
+10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: active reference for `FJ30`--`FJ40`; Proposition 3.1, Corollary 3.2, Theorems 4.2--4.4, and Theorem 5.2 checked for the Brown/BNS kernel-recognition route. `FJ31` uses the checked criterion on the commutator-presentation calibration example. `FJ32` uses the checked criterion to select \(G_{2,3}\) as the next worked test case. `FJ33` uses the checked criterion for the full \(G_{2,3}\) Brown test. `FJ34` uses the checked criterion for the \(G_{p,q}\)-family finite-generation statement. `FJ35` carries the Brown finite-generation result into a conditional Bass--Serre bridge map. `FJ36` combines that finite generation with the Bass--Serre freeness bridge. `FJ37` and `FJ38` use Brown only to audit the limits of the checked two-generator route. `FJ40` uses the recorded Brown-route cases only for candidate auditing.
 11. Bieri, R. *Normal subgroups in duality groups and in groups of cohomological dimension 2*. Status: cited dependency in `FJ39`; metadata checked in `FJ38`; primary theorem statements still need direct verification.
 12. Bieri, R.; Neumann, W. D.; Strebel, R. *A geometric invariant of discrete groups*. Status: partially read for `FJ39`; EuDML bibliographic record checked in `FJ30`; direct normal-subgroup theorem use remains pending.
 13. Bieri, R.; Renz, B. *Valuations on free resolutions and higher geometric invariants of groups*. Status: secondary finiteness context after `FJ39`; metadata checked in `FJ38`; no theorem imported yet.
-14. Karrass, A.; Solitar, D. *One relator groups having a finitely presented normal subgroup*. Status: active reference for `FJ39`; main theorem checked for the finitely presented normal-subgroup bridge.
+14. Karrass, A.; Solitar, D. *One relator groups having a finitely presented normal subgroup*. Status: active reference for `FJ39`--`FJ40`; main theorem checked for the finitely presented normal-subgroup bridge. `FJ40` records that this bridge is not an example generator without a separate finite-presentation input.
 15. Friedl, S.; Tillmann, S. *Two-generator one-relator groups and marked polytopes*. Status: background only for `FJ38`; metadata checked; not the immediate beyond-Brown source.
 16. Kielak, D. *The Bieri-Neumann-Strebel invariants via Newton polytopes*. Status: background/possible later source for `FJ38`; metadata checked; specialized hypotheses remain to verify before use.
 17. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: found; verify before using negative-immersion or primitivity-rank routes.
@@ -74,9 +74,10 @@
 20. Chiswell, I.; Mueller, T. *A universal construction for groups acting freely on real trees*. Status: active auxiliary reference for `FJ36`; used only for the free-action bridge.
 21. Margalit, D. "Office hour three: Groups acting on trees." Status: active auxiliary reference for `FJ36`; used for the explicit theorem that a group acting freely on a tree is free.
 
-Next one-relator reading task: for `FJ40`, select or rule out a concrete
-`RB-004` test case with a nontrivial finitely presented normal kernel of
-infinite index, using the Karrass--Solitar bridge checked in `FJ39`.
+Next one-relator reading task: decide in `reflections/cycle_002_reflection.md`
+whether the next source check should be direct BNS/Bieri verification, the
+Karrass--Solitar infinite-dihedral finite-index route, or the deferred
+additive-category/source-conventions work around `FJ02`.
 
 ## Reading protocol
 

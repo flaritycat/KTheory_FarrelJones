@@ -530,6 +530,21 @@ remains higher-finiteness context, and Bieri (1976) is recorded only as a
 dependency cited by Karrass--Solitar until the primary text is checked. The
 next module is `FJ40`, finitely presented-kernel test selection for `RB-004`.
 
+The next step after `FJ39` was `FJ40`, finitely presented-kernel test
+selection for `RB-004`. Its task was to decide whether the repository already
+contains a non-Brown one-relator test case with a source-ready nontrivial
+finitely presented normal subgroup of infinite index.
+
+Current status: `FJ40` completes the twentieth module of cycle 002. It audits
+the commutator calibration example, \(G_{2,3}\), and the \(G_{p,q}\)-family.
+All source-ready finitely presented kernels currently recorded in the
+repository are already calibration cases or already removed through the
+`FJ26` finite-rank free-by-cyclic route. `FJ40` therefore does not select a
+new non-Brown `RB-004` test case and does not remove a residual bucket. It
+records the Karrass--Solitar bridge as a cleanup theorem to use only after a
+finite-presentation input is verified. The next procedural step is
+`reflections/cycle_002_reflection.md`, not `FJ41`.
+
 ## GitHub persistence policy
 
 The GitHub repository `flaritycat/KTheory_FarrelJones` is the durable archive and source of truth.

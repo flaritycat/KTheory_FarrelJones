@@ -9,7 +9,8 @@ test case selected in `FJ32`. Concrete \(G_{2,3}\) route bridge completed in
 `FJ33`. The \(G_{p,q}\)-family route bridge was completed in `FJ36`, `FJ37`
 selected beyond-Brown `RB-004` source selection as the next target, `FJ38`
 selected the normal-subgroup source cluster, and `FJ39` verified the
-Karrass--Solitar finitely presented-kernel bridge.
+Karrass--Solitar finitely presented-kernel bridge. `FJ40` audits that
+subroute and selects no new non-Brown source-ready test case.
 
 ## Warning
 
@@ -234,7 +235,23 @@ Outcome:
   Karrass--Solitar proof until the primary source is checked;
 - no residual bucket is removed yet.
 
+## FJ40 finitely presented-kernel test-selection update
+
+`FJ40` audits the current repository for source-ready finitely
+presented-kernel candidates.
+
+Outcome:
+
+- the commutator calibration example is not a non-Brown residual test case;
+- \(G_{2,3}\) is already removed through the `FJ26` route;
+- the \(G_{p,q}\)-family is already removed through the `FJ26` route after
+  the `FJ36` Bass--Serre bridge;
+- no new beyond-Brown `RB-004` example currently has a recorded nontrivial
+  finitely presented normal subgroup of infinite index;
+- the Karrass--Solitar bridge remains a cleanup theorem, not an example
+  generator;
+- no residual bucket is removed by `FJ40`.
+
 ## Next action
 
-Use `FJ40` to select a concrete finitely presented-kernel test case for
-`RB-004`, or record that no such test case is source-ready.
+Write the cycle-002 reflection before opening a new module cycle.

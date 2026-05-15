@@ -117,7 +117,7 @@ classification, or a global theorem for all torsion-free one-relator groups.
 |---|---|---|
 | Exact rank of \(K_{p,q}\) | Deferred | finite rank already suffices for `FJ26` |
 | More \(G_{p,q}\)-style examples | Deferred | `FJ36` covers the family at route level |
-| Brown beyond two-generator criterion | Source cluster selected by `FJ38`; exact verification assigned to `FJ39` | needed before `RB-004` can move beyond the currently checked Brown setting |
+| Brown beyond two-generator criterion | Source cluster selected by `FJ38`; `FJ39` verifies only the Karrass--Solitar finite-presentation bridge | direct BNS/Bieri theorem use remains open |
 
 The next kernel-recognition task is not another computation inside the
 \(G_{p,q}\)-family. It is source selection for cases outside Brown's checked
@@ -130,7 +130,7 @@ two-generator one-relator criterion.
 | Bieri--Neumann--Strebel (1987) | direct BNS finite-generation or normal-subgroup criterion beyond Brown's restatement | selected; theorem statement not yet checked |
 | Bieri--Renz (1988) | higher finiteness context if the bridge needs finite presentation, \(\mathrm{FP}_2\), or stronger hypotheses | selected secondary source; theorem statement not yet checked |
 | Bieri (1976) | normal subgroups in duality groups and groups of cohomological dimension \(2\) | selected; exact hypotheses not yet checked |
-| Karrass--Solitar (1978) | one-relator groups with finitely presented normal subgroup of infinite index | selected; exact theorem form not yet checked |
+| Karrass--Solitar (1978) | one-relator groups with finitely presented normal subgroup of infinite index | theorem form checked in `FJ39`; no concrete new candidate selected in `FJ40` |
 
 `FJ38` is source selection only. It does not prove that any new kernel is
 finitely generated, finitely presented, free, or finite rank. `FJ39` must
@@ -148,7 +148,19 @@ only to be finitely generated. The infinite cyclic alternative is aligned with
 the `FJ26` finite-rank free-by-cyclic route, but the infinite dihedral
 alternative needs finite-index and version handling before route use.
 
+## FJ40 finitely presented-kernel test selection
+
+| Candidate | Finitely presented-kernel status | Route status | FJ40 decision |
+|---|---|---|---|
+| Commutator-presentation calibration from `FJ31` | kernel recorded as infinite cyclic | calibration only; already non-residual | not a non-Brown test case |
+| \(G_{2,3}\) from `FJ33` | kernel recorded as \(F_2\) | already removed through `FJ26` | not a new test case |
+| \(G_{p,q}\)-family from `FJ36` | kernel recorded as finite-rank free | already removed through `FJ26` | not a new test case |
+| General beyond-Brown `RB-004` | no source-ready finitely presented normal kernel recorded | still active residual territory | no candidate selected |
+| Karrass--Solitar infinite-dihedral alternative | no concrete example selected | needs finite-index/version handling before use | deferred |
+
+`FJ40` records a negative selection result for the current repository state.
+It is not a theorem that no such examples exist.
+
 ## Next action
 
-Use `FJ40` to select a concrete finitely presented-kernel test case for
-`RB-004`, or record that no such test case is source-ready.
+Write `reflections/cycle_002_reflection.md` before opening a new module cycle.

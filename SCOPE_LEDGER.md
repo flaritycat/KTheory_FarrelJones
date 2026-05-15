@@ -103,11 +103,12 @@ Unless explicitly imported later:
 55. Can Serre's *Trees* be verified in the exact Bass--Serre form needed for the \(K_{p,q}\) freeness bridge? Tracked as `OQ-053`; first-pass resolved by `FJ36` using Serre as the canonical reference with auxiliary exact source checks.
 56. Which residual `RB-004` family or subgroup should be attacked after the \(G_{p,q}\)-family route bridge? Tracked as `OQ-054`; first-pass resolved by `FJ37`, selecting `OQ-044` as the next source-selection target.
 57. Should the exact rank of \(K_{p,q}\) be computed later, or is finite rank sufficient for the route ledger? Tracked as `OQ-055`; deferred by `FJ37` because finite rank is enough for the `FJ26` route.
-58. Which concrete non-Brown `RB-004` test case should be used after a broader source is selected? Tracked as `OQ-056`; selected for `FJ40` after `FJ39` verifies the finitely presented-kernel bridge.
+58. Which concrete non-Brown `RB-004` test case should be used after a broader source is selected? Tracked as `OQ-056`; first-pass resolved negatively by `FJ40`: no new source-ready finitely presented-kernel test case is present in the repository.
 59. Which exact hypotheses in Bieri (1976) and Karrass--Solitar (1978) are needed: finitely generated, finitely presented, \(\mathrm{FP}_2\), or another finiteness condition? Tracked as `OQ-057`; first-pass partially resolved by `FJ39`: the checked Karrass--Solitar bridge requires finite presentation.
 60. Does BNS (1987), without Brown's two-generator computation, give a usable finite-generation criterion for any concrete `RB-004` family already in the repository? Tracked as `OQ-058`; still open after `FJ39`.
-61. Which concrete `RB-004` example has a nontrivial finitely presented kernel of infinite index, if any? Tracked as `OQ-059`.
-62. Can the infinite-dihedral alternative in Karrass--Solitar be routed through existing finite-index inheritance rows without changing formulations? Tracked as `OQ-060`.
+61. Which concrete `RB-004` example has a nontrivial finitely presented kernel of infinite index, if any? Tracked as `OQ-059`; first-pass resolved negatively for the current repository state by `FJ40`.
+62. Can the infinite-dihedral alternative in Karrass--Solitar be routed through existing finite-index inheritance rows without changing formulations? Tracked as `OQ-060`; deferred by `FJ40` to a later cycle decision.
+63. What should follow the cycle-002 reflection: direct BNS/Bieri verification, finite-index handling for the Karrass--Solitar dihedral alternative, or an interruption for `FJ02` source conventions? Tracked as `OQ-061`.
 
 ## Established results
 
@@ -172,15 +173,17 @@ The active project target is `T-001`, torsion-free one-relator residual gap anal
 - Module `FJ37` audits the post-\(G_{p,q}\) residual, defers exact rank computation for \(K_{p,q}\), and selects beyond-Brown `RB-004` source selection as the next target.
 - Module `FJ38` selects the BNS/Bieri--Renz/Bieri/Karrass--Solitar normal-subgroup source cluster for beyond-Brown `RB-004` work and assigns exact hypothesis verification to `FJ39`.
 - Module `FJ39` verifies Karrass--Solitar (1978) as a finitely presented normal-subgroup bridge, keeps BNS direct theorem use open, and records no residual subtraction.
+- Module `FJ40` audits source-ready finitely presented-kernel candidates for `RB-004`, selects no new non-Brown example, records no residual subtraction, and closes the module portion of cycle 002.
 
 ## Selected target
 
 `T-001`: torsion-free one-relator residual gap analysis.
 
-The next mathematical cycle should identify which torsion-free one-relator
-groups remain after subtracting the verified hyperbolic, finite-dimensional
-CAT(0), virtually solvable, hyperbolic-by-cyclic/free-by-cyclic, and
-source-verified inheritance routes.
+Cycle 002 identified which parts of the torsion-free one-relator target are
+removed by verified hyperbolic, finite-dimensional CAT(0), virtually
+solvable, hyperbolic-by-cyclic/free-by-cyclic, and source-verified inheritance
+routes. The cycle-002 reflection should decide the next module-cycle
+direction.
 
 Current source toolkit:
 
@@ -219,6 +222,9 @@ Current source toolkit:
 - finitely presented-kernel bridge: `FJ39` verifies Karrass--Solitar (1978)
   under the hypothesis of a nontrivial finitely presented normal subgroup of
   infinite index;
+- finitely presented-kernel test selection: `FJ40` records that no new
+  non-Brown `RB-004` candidate with a source-ready finitely presented kernel
+  is currently available inside the repository;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -226,4 +232,4 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ40`, finitely presented-kernel test selection for `RB-004`.
+Write `reflections/cycle_002_reflection.md`.
