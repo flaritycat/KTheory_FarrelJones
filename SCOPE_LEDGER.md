@@ -85,8 +85,9 @@ Unless explicitly imported later:
 37. Which part of the `T-001` residual is removed by the hyperbolic-by-cyclic/free-by-cyclic route? First-pass resolved by `FJ26`.
 38. Which one-relator source should the project verify for recognizing finite-rank free kernels over \(\mathbb Z\)?
 39. Which source-verified inheritance routes remove additional cases from the remaining `T-001` residual? First-pass resolved by `FJ27`.
-40. What is the conservative `T-001` residual ledger after subtracting the named routes and version-aware inheritance routes?
+40. What is the conservative `T-001` residual ledger after subtracting the named routes and version-aware inheritance routes? First-pass resolved by `FJ28`.
 41. Which concrete surviving one-relator subclasses should become the next attack surface?
+42. Which source should be checked first for the selected residual bucket?
 
 ## Established results
 
@@ -139,6 +140,7 @@ The active project target is `T-001`, torsion-free one-relator residual gap anal
 - Module `FJ25` records the first-pass virtually solvable-route subtraction for `T-001`, subtracting only groups with a source-verified or internally proved virtual-solvability bridge and rejecting local indicability, abelianization data, and HNN hierarchy structure as insufficient by themselves.
 - Module `FJ26` records the first-pass hyperbolic-by-cyclic/free-by-cyclic route subtraction for `T-001`, subtracting only groups with a source-verified mapping-torus bridge or finite-rank free-by-cyclic bridge and rejecting bare epimorphisms to \(\mathbb Z\), HNN splittings, and hierarchy data as insufficient by themselves.
 - Module `FJ27` records the first-pass source-verified inheritance-route subtraction for `T-001`, subtracting only groups with exact inheritance bridges and preserving the distinction between coefficient K-theory rows, K-theory directed-colimit rows, and full \(\mathcal{FJ}\) survey rows.
+- Module `FJ28` records the first-pass conservative residual ledger for `T-001`, creating `ledgers/t001_residual.md` and organizing unremoved project-state cases into source-recognition buckets rather than negative Farrell--Jones classes.
 
 ## Selected target
 
@@ -158,6 +160,7 @@ Current source toolkit:
   finite-dimensional CAT(0) route in `FJ24`, and virtually solvable route in
   `FJ25`, hyperbolic-by-cyclic/free-by-cyclic route in `FJ26`, and
   version-aware inheritance route in `FJ27`;
+- residual ledger: `ledgers/t001_residual.md`, created by `FJ28`;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -165,5 +168,4 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ28`, residual ledger after named and inheritance route subtractions
-for `T-001`.
+Begin `FJ29`, concrete residual attack-surface selection for `T-001`.

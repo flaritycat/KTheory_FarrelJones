@@ -328,11 +328,27 @@ the version flag. It keeps coefficient K-theory inheritance rows,
 K-theory directed-colimit rows, and full \(\mathcal{FJ}\) survey rows
 separate.
 
-The next module is `FJ28`, residual ledger after named and inheritance
-route subtractions for `T-001`. Its task is to assemble the conservative
-remaining attack surface after `FJ23`--`FJ27`, without reclassifying
-groups as unsolved merely because the project has not yet recorded a
-bridge.
+The next step after `FJ27` was `FJ28`, residual ledger after named and
+inheritance route subtractions for `T-001`. Its task was to assemble the
+conservative remaining attack surface after `FJ23`--`FJ27`, without
+reclassifying groups as unsolved merely because the project has not yet
+recorded a bridge.
+
+Current status: `FJ28`, residual ledger after named and inheritance
+route subtractions for `T-001`, has first-pass coverage. It creates
+`ledgers/t001_residual.md`, records the cases removed by the named
+routes and version-aware inheritance rows, and organizes the unremoved
+project-state residual into source-recognition buckets. It explicitly
+records that the residual is not a class of counterexamples or negative
+Farrell--Jones results.
+
+The next module is `FJ29`, concrete residual attack-surface selection
+for `T-001`. Its task is to choose one residual bucket from `FJ28` for
+the next source-verification or reduction attempt, with finite-rank
+free-kernel recognition, finite-index/virtually compact special
+handling, compact-special/CAT(0) cases beyond hyperbolicity, virtually
+solvable recognition, and hierarchy-to-route extraction as candidate
+directions.
 
 ## GitHub persistence policy
 

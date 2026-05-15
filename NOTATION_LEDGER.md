@@ -108,6 +108,9 @@
 | inheritance-route subtraction | project bookkeeping step removing a one-relator group from `T-001` once an exact source-verified inheritance bridge is recorded | active term | FJ27 | Version flags must be preserved; this is not a generic closure slogan. |
 | coefficient K-theory inheritance route | inheritance route using a source statement for K-theoretic Farrell--Jones with coefficients in additive categories | active term | FJ27 | Based on FJ12 rows from Bartels--Reich and Bartels--Echterhoff--Lueck. |
 | full \(\mathcal{FJ}\) inheritance route | inheritance route using Lueck's source-specific full Farrell--Jones class \(\mathcal{FJ}\) | active term | FJ27 | Recorded as source-level full \(\mathcal{FJ}\), not silently relabeled as the simplified ring-coefficient formulation. |
+| `T-001` residual | project-state collection of torsion-free one-relator cases not yet removed by recorded route bridges | active term | FJ28 | Not a negative theorem and not a class of counterexamples. |
+| residual bucket | bookkeeping category for `T-001` cases sharing the same missing bridge or source-recognition problem | active term | FJ28 | Used in `ledgers/t001_residual.md`. |
+| attack-surface candidate | residual bucket specific enough to support a source search or reduction attempt | active term | FJ28 | `FJ29` should select one candidate. |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |
 | \(\mathcal{All}(G)\) | family of all subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{All}}G\) is modeled by \(\mathrm{pt}\). |

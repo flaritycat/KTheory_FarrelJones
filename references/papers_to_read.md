@@ -64,10 +64,12 @@
 10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: found; verify before using BNS/free-by-cyclic splitting arguments; named in `FJ26` only as a future kernel-recognition source.
 11. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: found; verify before using negative-immersion or primitivity-rank routes.
 
-Next one-relator reading task: for `FJ28`, assemble the conservative residual
-ledger after named and inheritance route subtractions using `FJ19`--`FJ27`,
-`OPEN_QUESTIONS.md`, and `ledgers/source_status.md`. Do not treat unremoved
-cases as counterexamples or negative Farrell--Jones results.
+Next one-relator reading task: for `FJ29`, select one concrete residual attack
+surface from `ledgers/t001_residual.md` and choose the first source to verify.
+The likely source queues are Brown/BNS for finite-rank free-kernel recognition,
+one-relator cubulation or specialness sources for CAT(0)/compact-special
+residual cases, and a classification or recognition source for virtually
+solvable one-relator cases.
 
 ## Reading protocol
 
