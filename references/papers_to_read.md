@@ -30,8 +30,13 @@
 
 ## Priority 2c: CAT(0) proof technology
 
-1. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ14`; check the detailed transfer and obstruction-category arguments before `FJ17`.
+1. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ14` and `FJ15`; obstruction-category review checked, but detailed transfer arguments still need checking before `FJ17`.
 2. Bartels, A.; Lueck, W. *Geodesic flow for CAT(0)-groups*. Status: found as a proof dependency for `FJ14`; check the flow-space cover theorem before `FJ16`.
+
+## Priority 2d: controlled algebra and transfers
+
+1. Bartels, A.; Lueck, W.; Reich, H. *The K-theoretic Farrell-Jones Conjecture for hyperbolic groups*. Status: active reference for `FJ13`; obstruction-category reduction cited through Wegner in `FJ15`, but the exact proposition should be checked directly before `FJ17`.
+2. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ15`; controlled-algebra vocabulary checked, transfer construction deferred.
 
 ## Reading protocol
 

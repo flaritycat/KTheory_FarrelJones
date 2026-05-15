@@ -440,3 +440,36 @@ reducibility theorem, and the CAT(0)-group verification; Bartels--Lueck
 Before `FJ16`--`FJ17` use flow spaces or transfers in detail, identify
 the exact lemmas needed from Wegner and Bartels--Lueck and record their
 hypotheses in the bibliography and source-status ledger.
+
+## OQ-018. Which obstruction-category source should become canonical?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ15` uses Wegner's obstruction-category review as the active
+first-pass source because it directly supports the CAT(0) proof
+skeleton in `FJ14`. Wegner cites Bartels--Lueck--Reich for the
+obstruction-category reduction, and the source notation differs across
+the proof papers.
+
+### Relevant modules
+
+- FJ13
+- FJ15
+- FJ17
+- FJ02
+
+### Dependencies
+
+Wegner (2012), Bartels--Lueck--Reich (2008), and whichever primary
+controlled-algebra source is selected for continuous-control
+conditions.
+
+### Next action
+
+Before `FJ17` uses obstruction categories proof-sensitively, choose a
+canonical source and record the exact notation, hypotheses, and
+comparison with Wegner's notation.

@@ -150,10 +150,16 @@ through strong transfer reducibility, the role of strong homotopy
 actions and CAT(0) flow-space covers, and a comparison with the
 hyperbolic proof skeleton from `FJ13`.
 
-Current status: `FJ15`, the controlled topology primer, is the next
-target. It should introduce only the controlled-topology vocabulary
-needed to read the obstruction-category, cover, and transfer arguments
-in `FJ13` and `FJ14`.
+Current status: `FJ15`, the controlled topology primer, has first-pass
+coverage as a controlled-algebra vocabulary bridge. It explains control
+spaces, obstruction categories, controlled morphisms, the gain-control
+strategy, and the reason the source proofs replace the point by metric
+spaces. It explicitly leaves controlled h-cobordism and proof-level
+obstruction-category vanishing outside the active scope.
+
+Current status: `FJ16`, the flow spaces primer, is the next target. It
+should explain only the flow-space and wide-cover vocabulary needed to
+read the hyperbolic and CAT(0) proof skeletons.
 
 ## GitHub persistence policy
 
