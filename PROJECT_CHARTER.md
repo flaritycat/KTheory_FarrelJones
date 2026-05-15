@@ -157,9 +157,17 @@ strategy, and the reason the source proofs replace the point by metric
 spaces. It explicitly leaves controlled h-cobordism and proof-level
 obstruction-category vanishing outside the active scope.
 
-Current status: `FJ16`, the flow spaces primer, is the next target. It
-should explain only the flow-space and wide-cover vocabulary needed to
-read the hyperbolic and CAT(0) proof skeletons.
+Current status: `FJ16`, the flow spaces primer, has first-pass coverage.
+It explains flows, flow spaces, open \(\mathcal F\)-covers, long
+covers in the flow direction, hyperbolic equivariant covers, CAT(0)
+flow-space covers, and the way flow spaces support gain-control
+arguments. It records theorem routes but does not prove Mineyev flow
+estimates or long-cover theorems internally.
+
+Current status: `FJ17`, the transfers primer, is the next target. It
+should explain the transfer mechanism that moves the obstruction problem
+from the point into the larger controlled spaces used in `FJ15` and
+`FJ16`.
 
 ## GitHub persistence policy
 

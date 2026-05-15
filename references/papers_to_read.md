@@ -26,12 +26,13 @@
 ## Priority 2b: hyperbolic proof technology
 
 1. Bartels, A.; Lueck, W.; Reich, H. *The K-theoretic Farrell-Jones Conjecture for hyperbolic groups*. Status: active reference for `FJ13`; proof outline, axiomatic theorem, and Section 2 checked.
-2. Bartels, A.; Lueck, W.; Reich, H. *Equivariant covers for hyperbolic groups*. Status: found; check Theorem 1.2 before `FJ16` uses wide covers.
+2. Bartels, A.; Lueck, W.; Reich, H. *Equivariant covers for hyperbolic groups*. Status: active reference for `FJ16`; theorem statement and flow-space route checked, detailed proof still deferred.
+3. Mineyev, I. *Flows and joins of metric spaces*. Status: found; check the flow-space construction and estimates before using the hyperbolic flow estimates proof-sensitively.
 
 ## Priority 2c: CAT(0) proof technology
 
 1. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ14` and `FJ15`; obstruction-category review checked, but detailed transfer arguments still need checking before `FJ17`.
-2. Bartels, A.; Lueck, W. *Geodesic flow for CAT(0)-groups*. Status: found as a proof dependency for `FJ14`; check the flow-space cover theorem before `FJ16`.
+2. Bartels, A.; Lueck, W. *Geodesic flow for CAT(0)-groups*. Status: active reference for `FJ16`; flow-space definition and cover-route statements checked, detailed transfer use deferred.
 
 ## Priority 2d: controlled algebra and transfers
 

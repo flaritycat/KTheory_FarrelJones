@@ -404,9 +404,11 @@ Bartels--Lueck--Reich (2008), especially the Main Theorem, Theorem
 
 ### Next action
 
-Before `FJ15`--`FJ17` use any of the proof mechanisms in detail,
-choose which dependencies to check directly and record their exact
-hypotheses in the bibliography and source-status ledger.
+Before `FJ17` uses any of the proof mechanisms in detail, choose which
+dependencies to check directly and record their exact hypotheses in the
+bibliography and source-status ledger. `FJ16` checked the equivariant
+cover theorem statement and flow-space architecture, but not the
+complete proof.
 
 ## OQ-017. Which CAT(0) proof dependencies need direct checking?
 
@@ -437,9 +439,11 @@ reducibility theorem, and the CAT(0)-group verification; Bartels--Lueck
 
 ### Next action
 
-Before `FJ16`--`FJ17` use flow spaces or transfers in detail, identify
-the exact lemmas needed from Wegner and Bartels--Lueck and record their
-hypotheses in the bibliography and source-status ledger.
+Before `FJ17` uses flow spaces or transfers in detail, identify the
+exact lemmas needed from Wegner and Bartels--Lueck and record their
+hypotheses in the bibliography and source-status ledger. `FJ16` checked
+the flow-space definition and main cover-route statements, but not the
+complete cover proofs.
 
 ## OQ-018. Which obstruction-category source should become canonical?
 
@@ -473,3 +477,33 @@ conditions.
 Before `FJ17` uses obstruction categories proof-sensitively, choose a
 canonical source and record the exact notation, hypotheses, and
 comparison with Wegner's notation.
+
+## OQ-019. Which Mineyev flow-space results need direct checking?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ16` records the hyperbolic flow-space route through
+Bartels--Lueck--Reich. That source uses Mineyev's flow space and flow
+estimates for hyperbolic complexes. FJ16 did not directly verify
+Mineyev's construction.
+
+### Relevant modules
+
+- FJ13
+- FJ16
+- FJ17
+
+### Dependencies
+
+Mineyev (2005), especially the flow-space construction and estimates
+cited by Bartels--Lueck--Reich.
+
+### Next action
+
+Before using the hyperbolic flow estimates proof-sensitively, identify
+the exact Mineyev statements imported by Bartels--Lueck--Reich and
+record their hypotheses in the bibliography and source-status ledger.

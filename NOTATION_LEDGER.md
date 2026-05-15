@@ -42,6 +42,13 @@
 | \(\Psi\) | strong homotopy action | source-level active | FJ14 | Used because closed CAT(0) balls are not generally honest \(G\)-spaces. |
 | \(\int_G\mathcal A\) | additive category/group-action construction appearing in Wegner's target \(K_m(\int_G\mathcal A)\) | source-level flag | FJ14 | Internal additive-category foundations remain deferred to FJ02. |
 | \(\mathcal O^G(E_{\mathcal F}G,\mathrm{pt};\mathcal A)\) | obstruction category for the assembly map in the controlled proof route | source-level flag | FJ14 | Located as proof technology; not internally developed yet. |
+| \(FS(X)\) | flow space associated to a metric, CAT(0), or hyperbolic space \(X\), depending on source context | source-level active | FJ16 | For CAT(0) sources, elements are generalized geodesics. For hyperbolic sources, the construction is Mineyev-style and remains source-level. |
+| \(\Phi_\tau\) | time-\(\tau\) map of a flow | source-level active | FJ16 | In CAT(0) flow space, \(\Phi_\tau(c)(t)=c(t+\tau)\). |
+| \(\Phi_I(z)\) | flow segment \(\{\Phi_t(z):t\in I\}\) | source-level active | FJ16 | Used in long-cover conditions. |
+| \(FS^\mathbb R\) | fixed-point set of the flow | source-level active | FJ16 | In CAT(0) flow spaces, this includes constant generalized geodesics. |
+| \(\operatorname{per}^G_\Phi(z)\) | \(G\)-period of a point in a flow space | source-level active | FJ16 | Infimum of positive flow times returning to the \(G\)-orbit. |
+| \(FS_{\leq\gamma}\), \(FS_{>\gamma}\) | subsets of the flow space with \(G\)-period at most or greater than \(\gamma\) | source-level active | FJ16 | Used in periodic-flow-line cover statements. |
+| \(j:G\times\overline X\to FS(X)\) | hyperbolic source map into a flow space | source-level flag | FJ16 | Used in Bartels--Lueck--Reich's flow estimate; construction not reproduced. |
 | \((Y,d_Y)\) | metric control space with isometric \(G\)-action | source-level active | FJ15 | Used in Wegner's obstruction-category review. |
 | \(G\times X\times Y\times [1,\infty)\) | index space for objects and morphisms in Wegner's obstruction category | source-level active | FJ15 | Records group, family-space, metric-control, and continuous-control directions. |
 | \(\mathcal O^G(X,(Y,d_Y);\mathcal A)\) | obstruction category over a \(G\)-space \(X\) and metric control space \(Y\) | source-level active | FJ15 | General form of the obstruction-category notation used in Wegner. |
