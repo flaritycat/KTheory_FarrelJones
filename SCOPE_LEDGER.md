@@ -70,6 +70,9 @@ Unless explicitly imported later:
 23. Which Artin-group subclasses remain outside the `FJ18` verified ledger?
 24. Which source should reconcile `FJCw`, `FICwF`, and the project's simplified K-theory formulation?
 25. Can Wu's clique-reduction route isolate a tractable Artin target not already covered by the verified rows?
+26. Is there a global K-theoretic Farrell--Jones theorem for all torsion-free one-relator groups in a weaker formulation than Full Farrell--Jones?
+27. Which one-relator structure theorem should become the canonical reduction tool if one-relator groups become the first serious target?
+28. Which torsion-free one-relator groups survive after subtracting hyperbolic, finite-dimensional CAT(0), virtually solvable, and hyperbolic-by-cyclic routes?
 
 ## Established results
 
@@ -84,6 +87,7 @@ Unless explicitly imported later:
 - ER-009: First source-verified known Farrell--Jones classes: hyperbolic groups, finite-dimensional CAT(0)-groups, and virtually solvable groups, with version flags and first-pass proof-route maps for hyperbolic and CAT(0)-groups.
 - ER-010: First source-verified inheritance-properties ledger, separating coefficient K-theory inheritance from survey-level closure properties of Lueck's full \(\mathcal{FJ}\) class.
 - ER-011: First source-verified Artin-group Farrell--Jones subclass ledger, recording FC-type Artin groups, even FC-type Artin groups, RAAG-related semidirect products, Wu's even-Artin clique and join constructions, and Roushon's listed finite real, complex, and affine types under exact source hypotheses.
+- ER-012: First source-verified one-relator-group Farrell--Jones status ledger, recording conditional routes through hyperbolic, finite-dimensional CAT(0), virtually solvable, and hyperbolic-by-cyclic classes, while keeping the global torsion-free one-relator class unresolved inside the project.
 
 ## Current scope
 
@@ -109,7 +113,8 @@ The active mathematical scope is the simplified K-theoretic Farrell--Jones conje
 - Module `FJ16` records a flow-spaces primer: flows, flow spaces, open \(\mathcal F\)-covers, long covers in the flow direction, hyperbolic equivariant covers, and CAT(0) flow-space covers.
 - Module `FJ17` records a transfers primer: transfer maps, strong homotopy actions, strong transfer reducibility, contracting transfers, and the projection identity that lets transferred control information return to the original obstruction class.
 - Module `FJ18` records an Artin groups dossier: source-verified Farrell--Jones subclass rows, method routes through Helly groups and normally poly-free groups, Roushon's corrected finite/affine/complex-type list, and remaining Artin-gap questions.
+- Module `FJ19` records a torsion-free one-relator groups dossier: a source-verified warning that the global class remains open for Full Farrell--Jones, the structural local-indicability theorem, verified conditional routes through known classes, and the remaining one-relator target-selection questions.
 
 ## Next mathematical move
 
-Proceed to module `FJ19`: the one-relator groups dossier, using source discipline to separate known Farrell--Jones subclasses, inherited cases, and unresolved or unverified gaps.
+Proceed to module `FJ20`: first target selection, comparing the Artin-group gaps from `FJ18` with the one-relator-group gaps from `FJ19`.

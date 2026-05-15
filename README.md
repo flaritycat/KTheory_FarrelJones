@@ -17,9 +17,9 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_001`
 - First milestone: modules `FJ01`--`FJ07`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, and `FJ18`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, and `FJ19`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
-- Current primary target: `FJ19`, the one-relator groups dossier, using the known-cases and inheritance ledgers to separate verified known subclasses from open or unverified cases.
+- Current primary target: `FJ20`, first target selection, comparing the Artin-group gaps from `FJ18` with the torsion-free one-relator gaps from `FJ19`.
 
 ## Current established results
 
@@ -34,6 +34,7 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - `ER-009`: first source-verified known classes: hyperbolic groups, finite-dimensional CAT(0)-groups, and virtually solvable groups, with version flags and first-pass proof-route maps for hyperbolic and CAT(0)-groups.
 - `ER-010`: first source-verified inheritance-properties ledger, separating coefficient K-theory inheritance from survey-level full \(\mathcal{FJ}\) closure properties.
 - `ER-011`: first source-verified Artin-group Farrell--Jones subclass ledger, including FC-type Artin groups, even FC-type Artin groups, RAAG-related semidirect products, Wu's even-Artin clique and join constructions, and Roushon's listed finite real, complex, and affine types, all only under their source hypotheses.
+- `ER-012`: first source-verified one-relator-group Farrell--Jones status ledger, including conditional routes through hyperbolic, finite-dimensional CAT(0), virtually solvable, and hyperbolic-by-cyclic classes, while keeping the global torsion-free one-relator class unresolved inside the project.
 
 See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, and source status.
 
@@ -54,6 +55,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ16` is a flow-spaces primer for hyperbolic and CAT(0) proof technology; it records cover theorem routes but does not prove Mineyev flow estimates or long-cover theorems internally.
 - `FJ17` is a transfers primer; it records the source-level transfer diagrams and strong-transfer-reducibility route, but it does not reconstruct the Waldhausen/Karoubi machinery, stability theorem, or obstruction-category vanishing proofs internally.
 - `FJ18` is an Artin groups dossier; it records source-verified subclasses and method routes, but it does not claim the Farrell--Jones conjecture for all Artin groups.
+- `FJ19` is a one-relator groups dossier; it records source-verified conditional routes and the Brodskii--Howie local-indicability structure theorem, but it does not claim Farrell--Jones for all torsion-free one-relator groups.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 

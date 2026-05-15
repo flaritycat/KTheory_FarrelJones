@@ -23,9 +23,8 @@ Known-cases ledger and inheritance-properties ledger.
 
 ### Next action
 
-`FJ18` has produced the Artin-group table. Defer final target selection
-until `FJ19` has produced the one-relator group table and `FJ20` compares
-the candidate targets.
+`FJ18` has produced the Artin-group table and `FJ19` has produced the
+one-relator group table. Use `FJ20` to compare the candidate targets.
 
 ## OQ-002. Which source should serve as the main reference for the modern Farrell--Jones statement?
 
@@ -338,9 +337,10 @@ group subclasses.
 
 ### Next action
 
-`FJ18` has added Artin-group subclass rows. After `FJ19`, choose the
-next known-case expansion based on which inheritance properties are most
-useful for the target-selection module.
+`FJ18` has added Artin-group subclass rows and `FJ19` has added
+one-relator-relevant conditional routes. Use `FJ20` to decide whether
+the next known-case expansion should support Artin groups, one-relator
+groups, or a different target class.
 
 ## OQ-015. Which inheritance rows need primary-source tracing?
 
@@ -638,3 +638,87 @@ analysis.
 
 Do not pursue until after `FJ19` and `FJ20` decide whether the first
 target should remain Artin-related or move to one-relator groups.
+
+## OQ-024. Is there a global K-theoretic Farrell--Jones theorem for all torsion-free one-relator groups in a weaker formulation?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ19` verified that Lueck (2025) lists torsion-free one-relator groups
+as open in general for the Full Farrell--Jones Conjecture. This does
+not by itself rule out a weaker K-theoretic theorem in the literature,
+but no such global theorem has been recorded in the repository.
+
+### Relevant modules
+
+- FJ19
+- FJ20+
+
+### Dependencies
+
+One-relator literature and modern Farrell--Jones formulation sources.
+
+### Next action
+
+During target selection, decide whether this question should be pursued
+directly or deferred in favor of a more concrete subclass.
+
+## OQ-025. Which one-relator structure theorem should become the canonical reduction tool?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ19` records local indicability of torsion-free one-relator groups, but
+local indicability alone is not a Farrell--Jones proof route. Future work
+needs a source-verified structural framework, such as Magnus hierarchy,
+HNN splittings, Brodskii--Howie local indicability, or a modern hierarchy
+source, before attempting reductions.
+
+### Relevant modules
+
+- FJ19
+- FJ20+
+
+### Dependencies
+
+Howie (2000), one-relator hierarchy literature, and the inheritance
+ledger.
+
+### Next action
+
+If `FJ20` selects one-relator groups as the first target, choose a
+canonical structure source before writing proof attempts.
+
+## OQ-026. Which torsion-free one-relator groups survive after subtracting known routes?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ19` records verified routes through hyperbolic groups,
+finite-dimensional CAT(0)-groups, virtually solvable groups, and
+hyperbolic-by-cyclic groups. The target-selection question is to
+identify examples or subclasses not already covered by these routes.
+
+### Relevant modules
+
+- FJ19
+- FJ20
+
+### Dependencies
+
+`ledgers/known_classes.md`, `ledgers/open_group_classes.md`, and future
+one-relator subclass checks.
+
+### Next action
+
+Use `FJ20` to compare surviving one-relator cases against the remaining
+Artin-group gaps.

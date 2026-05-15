@@ -457,3 +457,56 @@ Source-verified from Huang and Osajda (2021), Brueck, Kielak, and Wu
 (2021), Wu (2022), Roushon (2021), Roushon's erratum (2022), and
 Roushon's corrigendum (2024), as recorded in `FJ18`,
 `BIBLIOGRAPHY.md`, and `ledgers/source_status.md`.
+
+## ER-012. First source-verified one-relator-group Farrell--Jones status ledger
+
+### Status
+
+Source-verified literature status ledger.
+
+### Statement
+
+The project records the following first-pass one-relator-group status
+information:
+
+- The global class of torsion-free one-relator groups is not recorded as
+  a known Farrell--Jones case in this project. Lueck (2025) lists
+  torsion-free one-relator groups among classes for which the Full
+  Farrell--Jones Conjecture is open in general.
+- Torsion-free one-relator groups are locally indicable by Brodskii's
+  theorem as presented by Howie (2000). This is a structural theorem,
+  not a Farrell--Jones theorem.
+- A one-relator group that is independently known to be hyperbolic,
+  finite-dimensional CAT(0), or virtually solvable is covered by the
+  corresponding rows of `ER-009`.
+- A one-relator group that is independently known to be of the form
+  \(H\rtimes_\Phi\mathbb Z\), with \(H\) virtually torsion-free
+  hyperbolic, is covered by Bestvina--Fujiwara--Wigglesworth's
+  hyperbolic-by-cyclic theorem in its source formulation.
+
+### Proof location
+
+`modules/cycle_001/FJ19_one_relator_groups_dossier.md`
+
+Ledger tables:
+
+`ledgers/known_classes.md`
+
+`ledgers/open_group_classes.md`
+
+### Assumptions
+
+- "Full Farrell--Jones" and \(\mathcal{FJ}\) are used in Lueck's
+  source-specific sense; this is stronger than the simplified
+  ring-coefficient formulation in `FJ01`.
+- The project has not reconciled all source-level coefficient and finite
+  wreath product conventions with its internal simplified formulation;
+  see `OQ-022`.
+- The conditional subclass routes require independent verification that
+  the group under study belongs to the relevant class.
+
+### Source status
+
+Source-verified from Lueck (2025), Bestvina, Fujiwara, and Wigglesworth
+(2023), and Howie (2000). Newman (1968) is recorded as background for
+the torsion one-relator contrast, not as a Farrell--Jones theorem source.

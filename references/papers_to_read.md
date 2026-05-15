@@ -49,6 +49,14 @@
 5. Roushon, S. K. *Erratum: A certain structure of Artin groups and the isomorphism conjecture*. Status: active reference for `FJ18`; bibliographic correction recorded.
 6. Roushon, S. K. *Corrigendum: A certain structure of Artin groups and the isomorphism conjecture*. Status: active reference for `FJ18`; corrected \(\widetilde B_n\) route checked.
 
+## Priority 2f: one-relator groups
+
+1. Lueck, W. *Survey on the Farrell-Jones Conjecture*. Status: active reference for `FJ19`; Section 11 checked for the open-status warning about torsion-free one-relator groups and locally indicable groups in the Full Farrell--Jones formulation.
+2. Bestvina, M.; Fujiwara, K.; Wigglesworth, D. *The Farrell-Jones conjecture for hyperbolic-by-cyclic groups*. Status: active reference for `FJ19`; main theorem, coefficient convention, and extension theorem checked at first-pass level.
+3. Howie, J. *A short proof of a theorem of Brodskii*. Status: active reference for `FJ19`; used for local indicability of torsion-free one-relator groups.
+4. Newman, B. B. *Some results on one-relator groups*. Status: background only for `FJ19`; recorded for torsion one-relator contrast.
+5. One-relator hierarchy and HNN-splitting sources. Status: to identify; needed only if `FJ20` selects one-relator groups as the first serious target.
+
 ## Reading protocol
 
 For each source, record:

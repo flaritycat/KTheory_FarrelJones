@@ -3,7 +3,8 @@
 ## Status
 
 First-pass source-verified table started in `FJ11` and extended for
-Artin-group subclasses in `FJ18`.
+Artin-group subclasses in `FJ18` and one-relator-relevant routes in
+`FJ19`.
 
 This ledger records known Farrell--Jones cases only after a theorem
 statement has been checked. A row is usable only under its stated
@@ -12,6 +13,7 @@ hypotheses and version flags.
 | Group class | K-theory? | L-theory? | Coefficients? | Reference | Source status | Notes |
 |---|---|---|---|---|---|---|
 | Hyperbolic groups | yes, all degrees | yes, all degrees | additive categories | Bartels--Lueck--Reich (2008); Bartels--Lueck (2012) | source-verified for FJ11; proof skeleton expanded in FJ13 | K-theory all degrees from Bartels--Lueck--Reich; L-theory with coefficients from Bartels--Lueck's class \(\mathcal B\). |
+| Hyperbolic-by-cyclic groups \(H\rtimes_\Phi\mathbb Z\), with \(H\) virtually torsion-free hyperbolic | yes, source formulation | yes, source formulation | additive categories | Bestvina--Fujiwara--Wigglesworth (2023) | source-verified for FJ19 | Main theorem covers mapping tori of automorphisms of virtually torsion-free hyperbolic groups. Includes finite-rank free-by-cyclic groups; relevant to one-relator groups only when the group is independently identified as such. |
 | Finite-dimensional CAT(0)-groups | yes, all degrees | yes, all degrees | additive categories | Wegner (2012); Bartels--Lueck (2012) | source-verified for FJ11; proof skeleton expanded in FJ14 | Wegner supplies full K-theory through strong transfer reducibility; Bartels--Lueck supplies L-theory for groups acting properly, cocompactly, and isometrically on finite-dimensional CAT(0)-spaces. |
 | Virtually solvable groups | yes, all degrees | yes, all degrees | additive categories | Wegner (2015) | source-verified for FJ11 | Main theorem states K- and L-theoretic Farrell--Jones with coefficients in additive categories with respect to \(\mathcal{VCyc}\). |
 | Artin groups of FC-type | source says Farrell--Jones with finite wreath products | source says Farrell--Jones with finite wreath products | source-level finite wreath product formulation | Huang--Osajda (2021) | source-verified for FJ18 | Huang--Osajda prove FC-type Artin groups are Helly and record Farrell--Jones with finite wreath products as a corollary. Internal Helly proof details are not reconstructed. |
@@ -30,8 +32,15 @@ not yet record them as source-verified known cases:
 - lattices in Lie groups;
 - S-arithmetic groups;
 - relatively hyperbolic groups;
-- one-relator group subclasses.
+- additional one-relator group subclasses not covered by the conditional
+  routes recorded in `FJ19`.
 
 The global class of all Artin groups is not recorded here as a known
 Farrell--Jones case. `FJ18` records only the listed subclasses and
 source-specific reduction routes.
+
+The global class of all torsion-free one-relator groups is not recorded
+here as a known Farrell--Jones case. `FJ19` records conditional routes
+through hyperbolic, finite-dimensional CAT(0), virtually solvable, and
+hyperbolic-by-cyclic classes, and records Lueck's 2025 open-status warning
+for the Full Farrell--Jones Conjecture.

@@ -71,6 +71,10 @@
 | FC-type | Artin-group condition: clique subgroups \(A_T\) are of spherical type | source-level active | FJ18 | Source convention from the Artin literature; exact formulation checked in Wu and used by Huang--Osajda. |
 | FJCw | K- and L-theoretic Farrell--Jones conjecture with finite wreath products and coefficients in additive categories | source-level flag | FJ18 | Used by Brueck--Kielak--Wu and Wu. Internal additive-category foundations remain deferred to FJ02. |
 | FICwF | Roushon's isomorphism-conjecture-with-finite-wreath-products notation | source-level flag | FJ18 | Roushon applies it to K-, L-, and A-theories with coefficients; reconcile before proof-level internal use. |
+| \(\langle X\mid r\rangle\) | one-relator presentation with generators \(X\) and one defining relator \(r\) | active | FJ19 | Used for one-relator groups; finite generation requires \(X\) finite. |
+| locally indicable | every nontrivial finitely generated subgroup surjects onto \(\mathbb Z\) | active term | FJ19 | Structural property of torsion-free one-relator groups by Brodskii--Howie; not itself a Farrell--Jones theorem. |
+| \(H_\Phi=H\rtimes_\Phi\mathbb Z\) | mapping torus of an automorphism \(\Phi\colon H\to H\) | active | FJ19 | Used for hyperbolic-by-cyclic and free-by-cyclic routes. |
+| free-by-cyclic | group of the form \(F\rtimes_\Phi\mathbb Z\), with \(F\) free | active term | FJ19 | Covered by the hyperbolic-by-cyclic route when \(F\) has finite rank; broader countable-free extension rows are survey-level unless primary-source traced. |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |
 | \(\mathcal{All}(G)\) | family of all subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{All}}G\) is modeled by \(\mathrm{pt}\). |

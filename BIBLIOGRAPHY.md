@@ -70,4 +70,12 @@
 
 - Bartels, A., & Reich, H. (2007). Coefficients for the Farrell-Jones conjecture. *Advances in Mathematics, 209*(1), 337--362. https://doi.org/10.1016/j.aim.2006.05.004. Status: `active reference for FJ12; partially read overall`. Notes: Section 4 checked in `FJ12` for the pullback family \(\Phi^*\mathcal F\), pullback inheritance, and subgroup inheritance for the K-theoretic Farrell--Jones conjecture with coefficients in additive categories.
 
-- Lueck, W. (2025). *Survey on the Farrell-Jones conjecture* (arXiv:2507.11337). arXiv. https://arxiv.org/abs/2507.11337. Status: `active reference for FJ12; partially read overall`. Notes: Section 8 checked in `FJ12` for the source-specific full class \(\mathcal{FJ}\) and the survey-level inheritance list.
+- Lueck, W. (2025). *Survey on the Farrell-Jones conjecture* (arXiv:2507.11337). arXiv. https://arxiv.org/abs/2507.11337. Status: `active reference for FJ12 and FJ19; partially read overall`. Notes: Section 8 checked in `FJ12` for the source-specific full class \(\mathcal{FJ}\) and the survey-level inheritance list. Section 11 checked in `FJ19` for the open-status warning that torsion-free one-relator groups and locally indicable groups are listed as open in general for the Full Farrell--Jones Conjecture.
+
+## One-relator groups and hyperbolic-by-cyclic routes
+
+- Bestvina, M., Fujiwara, K., & Wigglesworth, D. (2023). The Farrell-Jones conjecture for hyperbolic-by-cyclic groups. *International Mathematics Research Notices, 2023*(7), 5887--5904. https://doi.org/10.1093/imrn/rnac012. Status: `active reference for FJ19; partially read overall`. Notes: arXiv source checked for the additive-category coefficient convention, the main theorem for \(G\rtimes_\Phi\mathbb Z\) with \(G\) virtually torsion-free hyperbolic, and the extension theorem; includes finite-rank free-by-cyclic groups as a special case.
+
+- Howie, J. (2000). A short proof of a theorem of Brodskii. *Publicacions Matematiques, 44*(2), 613--647. http://eudml.org/doc/41412. Status: `active reference for FJ19; partially read overall`. Notes: used for the structural theorem that torsion-free one-relator groups are locally indicable; not a Farrell--Jones theorem.
+
+- Newman, B. B. (1968). Some results on one-relator groups. *Bulletin of the American Mathematical Society, 74*, 568--571. https://www.ams.org/bull/1968-74-03/S0002-9904-1968-12012-9/. Status: `background only for FJ19`. Notes: recorded for the torsion one-relator contrast and classical spelling-theorem context; not used as a Farrell--Jones theorem source in `FJ19`.

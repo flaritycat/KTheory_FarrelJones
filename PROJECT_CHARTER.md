@@ -188,10 +188,19 @@ listed finite real, complex, and affine types, always under the exact
 source hypotheses. It does not claim the Farrell--Jones conjecture for
 all Artin groups.
 
-Current status: `FJ19`, the one-relator groups dossier, is the next
-target. It should source-check known Farrell--Jones results and open
-gaps for one-relator group subclasses, without importing folklore or
-treating unverified claims as theorem inputs.
+Current status: `FJ19`, the one-relator groups dossier, has first-pass
+coverage as a source-verified status ledger. It records that the global
+class of torsion-free one-relator groups remains unresolved inside the
+project, because Lueck's 2025 survey lists it as open in general for
+Full Farrell--Jones. It also records conditional positive routes through
+hyperbolic, finite-dimensional CAT(0), virtually solvable, and
+hyperbolic-by-cyclic classes, plus the structural local-indicability
+theorem as non-Farrell--Jones input.
+
+Current status: `FJ20`, first target selection, is the next target. It
+should compare the Artin-group gaps from `FJ18` with the torsion-free
+one-relator gaps from `FJ19`, and choose a concrete next target without
+pretending that a broad open class has already been solved.
 
 ## GitHub persistence policy
 
