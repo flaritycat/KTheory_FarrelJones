@@ -118,3 +118,27 @@ A later foundations module should decide how much model-category or \(G\)-CW tec
 ### Next action
 
 Defer until the project needs a sharper technical convention.
+
+## OQ-006. Should Farrell--Jones 1995 be directly verified for the virtually cyclic dichotomy?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ04` uses Lueck--Reich's source-verified statement that an infinite virtually cyclic group maps with finite kernel either onto \(\mathbb Z\) or onto \(D_\infty\). Lueck--Reich cite Farrell--Jones 1995, Lemma 2.5, as the proof source.
+
+### Relevant modules
+
+- FJ04
+- FJ07
+- FJ11
+
+### Dependencies
+
+Access to Farrell--Jones, *The lower algebraic K-theory of virtually infinite cyclic groups*, K-Theory 9 (1995), 13--30.
+
+### Next action
+
+Before using the dichotomy in a proof-sensitive way beyond first-pass structure, directly check the original Farrell--Jones 1995 lemma or another primary source with equivalent hypotheses.

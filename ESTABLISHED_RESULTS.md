@@ -65,3 +65,34 @@ In Lueck's source formulation, a \(G\)-CW complex \(X\) is a model for \(E_{\mat
 ### Source status
 
 Source-verified from Lueck, *Survey on Classifying Spaces for Families of Subgroups*, Definition 1.8 and Theorem 1.9. The module records the source's weak-contractibility formulation rather than silently replacing it with a stronger contractibility claim.
+
+## ER-003. The virtually cyclic subgroups form a family
+
+### Status
+
+Proposition, proved inside project, using source-verified structure for context.
+
+### Statement
+
+For every group \(G\), the collection
+
+\[
+\mathcal{VCyc}(G)=\{V\leq G:V\text{ is virtually cyclic}\}
+\]
+
+is closed under conjugation and passage to subgroups. Hence \(\mathcal{VCyc}(G)\) is a family of subgroups in the project sense.
+
+The same module records the source-verified dichotomy that an infinite virtually cyclic group maps with finite kernel either onto \(\mathbb Z\) or onto \(D_\infty=\mathbb Z/2 * \mathbb Z/2\).
+
+### Proof location
+
+`modules/cycle_001/FJ04_virtually_cyclic_groups.md`
+
+### Assumptions
+
+- \(G\) is a discrete group.
+- Virtually cyclic means finite or containing an infinite cyclic subgroup of finite index.
+
+### Source status
+
+The family property is proved internally. The infinite virtually cyclic dichotomy is source-verified from Lueck--Reich, with the original proof source Farrell--Jones 1995 still marked `to verify`.

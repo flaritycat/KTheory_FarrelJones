@@ -2,6 +2,9 @@
 
 | Source | Topic | Status | Used in modules | Notes |
 |---|---|---|---|---|
+| Lueck--Reich, *The Baum-Connes and the Farrell-Jones Conjectures in K- and L-Theory* | virtually cyclic dichotomy | active reference | FJ04 | The arXiv source lemma labeled `lem: virtually cyclic` was checked for the infinite virtually cyclic type I/type II dichotomy; proof points to Farrell--Jones 1995, Lemma 2.5. |
+| Lueck--Weiermann, *On the classifying space of the family of virtually cyclic subgroups* | type I/type II virtually cyclic groups | partially read | FJ04 | arXiv source checked for type I/type II usage and the finite-amalgam orientation for type II groups. |
+| Farrell--Jones, *The lower algebraic K-theory of virtually infinite cyclic groups* | virtually infinite cyclic groups | to verify | none yet | Cited by Lueck--Reich as proof source for the dichotomy; original paper not directly checked. |
 | Lueck, *Survey on Classifying Spaces for Families of Subgroups* | classifying spaces for families | active reference | FJ03 | Definition 1.8 and Theorem 1.9 checked from arXiv source; used for terminal-object definition, existence, uniqueness up to \(G\)-homotopy, and fixed-point characterization. |
 | Farrell--Jones original paper, *Isomorphism conjectures in algebraic K-theory* | original conjecture | to verify | FJ01 | Located bibliographically; exact statement and historical context still need checking. |
 | Lück--Reich, *The Baum-Connes and the Farrell-Jones Conjectures in K- and L-Theory* | survey, assembly-map viewpoint | partially read | FJ01 | arXiv metadata checked; used only as survey-level support. Need exact section/theorem references. |

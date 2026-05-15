@@ -8,11 +8,14 @@
 | \(R[G]\) | group ring of \(G\) over \(R\) | active | FJ01 | Active notation. |
 | \(RG\) | alternative notation for \(R[G]\) | inactive alternative | FJ01 | Do not use without recording a notation change. |
 | \(K_n(R[G])\) | algebraic \(K\)-group of the group ring | active/black box | FJ01 | For all \(n\in\mathbb Z\), this requires a nonconnective model. |
+| \(\mathbb Z\) | infinite cyclic group under addition | active | FJ04 | Used to define type I virtually cyclic groups. |
+| \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |
 | \(\mathcal{All}(G)\) | family of all subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{All}}G\) is modeled by \(\mathrm{pt}\). |
 | \(\mathcal{Triv}(G)\) | family consisting only of the trivial subgroup | active | FJ03 | \(E_{\mathcal{Triv}}G\) is the usual free contractible \(G\)-CW complex \(EG\). |
 | \(\mathcal{Fin}(G)\) | family of finite subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{Fin}}G\) is often denoted \(\underline EG\). |
 | \(\mathcal{VCyc}(G)\) | family of virtually cyclic subgroups of \(G\) | active | FJ01 | Sometimes abbreviated \(\mathcal{VCyc}\) when \(G\) is clear. |
+| \(\mathcal{VCyc}_I(G)\) | finite subgroups plus infinite type I virtually cyclic subgroups of \(G\) | limited use | FJ04 | Recorded for source compatibility; the main FJ family remains \(\mathcal{VCyc}(G)\). |
 | \(E_{\mathcal F}G\) | classifying \(G\)-CW complex for the family \(\mathcal F\) | active | FJ01 | Developed further in FJ03. |
 | \(E_{\mathcal{All}}G\) | classifying space for the family of all subgroups | active | FJ03 | Modeled by \(\mathrm{pt}\). |
 | \(E_{\mathcal{Triv}}G\) | classifying space for the trivial family | active | FJ03 | Usual notation: \(EG\). |

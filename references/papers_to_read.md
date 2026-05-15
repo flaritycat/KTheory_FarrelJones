@@ -8,6 +8,11 @@
 
 4. Lueck, W. *Survey on Classifying Spaces for Families of Subgroups*. Status: active reference for `FJ03`; Definition 1.8 and Theorem 1.9 checked.
 
+## Priority 1b: virtually cyclic structure
+
+1. Lueck, W.; Weiermann, M. *On the classifying space of the family of virtually cyclic subgroups*. Status: partially read for `FJ04`.
+2. Farrell, F. T.; Jones, L. E. *The lower algebraic K-theory of virtually infinite cyclic groups*. Status: to verify; check Lemma 2.5 before using the type I/type II dichotomy in proof-sensitive work.
+
 ## Priority 2: first known cases and inheritance
 
 1. Bartels, A.; Lück, W.; Reich, H. *The K-theoretic Farrell-Jones Conjecture for hyperbolic groups*. Status: found.
