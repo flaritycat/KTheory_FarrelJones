@@ -6,8 +6,10 @@ First-pass residual ledger created in `FJ28`. First concrete attack surface
 selected in `FJ29`. Brown/BNS kernel-recognition route checked in `FJ30`.
 First Brown calibration example completed in `FJ31`. Nontrivial next Brown
 test case selected in `FJ32`. Concrete \(G_{2,3}\) route bridge completed in
-`FJ33`. The \(G_{p,q}\)-family route bridge was completed in `FJ36`, and
-`FJ37` selected beyond-Brown `RB-004` source selection as the next target.
+`FJ33`. The \(G_{p,q}\)-family route bridge was completed in `FJ36`, `FJ37`
+selected beyond-Brown `RB-004` source selection as the next target, and
+`FJ38` selected the normal-subgroup source cluster for verification in
+`FJ39`.
 
 ## Warning
 
@@ -42,7 +44,7 @@ cases not yet removed by the repository's current source-verified route data.
 
 | Candidate | Reason to consider | Main dependency risk |
 |---|---|---|
-| Finite-rank free-kernel recognition over \(\mathbb Z\) | It could turn epimorphism/HNN data into a finite-rank free-by-cyclic route | Brown/BNS or another kernel-finiteness source must be verified before theorem use |
+| Finite-rank free-kernel recognition over \(\mathbb Z\) | It could turn epimorphism/HNN data into a finite-rank free-by-cyclic route | Brown/BNS or the `FJ38` normal-subgroup source cluster must be verified before theorem use |
 | Finite-index and virtually compact special handling | It could unlock virtual-special cases not cleanly handled by the compact CAT(0) bridge | Version reconciliation between full \(\mathcal{FJ}\), coefficient K-theory, and CAT(0) route language |
 | Compact special or CAT(0) cases beyond hyperbolicity | It targets a concrete geometric bridge bucket left open by `FJ24` | Needs one-relator cubulation/specialness sources beyond the first-pass Haglund--Wise bridge |
 | Virtually solvable one-relator recognition | It could convert `FJ25` from a conditional row into a more explicit example ledger | Needs a classification or recognition source |
@@ -193,6 +195,29 @@ Outcome:
 This audit keeps the \(G_{p,q}\)-family bridge separate from any global
 kernel-recognition theorem.
 
+## FJ38 beyond-Brown source-selection update
+
+`FJ38` selects a source cluster for `RB-004` cases outside Brown's checked
+two-generator one-relator criterion.
+
+Selected for `FJ39` verification:
+
+- Bieri--Neumann--Strebel (1987), for direct BNS finite-generation context;
+- Bieri--Renz (1988), as secondary finiteness-property context;
+- Bieri (1976), for normal subgroups in duality/CD2 settings;
+- Karrass--Solitar (1978), for one-relator groups with finitely presented
+  normal subgroups.
+
+Background only at this stage:
+
+- Friedl--Tillmann (2020), Brown-adjacent two-generator marked-polytope
+  context;
+- Kielak (2020), possible later BNS/Newton-polytope context with specialized
+  hypotheses.
+
+No residual bucket is removed by `FJ38`. It selects sources; it does not
+verify theorem hypotheses or record a new free-kernel bridge.
+
 ## Next action
 
-Use `FJ38` for `RB-004` beyond-Brown source selection.
+Use `FJ39` for normal-subgroup bridge source verification for `RB-004`.

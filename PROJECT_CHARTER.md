@@ -497,11 +497,20 @@ exhaust `RB-004`: Brown's checked source route remains limited to
 compatible two-generator one-relator presentations.
 
 Current status: `FJ37` defers the exact-rank computation for \(K_{p,q}\)
-and selects `OQ-044` as the next active target. The next module is
-`FJ38`, `RB-004` beyond-Brown source selection. Its task is to identify
-or verify the next source for kernel-recognition cases outside Brown's
-checked two-generator criterion, without using any unverified theorem as
-route input.
+and selects `OQ-044` as the next active target. The next step after `FJ37`
+was `FJ38`, `RB-004` beyond-Brown source selection. Its task was to identify
+the next source or source cluster for kernel-recognition cases outside
+Brown's checked two-generator criterion, without using any unverified theorem
+as route input.
+
+Current status: `FJ38` has first-pass coverage as a source-selection module.
+It selects the Bieri--Neumann--Strebel, Bieri--Renz, Bieri, and
+Karrass--Solitar normal-subgroup source cluster for `RB-004` beyond Brown's
+checked two-generator one-relator criterion. Friedl--Tillmann and Kielak are
+recorded as background or possible later sources, not as the immediate
+beyond-Brown route. The next module is `FJ39`, normal-subgroup bridge source
+verification for `RB-004`; it must check exact theorem statements and exact
+finiteness hypotheses before any route subtraction is made.
 
 ## GitHub persistence policy
 

@@ -90,8 +90,8 @@ Unless explicitly imported later:
 42. Which source should be checked first for the selected residual bucket? First-pass resolved by `FJ29`: Brown (1987), without theorem-use status.
 43. What exact theorem in Brown (1987), if any, gives a finite-generation or finite-rank free-kernel criterion for one-relator epimorphisms to \(\mathbb Z\)? First-pass resolved by `FJ30`: Brown's Proposition 3.1, Corollary 3.2, and Theorems 4.2--4.4 give a limited two-generator recognition route.
 44. Which first two-generator one-relator presentation should be tested with Brown's criterion? First-pass resolved by `FJ31`: the commutator presentation \(\langle x,y\mid xyx^{-1}y^{-1}\rangle\) with \(\chi(x)=1\), \(\chi(y)=0\), used as a calibration example.
-45. Should the original Bieri--Neumann--Strebel normal-subgroup theorem be checked directly before broader use?
-46. Which source handles `RB-004` cases outside Brown's two-generator criterion? Tracked as `OQ-044`; selected by `FJ37` as the `FJ38` source-selection target.
+45. Should the original Bieri--Neumann--Strebel normal-subgroup theorem be checked directly before broader use? Selected for direct verification context by `FJ38`; exact use deferred to `FJ39`.
+46. Which source handles `RB-004` cases outside Brown's two-generator criterion? Tracked as `OQ-044`; first-pass resolved by `FJ38`, which selects the BNS/Bieri--Renz/Bieri/Karrass--Solitar source cluster.
 47. Which Brown test case is not already removed by the virtually solvable route? First-pass selection resolved by `FJ32`: use \(G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle\), while keeping route status unclaimed until the required bridges are verified.
 48. Which nonabelian two-generator one-relator family should be tested next? First-pass resolved by `FJ32`: the selected next case is \(G_{2,3}\) with \(\chi(x)=3\), \(\chi(y)=2\).
 49. Does \(G_{2,3}\) have a source-verified or internally proved target-status bridge for `T-001`? First-pass resolved by `FJ33`: yes, internally, via the \(F_2\rtimes\mathbb Z\) presentation and torsion-freeness check.
@@ -103,7 +103,9 @@ Unless explicitly imported later:
 55. Can Serre's *Trees* be verified in the exact Bass--Serre form needed for the \(K_{p,q}\) freeness bridge? Tracked as `OQ-053`; first-pass resolved by `FJ36` using Serre as the canonical reference with auxiliary exact source checks.
 56. Which residual `RB-004` family or subgroup should be attacked after the \(G_{p,q}\)-family route bridge? Tracked as `OQ-054`; first-pass resolved by `FJ37`, selecting `OQ-044` as the next source-selection target.
 57. Should the exact rank of \(K_{p,q}\) be computed later, or is finite rank sufficient for the route ledger? Tracked as `OQ-055`; deferred by `FJ37` because finite rank is enough for the `FJ26` route.
-58. Which concrete non-Brown `RB-004` test case should be used after a broader source is selected? Tracked as `OQ-056`.
+58. Which concrete non-Brown `RB-004` test case should be used after a broader source is selected? Tracked as `OQ-056`; deferred until `FJ39` verifies the usable hypotheses.
+59. Which exact hypotheses in Bieri (1976) and Karrass--Solitar (1978) are needed: finitely generated, finitely presented, \(\mathrm{FP}_2\), or another finiteness condition? Tracked as `OQ-057`.
+60. Does BNS (1987), without Brown's two-generator computation, give a usable finite-generation criterion for any concrete `RB-004` family already in the repository? Tracked as `OQ-058`.
 
 ## Established results
 
@@ -166,6 +168,7 @@ The active project target is `T-001`, torsion-free one-relator residual gap anal
 - Module `FJ35` selects a Bass--Serre freeness bridge, with Serre's *Trees* as the source to verify, as the conservative route from Brown finite generation to finite-rank freeness for \(K_{p,q}\).
 - Module `FJ36` verifies the Bass--Serre freeness bridge for \(K_{p,q}\), records a finite-rank free-by-cyclic bridge \(G_{p,q}\cong F_n\rtimes\mathbb Z\), and removes this family from the active `T-001` residual through `FJ26`.
 - Module `FJ37` audits the post-\(G_{p,q}\) residual, defers exact rank computation for \(K_{p,q}\), and selects beyond-Brown `RB-004` source selection as the next target.
+- Module `FJ38` selects the BNS/Bieri--Renz/Bieri/Karrass--Solitar normal-subgroup source cluster for beyond-Brown `RB-004` work and assigns exact hypothesis verification to `FJ39`.
 
 ## Selected target
 
@@ -206,6 +209,9 @@ Current source toolkit:
   free-by-cyclic route by `FJ36`;
 - post-\(G_{p,q}\) audit: `FJ37` defers exact rank computation and selects
   `OQ-044` as the next `RB-004` source-selection target;
+- beyond-Brown source cluster: `FJ38` selects Bieri--Neumann--Strebel
+  (1987), Bieri--Renz (1988), Bieri (1976), and Karrass--Solitar (1978) for
+  direct verification in `FJ39`;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -213,4 +219,4 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ38`, `RB-004` beyond-Brown source selection.
+Begin `FJ39`, normal-subgroup bridge source verification for `RB-004`.

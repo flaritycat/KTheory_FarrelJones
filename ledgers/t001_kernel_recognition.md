@@ -4,7 +4,8 @@
 
 Created in `FJ30`. First nontrivial finite-rank free-kernel bridge recorded
 in `FJ33`. The \(G_{p,q}\)-family bridge was recorded in `FJ36`; `FJ37`
-selects beyond-Brown source selection as the next kernel-recognition task.
+selected beyond-Brown source selection, and `FJ38` selected the
+normal-subgroup source cluster for verification in `FJ39`.
 
 ## Warning
 
@@ -19,7 +20,10 @@ epimorphism to \(\mathbb Z\) has finitely generated kernel.
 | Character-sphere and HNN-valuation formulation | Brown checked at first-pass level | Brown (1987), Sections 3 and 5 |
 | Kernel finite-generation criterion for a surjection \(G\to\mathbb Z\) | Brown checked at first-pass level | Brown (1987), Corollary 3.2 |
 | Two-generator one-relator computable criterion | Brown checked at first-pass level | Brown (1987), Theorems 4.2--4.4 |
-| Original BNS invariant paper | bibliographically located; direct theorem use deferred | Bieri--Neumann--Strebel (1987) |
+| Original BNS invariant paper | selected for direct verification in `FJ39` | Bieri--Neumann--Strebel (1987) |
+| Higher finiteness invariant context | selected as secondary source if stronger finiteness hypotheses arise | Bieri--Renz (1988) |
+| Normal-subgroup bridge in CD2/duality settings | selected for exact hypothesis verification | Bieri (1976) |
+| One-relator finitely presented normal-subgroup comparator | selected for exact hypothesis verification | Karrass--Solitar (1978) |
 
 ## Project-facing route criterion
 
@@ -112,12 +116,26 @@ classification, or a global theorem for all torsion-free one-relator groups.
 |---|---|---|
 | Exact rank of \(K_{p,q}\) | Deferred | finite rank already suffices for `FJ26` |
 | More \(G_{p,q}\)-style examples | Deferred | `FJ36` covers the family at route level |
-| Brown beyond two-generator criterion | Selected for `FJ38` source selection | needed before `RB-004` can move beyond the currently checked Brown setting |
+| Brown beyond two-generator criterion | Source cluster selected by `FJ38`; exact verification assigned to `FJ39` | needed before `RB-004` can move beyond the currently checked Brown setting |
 
 The next kernel-recognition task is not another computation inside the
 \(G_{p,q}\)-family. It is source selection for cases outside Brown's checked
 two-generator one-relator criterion.
 
+## FJ38 beyond-Brown source cluster
+
+| Source cluster item | Intended verification role | Current status |
+|---|---|---|
+| Bieri--Neumann--Strebel (1987) | direct BNS finite-generation or normal-subgroup criterion beyond Brown's restatement | selected; theorem statement not yet checked |
+| Bieri--Renz (1988) | higher finiteness context if the bridge needs finite presentation, \(\mathrm{FP}_2\), or stronger hypotheses | selected secondary source; theorem statement not yet checked |
+| Bieri (1976) | normal subgroups in duality groups and groups of cohomological dimension \(2\) | selected; exact hypotheses not yet checked |
+| Karrass--Solitar (1978) | one-relator groups with finitely presented normal subgroup of infinite index | selected; exact theorem form not yet checked |
+
+`FJ38` is source selection only. It does not prove that any new kernel is
+finitely generated, finitely presented, free, or finite rank. `FJ39` must
+verify the exact statements before this ledger can record any new route
+criterion.
+
 ## Next action
 
-Use `FJ38` for `RB-004` beyond-Brown source selection.
+Use `FJ39` for normal-subgroup bridge source verification for `RB-004`.
