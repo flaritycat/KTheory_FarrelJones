@@ -3,7 +3,8 @@
 ## Status
 
 Created in `FJ30`. First nontrivial finite-rank free-kernel bridge recorded
-in `FJ33`.
+in `FJ33`. The \(G_{p,q}\)-family bridge was recorded in `FJ36`; `FJ37`
+selects beyond-Brown source selection as the next kernel-recognition task.
 
 ## Warning
 
@@ -105,8 +106,18 @@ The `FJ36` bridge uses the cyclic-amalgam presentation and Bass--Serre
 vertex stabilizers. It does not use torus-knot terminology, fibered-knot
 classification, or a global theorem for all torsion-free one-relator groups.
 
+## FJ37 post-Gpq audit
+
+| Issue | Decision | Route impact |
+|---|---|---|
+| Exact rank of \(K_{p,q}\) | Deferred | finite rank already suffices for `FJ26` |
+| More \(G_{p,q}\)-style examples | Deferred | `FJ36` covers the family at route level |
+| Brown beyond two-generator criterion | Selected for `FJ38` source selection | needed before `RB-004` can move beyond the currently checked Brown setting |
+
+The next kernel-recognition task is not another computation inside the
+\(G_{p,q}\)-family. It is source selection for cases outside Brown's checked
+two-generator one-relator criterion.
+
 ## Next action
 
-Use `FJ37` to audit the residual ledger after the \(G_{p,q}\)-family
-subtraction and select the next bounded `RB-004` problem, or a different
-residual bucket if the ledger now points elsewhere.
+Use `FJ38` for `RB-004` beyond-Brown source selection.

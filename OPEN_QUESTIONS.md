@@ -830,8 +830,7 @@ hyperbolic-by-cyclic/free-by-cyclic, and inheritance route subtractions;
 kernel-recognition route, `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next target
-selection.
+Continue with `FJ38`, `RB-004` beyond-Brown source selection.
 
 ## OQ-030. Which part of T-001 is removed by the CAT(0) route?
 
@@ -872,8 +871,7 @@ has selected `RB-004` as the next attack surface. `FJ30` has verified
 Brown's limited kernel-recognition route, `FJ31` has completed a calibration
 Brown test case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed
 the worked Brown test, and `FJ34` has completed the nearby Brown family
-boundary. Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next
-target selection.
+boundary. Continue with `FJ38`, `RB-004` beyond-Brown source selection.
 
 ## OQ-031. Which part of T-001 is removed by the virtually solvable route?
 
@@ -916,8 +914,7 @@ hyperbolic-by-cyclic/free-by-cyclic and inheritance route subtractions.
 kernel-recognition route, `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next target
-selection.
+Continue with `FJ38`, `RB-004` beyond-Brown source selection.
 
 ## OQ-032. Which finite-index source should support virtually compact special route use?
 
@@ -1051,8 +1048,8 @@ ledger, `FJ29` has selected `RB-004` as the next attack surface, and `FJ30`
 has verified Brown's limited two-generator kernel-recognition route. `FJ31`
 has completed a calibration Brown test case, `FJ32` has selected
 \(G_{2,3}\), `FJ33` has completed the worked Brown test, and `FJ34` has
-completed the nearby Brown family boundary. Continue with `FJ37`,
-post-\(G_{p,q}\) residual audit and next target selection.
+completed the nearby Brown family boundary. Continue with `FJ38`, `RB-004`
+beyond-Brown source selection.
 
 ## OQ-036. Which source should recognize finite-rank free kernels over Z?
 
@@ -1092,8 +1089,7 @@ two-generator criterion.
 First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next target
-selection.
+Continue with `FJ38`, `RB-004` beyond-Brown source selection.
 
 ## OQ-037. Which inheritance routes remove additional T-001 cases?
 
@@ -1134,8 +1130,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next target
-selection.
+Continue with `FJ38`, `RB-004` beyond-Brown source selection.
 
 ## OQ-038. What remains in T-001 after the route-subtraction pass?
 
@@ -1181,8 +1176,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next target
-selection.
+Continue with `FJ38`, `RB-004` beyond-Brown source selection.
 
 ## OQ-039. Which concrete surviving one-relator subclasses should be attacked next?
 
@@ -1216,8 +1210,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next target
-selection.
+Continue with `FJ38`, `RB-004` beyond-Brown source selection.
 
 ## OQ-040. Which source should be checked first for the selected residual bucket?
 
@@ -1253,8 +1246,7 @@ First-pass resolved by `FJ29`. `FJ30` has checked Brown (1987) for exact
 statements, hypotheses, and conclusions. `FJ31` has completed a calibration
 Brown test case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed
 the worked Brown test, and `FJ34` has completed the nearby Brown family
-boundary. Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next
-target selection.
+boundary. Continue with `FJ38`, `RB-004` beyond-Brown source selection.
 
 ## OQ-041. What exact Brown/BNS theorem recognizes finite-rank kernels?
 
@@ -1289,8 +1281,7 @@ project-facing route criterion in `ledgers/t001_kernel_recognition.md`.
 First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next target
-selection.
+Continue with `FJ38`, `RB-004` beyond-Brown source selection.
 
 ## OQ-042. Which first Brown criterion test case should be used?
 
@@ -1331,8 +1322,8 @@ finite-rank free-by-cyclic route.
 
 First-pass resolved by `FJ31`. `FJ32` has selected \(G_{2,3}\), `FJ33`
 has completed the worked Brown test, and `FJ34` has completed the nearby
-Brown family boundary. Continue with `FJ37`, post-\(G_{p,q}\) residual audit
-and next target selection.
+Brown family boundary. Continue with `FJ38`, `RB-004` beyond-Brown source
+selection.
 
 ## OQ-043. Should the original BNS normal-subgroup theorem be checked directly?
 
@@ -1365,7 +1356,8 @@ Defer until the project needs normal subgroups with abelian quotient beyond
 
 ### Status
 
-Open inside project.
+Open inside project; selected by `FJ37` as the next active source-selection
+target.
 
 ### Context
 
@@ -1374,11 +1366,17 @@ presentations, but `T-001` may contain cases where no compatible
 two-generator presentation has been recorded. Those cases need either a
 presentation bridge or a separate kernel-recognition source.
 
+`FJ37` selects this question as the next target after the \(G_{p,q}\)-family
+route bridge. The reason is conservative: after `FJ36`, the project has a
+family bridge inside Brown's checked two-generator setting, but it still has
+no broader `RB-004` source for cases outside that setting.
+
 ### Relevant modules
 
 - FJ29
 - FJ30
 - FJ31
+- FJ37
 
 ### Dependencies
 
@@ -1387,9 +1385,8 @@ sources already tracked in `FJ21`--`FJ22`.
 
 ### Next action
 
-`FJ32` selected a test case still inside Brown's two-generator criterion.
-Defer broader sources until a later `RB-004` case cannot be handled by
-Brown's two-generator route.
+Use `FJ38` for `RB-004` beyond-Brown source selection. Do not use any new
+kernel-recognition theorem until exact source hypotheses have been checked.
 
 ## OQ-045. Which Brown test case is not already removed by the virtually solvable route?
 
@@ -1591,8 +1588,7 @@ source or internal proof used for the family-level kernel bridge.
 ### Next action
 
 First-pass resolved by `FJ34`; the family-level bridge is now completed by
-`FJ36`. Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next
-target selection.
+`FJ36`. Continue with `FJ38`, `RB-004` beyond-Brown source selection.
 
 ## OQ-050. Which parts of the G_{2,3} proof generalize without new sources?
 
@@ -1628,8 +1624,8 @@ or kernel-recognition source selected later.
 ### Next action
 
 First-pass resolved by `FJ34`; `FJ36` records the missing Bass--Serre bridge
-for the \(G_{p,q}\)-family. Continue with `FJ37`, post-\(G_{p,q}\) residual
-audit and next target selection.
+for the \(G_{p,q}\)-family. Continue with `FJ38`, `RB-004` beyond-Brown
+source selection.
 
 ## OQ-051. Can \(\ker(\chi_{p,q})\) be identified as finite-rank free?
 
@@ -1685,9 +1681,8 @@ cyclic vertex groups trivially. The exact rank is not computed.
 
 ### Next action
 
-First-pass resolved by `FJ36`. `FJ37` should decide whether the exact rank of
-\(K_{p,q}\) is worth computing later or whether finite rank is enough for the
-route ledger.
+First-pass resolved by `FJ36`; `FJ37` decides that the exact rank is not
+route-critical and keeps it deferred.
 
 ## OQ-052. Which source should support a family-level torus-knot or fibered-kernel theorem?
 
@@ -1763,14 +1758,14 @@ Margalit (2017), Brown (1987), and the \(G_{p,q}\) setup from `FJ34`.
 
 ### Next action
 
-First-pass resolved by `FJ36`. Continue with `FJ37`, post-\(G_{p,q}\)
-residual audit and next target selection.
+First-pass resolved by `FJ36`. Continue with `FJ38`, `RB-004` beyond-Brown
+source selection.
 
 ## OQ-054. Which residual RB-004 family or subgroup should be attacked after the G_{p,q} bridge?
 
 ### Status
 
-Open inside project.
+Resolved for first-pass next-target selection by `FJ37`.
 
 ### Context
 
@@ -1779,9 +1774,10 @@ finite-rank free-by-cyclic bridge. The project still has no global theorem for
 all torsion-free one-relator groups, and the `RB-004` bucket remains only a
 selected attack surface, not an exhausted classification.
 
-The next module should inspect `ledgers/t001_residual.md` and
-`ledgers/t001_kernel_recognition.md` before selecting another example,
-subfamily, or source-verification route.
+`FJ37` inspects `ledgers/t001_residual.md` and
+`ledgers/t001_kernel_recognition.md`. It selects `OQ-044` as the next target:
+source selection for `RB-004` cases outside Brown's checked two-generator
+criterion.
 
 ### Relevant modules
 
@@ -1793,17 +1789,18 @@ subfamily, or source-verification route.
 ### Dependencies
 
 The residual ledger, the kernel-recognition ledger, Brown (1987), and any
-source selected by `FJ37`.
+source selected by `FJ38`.
 
 ### Next action
 
-Use `FJ37` to audit the active residual and choose the next bounded target.
+First-pass resolved by `FJ37`. Continue with `FJ38`, `RB-004` beyond-Brown
+source selection.
 
 ## OQ-055. Should the exact rank of K_{p,q} be computed?
 
 ### Status
 
-Open but not blocking the current route.
+Deferred by `FJ37`; open only as an optional later computation.
 
 ### Context
 
@@ -1814,6 +1811,9 @@ not needed for the current Farrell--Jones route subtraction.
 A later module may compute the rank if it would clarify the kernel-recognition
 ledger, provide a useful calibration example, or help compare the Bass--Serre
 method with a Reidemeister--Schreier computation.
+
+`FJ37` decides not to make the rank computation the next module, because
+finite rank is already enough for the active `FJ26` route.
 
 ### Relevant modules
 
@@ -1828,5 +1828,32 @@ The Bass--Serre bridge in `FJ36` and any later rank-computation method.
 
 ### Next action
 
-Let `FJ37` decide whether this is worth a standalone computation or should
-remain deferred.
+Keep deferred. Continue with `FJ38`, `RB-004` beyond-Brown source selection.
+
+## OQ-056. Which concrete non-Brown RB-004 test case should follow broader source selection?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ37` selects source selection for `RB-004` beyond Brown's checked
+two-generator criterion as the next module. Once `FJ38` chooses or verifies a
+broader source, the project will need a concrete test case or subfamily to
+avoid keeping the discussion purely bibliographic.
+
+### Relevant modules
+
+- FJ30
+- FJ37
+- FJ38
+
+### Dependencies
+
+The source or source cluster selected by `FJ38`.
+
+### Next action
+
+Defer until `FJ38` identifies what kind of beyond-Brown source is actually
+usable.

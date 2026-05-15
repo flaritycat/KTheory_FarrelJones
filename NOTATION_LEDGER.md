@@ -125,6 +125,7 @@
 | \(\chi_{p,q}\) | epimorphism \(G_{p,q}\to\mathbb Z\) with \(\chi_{p,q}(x)=q\), \(\chi_{p,q}(y)=p\) | local/active | FJ34 | Used in the family Brown maximum-count computation. |
 | \(K_{p,q}\) | kernel \(\ker(\chi_{p,q})\) | local/source-verified active | FJ35, FJ36 | Brown gives finite generation and `FJ36` proves finite-rank freeness by the Bass--Serre free-action bridge; the rank is not computed. |
 | \(T_{p,q}\) | Bass--Serre tree of \(G_{p,q}\cong \langle x\rangle *_{\langle z\rangle}\langle y\rangle\), with \(z\mapsto x^p\) and \(z\mapsto y^q\) | local/source-verified active | FJ36 | Used to prove that \(K_{p,q}\) acts freely because it intersects all conjugates of the cyclic vertex groups trivially. |
+| beyond-Brown `RB-004` source-selection target | source-selection problem for kernel-recognition cases outside Brown's checked two-generator one-relator criterion | active project term | FJ37 | Selected as the next target for `FJ38`; not a theorem and not a new source claim. |
 | \(a,b\) | braid-presentation generators for \(G_{2,3}\), with \(G_{2,3}\cong\langle a,b\mid aba=bab\rangle\) | local/active | FJ33 | Defined by \(a=y^{-1}x\), \(b=x^{-1}y^2\). |
 | \(p,q\) | free-kernel generators in the \(G_{2,3}\cong F(p,q)\rtimes\mathbb Z\) bridge | local/active | FJ33 | Defined by \(p=ba^{-1}\), \(q=tpt^{-1}\). |
 | \(\varphi\) | automorphism of \(F(p,q)\) with \(\varphi(p)=q\), \(\varphi(q)=p^{-1}q\) | local/active | FJ33 | Gives the semidirect product \(F(p,q)\rtimes_\varphi\mathbb Z\). |

@@ -489,10 +489,19 @@ G_{p,q}\cong F_n\rtimes\mathbb Z.
 Therefore the \(G_{p,q}\)-family is removed from the active `T-001`
 residual by the finite-rank free-by-cyclic route in `FJ26`.
 
-The next module is `FJ37`, post-\(G_{p,q}\) residual audit and next
-target selection. Its task is to update the attack surface after this
-family bridge and select the next bounded residual problem without
-mistaking this family result for a global one-relator theorem.
+The next step after `FJ36` was `FJ37`, post-\(G_{p,q}\) residual audit
+and next target selection. It checks that the exact rank of \(K_{p,q}\)
+is not needed for the active `FJ26` route, because `FJ36` already proves
+finite rank. It also records that the \(G_{p,q}\)-family bridge does not
+exhaust `RB-004`: Brown's checked source route remains limited to
+compatible two-generator one-relator presentations.
+
+Current status: `FJ37` defers the exact-rank computation for \(K_{p,q}\)
+and selects `OQ-044` as the next active target. The next module is
+`FJ38`, `RB-004` beyond-Brown source selection. Its task is to identify
+or verify the next source for kernel-recognition cases outside Brown's
+checked two-generator criterion, without using any unverified theorem as
+route input.
 
 ## GitHub persistence policy
 

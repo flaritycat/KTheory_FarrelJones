@@ -6,7 +6,8 @@ First-pass residual ledger created in `FJ28`. First concrete attack surface
 selected in `FJ29`. Brown/BNS kernel-recognition route checked in `FJ30`.
 First Brown calibration example completed in `FJ31`. Nontrivial next Brown
 test case selected in `FJ32`. Concrete \(G_{2,3}\) route bridge completed in
-`FJ33`.
+`FJ33`. The \(G_{p,q}\)-family route bridge was completed in `FJ36`, and
+`FJ37` selected beyond-Brown `RB-004` source selection as the next target.
 
 ## Warning
 
@@ -175,7 +176,23 @@ This subtraction is family-specific. It does not prove the Farrell--Jones
 conjecture for all torsion-free one-relator groups and does not compute the
 rank \(n\).
 
+## FJ37 residual-audit update
+
+`FJ37` audits the residual after the \(G_{p,q}\)-family subtraction.
+
+Outcome:
+
+- the exact rank of \(K_{p,q}\) is not route-critical, because `FJ36` already
+  gives finite-rank freeness;
+- no additional \(G_{p,q}\)-family computation is needed before moving on;
+- `RB-004` remains active because Brown's checked route is limited to
+  compatible two-generator one-relator presentations;
+- `OQ-044`, source selection for `RB-004` cases outside Brown's checked
+  two-generator criterion, is selected as the next target.
+
+This audit keeps the \(G_{p,q}\)-family bridge separate from any global
+kernel-recognition theorem.
+
 ## Next action
 
-Use `FJ37` to audit the residual ledger after the \(G_{p,q}\)-family
-subtraction and select the next bounded residual problem.
+Use `FJ38` for `RB-004` beyond-Brown source selection.

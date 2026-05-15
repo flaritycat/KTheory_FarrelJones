@@ -17,11 +17,11 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_002`.
 - Completed cycle: `cycle_001`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, and `FJ36`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, and `FJ37`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
 - Completed cycle reflection: `reflections/cycle_001_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ37`, post-\(G_{p,q}\) residual audit and next target selection.
+- Current procedural target: begin `FJ38`, `RB-004` beyond-Brown source selection.
 
 ## Current established results
 
@@ -76,6 +76,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ34` proves the Brown-positive finite-generation statement for \(G_{p,q}=\langle x,y\mid x^p y^{-q}\rangle\), \(p,q\geq2\), \(\gcd(p,q)=1\), while leaving the finite-rank free-kernel bridge open at that stage.
 - `FJ35` selects a Bass--Serre freeness bridge, sourced from Serre's *Trees*, as the clean route from Brown finite generation to finite-rank freeness for \(K_{p,q}=\ker(\chi_{p,q})\), without invoking `FJ26` at that stage.
 - `FJ36` verifies the Bass--Serre freeness bridge for \(K_{p,q}\), records \(G_{p,q}\cong F_n\rtimes\mathbb Z\) for some finite \(n\), and removes this family through the `FJ26` finite-rank free-by-cyclic route.
+- `FJ37` audits the residual after the \(G_{p,q}\)-family route bridge, defers exact rank computation for \(K_{p,q}\), and selects `OQ-044` as the next target: source selection for `RB-004` cases outside Brown's checked two-generator criterion.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 
