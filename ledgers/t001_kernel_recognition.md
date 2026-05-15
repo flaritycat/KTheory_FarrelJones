@@ -43,7 +43,17 @@ route after all of the following have been recorded:
 - a Farrell--Jones theorem;
 - a replacement for the `FJ26` route.
 
+## FJ31 calibration example
+
+| Presentation | Character | Brown result | Kernel bridge | Route status |
+|---|---|---|---|---|
+| \(\langle x,y\mid xyx^{-1}y^{-1}\rangle\) | \(\chi(x)=1,\ \chi(y)=0\) | \([\chi]\) and \([-\chi]\) pass the zero-on-one-generator maximum-count test | \(\ker(\chi)=\langle y\rangle\cong F_1\), and \(G\cong F_1\rtimes\mathbb Z\) | Calibration only; already removed by the virtually solvable route |
+
+Use of this row is limited to workflow calibration. It verifies that the
+Brown test has been translated correctly into project bookkeeping, but it
+does not subtract a new residual case from `T-001`.
+
 ## Next action
 
-Use `FJ31` to choose a first two-generator one-relator test case or test
-family for Brown's criterion.
+Use `FJ32` to choose a nontrivial Brown test case or small family, preferably
+one not already removed by the virtually solvable route.

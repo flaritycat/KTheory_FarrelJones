@@ -4,6 +4,7 @@
 
 First-pass residual ledger created in `FJ28`. First concrete attack surface
 selected in `FJ29`. Brown/BNS kernel-recognition route checked in `FJ30`.
+First Brown calibration example completed in `FJ31`.
 
 ## Warning
 
@@ -74,6 +75,22 @@ Scope of use:
 - Brown does not give a global positive theorem for every one-relator
   epimorphism to \(\mathbb Z\).
 
+## FJ31 Brown calibration update
+
+`FJ31` applies the Brown criterion to
+\(\langle x,y\mid xyx^{-1}y^{-1}\rangle\) with
+\(\chi(x)=1\) and \(\chi(y)=0\).
+
+Outcome:
+
+- both \([\chi]\) and \([-\chi]\) pass Brown's zero-on-one-generator
+  maximum-count test;
+- \(\ker(\chi)=\langle y\rangle\cong F_1\);
+- the example supplies a finite-rank free-by-cyclic bridge;
+- the example is already removed by the virtually solvable route and should
+  not be counted as a new residual subtraction.
+
 ## Next action
 
-Use `FJ31` to choose and run a first Brown criterion test case.
+Use `FJ32` to choose and run a nontrivial Brown test case, preferably one not
+already removed by the virtually solvable route.

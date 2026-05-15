@@ -371,11 +371,27 @@ Brown gives a computable criterion for two-generator one-relator
 presentations, not a global theorem that all one-relator epimorphisms to
 \(\mathbb Z\) have finitely generated kernel.
 
-The next module is `FJ31`, first Brown criterion test case for `T-001`.
-Its task is to choose a concrete two-generator one-relator presentation
-or small test family and apply the Brown criterion carefully enough to
-decide whether it supplies a finite-rank free-by-cyclic bridge into
-`FJ26`.
+The next step after `FJ30` was `FJ31`, first Brown criterion test case
+for `T-001`. Its task was to choose a concrete two-generator
+one-relator presentation or small test family and apply the Brown
+criterion carefully enough to decide whether it supplies a finite-rank
+free-by-cyclic bridge into `FJ26`.
+
+Current status: `FJ31` has first-pass coverage as a Brown criterion
+calibration example. It tests
+\(\langle x,y\mid xyx^{-1}y^{-1}\rangle\) with
+\(\chi(x)=1\) and \(\chi(y)=0\), verifies Brown's maximum-count
+condition for both \([\chi]\) and \([-\chi]\), identifies
+\(\ker(\chi)\cong F_1\), and records the split
+finite-rank free-by-cyclic bridge. It also records that the example is
+already covered by the virtually solvable route, so it is not a new
+residual removal.
+
+The next module is `FJ32`, nontrivial Brown test-family selection for
+`T-001`. Its task is to choose a Brown-compatible two-generator
+one-relator example or small family that is less redundant than the
+abelian calibration case, preferably one not already removed by the
+virtually solvable route.
 
 ## GitHub persistence policy
 

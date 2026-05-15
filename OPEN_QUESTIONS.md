@@ -827,8 +827,8 @@ completed the next CAT(0), virtually solvable,
 hyperbolic-by-cyclic/free-by-cyclic, and inheritance route subtractions;
 `FJ28` has assembled the first-pass residual ledger, and `FJ29` has selected
 `RB-004` as the next attack surface. `FJ30` has verified Brown's limited
-kernel-recognition route. Continue with `FJ31`, a first Brown criterion test
-case.
+kernel-recognition route, and `FJ31` has completed a calibration Brown test
+case. Continue with `FJ32`, a nontrivial Brown test-family selection.
 
 ## OQ-030. Which part of T-001 is removed by the CAT(0) route?
 
@@ -866,8 +866,9 @@ First-pass resolved by `FJ24`. `FJ25`, `FJ26`, and `FJ27` have completed the
 virtually solvable, hyperbolic-by-cyclic/free-by-cyclic, and inheritance route
 subtractions; `FJ28` has assembled the first-pass residual ledger, and `FJ29`
 has selected `RB-004` as the next attack surface. `FJ30` has verified
-Brown's limited kernel-recognition route. Continue with `FJ31`, a first Brown
-criterion test case.
+Brown's limited kernel-recognition route, and `FJ31` has completed a
+calibration Brown test case. Continue with `FJ32`, a nontrivial Brown
+test-family selection.
 
 ## OQ-031. Which part of T-001 is removed by the virtually solvable route?
 
@@ -907,8 +908,8 @@ First-pass resolved by `FJ25`. `FJ26` and `FJ27` have completed the
 hyperbolic-by-cyclic/free-by-cyclic and inheritance route subtractions.
 `FJ28` has assembled the first-pass residual ledger, and `FJ29` has selected
 `RB-004` as the next attack surface. `FJ30` has verified Brown's limited
-kernel-recognition route. Continue with `FJ31`, a first Brown criterion test
-case.
+kernel-recognition route, and `FJ31` has completed a calibration Brown test
+case. Continue with `FJ32`, a nontrivial Brown test-family selection.
 
 ## OQ-032. Which finite-index source should support virtually compact special route use?
 
@@ -1039,8 +1040,9 @@ to identify a group as hyperbolic-by-cyclic or finite-rank free-by-cyclic.
 First-pass resolved by `FJ26`. `FJ27` has completed the source-verified
 inheritance-route subtraction. `FJ28` has assembled the first-pass residual
 ledger, `FJ29` has selected `RB-004` as the next attack surface, and `FJ30`
-has verified Brown's limited two-generator kernel-recognition route. Continue
-with `FJ31`, a first Brown criterion test case.
+has verified Brown's limited two-generator kernel-recognition route. `FJ31`
+has completed a calibration Brown test case. Continue with `FJ32`, a
+nontrivial Brown test-family selection.
 
 ## OQ-036. Which source should recognize finite-rank free kernels over Z?
 
@@ -1077,8 +1079,8 @@ two-generator criterion.
 
 ### Next action
 
-First-pass resolved by `FJ30`. Continue with `FJ31`, a first Brown criterion
-test case.
+First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
+case. Continue with `FJ32`, a nontrivial Brown test-family selection.
 
 ## OQ-037. Which inheritance routes remove additional T-001 cases?
 
@@ -1115,8 +1117,8 @@ Lueck's survey-level full \(\mathcal{FJ}\) inheritance table.
 First-pass resolved by `FJ27`. `FJ28` has assembled the residual ledger after
 named and inheritance route subtractions, `FJ29` has selected `RB-004` as the
 next attack surface, and `FJ30` has verified Brown's limited
-kernel-recognition route. Continue with `FJ31`, a first Brown criterion test
-case.
+kernel-recognition route. `FJ31` has completed a calibration Brown test case.
+Continue with `FJ32`, a nontrivial Brown test-family selection.
 
 ## OQ-038. What remains in T-001 after the route-subtraction pass?
 
@@ -1158,8 +1160,8 @@ from `FJ20`, and `ledgers/t001_residual.md`.
 
 First-pass resolved by `FJ28`. `FJ29` has selected `RB-004` as the concrete
 residual attack surface, and `FJ30` has verified Brown's limited
-kernel-recognition route. Continue with `FJ31`, a first Brown criterion test
-case.
+kernel-recognition route. `FJ31` has completed a calibration Brown test case.
+Continue with `FJ32`, a nontrivial Brown test-family selection.
 
 ## OQ-039. Which concrete surviving one-relator subclasses should be attacked next?
 
@@ -1189,8 +1191,8 @@ finite-rank free-by-cyclic route.
 ### Next action
 
 First-pass resolved by `FJ29`. `FJ30` has verified Brown's limited
-kernel-recognition route. Continue with `FJ31`, a first Brown criterion test
-case.
+kernel-recognition route. `FJ31` has completed a calibration Brown test case.
+Continue with `FJ32`, a nontrivial Brown test-family selection.
 
 ## OQ-040. Which source should be checked first for the selected residual bucket?
 
@@ -1223,8 +1225,9 @@ virtually solvable recognition, and hierarchy-to-route extraction.
 ### Next action
 
 First-pass resolved by `FJ29`. `FJ30` has checked Brown (1987) for exact
-statements, hypotheses, and conclusions. Continue with `FJ31`, a first Brown
-criterion test case.
+statements, hypotheses, and conclusions. `FJ31` has completed a calibration
+Brown test case. Continue with `FJ32`, a nontrivial Brown test-family
+selection.
 
 ## OQ-041. What exact Brown/BNS theorem recognizes finite-rank kernels?
 
@@ -1256,21 +1259,30 @@ project-facing route criterion in `ledgers/t001_kernel_recognition.md`.
 
 ### Next action
 
-First-pass resolved by `FJ30`. Continue with `FJ31`, a first Brown criterion
-test case.
+First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
+case. Continue with `FJ32`, a nontrivial Brown test-family selection.
 
 ## OQ-042. Which first Brown criterion test case should be used?
 
 ### Status
 
-Open inside project.
+Resolved for first-pass calibration.
 
 ### Context
 
 `FJ30` verifies Brown's two-generator one-relator criterion as a usable
-kernel-recognition tool. The project now needs a concrete presentation or
-small family where Brown's criterion can be applied without importing
-unverified classification claims.
+kernel-recognition tool. `FJ31` chooses the commutator presentation
+\[
+G=\langle x,y\mid xyx^{-1}y^{-1}\rangle
+\]
+with \(\chi(x)=1\) and \(\chi(y)=0\) as the first calibration example.
+Brown's zero-on-one-generator maximum-count test passes for both
+\([\chi]\) and \([-\chi]\), and the module identifies
+\(\ker(\chi)\cong F_1\).
+
+This resolves the first-test-case question only at the calibration level:
+the group is \(\mathbb Z^2\), hence already covered by the virtually
+solvable route.
 
 ### Relevant modules
 
@@ -1286,7 +1298,8 @@ finite-rank free-by-cyclic route.
 
 ### Next action
 
-Begin `FJ31`, first Brown criterion test case for `T-001`.
+First-pass resolved by `FJ31`. Continue with `FJ32`, a nontrivial Brown
+test-family selection for `T-001`.
 
 ## OQ-043. Should the original BNS normal-subgroup theorem be checked directly?
 
@@ -1304,6 +1317,7 @@ restatement, the original BNS source should be checked directly.
 ### Relevant modules
 
 - FJ30
+- FJ31
 
 ### Dependencies
 
@@ -1331,6 +1345,7 @@ presentation bridge or a separate kernel-recognition source.
 
 - FJ29
 - FJ30
+- FJ31
 
 ### Dependencies
 
@@ -1339,5 +1354,67 @@ sources already tracked in `FJ21`--`FJ22`.
 
 ### Next action
 
-Defer until `FJ31` shows what Brown's criterion can do in a first concrete
-case.
+Defer until `FJ32` determines whether a nontrivial Brown test family needs a
+source outside Brown's two-generator criterion.
+
+## OQ-045. Which Brown test case is not already removed by the virtually solvable route?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ31` verifies the Brown workflow on the commutator presentation, but that
+example is already removed by the virtually solvable route. The next Brown
+case should be selected with route overlap in mind, so the project does not
+mistake a calibration example for a new residual subtraction.
+
+### Relevant modules
+
+- FJ25
+- FJ26
+- FJ30
+- FJ31
+- FJ32
+
+### Dependencies
+
+`ledgers/t001_kernel_recognition.md`, `ledgers/t001_residual.md`, Brown
+(1987), and the virtually solvable-route warnings from `FJ25`.
+
+### Next action
+
+Use `FJ32` to identify a Brown-compatible example or family whose route value
+is not already exhausted by virtual solvability.
+
+## OQ-046. Which nonabelian two-generator one-relator family should be tested next?
+
+### Status
+
+Open inside project.
+
+### Context
+
+The first Brown test case was abelian. A second test should exercise the
+same maximum-count machinery on a nonabelian two-generator one-relator
+presentation or small family, while staying within the theorem hypotheses
+already recorded from Brown (1987).
+
+### Relevant modules
+
+- FJ26
+- FJ30
+- FJ31
+- FJ32
+
+### Dependencies
+
+Brown (1987), `ledgers/t001_kernel_recognition.md`, and any source-verified
+presentation or elementary internal computation used to identify the kernel
+bridge.
+
+### Next action
+
+Use `FJ32` to choose the next Brown test family and record whether it can feed
+the finite-rank free-by-cyclic route from `FJ26`.
