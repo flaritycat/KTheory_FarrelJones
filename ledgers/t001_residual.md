@@ -122,7 +122,25 @@ Outcome:
 - the concrete example is removed by the `FJ26` finite-rank
   free-by-cyclic route.
 
+## FJ34 nearby family boundary update
+
+`FJ34` tests the family
+\[
+G_{p,q}=\langle x,y\mid x^p y^{-q}\rangle,\qquad p,q\geq2,\quad
+\gcd(p,q)=1,
+\]
+with \(\chi_{p,q}(x)=q\) and \(\chi_{p,q}(y)=p\).
+
+Outcome:
+
+- both \([\chi_{p,q}]\) and \([-\chi_{p,q}]\) pass Brown's
+  maximum-count test;
+- Brown gives finite generation of \(\ker(\chi_{p,q})\);
+- no finite-rank free-kernel bridge is recorded for the family;
+- no family-level `FJ26` subtraction is made.
+
 ## Next action
 
-Use `FJ34` to test a nearby Brown family generalization while preserving the
-distinction between one concrete route bridge and a family theorem.
+Use `FJ35` to decide whether the \(G_{p,q}\)-family admits an internal
+finite-rank free-kernel computation or requires source verification before
+any family route bridge is recorded.

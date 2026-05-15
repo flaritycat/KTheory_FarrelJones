@@ -425,10 +425,29 @@ active `T-001` residual by the finite-rank free-by-cyclic route from
 `FJ26`. This is a single example bridge, not a theorem for all
 two-generator one-relator groups.
 
-The next module is `FJ34`, nearby Brown family generalization. Its task
-is to test how much of the \(G_{2,3}\) bridge extends to presentations
-of the form \(\langle x,y\mid x^p y^{-q}\rangle\), while avoiding any
-unverified torus-knot or one-relator classification claims.
+The next step after `FJ33` was `FJ34`, nearby Brown family
+generalization. Its task was to test how much of the \(G_{2,3}\) bridge
+extends to presentations of the form
+\(\langle x,y\mid x^p y^{-q}\rangle\), while avoiding any unverified
+torus-knot or one-relator classification claims.
+
+Current status: `FJ34` has first-pass coverage as a conservative family
+boundary module. For \(p,q\geq2\) with \(\gcd(p,q)=1\), it defines
+\[
+G_{p,q}=\langle x,y\mid x^p y^{-q}\rangle,\qquad
+\chi_{p,q}(x)=q,\quad \chi_{p,q}(y)=p,
+\]
+and verifies Brown's maximum-count condition for both \([\chi_{p,q}]\)
+and \([-\chi_{p,q}]\). Brown therefore gives finite generation of
+\(\ker(\chi_{p,q})\). The module does not record a family-level
+finite-rank free-kernel bridge, so the `FJ26` route is not invoked for
+the full \(G_{p,q}\)-family.
+
+The next module is `FJ35`, kernel computation or source selection for
+the \(G_{p,q}\)-family. Its task is to determine whether an internal
+Reidemeister--Schreier computation can identify
+\(\ker(\chi_{p,q})\) as finite-rank free, or whether a source must be
+verified before a family-level route bridge can be recorded.
 
 ## GitHub persistence policy
 

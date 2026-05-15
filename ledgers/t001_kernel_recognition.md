@@ -75,7 +75,18 @@ The semidirect bridge uses the internal presentation change recorded in
 \varphi(p)=q,\qquad \varphi(q)=p^{-1}q.
 \]
 
+## FJ34 nearby family boundary
+
+| Presentation | Character | Brown result | Kernel bridge | Route status |
+|---|---|---|---|---|
+| \(G_{p,q}=\langle x,y\mid x^p y^{-q}\rangle\), \(p,q\geq2\), \(\gcd(p,q)=1\) | \(\chi_{p,q}(x)=q,\ \chi_{p,q}(y)=p\) | \([\chi_{p,q}]\) and \([-\chi_{p,q}]\) pass the nonzero-on-both-generators maximum-count test | Brown gives finite generation of \(\ker(\chi_{p,q})\); finite-rank freeness not yet recorded | family boundary only; no `FJ26` route bridge yet |
+
+The family row records only the part controlled by Brown's checked theorem
+and corollary. It does not use torus-knot terminology, fibered-knot
+theorems, or an unsourced classification claim.
+
 ## Next action
 
-Use `FJ34` to test how much of the \(G_{2,3}\) bridge generalizes to nearby
-presentations without importing unverified classification claims.
+Use `FJ35` to decide whether \(\ker(\chi_{p,q})\) can be identified as
+finite-rank free by an internal computation or whether a source must be
+verified before any family-level route bridge is recorded.
