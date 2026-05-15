@@ -197,10 +197,17 @@ hyperbolic, finite-dimensional CAT(0), virtually solvable, and
 hyperbolic-by-cyclic classes, plus the structural local-indicability
 theorem as non-Farrell--Jones input.
 
-Current status: `FJ20`, first target selection, is the next target. It
-should compare the Artin-group gaps from `FJ18` with the torsion-free
-one-relator gaps from `FJ19`, and choose a concrete next target without
-pretending that a broad open class has already been solved.
+Current status: `FJ20`, first target selection, has first-pass coverage.
+It selects `T-001`, torsion-free one-relator residual gap analysis, as
+the first serious target for the next module cycle. Artin groups remain
+important but are deferred because `FJ18` already records many positive
+subclass rows and because proof-sensitive Artin work first requires
+reconciling `FJCw`, `FICwF`, finite wreath products, and the project's
+internal formulation.
+
+Current procedural status: the `cycle_001` module list is complete
+except for the intentionally deferred `FJ02`. Before starting the next
+module cycle, write a reflection report in `reflections/`.
 
 ## GitHub persistence policy
 

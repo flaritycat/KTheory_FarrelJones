@@ -45,7 +45,7 @@ Unless explicitly imported later:
 
 ## Open questions
 
-1. Which unresolved group class should become the first serious target?
+1. Which unresolved group class should become the first serious target? First-pass resolved by `FJ20`: `T-001`, torsion-free one-relator residual gap analysis.
 2. How much \(L\)-theory should be introduced early?
 3. How soon should spectra and equivariant homology be developed?
 4. Can inheritance properties produce a useful new reduction?
@@ -114,7 +114,17 @@ The active mathematical scope is the simplified K-theoretic Farrell--Jones conje
 - Module `FJ17` records a transfers primer: transfer maps, strong homotopy actions, strong transfer reducibility, contracting transfers, and the projection identity that lets transferred control information return to the original obstruction class.
 - Module `FJ18` records an Artin groups dossier: source-verified Farrell--Jones subclass rows, method routes through Helly groups and normally poly-free groups, Roushon's corrected finite/affine/complex-type list, and remaining Artin-gap questions.
 - Module `FJ19` records a torsion-free one-relator groups dossier: a source-verified warning that the global class remains open for Full Farrell--Jones, the structural local-indicability theorem, verified conditional routes through known classes, and the remaining one-relator target-selection questions.
+- Module `FJ20` selects `T-001`, torsion-free one-relator residual gap analysis, as the first serious target. This is a project-selection result rather than a mathematical theorem.
+
+## Selected target
+
+`T-001`: torsion-free one-relator residual gap analysis.
+
+The next mathematical cycle should identify which torsion-free one-relator
+groups remain after subtracting the verified hyperbolic, finite-dimensional
+CAT(0), virtually solvable, hyperbolic-by-cyclic/free-by-cyclic, and
+source-verified inheritance routes.
 
 ## Next mathematical move
 
-Proceed to module `FJ20`: first target selection, comparing the Artin-group gaps from `FJ18` with the one-relator-group gaps from `FJ19`.
+Write the `cycle_001` reflection report in `reflections/` before starting the next module cycle.

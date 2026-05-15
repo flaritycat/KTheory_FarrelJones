@@ -17,9 +17,10 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_001`
 - First milestone: modules `FJ01`--`FJ07`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, and `FJ19`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, and `FJ20`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
-- Current primary target: `FJ20`, first target selection, comparing the Artin-group gaps from `FJ18` with the torsion-free one-relator gaps from `FJ19`.
+- Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
+- Current procedural target: write the `cycle_001` reflection before starting the next module cycle.
 
 ## Current established results
 
@@ -56,6 +57,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ17` is a transfers primer; it records the source-level transfer diagrams and strong-transfer-reducibility route, but it does not reconstruct the Waldhausen/Karoubi machinery, stability theorem, or obstruction-category vanishing proofs internally.
 - `FJ18` is an Artin groups dossier; it records source-verified subclasses and method routes, but it does not claim the Farrell--Jones conjecture for all Artin groups.
 - `FJ19` is a one-relator groups dossier; it records source-verified conditional routes and the Brodskii--Howie local-indicability structure theorem, but it does not claim Farrell--Jones for all torsion-free one-relator groups.
+- `FJ20` selects `T-001`, torsion-free one-relator residual gap analysis, as the first serious target. This is a project-selection result, not a mathematical theorem.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 

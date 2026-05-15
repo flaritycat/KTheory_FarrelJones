@@ -4,11 +4,15 @@
 
 ### Status
 
-Open inside project.
+Resolved for first-pass target selection.
 
 ### Context
 
-The project needs a concrete target after foundational modules. Candidate classes include Artin groups and torsion-free one-relator groups, but their exact known/open status must be source-verified.
+The project needed a concrete target after foundational modules. Candidate
+classes included Artin groups and torsion-free one-relator groups, but their
+exact known/open status first had to be source-verified.
+
+`FJ20` selected `T-001`: torsion-free one-relator residual gap analysis.
 
 ### Relevant modules
 
@@ -23,8 +27,8 @@ Known-cases ledger and inheritance-properties ledger.
 
 ### Next action
 
-`FJ18` has produced the Artin-group table and `FJ19` has produced the
-one-relator group table. Use `FJ20` to compare the candidate targets.
+First-pass resolved by `FJ20`. Use `T-001` to guide the next cycle, with
+cycle reflection before starting new modules.
 
 ## OQ-002. Which source should serve as the main reference for the modern Farrell--Jones statement?
 
@@ -337,10 +341,9 @@ group subclasses.
 
 ### Next action
 
-`FJ18` has added Artin-group subclass rows and `FJ19` has added
-one-relator-relevant conditional routes. Use `FJ20` to decide whether
-the next known-case expansion should support Artin groups, one-relator
-groups, or a different target class.
+`FJ20` selected the one-relator residual gap analysis as the first serious
+target. The next known-case expansion should support that target unless the
+cycle reflection identifies a more urgent foundational blocker.
 
 ## OQ-015. Which inheritance rows need primary-source tracing?
 
@@ -575,9 +578,8 @@ fall outside those verified rows.
 
 ### Next action
 
-After `FJ19`, decide whether a second Artin-status module is worth
-adding before target selection, or whether the current table is enough
-for `FJ20`.
+`FJ20` deferred a second Artin-status module. Return to this only after
+`T-001` has either produced a residual one-relator target or been abandoned.
 
 ## OQ-022. Which source should reconcile FJCw, FICwF, and the project's simplified K-theory formulation?
 
@@ -636,8 +638,9 @@ analysis.
 
 ### Next action
 
-Do not pursue until after `FJ19` and `FJ20` decide whether the first
-target should remain Artin-related or move to one-relator groups.
+Deferred by `FJ20`. Revisit after the project reconciles `FJCw`, `FICwF`,
+and the internal Farrell--Jones formulation, or after `T-001` is no longer
+the active target.
 
 ## OQ-024. Is there a global K-theoretic Farrell--Jones theorem for all torsion-free one-relator groups in a weaker formulation?
 
@@ -663,8 +666,9 @@ One-relator literature and modern Farrell--Jones formulation sources.
 
 ### Next action
 
-During target selection, decide whether this question should be pursued
-directly or deferred in favor of a more concrete subclass.
+Promoted by `FJ20` as part of `T-001`, but not as the first proof attempt.
+First build the residual subclass map and then decide whether a global weaker
+K-theory theorem is plausible or source-supported.
 
 ## OQ-025. Which one-relator structure theorem should become the canonical reduction tool?
 
@@ -692,8 +696,8 @@ ledger.
 
 ### Next action
 
-If `FJ20` selects one-relator groups as the first target, choose a
-canonical structure source before writing proof attempts.
+Promoted by `FJ20` as the first preparatory task for `T-001`: choose a
+canonical one-relator structure source before writing proof attempts.
 
 ## OQ-026. Which torsion-free one-relator groups survive after subtracting known routes?
 
@@ -720,5 +724,5 @@ one-relator subclass checks.
 
 ### Next action
 
-Use `FJ20` to compare surviving one-relator cases against the remaining
-Artin-group gaps.
+Promoted by `FJ20` as the concrete output target for `T-001`: build the
+surviving-case table after subtracting known Farrell--Jones routes.
