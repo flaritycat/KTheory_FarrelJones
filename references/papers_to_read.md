@@ -61,14 +61,14 @@
 7. Linton, M.; Nyberg-Brodda, C.-F. *The theory of one-relator groups: history and recent progress*. Status: active orientation source for `FJ21`; use as a literature map, not a proof source.
 8. Lyndon, R. C.; Schupp, P. E. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
 9. Magnus, W.; Karrass, A.; Solitar, D. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
-10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: active reference for `FJ30`--`FJ34`; Proposition 3.1, Corollary 3.2, Theorems 4.2--4.4, and Theorem 5.2 checked for the Brown/BNS kernel-recognition route. `FJ31` uses the checked criterion on the commutator-presentation calibration example. `FJ32` uses the checked criterion to select \(G_{2,3}\) as the next worked test case. `FJ33` uses the checked criterion for the full \(G_{2,3}\) Brown test. `FJ34` uses the checked criterion for the \(G_{p,q}\)-family finite-generation statement.
+10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: active reference for `FJ30`--`FJ35`; Proposition 3.1, Corollary 3.2, Theorems 4.2--4.4, and Theorem 5.2 checked for the Brown/BNS kernel-recognition route. `FJ31` uses the checked criterion on the commutator-presentation calibration example. `FJ32` uses the checked criterion to select \(G_{2,3}\) as the next worked test case. `FJ33` uses the checked criterion for the full \(G_{2,3}\) Brown test. `FJ34` uses the checked criterion for the \(G_{p,q}\)-family finite-generation statement. `FJ35` carries the Brown finite-generation result into a conditional Bass--Serre bridge map.
 11. Bieri, R.; Neumann, W. D.; Strebel, R. *A geometric invariant of discrete groups*. Status: found; EuDML bibliographic record checked in `FJ30`; direct theorem use deferred.
 12. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: found; verify before using negative-immersion or primitivity-rank routes.
+13. Serre, J.-P. *Trees*, chapter "Trees and Amalgams". Status: selected for `FJ36`; Springer bibliographic and chapter metadata checked in `FJ35`; verify exact Bass--Serre freeness theorem before theorem use.
 
-Next one-relator reading task: for `FJ35`, decide whether to compute
-\(\ker(\chi_{p,q})\) by an internal Reidemeister--Schreier calculation or
-verify a source before recording any family-level torus-knot or
-fibered-kernel theorem.
+Next one-relator reading task: for `FJ36`, verify in Serre's *Trees* the
+exact Bass--Serre statement needed to conclude that \(K_{p,q}\) is free from
+its trivial intersections with conjugates of the cyclic vertex groups.
 
 ## Reading protocol
 

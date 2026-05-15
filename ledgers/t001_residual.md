@@ -139,8 +139,23 @@ Outcome:
 - no finite-rank free-kernel bridge is recorded for the family;
 - no family-level `FJ26` subtraction is made.
 
+## FJ35 source-selection update
+
+`FJ35` selects the candidate Bass--Serre bridge for the \(G_{p,q}\)-family.
+The intended route is:
+
+- use the presentation-level cyclic-amalgam shape
+  \(\langle x\rangle *_{\langle z\rangle}\langle y\rangle\);
+- observe that \(K_{p,q}=\ker(\chi_{p,q})\) intersects all conjugates of the
+  cyclic vertex groups trivially;
+- verify in Serre's *Trees* that this implies \(K_{p,q}\) is free;
+- combine with Brown finite generation from `FJ34`.
+
+No residual subtraction is made yet. The Bass--Serre theorem statement still
+needs exact source verification.
+
 ## Next action
 
-Use `FJ35` to decide whether the \(G_{p,q}\)-family admits an internal
-finite-rank free-kernel computation or requires source verification before
-any family route bridge is recorded.
+Use `FJ36` to verify the Bass--Serre freeness bridge and then decide whether
+the \(G_{p,q}\)-family can be removed through the finite-rank free-by-cyclic
+route.

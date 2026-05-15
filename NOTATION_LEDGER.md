@@ -123,6 +123,7 @@
 | \(G_{2,3}\) | selected two-generator one-relator Brown test case \(\langle x,y\mid x^2y^{-3}\rangle\) | local/active | FJ32 | `FJ33` proves \(G_{2,3}\cong F_2\rtimes\mathbb Z\). |
 | \(G_{p,q}\) | nearby Brown family \(\langle x,y\mid x^p y^{-q}\rangle\), with \(p,q\geq2\) and \(\gcd(p,q)=1\) | local/active | FJ34 | Brown-positive finite-generation family; no family-level free-kernel bridge yet. |
 | \(\chi_{p,q}\) | epimorphism \(G_{p,q}\to\mathbb Z\) with \(\chi_{p,q}(x)=q\), \(\chi_{p,q}(y)=p\) | local/active | FJ34 | Used in the family Brown maximum-count computation. |
+| \(K_{p,q}\) | kernel \(\ker(\chi_{p,q})\) | local/active | FJ35 | Brown gives finite generation; Bass--Serre freeness source verification is selected as the next bridge to finite-rank freeness. |
 | \(a,b\) | braid-presentation generators for \(G_{2,3}\), with \(G_{2,3}\cong\langle a,b\mid aba=bab\rangle\) | local/active | FJ33 | Defined by \(a=y^{-1}x\), \(b=x^{-1}y^2\). |
 | \(p,q\) | free-kernel generators in the \(G_{2,3}\cong F(p,q)\rtimes\mathbb Z\) bridge | local/active | FJ33 | Defined by \(p=ba^{-1}\), \(q=tpt^{-1}\). |
 | \(\varphi\) | automorphism of \(F(p,q)\) with \(\varphi(p)=q\), \(\varphi(q)=p^{-1}q\) | local/active | FJ33 | Gives the semidirect product \(F(p,q)\rtimes_\varphi\mathbb Z\). |

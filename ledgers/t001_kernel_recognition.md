@@ -85,8 +85,18 @@ The family row records only the part controlled by Brown's checked theorem
 and corollary. It does not use torus-knot terminology, fibered-knot
 theorems, or an unsourced classification claim.
 
+## FJ35 selected kernel-freeness bridge
+
+| Presentation | Character | Brown result | Candidate freeness bridge | Route status |
+|---|---|---|---|---|
+| \(G_{p,q}=\langle x,y\mid x^p y^{-q}\rangle\), \(p,q\geq2\), \(\gcd(p,q)=1\) | \(\chi_{p,q}(x)=q,\ \chi_{p,q}(y)=p\) | \(K_{p,q}=\ker(\chi_{p,q})\) is finitely generated | Use the cyclic-amalgam shape \(\langle x\rangle *_{\langle z\rangle}\langle y\rangle\); \(K_{p,q}\) intersects conjugates of \(\langle x\rangle\) and \(\langle y\rangle\) trivially; verify Bass--Serre freeness in Serre's *Trees* | source selected; no family `FJ26` route bridge yet |
+
+The selected bridge avoids torus-knot and fibered-knot classification claims.
+It becomes a route bridge only after the Bass--Serre theorem statement is
+source-verified.
+
 ## Next action
 
-Use `FJ35` to decide whether \(\ker(\chi_{p,q})\) can be identified as
-finite-rank free by an internal computation or whether a source must be
-verified before any family-level route bridge is recorded.
+Use `FJ36` to verify the Bass--Serre freeness bridge in Serre's *Trees* and
+decide whether the \(G_{p,q}\)-family can be recorded as finite-rank
+free-by-cyclic.

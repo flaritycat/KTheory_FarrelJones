@@ -443,11 +443,32 @@ and \([-\chi_{p,q}]\). Brown therefore gives finite generation of
 finite-rank free-kernel bridge, so the `FJ26` route is not invoked for
 the full \(G_{p,q}\)-family.
 
-The next module is `FJ35`, kernel computation or source selection for
-the \(G_{p,q}\)-family. Its task is to determine whether an internal
-Reidemeister--Schreier computation can identify
-\(\ker(\chi_{p,q})\) as finite-rank free, or whether a source must be
-verified before a family-level route bridge can be recorded.
+The next step after `FJ34` was `FJ35`, kernel bridge source selection for
+the \(G_{p,q}\)-family. It records
+\[
+K_{p,q}=\ker(\chi_{p,q})
+\]
+and identifies a conservative route from Brown finite generation to
+finite-rank freeness: view
+\[
+G_{p,q}\cong \langle x\rangle *_{\langle z\rangle}\langle y\rangle
+\]
+with \(z\mapsto x^p\) and \(z\mapsto y^q\), then verify through
+Bass--Serre theory that a subgroup intersecting all conjugates of the
+vertex groups trivially is free. The character \(\chi_{p,q}\) is nonzero
+on every nontrivial element of those cyclic vertex groups, so
+\(K_{p,q}\) has the required trivial-intersection property.
+
+Current status: `FJ35` selects Serre's *Trees*, especially "Trees and
+Amalgams," as the next source to verify for the Bass--Serre freeness
+bridge. It deliberately does not use torus-knot or fibered-knot
+classification claims. The full \(G_{p,q}\)-family is still not removed
+through `FJ26` until this source verification is complete.
+
+The next module is `FJ36`, Bass--Serre source verification for the
+\(G_{p,q}\)-family kernel bridge. Its task is to check the exact theorem
+form needed from Serre, record the hypotheses, and decide whether the
+conditional `FJ35` bridge can be promoted to a route bridge.
 
 ## GitHub persistence policy
 
