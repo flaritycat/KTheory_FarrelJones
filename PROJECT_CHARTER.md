@@ -29,7 +29,7 @@ Unless explicitly imported later:
 
 - Bass--Quillen as a primary path.
 - Parshin conjecture as a primary path.
-- Beilinson--Soulé vanishing as a primary path.
+- Beilinson--Soule vanishing as a primary path.
 - Arithmetic computation of \(K_n(\mathbb Z)\) as a primary path.
 - Topological \(K\)-theory as a primary subject.
 - \(C^*\)-algebra \(K\)-theory as a primary subject.
@@ -111,6 +111,10 @@ conditional theorem maps from Farrell--Jones to Whitehead-group
 vanishing and to vanishing of \(\widetilde K_0(\mathbb Z[G])\),
 including the finiteness-obstruction interpretation for finitely
 presented groups.
+
+Current status: `FJ10` has first-pass coverage as a conditional Borel
+theorem map. It imports \(L\)-theory only as a marked application
+dependency and does not treat Borel rigidity as a K-theory-only result.
 
 ## GitHub persistence policy
 

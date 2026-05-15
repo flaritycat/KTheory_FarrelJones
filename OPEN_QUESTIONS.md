@@ -258,3 +258,49 @@ A primary or standard monograph source for Wall's finiteness obstruction theorem
 ### Next action
 
 Defer until a topology-facing module needs proof-level detail beyond the Lueck--Reich survey.
+
+## OQ-012. Which source should be used for surgery theory and structure sets?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ10` uses Lueck--Reich's theorem map from low-dimensional K-theory vanishing and \(L^{\langle -\infty\rangle}\)-theory assembly to the Borel conjecture. It does not verify the surgery exact sequence or the topological structure set from a primary source.
+
+### Relevant modules
+
+- FJ10
+
+### Dependencies
+
+A standard surgery-theory monograph or expert survey covering topological structure sets and the surgery exact sequence.
+
+### Next action
+
+Resolve only if the project later develops Borel rigidity beyond a source-verified theorem map.
+
+## OQ-013. Should negative K-group vanishing receive its own module?
+
+### Status
+
+Open inside project.
+
+### Context
+
+The Borel consequence in `FJ10` requires \(K_{-i}(\mathbb Z[G])=0\) for \(i\geq 1\). Earlier modules recorded Whitehead and projective class group consequences, but did not isolate negative K-group vanishing as its own result.
+
+### Relevant modules
+
+- FJ08
+- FJ09
+- FJ10
+
+### Dependencies
+
+Lueck--Reich's low-dimensional K-theory consequence and a source for negative algebraic \(K\)-groups.
+
+### Next action
+
+Consider a later correction or supplemental module if negative K-groups become active in subsequent arguments.

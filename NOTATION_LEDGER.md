@@ -24,6 +24,10 @@
 | \(\widetilde K_n(A)\) | reduced algebraic \(K\)-group \(\operatorname{coker}(K_n(\mathbb Z)\to K_n(A))\) | active | FJ09 | Used for projective class group and finiteness obstruction statements. |
 | \(o(X)\) | Wall finiteness obstruction of a finitely dominated CW complex \(X\) | active | FJ09 | Lives in \(\widetilde K_0(\mathbb Z[\pi_1(X)])\). |
 | \(X\) | CW complex in finiteness-obstruction statements | local/active | FJ09 | Usually finitely dominated in FJ09. |
+| \(BG\) | classifying space of \(G\) | active | FJ10 | For aspherical spaces \(X\) with \(\pi_1(X)=G\), \(X\) is a model for \(BG\). |
+| \(L_n^{\langle -\infty\rangle}(\mathbb ZG)\) | quadratic algebraic \(L\)-group with \(-\infty\) decoration | application-only | FJ10 | Imported only for the Borel consequence theorem map. |
+| \(\mathbf L^{\langle -\infty\rangle}(\mathbb Z)\) | \(L\)-theory spectrum used in the source assembly map | application-only | FJ10 | Not part of the active K-theory core. |
+| \(S^{\mathrm{top}}(M)\) | topological structure set of \(M\) | application-only | FJ10 | Singleton condition is the surgery-theoretic form of Borel rigidity. |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |
 | \(\mathcal{All}(G)\) | family of all subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{All}}G\) is modeled by \(\mathrm{pt}\). |

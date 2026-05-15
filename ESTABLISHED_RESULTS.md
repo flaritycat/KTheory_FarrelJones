@@ -248,3 +248,43 @@ If, in addition, \(G\) is finitely presented, then every finitely dominated CW c
 ### Source status
 
 Source-verified from Lueck, W., and Reich, H. (2004), Section 1.1, Theorem 1.8, and Consequence 1.9. The proof uses ER-006 for the algebraic Farrell--Jones implication.
+
+## ER-008. Conditional Borel consequence from K-theory vanishing and L-theory assembly
+
+### Status
+
+Source-verified theorem map, conditional on low-dimensional K-theory vanishing and the \(L^{\langle -\infty\rangle}\)-theory assembly isomorphism.
+
+### Statement
+
+Let \(G\) be torsion free. Assume:
+
+- \(\mathrm{Wh}(G)=0\);
+- \(\widetilde K_0(\mathbb Z[G])=0\);
+- \(K_{-i}(\mathbb Z[G])=0\) for all \(i\geq 1\);
+- the assembly map
+
+\[
+H_n(BG;\mathbf L^{\langle -\infty\rangle}(\mathbb Z))
+\longrightarrow
+L_n^{\langle -\infty\rangle}(\mathbb ZG)
+\]
+
+is an isomorphism for every \(n\in\mathbb Z\).
+
+Then the Borel conjecture holds for all orientable closed aspherical topological manifolds of dimension at least \(5\) with fundamental group \(G\).
+
+### Proof location
+
+`modules/cycle_001/FJ10_borel_conjecture_consequence.md`
+
+### Assumptions
+
+- \(G\) is torsion free.
+- The low-dimensional K-theory vanishing hypotheses above hold.
+- The \(L^{\langle -\infty\rangle}\)-theory assembly map is an isomorphism in all degrees.
+- The manifold is orientable, closed, aspherical, topological, and of dimension at least \(5\).
+
+### Source status
+
+Source-verified from Lueck, W., and Reich, H. (2004), Conjecture 1.19, Conjecture 1.27, Proposition 1.23, and Theorem 1.28. This is not a K-theory-only result.

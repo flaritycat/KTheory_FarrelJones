@@ -10,7 +10,7 @@
 - Equivariant homology theories, introduced initially as black boxes.
 - Known cases of Farrell--Jones, after source verification.
 - Inheritance properties, after source verification.
-- Consequences such as Whitehead group vanishing and projective class group consequences, after their hypotheses are recorded.
+- Consequences such as Whitehead group vanishing, projective class group consequences, and Borel-type rigidity, after their hypotheses are recorded.
 - Candidate unresolved group classes, especially Artin groups and torsion-free one-relator groups, after source verification.
 
 ## Out of scope
@@ -36,6 +36,7 @@ Unless explicitly imported later:
 - Explicit assumptions.
 - Source checking for known theorems and open status.
 - APA-style external citations, while preserving project source-status labels.
+- \(L\)-theory may appear only as a clearly marked application dependency, as in `FJ10`.
 - No hidden dependence on previous conversations.
 - Algebraic \(K\)-theory is the chosen branch.
 - Farrell--Jones is the chosen primary path.
@@ -57,6 +58,8 @@ Unless explicitly imported later:
 11. Should the original Bass--Heller--Swan paper be checked directly, or is Weibel's monograph sufficient for the first-pass theorem ledger?
 12. Which source should be used for geometric Whitehead torsion if later modules need topology-facing consequences?
 13. Should Wall's finiteness obstruction theorem be verified from a primary or monograph source?
+14. Which source should be used for surgery theory and topological structure sets if Borel rigidity becomes active beyond a theorem map?
+15. Should negative \(K\)-group vanishing receive its own module?
 
 ## Established results
 
@@ -67,6 +70,7 @@ Unless explicitly imported later:
 - ER-005: Source-verified Bass--Heller--Swan decomposition of \(K_n(R[\mathbb Z])\) into \(K_n(R)\), \(K_{n-1}(R)\), and two \(NK_n(R)\)-summands.
 - ER-006: Conditional Whitehead-group vanishing from the K-theoretic Farrell--Jones conjecture for torsion-free groups with regular coefficients.
 - ER-007: Conditional vanishing of \(\widetilde K_0(\mathbb Z[G])\) from Farrell--Jones, with the finiteness-obstruction interpretation for finitely presented groups.
+- ER-008: Conditional Borel consequence from low-dimensional K-theory vanishing and the \(L^{\langle -\infty\rangle}\)-theory assembly isomorphism.
 
 ## Current scope
 
@@ -83,7 +87,8 @@ The active mathematical scope is the simplified K-theoretic Farrell--Jones conje
 - Module `FJ07` records the Bass--Heller--Swan split exact sequence, introduces \(NK_n(R)\), and explains why Nil-terms force the virtually cyclic family for arbitrary coefficient rings.
 - Module `FJ08` records the conditional Whitehead-group consequence of Farrell--Jones for torsion-free groups with regular coefficients.
 - Module `FJ09` records the conditional projective class group consequence and the Wall finiteness-obstruction interpretation.
+- Module `FJ10` records the Borel conjecture consequence as a source-verified theorem map requiring both K-theory vanishing and \(L^{\langle -\infty\rangle}\)-theory assembly.
 
 ## Next mathematical move
 
-Proceed to module `FJ10`: the Borel conjecture consequence, without importing \(L\)-theory beyond clearly marked source-verified statements.
+Proceed to module `FJ11`: the known classes ledger, with source verification before recording any class as known.
