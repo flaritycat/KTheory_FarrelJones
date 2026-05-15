@@ -215,4 +215,6 @@ cleanup bridge remain usable when a concrete candidate is selected.
 Keep `RB-004` paused until a candidate-ready route is identified. `FJ46`
 selects the active project interruption: begin `FJ02` for
 additive-category/source-convention reconciliation before further
-proof-sensitive `RB-005` work.
+proof-sensitive `RB-005` work. `FJ02` is now complete at first pass, so the
+active project move returns to `RB-005` through `FJ47`, coefficient
+finite-index bridge source selection.

@@ -16,7 +16,8 @@ subtraction. `FJ43` pauses automatic `RB-004` source-cluster continuation,
 `FJ44` selects `RB-005` as the next attack packet, `FJ45` records that only
 the full \(\mathcal{FJ}\) finite-index bridge is currently usable, and
 `FJ46` selects an `FJ02` source-convention interruption before further
-proof-sensitive `RB-005` work.
+proof-sensitive `RB-005` work. `FJ02` completes that source-convention
+interruption and returns `RB-005` to finite-index bridge source selection.
 
 ## Warning
 
@@ -42,7 +43,7 @@ cases not yet removed by the repository's current source-verified route data.
 | RB-002 | Locally indicable-only torsion-free one-relator data | Local indicability is structural and is not a Farrell--Jones theorem route in the project | OQ-026 |
 | RB-003 | One-relator hierarchy-only data from the Linton vocabulary | A hierarchy is not automatically a bridge to hyperbolicity, CAT(0), virtual solvability, a mapping torus, or an inheritance row | OQ-038, OQ-039 |
 | RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge | OQ-036 |
-| RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ45` licenses only the full \(\mathcal{FJ}\) finite-index row; `FJ46` selects `FJ02` before more coefficient K-theory, direct CAT(0), or `FJCw`/`FICwF` route use | OQ-002, OQ-022, OQ-032 |
+| RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ02` supplies the source convention; the remaining gap is a coefficient K-theory finite-index overgroup bridge or a direct CAT(0) finite-extension bridge | OQ-032, OQ-068 |
 | RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | The project needs a source-verified bridge not already absorbed by `FJ23` | OQ-033 |
 | RB-007 | Virtually solvable-looking one-relator cases without a recognition source | `FJ25` deliberately does not classify virtually solvable one-relator groups | OQ-034 |
 | RB-008 | Countable-free-kernel or extension cases without exact inheritance data | `FJ27` requires the exact sequence, quotient status, and source version flag | OQ-037 |
@@ -370,6 +371,26 @@ Outcome:
   full-formulation flag;
 - make no residual bucket subtraction.
 
-## Next action
+## Historical next action after FJ46
 
 Begin `FJ02`, the additive-category/source-convention formulation module.
+
+## FJ02 source-convention interruption update
+
+`FJ02` completes the source-convention interruption selected by `FJ46`.
+
+Outcome:
+
+- Bartels--Reich Conjecture 3.2 is adopted as the first-pass project
+  formulation for coefficient K-theory FJC;
+- source labels remain separated: coefficient K-theory FJC, full
+  \(\mathcal{FJ}\), `FJCw`, `FICwF`, and simplified ring-coefficient FJ are
+  not collapsed without a checked comparison;
+- `RB-005` can resume, but it still lacks a coefficient K-theory
+  finite-index overgroup bridge;
+- no residual bucket is removed by `FJ02`.
+
+## Next action
+
+Begin `FJ47`, coefficient finite-index bridge source selection under the
+`FJ02` convention.

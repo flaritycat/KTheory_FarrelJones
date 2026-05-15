@@ -76,10 +76,10 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: interrupt cycle 003 and begin `FJ02`, the
-additive-category/source-convention formulation module. Start from `OQ-002`,
-`OQ-003`, and `OQ-022`, then return to `RB-005` only after the source-label
-comparison policy is recorded.
+Next project task: `FJ47`, coefficient finite-index bridge source selection
+under the `FJ02` convention. Start from Bartels--Reich, Bartels--Lueck
+induction/inheritance sources, and any source explicitly proving
+finite-index overgroup inheritance for K-theory with coefficients.
 
 ## Reading protocol
 

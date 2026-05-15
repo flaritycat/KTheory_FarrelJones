@@ -8,7 +8,10 @@ Artin-group subclasses in `FJ18` and one-relator-relevant routes in
 
 This ledger records known Farrell--Jones cases only after a theorem
 statement has been checked. A row is usable only under its stated
-hypotheses and version flags.
+hypotheses and version flags. After `FJ02`, coefficient K-theory rows are
+interpreted through the Bartels--Reich additive-category convention; `FJCw`,
+`FICwF`, full \(\mathcal{FJ}\), and simplified ring-coefficient statements
+remain separate source labels unless a comparison is checked.
 
 | Group class | K-theory? | L-theory? | Coefficients? | Reference | Source status | Notes |
 |---|---|---|---|---|---|---|

@@ -18,6 +18,8 @@ The goal is not to solve the full conjecture immediately. The goal is to build a
 - Classifying spaces for families of subgroups.
 - Virtually cyclic subgroups.
 - Equivariant homology theories, introduced only as needed.
+- Additive-category coefficients, under the first-pass convention recorded
+  in `FJ02`.
 - Known cases of Farrell--Jones.
 - Inheritance properties.
 - Consequences such as Whitehead group vanishing, projective class group consequences, and Borel-type rigidity, when their hypotheses are stated carefully.
@@ -43,8 +45,10 @@ Unless explicitly imported later:
 - \(R\) denotes an associative unital ring unless explicitly stated otherwise.
 - \(G\) denotes a discrete group unless explicitly stated otherwise.
 - A family of subgroups is closed under conjugation and passage to subgroups.
-- The first working formulation is the simplified ring-coefficient version.
-- The stronger additive-category formulation is deferred to module `FJ02`.
+- The first working formulation was the simplified ring-coefficient version
+  in `FJ01`.
+- The first-pass additive-category formulation and source-convention policy
+  are recorded in `FJ02`.
 - \(L\)-theory is not active until explicitly introduced in an application module.
 
 ## Proof standard
@@ -91,10 +95,10 @@ Complete first-pass modules `FJ01`--`FJ07`, establishing:
 6. the role of Bass--Heller--Swan;
 7. the reason Nil phenomena force virtually cyclic subgroups.
 
-Current status: first-pass coverage has been completed for `FJ01` and
-`FJ03`--`FJ07`. Module `FJ02`, the additive-category formulation, is
-intentionally deferred until the project is ready to choose a precise
-modern source and notation convention.
+Current status: first-pass coverage has been completed for `FJ01`--`FJ07`.
+Module `FJ02`, the additive-category formulation, was intentionally deferred
+until cycle 003 and is now completed as the project's first-pass
+source-convention module.
 
 ## Second milestone
 
@@ -205,9 +209,9 @@ subclass rows and because proof-sensitive Artin work first requires
 reconciling `FJCw`, `FICwF`, finite wreath products, and the project's
 internal formulation.
 
-Current procedural status: the `cycle_001` module list is complete
-except for the intentionally deferred `FJ02`. The cycle reflection has
-been written in `reflections/cycle_001_reflection.md`.
+Current procedural status: the `cycle_001` module list is now complete,
+including the later `FJ02` source-convention interruption. The cycle
+reflection has been written in `reflections/cycle_001_reflection.md`.
 
 ## Cycle 001 reflection
 
@@ -217,10 +221,10 @@ begin with `T-001`, torsion-free one-relator residual gap analysis, and
 that the first concrete step should be `FJ21`, one-relator structure
 source selection.
 
-The reflection also records that `FJ02` remains deferred but not
-forgotten. It becomes urgent before the project uses source-level
-coefficient statements, finite-wreath-product variants, `FJCw`, or
-`FICwF` as internal proof hypotheses.
+The reflection recorded that `FJ02` remained deferred but not forgotten.
+`FJ46` later made it urgent, and `FJ02` now supplies the first-pass
+additive-category/source-convention policy for source-level coefficient
+statements, finite-wreath-product variants, `FJCw`, and `FICwF`.
 
 ## Fifth milestone
 
@@ -655,7 +659,22 @@ labels. `FJ02` should now provide the minimum additive-category formulation,
 source-label comparison policy, and route-use rule needed before `RB-005`
 resumes.
 
-The next step after `FJ46` is to interrupt cycle 003 and begin `FJ02`.
+The historical next step after `FJ46` was to interrupt cycle 003 and begin
+`FJ02`.
+
+Current status: `FJ02` has first-pass coverage as the additive-category and
+source-convention formulation module. It adopts Bartels--Reich Conjecture
+3.2 as the project's canonical coefficient K-theory Farrell--Jones
+formulation for now: additive categories with right \(G\)-action,
+\(\mathcal A *_G T\), the Or\(G\)-spectrum \(K_{\mathcal A}\), and the
+assembly map over \(E_{\mathcal{VCyc}}G\). It also records the policy that
+coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, and the
+simplified ring-coefficient statement remain distinct unless a source
+comparison is checked.
+
+The route decision after `FJ02` is to return to `RB-005` with the source
+labels now under control. The next step is `FJ47`, a coefficient
+finite-index bridge source-selection module under the `FJ02` convention.
 
 ## GitHub persistence policy
 

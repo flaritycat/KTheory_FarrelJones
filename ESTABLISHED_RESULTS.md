@@ -331,8 +331,8 @@ Ledger table:
 ### Assumptions
 
 - "With coefficients" is used in the source sense of coefficients in
-  additive categories; the project's internal additive-category
-  foundations remain deferred to `FJ02`.
+  additive categories; `FJ02` now records the project's first-pass
+  additive-category source convention.
 - "Finite-dimensional CAT(0)-group" means a group admitting a proper,
   cocompact, isometric action on a finite-dimensional CAT(0)-space.
 - The table is not exhaustive.
@@ -380,7 +380,8 @@ Ledger table:
 ### Assumptions
 
 - "With coefficients" means coefficients in additive categories in the
-  source sense; the internal formulation remains deferred to `FJ02`.
+  source sense; `FJ02` now records the project's first-pass internal
+  convention for this source formulation.
 - Lueck's \(\mathcal{FJ}\) denotes the source-specific full
   Farrell--Jones class, not merely the simplified ring-coefficient
   statement from `FJ01`.
@@ -442,10 +443,10 @@ Ledger table:
 
 ### Assumptions
 
-- "FJCw" and "FICwF" are source-level flags. Their exact relationship
-  to the project's simplified ring-coefficient statement remains to be
-  reconciled in a later foundations module, probably `FJ02` or a
-  source-conventions supplement.
+- "FJCw" and "FICwF" are source-level flags. `FJ02` supplies a first-pass
+  policy: do not identify them with the project's simplified
+  ring-coefficient statement, coefficient K-theory FJC, or full
+  \(\mathcal{FJ}\) without a checked comparison.
 - Each row is usable only under the exact hypotheses recorded in
   `FJ18`.
 - The project has not reconstructed the Helly-group, normally
@@ -510,3 +511,55 @@ Ledger tables:
 Source-verified from Lueck (2025), Bestvina, Fujiwara, and Wigglesworth
 (2023), and Howie (2000). Newman (1968) is recorded as background for
 the torsion one-relator contrast, not as a Farrell--Jones theorem source.
+
+## ER-013. Source-verified additive-category K-theory formulation and source-convention policy
+
+### Status
+
+Source-verified formulation and project source-convention policy.
+
+### Statement
+
+The project adopts Bartels--Reich Conjecture 3.2 as its first-pass
+canonical K-theoretic Farrell--Jones formulation with coefficients in
+additive categories:
+
+- \(\mathcal A\) is an additive category with right \(G\)-action;
+- \(T\) is a left \(G\)-set;
+- \(\mathcal A *_G T\) is the associated additive category from
+  Bartels--Reich Definition 2.1;
+- \(K_{\mathcal A}(T)=K^{-\infty}(\mathcal A *_G T)\) is the Or\(G\)-
+  spectrum from Bartels--Reich Definition 3.1;
+- the coefficient K-theory Farrell--Jones conjecture asks that
+  \[
+  H_*^G(E_{\mathcal{VCyc}}G;K_{\mathcal A})
+  \longrightarrow
+  H_*^G(\mathrm{pt};K_{\mathcal A})
+  \]
+  be an isomorphism for every additive category \(\mathcal A\) with
+  right \(G\)-action.
+
+The source-convention policy is that coefficient K-theory FJC, full
+\(\mathcal{FJ}\), `FJCw`, `FICwF`, and the simplified ring-coefficient
+formulation remain separate source labels unless a comparison is checked.
+
+### Proof location
+
+`modules/cycle_001/FJ02_additive_categories.md`
+
+### Assumptions
+
+- This is a formulation result, not a proof of the conjecture for all
+  groups.
+- The simplified ring-coefficient formulation from `FJ01` is treated as a
+  specialization target of the additive-category formulation, subject to
+  the black-box homology normalization in `FJ01`.
+- `FJCw` and `FICwF` remain source-level flags with finite-wreath-product
+  and source-specific theory content.
+
+### Source status
+
+Source-verified from Bartels and Reich (2007), especially Definitions 2.1
+and 3.1, Conjecture 3.2, Remark 3.3, Corollary 4.3, Theorem 4.5, and
+Proposition 4.6, as recorded in `FJ02`, `BIBLIOGRAPHY.md`, and
+`ledgers/source_status.md`.
