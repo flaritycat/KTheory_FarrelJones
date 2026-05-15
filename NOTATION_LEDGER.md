@@ -21,6 +21,9 @@
 | \(\mathrm{Wh}_1^R(G)\) | cokernel of \(A_1\) | active | FJ08 | Specializes to the classical Whitehead group for \(R=\mathbb Z\). |
 | \(\mathrm{Wh}(G)\) | classical Whitehead group of \(G\) | active | FJ08 | Identified with \(\mathrm{Wh}_1^{\mathbb Z}(G)\) in FJ08. |
 | \(\widetilde K_0(\mathbb Z[G])\) | reduced projective class group of \(\mathbb Z[G]\) | active | FJ08 | Identified with \(\mathrm{Wh}_0^{\mathbb Z}(G)\) in FJ08. |
+| \(\widetilde K_n(A)\) | reduced algebraic \(K\)-group \(\operatorname{coker}(K_n(\mathbb Z)\to K_n(A))\) | active | FJ09 | Used for projective class group and finiteness obstruction statements. |
+| \(o(X)\) | Wall finiteness obstruction of a finitely dominated CW complex \(X\) | active | FJ09 | Lives in \(\widetilde K_0(\mathbb Z[\pi_1(X)])\). |
+| \(X\) | CW complex in finiteness-obstruction statements | local/active | FJ09 | Usually finitely dominated in FJ09. |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |
 | \(\mathcal{All}(G)\) | family of all subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{All}}G\) is modeled by \(\mathrm{pt}\). |

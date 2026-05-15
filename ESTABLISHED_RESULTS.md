@@ -217,3 +217,34 @@ In particular, for \(R=\mathbb Z\),
 ### Source status
 
 Source-verified from Lueck, W., and Reich, H. (2004), Section 1.1, Section 1.3, Proposition 2.10, and Corollary 2.11.
+
+## ER-007. Conditional projective class group and finiteness-obstruction consequence
+
+### Status
+
+Source-verified theorem map, conditional on the relevant K-theoretic Farrell--Jones statement.
+
+### Statement
+
+Let \(G\) be torsion free. Assume the K-theoretic Farrell--Jones assembly statement in the torsion-free regular-ring form used by Lueck and Reich for \(R=\mathbb Z\). Then
+
+\[
+\widetilde K_0(\mathbb Z[G])=0.
+\]
+
+If, in addition, \(G\) is finitely presented, then every finitely dominated CW complex \(X\) with \(\pi_1(X)\cong G\) is homotopy equivalent to a finite CW complex.
+
+### Proof location
+
+`modules/cycle_001/FJ09_projective_class_group_consequence.md`
+
+### Assumptions
+
+- \(G\) is torsion free.
+- \(R=\mathbb Z\), which is regular in the sense used by Lueck--Reich.
+- The relevant K-theoretic Farrell--Jones statement holds for \(G\).
+- The geometric finiteness-obstruction consequence also assumes \(G\) is finitely presented.
+
+### Source status
+
+Source-verified from Lueck, W., and Reich, H. (2004), Section 1.1, Theorem 1.8, and Consequence 1.9. The proof uses ER-006 for the algebraic Farrell--Jones implication.

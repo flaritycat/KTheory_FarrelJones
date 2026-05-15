@@ -235,3 +235,26 @@ A reliable source for Whitehead torsion and the \(s\)-cobordism theorem, prefera
 ### Next action
 
 Resolve only if `FJ10` or a later topology-facing module needs geometric consequences.
+
+## OQ-011. Should Wall's finiteness obstruction be verified from a primary source?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ09` uses Lueck--Reich's survey statement of Wall's finiteness obstruction theorem and its consequence for \(\widetilde K_0(\mathbb Z[G])\). This is enough for first-pass orientation, but a primary or monograph source may be needed if the project later uses the theorem proof-sensitively.
+
+### Relevant modules
+
+- FJ09
+- FJ10
+
+### Dependencies
+
+A primary or standard monograph source for Wall's finiteness obstruction theorem.
+
+### Next action
+
+Defer until a topology-facing module needs proof-level detail beyond the Lueck--Reich survey.

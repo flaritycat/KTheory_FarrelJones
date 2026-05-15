@@ -106,9 +106,11 @@ Proceed through modules `FJ08`--`FJ12`, establishing:
 4. a known-classes ledger;
 5. an inheritance-properties ledger.
 
-Current status: `FJ08` has first-pass coverage as a conditional theorem
-map from Farrell--Jones to Whitehead-group vanishing under torsion-free
-and regularity hypotheses.
+Current status: `FJ08` and `FJ09` have first-pass coverage as
+conditional theorem maps from Farrell--Jones to Whitehead-group
+vanishing and to vanishing of \(\widetilde K_0(\mathbb Z[G])\),
+including the finiteness-obstruction interpretation for finitely
+presented groups.
 
 ## GitHub persistence policy
 
