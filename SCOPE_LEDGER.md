@@ -66,6 +66,7 @@ Unless explicitly imported later:
 19. Which Bartels--Lueck geodesic-flow cover lemmas and Wegner transfer lemmas should be checked directly before `FJ16`--`FJ17` use the CAT(0) proof machinery?
 20. Which primary source should be adopted as the canonical project reference for obstruction categories and continuous-control conditions before `FJ17` uses them proof-sensitively?
 21. Which Mineyev flow-space results must be checked directly before the project uses hyperbolic flow estimates proof-sensitively?
+22. Which transfer-category model should become canonical before the project uses transfer proofs in detail?
 
 ## Established results
 
@@ -102,7 +103,8 @@ The active mathematical scope is the simplified K-theoretic Farrell--Jones conje
 - Module `FJ14` records the CAT(0)-groups proof skeleton from Wegner: K-theory theorem, strong transfer reducibility route, strong homotopy actions, CAT(0) flow-space-cover dependency, and comparison with the hyperbolic case.
 - Module `FJ15` records a controlled-algebra vocabulary primer: control spaces, obstruction categories, controlled morphisms, controlled maps, and the gain-control strategy behind the proof skeletons.
 - Module `FJ16` records a flow-spaces primer: flows, flow spaces, open \(\mathcal F\)-covers, long covers in the flow direction, hyperbolic equivariant covers, and CAT(0) flow-space covers.
+- Module `FJ17` records a transfers primer: transfer maps, strong homotopy actions, strong transfer reducibility, contracting transfers, and the projection identity that lets transferred control information return to the original obstruction class.
 
 ## Next mathematical move
 
-Proceed to module `FJ17`: the transfers primer, using the controlled-algebra vocabulary from `FJ15` and the flow-space vocabulary from `FJ16`.
+Proceed to module `FJ18`: the Artin groups dossier, using source discipline to separate known Farrell--Jones subclasses, inherited cases, and genuine open gaps.

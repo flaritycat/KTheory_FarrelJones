@@ -16,7 +16,7 @@
 
 1. Bartels, A.; Lueck, W.; Reich, H. *The K-theoretic Farrell-Jones Conjecture for hyperbolic groups*. Status: active reference for `FJ11` and `FJ13`; main theorem and proof skeleton checked.
 2. Bartels, A.; Lueck, W. *The Borel Conjecture for hyperbolic and CAT(0)-groups*. Status: active reference for `FJ11`; class \(\mathcal B\) and Theorem B checked.
-3. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ11` and `FJ14`; main theorem and proof route checked.
+3. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ11`, `FJ14`, `FJ15`, and `FJ17`; main theorem, proof route, obstruction-category vocabulary, and transfer-primer sections checked.
 4. Wegner, C. *The Farrell-Jones conjecture for virtually solvable groups*. Status: active reference for `FJ11`; main theorem checked.
 5. Bartels, A.; Reich, H. *Coefficients for the Farrell-Jones Conjecture*. Status: active reference for `FJ12`; Section 4 checked for pullback and subgroup inheritance.
 6. Bartels, A.; Echterhoff, S.; Lueck, W. *Inheritance of Isomorphism Conjectures under Colimits*. Status: active reference for `FJ12`; theorem on directed colimits checked.
@@ -31,13 +31,14 @@
 
 ## Priority 2c: CAT(0) proof technology
 
-1. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ14` and `FJ15`; obstruction-category review checked, but detailed transfer arguments still need checking before `FJ17`.
-2. Bartels, A.; Lueck, W. *Geodesic flow for CAT(0)-groups*. Status: active reference for `FJ16`; flow-space definition and cover-route statements checked, detailed transfer use deferred.
+1. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ14`, `FJ15`, and `FJ17`; obstruction-category review, strong homotopy actions, strong transfer reducibility, and transfer diagram checked at first-pass level.
+2. Bartels, A.; Lueck, W. *Geodesic flow for CAT(0)-groups*. Status: active reference for `FJ16` and `FJ17`; flow-space definition, cover-route statements, transfer reducibility, and contracting-transfer definitions checked at first-pass level.
 
 ## Priority 2d: controlled algebra and transfers
 
-1. Bartels, A.; Lueck, W.; Reich, H. *The K-theoretic Farrell-Jones Conjecture for hyperbolic groups*. Status: active reference for `FJ13`; obstruction-category reduction cited through Wegner in `FJ15`, but the exact proposition should be checked directly before `FJ17`.
-2. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ15`; controlled-algebra vocabulary checked, transfer construction deferred.
+1. Bartels, A.; Lueck, W.; Reich, H. *The K-theoretic Farrell-Jones Conjecture for hyperbolic groups*. Status: active reference for `FJ13` and `FJ17`; rough transfer outline, Section 6 transfer theorem, controlled transfer construction, and projection/right-inverse role checked at first-pass level.
+2. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ15` and `FJ17`; controlled-algebra vocabulary and transfer construction checked at first-pass level.
+3. Bartels, A.; Reich, H. *On the Farrell-Jones conjecture for higher algebraic K-theory*. Status: found; to verify for transfer-background use.
 
 ## Reading protocol
 

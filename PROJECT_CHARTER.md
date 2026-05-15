@@ -164,10 +164,26 @@ flow-space covers, and the way flow spaces support gain-control
 arguments. It records theorem routes but does not prove Mineyev flow
 estimates or long-cover theorems internally.
 
-Current status: `FJ17`, the transfers primer, is the next target. It
-should explain the transfer mechanism that moves the obstruction problem
-from the point into the larger controlled spaces used in `FJ15` and
-`FJ16`.
+Current status: `FJ17`, the transfers primer, has first-pass coverage.
+It explains the transfer mechanism that moves obstruction-category
+classes from the point into larger controlled spaces, records the
+source-level transfer diagrams in the hyperbolic and CAT(0) proof
+routes, and marks Waldhausen/Karoubi details, stability, and
+obstruction-category vanishing as deferred proof dependencies.
+
+## Fourth milestone
+
+Proceed through modules `FJ18`--`FJ20`, turning the foundation and
+proof-technology ledgers toward target selection:
+
+1. Artin groups dossier;
+2. one-relator groups dossier;
+3. first target selection.
+
+Current status: `FJ18`, the Artin groups dossier, is the next target.
+It should source-check known Farrell--Jones results and open gaps for
+Artin-group subclasses, without importing folklore or treating
+unverified claims as theorem inputs.
 
 ## GitHub persistence policy
 

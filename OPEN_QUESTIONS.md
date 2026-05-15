@@ -404,11 +404,10 @@ Bartels--Lueck--Reich (2008), especially the Main Theorem, Theorem
 
 ### Next action
 
-Before `FJ17` uses any of the proof mechanisms in detail, choose which
-dependencies to check directly and record their exact hypotheses in the
-bibliography and source-status ledger. `FJ16` checked the equivariant
-cover theorem statement and flow-space architecture, but not the
-complete proof.
+`FJ17` checked the first-pass transfer architecture in
+Bartels--Lueck--Reich, including the transfer theorem's right-inverse
+role. Before proof-sensitive use, check the detailed Waldhausen-category
+transfer proof, stability theorem, and cover-contraction step.
 
 ## OQ-017. Which CAT(0) proof dependencies need direct checking?
 
@@ -439,11 +438,11 @@ reducibility theorem, and the CAT(0)-group verification; Bartels--Lueck
 
 ### Next action
 
-Before `FJ17` uses flow spaces or transfers in detail, identify the
-exact lemmas needed from Wegner and Bartels--Lueck and record their
-hypotheses in the bibliography and source-status ledger. `FJ16` checked
-the flow-space definition and main cover-route statements, but not the
-complete cover proofs.
+`FJ17` checked Wegner's strong homotopy action, strong transfer
+reducibility, proof-outline diagram, transfer functor, and projection
+identity at first-pass level. Before proof-sensitive use, verify the
+controlled \(N\)-domination, strong-transfer-cover construction, and
+the detailed CAT(0) flow-space cover inputs.
 
 ## OQ-018. Which obstruction-category source should become canonical?
 
@@ -474,9 +473,10 @@ conditions.
 
 ### Next action
 
-Before `FJ17` uses obstruction categories proof-sensitively, choose a
-canonical source and record the exact notation, hypotheses, and
-comparison with Wegner's notation.
+`FJ17` used Wegner and Bartels--Lueck--Reich source notation for
+orientation only. Before proof-sensitive use, choose a canonical
+obstruction-category source and record the exact notation, hypotheses,
+Karoubi filtrations, and comparison with Wegner's notation.
 
 ## OQ-019. Which Mineyev flow-space results need direct checking?
 
@@ -507,3 +507,39 @@ cited by Bartels--Lueck--Reich.
 Before using the hyperbolic flow estimates proof-sensitively, identify
 the exact Mineyev statements imported by Bartels--Lueck--Reich and
 record their hypotheses in the bibliography and source-status ledger.
+
+## OQ-020. Which transfer-category model should become canonical?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ17` records transfer maps using Wegner's notation and the
+Bartels--Lueck--Reich hyperbolic transfer architecture. The checked
+sources use Waldhausen categories of homotopy finitely dominated chain
+complexes, Karoubi quotient categories, diagonal maps, projection maps,
+and transfer functors. The project has not yet chosen a canonical
+internal model for these categories.
+
+### Relevant modules
+
+- FJ13
+- FJ15
+- FJ17
+- FJ02
+
+### Dependencies
+
+Wegner (2012), Bartels--Lueck--Reich (2008), Bartels--Reich (2005), and
+the canonical obstruction-category source still to be chosen in
+OQ-018.
+
+### Next action
+
+Before writing proof-level transfer arguments, choose whether the
+project follows Wegner's exposition, Bartels--Lueck--Reich's original
+transfer construction, or a later consolidated source. Record the exact
+category notation and hypotheses in the notation and source-status
+ledgers.
