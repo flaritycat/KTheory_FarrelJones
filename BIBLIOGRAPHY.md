@@ -48,6 +48,20 @@
 
 - Wegner, C. (2015). The Farrell-Jones conjecture for virtually solvable groups. *Journal of Topology, 8*(4), 975--1016. https://doi.org/10.1112/jtopol/jtv026. Status: `active reference for FJ11`. Notes: used in `FJ11` for K- and L-theoretic Farrell--Jones with coefficients in additive categories for virtually solvable groups; arXiv version: https://arxiv.org/abs/1308.2432.
 
+## Artin groups
+
+- Brueck, B., Kielak, D., & Wu, X. (2021). The Farrell-Jones conjecture for normally poly-free groups. *Proceedings of the American Mathematical Society, 149*(6), 2349--2356. https://doi.org/10.1090/proc/15357. Status: `active reference for FJ18; partially read overall`. Notes: arXiv source and bibliographic metadata checked for Theorem A on normally poly-free groups, Corollary B on even Artin groups of FC-type, the `FJCw` convention, and the RAAG semidirect-product theorem.
+
+- Huang, J., & Osajda, D. (2021). Helly meets Garside and Artin. *Inventiones Mathematicae, 225*, 395--426. https://doi.org/10.1007/s00222-021-01030-8. Status: `active reference for FJ18; partially read overall`. Notes: article page checked for the main theorem that weak finite-type Garside groups and FC-type Artin groups are Helly, and for the corollary that Farrell--Jones with finite wreath products holds for those groups.
+
+- Roushon, S. K. (2021). A certain structure of Artin groups and the isomorphism conjecture. *Canadian Journal of Mathematics, 73*(4), 1153--1170. https://doi.org/10.4153/S0008414X2000036X. Status: `active reference for FJ18; partially read overall`. Notes: article page and arXiv source checked for the listed finite real, complex, and affine Artin types and the `FICwF` theorem statement. Use together with the erratum and 2024 corrigendum below.
+
+- Roushon, S. K. (2022). Erratum: A certain structure of Artin groups and the isomorphism conjecture. *Canadian Journal of Mathematics, 74*(2), 602. https://doi.org/10.4153/S0008414X20000802. Status: `active reference for FJ18`. Notes: bibliographic correction source recorded with the main Roushon article.
+
+- Roushon, S. K. (2024). Corrigendum: A certain structure of Artin groups and the isomorphism conjecture. *Canadian Journal of Mathematics, 76*(2), 729--730. https://doi.org/10.4153/S0008414X24000191. Status: `active reference for FJ18`. Notes: checked for the alternate proof of FICwF for affine Artin groups of type \(\widetilde B_n\) after an error in the earlier proof route was identified.
+
+- Wu, X. (2022). Poly-freeness of Artin groups and the Farrell-Jones conjecture. *Journal of Group Theory, 25*(1), 11--24. https://doi.org/10.1515/jgth-2020-0201. Status: `active reference for FJ18; partially read overall`. Notes: arXiv source and bibliographic metadata checked for Theorems A, B, and C, the `FJCw` convention, the FC-type definition, clique-reduction theorem, and join/tree/even-FC construction.
+
 ## Inheritance and induction
 
 - Bartels, A., Echterhoff, S., & Lueck, W. (2007). *Inheritance of isomorphism conjectures under colimits* (arXiv:math/0702460). arXiv. https://arxiv.org/abs/math/0702460. Status: `active reference for FJ12; partially read overall`. Notes: Theorem "Inheritance under colimits" checked in `FJ12` for arbitrary directed systems, injective directed systems, subgroup hypotheses, and the source's \(R\rtimes H\) target convention.

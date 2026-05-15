@@ -40,6 +40,15 @@
 2. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ15` and `FJ17`; controlled-algebra vocabulary and transfer construction checked at first-pass level.
 3. Bartels, A.; Reich, H. *On the Farrell-Jones conjecture for higher algebraic K-theory*. Status: found; to verify for transfer-background use.
 
+## Priority 2e: Artin groups
+
+1. Huang, J.; Osajda, D. *Helly meets Garside and Artin*. Status: active reference for `FJ18`; main Helly theorem and Farrell--Jones-with-finite-wreath-products corollary checked at first-pass level.
+2. Brueck, B.; Kielak, D.; Wu, X. *The Farrell-Jones conjecture for normally poly-free groups*. Status: active reference for `FJ18`; Theorem A, Corollary B, `FJCw`, and RAAG semidirect-product theorem checked.
+3. Wu, X. *Poly-freeness of Artin groups and the Farrell-Jones Conjecture*. Status: active reference for `FJ18`; Theorems A, B, C, FC-type definition, clique reduction, and join/tree construction checked.
+4. Roushon, S. K. *A certain structure of Artin groups and the isomorphism conjecture*. Status: active reference for `FJ18` with correction caution; listed Artin types and `FICwF` theorem checked.
+5. Roushon, S. K. *Erratum: A certain structure of Artin groups and the isomorphism conjecture*. Status: active reference for `FJ18`; bibliographic correction recorded.
+6. Roushon, S. K. *Corrigendum: A certain structure of Artin groups and the isomorphism conjecture*. Status: active reference for `FJ18`; corrected \(\widetilde B_n\) route checked.
+
 ## Reading protocol
 
 For each source, record:

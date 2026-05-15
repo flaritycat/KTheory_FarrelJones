@@ -180,10 +180,18 @@ proof-technology ledgers toward target selection:
 2. one-relator groups dossier;
 3. first target selection.
 
-Current status: `FJ18`, the Artin groups dossier, is the next target.
-It should source-check known Farrell--Jones results and open gaps for
-Artin-group subclasses, without importing folklore or treating
-unverified claims as theorem inputs.
+Current status: `FJ18`, the Artin groups dossier, has first-pass
+coverage as a source-verified subclass ledger. It records FC-type Artin
+groups, even FC-type Artin groups, right-angled Artin semidirect
+products, Wu's even-Artin clique and join constructions, and Roushon's
+listed finite real, complex, and affine types, always under the exact
+source hypotheses. It does not claim the Farrell--Jones conjecture for
+all Artin groups.
+
+Current status: `FJ19`, the one-relator groups dossier, is the next
+target. It should source-check known Farrell--Jones results and open
+gaps for one-relator group subclasses, without importing folklore or
+treating unverified claims as theorem inputs.
 
 ## GitHub persistence policy
 

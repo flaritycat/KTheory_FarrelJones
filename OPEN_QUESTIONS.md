@@ -23,7 +23,9 @@ Known-cases ledger and inheritance-properties ledger.
 
 ### Next action
 
-Defer until modules `FJ11`, `FJ12`, `FJ18`, and `FJ19` have produced verified tables.
+`FJ18` has produced the Artin-group table. Defer final target selection
+until `FJ19` has produced the one-relator group table and `FJ20` compares
+the candidate targets.
 
 ## OQ-002. Which source should serve as the main reference for the modern Farrell--Jones statement?
 
@@ -336,9 +338,9 @@ group subclasses.
 
 ### Next action
 
-After `FJ12`, choose the next known-case expansion based on which
-inheritance properties are most useful for the later Artin-group and
-one-relator-group dossiers.
+`FJ18` has added Artin-group subclass rows. After `FJ19`, choose the
+next known-case expansion based on which inheritance properties are most
+useful for the target-selection module.
 
 ## OQ-015. Which inheritance rows need primary-source tracing?
 
@@ -543,3 +545,96 @@ project follows Wegner's exposition, Bartels--Lueck--Reich's original
 transfer construction, or a later consolidated source. Record the exact
 category notation and hypotheses in the notation and source-status
 ledgers.
+
+## OQ-021. Which Artin-group subclasses remain outside the FJ18 verified ledger?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ18` records source-verified Farrell--Jones rows for several
+Artin-group subclasses, including FC-type Artin groups, even FC-type
+Artin groups, right-angled Artin semidirect products, Wu's even-Artin
+clique and join constructions, and Roushon's listed finite real,
+complex, and affine types.
+
+This does not settle all Artin groups inside the project. The remaining
+task is to identify which commonly discussed Artin subclasses still
+fall outside those verified rows.
+
+### Relevant modules
+
+- FJ18
+- FJ20+
+
+### Dependencies
+
+`FJ18`, `ledgers/known_classes.md`, and future Artin literature checks.
+
+### Next action
+
+After `FJ19`, decide whether a second Artin-status module is worth
+adding before target selection, or whether the current table is enough
+for `FJ20`.
+
+## OQ-022. Which source should reconcile FJCw, FICwF, and the project's simplified K-theory formulation?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ18` records source-level formulations such as `FJCw` and `FICwF`.
+These are stronger or differently packaged than the simplified
+ring-coefficient K-theory statement in `FJ01`, and they involve
+coefficients, finite wreath products, and in Roushon's notation also
+K-, L-, and A-theory.
+
+### Relevant modules
+
+- FJ01
+- FJ02
+- FJ12
+- FJ18
+
+### Dependencies
+
+A canonical source for the modern additive-category formulation and a
+careful comparison of source notation.
+
+### Next action
+
+Resolve during `FJ02` or a dedicated source-conventions module before
+using `FJCw` or `FICwF` as proof-level internal hypotheses.
+
+## OQ-023. Can Wu's clique-reduction route isolate a tractable Artin target not already covered by the verified rows?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Wu's source gives a reduction for even Artin groups from clique
+subgroups and records a criterion implying FJCw for a structured family
+of even Artin groups. This suggests a possible target-selection route:
+look for a remaining Artin subclass where the clique subgroups are
+tractable, but the full class is not already covered by `FJ18`.
+
+### Relevant modules
+
+- FJ18
+- FJ20+
+
+### Dependencies
+
+Wu (2022), the inheritance ledger, and a future Artin subclass gap
+analysis.
+
+### Next action
+
+Do not pursue until after `FJ19` and `FJ20` decide whether the first
+target should remain Artin-related or move to one-relator groups.

@@ -393,3 +393,67 @@ Ledger table:
 Source-verified from Bartels and Reich (2007), Section 4; Bartels,
 Echterhoff, and Lueck (2007), Theorem "Inheritance under colimits"; and
 Lueck (2025), Theorem "Status of the Full Farrell-Jones Conjecture."
+
+## ER-011. First source-verified Artin-group Farrell--Jones subclass ledger
+
+### Status
+
+Source-verified literature theorem ledger.
+
+### Statement
+
+The project records the following first-pass Artin-group Farrell--Jones
+subclasses and method rows:
+
+- Artin groups of FC-type satisfy the Farrell--Jones conjecture with
+  finite wreath products in the source formulation of Huang and Osajda.
+- Weak Garside groups of finite type satisfy the Farrell--Jones
+  conjecture with finite wreath products in the same source
+  formulation; this includes spherical Artin groups and braid-group
+  examples listed by Huang and Osajda.
+- Normally poly-free groups satisfy the K- and L-theoretic
+  Farrell--Jones conjecture with finite wreath products and coefficients
+  in additive categories in the source formulation of Brueck, Kielak,
+  and Wu.
+- Even Artin groups of FC-type satisfy the K- and L-theoretic FJCw by
+  Brueck--Kielak--Wu's normally-poly-free route.
+- For a finite simplicial graph \(\Gamma\), right-angled Artin groups
+  \(A_\Gamma\) satisfy FJCw by the CAT(0) route already recorded in
+  the project, and groups \(A_\Gamma\rtimes_f\mathbb Z\) satisfy
+  K- and L-theoretic FJCw by Brueck--Kielak--Wu.
+- The even Artin groups covered by Wu's clique criterion and join/tree
+  construction satisfy FJCw under the exact finite-graph and edge-label
+  hypotheses recorded in `FJ18`.
+- Roushon's listed finite real, complex, and affine Artin types satisfy
+  `FICwF` in K-, L-, and A-theories with coefficients and finite wreath
+  products, for subgroups of the listed Artin groups, using the 2024
+  corrigendum for the \(\widetilde B_n\) route.
+
+The global class of all Artin groups is not recorded as a known
+Farrell--Jones case by this result.
+
+### Proof location
+
+`modules/cycle_001/FJ18_artin_groups_dossier.md`
+
+Ledger table:
+
+`ledgers/known_classes.md`
+
+### Assumptions
+
+- "FJCw" and "FICwF" are source-level flags. Their exact relationship
+  to the project's simplified ring-coefficient statement remains to be
+  reconciled in a later foundations module, probably `FJ02` or a
+  source-conventions supplement.
+- Each row is usable only under the exact hypotheses recorded in
+  `FJ18`.
+- The project has not reconstructed the Helly-group, normally
+  poly-free, or Roushon proof routes internally.
+
+### Source status
+
+Source-verified from Huang and Osajda (2021), Brueck, Kielak, and Wu
+(2021), Wu (2022), Roushon (2021), Roushon's erratum (2022), and
+Roushon's corrigendum (2024), as recorded in `FJ18`,
+`BIBLIOGRAPHY.md`, and `ledgers/source_status.md`.

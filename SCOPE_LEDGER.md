@@ -67,6 +67,9 @@ Unless explicitly imported later:
 20. Which primary source should be adopted as the canonical project reference for obstruction categories and continuous-control conditions before `FJ17` uses them proof-sensitively?
 21. Which Mineyev flow-space results must be checked directly before the project uses hyperbolic flow estimates proof-sensitively?
 22. Which transfer-category model should become canonical before the project uses transfer proofs in detail?
+23. Which Artin-group subclasses remain outside the `FJ18` verified ledger?
+24. Which source should reconcile `FJCw`, `FICwF`, and the project's simplified K-theory formulation?
+25. Can Wu's clique-reduction route isolate a tractable Artin target not already covered by the verified rows?
 
 ## Established results
 
@@ -80,6 +83,7 @@ Unless explicitly imported later:
 - ER-008: Conditional Borel consequence from low-dimensional K-theory vanishing and the \(L^{\langle -\infty\rangle}\)-theory assembly isomorphism.
 - ER-009: First source-verified known Farrell--Jones classes: hyperbolic groups, finite-dimensional CAT(0)-groups, and virtually solvable groups, with version flags and first-pass proof-route maps for hyperbolic and CAT(0)-groups.
 - ER-010: First source-verified inheritance-properties ledger, separating coefficient K-theory inheritance from survey-level closure properties of Lueck's full \(\mathcal{FJ}\) class.
+- ER-011: First source-verified Artin-group Farrell--Jones subclass ledger, recording FC-type Artin groups, even FC-type Artin groups, RAAG-related semidirect products, Wu's even-Artin clique and join constructions, and Roushon's listed finite real, complex, and affine types under exact source hypotheses.
 
 ## Current scope
 
@@ -104,7 +108,8 @@ The active mathematical scope is the simplified K-theoretic Farrell--Jones conje
 - Module `FJ15` records a controlled-algebra vocabulary primer: control spaces, obstruction categories, controlled morphisms, controlled maps, and the gain-control strategy behind the proof skeletons.
 - Module `FJ16` records a flow-spaces primer: flows, flow spaces, open \(\mathcal F\)-covers, long covers in the flow direction, hyperbolic equivariant covers, and CAT(0) flow-space covers.
 - Module `FJ17` records a transfers primer: transfer maps, strong homotopy actions, strong transfer reducibility, contracting transfers, and the projection identity that lets transferred control information return to the original obstruction class.
+- Module `FJ18` records an Artin groups dossier: source-verified Farrell--Jones subclass rows, method routes through Helly groups and normally poly-free groups, Roushon's corrected finite/affine/complex-type list, and remaining Artin-gap questions.
 
 ## Next mathematical move
 
-Proceed to module `FJ18`: the Artin groups dossier, using source discipline to separate known Farrell--Jones subclasses, inherited cases, and genuine open gaps.
+Proceed to module `FJ19`: the one-relator groups dossier, using source discipline to separate known Farrell--Jones subclasses, inherited cases, and unresolved or unverified gaps.
