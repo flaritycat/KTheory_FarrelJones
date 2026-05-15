@@ -28,9 +28,15 @@
 
 - Farrell, F. T., & Jones, L. E. (1995). The lower algebraic K-theory of virtually infinite cyclic groups. *K-Theory, 9*, 13--30. URL/DOI: to verify. Status: `to verify`. Notes: cited by Lueck--Reich as the proof source for the infinite virtually cyclic dichotomy; not directly checked in `FJ04`.
 
-## Hyperbolic groups and later known cases
+## Known cases
 
-- Bartels, A., Lueck, W., & Reich, H. (2007). *The K-theoretic Farrell-Jones conjecture for hyperbolic groups* (arXiv:math/0701434). arXiv; final version in *Inventiones Mathematicae*. https://arxiv.org/abs/math/0701434. Status: `found`. Notes: future source for `FJ13`, not used in `FJ01` except as a later-module reference.
+- Bartels, A., & Lueck, W. (2012). The Borel conjecture for hyperbolic and CAT(0)-groups. *Annals of Mathematics, 175*(2), 631--689. https://doi.org/10.4007/annals.2012.175.2.5. Status: `active reference for FJ11; partially read overall`. Notes: used in `FJ11` for the class \(\mathcal B\), the inclusion of hyperbolic groups and finite-dimensional CAT(0)-groups in \(\mathcal B\), and Theorem B for the L-theoretic Farrell--Jones assembly map with coefficients.
+
+- Bartels, A., Lueck, W., & Reich, H. (2008). The K-theoretic Farrell-Jones conjecture for hyperbolic groups. *Inventiones Mathematicae, 172*(1), 29--70. https://doi.org/10.1007/s00222-007-0093-7. Status: `active reference for FJ11; future source for FJ13`. Notes: `FJ11` checked the main theorem for K-theoretic Farrell--Jones with coefficients for hyperbolic groups in all degrees; arXiv version: https://arxiv.org/abs/math/0701434.
+
+- Wegner, C. (2012). The K-theoretic Farrell-Jones conjecture for CAT(0)-groups. *Proceedings of the American Mathematical Society, 140*(3), 779--793. https://doi.org/10.1090/S0002-9939-2011-11150-X. Status: `active reference for FJ11`. Notes: used in `FJ11` for full K-theoretic Farrell--Jones with coefficients for finite-dimensional CAT(0)-groups; arXiv version: https://arxiv.org/abs/1012.3349.
+
+- Wegner, C. (2015). The Farrell-Jones conjecture for virtually solvable groups. *Journal of Topology, 8*(4), 975--1016. https://doi.org/10.1112/jtopol/jtv026. Status: `active reference for FJ11`. Notes: used in `FJ11` for K- and L-theoretic Farrell--Jones with coefficients in additive categories for virtually solvable groups; arXiv version: https://arxiv.org/abs/1308.2432.
 
 ## Inheritance and induction
 

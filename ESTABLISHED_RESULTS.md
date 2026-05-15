@@ -288,3 +288,49 @@ Then the Borel conjecture holds for all orientable closed aspherical topological
 ### Source status
 
 Source-verified from Lueck, W., and Reich, H. (2004), Conjecture 1.19, Conjecture 1.27, Proposition 1.23, and Theorem 1.28. This is not a K-theory-only result.
+
+## ER-009. First source-verified known Farrell--Jones classes
+
+### Status
+
+Source-verified literature theorem ledger.
+
+### Statement
+
+The following group classes are recorded as known Farrell--Jones cases in
+the versions stated:
+
+- Hyperbolic groups satisfy the K-theoretic Farrell--Jones conjecture
+  with coefficients in additive categories in all degrees. They also
+  satisfy the L-theoretic Farrell--Jones assembly theorem with
+  coefficients via Bartels--Lueck's class \(\mathcal B\).
+- Finite-dimensional CAT(0)-groups satisfy the K-theoretic
+  Farrell--Jones conjecture with coefficients in additive categories in
+  all degrees. They also satisfy the L-theoretic Farrell--Jones assembly
+  theorem with coefficients via Bartels--Lueck's class \(\mathcal B\).
+- Virtually solvable groups satisfy the K- and L-theoretic
+  Farrell--Jones conjecture with coefficients in additive categories with
+  respect to the family of virtually cyclic subgroups.
+
+### Proof location
+
+`modules/cycle_001/FJ11_known_classes_ledger.md`
+
+Ledger table:
+
+`ledgers/known_classes.md`
+
+### Assumptions
+
+- "With coefficients" is used in the source sense of coefficients in
+  additive categories; the project's internal additive-category
+  foundations remain deferred to `FJ02`.
+- "Finite-dimensional CAT(0)-group" means a group admitting a proper,
+  cocompact, isometric action on a finite-dimensional CAT(0)-space.
+- The table is not exhaustive.
+
+### Source status
+
+Source-verified from Bartels, Lueck, and Reich (2008), main theorem;
+Bartels and Lueck (2012), definition of the class \(\mathcal B\) and
+Theorem B; Wegner (2012), main theorem; and Wegner (2015), main theorem.

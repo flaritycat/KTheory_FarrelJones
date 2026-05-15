@@ -60,6 +60,7 @@ Unless explicitly imported later:
 13. Should Wall's finiteness obstruction theorem be verified from a primary or monograph source?
 14. Which source should be used for surgery theory and topological structure sets if Borel rigidity becomes active beyond a theorem map?
 15. Should negative \(K\)-group vanishing receive its own module?
+16. Which additional known Farrell--Jones classes should be verified next after the first-pass `FJ11` table?
 
 ## Established results
 
@@ -71,6 +72,7 @@ Unless explicitly imported later:
 - ER-006: Conditional Whitehead-group vanishing from the K-theoretic Farrell--Jones conjecture for torsion-free groups with regular coefficients.
 - ER-007: Conditional vanishing of \(\widetilde K_0(\mathbb Z[G])\) from Farrell--Jones, with the finiteness-obstruction interpretation for finitely presented groups.
 - ER-008: Conditional Borel consequence from low-dimensional K-theory vanishing and the \(L^{\langle -\infty\rangle}\)-theory assembly isomorphism.
+- ER-009: First source-verified known Farrell--Jones classes: hyperbolic groups, finite-dimensional CAT(0)-groups, and virtually solvable groups, with version flags.
 
 ## Current scope
 
@@ -88,7 +90,8 @@ The active mathematical scope is the simplified K-theoretic Farrell--Jones conje
 - Module `FJ08` records the conditional Whitehead-group consequence of Farrell--Jones for torsion-free groups with regular coefficients.
 - Module `FJ09` records the conditional projective class group consequence and the Wall finiteness-obstruction interpretation.
 - Module `FJ10` records the Borel conjecture consequence as a source-verified theorem map requiring both K-theory vanishing and \(L^{\langle -\infty\rangle}\)-theory assembly.
+- Module `FJ11` starts the known-classes ledger with source-verified rows for hyperbolic groups, finite-dimensional CAT(0)-groups, and virtually solvable groups.
 
 ## Next mathematical move
 
-Proceed to module `FJ11`: the known classes ledger, with source verification before recording any class as known.
+Proceed to module `FJ12`: the inheritance-properties ledger, with source verification before recording any closure property as usable.

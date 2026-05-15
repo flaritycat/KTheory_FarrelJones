@@ -304,3 +304,38 @@ Lueck--Reich's low-dimensional K-theory consequence and a source for negative al
 ### Next action
 
 Consider a later correction or supplemental module if negative K-groups become active in subsequent arguments.
+
+## OQ-014. Which additional known classes should be verified next?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ11` records a first-pass known-cases table for hyperbolic
+groups, finite-dimensional CAT(0)-groups, and virtually solvable groups.
+Many important known classes remain outside the verified ledger.
+
+### Relevant modules
+
+- FJ11
+- FJ12
+- FJ13
+- FJ14
+- FJ18
+- FJ19
+
+### Dependencies
+
+Primary papers, expert surveys, or monographs for additional known
+Farrell--Jones cases, including possible rows for 3-manifold groups,
+mapping class groups, lattices in Lie groups, relatively hyperbolic
+groups, S-arithmetic groups, Artin-group subclasses, or one-relator
+group subclasses.
+
+### Next action
+
+After `FJ12`, choose the next known-case expansion based on which
+inheritance properties are most useful for the later Artin-group and
+one-relator-group dossiers.

@@ -116,6 +116,12 @@ Current status: `FJ10` has first-pass coverage as a conditional Borel
 theorem map. It imports \(L\)-theory only as a marked application
 dependency and does not treat Borel rigidity as a K-theory-only result.
 
+Current status: `FJ11` starts the known-classes ledger. It records
+source-verified first-pass rows for hyperbolic groups,
+finite-dimensional CAT(0)-groups, and virtually solvable groups,
+separating K-theory, L-theory, and coefficient flags. Module `FJ12`, the
+inheritance-properties ledger, is the next target.
+
 ## GitHub persistence policy
 
 The GitHub repository `flaritycat/KTheory_FarrelJones` is the durable archive and source of truth.

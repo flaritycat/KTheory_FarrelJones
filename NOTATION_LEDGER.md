@@ -28,6 +28,8 @@
 | \(L_n^{\langle -\infty\rangle}(\mathbb ZG)\) | quadratic algebraic \(L\)-group with \(-\infty\) decoration | application-only | FJ10 | Imported only for the Borel consequence theorem map. |
 | \(\mathbf L^{\langle -\infty\rangle}(\mathbb Z)\) | \(L\)-theory spectrum used in the source assembly map | application-only | FJ10 | Not part of the active K-theory core. |
 | \(S^{\mathrm{top}}(M)\) | topological structure set of \(M\) | application-only | FJ10 | Singleton condition is the surgery-theoretic form of Borel rigidity. |
+| \(\mathcal A\) | additive category with a group action, as used in source formulations | source-level flag | FJ11 | Internal additive-category foundations remain deferred to FJ02. |
+| \(\mathcal B\) | Bartels--Lueck source class containing hyperbolic groups and finite-dimensional CAT(0)-groups | source-specific | FJ11 | Used only to record Theorem B from Bartels--Lueck (2012). |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |
 | \(\mathcal{All}(G)\) | family of all subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{All}}G\) is modeled by \(\mathrm{pt}\). |
