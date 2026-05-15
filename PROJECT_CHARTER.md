@@ -81,7 +81,7 @@ Each module should produce a reusable artifact: a definition, proposition, proof
 
 ## First milestone
 
-Complete modules `FJ01`--`FJ07`, establishing:
+Complete first-pass modules `FJ01`--`FJ07`, establishing:
 
 1. the minimal K-theoretic statement;
 2. the family \(\mathcal{VCyc}\);
@@ -90,6 +90,21 @@ Complete modules `FJ01`--`FJ07`, establishing:
 5. the infinite cyclic group example;
 6. the role of Bass--Heller--Swan;
 7. the reason Nil phenomena force virtually cyclic subgroups.
+
+Current status: first-pass coverage has been completed for `FJ01` and
+`FJ03`--`FJ07`. Module `FJ02`, the additive-category formulation, is
+intentionally deferred until the project is ready to choose a precise
+modern source and notation convention.
+
+## Second milestone
+
+Proceed through modules `FJ08`--`FJ12`, establishing:
+
+1. carefully sourced consequences for Whitehead groups;
+2. projective class group consequences, with exact hypotheses;
+3. Borel-type consequences, without importing \(L\)-theory prematurely;
+4. a known-classes ledger;
+5. an inheritance-properties ledger.
 
 ## GitHub persistence policy
 

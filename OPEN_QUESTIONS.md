@@ -147,11 +147,11 @@ Before using the dichotomy in a proof-sensitive way beyond first-pass structure,
 
 ### Status
 
-Open inside project.
+Resolved for first pass; original-source verification remains optional.
 
 ### Context
 
-Module `FJ06` identifies the target for \(G=\mathbb Z\) as \(K_n(R[t,t^{-1}])\), but deliberately does not decompose that group. Module `FJ07` is expected to introduce the Bass--Heller--Swan decomposition and Nil-terms.
+Module `FJ06` identifies the target for \(G=\mathbb Z\) as \(K_n(R[t,t^{-1}])\), but deliberately does not decompose that group. Module `FJ07` introduces the Bass--Heller--Swan decomposition and Nil-terms.
 
 ### Relevant modules
 
@@ -160,8 +160,55 @@ Module `FJ06` identifies the target for \(G=\mathbb Z\) as \(K_n(R[t,t^{-1}])\),
 
 ### Dependencies
 
-An APA-formatted source entry for a reliable Bass--Heller--Swan reference, preferably an original paper or authoritative monograph/survey with exact hypotheses.
+Weibel's K-book has been selected as the active first-pass theorem source, with Lueck--Reich used for the Farrell--Jones interpretation. The original Bass--Heller--Swan paper has been bibliographically located but not used as the theorem source.
 
 ### Next action
 
-Resolve during `FJ07` before recording any decomposition theorem.
+Use Weibel (2013) for first-pass theorem statements. Directly check Bass--Heller--Swan (1964) only if the project later needs original-source historical precision.
+
+## OQ-008. Which explicit nonzero Nil example should the project use?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ07` records the structural role of Nil-terms, but it does not prove that any particular \(NK_n(R)\) is nonzero.
+
+### Relevant modules
+
+- FJ07
+- FJ08
+- FJ11
+
+### Dependencies
+
+A reliable source for explicit nonzero \(NK\)-groups over a concrete ring.
+
+### Next action
+
+Defer until a later module needs a concrete obstruction example rather than the structural Bass--Heller--Swan decomposition.
+
+## OQ-009. Should the original Bass--Heller--Swan paper be checked directly?
+
+### Status
+
+Open, low urgency.
+
+### Context
+
+`FJ07` uses Weibel's monograph as the active theorem source. The original paper is historically important but was not needed for the first-pass theorem ledger.
+
+### Relevant modules
+
+- FJ07
+- FJ11
+
+### Dependencies
+
+Bass, Heller, and Swan, *The Whitehead group of a polynomial extension*, Publications Mathematiques de l'IHES 22 (1964), 61--79.
+
+### Next action
+
+Check the original paper only if the project later needs historical attribution beyond the APA bibliography entry.

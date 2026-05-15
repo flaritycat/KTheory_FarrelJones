@@ -124,7 +124,7 @@ is the identity map after choosing \(\mathrm{pt}\) as a model for \(E_{\mathcal{
 R[\mathbb Z]\cong R[t,t^{-1}],
 \]
 
-the target is \(K_n(R[t,t^{-1}])\).
+identifies the target with \(K_n(R[t,t^{-1}])\).
 
 ### Proof location
 
@@ -140,3 +140,41 @@ the target is \(K_n(R[t,t^{-1}])\).
 ### Source status
 
 The proof is internal once the black-box equivariant homology normalization is accepted. This result does not invoke Bass--Heller--Swan.
+
+## ER-005. Bass--Heller--Swan decomposition for the infinite cyclic group-ring target
+
+### Status
+
+Source-verified theorem for project use, not proved inside project.
+
+### Statement
+
+Let \(R\) be an associative unital ring and choose a generator \(t\) of \(\mathbb Z\). For every \(n\) in the \(K\)-theory conventions used by Weibel, the Bass--Heller--Swan fundamental theorem gives
+
+\[
+K_n(R[\mathbb Z])
+\cong
+K_n(R)\oplus K_{n-1}(R)\oplus NK_n(R)\oplus NK_n(R),
+\]
+
+where
+
+\[
+NK_n(R)=\operatorname{coker}\bigl(K_n(R)\to K_n(R[t])\bigr).
+\]
+
+The two \(NK_n(R)\)-summands correspond to the positive and negative Laurent directions.
+
+### Proof location
+
+`modules/cycle_001/FJ07_bass_heller_swan_nil_terms.md`
+
+### Assumptions
+
+- \(R\) is an associative unital ring.
+- \(R[\mathbb Z]\) is identified with \(R[t,t^{-1}]\) after choosing a generator of \(\mathbb Z\).
+- The \(K\)-theory convention is the one used in Weibel's Chapter V, Section 8.
+
+### Source status
+
+Source-verified from Weibel, C. A. (2013). *The K-book: An introduction to algebraic K-theory*, Chapter V, Theorems 8.1 and 8.2. Lueck and Reich (2004), Remark 1.15 and Subsection 2.2.5, are used for the Farrell--Jones interpretation of Nil-terms.
