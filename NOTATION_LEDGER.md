@@ -30,6 +30,9 @@
 | \(S^{\mathrm{top}}(M)\) | topological structure set of \(M\) | application-only | FJ10 | Singleton condition is the surgery-theoretic form of Borel rigidity. |
 | \(\mathcal A\) | additive category with a group action, as used in source formulations | source-level flag | FJ11 | Internal additive-category foundations remain deferred to FJ02. |
 | \(\mathcal B\) | Bartels--Lueck source class containing hyperbolic groups and finite-dimensional CAT(0)-groups | source-specific | FJ11 | Used only to record Theorem B from Bartels--Lueck (2012). |
+| \(\Phi^*\mathcal F\) | pullback family \(\{H\leq K:\Phi(H)\in\mathcal F\}\) for a homomorphism \(\Phi\colon K\to G\) | source-level active | FJ12 | Used in Bartels--Reich's coefficient inheritance theorem. |
+| \(\mathcal{FJ}\) | Lueck's source-specific class of groups satisfying the Full Farrell--Jones Conjecture | source-specific | FJ12 | Includes more structure than the simplified ring-coefficient statement in FJ01. |
+| \(\operatorname*{colim}_i G_i\) | colimit of a directed system of groups | active | FJ12 | Used in the directed-colimit inheritance ledger. |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |
 | \(\mathcal{All}(G)\) | family of all subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{All}}G\) is modeled by \(\mathrm{pt}\). |

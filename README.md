@@ -17,9 +17,9 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_001`
 - First milestone: modules `FJ01`--`FJ07`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, and `FJ11`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, and `FJ12`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
-- Current primary target: `FJ12`, the inheritance-properties ledger, with source verification before recording any closure property as usable.
+- Current primary target: `FJ13`, the hyperbolic-groups case, using the known-classes and inheritance ledgers as version-checked inputs.
 
 ## Current established results
 
@@ -32,6 +32,7 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - `ER-007`: conditional vanishing of \(\widetilde K_0(\mathbb Z[G])\), with the finiteness-obstruction interpretation for finitely presented groups.
 - `ER-008`: conditional Borel consequence from low-dimensional K-theory vanishing and \(L^{\langle -\infty\rangle}\)-theory assembly.
 - `ER-009`: first source-verified known classes: hyperbolic groups, finite-dimensional CAT(0)-groups, and virtually solvable groups, with version flags.
+- `ER-010`: first source-verified inheritance-properties ledger, separating coefficient K-theory inheritance from survey-level full \(\mathcal{FJ}\) closure properties.
 
 See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, and source status.
 
@@ -45,6 +46,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ10` imports \(L\)-theory only as an application dependency; it does not make Borel rigidity a K-theory-only result.
 - `FJ11` is a first-pass known-cases ledger, not an exhaustive classification of all known Farrell--Jones groups.
 - `FJ11` records "with coefficients in additive categories" as a source-level strength flag; the internal additive-category formulation remains deferred to `FJ02`.
+- `FJ12` records inheritance properties with version flags. Pullback and subgroup inheritance are source-verified for the coefficient K-theoretic formulation; several broader closure rows are recorded as survey-level statements about Lueck's full class \(\mathcal{FJ}\).
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 

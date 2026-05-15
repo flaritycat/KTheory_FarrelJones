@@ -40,4 +40,10 @@
 
 ## Inheritance and induction
 
-- Bartels, A., & Lueck, W. (2004). *Induction theorems and isomorphism conjectures for K- and L-theory* (arXiv:math/0404486). arXiv. https://arxiv.org/abs/math/0404486. Status: `found`. Notes: future source for `FJ12`, not yet used for a verified theorem.
+- Bartels, A., Echterhoff, S., & Lueck, W. (2007). *Inheritance of isomorphism conjectures under colimits* (arXiv:math/0702460). arXiv. https://arxiv.org/abs/math/0702460. Status: `active reference for FJ12; partially read overall`. Notes: Theorem "Inheritance under colimits" checked in `FJ12` for arbitrary directed systems, injective directed systems, subgroup hypotheses, and the source's \(R\rtimes H\) target convention.
+
+- Bartels, A., & Lueck, W. (2004). *Induction theorems and isomorphism conjectures for K- and L-theory* (arXiv:math/0404486). arXiv. https://arxiv.org/abs/math/0404486. Status: `found`. Notes: possible future source for induction and transitivity refinements; not used for a verified theorem in `FJ12`.
+
+- Bartels, A., & Reich, H. (2007). Coefficients for the Farrell-Jones conjecture. *Advances in Mathematics, 209*(1), 337--362. https://doi.org/10.1016/j.aim.2006.05.004. Status: `active reference for FJ12; partially read overall`. Notes: Section 4 checked in `FJ12` for the pullback family \(\Phi^*\mathcal F\), pullback inheritance, and subgroup inheritance for the K-theoretic Farrell--Jones conjecture with coefficients in additive categories.
+
+- Lueck, W. (2025). *Survey on the Farrell-Jones conjecture* (arXiv:2507.11337). arXiv. https://arxiv.org/abs/2507.11337. Status: `active reference for FJ12; partially read overall`. Notes: Section 8 checked in `FJ12` for the source-specific full class \(\mathcal{FJ}\) and the survey-level inheritance list.

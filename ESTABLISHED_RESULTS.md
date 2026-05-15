@@ -334,3 +334,53 @@ Ledger table:
 Source-verified from Bartels, Lueck, and Reich (2008), main theorem;
 Bartels and Lueck (2012), definition of the class \(\mathcal B\) and
 Theorem B; Wegner (2012), main theorem; and Wegner (2015), main theorem.
+
+## ER-010. First source-verified inheritance-properties ledger
+
+### Status
+
+Source-verified literature theorem ledger.
+
+### Statement
+
+The project records the following first-pass inheritance information:
+
+- the K-theoretic Farrell--Jones conjecture with coefficients in
+  additive categories inherits injectivity and surjectivity separately
+  along pullback families under arbitrary group homomorphisms;
+- in particular, the coefficient K-theoretic formulation inherits to
+  subgroups;
+- directed colimits are inherited in the source-verified sense of
+  Bartels--Echterhoff--Lueck, with the source's \(R\rtimes H\) target
+  convention and with separate hypotheses for arbitrary structure maps
+  and injective structure maps;
+- Lueck's full class \(\mathcal{FJ}\) has the survey-level closure
+  properties recorded in `ledgers/inheritance_properties.md`, including
+  subgroups, finite direct products, directed colimits, certain
+  extensions, free products, finite-index overgroups, and graph
+  products.
+
+### Proof location
+
+`modules/cycle_001/FJ12_inheritance_properties_ledger.md`
+
+Ledger table:
+
+`ledgers/inheritance_properties.md`
+
+### Assumptions
+
+- "With coefficients" means coefficients in additive categories in the
+  source sense; the internal formulation remains deferred to `FJ02`.
+- Lueck's \(\mathcal{FJ}\) denotes the source-specific full
+  Farrell--Jones class, not merely the simplified ring-coefficient
+  statement from `FJ01`.
+- Survey-level closure rows should not be used as primary-proof inputs
+  until their proof sources have been traced if proof-sensitive use is
+  required.
+
+### Source status
+
+Source-verified from Bartels and Reich (2007), Section 4; Bartels,
+Echterhoff, and Lueck (2007), Theorem "Inheritance under colimits"; and
+Lueck (2025), Theorem "Status of the Full Farrell-Jones Conjecture."

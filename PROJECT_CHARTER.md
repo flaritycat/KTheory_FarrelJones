@@ -119,8 +119,28 @@ dependency and does not treat Borel rigidity as a K-theory-only result.
 Current status: `FJ11` starts the known-classes ledger. It records
 source-verified first-pass rows for hyperbolic groups,
 finite-dimensional CAT(0)-groups, and virtually solvable groups,
-separating K-theory, L-theory, and coefficient flags. Module `FJ12`, the
-inheritance-properties ledger, is the next target.
+separating K-theory, L-theory, and coefficient flags.
+
+Current status: `FJ12` gives first-pass coverage of inheritance
+properties. It separates coefficient K-theory pullback and subgroup
+inheritance from survey-level closure properties of Lueck's full
+\(\mathcal{FJ}\) class, and records the distinction in
+`ledgers/inheritance_properties.md`.
+
+## Third milestone
+
+Proceed through modules `FJ13`--`FJ17`, developing proof-technology
+orientation for the verified known cases:
+
+1. hyperbolic groups case;
+2. CAT(0)-groups case;
+3. controlled topology primer;
+4. flow spaces primer;
+5. transfers primer.
+
+Current status: `FJ13`, the hyperbolic-groups case, is the next target.
+It should use the version flags from `FJ11` and `FJ12` rather than
+importing proof machinery prematurely.
 
 ## GitHub persistence policy
 

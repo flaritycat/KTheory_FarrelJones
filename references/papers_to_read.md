@@ -18,7 +18,10 @@
 2. Bartels, A.; Lueck, W. *The Borel Conjecture for hyperbolic and CAT(0)-groups*. Status: active reference for `FJ11`; class \(\mathcal B\) and Theorem B checked.
 3. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ11`; main theorem checked.
 4. Wegner, C. *The Farrell-Jones conjecture for virtually solvable groups*. Status: active reference for `FJ11`; main theorem checked.
-5. Bartels, A.; Lueck, W. *Induction Theorems and Isomorphism Conjectures for K- and L-Theory*. Status: found; future source for `FJ12`.
+5. Bartels, A.; Reich, H. *Coefficients for the Farrell-Jones Conjecture*. Status: active reference for `FJ12`; Section 4 checked for pullback and subgroup inheritance.
+6. Bartels, A.; Echterhoff, S.; Lueck, W. *Inheritance of Isomorphism Conjectures under Colimits*. Status: active reference for `FJ12`; theorem on directed colimits checked.
+7. Lueck, W. *Survey on the Farrell-Jones Conjecture*. Status: active reference for `FJ12`; full \(\mathcal{FJ}\) inheritance list checked at survey level.
+8. Bartels, A.; Lueck, W. *Induction Theorems and Isomorphism Conjectures for K- and L-Theory*. Status: found; possible future source for induction and transitivity refinements.
 
 ## Reading protocol
 

@@ -339,3 +339,38 @@ group subclasses.
 After `FJ12`, choose the next known-case expansion based on which
 inheritance properties are most useful for the later Artin-group and
 one-relator-group dossiers.
+
+## OQ-015. Which inheritance rows need primary-source tracing?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ12` records several closure properties as survey-level
+statements about Lueck's full class \(\mathcal{FJ}\). That is enough
+for orientation, but proof-sensitive reductions for Artin groups,
+one-relator groups, graph products, or extension constructions may
+require tracing the survey rows to primary papers or detailed monograph
+proofs.
+
+### Relevant modules
+
+- FJ12
+- FJ13
+- FJ14
+- FJ18
+- FJ19
+- FJ20
+
+### Dependencies
+
+`ledgers/inheritance_properties.md`, Lueck's survey, and the primary
+sources cited there for the relevant closure property.
+
+### Next action
+
+Before using a full \(\mathcal{FJ}\) closure row as a proof input,
+verify the cited proof source and record the exact hypotheses in the
+inheritance ledger.

@@ -2,11 +2,29 @@
 
 ## Status
 
-Not started. This ledger will be developed in `FJ12`.
+First-pass ledger completed in `FJ12`.
 
-| Property | Statement | Hypotheses | Reference | Source status | Used in modules |
-|---|---|---|---|---|---|
-| Subgroups | to verify | to verify | to locate | to verify | FJ12 |
-| Finite direct products | to verify | to verify | to locate | to verify | FJ12 |
-| Directed colimits | to verify | to verify | to locate | to verify | FJ12 |
-| Group extensions | to verify | to verify | to locate | to verify | FJ12 |
+## Version warning
+
+The rows below do not all refer to the same formulation. Rows marked
+`coefficients` use the K-theoretic Farrell--Jones conjecture with
+coefficients in additive categories. Rows marked `full \(\mathcal{FJ}\)`
+refer to Lueck's survey class of groups satisfying the Full
+Farrell--Jones Conjecture. The project has not yet internalized the
+additive-category formulation; see `FJ02`.
+
+| Property | Version | Statement | Hypotheses | Reference | Source status | Used in modules |
+|---|---|---|---|---|---|---|
+| Pullback along group homomorphisms | coefficients | If \(\Phi\colon K\to G\) and the \(G\)-assembly over \(\mathcal F\) is injective or surjective for every additive category with \(G\)-action, then the \(K\)-assembly over \(\Phi^*\mathcal F\) has the same property for every additive category with \(K\)-action. | Family \(\mathcal F\) of subgroups of \(G\); coefficient assembly statement for all additive categories with \(G\)-action; injectivity and surjectivity inherited separately. | Bartels & Reich (2007), Section 4, Corollary `cor:Inheritance-for-group-homoeomorphisms`. | source-verified for FJ12 | FJ12; future FJ02 |
+| Subgroups | coefficients | If the coefficient K-theoretic assembly statement for \(G\) over \(\mathcal{VCyc}\) is injective or surjective for every additive category with \(G\)-action, then the corresponding statement holds for every \(H\leq G\). | \(H\leq G\); coefficient formulation; all additive categories with the relevant group action. | Bartels & Reich (2007), Section 4, Theorem `thm:FJ-w-C-passes-to-subgroups-alg-K`. | source-verified for FJ12 | FJ12; future reductions |
+| Subgroups | full \(\mathcal{FJ}\) | If \(G\in\mathcal{FJ}\), then every subgroup \(H\leq G\) lies in \(\mathcal{FJ}\). | \(\mathcal{FJ}\) is Lueck's full Farrell--Jones class. | Lueck (2025), Theorem "Status of the Full Farrell-Jones Conjecture", inheritance item "Passing to subgroups". | source-verified survey statement | FJ12 |
+| Finite direct products | full \(\mathcal{FJ}\) | If \(G_0,G_1\in\mathcal{FJ}\), then \(G_0\times G_1\in\mathcal{FJ}\). | Full Farrell--Jones class. Iteration gives finite products. | Lueck (2025), Theorem "Status of the Full Farrell-Jones Conjecture", inheritance item "Passing to finite direct products". | source-verified survey statement | FJ12 |
+| Directed colimits, arbitrary structure maps | K-theory assembly | If every subgroup of every source group \(G_i\) satisfies the source's K-theoretic assembly isomorphism in all degrees, then every subgroup of \(\operatorname*{colim}_i G_i\) satisfies it. | Directed system; structure maps need not be injective; hypotheses include all subgroups of all \(G_i\); source writes targets as \(K_n(R\rtimes H)\) with actions restricted along structure maps. | Bartels, Echterhoff, & Lueck (2007), Theorem "Inheritance under colimits", item (i). | source-verified for FJ12 | FJ12; future colimit reductions |
+| Directed colimits, injective structure maps | K-theory assembly | If all structure maps are injective and each \(G_i\) satisfies the source's K-theoretic assembly isomorphism in all degrees, then \(\operatorname*{colim}_i G_i\) satisfies it. | Directed system with injective structure maps; source writes targets as \(K_n(R\rtimes G_i)\) and \(K_n(R\rtimes G)\). | Bartels, Echterhoff, & Lueck (2007), Theorem "Inheritance under colimits", item (ii). | source-verified for FJ12 | FJ12; future colimit reductions |
+| Directed colimits | full \(\mathcal{FJ}\) | If every \(G_i\in\mathcal{FJ}\) in a directed system with arbitrary structure maps, then \(\operatorname*{colim}_i G_i\in\mathcal{FJ}\). | Full Farrell--Jones class. | Lueck (2025), Theorem "Status of the Full Farrell-Jones Conjecture", inheritance item "Colimits over directed systems". | source-verified survey statement | FJ12 |
+| Group extensions | full \(\mathcal{FJ}\) | For \(1\to K\to G\xrightarrow{p}Q\to 1\), if \(K,Q\in\mathcal{FJ}\) and \(p^{-1}(C)\in\mathcal{FJ}\) for every infinite cyclic subgroup \(C\leq Q\), then \(G\in\mathcal{FJ}\). | Full Farrell--Jones class; source states the preimage condition for infinite cyclic subgroups of \(Q\). | Lueck (2025), Theorem "Status of the Full Farrell-Jones Conjecture", inheritance item "Group extensions". | source-verified survey statement | FJ12 |
+| Extensions with virtually torsion-free hyperbolic kernel | full \(\mathcal{FJ}\) | If \(1\to K\to G\to Q\to 1\), \(K\) is virtually torsion-free hyperbolic, and \(Q\in\mathcal{FJ}\), then \(G\in\mathcal{FJ}\). | Full Farrell--Jones class. | Lueck (2025), same theorem, inheritance item "Group extensions with virtually torsionfree hyperbolic groups as kernel". | source-verified survey statement | FJ12; future FJ13 |
+| Extensions with countable free kernel | full \(\mathcal{FJ}\) | If \(1\to K\to G\to Q\to 1\), \(K\) is a countable free group, and \(Q\in\mathcal{FJ}\), then \(G\in\mathcal{FJ}\). | Full Farrell--Jones class; free group may have infinite rank. | Lueck (2025), same theorem, inheritance item "Group extensions with countable free groups as kernel". | source-verified survey statement | FJ12; future FJ19 |
+| Free products | full \(\mathcal{FJ}\) | If every \(G_i\in\mathcal{FJ}\), then \(\ast_i G_i\in\mathcal{FJ}\). | Full Farrell--Jones class. | Lueck (2025), same theorem, inheritance item "Passing to free products". | source-verified survey statement | FJ12 |
+| Finite-index overgroups | full \(\mathcal{FJ}\) | If \(H\leq G\) has finite index and \(H\in\mathcal{FJ}\), then \(G\in\mathcal{FJ}\). | Full Farrell--Jones class. | Lueck (2025), same theorem, inheritance item "Passing to overgroups of finite index". | source-verified survey statement | FJ12 |
+| Graph products | full \(\mathcal{FJ}\) | A graph product of groups in \(\mathcal{FJ}\) again lies in \(\mathcal{FJ}\). | Full Farrell--Jones class. | Lueck (2025), same theorem, inheritance item "Graph products". | source-verified survey statement; primary proof not traced | FJ12; future Artin-group dossier |
