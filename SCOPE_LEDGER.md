@@ -56,6 +56,7 @@ Unless explicitly imported later:
 ## Established results
 
 - ER-001: For the trivial group \(G=1\), the simplified assembly map in module `FJ01` is the identity on \(K_n(R)\), assuming the black-box normalization of the equivariant homology theory.
+- ER-002: Source-verified existence and homotopy characterization of \(E_{\mathcal F}G\) for project-style families of subgroups, using Lueck's Definition 1.8 and Theorem 1.9.
 
 ## Current scope
 
@@ -65,7 +66,8 @@ The active mathematical scope is the simplified K-theoretic Farrell--Jones conje
 
 - The initial project structure and cycle-001 module plan have been defined.
 - Module `FJ01` states the simplified conjecture and proves the trivial-group example.
+- Module `FJ03` defines classifying spaces for families, records the source-verified homotopy characterization, and connects \(E_{\mathcal{VCyc}}G\to\mathrm{pt}\) back to the simplified assembly map.
 
 ## Next mathematical move
 
-Proceed to module `FJ03`: classifying spaces for families, especially \(E_{\mathcal{VCyc}}G\).
+Proceed to module `FJ04`: virtually cyclic groups, keeping the discussion structural and source-checked.

@@ -75,7 +75,7 @@ Resolve during `FJ02` or a later notation/source module.
 
 ### Status
 
-Open inside project.
+Partially resolved for first pass.
 
 ### Context
 
@@ -93,4 +93,28 @@ Definitions of families and virtually cyclic groups.
 
 ### Next action
 
-Proceed to `FJ03`.
+Use `FJ04` and `FJ06` to develop virtually cyclic groups and the infinite cyclic example before choosing more complicated models.
+
+## OQ-005. Should weakly contractible and contractible fixed-point formulations be separated?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ03` uses the readable contractible/empty fixed-point definition for \(E_{\mathcal F}G\). Lueck's Theorem 1.9 states the homotopy characterization using weakly contractible fixed-point spaces for subgroups in the family, together with the isotropy condition.
+
+### Relevant modules
+
+- FJ03
+- FJ15
+- FJ16
+
+### Dependencies
+
+A later foundations module should decide how much model-category or \(G\)-CW technical detail the project needs.
+
+### Next action
+
+Defer until the project needs a sharper technical convention.

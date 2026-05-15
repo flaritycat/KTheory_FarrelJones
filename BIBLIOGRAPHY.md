@@ -6,6 +6,8 @@
 
 ## Surveys and general references
 
+- Lueck, W. *Survey on Classifying Spaces for Families of Subgroups*. arXiv:math/0312378, version 2, 2004. URL: https://arxiv.org/abs/math/0312378. Status: `active reference`. Notes: Definition 1.8 and Theorem 1.9 checked in `FJ03` for the terminal-object definition, existence, uniqueness up to \(G\)-homotopy, and fixed-point characterization of \(E_{\mathcal F}G\).
+
 - Lück, W.; Reich, H. *The Baum-Connes and the Farrell-Jones Conjectures in K- and L-Theory*. arXiv:math/0402405, 2004. URL: https://arxiv.org/abs/math/0402405. Status: `partially read`. Notes: used in `FJ01` as a survey reference for the group-ring target and assembly-map viewpoint; theorem numbering not yet checked.
 
 - Lück, W. *Assembly Maps*. arXiv:1805.00226, 2018. URL: https://arxiv.org/abs/1805.00226. Status: `found`. Notes: candidate source for assembly maps; not yet used for a verified statement.

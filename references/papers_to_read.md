@@ -6,6 +6,8 @@
 2. Lück, W.; Reich, H. *The Baum-Connes and the Farrell-Jones Conjectures in K- and L-Theory*. Status: partially read.
 3. Davis, J. F.; Lück, W. *Spaces over a category and assembly maps in isomorphism conjectures in K- and L-theory*. Status: to verify.
 
+4. Lueck, W. *Survey on Classifying Spaces for Families of Subgroups*. Status: active reference for `FJ03`; Definition 1.8 and Theorem 1.9 checked.
+
 ## Priority 2: first known cases and inheritance
 
 1. Bartels, A.; Lück, W.; Reich, H. *The K-theoretic Farrell-Jones Conjecture for hyperbolic groups*. Status: found.
