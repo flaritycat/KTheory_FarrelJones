@@ -830,7 +830,7 @@ hyperbolic-by-cyclic/free-by-cyclic, and inheritance route subtractions;
 kernel-recognition route, `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-030. Which part of T-001 is removed by the CAT(0) route?
 
@@ -872,7 +872,7 @@ Brown's limited kernel-recognition route, `FJ31` has completed a calibration
 Brown test case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed
 the worked Brown test, and `FJ34` has completed the nearby Brown family
 boundary. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-`reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-031. Which part of T-001 is removed by the virtually solvable route?
 
@@ -915,13 +915,14 @@ hyperbolic-by-cyclic/free-by-cyclic and inheritance route subtractions.
 kernel-recognition route, `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-032. Which finite-index source should support virtually compact special route use?
 
 ### Status
 
-Open inside project; selected for `FJ45` by `FJ44`.
+Partially resolved by `FJ45`; still open for coefficient K-theory or direct
+CAT(0) finite-extension use.
 
 ### Context
 
@@ -932,12 +933,19 @@ source-verified finite-index-overgroup bridge for the relevant Farrell--Jones
 formulation or a theorem placing the whole group in the finite-dimensional
 CAT(0)-group class.
 
+`FJ45` records that the currently usable finite-index overgroup bridge is
+only the full \(\mathcal{FJ}\) survey-level row. This supports full
+\(\mathcal{FJ}\)-level use when the finite-index subgroup is already recorded
+in full \(\mathcal{FJ}\), but it does not yet support coefficient K-theory or
+direct CAT(0)-route promotion for merely virtually compact special cases.
+
 ### Relevant modules
 
 - FJ12
 - FJ14
 - FJ22
 - FJ24
+- FJ45
 
 ### Dependencies
 
@@ -947,7 +955,8 @@ the project's known-case ledger.
 
 ### Next action
 
-Selected for `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+Use only the full \(\mathcal{FJ}\) finite-index bridge recorded by `FJ45`.
+Continue the coefficient/CAT(0) version issue through `OQ-067` and `FJ46`.
 
 ## OQ-033. Which one-relator groups are compact special beyond the hyperbolic route?
 
@@ -1050,7 +1059,7 @@ has verified Brown's limited two-generator kernel-recognition route. `FJ31`
 has completed a calibration Brown test case, `FJ32` has selected
 \(G_{2,3}\), `FJ33` has completed the worked Brown test, and `FJ34` has
 completed the nearby Brown family boundary. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-`reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-036. Which source should recognize finite-rank free kernels over Z?
 
@@ -1090,7 +1099,7 @@ two-generator criterion.
 First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-037. Which inheritance routes remove additional T-001 cases?
 
@@ -1131,7 +1140,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-038. What remains in T-001 after the route-subtraction pass?
 
@@ -1177,7 +1186,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-039. Which concrete surviving one-relator subclasses should be attacked next?
 
@@ -1211,7 +1220,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-040. Which source should be checked first for the selected residual bucket?
 
@@ -1248,7 +1257,7 @@ statements, hypotheses, and conclusions. `FJ31` has completed a calibration
 Brown test case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed
 the worked Brown test, and `FJ34` has completed the nearby Brown family
 boundary. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-`reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-041. What exact Brown/BNS theorem recognizes finite-rank kernels?
 
@@ -1283,7 +1292,7 @@ project-facing route criterion in `ledgers/t001_kernel_recognition.md`.
 First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-042. Which first Brown criterion test case should be used?
 
@@ -1325,7 +1334,7 @@ finite-rank free-by-cyclic route.
 First-pass resolved by `FJ31`. `FJ32` has selected \(G_{2,3}\), `FJ33`
 has completed the worked Brown test, and `FJ34` has completed the nearby
 Brown family boundary. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-`reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-043. Should the original BNS normal-subgroup theorem be checked directly?
 
@@ -1402,7 +1411,7 @@ tracked in `FJ21`--`FJ22`.
 
 ### Next action
 
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass. `reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`, before any new source-cluster continuation.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass. `reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`, before any new source-cluster continuation.
 
 ## OQ-045. Which Brown test case is not already removed by the virtually solvable route?
 
@@ -1643,7 +1652,7 @@ or kernel-recognition source selected later.
 
 First-pass resolved by `FJ34`; `FJ36` records the missing Bass--Serre bridge
 for the \(G_{p,q}\)-family. `FJ39` has completed normal-subgroup bridge
-source verification for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+source verification for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-051. Can \(\ker(\chi_{p,q})\) be identified as finite-rank free?
 
@@ -1778,7 +1787,7 @@ Margalit (2017), Brown (1987), and the \(G_{p,q}\) setup from `FJ34`.
 
 First-pass resolved by `FJ36`; `FJ39` and `FJ40` have completed the
 normal-subgroup bridge and finitely presented-kernel selection pass for
-`RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+`RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-054. Which residual RB-004 family or subgroup should be attacked after the G_{p,q} bridge?
 
@@ -1850,7 +1859,7 @@ The Bass--Serre bridge in `FJ36` and any later rank-computation method.
 ### Next action
 
 Keep deferred. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-`reflections/cycle_002_reflection.md` is complete; continue with `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-056. Which concrete non-Brown RB-004 test case should follow broader source selection?
 
@@ -1935,8 +1944,7 @@ For the immediate subroute, use the finite-presentation hypothesis recorded
 from Karrass--Solitar. Keep Bieri's primary theorem and any \(\mathrm{FP}_2\)
 variant open until the primary theorem text is checked directly. `FJ43` has
 paused automatic continuation of this source cluster, and `FJ44` has selected
-`RB-005` as the next attack packet. Continue with `FJ45`, finite-index
-formulation bridge checkpoint for `RB-005`.
+`RB-005` as the next attack packet. Continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-058. Does direct BNS use give a concrete non-Brown RB-004 family?
 
@@ -1988,8 +1996,7 @@ First-pass partially resolved by `FJ41`: direct BNS theorem use is verified,
 but no concrete non-Brown `RB-004` family is produced. `FJ42` adds no Bieri
 theorem-use upgrade or residual subtraction. `FJ43` pauses automatic
 source-cluster continuation, and `FJ44` selects `RB-005` as the next attack
-packet. Continue with `FJ45`, finite-index formulation bridge checkpoint for
-`RB-005`.
+packet. Continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-059. Which RB-004 example has a finitely presented kernel?
 
@@ -2028,7 +2035,7 @@ proves finite presentation for a new residual kernel.
 
 ### Status
 
-Open inside project; generated by `FJ39`.
+Partially resolved by `FJ45`; still open for coefficient-route use.
 
 ### Context
 
@@ -2039,12 +2046,19 @@ free-by-cyclic route. The infinite dihedral case would require a finite-index
 or virtually cyclic extension step, and the project must preserve the version
 discipline from `FJ27`.
 
+`FJ45` gives the finite-index answer currently available inside the project:
+the full \(\mathcal{FJ}\) finite-index overgroup row can be used only when
+the finite-index subgroup has full \(\mathcal{FJ}\) status. It does not
+license the coefficient K-theory free-by-cyclic route for the infinite
+dihedral alternative.
+
 ### Relevant modules
 
 - FJ26
 - FJ27
 - FJ39
 - FJ40
+- FJ45
 
 ### Dependencies
 
@@ -2053,9 +2067,9 @@ finite-index inheritance rows from `FJ27`.
 
 ### Next action
 
-Do not use the infinite-dihedral alternative as a route until a later module
-checks the finite-index/inheritance formulation. `FJ44` selects `RB-005`, so
-this finite-index issue is now part of the `FJ45` formulation checkpoint.
+Do not use the infinite-dihedral alternative as a coefficient-route
+subtraction until `OQ-067` is resolved or a version-compatible finite-index
+bridge is source-verified.
 
 ## OQ-061. What should follow the cycle-002 reflection?
 
@@ -2092,8 +2106,7 @@ The cycle-002 module record, `OQ-002`, `OQ-022`, `OQ-058`, and `OQ-060`.
 First-pass resolved. `FJ41` has completed direct BNS theorem verification,
 `FJ42` has completed the Bieri source-access check, and `FJ43` has completed
 the route-delta checkpoint. `FJ44` has selected `RB-005` as the next attack
-packet. Continue with `FJ45`, finite-index formulation bridge checkpoint for
-`RB-005`.
+packet. Continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-062. Which source computes BNS membership beyond Brown's checked route?
 
@@ -2170,8 +2183,7 @@ ledger.
 Do not use Bieri (1976) as a theorem source yet. `FJ43` has paused automatic
 Bieri--Renz/BNS source-cluster continuation until a candidate-ready route is
 identified, and `FJ44` has selected `RB-005` as the next attack packet.
-Continue with `FJ45`, finite-index formulation bridge checkpoint for
-`RB-005`.
+Continue with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-064. Should RB-004 continue through the current source cluster?
 
@@ -2208,9 +2220,9 @@ Bieri--Renz (1988), and Karrass--Solitar (1978).
 
 ### Next action
 
-Resolved by `FJ43`. `FJ44` has selected `RB-005` as the next attack packet.
-Continue with `FJ45`, finite-index formulation bridge checkpoint for
-`RB-005`.
+Resolved by `FJ43`. `FJ44` selected `RB-005` as the next attack packet, and
+`FJ45` completed its first finite-index formulation checkpoint. Continue
+with `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-065. Which residual bucket or attack packet should follow the RB-004 source-cluster pause?
 
@@ -2240,14 +2252,14 @@ residual-bucket rows generated by `FJ28`.
 
 ### Next action
 
-Resolved by `FJ44`. Begin `FJ45`, finite-index formulation bridge checkpoint
-for `RB-005`.
+Resolved by `FJ44`; `FJ45` completed the finite-index formulation
+checkpoint. Begin `FJ46`, source-convention decision for `RB-005`.
 
 ## OQ-066. Which finite-index formulation bridge can be used for RB-005?
 
 ### Status
 
-Open inside project; generated by `FJ44` and selected for `FJ45`.
+First-pass resolved by `FJ45`.
 
 ### Context
 
@@ -2260,9 +2272,14 @@ preserved. `FJ39` records that the Karrass--Solitar infinite-dihedral
 alternative would also need finite-index or virtually cyclic handling before
 route use.
 
-The next task is to determine which finite-index passage can be used without
+The task was to determine which finite-index passage can be used without
 collapsing coefficient K-theory, full \(\mathcal{FJ}\), CAT(0), `FJCw`, or
 other source-specific formulations into one unlabeled claim.
+
+`FJ45` determines that only the full \(\mathcal{FJ}\) finite-index overgroup
+row is currently usable. It explicitly does not promote a coefficient
+K-theory finite-index overgroup theorem, direct CAT(0) finite-extension
+bridge, or `FJCw`/`FICwF` comparison to project use.
 
 ### Relevant modules
 
@@ -2278,9 +2295,52 @@ other source-specific formulations into one unlabeled claim.
 
 `ledgers/inheritance_properties.md`, `ledgers/source_status.md`,
 `ledgers/t001_residual.md`, the compact-special bridge from `FJ24`, the
-version-aware inheritance rows from `FJ27`, and any finite-index source
-checked in `FJ45`.
+version-aware inheritance rows from `FJ27`, and the finite-index checkpoint
+in `FJ45`.
 
 ### Next action
 
-Begin `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+Resolved by `FJ45`. Continue with `FJ46`, deciding whether `RB-005` should
+source-verify a coefficient K-theory finite-index bridge or interrupt for
+`FJ02`/source-convention reconciliation.
+
+## OQ-067. Should RB-005 verify a coefficient finite-index bridge or interrupt for source conventions?
+
+### Status
+
+Open inside project; generated by `FJ45` and selected for `FJ46`.
+
+### Context
+
+`FJ45` records only one currently licensed finite-index overgroup passage:
+the full \(\mathcal{FJ}\) survey-level row from Lueck's source-status entry.
+That is enough for full-formulation finite-index use when the finite-index
+subgroup is already recorded in full \(\mathcal{FJ}\), but it does not by
+itself support coefficient K-theory finite-index promotion, direct CAT(0)
+finite-extension promotion, or comparisons with `FJCw`/`FICwF` terminology.
+
+The next step must choose between a narrow source-verification task and a
+formulation-reconciliation interruption. Continuing `RB-005` productively
+requires either a version-compatible finite-index source for the desired
+route, or a project-level convention explaining how the competing source
+versions are allowed to interact.
+
+### Relevant modules
+
+- FJ02
+- FJ12
+- FJ24
+- FJ27
+- FJ39
+- FJ44
+- FJ45
+
+### Dependencies
+
+`ledgers/inheritance_properties.md`, `ledgers/source_status.md`,
+`modules/cycle_003/FJ45_finite_index_formulation_bridge_checkpoint.md`, and
+any later source checked for coefficient K-theory finite-index overgroups.
+
+### Next action
+
+Begin `FJ46`, source-convention decision for `RB-005`.

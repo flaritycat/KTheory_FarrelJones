@@ -621,6 +621,26 @@ bridge, or `FJ02`/source-convention debt becomes active.
 The next step after `FJ44` is `FJ45`, finite-index formulation bridge
 checkpoint for `RB-005`.
 
+Current status: `FJ45` has first-pass coverage as the finite-index
+formulation bridge checkpoint for `RB-005`. It records that the only
+finite-index overgroup bridge currently licensed by the repository is the
+full \(\mathcal{FJ}\) survey-level row from Lueck's source-status entry:
+if \(H\leq G\) has finite index and \(H\in\mathcal{FJ}\), then
+\(G\in\mathcal{FJ}\). The checkpoint does not promote a coefficient
+K-theory finite-index overgroup theorem, a direct CAT(0) finite-extension
+theorem, or an `FJCw`/`FICwF` comparison to project use.
+
+The route decision after `FJ45` is deliberately narrow. Full
+\(\mathcal{FJ}\)-level finite-index inferences may be recorded only when
+the finite-index subgroup is itself recorded in full \(\mathcal{FJ}\).
+Virtual-special and Karrass--Solitar infinite-dihedral cases remain blocked
+for coefficient-route use until a version-compatible finite-index bridge is
+source-verified or the source-convention debt around `FJ02` is addressed.
+
+The next step after `FJ45` is `FJ46`: decide whether `RB-005` should proceed
+by verifying a coefficient K-theory finite-index source, or by interrupting
+the current one-relator route for `FJ02`/source-convention reconciliation.
+
 ## GitHub persistence policy
 
 The GitHub repository `flaritycat/KTheory_FarrelJones` is the durable archive and source of truth.

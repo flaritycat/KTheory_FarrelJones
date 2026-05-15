@@ -13,7 +13,8 @@ Karrass--Solitar finitely presented-kernel bridge. `FJ40` audits that
 subroute and selects no new non-Brown source-ready test case. `FJ41` verifies
 the original BNS finite-generation criterion but makes no residual
 subtraction. `FJ43` pauses automatic `RB-004` source-cluster continuation,
-and `FJ44` selects `RB-005` as the next attack packet.
+`FJ44` selects `RB-005` as the next attack packet, and `FJ45` records that
+only the full \(\mathcal{FJ}\) finite-index bridge is currently usable.
 
 ## Warning
 
@@ -39,7 +40,7 @@ cases not yet removed by the repository's current source-verified route data.
 | RB-002 | Locally indicable-only torsion-free one-relator data | Local indicability is structural and is not a Farrell--Jones theorem route in the project | OQ-026 |
 | RB-003 | One-relator hierarchy-only data from the Linton vocabulary | A hierarchy is not automatically a bridge to hyperbolicity, CAT(0), virtual solvability, a mapping torus, or an inheritance row | OQ-038, OQ-039 |
 | RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge | OQ-036 |
-| RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ24` and `FJ27` keep finite-index and version flags separate | OQ-032 |
+| RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ45` licenses only the full \(\mathcal{FJ}\) finite-index row; coefficient K-theory, direct CAT(0), and `FJCw`/`FICwF` finite-index passages remain unresolved | OQ-032, OQ-067 |
 | RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | The project needs a source-verified bridge not already absorbed by `FJ23` | OQ-033 |
 | RB-007 | Virtually solvable-looking one-relator cases without a recognition source | `FJ25` deliberately does not classify virtually solvable one-relator groups | OQ-034 |
 | RB-008 | Countable-free-kernel or extension cases without exact inheritance data | `FJ27` requires the exact sequence, quotient status, and source version flag | OQ-037 |
@@ -324,3 +325,30 @@ Outcome:
 ## Next action
 
 Begin `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+
+## FJ45 finite-index formulation bridge update
+
+`FJ45` completes the first finite-index checkpoint for `RB-005`.
+
+Outcome:
+
+- the full \(\mathcal{FJ}\) finite-index overgroup row from
+  `ledgers/inheritance_properties.md` is usable only with its full-formulation
+  flag;
+- no coefficient K-theory finite-index overgroup bridge is recorded in the
+  repository;
+- no direct CAT(0) finite-extension bridge is recorded in the repository;
+- no `FJCw` or `FICwF` comparison is available for proof-sensitive use;
+- virtually compact special cases remain blocked for coefficient/CAT(0)
+  route subtraction unless a version-compatible finite-index bridge is
+  verified;
+- the Karrass--Solitar infinite-dihedral alternative remains blocked for the
+  coefficient free-by-cyclic route unless a compatible finite-index passage
+  is verified;
+- no residual bucket is removed by `FJ45`.
+
+## Next action
+
+Begin `FJ46`, deciding whether `RB-005` proceeds by source-verifying a
+coefficient K-theory finite-index bridge or by interrupting for
+`FJ02`/source-convention reconciliation.

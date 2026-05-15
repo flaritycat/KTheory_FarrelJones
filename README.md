@@ -17,11 +17,11 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_003`.
 - Completed cycles: `cycle_001` and `cycle_002`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, and `FJ44`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, and `FJ45`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md` and `reflections/cycle_002_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
+- Current procedural target: begin `FJ46`, deciding whether `RB-005` proceeds by source-verifying a coefficient finite-index bridge or by interrupting for `FJ02`/source-convention reconciliation.
 
 ## Current established results
 
@@ -85,6 +85,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ42` checks Bieri (1976) source access and route impact. The Bieri article metadata is verified, but the primary theorem text was not directly extractable in this run, so no Bieri theorem is promoted to source-verified use. Later comparison sources point to finite-presentation or type-`VFP` hypotheses rather than mere finite generation, so `FJ42` records no residual subtraction and sends the project to a route-delta checkpoint.
 - `FJ43` completes the route-delta checkpoint for the BNS/Bieri/Karrass--Solitar source cluster. It pauses automatic continuation of `RB-004` source verification until a candidate-ready route, missing bridge, or named residual subtraction is identified, and selects `FJ44` for residual-bucket comparison and attack-packet selection.
 - `FJ44` compares residual buckets after the `RB-004` source-cluster pause and selects `RB-005`, finite-index and virtually compact special formulation handling, as the next attack packet. It records no route subtraction and sets `FJ45` as a finite-index formulation bridge checkpoint.
+- `FJ45` completes the finite-index formulation bridge checkpoint for `RB-005`. The only finite-index overgroup passage currently licensed by the repository is Lueck's full \(\mathcal{FJ}\) survey-level row; no coefficient K-theory finite-index overgroup bridge or direct CAT(0) finite-extension bridge is promoted to use, and no residual subtraction is made.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 
@@ -106,6 +107,7 @@ OPEN_QUESTIONS.md                 cumulative open questions
 ESTABLISHED_RESULTS.md            results proved inside the project
 modules/cycle_001/                first 20 modules
 modules/cycle_002/                second module cycle, beginning with FJ21
+modules/cycle_003/                third module cycle, beginning with FJ41
 reflections/                      reflection reports after module cycles
 ledgers/                          known cases, inheritance, sources, dependencies
 ledgers/t001_residual.md          conservative residual ledger for T-001
