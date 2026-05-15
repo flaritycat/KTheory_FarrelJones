@@ -254,4 +254,5 @@ Outcome:
 
 ## Next action
 
-Write the cycle-002 reflection before opening a new module cycle.
+Begin `FJ41`, direct BNS theorem verification for `RB-004`, as selected by
+`reflections/cycle_002_reflection.md`.

@@ -542,8 +542,42 @@ repository are already calibration cases or already removed through the
 `FJ26` finite-rank free-by-cyclic route. `FJ40` therefore does not select a
 new non-Brown `RB-004` test case and does not remove a residual bucket. It
 records the Karrass--Solitar bridge as a cleanup theorem to use only after a
-finite-presentation input is verified. The next procedural step is
-`reflections/cycle_002_reflection.md`, not `FJ41`.
+finite-presentation input is verified. This led to the cycle-002 reflection
+before any `FJ41` module work.
+
+## Cycle 002 reflection
+
+Current status: `reflections/cycle_002_reflection.md` closes the second
+twenty-module cycle. Its main conclusion is that cycle 002 produced a
+source-disciplined one-relator residual ledger, a concrete \(G_{p,q}\)-family
+route subtraction, and a clear beyond-Brown source gap.
+
+The reflection keeps `T-001` active and selects `FJ41`, direct
+Bieri--Neumann--Strebel theorem verification for `RB-004`, as the first
+module of cycle 003. The goal is to verify the original theorem statement and
+exact hypotheses before using BNS beyond Brown's checked two-generator
+criterion.
+
+## Sixth milestone
+
+Begin cycle 003 with modules `FJ41`--`FJ60`, guided by `T-001` and the
+cycle-002 reflection.
+
+The provisional cycle-003 plan is:
+
+1. verify the original Bieri--Neumann--Strebel theorem statement for direct
+   `RB-004` use;
+2. check Bieri (1976) and Bieri--Renz (1988) only if their exact finiteness
+   hypotheses become route-relevant;
+3. handle the Karrass--Solitar infinite-dihedral alternative only after the
+   needed finite-index and inheritance formulation is checked;
+4. select a new concrete beyond-Brown candidate only after the source
+   hypotheses are verified;
+5. interrupt for `FJ02` if source-level coefficient, finite-wreath-product,
+   `FJCw`, or `FICwF` formulations become proof-level inputs.
+
+Current procedural target: begin `FJ41`, direct BNS theorem verification for
+`RB-004`.
 
 ## GitHub persistence policy
 

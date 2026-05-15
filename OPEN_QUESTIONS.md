@@ -830,7 +830,7 @@ hyperbolic-by-cyclic/free-by-cyclic, and inheritance route subtractions;
 kernel-recognition route, `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. Continue with the cycle-002 reflection.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-030. Which part of T-001 is removed by the CAT(0) route?
 
@@ -872,7 +872,7 @@ Brown's limited kernel-recognition route, `FJ31` has completed a calibration
 Brown test case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed
 the worked Brown test, and `FJ34` has completed the nearby Brown family
 boundary. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-Continue with the cycle-002 reflection.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-031. Which part of T-001 is removed by the virtually solvable route?
 
@@ -915,7 +915,7 @@ hyperbolic-by-cyclic/free-by-cyclic and inheritance route subtractions.
 kernel-recognition route, `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. Continue with the cycle-002 reflection.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-032. Which finite-index source should support virtually compact special route use?
 
@@ -1050,7 +1050,7 @@ has verified Brown's limited two-generator kernel-recognition route. `FJ31`
 has completed a calibration Brown test case, `FJ32` has selected
 \(G_{2,3}\), `FJ33` has completed the worked Brown test, and `FJ34` has
 completed the nearby Brown family boundary. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-Continue with the cycle-002 reflection.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-036. Which source should recognize finite-rank free kernels over Z?
 
@@ -1090,7 +1090,7 @@ two-generator criterion.
 First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. Continue with the cycle-002 reflection.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-037. Which inheritance routes remove additional T-001 cases?
 
@@ -1131,7 +1131,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. Continue with the cycle-002 reflection.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-038. What remains in T-001 after the route-subtraction pass?
 
@@ -1177,7 +1177,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. Continue with the cycle-002 reflection.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-039. Which concrete surviving one-relator subclasses should be attacked next?
 
@@ -1211,7 +1211,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. Continue with the cycle-002 reflection.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-040. Which source should be checked first for the selected residual bucket?
 
@@ -1248,7 +1248,7 @@ statements, hypotheses, and conclusions. `FJ31` has completed a calibration
 Brown test case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed
 the worked Brown test, and `FJ34` has completed the nearby Brown family
 boundary. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-Continue with the cycle-002 reflection.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-041. What exact Brown/BNS theorem recognizes finite-rank kernels?
 
@@ -1283,7 +1283,7 @@ project-facing route criterion in `ledgers/t001_kernel_recognition.md`.
 First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. Continue with the cycle-002 reflection.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-042. Which first Brown criterion test case should be used?
 
@@ -1325,7 +1325,7 @@ finite-rank free-by-cyclic route.
 First-pass resolved by `FJ31`. `FJ32` has selected \(G_{2,3}\), `FJ33`
 has completed the worked Brown test, and `FJ34` has completed the nearby
 Brown family boundary. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-Continue with the cycle-002 reflection.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-043. Should the original BNS normal-subgroup theorem be checked directly?
 
@@ -1397,7 +1397,7 @@ tracked in `FJ21`--`FJ22`.
 
 ### Next action
 
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass. Continue with the cycle-002 reflection before any new route subtraction.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass. `reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`, before any new route subtraction.
 
 ## OQ-045. Which Brown test case is not already removed by the virtually solvable route?
 
@@ -1638,7 +1638,7 @@ or kernel-recognition source selected later.
 
 First-pass resolved by `FJ34`; `FJ36` records the missing Bass--Serre bridge
 for the \(G_{p,q}\)-family. `FJ39` has completed normal-subgroup bridge
-source verification for `RB-004`. Continue with the cycle-002 reflection.
+source verification for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-051. Can \(\ker(\chi_{p,q})\) be identified as finite-rank free?
 
@@ -1773,7 +1773,7 @@ Margalit (2017), Brown (1987), and the \(G_{p,q}\) setup from `FJ34`.
 
 First-pass resolved by `FJ36`; `FJ39` and `FJ40` have completed the
 normal-subgroup bridge and finitely presented-kernel selection pass for
-`RB-004`. Continue with the cycle-002 reflection.
+`RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-054. Which residual RB-004 family or subgroup should be attacked after the G_{p,q} bridge?
 
@@ -1845,7 +1845,7 @@ The Bass--Serre bridge in `FJ36` and any later rank-computation method.
 ### Next action
 
 Keep deferred. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-Continue with the cycle-002 reflection.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-056. Which concrete non-Brown RB-004 test case should follow broader source selection?
 
@@ -1927,7 +1927,7 @@ variant open until a later source check.
 
 ### Status
 
-Open inside project; unchanged by `FJ39` and `FJ40`.
+Open inside project; selected for `FJ41` by the cycle-002 reflection.
 
 ### Context
 
@@ -1960,8 +1960,7 @@ recognition ledgers.
 
 ### Next action
 
-Keep open for the cycle-002 reflection. The reflection should decide whether
-the next cycle prioritizes direct BNS/Bieri verification.
+Begin `FJ41`, direct BNS theorem verification for `RB-004`.
 
 ## OQ-059. Which RB-004 example has a finitely presented kernel?
 
@@ -2027,23 +2026,27 @@ finite-index inheritance rows from `FJ27`.
 
 Do not use the infinite-dihedral alternative as a route until a later module
 checks the finite-index/inheritance formulation. The cycle-002 reflection
-should decide whether this belongs in the next cycle.
+defers this behind direct BNS verification in `FJ41`.
 
 ## OQ-061. What should follow the cycle-002 reflection?
 
 ### Status
 
-Open inside project; generated by `FJ40`.
+Resolved by `reflections/cycle_002_reflection.md`.
 
 ### Context
 
 `FJ40` closes the module portion of cycle 002 without selecting a new
-non-Brown finitely presented-kernel test case. The next step is the
-cycle-002 reflection, not `FJ41`. That reflection should decide whether the
-next cycle continues `RB-004` by direct BNS/Bieri verification, handles the
+non-Brown finitely presented-kernel test case. The next step was the
+cycle-002 reflection, whose role was to decide whether the next cycle
+continues `RB-004` by direct BNS/Bieri verification, handles the
 Karrass--Solitar infinite-dihedral finite-index issue, or interrupts the
 one-relator thread with the deferred additive-category/source-conventions
 work around `FJ02`.
+
+`reflections/cycle_002_reflection.md` selects direct Bieri--Neumann--Strebel
+theorem verification as `FJ41`. The finite-index Karrass--Solitar issue and
+`FJ02` remain important but are not the first cycle-003 move.
 
 ### Relevant modules
 
@@ -2057,4 +2060,5 @@ The cycle-002 module record, `OQ-002`, `OQ-022`, `OQ-058`, and `OQ-060`.
 
 ### Next action
 
-Decide in `reflections/cycle_002_reflection.md`.
+First-pass resolved. Begin `FJ41`, direct BNS theorem verification for
+`RB-004`.
