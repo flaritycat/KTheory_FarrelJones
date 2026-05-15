@@ -77,7 +77,10 @@ Unless explicitly imported later:
 29. Which classical Magnus hierarchy source must be checked for proof-sensitive use?
 30. Which torsion-free one-relator groups survive after subtracting hyperbolic, finite-dimensional CAT(0), virtually solvable, and hyperbolic-by-cyclic routes?
 31. Which part of `T-001` is already removed by the hyperbolic route once `FJ22` is combined with `ER-009`? First-pass resolved by `FJ23`.
-32. Which part of the `T-001` residual is removed by the finite-dimensional CAT(0) route, including any virtual-special bridge?
+32. Which part of the `T-001` residual is removed by the finite-dimensional CAT(0) route, including any virtual-special bridge? First-pass resolved by `FJ24`.
+33. Which part of the `T-001` residual is removed by the virtually solvable route?
+34. Which finite-index source should support proof-sensitive use of virtually compact special routes?
+35. Which one-relator groups are compact special beyond the hyperbolic route?
 
 ## Established results
 
@@ -126,6 +129,7 @@ The active project target is `T-001`, torsion-free one-relator residual gap anal
 - Module `FJ21` selects the first-pass one-relator structure source toolkit for `T-001`: Linton's one-relator hierarchy work, Linton's hyperbolic one-relator bridge source, and a classical-source verification queue.
 - Module `FJ22` records the first-pass one-relator hierarchy vocabulary for `T-001` and adopts Linton's finite one-relator complex hierarchy theorem as the canonical structure theorem for the next residual-gap modules.
 - Module `FJ23` records the first-pass hyperbolic-route subtraction for `T-001`: torsion-free one-relator groups are removed from the active residual target once a source-verified bridge to word-hyperbolicity is available.
+- Module `FJ24` records the first-pass finite-dimensional CAT(0)-route subtraction for `T-001`, including compact finite-dimensional special cube complex groups as bridge cases and leaving merely virtual-special statements conditional on finite-index handling.
 
 ## Selected target
 
@@ -141,7 +145,8 @@ Current source toolkit:
 - primary modern hierarchy source: Linton's `One-relator hierarchies`;
 - adopted first-pass hierarchy theorem: Linton's finite one-relator complex
   hierarchy theorem from `One-relator hierarchies`;
-- first route subtraction completed: hyperbolic-route subtraction in `FJ23`;
+- route subtractions completed: hyperbolic route in `FJ23` and
+  finite-dimensional CAT(0) route in `FJ24`;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -149,4 +154,4 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ24`, CAT(0)-route subtraction for `T-001`.
+Begin `FJ25`, virtually solvable route subtraction for `T-001`.

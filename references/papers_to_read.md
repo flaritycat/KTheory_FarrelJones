@@ -33,6 +33,7 @@
 
 1. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ14`, `FJ15`, and `FJ17`; obstruction-category review, strong homotopy actions, strong transfer reducibility, and transfer diagram checked at first-pass level.
 2. Bartels, A.; Lueck, W. *Geodesic flow for CAT(0)-groups*. Status: active reference for `FJ16` and `FJ17`; flow-space definition, cover-route statements, transfer reducibility, and contracting-transfer definitions checked at first-pass level.
+3. Haglund, F.; Wise, D. T. *Special cube complexes*. Status: active bridge reference for `FJ24`; special cube complex and CAT(0) cube-complex bridge checked at first-pass level.
 
 ## Priority 2d: controlled algebra and transfers
 
@@ -63,10 +64,10 @@
 10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: found; verify before using BNS/free-by-cyclic splitting arguments.
 11. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: found; verify before using negative-immersion or primitivity-rank routes.
 
-Next one-relator reading task: for `FJ24`, isolate the CAT(0)-route
-subtraction using `ER-009`, `FJ14`, `FJ19`, `FJ22`, and any source-verified
-bridge from virtual specialness or cubical geometry to the project's exact
-finite-dimensional CAT(0)-group hypotheses.
+Next one-relator reading task: for `FJ25`, isolate the virtually solvable
+route subtraction using `ER-009`, `FJ11`, `FJ19`, `FJ23`, and `FJ24`, and
+locate a source if the project needs a classification or criterion for
+virtually solvable one-relator groups.
 
 ## Reading protocol
 

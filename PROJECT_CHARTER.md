@@ -267,12 +267,26 @@ and `FJ13` for the Farrell--Jones known case and uses `FJ22` only for
 one-relator hierarchy bridges to hyperbolicity. It deliberately keeps
 the hyperbolic-route residual conservative.
 
-The next module is `FJ24`, CAT(0)-route subtraction for `T-001`. Its
-task is to determine which remaining one-relator groups are removed by
-the finite-dimensional CAT(0) known-case row, and to decide whether any
-virtual-special consequence from the one-relator hierarchy sources can
-be used only after a source-verified bridge to the project's CAT(0)
-known-case hypotheses.
+The next step after `FJ23` was `FJ24`, CAT(0)-route subtraction for
+`T-001`. Its task was to determine which remaining one-relator groups
+are removed by the finite-dimensional CAT(0) known-case row, and to
+decide whether any virtual-special consequence from the one-relator
+hierarchy sources can be used only after a source-verified bridge to the
+project's CAT(0) known-case hypotheses.
+
+Current status: `FJ24`, CAT(0)-route subtraction for `T-001`, has
+first-pass coverage. It records that torsion-free one-relator groups are
+removed from the active residual target once the project has a
+source-verified bridge to a proper cocompact isometric action on a
+finite-dimensional CAT(0)-space. It also records compact
+finite-dimensional special cube complex groups as CAT(0)-route bridge
+cases, while keeping merely virtual-special statements conditional until
+finite-index handling is sourced.
+
+The next module is `FJ25`, virtually solvable route subtraction for
+`T-001`. Its task is to determine which remaining one-relator groups are
+removed by the virtually solvable known-case row, without treating
+local indicability or abelianization data as a virtual-solvability proof.
 
 ## GitHub persistence policy
 

@@ -728,7 +728,8 @@ one-relator subclass checks.
 ### Next action
 
 Continue subtracting known Farrell--Jones routes after the `FJ23` hyperbolic
-subtraction, beginning with the CAT(0) route in `FJ24`.
+and `FJ24` CAT(0) subtractions, beginning with the virtually solvable route in
+`FJ25`.
 
 ## OQ-027. Which exact hierarchy theorem should FJ22 adopt?
 
@@ -820,23 +821,24 @@ bridge from one-relator hypotheses to hyperbolicity.
 
 ### Next action
 
-First-pass resolved by `FJ23`. Continue with `FJ24`, the CAT(0)-route
-subtraction.
+First-pass resolved by `FJ23`. `FJ24` has completed the next CAT(0)-route
+subtraction; continue with `FJ25`, the virtually solvable route subtraction.
 
 ## OQ-030. Which part of T-001 is removed by the CAT(0) route?
 
 ### Status
 
-Open inside project.
+Resolved for first-pass CAT(0)-route subtraction.
 
 ### Context
 
 `ER-009` records finite-dimensional CAT(0)-groups as a known Farrell--Jones
 class. `FJ23` deliberately did not use virtual specialness as a hyperbolic
-route by itself. The next question is whether any remaining torsion-free
-one-relator subclasses can be source-verified as finite-dimensional CAT(0)
-groups, and whether any virtual-special conclusion from one-relator hierarchy
-sources can be connected to the project's exact CAT(0) known-case hypotheses.
+route by itself. `FJ24` records the conservative CAT(0)-route subtraction:
+subtract groups after a source-verified finite-dimensional CAT(0) action, and
+subtract compact finite-dimensional special cube complex groups through the
+Haglund--Wise cube-complex bridge. Merely virtual-special statements still
+require finite-index handling before proof-sensitive use.
 
 ### Relevant modules
 
@@ -854,4 +856,100 @@ proper cocompact finite-dimensional CAT(0) action.
 
 ### Next action
 
-Begin `FJ24`, CAT(0)-route subtraction for `T-001`.
+First-pass resolved by `FJ24`. Continue with `FJ25`, the virtually solvable
+route subtraction.
+
+## OQ-031. Which part of T-001 is removed by the virtually solvable route?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`ER-009` records virtually solvable groups as a known Farrell--Jones class.
+`FJ19` includes virtually solvable one-relator groups as a conditional positive
+route. The next task is to decide which residual torsion-free one-relator
+groups can be source-verified as virtually solvable without confusing local
+indicability, largeness, abelianization, or HNN structure with virtual
+solvability.
+
+### Relevant modules
+
+- FJ11
+- FJ19
+- FJ23
+- FJ24
+- FJ25
+
+### Dependencies
+
+`ER-009`, Wegner's virtually solvable theorem as recorded in `FJ11`, and a
+source-verified classification or criterion for the virtually solvable
+one-relator cases if the project needs more than a conditional row.
+
+### Next action
+
+Begin `FJ25`, virtually solvable route subtraction for `T-001`.
+
+## OQ-032. Which finite-index source should support virtually compact special route use?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ24` records compact finite-dimensional special cube complex groups as
+CAT(0)-route bridge cases. It does not automatically subtract every virtually
+compact special group as a pure CAT(0) route, because the project still needs a
+source-verified finite-index-overgroup bridge for the relevant Farrell--Jones
+formulation or a theorem placing the whole group in the finite-dimensional
+CAT(0)-group class.
+
+### Relevant modules
+
+- FJ12
+- FJ14
+- FJ22
+- FJ24
+
+### Dependencies
+
+Finite-index inheritance sources, CAT(0)-group finite-extension sources, or a
+source-level convention for virtually compact special groups strong enough for
+the project's known-case ledger.
+
+### Next action
+
+Defer until the project needs a proof-sensitive virtual-special route.
+
+## OQ-033. Which one-relator groups are compact special beyond the hyperbolic route?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ24` records compact finite-dimensional special cube complex groups as
+CAT(0)-route bridge cases. Linton's virtual-special consequences recorded in
+`FJ22` occur under hypotheses that also give hyperbolicity and were therefore
+already eligible for `FJ23`. A later module may need examples or subclasses
+that are compact special or CAT(0) without already being removed by the
+hyperbolic route.
+
+### Relevant modules
+
+- FJ22
+- FJ23
+- FJ24
+
+### Dependencies
+
+One-relator cubulation and special-cube-complex sources beyond the first-pass
+Haglund--Wise bridge.
+
+### Next action
+
+Defer until after the route-subtraction pass reaches surviving examples.
