@@ -27,8 +27,8 @@ Known-cases ledger and inheritance-properties ledger.
 
 ### Next action
 
-First-pass resolved by `FJ20`. Use `T-001` to guide the next cycle, with
-cycle reflection before starting new modules.
+First-pass resolved by `FJ20`. The cycle reflection is now recorded in
+`reflections/cycle_001_reflection.md`; use `T-001` to guide cycle 002.
 
 ## OQ-002. Which source should serve as the main reference for the modern Farrell--Jones statement?
 
@@ -696,8 +696,9 @@ ledger.
 
 ### Next action
 
-Promoted by `FJ20` as the first preparatory task for `T-001`: choose a
-canonical one-relator structure source before writing proof attempts.
+Activated by `reflections/cycle_001_reflection.md` as the next module task:
+`FJ21` should choose a canonical one-relator structure source before writing
+proof attempts.
 
 ## OQ-026. Which torsion-free one-relator groups survive after subtracting known routes?
 
@@ -724,5 +725,5 @@ one-relator subclass checks.
 
 ### Next action
 
-Promoted by `FJ20` as the concrete output target for `T-001`: build the
-surviving-case table after subtracting known Farrell--Jones routes.
+Build the surviving-case table after `FJ21` selects the source toolkit and
+the next modules subtract the known Farrell--Jones routes.

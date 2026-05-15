@@ -206,8 +206,38 @@ reconciling `FJCw`, `FICwF`, finite wreath products, and the project's
 internal formulation.
 
 Current procedural status: the `cycle_001` module list is complete
-except for the intentionally deferred `FJ02`. Before starting the next
-module cycle, write a reflection report in `reflections/`.
+except for the intentionally deferred `FJ02`. The cycle reflection has
+been written in `reflections/cycle_001_reflection.md`.
+
+## Cycle 001 reflection
+
+Current status: `reflections/cycle_001_reflection.md` closes the first
+twenty-module cycle. Its main conclusion is that the next cycle should
+begin with `T-001`, torsion-free one-relator residual gap analysis, and
+that the first concrete step should be `FJ21`, one-relator structure
+source selection.
+
+The reflection also records that `FJ02` remains deferred but not
+forgotten. It becomes urgent before the project uses source-level
+coefficient statements, finite-wreath-product variants, `FJCw`, or
+`FICwF` as internal proof hypotheses.
+
+## Fifth milestone
+
+Begin cycle 002 with modules `FJ21`--`FJ40`, guided by `T-001`.
+
+The provisional cycle-002 plan is:
+
+1. select a canonical one-relator structure source;
+2. record the one-relator hierarchy vocabulary needed for reductions;
+3. subtract known Farrell--Jones routes from the torsion-free one-relator
+   class;
+4. isolate any surviving subclass or example family;
+5. decide whether the target supports a theorem, a conditional reduction,
+   or a clearly labeled abandoned path.
+
+Current status: not started. The next module is `FJ21`, one-relator
+structure source selection.
 
 ## GitHub persistence policy
 

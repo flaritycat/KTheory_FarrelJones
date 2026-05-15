@@ -41,6 +41,7 @@ Unless explicitly imported later:
 - Algebraic \(K\)-theory is the chosen branch.
 - Farrell--Jones is the chosen primary path.
 - The project uses cycles of 20 modules.
+- Cycle reflections are required between 20-module cycles.
 - GitHub repository `flaritycat/KTheory_FarrelJones` is intended as the durable archive.
 
 ## Open questions
@@ -93,6 +94,8 @@ Unless explicitly imported later:
 
 The active mathematical scope is the simplified K-theoretic Farrell--Jones conjecture for group rings, with \(R\) an associative unital ring and \(G\) a discrete group.
 
+The active project target is `T-001`, torsion-free one-relator residual gap analysis.
+
 ## What has been established
 
 - The initial project structure and cycle-001 module plan have been defined.
@@ -115,6 +118,7 @@ The active mathematical scope is the simplified K-theoretic Farrell--Jones conje
 - Module `FJ18` records an Artin groups dossier: source-verified Farrell--Jones subclass rows, method routes through Helly groups and normally poly-free groups, Roushon's corrected finite/affine/complex-type list, and remaining Artin-gap questions.
 - Module `FJ19` records a torsion-free one-relator groups dossier: a source-verified warning that the global class remains open for Full Farrell--Jones, the structural local-indicability theorem, verified conditional routes through known classes, and the remaining one-relator target-selection questions.
 - Module `FJ20` selects `T-001`, torsion-free one-relator residual gap analysis, as the first serious target. This is a project-selection result rather than a mathematical theorem.
+- `reflections/cycle_001_reflection.md` closes the first twenty-module cycle and sets `FJ21`, one-relator structure source selection, as the next mathematical move.
 
 ## Selected target
 
@@ -127,4 +131,4 @@ source-verified inheritance routes.
 
 ## Next mathematical move
 
-Write the `cycle_001` reflection report in `reflections/` before starting the next module cycle.
+Begin `FJ21`, one-relator structure source selection for `T-001`.
