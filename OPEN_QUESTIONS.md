@@ -728,8 +728,9 @@ one-relator subclass checks.
 ### Next action
 
 Continue subtracting known Farrell--Jones routes after the `FJ23`
-hyperbolic, `FJ24` CAT(0), and `FJ25` virtually solvable subtractions,
-beginning with the hyperbolic-by-cyclic/free-by-cyclic route in `FJ26`.
+hyperbolic, `FJ24` CAT(0), `FJ25` virtually solvable, and `FJ26`
+hyperbolic-by-cyclic/free-by-cyclic subtractions, beginning with
+source-verified inheritance routes in `FJ27`.
 
 ## OQ-027. Which exact hierarchy theorem should FJ22 adopt?
 
@@ -821,9 +822,10 @@ bridge from one-relator hypotheses to hyperbolicity.
 
 ### Next action
 
-First-pass resolved by `FJ23`. `FJ24` and `FJ25` have completed the next
-CAT(0) and virtually solvable route subtractions; continue with `FJ26`, the
-hyperbolic-by-cyclic/free-by-cyclic route subtraction.
+First-pass resolved by `FJ23`. `FJ24`, `FJ25`, and `FJ26` have completed the
+next CAT(0), virtually solvable, and hyperbolic-by-cyclic/free-by-cyclic route
+subtractions; continue with `FJ27`, the source-verified inheritance-route
+subtraction.
 
 ## OQ-030. Which part of T-001 is removed by the CAT(0) route?
 
@@ -857,9 +859,9 @@ proper cocompact finite-dimensional CAT(0) action.
 
 ### Next action
 
-First-pass resolved by `FJ24`. `FJ25` has completed the virtually solvable
-route subtraction; continue with `FJ26`, the
-hyperbolic-by-cyclic/free-by-cyclic route subtraction.
+First-pass resolved by `FJ24`. `FJ25` and `FJ26` have completed the
+virtually solvable and hyperbolic-by-cyclic/free-by-cyclic route subtractions;
+continue with `FJ27`, the source-verified inheritance-route subtraction.
 
 ## OQ-031. Which part of T-001 is removed by the virtually solvable route?
 
@@ -895,8 +897,9 @@ bookkeeping.
 
 ### Next action
 
-First-pass resolved by `FJ25`. Continue with `FJ26`, the
-hyperbolic-by-cyclic/free-by-cyclic route subtraction.
+First-pass resolved by `FJ25`. `FJ26` has completed the
+hyperbolic-by-cyclic/free-by-cyclic route subtraction. Continue with `FJ27`,
+the source-verified inheritance-route subtraction.
 
 ## OQ-032. Which finite-index source should support virtually compact special route use?
 
@@ -994,15 +997,19 @@ route table.
 
 ### Status
 
-Open inside project.
+Resolved for first-pass hyperbolic-by-cyclic/free-by-cyclic route subtraction.
 
 ### Context
 
 `FJ19` records the Bestvina--Fujiwara--Wigglesworth theorem as a positive route
 for hyperbolic-by-cyclic groups, including finite-rank free-by-cyclic groups
-under the source hypotheses. After the hyperbolic, CAT(0), and virtually
-solvable subtractions, the next task is to decide which remaining
-torsion-free one-relator groups have a source-verified bridge to that route.
+under the source hypotheses. `FJ26` records the conservative subtraction rule:
+subtract torsion-free one-relator groups only after a source-verified bridge
+to \(H\rtimes_\Phi\mathbb Z\) with \(H\) virtually torsion-free hyperbolic, or
+to a finite-rank free-by-cyclic group.
+
+`FJ26` also records that epimorphisms to \(\mathbb Z\), HNN splittings, and
+one-relator hierarchy data are not mapping-torus proofs by themselves.
 
 ### Relevant modules
 
@@ -1015,10 +1022,74 @@ torsion-free one-relator groups have a source-verified bridge to that route.
 ### Dependencies
 
 Bestvina--Fujiwara--Wigglesworth (2023), the mapping-torus notation from
-`FJ19`, and any one-relator splitting or kernel-finiteness source used to
-identify a group as hyperbolic-by-cyclic or finite-rank free-by-cyclic.
+`FJ19`, and any later one-relator splitting or kernel-finiteness source used
+to identify a group as hyperbolic-by-cyclic or finite-rank free-by-cyclic.
 
 ### Next action
 
-Begin `FJ26`, hyperbolic-by-cyclic/free-by-cyclic route subtraction for
-`T-001`.
+First-pass resolved by `FJ26`. Continue with `FJ27`, the source-verified
+inheritance-route subtraction.
+
+## OQ-036. Which source should recognize finite-rank free kernels over Z?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ26` records that a verified exact sequence
+\[
+1\to F_n\to G\to \mathbb Z\to 1
+\]
+with \(n<\infty\) gives a finite-rank free-by-cyclic bridge. It does not prove
+that any particular one-relator epimorphism has finitely generated free
+kernel. Brown's BNS-invariant paper remains a found-to-verify source for this
+kind of recognition problem.
+
+### Relevant modules
+
+- FJ21
+- FJ26
+
+### Dependencies
+
+Brown (1987), or another source-verified one-relator kernel-finiteness
+criterion selected later.
+
+### Next action
+
+Defer until the residual analysis needs concrete free-by-cyclic recognition.
+
+## OQ-037. Which inheritance routes remove additional T-001 cases?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ12` records inheritance properties with version flags, including
+coefficient K-theory rows and survey-level full \(\mathcal{FJ}\) rows.
+After the four named route subtractions in `FJ23`--`FJ26`, the next task is to
+decide which remaining `T-001` cases can be removed by source-verified
+inheritance rows without mixing formulations.
+
+### Relevant modules
+
+- FJ12
+- FJ19
+- FJ23
+- FJ24
+- FJ25
+- FJ26
+- FJ27
+
+### Dependencies
+
+`ER-010`, `ledgers/inheritance_properties.md`, and any primary-source tracing
+needed before proof-sensitive use of survey-level full \(\mathcal{FJ}\) rows.
+
+### Next action
+
+Begin `FJ27`, source-verified inheritance-route subtraction for `T-001`.

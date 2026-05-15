@@ -296,12 +296,29 @@ project has a source-verified bridge to virtual solvability. It also
 records that local indicability, abelianization data, and one-relator
 hierarchy structure are not virtual-solvability certificates.
 
-The next module is `FJ26`,
+The next step after `FJ25` was `FJ26`,
 hyperbolic-by-cyclic/free-by-cyclic route subtraction for `T-001`. Its
-task is to determine which remaining one-relator groups are removed by
+task was to determine which remaining one-relator groups are removed by
 the Bestvina--Fujiwara--Wigglesworth known-case row and related
-free-by-cyclic bridge data, without using an HNN splitting as a mapping
-torus proof unless the required hypotheses are source-verified.
+free-by-cyclic bridge data, without using an HNN splitting or an
+epimorphism to \(\mathbb Z\) as a mapping-torus proof unless the
+required hypotheses are source-verified.
+
+Current status: `FJ26`, hyperbolic-by-cyclic/free-by-cyclic route
+subtraction for `T-001`, has first-pass coverage. It records that
+torsion-free one-relator groups are removed from the active residual
+target once the project has a source-verified bridge to
+\(H\rtimes_\Phi\mathbb Z\) with \(H\) virtually torsion-free hyperbolic,
+or to a finite-rank free-by-cyclic group. It also records that bare HNN
+splittings, epimorphisms to \(\mathbb Z\), and hierarchy data are not
+mapping-torus certificates by themselves.
+
+The next module is `FJ27`, source-verified inheritance-route
+subtraction for `T-001`. Its task is to decide which remaining
+one-relator cases can be removed by the inheritance rows already
+recorded in `FJ12`, while keeping version flags separate between
+coefficient K-theory rows and Lueck's full \(\mathcal{FJ}\) survey
+class.
 
 ## GitHub persistence policy
 

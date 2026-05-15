@@ -53,7 +53,7 @@
 ## Priority 2f: one-relator groups
 
 1. Lueck, W. *Survey on the Farrell-Jones Conjecture*. Status: active reference for `FJ19`; Section 11 checked for the open-status warning about torsion-free one-relator groups and locally indicable groups in the Full Farrell--Jones formulation.
-2. Bestvina, M.; Fujiwara, K.; Wigglesworth, D. *The Farrell-Jones conjecture for hyperbolic-by-cyclic groups*. Status: active reference for `FJ19`; main theorem, coefficient convention, and extension theorem checked at first-pass level.
+2. Bestvina, M.; Fujiwara, K.; Wigglesworth, D. *The Farrell-Jones conjecture for hyperbolic-by-cyclic groups*. Status: active reference for `FJ19` and `FJ26`; main theorem, coefficient convention, and extension theorem checked at first-pass level.
 3. Howie, J. *A short proof of a theorem of Brodskii*. Status: active reference for `FJ19`; used for local indicability of torsion-free one-relator groups.
 4. Newman, B. B. *Some results on one-relator groups*. Status: background only for `FJ19`; recorded for torsion one-relator contrast.
 5. Linton, M. *One-relator hierarchies*. Status: active reference for `FJ22`; arXiv v3 checked for the hierarchy theorem, one-relator-complex vocabulary, \(\mathbb Z\)-stable hierarchy vocabulary, quasi-convex and acylindrical hierarchy vocabulary, and the main equivalence theorem. Published-version numbering still needs verification.
@@ -61,14 +61,15 @@
 7. Linton, M.; Nyberg-Brodda, C.-F. *The theory of one-relator groups: history and recent progress*. Status: active orientation source for `FJ21`; use as a literature map, not a proof source.
 8. Lyndon, R. C.; Schupp, P. E. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
 9. Magnus, W.; Karrass, A.; Solitar, D. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
-10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: found; verify before using BNS/free-by-cyclic splitting arguments.
+10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: found; verify before using BNS/free-by-cyclic splitting arguments; named in `FJ26` only as a future kernel-recognition source.
 11. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: found; verify before using negative-immersion or primitivity-rank routes.
 
-Next one-relator reading task: for `FJ26`, isolate the
-hyperbolic-by-cyclic/free-by-cyclic route subtraction using `FJ19`, `FJ23`,
-`FJ24`, and `FJ25`, and locate or verify any one-relator splitting or
-kernel-finiteness source needed to recognize the Bestvina--Fujiwara--Wigglesworth
-hypotheses.
+Next one-relator reading task: for `FJ27`, isolate the source-verified
+inheritance-route subtraction using `FJ12`, `ER-010`, `FJ19`, and the
+completed route subtractions `FJ23`--`FJ26`. Keep coefficient K-theory
+inheritance rows separate from Lueck's full \(\mathcal{FJ}\) survey rows, and
+trace primary sources before proof-sensitive use of survey-level inheritance
+claims.
 
 ## Reading protocol
 
