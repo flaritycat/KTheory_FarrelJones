@@ -236,8 +236,18 @@ The provisional cycle-002 plan is:
 5. decide whether the target supports a theorem, a conditional reduction,
    or a clearly labeled abandoned path.
 
-Current status: not started. The next module is `FJ21`, one-relator
-structure source selection.
+Current status: `FJ21`, one-relator structure source selection, has
+first-pass coverage. It selects Linton's `One-relator hierarchies` as
+the primary modern hierarchy source for `T-001`, Linton's `Hyperbolic
+one-relator groups` as a bridge source, and Linton--Nyberg-Brodda as an
+orientation survey. It records Lyndon--Schupp and
+Magnus--Karrass--Solitar as classical sources to verify before
+proof-sensitive use.
+
+The next module is `FJ22`, one-relator hierarchy vocabulary. Its task is
+to choose the exact theorem statement, definitions, and hypotheses from
+the selected hierarchy source before the project starts subtracting known
+Farrell--Jones routes.
 
 ## GitHub persistence policy
 

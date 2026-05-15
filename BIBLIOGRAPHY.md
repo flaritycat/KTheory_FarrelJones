@@ -79,3 +79,17 @@
 - Howie, J. (2000). A short proof of a theorem of Brodskii. *Publicacions Matematiques, 44*(2), 613--647. http://eudml.org/doc/41412. Status: `active reference for FJ19; partially read overall`. Notes: used for the structural theorem that torsion-free one-relator groups are locally indicable; not a Farrell--Jones theorem.
 
 - Newman, B. B. (1968). Some results on one-relator groups. *Bulletin of the American Mathematical Society, 74*, 568--571. https://www.ams.org/bull/1968-74-03/S0002-9904-1968-12012-9/. Status: `background only for FJ19`. Notes: recorded for the torsion one-relator contrast and classical spelling-theorem context; not used as a Farrell--Jones theorem source in `FJ19`.
+
+- Brown, K. S. (1987). Trees, valuations, and the Bieri--Neumann--Strebel invariant. *Inventiones Mathematicae, 90*, 479--504. https://doi.org/10.1007/BF01389176. Status: `found; to verify for one-relator splitting/free-by-cyclic use`. Notes: located in `FJ21` as a later source for BNS invariants, HNN valuations, one-relator groups, and finitely generated kernels; not yet used as a theorem source.
+
+- Linton, M. (2024). *One-relator hierarchies* (arXiv:2202.11324v3). arXiv. https://arxiv.org/abs/2202.11324. Status: `selected primary hierarchy source for FJ22; theorem details to verify`. Notes: `FJ21` checked the arXiv abstract for its refinement of the Magnus--Moldavanskii hierarchy and its \(\mathbb Z\)-stable HNN/hierarchy vocabulary. Published-version metadata should be checked before proof-sensitive theorem numbering.
+
+- Linton, M. (2026). Hyperbolic one-relator groups. *Canadian Journal of Mathematics, 78*(1), 35--61. https://doi.org/10.4153/S0008414X24000427. Status: `active reference for FJ21; partially read overall`. Notes: Cambridge page checked in `FJ21` for the definition of Magnus subgroup, the stated Freiheitssatz, and the description of the Magnus hierarchy as an HNN-splitting hierarchy.
+
+- Linton, M., & Nyberg-Brodda, C.-F. (2025). *The theory of one-relator groups: History and recent progress* (arXiv:2501.18306). arXiv. https://arxiv.org/abs/2501.18306. Status: `active orientation source for FJ21; not a proof source yet`. Notes: arXiv page checked for survey scope: historical development and recent progress in one-relator group theory.
+
+- Louder, L., & Wilton, H. (2022). Negative immersions for one-relator groups. *Duke Mathematical Journal, 171*(3), 547--594. https://doi.org/10.1215/00127094-2021-0024. Status: `found; to verify for hyperbolicity/subgroup route use`. Notes: located in `FJ21` as a downstream source for primitivity rank, negative immersions, and Baumslag--Solitar obstructions.
+
+- Lyndon, R. C., & Schupp, P. E. (2001). *Combinatorial group theory*. Springer. https://doi.org/10.1007/978-3-642-61896-3. Status: `found; to verify for classical one-relator theorem use`. Notes: classical monograph cited by modern one-relator hierarchy sources; not yet used as a proof source in the project.
+
+- Magnus, W., Karrass, A., & Solitar, D. (1966). *Combinatorial group theory: Presentations of groups in terms of generators and relations*. Interscience. Status: `found; to verify for classical one-relator theorem use`. Notes: classical exposition cited by modern hierarchy sources; not yet used as a proof source in the project.

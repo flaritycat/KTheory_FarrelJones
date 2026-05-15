@@ -72,8 +72,10 @@ Unless explicitly imported later:
 24. Which source should reconcile `FJCw`, `FICwF`, and the project's simplified K-theory formulation?
 25. Can Wu's clique-reduction route isolate a tractable Artin target not already covered by the verified rows?
 26. Is there a global K-theoretic Farrell--Jones theorem for all torsion-free one-relator groups in a weaker formulation than Full Farrell--Jones?
-27. Which one-relator structure theorem should become the canonical reduction tool if one-relator groups become the first serious target?
-28. Which torsion-free one-relator groups survive after subtracting hyperbolic, finite-dimensional CAT(0), virtually solvable, and hyperbolic-by-cyclic routes?
+27. Which one-relator structure theorem should become the canonical reduction tool if one-relator groups become the first serious target? First-pass resolved by `FJ21` source selection; theorem-level details remain for `FJ22`.
+28. Which exact hierarchy theorem should `FJ22` adopt from the selected one-relator source toolkit?
+29. Which classical Magnus hierarchy source must be checked for proof-sensitive use?
+30. Which torsion-free one-relator groups survive after subtracting hyperbolic, finite-dimensional CAT(0), virtually solvable, and hyperbolic-by-cyclic routes?
 
 ## Established results
 
@@ -119,6 +121,7 @@ The active project target is `T-001`, torsion-free one-relator residual gap anal
 - Module `FJ19` records a torsion-free one-relator groups dossier: a source-verified warning that the global class remains open for Full Farrell--Jones, the structural local-indicability theorem, verified conditional routes through known classes, and the remaining one-relator target-selection questions.
 - Module `FJ20` selects `T-001`, torsion-free one-relator residual gap analysis, as the first serious target. This is a project-selection result rather than a mathematical theorem.
 - `reflections/cycle_001_reflection.md` closes the first twenty-module cycle and sets `FJ21`, one-relator structure source selection, as the next mathematical move.
+- Module `FJ21` selects the first-pass one-relator structure source toolkit for `T-001`: Linton's one-relator hierarchy work, Linton's hyperbolic one-relator bridge source, and a classical-source verification queue.
 
 ## Selected target
 
@@ -129,6 +132,14 @@ groups remain after subtracting the verified hyperbolic, finite-dimensional
 CAT(0), virtually solvable, hyperbolic-by-cyclic/free-by-cyclic, and
 source-verified inheritance routes.
 
+Current source toolkit:
+
+- primary modern hierarchy source: Linton's `One-relator hierarchies`;
+- bridge source: Linton's `Hyperbolic one-relator groups`;
+- orientation source: Linton--Nyberg-Brodda's one-relator survey;
+- classical sources to verify before proof-sensitive use:
+  Lyndon--Schupp and Magnus--Karrass--Solitar.
+
 ## Next mathematical move
 
-Begin `FJ21`, one-relator structure source selection for `T-001`.
+Begin `FJ22`, one-relator hierarchy vocabulary for `T-001`.

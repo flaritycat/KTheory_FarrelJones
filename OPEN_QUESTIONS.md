@@ -674,7 +674,7 @@ K-theory theorem is plausible or source-supported.
 
 ### Status
 
-Open inside project.
+Resolved for first-pass source selection.
 
 ### Context
 
@@ -696,9 +696,11 @@ ledger.
 
 ### Next action
 
-Activated by `reflections/cycle_001_reflection.md` as the next module task:
-`FJ21` should choose a canonical one-relator structure source before writing
-proof attempts.
+First-pass resolved by `FJ21`. Use Linton's `One-relator hierarchies` as the
+primary modern hierarchy source, Linton's `Hyperbolic one-relator groups` as
+the bridge source, and Linton--Nyberg-Brodda as the orientation survey. Before
+proof attempts, `FJ22` must choose the exact hierarchy theorem statement and
+hypotheses.
 
 ## OQ-026. Which torsion-free one-relator groups survive after subtracting known routes?
 
@@ -717,6 +719,7 @@ identify examples or subclasses not already covered by these routes.
 
 - FJ19
 - FJ20
+- FJ21+
 
 ### Dependencies
 
@@ -727,3 +730,62 @@ one-relator subclass checks.
 
 Build the surviving-case table after `FJ21` selects the source toolkit and
 the next modules subtract the known Farrell--Jones routes.
+
+## OQ-027. Which exact hierarchy theorem should FJ22 adopt?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ21` selected Linton's `One-relator hierarchies` as the primary modern
+hierarchy source for `T-001`, but it did not choose a proof-level theorem
+statement. The next module must decide which hierarchy statement, definition
+package, and hypotheses are needed for the residual gap analysis.
+
+### Relevant modules
+
+- FJ21
+- FJ22
+
+### Dependencies
+
+Linton's `One-relator hierarchies`, Linton's `Hyperbolic one-relator groups`,
+and the classical Magnus--Moldavanskii background sources if Linton's statement
+requires classical comparison.
+
+### Next action
+
+In `FJ22`, read the selected Linton hierarchy source in detail and record the
+exact theorem, definitions, and hypotheses that will become the project's
+one-relator hierarchy vocabulary.
+
+## OQ-028. Which classical Magnus hierarchy source must be checked for proof-sensitive use?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ21` records Lyndon--Schupp and Magnus--Karrass--Solitar as classical
+one-relator sources, but neither has been checked directly inside the project.
+If later modules need the classical Freiheitssatz or Magnus--Moldavanskii
+hierarchy independent of Linton's formulation, the project must choose and
+verify the exact classical source.
+
+### Relevant modules
+
+- FJ21
+- FJ22+
+
+### Dependencies
+
+Lyndon--Schupp, Magnus--Karrass--Solitar, and possibly Magnus's original
+Freiheitssatz paper.
+
+### Next action
+
+Defer until `FJ22` determines whether Linton's source is enough for the next
+proof-sensitive step.
