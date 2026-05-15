@@ -178,3 +178,42 @@ The two \(NK_n(R)\)-summands correspond to the positive and negative Laurent dir
 ### Source status
 
 Source-verified from Weibel, C. A. (2013). *The K-book: An introduction to algebraic K-theory*, Chapter V, Theorems 8.1 and 8.2. Lueck and Reich (2004), Remark 1.15 and Subsection 2.2.5, are used for the Farrell--Jones interpretation of Nil-terms.
+
+## ER-006. Conditional Whitehead-group vanishing from Farrell--Jones
+
+### Status
+
+Source-verified theorem map, conditional on the relevant K-theoretic Farrell--Jones statement.
+
+### Statement
+
+Let \(G\) be torsion free and let \(R\) be regular. Assume the K-theoretic Farrell--Jones assembly statement in the torsion-free regular-ring form used by Lueck and Reich. Then
+
+\[
+\mathrm{Wh}_0^R(G)=0
+\qquad\text{and}\qquad
+\mathrm{Wh}_1^R(G)=0.
+\]
+
+In particular, for \(R=\mathbb Z\),
+
+\[
+\widetilde K_0(\mathbb Z[G])=0
+\qquad\text{and}\qquad
+\mathrm{Wh}(G)=0.
+\]
+
+### Proof location
+
+`modules/cycle_001/FJ08_whitehead_group_consequence.md`
+
+### Assumptions
+
+- \(G\) is torsion free.
+- \(R\) is regular in the sense used by Lueck--Reich.
+- The relevant K-theoretic Farrell--Jones statement holds for \(G\) and \(R\).
+- The definitions of \(A_0\), \(A_1\), \(\mathrm{Wh}_0^R(G)\), and \(\mathrm{Wh}_1^R(G)\) are those used in Lueck--Reich.
+
+### Source status
+
+Source-verified from Lueck, W., and Reich, H. (2004), Section 1.1, Section 1.3, Proposition 2.10, and Corollary 2.11.

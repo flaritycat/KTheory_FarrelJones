@@ -106,6 +106,10 @@ Proceed through modules `FJ08`--`FJ12`, establishing:
 4. a known-classes ledger;
 5. an inheritance-properties ledger.
 
+Current status: `FJ08` has first-pass coverage as a conditional theorem
+map from Farrell--Jones to Whitehead-group vanishing under torsion-free
+and regularity hypotheses.
+
 ## GitHub persistence policy
 
 The GitHub repository `flaritycat/KTheory_FarrelJones` is the durable archive and source of truth.

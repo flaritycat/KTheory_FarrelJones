@@ -8,7 +8,7 @@
 
 - Lueck, W. (2004). *Survey on classifying spaces for families of subgroups* (arXiv:math/0312378, Version 2). arXiv. https://arxiv.org/abs/math/0312378. Status: `active reference`. Notes: Definition 1.8 and Theorem 1.9 checked in `FJ03` for the terminal-object definition, existence, uniqueness up to \(G\)-homotopy, and fixed-point characterization of \(E_{\mathcal F}G\).
 
-- Lueck, W., & Reich, H. (2004). *The Baum-Connes and the Farrell-Jones conjectures in K- and L-theory* (arXiv:math/0402405). arXiv. https://arxiv.org/abs/math/0402405. Status: `active reference for FJ04 and FJ07; partially read overall`. Notes: used in `FJ01` as a survey reference for the group-ring target and assembly-map viewpoint; used in `FJ04` for virtually cyclic definitions and the infinite virtually cyclic dichotomy; used in `FJ07` for Remark 1.15, Proposition 2.14, and the Nil-term/relative-family interpretation in Subsection 2.2.5.
+- Lueck, W., & Reich, H. (2004). *The Baum-Connes and the Farrell-Jones conjectures in K- and L-theory* (arXiv:math/0402405). arXiv. https://arxiv.org/abs/math/0402405. Status: `active reference for FJ04, FJ07, and FJ08; partially read overall`. Notes: used in `FJ01` as a survey reference for the group-ring target and assembly-map viewpoint; used in `FJ04` for virtually cyclic definitions and the infinite virtually cyclic dichotomy; used in `FJ07` for Remark 1.15, Proposition 2.14, and the Nil-term/relative-family interpretation in Subsection 2.2.5; used in `FJ08` for Whitehead group definitions and the torsion-free regular-ring consequence.
 
 - Lueck, W. (2018). *Assembly maps* (arXiv:1805.00226). arXiv. https://arxiv.org/abs/1805.00226. Status: `found`. Notes: candidate source for assembly maps; not yet used for a verified statement.
 

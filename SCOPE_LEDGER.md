@@ -55,6 +55,7 @@ Unless explicitly imported later:
 9. Which model of nonconnective algebraic \(K\)-theory should be used for the all-integers formulation?
 10. Which explicit example of nonzero \(NK_n(R)\) should be used if the project needs a concrete Nil obstruction?
 11. Should the original Bass--Heller--Swan paper be checked directly, or is Weibel's monograph sufficient for the first-pass theorem ledger?
+12. Which source should be used for geometric Whitehead torsion if later modules need topology-facing consequences?
 
 ## Established results
 
@@ -63,6 +64,7 @@ Unless explicitly imported later:
 - ER-003: For every group \(G\), \(\mathcal{VCyc}(G)\) is a family of subgroups; infinite virtually cyclic groups are organized into type I/type II by the source-verified dichotomy.
 - ER-004: For \(G=\mathbb Z\), the simplified assembly map is the identity under the point model for \(E_{\mathcal{VCyc}}\mathbb Z\), with target \(K_n(R[t,t^{-1}])\).
 - ER-005: Source-verified Bass--Heller--Swan decomposition of \(K_n(R[\mathbb Z])\) into \(K_n(R)\), \(K_{n-1}(R)\), and two \(NK_n(R)\)-summands.
+- ER-006: Conditional Whitehead-group vanishing from the K-theoretic Farrell--Jones conjecture for torsion-free groups with regular coefficients.
 
 ## Current scope
 
@@ -77,7 +79,8 @@ The active mathematical scope is the simplified K-theoretic Farrell--Jones conje
 - Module `FJ05` gives a standalone worked proof of the trivial-group example, expanding ER-001 without creating a duplicate result number.
 - Module `FJ06` gives a standalone worked proof for \(G=\mathbb Z\), identifying \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator while deferring Bass--Heller--Swan to `FJ07`.
 - Module `FJ07` records the Bass--Heller--Swan split exact sequence, introduces \(NK_n(R)\), and explains why Nil-terms force the virtually cyclic family for arbitrary coefficient rings.
+- Module `FJ08` records the conditional Whitehead-group consequence of Farrell--Jones for torsion-free groups with regular coefficients.
 
 ## Next mathematical move
 
-Proceed to module `FJ08`: the Whitehead-group consequence, with hypotheses checked before any vanishing statement is recorded.
+Proceed to module `FJ09`: the projective class group consequence, with the same care around torsion-free and regularity hypotheses.

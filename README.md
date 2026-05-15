@@ -17,9 +17,9 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_001`
 - First milestone: modules `FJ01`--`FJ07`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, and `FJ07`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, and `FJ08`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
-- Current primary target: `FJ08`, the Whitehead-group consequence, with exact hypotheses checked before any vanishing statement is recorded.
+- Current primary target: `FJ09`, the projective class group consequence, with exact hypotheses checked before any vanishing statement is recorded.
 
 ## Current established results
 
@@ -28,6 +28,7 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - `ER-003`: \(\mathcal{VCyc}(G)\) is a family of subgroups, with the infinite virtually cyclic dichotomy recorded as source-verified.
 - `ER-004`: for \(G=\mathbb Z\), the simplified assembly map is the identity under the point model for \(E_{\mathcal{VCyc}}\mathbb Z\), with target \(K_n(R[t,t^{-1}])\).
 - `ER-005`: the source-verified Bass--Heller--Swan decomposition of \(K_n(R[\mathbb Z])\), including the two \(NK_n(R)\)-summands.
+- `ER-006`: conditional Whitehead-group vanishing from Farrell--Jones for torsion-free groups with regular coefficients.
 
 See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, and source status.
 
@@ -36,6 +37,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - The repository has not proved or claimed the Farrell--Jones conjecture in full generality.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
+- `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 

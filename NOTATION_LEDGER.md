@@ -14,6 +14,13 @@
 | \(R[t^{-1}]\) | polynomial ring in the inverse variable \(t^{-1}\) | active | FJ07 | Used in the Bass--Heller--Swan split exact sequence. |
 | \(NK_n(R)\) | cokernel of \(K_n(R)\to K_n(R[t])\) | active | FJ07 | Nil-term notation used in the Bass--Heller--Swan decomposition. |
 | \(\mathrm{Nil}(R)\) | category of nilpotent endomorphisms of finitely generated projective \(R\)-modules | local/active | FJ07 | Used only to explain the terminology behind Nil-groups. |
+| \(G_{\mathrm{ab}}\) | abelianization of \(G\) | active | FJ08 | Used in the low-dimensional map \(A_1\). |
+| \(A_0\) | map \(K_0(R)\to K_0(R[G])\) induced by \(R\to R[G]\) | active | FJ08 | Source notation from Lueck--Reich. |
+| \(A_1\) | map \(G_{\mathrm{ab}}\otimes_{\mathbb Z}K_0(R)\oplus K_1(R)\to K_1(R[G])\) | active | FJ08 | Source notation from Lueck--Reich. |
+| \(\mathrm{Wh}_0^R(G)\) | cokernel of \(A_0\) | active | FJ08 | \(R\)-Whitehead group in Lueck--Reich's low-dimensional notation. |
+| \(\mathrm{Wh}_1^R(G)\) | cokernel of \(A_1\) | active | FJ08 | Specializes to the classical Whitehead group for \(R=\mathbb Z\). |
+| \(\mathrm{Wh}(G)\) | classical Whitehead group of \(G\) | active | FJ08 | Identified with \(\mathrm{Wh}_1^{\mathbb Z}(G)\) in FJ08. |
+| \(\widetilde K_0(\mathbb Z[G])\) | reduced projective class group of \(\mathbb Z[G]\) | active | FJ08 | Identified with \(\mathrm{Wh}_0^{\mathbb Z}(G)\) in FJ08. |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |
 | \(\mathcal{All}(G)\) | family of all subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{All}}G\) is modeled by \(\mathrm{pt}\). |

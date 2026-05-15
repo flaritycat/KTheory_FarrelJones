@@ -212,3 +212,26 @@ Bass, Heller, and Swan, *The Whitehead group of a polynomial extension*, Publica
 ### Next action
 
 Check the original paper only if the project later needs historical attribution beyond the APA bibliography entry.
+
+## OQ-010. Which source should be used for geometric Whitehead torsion?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ08` uses the algebraic \(K\)-theory cokernel definition of the Whitehead group and records a Farrell--Jones consequence. It does not develop Whitehead torsion, the \(s\)-cobordism theorem, or the geometric applications of \(\mathrm{Wh}(G)\).
+
+### Relevant modules
+
+- FJ08
+- FJ10
+
+### Dependencies
+
+A reliable source for Whitehead torsion and the \(s\)-cobordism theorem, preferably a standard monograph or expert survey.
+
+### Next action
+
+Resolve only if `FJ10` or a later topology-facing module needs geometric consequences.
