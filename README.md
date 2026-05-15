@@ -17,11 +17,11 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_003`.
 - Completed cycles: `cycle_001` and `cycle_002`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, and `FJ41`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, and `FJ42`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md` and `reflections/cycle_002_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ42`, Bieri (1976) primary-source verification for normal-subgroup finiteness hypotheses.
+- Current procedural target: begin `FJ43`, a route-delta checkpoint for the BNS/Bieri/Karrass--Solitar source cluster.
 
 ## Current established results
 
@@ -82,6 +82,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ40` audits finitely presented-kernel candidates for `RB-004` and does not select a new non-Brown source-ready example. The known source-ready finite-rank free kernels are already calibration or \(G_{p,q}\)-family route cases, so it closes the module portion of cycle 002.
 - `reflections/cycle_002_reflection.md` closes cycle 002 and selects `FJ41`, direct BNS theorem verification for `RB-004`, as the first move of cycle 003.
 - `FJ41` verifies Bieri--Neumann--Strebel (1987), Theorem B1, as a direct finite-generation criterion for normal subgroups \(N\trianglelefteq G\) with \(G\) finitely generated and \(G/N\) abelian. For a surjection \(G\to\mathbb Z\), it gives the two-sided \([\chi]\), \([-\chi]\) criterion. It does not compute the BNS invariant for a new one-relator family, does not prove freeness or finite rank of the kernel, and makes no residual subtraction.
+- `FJ42` checks Bieri (1976) source access and route impact. The Bieri article metadata is verified, but the primary theorem text was not directly extractable in this run, so no Bieri theorem is promoted to source-verified use. Later comparison sources point to finite-presentation or type-`VFP` hypotheses rather than mere finite generation, so `FJ42` records no residual subtraction and sends the project to a route-delta checkpoint.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 

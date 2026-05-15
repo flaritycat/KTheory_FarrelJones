@@ -272,7 +272,21 @@ Outcome:
 - no finite-rank free-kernel bridge is recorded;
 - no residual bucket is removed by `FJ41`.
 
+## FJ42 Bieri route-delta update
+
+`FJ42` checks Bieri (1976) source access and route impact.
+
+Outcome:
+
+- Bieri (1976) bibliographic and ScienceDirect/Elsevier metadata are checked;
+- the primary theorem text is not directly extractable in this environment;
+- comparison sources report finite-presentation or type-\(VFP\) hypotheses,
+  not mere finite generation;
+- Bieri is not promoted to source-verified theorem use;
+- the finite-presentation bottleneck from `FJ39` remains;
+- no residual bucket is removed by `FJ42`.
+
 ## Next action
 
-Begin `FJ42`, Bieri (1976) primary-source verification for normal-subgroup
-finiteness hypotheses.
+Begin `FJ43`, route-delta checkpoint for the BNS/Bieri/Karrass--Solitar
+source cluster.

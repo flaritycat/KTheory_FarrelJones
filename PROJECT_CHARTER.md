@@ -586,11 +586,19 @@ criterion. The module does not compute \(\Sigma(G)\) for a new one-relator
 family, does not prove freeness or finite rank of a kernel, and makes no
 residual subtraction.
 
-The next step after `FJ41` is `FJ42`, Bieri (1976) primary-source
-verification. Its task is to check the exact normal-subgroup finiteness
-hypotheses cited downstream by Karrass--Solitar and selected in the
-cycle-003 plan, without importing a cohomological-dimension bridge from
-memory.
+Current status: `FJ42` has first-pass coverage as Bieri source-access and
+route-delta verification. It checks Bieri (1976) bibliographic and
+ScienceDirect/Elsevier metadata, but the primary theorem text was not
+directly extractable in this environment. Therefore no Bieri theorem is
+promoted to source-verified theorem use. Comparison sources indicate that
+the visible Bieri hypotheses remain finite presentation or type \(VFP\), not
+mere finite generation, so `FJ42` records no residual subtraction.
+
+The next step after `FJ42` is `FJ43`, a route-delta checkpoint for the
+BNS/Bieri/Karrass--Solitar source cluster. Its task is to decide whether
+`RB-004` should continue through more Bieri--Renz/BNS source verification or
+pivot to a more concrete route, in accordance with the strategic audit after
+cycle 002.
 
 ## GitHub persistence policy
 

@@ -118,7 +118,7 @@ classification, or a global theorem for all torsion-free one-relator groups.
 |---|---|---|
 | Exact rank of \(K_{p,q}\) | Deferred | finite rank already suffices for `FJ26` |
 | More \(G_{p,q}\)-style examples | Deferred | `FJ36` covers the family at route level |
-| Brown beyond two-generator criterion | Source cluster selected by `FJ38`; `FJ39` verifies only the Karrass--Solitar finite-presentation bridge; `FJ41` verifies direct BNS finite-generation theorem use | Bieri primary theorem use remains open for `FJ42`; BNS still needs invariant computation before residual subtraction |
+| Brown beyond two-generator criterion | Source cluster selected by `FJ38`; `FJ39` verifies only the Karrass--Solitar finite-presentation bridge; `FJ41` verifies direct BNS finite-generation theorem use; `FJ42` checks Bieri access and route delta | Bieri primary theorem text remains unverified; BNS still needs invariant computation before residual subtraction |
 
 The next kernel-recognition task is not another computation inside the
 \(G_{p,q}\)-family. It is source selection for cases outside Brown's checked
@@ -130,7 +130,7 @@ two-generator one-relator criterion.
 |---|---|---|
 | Bieri--Neumann--Strebel (1987) | direct BNS finite-generation criterion beyond Brown's restatement | Theorem B1 checked in `FJ41`; no invariant computation or residual subtraction |
 | Bieri--Renz (1988) | higher finiteness context if the bridge needs finite presentation, \(\mathrm{FP}_2\), or stronger hypotheses | selected secondary source; theorem statement not yet checked |
-| Bieri (1976) | normal subgroups in duality groups and groups of cohomological dimension \(2\) | selected; exact hypotheses not yet checked |
+| Bieri (1976) | normal subgroups in duality groups and groups of cohomological dimension \(2\) | metadata/source-access checked in `FJ42`; primary theorem text not directly verified |
 | Karrass--Solitar (1978) | one-relator groups with finitely presented normal subgroup of infinite index | theorem form checked in `FJ39`; no concrete new candidate selected in `FJ40` |
 
 `FJ38` is source selection only. It does not prove that any new kernel is
@@ -174,7 +174,21 @@ It upgrades direct BNS theorem use from selected source to active theorem map,
 but it does not prove freeness, finite rank, or membership in the `FJ26`
 finite-rank free-by-cyclic route.
 
+## FJ42 Bieri source-access and route-delta check
+
+| Candidate bridge | Current status | Route impact |
+|---|---|---|
+| Bieri (1976), CD \(\leq 2\) normal-subgroup theorem | comparison sources report a finitely presented normal-subgroup hypothesis; primary theorem text not directly checked | reinforces finite-presentation bottleneck; no route subtraction |
+| Bieri (1976), duality-group theorem | comparison source reports a type-\(VFP\) normal-subgroup hypothesis; primary theorem text not directly checked | not an immediate finite-rank free-kernel bridge for `RB-004` |
+| Karrass--Solitar bridge | already source-verified in `FJ39` | remains the only theorem-use normal-subgroup bridge in this cluster |
+| Direct BNS theorem | source-verified in `FJ41` | still needs a \(\Sigma(G)\)-membership computation |
+
+`FJ42` does not promote Bieri (1976) to theorem-use status. It records a
+route-delta decision: the next module should decide whether this source
+cluster is still producing mathematical progress, rather than automatically
+adding another layer of bibliography.
+
 ## Next action
 
-Begin `FJ42`, Bieri (1976) primary-source verification for normal-subgroup
-finiteness hypotheses.
+Begin `FJ43`, route-delta checkpoint for the BNS/Bieri/Karrass--Solitar
+source cluster.
