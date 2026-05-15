@@ -576,8 +576,21 @@ The provisional cycle-003 plan is:
 5. interrupt for `FJ02` if source-level coefficient, finite-wreath-product,
    `FJCw`, or `FICwF` formulations become proof-level inputs.
 
-Current procedural target: begin `FJ41`, direct BNS theorem verification for
-`RB-004`.
+Current status: `FJ41` has first-pass coverage as direct
+Bieri--Neumann--Strebel theorem verification for `RB-004`. It checks Theorem
+B1 from Bieri--Neumann--Strebel (1987): for finitely generated \(G\) and
+normal \(N\trianglelefteq G\) with \(G/N\) abelian, finite generation of
+\(N\) is equivalent to \(S(G,N)\subseteq\Sigma(G)\). For a surjection
+\(G\to\mathbb Z\), this becomes the two-sided \([\chi]\), \([-\chi]\)
+criterion. The module does not compute \(\Sigma(G)\) for a new one-relator
+family, does not prove freeness or finite rank of a kernel, and makes no
+residual subtraction.
+
+The next step after `FJ41` is `FJ42`, Bieri (1976) primary-source
+verification. Its task is to check the exact normal-subgroup finiteness
+hypotheses cited downstream by Karrass--Solitar and selected in the
+cycle-003 plan, without importing a cohomological-dimension bridge from
+memory.
 
 ## GitHub persistence policy
 

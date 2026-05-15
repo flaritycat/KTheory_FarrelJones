@@ -10,7 +10,9 @@ test case selected in `FJ32`. Concrete \(G_{2,3}\) route bridge completed in
 selected beyond-Brown `RB-004` source selection as the next target, `FJ38`
 selected the normal-subgroup source cluster, and `FJ39` verified the
 Karrass--Solitar finitely presented-kernel bridge. `FJ40` audits that
-subroute and selects no new non-Brown source-ready test case.
+subroute and selects no new non-Brown source-ready test case. `FJ41` verifies
+the original BNS finite-generation criterion but makes no residual
+subtraction.
 
 ## Warning
 
@@ -252,7 +254,25 @@ Outcome:
   generator;
 - no residual bucket is removed by `FJ40`.
 
+## FJ41 direct BNS verification update
+
+`FJ41` verifies Bieri--Neumann--Strebel (1987), Theorem B1, as a direct
+finite-generation theorem for normal subgroups with abelian quotient.
+
+Outcome:
+
+- for finitely generated \(G\), normal \(N\trianglelefteq G\), and \(G/N\)
+  abelian, \(N\) is finitely generated if and only if
+  \(S(G,N)\subseteq\Sigma(G)\);
+- for a surjection \(\chi\colon G\twoheadrightarrow\mathbb Z\), this becomes
+  the two-sided \([\chi]\), \([-\chi]\) criterion for finite generation of
+  \(\ker(\chi)\);
+- BNS theorem use is now source-verified for finite generation;
+- no new BNS-invariant computation is recorded;
+- no finite-rank free-kernel bridge is recorded;
+- no residual bucket is removed by `FJ41`.
+
 ## Next action
 
-Begin `FJ41`, direct BNS theorem verification for `RB-004`, as selected by
-`reflections/cycle_002_reflection.md`.
+Begin `FJ42`, Bieri (1976) primary-source verification for normal-subgroup
+finiteness hypotheses.

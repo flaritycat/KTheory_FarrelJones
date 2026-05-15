@@ -5,8 +5,9 @@
 Created in `FJ30`. First nontrivial finite-rank free-kernel bridge recorded
 in `FJ33`. The \(G_{p,q}\)-family bridge was recorded in `FJ36`; `FJ37`
 selected beyond-Brown source selection, `FJ38` selected the normal-subgroup
-source cluster, and `FJ39` verified the Karrass--Solitar finitely
-presented-kernel bridge.
+source cluster, `FJ39` verified the Karrass--Solitar finitely
+presented-kernel bridge, and `FJ41` verified the original BNS Theorem B1 as a
+finite-generation criterion.
 
 ## Warning
 
@@ -21,7 +22,7 @@ epimorphism to \(\mathbb Z\) has finitely generated kernel.
 | Character-sphere and HNN-valuation formulation | Brown checked at first-pass level | Brown (1987), Sections 3 and 5 |
 | Kernel finite-generation criterion for a surjection \(G\to\mathbb Z\) | Brown checked at first-pass level | Brown (1987), Corollary 3.2 |
 | Two-generator one-relator computable criterion | Brown checked at first-pass level | Brown (1987), Theorems 4.2--4.4 |
-| Original BNS invariant paper | orientation checked in `FJ39`; exact theorem use remains open | Bieri--Neumann--Strebel (1987) |
+| Original BNS invariant paper | Theorem B1 checked in `FJ41` for normal subgroups with abelian quotient | Bieri--Neumann--Strebel (1987) |
 | Higher finiteness invariant context | selected as secondary source if stronger finiteness hypotheses arise | Bieri--Renz (1988) |
 | Normal-subgroup bridge in CD2/duality settings | cited through Karrass--Solitar, but not independently verified | Bieri (1976) |
 | One-relator finitely presented normal-subgroup comparator | checked as a bridge theorem for finite-presentation input | Karrass--Solitar (1978) |
@@ -117,7 +118,7 @@ classification, or a global theorem for all torsion-free one-relator groups.
 |---|---|---|
 | Exact rank of \(K_{p,q}\) | Deferred | finite rank already suffices for `FJ26` |
 | More \(G_{p,q}\)-style examples | Deferred | `FJ36` covers the family at route level |
-| Brown beyond two-generator criterion | Source cluster selected by `FJ38`; `FJ39` verifies only the Karrass--Solitar finite-presentation bridge | direct BNS/Bieri theorem use remains open |
+| Brown beyond two-generator criterion | Source cluster selected by `FJ38`; `FJ39` verifies only the Karrass--Solitar finite-presentation bridge; `FJ41` verifies direct BNS finite-generation theorem use | Bieri primary theorem use remains open for `FJ42`; BNS still needs invariant computation before residual subtraction |
 
 The next kernel-recognition task is not another computation inside the
 \(G_{p,q}\)-family. It is source selection for cases outside Brown's checked
@@ -127,7 +128,7 @@ two-generator one-relator criterion.
 
 | Source cluster item | Intended verification role | Current status |
 |---|---|---|
-| Bieri--Neumann--Strebel (1987) | direct BNS finite-generation or normal-subgroup criterion beyond Brown's restatement | selected; theorem statement not yet checked |
+| Bieri--Neumann--Strebel (1987) | direct BNS finite-generation criterion beyond Brown's restatement | Theorem B1 checked in `FJ41`; no invariant computation or residual subtraction |
 | Bieri--Renz (1988) | higher finiteness context if the bridge needs finite presentation, \(\mathrm{FP}_2\), or stronger hypotheses | selected secondary source; theorem statement not yet checked |
 | Bieri (1976) | normal subgroups in duality groups and groups of cohomological dimension \(2\) | selected; exact hypotheses not yet checked |
 | Karrass--Solitar (1978) | one-relator groups with finitely presented normal subgroup of infinite index | theorem form checked in `FJ39`; no concrete new candidate selected in `FJ40` |
@@ -161,7 +162,19 @@ alternative needs finite-index and version handling before route use.
 `FJ40` records a negative selection result for the current repository state.
 It is not a theorem that no such examples exist.
 
+## FJ41 direct BNS theorem verification
+
+| Input | Source-verified output | Route status |
+|---|---|---|
+| Finitely generated \(G\), normal \(N\trianglelefteq G\), and \(G/N\) abelian | \(N\) is finitely generated if and only if \(S(G,N)\subseteq\Sigma(G)\) | finite-generation theorem verified; no computation of \(\Sigma(G)\) and no residual subtraction |
+| Surjection \(\chi\colon G\twoheadrightarrow\mathbb Z\) | \(\ker(\chi)\) is finitely generated if and only if \([\chi]\) and \([-\chi]\) lie in \(\Sigma(G)\) | matches the two-sided shape used in the Brown route, but does not replace Brown's computable criterion |
+
+This row uses Bieri--Neumann--Strebel (1987), Theorem B1, checked in `FJ41`.
+It upgrades direct BNS theorem use from selected source to active theorem map,
+but it does not prove freeness, finite rank, or membership in the `FJ26`
+finite-rank free-by-cyclic route.
+
 ## Next action
 
-Begin `FJ41`, direct BNS theorem verification for `RB-004`, as selected by
-`reflections/cycle_002_reflection.md`.
+Begin `FJ42`, Bieri (1976) primary-source verification for normal-subgroup
+finiteness hypotheses.
