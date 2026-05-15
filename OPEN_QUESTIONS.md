@@ -727,8 +727,8 @@ one-relator subclass checks.
 
 ### Next action
 
-Build the surviving-case table after `FJ23` begins subtracting the known
-Farrell--Jones routes from the hierarchy vocabulary established in `FJ22`.
+Continue subtracting known Farrell--Jones routes after the `FJ23` hyperbolic
+subtraction, beginning with the CAT(0) route in `FJ24`.
 
 ## OQ-027. Which exact hierarchy theorem should FJ22 adopt?
 
@@ -796,15 +796,15 @@ complex-level framework with a classical presentation-only workflow.
 
 ### Status
 
-Open inside project.
+Resolved for first-pass hyperbolic-route subtraction.
 
 ### Context
 
 `FJ22` records Linton's hierarchy vocabulary and main equivalence theorem, and
 `ER-009` already records hyperbolic groups as a known Farrell--Jones class.
-The next step is to identify, without overclaiming, which torsion-free
-one-relator groups fall into the hyperbolic route already recorded by the
-project.
+`FJ23` identifies the conservative subtraction rule: remove a torsion-free
+one-relator group from the active residual target only after the project has a
+source-verified bridge to word-hyperbolicity.
 
 ### Relevant modules
 
@@ -820,4 +820,38 @@ bridge from one-relator hypotheses to hyperbolicity.
 
 ### Next action
 
-Begin `FJ23`, hyperbolic-route subtraction for `T-001`.
+First-pass resolved by `FJ23`. Continue with `FJ24`, the CAT(0)-route
+subtraction.
+
+## OQ-030. Which part of T-001 is removed by the CAT(0) route?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`ER-009` records finite-dimensional CAT(0)-groups as a known Farrell--Jones
+class. `FJ23` deliberately did not use virtual specialness as a hyperbolic
+route by itself. The next question is whether any remaining torsion-free
+one-relator subclasses can be source-verified as finite-dimensional CAT(0)
+groups, and whether any virtual-special conclusion from one-relator hierarchy
+sources can be connected to the project's exact CAT(0) known-case hypotheses.
+
+### Relevant modules
+
+- FJ14
+- FJ19
+- FJ22
+- FJ23
+- FJ24
+
+### Dependencies
+
+`ER-009`, Wegner's CAT(0)-group theorem as recorded in `FJ14`, and any
+source-verified bridge from one-relator or virtual-special hypotheses to a
+proper cocompact finite-dimensional CAT(0) action.
+
+### Next action
+
+Begin `FJ24`, CAT(0)-route subtraction for `T-001`.

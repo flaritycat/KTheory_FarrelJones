@@ -76,7 +76,8 @@ Unless explicitly imported later:
 28. Which exact hierarchy theorem should `FJ22` adopt from the selected one-relator source toolkit? First-pass resolved by `FJ22`: Linton's finite one-relator complex hierarchy theorem.
 29. Which classical Magnus hierarchy source must be checked for proof-sensitive use?
 30. Which torsion-free one-relator groups survive after subtracting hyperbolic, finite-dimensional CAT(0), virtually solvable, and hyperbolic-by-cyclic routes?
-31. Which part of `T-001` is already removed by the hyperbolic route once `FJ22` is combined with `ER-009`?
+31. Which part of `T-001` is already removed by the hyperbolic route once `FJ22` is combined with `ER-009`? First-pass resolved by `FJ23`.
+32. Which part of the `T-001` residual is removed by the finite-dimensional CAT(0) route, including any virtual-special bridge?
 
 ## Established results
 
@@ -124,6 +125,7 @@ The active project target is `T-001`, torsion-free one-relator residual gap anal
 - `reflections/cycle_001_reflection.md` closes the first twenty-module cycle and sets `FJ21`, one-relator structure source selection, as the next mathematical move.
 - Module `FJ21` selects the first-pass one-relator structure source toolkit for `T-001`: Linton's one-relator hierarchy work, Linton's hyperbolic one-relator bridge source, and a classical-source verification queue.
 - Module `FJ22` records the first-pass one-relator hierarchy vocabulary for `T-001` and adopts Linton's finite one-relator complex hierarchy theorem as the canonical structure theorem for the next residual-gap modules.
+- Module `FJ23` records the first-pass hyperbolic-route subtraction for `T-001`: torsion-free one-relator groups are removed from the active residual target once a source-verified bridge to word-hyperbolicity is available.
 
 ## Selected target
 
@@ -139,6 +141,7 @@ Current source toolkit:
 - primary modern hierarchy source: Linton's `One-relator hierarchies`;
 - adopted first-pass hierarchy theorem: Linton's finite one-relator complex
   hierarchy theorem from `One-relator hierarchies`;
+- first route subtraction completed: hyperbolic-route subtraction in `FJ23`;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -146,4 +149,4 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ23`, hyperbolic-route subtraction for `T-001`.
+Begin `FJ24`, CAT(0)-route subtraction for `T-001`.

@@ -93,6 +93,9 @@
 | locally indicable | every nontrivial finitely generated subgroup surjects onto \(\mathbb Z\) | active term | FJ19 | Structural property of torsion-free one-relator groups by Brodskii--Howie; not itself a Farrell--Jones theorem. |
 | \(H_\Phi=H\rtimes_\Phi\mathbb Z\) | mapping torus of an automorphism \(\Phi\colon H\to H\) | active | FJ19 | Used for hyperbolic-by-cyclic and free-by-cyclic routes. |
 | free-by-cyclic | group of the form \(F\rtimes_\Phi\mathbb Z\), with \(F\) free | active term | FJ19 | Covered by the hyperbolic-by-cyclic route when \(F\) has finite rank; broader countable-free extension rows are survey-level unless primary-source traced. |
+| hyperbolic-route subtraction | project bookkeeping step removing a one-relator group from `T-001` once a source-verified bridge to word-hyperbolicity is recorded | active term | FJ23 | Uses `ER-009`; does not prove hyperbolicity. |
+| hyperbolicity bridge | source-verified statement placing a group or subclass inside the word-hyperbolic known case | active term | FJ23 | Examples include direct hyperbolicity verification or Linton hierarchy hypotheses that imply hyperbolicity. |
+| hyperbolic-route residual | part of `T-001` not yet removed by the hyperbolic known-case route | active term | FJ23 | Conservative residual: may include groups whose hyperbolicity has not yet been checked. |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |
 | \(\mathcal{All}(G)\) | family of all subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{All}}G\) is modeled by \(\mathrm{pt}\). |

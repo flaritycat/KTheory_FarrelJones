@@ -253,11 +253,26 @@ quasi-convex hierarchies, and acylindrical hierarchies, and keeps the
 result as a group-theoretic theorem map rather than a new Farrell--Jones
 claim.
 
-The next module is `FJ23`, hyperbolic-route subtraction for `T-001`. Its
-task is to combine the `ER-009` hyperbolic known-case row with the
-one-relator hierarchy vocabulary from `FJ22`, while keeping any
+The next step after `FJ22` was `FJ23`, hyperbolic-route subtraction for
+`T-001`. Its task was to combine the `ER-009` hyperbolic known-case row
+with the one-relator hierarchy vocabulary from `FJ22`, while keeping any
 virtual-special, CAT(0), and negative-immersion bridges source-checked
 before use.
+
+Current status: `FJ23`, hyperbolic-route subtraction for `T-001`, has
+first-pass coverage. It records that torsion-free one-relator groups are
+removed from the active residual target once the project has a
+source-verified bridge to word-hyperbolicity. The module uses `ER-009`
+and `FJ13` for the Farrell--Jones known case and uses `FJ22` only for
+one-relator hierarchy bridges to hyperbolicity. It deliberately keeps
+the hyperbolic-route residual conservative.
+
+The next module is `FJ24`, CAT(0)-route subtraction for `T-001`. Its
+task is to determine which remaining one-relator groups are removed by
+the finite-dimensional CAT(0) known-case row, and to decide whether any
+virtual-special consequence from the one-relator hierarchy sources can
+be used only after a source-verified bridge to the project's CAT(0)
+known-case hypotheses.
 
 ## GitHub persistence policy
 

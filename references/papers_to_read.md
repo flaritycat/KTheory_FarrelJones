@@ -63,9 +63,10 @@
 10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: found; verify before using BNS/free-by-cyclic splitting arguments.
 11. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: found; verify before using negative-immersion or primitivity-rank routes.
 
-Next one-relator reading task: for `FJ23`, isolate the hyperbolic-route
-subtraction using `ER-009`, `FJ13`, `FJ19`, and `FJ22`, then decide which
-additional hyperbolicity bridge source is actually needed.
+Next one-relator reading task: for `FJ24`, isolate the CAT(0)-route
+subtraction using `ER-009`, `FJ14`, `FJ19`, `FJ22`, and any source-verified
+bridge from virtual specialness or cubical geometry to the project's exact
+finite-dimensional CAT(0)-group hypotheses.
 
 ## Reading protocol
 

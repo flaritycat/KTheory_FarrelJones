@@ -17,11 +17,11 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_002`.
 - Completed cycle: `cycle_001`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, and `FJ22`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, and `FJ23`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
 - Completed cycle reflection: `reflections/cycle_001_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ23`, hyperbolic-route subtraction for `T-001`.
+- Current procedural target: begin `FJ24`, CAT(0)-route subtraction for `T-001`.
 
 ## Current established results
 
@@ -62,6 +62,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `reflections/cycle_001_reflection.md` closes cycle 001 and proposes the next twenty-module cycle. It is a reflection artifact, not a theorem source.
 - `FJ21` selects the first-pass one-relator source toolkit: Linton's hierarchy work as the modern spine, Linton's hyperbolic one-relator paper as a bridge source, and classical Magnus/Lyndon-Schupp sources as items to verify before proof-sensitive use. This is a source-selection result, not a theorem.
 - `FJ22` adopts Linton's finite one-relator complex hierarchy theorem as the first-pass hierarchy theorem for `T-001`, and records the vocabulary of one-relator complexes, Magnus subgraphs, one-relator towers, one-relator hierarchies, \(\mathbb Z\)-stable hierarchies, quasi-convex hierarchies, and acylindrical hierarchies. This is a theorem map and vocabulary module, not a new Farrell--Jones result.
+- `FJ23` subtracts the hyperbolic route from `T-001`: torsion-free one-relator groups are removed from the active residual target once the project has a source-verified bridge to word-hyperbolicity. It does not claim that all remaining groups are non-hyperbolic or outside Farrell--Jones.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 
