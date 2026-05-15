@@ -154,8 +154,28 @@ The intended route is:
 No residual subtraction is made yet. The Bass--Serre theorem statement still
 needs exact source verification.
 
+## FJ36 route-subtraction update
+
+`FJ36` verifies the Bass--Serre freeness bridge for the \(G_{p,q}\)-family.
+The resulting project-state route is:
+
+- the cyclic-amalgam presentation gives a Bass--Serre tree \(T_{p,q}\) with
+  vertex stabilizers conjugate to \(\langle x\rangle\) or
+  \(\langle y\rangle\);
+- \(K_{p,q}=\ker(\chi_{p,q})\) intersects all those conjugates trivially;
+- \(K_{p,q}\) acts freely on \(T_{p,q}\), hence is free;
+- Brown finite generation from `FJ34` makes \(K_{p,q}\cong F_n\) for finite
+  \(n\);
+- \(\chi_{p,q}\) splits because \(\gcd(p,q)=1\), so
+  \(G_{p,q}\cong F_n\rtimes\mathbb Z\);
+- the \(G_{p,q}\)-family is removed from the active residual through the
+  `FJ26` finite-rank free-by-cyclic route.
+
+This subtraction is family-specific. It does not prove the Farrell--Jones
+conjecture for all torsion-free one-relator groups and does not compute the
+rank \(n\).
+
 ## Next action
 
-Use `FJ36` to verify the Bass--Serre freeness bridge and then decide whether
-the \(G_{p,q}\)-family can be removed through the finite-rank free-by-cyclic
-route.
+Use `FJ37` to audit the residual ledger after the \(G_{p,q}\)-family
+subtraction and select the next bounded residual problem.

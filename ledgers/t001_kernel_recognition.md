@@ -95,8 +95,18 @@ The selected bridge avoids torus-knot and fibered-knot classification claims.
 It becomes a route bridge only after the Bass--Serre theorem statement is
 source-verified.
 
+## FJ36 verified Bass--Serre bridge
+
+| Presentation | Character | Freeness bridge | Route status |
+|---|---|---|---|
+| \(G_{p,q}=\langle x,y\mid x^p y^{-q}\rangle\), \(p,q\geq2\), \(\gcd(p,q)=1\) | \(\chi_{p,q}(x)=q,\ \chi_{p,q}(y)=p\) | \(K_{p,q}\) acts freely on the Bass--Serre tree \(T_{p,q}\), so \(K_{p,q}\cong F_n\) for finite \(n\) by Brown finite generation plus the source-verified free-action theorem | family `FJ26` route bridge recorded; exact rank \(n\) not computed |
+
+The `FJ36` bridge uses the cyclic-amalgam presentation and Bass--Serre
+vertex stabilizers. It does not use torus-knot terminology, fibered-knot
+classification, or a global theorem for all torsion-free one-relator groups.
+
 ## Next action
 
-Use `FJ36` to verify the Bass--Serre freeness bridge in Serre's *Trees* and
-decide whether the \(G_{p,q}\)-family can be recorded as finite-rank
-free-by-cyclic.
+Use `FJ37` to audit the residual ledger after the \(G_{p,q}\)-family
+subtraction and select the next bounded `RB-004` problem, or a different
+residual bucket if the ledger now points elsewhere.

@@ -98,9 +98,11 @@ Unless explicitly imported later:
 50. Can the Brown-positive kernel in \(G_{2,3}\to\mathbb Z\) be identified as a finite-rank free group? First-pass resolved by `FJ33`: yes, \(\ker(\chi)\cong F_2\).
 51. Which nearby presentation family should be tested next, for example \(\langle x,y\mid x^p y^{-q}\rangle\) with \(\gcd(p,q)=1\)? First-pass resolved by `FJ34`: test \(G_{p,q}=\langle x,y\mid x^p y^{-q}\rangle\), \(p,q\geq2\), \(\gcd(p,q)=1\).
 52. Which parts of the \(G_{2,3}\) proof generalize without importing unverified torus-knot or one-relator classification claims? First-pass resolved by `FJ34`: the epimorphism and Brown finite-generation computation generalize; the finite-rank free-kernel bridge remains unproved for the family.
-53. Can \(\ker(\chi_{p,q})\) be identified as a finite-rank free group by an internal Reidemeister--Schreier computation? Tracked as `OQ-051`; `FJ35` selected a Bass--Serre source-verification route instead of a direct Reidemeister--Schreier computation.
+53. Can \(\ker(\chi_{p,q})\) be identified as a finite-rank free group by an internal Reidemeister--Schreier computation? Tracked as `OQ-051`; first-pass resolved by `FJ36` through a Bass--Serre freeness bridge rather than a direct Reidemeister--Schreier computation.
 54. Which source, if any, should be used before the project records a family-level torus-knot or fibered-kernel theorem? Tracked as `OQ-052`; `FJ35` decides that no torus-knot or fibered-knot source is needed for the immediate bridge.
-55. Can Serre's *Trees* be verified in the exact Bass--Serre form needed for the \(K_{p,q}\) freeness bridge? Tracked as `OQ-053`.
+55. Can Serre's *Trees* be verified in the exact Bass--Serre form needed for the \(K_{p,q}\) freeness bridge? Tracked as `OQ-053`; first-pass resolved by `FJ36` using Serre as the canonical reference with auxiliary exact source checks.
+56. Which residual `RB-004` family or subgroup should be attacked after the \(G_{p,q}\)-family route bridge? Tracked as `OQ-054`.
+57. Should the exact rank of \(K_{p,q}\) be computed later, or is finite rank sufficient for the route ledger? Tracked as `OQ-055`.
 
 ## Established results
 
@@ -160,7 +162,8 @@ The active project target is `T-001`, torsion-free one-relator residual gap anal
 - Module `FJ32` selects the nonabelian presentation \(G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle\) as the next Brown test case, records the character \(\chi(x)=3,\chi(y)=2\), verifies a quotient onto \(S_3\), and stores only a preliminary Brown-positive computation pending the full `FJ33` route check.
 - Module `FJ33` completes the worked Brown test for \(G_{2,3}\), proves internally that \(G_{2,3}\cong F_2\rtimes\mathbb Z\), verifies torsion-free target status, and records the concrete finite-rank free-by-cyclic route bridge through `FJ26`.
 - Module `FJ34` generalizes the Brown maximum-count computation to \(G_{p,q}=\langle x,y\mid x^p y^{-q}\rangle\), \(p,q\geq2\), \(\gcd(p,q)=1\), recording finite generation of \(\ker(\chi_{p,q})\) while leaving the finite-rank free-kernel bridge open for the family.
-- Module `FJ35` selects a Bass--Serre freeness bridge, with Serre's *Trees* as the next source to verify, as the conservative route from Brown finite generation to finite-rank freeness for \(K_{p,q}\).
+- Module `FJ35` selects a Bass--Serre freeness bridge, with Serre's *Trees* as the source to verify, as the conservative route from Brown finite generation to finite-rank freeness for \(K_{p,q}\).
+- Module `FJ36` verifies the Bass--Serre freeness bridge for \(K_{p,q}\), records a finite-rank free-by-cyclic bridge \(G_{p,q}\cong F_n\rtimes\mathbb Z\), and removes this family from the active `T-001` residual through `FJ26`.
 
 ## Selected target
 
@@ -195,7 +198,10 @@ Current source toolkit:
 - nearby Brown family boundary: \(G_{p,q}\), completed by `FJ34` only up to
   Brown-positive finite generation;
 - candidate \(G_{p,q}\) kernel-freeness bridge: Bass--Serre freeness via
-  Serre's *Trees*, selected by `FJ35` and pending exact source verification;
+  Serre's *Trees*, selected by `FJ35` and verified at first-pass level by
+  `FJ36`;
+- \(G_{p,q}\)-family route status: removed through the `FJ26` finite-rank
+  free-by-cyclic route by `FJ36`;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -203,5 +209,4 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ36`, Bass--Serre source verification for the \(G_{p,q}\)-family
-kernel bridge.
+Begin `FJ37`, post-\(G_{p,q}\) residual audit and next target selection.

@@ -830,8 +830,8 @@ hyperbolic-by-cyclic/free-by-cyclic, and inheritance route subtractions;
 kernel-recognition route, `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-Continue with `FJ36`, Bass--Serre source verification for the
-\(G_{p,q}\)-family kernel bridge.
+Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next target
+selection.
 
 ## OQ-030. Which part of T-001 is removed by the CAT(0) route?
 
@@ -872,8 +872,8 @@ has selected `RB-004` as the next attack surface. `FJ30` has verified
 Brown's limited kernel-recognition route, `FJ31` has completed a calibration
 Brown test case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed
 the worked Brown test, and `FJ34` has completed the nearby Brown family
-boundary. Continue with `FJ36`, Bass--Serre source verification for the
-\(G_{p,q}\)-family kernel bridge.
+boundary. Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next
+target selection.
 
 ## OQ-031. Which part of T-001 is removed by the virtually solvable route?
 
@@ -916,8 +916,8 @@ hyperbolic-by-cyclic/free-by-cyclic and inheritance route subtractions.
 kernel-recognition route, `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-Continue with `FJ36`, Bass--Serre source verification for the
-\(G_{p,q}\)-family kernel bridge.
+Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next target
+selection.
 
 ## OQ-032. Which finite-index source should support virtually compact special route use?
 
@@ -1051,8 +1051,8 @@ ledger, `FJ29` has selected `RB-004` as the next attack surface, and `FJ30`
 has verified Brown's limited two-generator kernel-recognition route. `FJ31`
 has completed a calibration Brown test case, `FJ32` has selected
 \(G_{2,3}\), `FJ33` has completed the worked Brown test, and `FJ34` has
-completed the nearby Brown family boundary. Continue with `FJ36`,
-Bass--Serre source verification for the \(G_{p,q}\)-family kernel bridge.
+completed the nearby Brown family boundary. Continue with `FJ37`,
+post-\(G_{p,q}\) residual audit and next target selection.
 
 ## OQ-036. Which source should recognize finite-rank free kernels over Z?
 
@@ -1092,8 +1092,8 @@ two-generator criterion.
 First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-Continue with `FJ36`, Bass--Serre source verification for the
-\(G_{p,q}\)-family kernel bridge.
+Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next target
+selection.
 
 ## OQ-037. Which inheritance routes remove additional T-001 cases?
 
@@ -1132,9 +1132,10 @@ named and inheritance route subtractions, `FJ29` has selected `RB-004` as the
 next attack surface, and `FJ30` has verified Brown's limited
 kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
-test, and `FJ34` has completed the nearby Brown family boundary. Continue
-with `FJ35`, kernel computation or source selection for the
-\(G_{p,q}\)-family.
+test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
+removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
+Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next target
+selection.
 
 ## OQ-038. What remains in T-001 after the route-subtraction pass?
 
@@ -1178,9 +1179,10 @@ First-pass resolved by `FJ28`. `FJ29` has selected `RB-004` as the concrete
 residual attack surface, and `FJ30` has verified Brown's limited
 kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
-test, and `FJ34` has completed the nearby Brown family boundary. Continue
-with `FJ35`, kernel computation or source selection for the
-\(G_{p,q}\)-family.
+test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
+removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
+Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next target
+selection.
 
 ## OQ-039. Which concrete surviving one-relator subclasses should be attacked next?
 
@@ -1212,9 +1214,10 @@ finite-rank free-by-cyclic route.
 First-pass resolved by `FJ29`. `FJ30` has verified Brown's limited
 kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
-test, and `FJ34` has completed the nearby Brown family boundary. Continue
-with `FJ35`, kernel computation or source selection for the
-\(G_{p,q}\)-family.
+test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
+removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
+Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next target
+selection.
 
 ## OQ-040. Which source should be checked first for the selected residual bucket?
 
@@ -1250,8 +1253,8 @@ First-pass resolved by `FJ29`. `FJ30` has checked Brown (1987) for exact
 statements, hypotheses, and conclusions. `FJ31` has completed a calibration
 Brown test case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed
 the worked Brown test, and `FJ34` has completed the nearby Brown family
-boundary. Continue with `FJ36`, Bass--Serre source verification for the
-\(G_{p,q}\)-family kernel bridge.
+boundary. Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next
+target selection.
 
 ## OQ-041. What exact Brown/BNS theorem recognizes finite-rank kernels?
 
@@ -1286,8 +1289,8 @@ project-facing route criterion in `ledgers/t001_kernel_recognition.md`.
 First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-Continue with `FJ36`, Bass--Serre source verification for the
-\(G_{p,q}\)-family kernel bridge.
+Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next target
+selection.
 
 ## OQ-042. Which first Brown criterion test case should be used?
 
@@ -1328,8 +1331,8 @@ finite-rank free-by-cyclic route.
 
 First-pass resolved by `FJ31`. `FJ32` has selected \(G_{2,3}\), `FJ33`
 has completed the worked Brown test, and `FJ34` has completed the nearby
-Brown family boundary. Continue with `FJ36`, Bass--Serre source verification
-for the \(G_{p,q}\)-family kernel bridge.
+Brown family boundary. Continue with `FJ37`, post-\(G_{p,q}\) residual audit
+and next target selection.
 
 ## OQ-043. Should the original BNS normal-subgroup theorem be checked directly?
 
@@ -1587,9 +1590,9 @@ source or internal proof used for the family-level kernel bridge.
 
 ### Next action
 
-First-pass resolved by `FJ34`. `FJ35` selected the Bass--Serre source route.
-Continue with `FJ36`, source verification for the \(G_{p,q}\)-family kernel
-bridge.
+First-pass resolved by `FJ34`; the family-level bridge is now completed by
+`FJ36`. Continue with `FJ37`, post-\(G_{p,q}\) residual audit and next
+target selection.
 
 ## OQ-050. Which parts of the G_{2,3} proof generalize without new sources?
 
@@ -1624,15 +1627,15 @@ or kernel-recognition source selected later.
 
 ### Next action
 
-First-pass resolved by `FJ34`. `FJ35` selected the Bass--Serre source route.
-Continue with `FJ36`, source verification for the \(G_{p,q}\)-family kernel
-bridge.
+First-pass resolved by `FJ34`; `FJ36` records the missing Bass--Serre bridge
+for the \(G_{p,q}\)-family. Continue with `FJ37`, post-\(G_{p,q}\) residual
+audit and next target selection.
 
 ## OQ-051. Can \(\ker(\chi_{p,q})\) be identified as finite-rank free?
 
 ### Status
 
-Open inside project; source route selected by `FJ35`.
+Resolved for first-pass family route by `FJ36`.
 
 ### Context
 
@@ -1645,6 +1648,17 @@ The `FJ26` finite-rank free-by-cyclic route needs more: the kernel must be
 identified as a finite-rank free group, or a source-verified theorem must
 provide an equivalent bridge.
 
+`FJ36` provides that bridge. It views \(G_{p,q}\) as the cyclic amalgam
+\[
+G_{p,q}\cong \langle x\rangle *_{\langle z\rangle}\langle y\rangle,
+\qquad z\mapsto x^p,\quad z\mapsto y^q,
+\]
+uses the associated Bass--Serre tree \(T_{p,q}\), proves that \(K_{p,q}\)
+intersects all conjugates of the cyclic vertex groups trivially, and concludes
+that \(K_{p,q}\) acts freely on \(T_{p,q}\). The source-verified free-action
+bridge then gives that \(K_{p,q}\) is free; Brown finite generation from
+`FJ34` makes it finite-rank free.
+
 ### Relevant modules
 
 - FJ26
@@ -1652,24 +1666,28 @@ provide an equivalent bridge.
 - FJ33
 - FJ34
 - FJ35
+- FJ36
 
 ### Dependencies
 
-Brown (1987), the \(G_{2,3}\) computation in `FJ33`, and any internal
-Reidemeister--Schreier computation or family-level source chosen in `FJ35`.
+Brown (1987), Serre (1980), Carrasco--Mackay (2022),
+Chiswell--Mueller (2012), Margalit (2017), the \(G_{2,3}\) computation in
+`FJ33`, and the \(G_{p,q}\) setup from `FJ34`.
 
 `FJ35` selects a Bass--Serre freeness bridge instead of a direct
-Reidemeister--Schreier computation. The candidate argument views
+Reidemeister--Schreier computation. `FJ36` verifies that bridge. The argument
+views
 \[
 G_{p,q}\cong \langle x\rangle *_{\langle z\rangle}\langle y\rangle
 \]
 and notes that \(K_{p,q}=\ker(\chi_{p,q})\) intersects all conjugates of the
-cyclic vertex groups trivially. Serre's *Trees* is selected for exact source
-verification before this becomes a theorem-level bridge.
+cyclic vertex groups trivially. The exact rank is not computed.
 
 ### Next action
 
-Use `FJ36` to verify the Bass--Serre freeness bridge in Serre's *Trees*.
+First-pass resolved by `FJ36`. `FJ37` should decide whether the exact rank of
+\(K_{p,q}\) is worth computing later or whether finite rank is enough for the
+route ledger.
 
 ## OQ-052. Which source should support a family-level torus-knot or fibered-kernel theorem?
 
@@ -1692,6 +1710,7 @@ project-compatible conclusion.
 - FJ30
 - FJ34
 - FJ35
+- FJ36
 
 ### Dependencies
 
@@ -1699,19 +1718,21 @@ Future source selection for torus-knot groups, fibered knots, or direct
 one-relator kernel computations.
 
 `FJ35` decides that the immediate \(G_{p,q}\) kernel bridge should not use a
-torus-knot or fibered-knot theorem. The selected route is Bass--Serre
-freeness, with Serre's *Trees* as the next verification source.
+torus-knot or fibered-knot theorem. `FJ36` completes the immediate route by
+Bass--Serre freeness, using Serre's *Trees* as the canonical reference with
+auxiliary exact source checks.
 
 ### Next action
 
-Defer torus-knot or fibered-knot source selection unless the Bass--Serre route
-fails or a later module needs the geometric interpretation.
+Defer torus-knot or fibered-knot source selection unless a later module needs
+the geometric interpretation. It is no longer needed for the immediate
+\(G_{p,q}\)-family bridge.
 
 ## OQ-053. Can Serre's Trees verify the Bass--Serre freeness bridge for K_{p,q}?
 
 ### Status
 
-Open inside project.
+Resolved for first-pass bridge by `FJ36`.
 
 ### Context
 
@@ -1724,7 +1745,9 @@ and show that \(K_{p,q}=\ker(\chi_{p,q})\) acts freely on the associated
 Bass--Serre tree. The missing proof-sensitive step is a source-verified
 statement that the relevant amalgam acts on a tree with vertex stabilizers
 conjugate to the two cyclic factors, and that a subgroup acting freely on a
-tree is free.
+tree is free. `FJ36` records Serre as the canonical Bass--Serre reference and
+uses Carrasco--Mackay, Chiswell--Mueller, and Margalit for accessible exact
+checks of the stabilizer and free-action statements.
 
 ### Relevant modules
 
@@ -1735,10 +1758,75 @@ tree is free.
 
 ### Dependencies
 
-Serre (1980), Brown (1987), and the \(G_{p,q}\) setup from `FJ34`.
+Serre (1980), Carrasco--Mackay (2022), Chiswell--Mueller (2012),
+Margalit (2017), Brown (1987), and the \(G_{p,q}\) setup from `FJ34`.
 
 ### Next action
 
-Use `FJ36` to verify the exact Bass--Serre theorem statement and decide
-whether the conditional bridge from `FJ35` can be promoted to a family-level
-route bridge.
+First-pass resolved by `FJ36`. Continue with `FJ37`, post-\(G_{p,q}\)
+residual audit and next target selection.
+
+## OQ-054. Which residual RB-004 family or subgroup should be attacked after the G_{p,q} bridge?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ36` removes the \(G_{p,q}\)-family from the active residual by verifying a
+finite-rank free-by-cyclic bridge. The project still has no global theorem for
+all torsion-free one-relator groups, and the `RB-004` bucket remains only a
+selected attack surface, not an exhausted classification.
+
+The next module should inspect `ledgers/t001_residual.md` and
+`ledgers/t001_kernel_recognition.md` before selecting another example,
+subfamily, or source-verification route.
+
+### Relevant modules
+
+- FJ28
+- FJ29
+- FJ36
+- FJ37
+
+### Dependencies
+
+The residual ledger, the kernel-recognition ledger, Brown (1987), and any
+source selected by `FJ37`.
+
+### Next action
+
+Use `FJ37` to audit the active residual and choose the next bounded target.
+
+## OQ-055. Should the exact rank of K_{p,q} be computed?
+
+### Status
+
+Open but not blocking the current route.
+
+### Context
+
+`FJ36` proves \(K_{p,q}\cong F_n\) for some finite \(n\). This is enough for
+the `FJ26` finite-rank free-by-cyclic route, so the exact value of \(n\) is
+not needed for the current Farrell--Jones route subtraction.
+
+A later module may compute the rank if it would clarify the kernel-recognition
+ledger, provide a useful calibration example, or help compare the Bass--Serre
+method with a Reidemeister--Schreier computation.
+
+### Relevant modules
+
+- FJ26
+- FJ34
+- FJ36
+- FJ37
+
+### Dependencies
+
+The Bass--Serre bridge in `FJ36` and any later rank-computation method.
+
+### Next action
+
+Let `FJ37` decide whether this is worth a standalone computation or should
+remain deferred.

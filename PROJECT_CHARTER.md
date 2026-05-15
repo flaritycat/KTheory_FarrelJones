@@ -459,16 +459,40 @@ vertex groups trivially is free. The character \(\chi_{p,q}\) is nonzero
 on every nontrivial element of those cyclic vertex groups, so
 \(K_{p,q}\) has the required trivial-intersection property.
 
-Current status: `FJ35` selects Serre's *Trees*, especially "Trees and
-Amalgams," as the next source to verify for the Bass--Serre freeness
-bridge. It deliberately does not use torus-knot or fibered-knot
-classification claims. The full \(G_{p,q}\)-family is still not removed
-through `FJ26` until this source verification is complete.
+At the `FJ35` stage, Serre's *Trees*, especially "Trees and Amalgams," was
+selected as the source to verify for the Bass--Serre freeness bridge. That
+module deliberately did not use torus-knot or fibered-knot classification
+claims, and it did not yet remove the full \(G_{p,q}\)-family through
+`FJ26`.
 
-The next module is `FJ36`, Bass--Serre source verification for the
-\(G_{p,q}\)-family kernel bridge. Its task is to check the exact theorem
-form needed from Serre, record the hypotheses, and decide whether the
-conditional `FJ35` bridge can be promoted to a route bridge.
+The next step after `FJ35` was `FJ36`, Bass--Serre source verification
+for the \(G_{p,q}\)-family kernel bridge. It verifies the needed
+Bass--Serre freeness bridge using Serre's *Trees* as the canonical
+reference, with auxiliary accessible source checks for the graph-of-groups
+stabilizer formulation and the theorem that a group acting freely on a
+tree is free.
+
+Current status: `FJ36` promotes the conditional `FJ35` bridge. The cyclic
+amalgam
+\[
+G_{p,q}\cong \langle x\rangle *_{\langle z\rangle}\langle y\rangle,
+\qquad z\mapsto x^p,\quad z\mapsto y^q
+\]
+has a Bass--Serre tree whose vertex stabilizers are conjugates of the two
+cyclic factors. Since \(K_{p,q}=\ker(\chi_{p,q})\) intersects all those
+conjugates trivially, it acts freely on the tree and is free. Brown
+finite generation from `FJ34` then makes \(K_{p,q}\cong F_n\) for some
+finite \(n\). The epimorphism to \(\mathbb Z\) splits, so
+\[
+G_{p,q}\cong F_n\rtimes\mathbb Z.
+\]
+Therefore the \(G_{p,q}\)-family is removed from the active `T-001`
+residual by the finite-rank free-by-cyclic route in `FJ26`.
+
+The next module is `FJ37`, post-\(G_{p,q}\) residual audit and next
+target selection. Its task is to update the attack surface after this
+family bridge and select the next bounded residual problem without
+mistaking this family result for a global one-relator theorem.
 
 ## GitHub persistence policy
 

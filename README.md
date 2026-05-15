@@ -17,11 +17,11 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_002`.
 - Completed cycle: `cycle_001`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, and `FJ35`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, and `FJ36`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
 - Completed cycle reflection: `reflections/cycle_001_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ36`, Bass--Serre source verification for the \(G_{p,q}\)-family kernel bridge.
+- Current procedural target: begin `FJ37`, post-\(G_{p,q}\) residual audit and next target selection.
 
 ## Current established results
 
@@ -73,8 +73,9 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ31` runs Brown's criterion on the calibration example \(\langle x,y\mid xyx^{-1}y^{-1}\rangle\) with \(\chi(x)=1\), \(\chi(y)=0\). The example verifies the Brown workflow and gives a finite-rank free-by-cyclic bridge, but it is already covered by the virtually solvable route and is not a new residual removal.
 - `FJ32` selects \(G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle\), \(\chi(x)=3\), \(\chi(y)=2\), as the next nonabelian Brown test case. It records a preliminary Brown-positive maximum-count computation, but does not yet claim a finite-rank free-kernel bridge or a new Farrell--Jones route subtraction.
 - `FJ33` completes the worked Brown test for \(G_{2,3}\), rewrites it as \(F_2\rtimes\mathbb Z\), verifies target status as a torsion-free one-relator group, and records a concrete finite-rank free-by-cyclic route bridge through `FJ26`.
-- `FJ34` proves the Brown-positive finite-generation statement for \(G_{p,q}=\langle x,y\mid x^p y^{-q}\rangle\), \(p,q\geq2\), \(\gcd(p,q)=1\), but does not yet record a finite-rank free-kernel bridge for the family.
-- `FJ35` selects a Bass--Serre freeness bridge, sourced next from Serre's *Trees*, as the clean route from Brown finite generation to finite-rank freeness for \(K_{p,q}=\ker(\chi_{p,q})\). It does not yet invoke `FJ26` for the full family.
+- `FJ34` proves the Brown-positive finite-generation statement for \(G_{p,q}=\langle x,y\mid x^p y^{-q}\rangle\), \(p,q\geq2\), \(\gcd(p,q)=1\), while leaving the finite-rank free-kernel bridge open at that stage.
+- `FJ35` selects a Bass--Serre freeness bridge, sourced from Serre's *Trees*, as the clean route from Brown finite generation to finite-rank freeness for \(K_{p,q}=\ker(\chi_{p,q})\), without invoking `FJ26` at that stage.
+- `FJ36` verifies the Bass--Serre freeness bridge for \(K_{p,q}\), records \(G_{p,q}\cong F_n\rtimes\mathbb Z\) for some finite \(n\), and removes this family through the `FJ26` finite-rank free-by-cyclic route.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 

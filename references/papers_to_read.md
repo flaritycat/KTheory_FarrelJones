@@ -53,7 +53,7 @@
 ## Priority 2f: one-relator groups
 
 1. Lueck, W. *Survey on the Farrell-Jones Conjecture*. Status: active reference for `FJ19`; Section 11 checked for the open-status warning about torsion-free one-relator groups and locally indicable groups in the Full Farrell--Jones formulation.
-2. Bestvina, M.; Fujiwara, K.; Wigglesworth, D. *The Farrell-Jones conjecture for hyperbolic-by-cyclic groups*. Status: active reference for `FJ19`, `FJ26`, and `FJ33`; main theorem, coefficient convention, and extension theorem checked at first-pass level. `FJ33` uses the existing `FJ26` route for \(G_{2,3}\).
+2. Bestvina, M.; Fujiwara, K.; Wigglesworth, D. *The Farrell-Jones conjecture for hyperbolic-by-cyclic groups*. Status: active reference for `FJ19`, `FJ26`, `FJ33`, and `FJ36`; main theorem, coefficient convention, and extension theorem checked at first-pass level. `FJ33` uses the existing `FJ26` route for \(G_{2,3}\), and `FJ36` uses it for the \(G_{p,q}\)-family after the finite-rank free-by-cyclic bridge is verified.
 3. Howie, J. *A short proof of a theorem of Brodskii*. Status: active reference for `FJ19`; used for local indicability of torsion-free one-relator groups.
 4. Newman, B. B. *Some results on one-relator groups*. Status: background only for `FJ19`; recorded for torsion one-relator contrast.
 5. Linton, M. *One-relator hierarchies*. Status: active reference for `FJ22`; arXiv v3 checked for the hierarchy theorem, one-relator-complex vocabulary, \(\mathbb Z\)-stable hierarchy vocabulary, quasi-convex and acylindrical hierarchy vocabulary, and the main equivalence theorem. Published-version numbering still needs verification.
@@ -61,14 +61,17 @@
 7. Linton, M.; Nyberg-Brodda, C.-F. *The theory of one-relator groups: history and recent progress*. Status: active orientation source for `FJ21`; use as a literature map, not a proof source.
 8. Lyndon, R. C.; Schupp, P. E. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
 9. Magnus, W.; Karrass, A.; Solitar, D. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
-10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: active reference for `FJ30`--`FJ35`; Proposition 3.1, Corollary 3.2, Theorems 4.2--4.4, and Theorem 5.2 checked for the Brown/BNS kernel-recognition route. `FJ31` uses the checked criterion on the commutator-presentation calibration example. `FJ32` uses the checked criterion to select \(G_{2,3}\) as the next worked test case. `FJ33` uses the checked criterion for the full \(G_{2,3}\) Brown test. `FJ34` uses the checked criterion for the \(G_{p,q}\)-family finite-generation statement. `FJ35` carries the Brown finite-generation result into a conditional Bass--Serre bridge map.
+10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: active reference for `FJ30`--`FJ36`; Proposition 3.1, Corollary 3.2, Theorems 4.2--4.4, and Theorem 5.2 checked for the Brown/BNS kernel-recognition route. `FJ31` uses the checked criterion on the commutator-presentation calibration example. `FJ32` uses the checked criterion to select \(G_{2,3}\) as the next worked test case. `FJ33` uses the checked criterion for the full \(G_{2,3}\) Brown test. `FJ34` uses the checked criterion for the \(G_{p,q}\)-family finite-generation statement. `FJ35` carries the Brown finite-generation result into a conditional Bass--Serre bridge map. `FJ36` combines that finite generation with the Bass--Serre freeness bridge.
 11. Bieri, R.; Neumann, W. D.; Strebel, R. *A geometric invariant of discrete groups*. Status: found; EuDML bibliographic record checked in `FJ30`; direct theorem use deferred.
 12. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: found; verify before using negative-immersion or primitivity-rank routes.
-13. Serre, J.-P. *Trees*, chapter "Trees and Amalgams". Status: selected for `FJ36`; Springer bibliographic and chapter metadata checked in `FJ35`; verify exact Bass--Serre freeness theorem before theorem use.
+13. Serre, J.-P. *Trees*, chapter "Trees and Amalgams". Status: active reference for `FJ36`; Springer bibliographic and chapter metadata checked in `FJ35`; `FJ36` uses Serre as the canonical Bass--Serre source for the \(K_{p,q}\) freeness bridge.
+14. Carrasco, M.; Mackay, J. M. *Conformal dimension of hyperbolic groups that split over elementary subgroups*. Status: active auxiliary reference for `FJ36`; used for the graph-of-groups/Bass--Serre stabilizer formulation, citing Serre.
+15. Chiswell, I.; Mueller, T. *A universal construction for groups acting freely on real trees*. Status: active auxiliary reference for `FJ36`; used only for the free-action bridge.
+16. Margalit, D. "Office hour three: Groups acting on trees." Status: active auxiliary reference for `FJ36`; used for the explicit theorem that a group acting freely on a tree is free.
 
-Next one-relator reading task: for `FJ36`, verify in Serre's *Trees* the
-exact Bass--Serre statement needed to conclude that \(K_{p,q}\) is free from
-its trivial intersections with conjugates of the cyclic vertex groups.
+Next one-relator reading task: for `FJ37`, audit the residual ledger after
+the \(G_{p,q}\)-family route subtraction and select the next source to verify
+or the next bounded residual example to compute.
 
 ## Reading protocol
 

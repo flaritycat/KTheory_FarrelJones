@@ -121,9 +121,10 @@
 | \(s_i\) | proper initial segment \(x_1x_2\cdots x_{i-1}\) of a cyclically reduced relator \(r=x_1\cdots x_n\) | local/active | FJ31 | Used to compute the Brown initial-segment sequence \(\chi(s_i)\). |
 | Brown initial-segment sequence | sequence of values \(\chi(s_i)\) used in Brown's two-generator maximum-count test | active term | FJ31 | In `FJ31`, the sequence for \(\chi\) is \(0,1,1,0\), and for \(-\chi\) is \(0,-1,-1,0\). |
 | \(G_{2,3}\) | selected two-generator one-relator Brown test case \(\langle x,y\mid x^2y^{-3}\rangle\) | local/active | FJ32 | `FJ33` proves \(G_{2,3}\cong F_2\rtimes\mathbb Z\). |
-| \(G_{p,q}\) | nearby Brown family \(\langle x,y\mid x^p y^{-q}\rangle\), with \(p,q\geq2\) and \(\gcd(p,q)=1\) | local/active | FJ34 | Brown-positive finite-generation family; no family-level free-kernel bridge yet. |
+| \(G_{p,q}\) | nearby Brown family \(\langle x,y\mid x^p y^{-q}\rangle\), with \(p,q\geq2\) and \(\gcd(p,q)=1\) | local/active | FJ34 | Brown-positive finite-generation family; `FJ36` records the finite-rank free-by-cyclic route bridge. |
 | \(\chi_{p,q}\) | epimorphism \(G_{p,q}\to\mathbb Z\) with \(\chi_{p,q}(x)=q\), \(\chi_{p,q}(y)=p\) | local/active | FJ34 | Used in the family Brown maximum-count computation. |
-| \(K_{p,q}\) | kernel \(\ker(\chi_{p,q})\) | local/active | FJ35 | Brown gives finite generation; Bass--Serre freeness source verification is selected as the next bridge to finite-rank freeness. |
+| \(K_{p,q}\) | kernel \(\ker(\chi_{p,q})\) | local/source-verified active | FJ35, FJ36 | Brown gives finite generation and `FJ36` proves finite-rank freeness by the Bass--Serre free-action bridge; the rank is not computed. |
+| \(T_{p,q}\) | Bass--Serre tree of \(G_{p,q}\cong \langle x\rangle *_{\langle z\rangle}\langle y\rangle\), with \(z\mapsto x^p\) and \(z\mapsto y^q\) | local/source-verified active | FJ36 | Used to prove that \(K_{p,q}\) acts freely because it intersects all conjugates of the cyclic vertex groups trivially. |
 | \(a,b\) | braid-presentation generators for \(G_{2,3}\), with \(G_{2,3}\cong\langle a,b\mid aba=bab\rangle\) | local/active | FJ33 | Defined by \(a=y^{-1}x\), \(b=x^{-1}y^2\). |
 | \(p,q\) | free-kernel generators in the \(G_{2,3}\cong F(p,q)\rtimes\mathbb Z\) bridge | local/active | FJ33 | Defined by \(p=ba^{-1}\), \(q=tpt^{-1}\). |
 | \(\varphi\) | automorphism of \(F(p,q)\) with \(\varphi(p)=q\), \(\varphi(q)=p^{-1}q\) | local/active | FJ33 | Gives the semidirect product \(F(p,q)\rtimes_\varphi\mathbb Z\). |
