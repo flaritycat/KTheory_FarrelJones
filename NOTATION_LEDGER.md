@@ -9,6 +9,8 @@
 | \(RG\) | alternative notation for \(R[G]\) | inactive alternative | FJ01 | Do not use without recording a notation change. |
 | \(K_n(R[G])\) | algebraic \(K\)-group of the group ring | active/black box | FJ01 | For all \(n\in\mathbb Z\), this requires a nonconnective model. |
 | \(\mathbb Z\) | infinite cyclic group under addition | active | FJ04 | Used to define type I virtually cyclic groups. |
+| \(t\) | chosen generator of \(\mathbb Z\) in multiplicative notation | local/active | FJ06 | Used to identify \(R[\mathbb Z]\cong R[t,t^{-1}]\). |
+| \(R[t,t^{-1}]\) | Laurent polynomial ring over \(R\) | active | FJ06 | Identified with \(R[\mathbb Z]\) after choosing generator \(t\). |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |
 | \(\mathcal{All}(G)\) | family of all subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{All}}G\) is modeled by \(\mathrm{pt}\). |

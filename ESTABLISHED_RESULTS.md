@@ -100,3 +100,43 @@ The same module records the source-verified dichotomy that an infinite virtually
 ### Source status
 
 The family property is proved internally. The infinite virtually cyclic dichotomy is source-verified from Lueck--Reich, with the original proof source Farrell--Jones 1995 still marked `to verify`.
+
+## ER-004. Infinite cyclic group case of the simplified assembly map
+
+### Status
+
+Proposition, proved inside project.
+
+### Statement
+
+Let \(R\) be an associative unital ring and let \(G=\mathbb Z\). In the simplified ring-coefficient formulation of module `FJ01`, the assembly map
+
+\[
+H_n^{\mathbb Z}(E_{\mathcal{VCyc}}\mathbb Z;\mathbf K_R)
+\longrightarrow
+H_n^{\mathbb Z}(\mathrm{pt};\mathbf K_R)
+\cong K_n(R[\mathbb Z])
+\]
+
+is the identity map after choosing \(\mathrm{pt}\) as a model for \(E_{\mathcal{VCyc}}\mathbb Z\). After choosing a generator \(t\) of \(\mathbb Z\), the standard identification
+
+\[
+R[\mathbb Z]\cong R[t,t^{-1}],
+\]
+
+the target is \(K_n(R[t,t^{-1}])\).
+
+### Proof location
+
+`modules/cycle_001/FJ06_infinite_cyclic_group_example.md`
+
+### Assumptions
+
+- \(R\) is an associative unital ring.
+- \(G=\mathbb Z\).
+- \(H_n^G(-;\mathbf K_R)\) is normalized so that \(H_n^G(G/H;\mathbf K_R)\cong K_n(R[H])\).
+- The all-degree statement uses the same nonconnective \(K\)-theory convention as `FJ01`.
+
+### Source status
+
+The proof is internal once the black-box equivariant homology normalization is accepted. This result does not invoke Bass--Heller--Swan.

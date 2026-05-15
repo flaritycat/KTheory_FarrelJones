@@ -142,3 +142,26 @@ Access to Farrell--Jones, *The lower algebraic K-theory of virtually infinite cy
 ### Next action
 
 Before using the dichotomy in a proof-sensitive way beyond first-pass structure, directly check the original Farrell--Jones 1995 lemma or another primary source with equivalent hypotheses.
+
+## OQ-007. Which source should be used for Bass--Heller--Swan and Nil-terms?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ06` identifies the target for \(G=\mathbb Z\) as \(K_n(R[t,t^{-1}])\), but deliberately does not decompose that group. Module `FJ07` is expected to introduce the Bass--Heller--Swan decomposition and Nil-terms.
+
+### Relevant modules
+
+- FJ06
+- FJ07
+
+### Dependencies
+
+An APA-formatted source entry for a reliable Bass--Heller--Swan reference, preferably an original paper or authoritative monograph/survey with exact hypotheses.
+
+### Next action
+
+Resolve during `FJ07` before recording any decomposition theorem.
