@@ -594,11 +594,23 @@ promoted to source-verified theorem use. Comparison sources indicate that
 the visible Bieri hypotheses remain finite presentation or type \(VFP\), not
 mere finite generation, so `FJ42` records no residual subtraction.
 
-The next step after `FJ42` is `FJ43`, a route-delta checkpoint for the
-BNS/Bieri/Karrass--Solitar source cluster. Its task is to decide whether
-`RB-004` should continue through more Bieri--Renz/BNS source verification or
-pivot to a more concrete route, in accordance with the strategic audit after
-cycle 002.
+Current status: `FJ43` has first-pass coverage as the route-delta checkpoint
+for the BNS/Bieri/Karrass--Solitar source cluster. It records that the
+cluster has produced useful route boundaries, but no new candidate-ready
+route: Karrass--Solitar remains a finitely presented normal-subgroup cleanup
+bridge, direct BNS still needs a \(\Sigma(G)\)-membership computation, Bieri
+is not source-verified for theorem use, and Bieri--Renz is not yet attached
+to a concrete higher-finiteness need.
+
+The route decision after `FJ43` is to pause automatic `RB-004` source-cluster
+continuation. This does not abandon `RB-004`; it prevents a fourth
+source-only continuation without a candidate, bridge, or subtraction target.
+
+The next step after `FJ43` is `FJ44`, residual-bucket comparison and
+attack-packet selection. Its task is to decide whether the project should
+return to `RB-004` with a concrete candidate, pivot to another residual
+bucket such as finite-index/virtually special handling, or write a
+no-candidate artifact.
 
 ## GitHub persistence policy
 

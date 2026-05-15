@@ -188,7 +188,22 @@ route-delta decision: the next module should decide whether this source
 cluster is still producing mathematical progress, rather than automatically
 adding another layer of bibliography.
 
+## FJ43 route-delta checkpoint
+
+| Candidate continuation | Decision | Reason |
+|---|---|---|
+| Further Bieri--Renz verification | pause | no concrete \(\mathrm{FP}_2\), finite-presentation, or higher-finiteness need is attached to a candidate |
+| Direct BNS computation | pause | BNS theorem use is verified, but no new family with computable \(\Sigma(G)\)-membership is selected |
+| Karrass--Solitar infinite-dihedral cleanup | defer | no source-ready finitely presented-kernel candidate currently needs the cleanup bridge |
+| New Brown-style computation | require attack packet first | further computation should not repeat already removed calibration or \(G_{p,q}\)-family cases |
+| Residual-bucket comparison | select next | the project needs an attack-packet decision before more source-only work |
+
+`FJ43` pauses automatic `RB-004` source-cluster continuation. `RB-004` remains
+an active recorded bucket, but further BNS/Bieri--Renz/Bieri work must be
+attached to a concrete candidate, missing bridge, or named residual
+subtraction.
+
 ## Next action
 
-Begin `FJ43`, route-delta checkpoint for the BNS/Bieri/Karrass--Solitar
-source cluster.
+Begin `FJ44`, residual-bucket comparison and attack-packet selection after
+the `RB-004` source-cluster pause.

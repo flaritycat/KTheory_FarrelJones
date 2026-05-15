@@ -286,7 +286,25 @@ Outcome:
 - the finite-presentation bottleneck from `FJ39` remains;
 - no residual bucket is removed by `FJ42`.
 
+## FJ43 route-delta checkpoint update
+
+`FJ43` audits the BNS/Bieri--Renz/Bieri/Karrass--Solitar source cluster after
+`FJ39`--`FJ42`.
+
+Outcome:
+
+- the direct BNS theorem map remains available, but no new
+  \(\Sigma(G)\)-membership computation is recorded;
+- the Karrass--Solitar bridge remains available only after a nontrivial
+  finitely presented normal subgroup of infinite index is source-ready;
+- Bieri (1976) remains unavailable for theorem use until the primary theorem
+  text is checked directly;
+- Bieri--Renz (1988) is not selected as the next automatic source check,
+  because no concrete higher-finiteness need is attached to a candidate;
+- automatic `RB-004` source-cluster continuation is paused;
+- no residual bucket is removed by `FJ43`.
+
 ## Next action
 
-Begin `FJ43`, route-delta checkpoint for the BNS/Bieri/Karrass--Solitar
-source cluster.
+Begin `FJ44`, residual-bucket comparison and attack-packet selection after
+the `RB-004` source-cluster pause.

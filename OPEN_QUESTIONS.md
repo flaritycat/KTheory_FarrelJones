@@ -830,7 +830,7 @@ hyperbolic-by-cyclic/free-by-cyclic, and inheritance route subtractions;
 kernel-recognition route, `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection.
 
 ## OQ-030. Which part of T-001 is removed by the CAT(0) route?
 
@@ -872,7 +872,7 @@ Brown's limited kernel-recognition route, `FJ31` has completed a calibration
 Brown test case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed
 the worked Brown test, and `FJ34` has completed the nearby Brown family
 boundary. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-`reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection.
 
 ## OQ-031. Which part of T-001 is removed by the virtually solvable route?
 
@@ -915,7 +915,7 @@ hyperbolic-by-cyclic/free-by-cyclic and inheritance route subtractions.
 kernel-recognition route, `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection.
 
 ## OQ-032. Which finite-index source should support virtually compact special route use?
 
@@ -1050,7 +1050,7 @@ has verified Brown's limited two-generator kernel-recognition route. `FJ31`
 has completed a calibration Brown test case, `FJ32` has selected
 \(G_{2,3}\), `FJ33` has completed the worked Brown test, and `FJ34` has
 completed the nearby Brown family boundary. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-`reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection.
 
 ## OQ-036. Which source should recognize finite-rank free kernels over Z?
 
@@ -1090,7 +1090,7 @@ two-generator criterion.
 First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection.
 
 ## OQ-037. Which inheritance routes remove additional T-001 cases?
 
@@ -1131,7 +1131,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection.
 
 ## OQ-038. What remains in T-001 after the route-subtraction pass?
 
@@ -1177,7 +1177,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection.
 
 ## OQ-039. Which concrete surviving one-relator subclasses should be attacked next?
 
@@ -1211,7 +1211,7 @@ kernel-recognition route. `FJ31` has completed a calibration Brown test case,
 `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked Brown
 test, `FJ34` has completed the nearby Brown family boundary, and `FJ36` has
 removed the \(G_{p,q}\)-family through the finite-rank free-by-cyclic route.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection.
 
 ## OQ-040. Which source should be checked first for the selected residual bucket?
 
@@ -1248,7 +1248,7 @@ statements, hypotheses, and conclusions. `FJ31` has completed a calibration
 Brown test case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed
 the worked Brown test, and `FJ34` has completed the nearby Brown family
 boundary. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-`reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection.
 
 ## OQ-041. What exact Brown/BNS theorem recognizes finite-rank kernels?
 
@@ -1283,7 +1283,7 @@ project-facing route criterion in `ledgers/t001_kernel_recognition.md`.
 First-pass resolved by `FJ30`. `FJ31` has completed a calibration Brown test
 case, `FJ32` has selected \(G_{2,3}\), `FJ33` has completed the worked
 Brown test, and `FJ34` has completed the nearby Brown family boundary.
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection.
 
 ## OQ-042. Which first Brown criterion test case should be used?
 
@@ -1325,7 +1325,7 @@ finite-rank free-by-cyclic route.
 First-pass resolved by `FJ31`. `FJ32` has selected \(G_{2,3}\), `FJ33`
 has completed the worked Brown test, and `FJ34` has completed the nearby
 Brown family boundary. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-`reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection.
 
 ## OQ-043. Should the original BNS normal-subgroup theorem be checked directly?
 
@@ -1402,7 +1402,7 @@ tracked in `FJ21`--`FJ22`.
 
 ### Next action
 
-`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass. `reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint, before any new source-cluster continuation.
+`FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass. `reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection, before any new source-cluster continuation.
 
 ## OQ-045. Which Brown test case is not already removed by the virtually solvable route?
 
@@ -1643,7 +1643,7 @@ or kernel-recognition source selected later.
 
 First-pass resolved by `FJ34`; `FJ36` records the missing Bass--Serre bridge
 for the \(G_{p,q}\)-family. `FJ39` has completed normal-subgroup bridge
-source verification for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint.
+source verification for `RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection.
 
 ## OQ-051. Can \(\ker(\chi_{p,q})\) be identified as finite-rank free?
 
@@ -1778,7 +1778,7 @@ Margalit (2017), Brown (1987), and the \(G_{p,q}\) setup from `FJ34`.
 
 First-pass resolved by `FJ36`; `FJ39` and `FJ40` have completed the
 normal-subgroup bridge and finitely presented-kernel selection pass for
-`RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint.
+`RB-004`. `reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection.
 
 ## OQ-054. Which residual RB-004 family or subgroup should be attacked after the G_{p,q} bridge?
 
@@ -1850,7 +1850,7 @@ The Bass--Serre bridge in `FJ36` and any later rank-computation method.
 ### Next action
 
 Keep deferred. `FJ39` and `FJ40` have completed the normal-subgroup bridge and finitely presented-kernel selection pass for `RB-004`.
-`reflections/cycle_002_reflection.md` is complete; continue with `FJ43`, route-delta checkpoint.
+`reflections/cycle_002_reflection.md` is complete; continue with `FJ44`, residual-bucket comparison and attack-packet selection.
 
 ## OQ-056. Which concrete non-Brown RB-004 test case should follow broader source selection?
 
@@ -1933,8 +1933,9 @@ any later source-verified one-relator or cohomological-dimension-\(2\) bridge.
 
 For the immediate subroute, use the finite-presentation hypothesis recorded
 from Karrass--Solitar. Keep Bieri's primary theorem and any \(\mathrm{FP}_2\)
-variant open until the primary theorem text is checked directly. Continue to
-`FJ43`, the route-delta checkpoint.
+variant open until the primary theorem text is checked directly. `FJ43` has
+paused automatic continuation of this source cluster. Continue with `FJ44`,
+residual-bucket comparison and attack-packet selection.
 
 ## OQ-058. Does direct BNS use give a concrete non-Brown RB-004 family?
 
@@ -1984,8 +1985,9 @@ recognition ledgers.
 
 First-pass partially resolved by `FJ41`: direct BNS theorem use is verified,
 but no concrete non-Brown `RB-004` family is produced. `FJ42` adds no Bieri
-theorem-use upgrade or residual subtraction. Continue with `FJ43`, the
-route-delta checkpoint.
+theorem-use upgrade or residual subtraction. `FJ43` pauses automatic
+source-cluster continuation. Continue with `FJ44`, residual-bucket comparison
+and attack-packet selection.
 
 ## OQ-059. Which RB-004 example has a finitely presented kernel?
 
@@ -2086,8 +2088,9 @@ The cycle-002 module record, `OQ-002`, `OQ-022`, `OQ-058`, and `OQ-060`.
 ### Next action
 
 First-pass resolved. `FJ41` has completed direct BNS theorem verification,
-and `FJ42` has completed the Bieri source-access check. Continue with
-`FJ43`, the route-delta checkpoint.
+`FJ42` has completed the Bieri source-access check, and `FJ43` has completed
+the route-delta checkpoint. Continue with `FJ44`, residual-bucket comparison
+and attack-packet selection.
 
 ## OQ-062. Which source computes BNS membership beyond Brown's checked route?
 
@@ -2161,14 +2164,16 @@ ledger.
 
 ### Next action
 
-Do not use Bieri (1976) as a theorem source yet. Continue with `FJ43`, a
-route-delta checkpoint for the BNS/Bieri/Karrass--Solitar source cluster.
+Do not use Bieri (1976) as a theorem source yet. `FJ43` has paused automatic
+Bieri--Renz/BNS source-cluster continuation until a candidate-ready route is
+identified. Continue with `FJ44`, residual-bucket comparison and
+attack-packet selection.
 
 ## OQ-064. Should RB-004 continue through the current source cluster?
 
 ### Status
 
-Open inside project; generated by `FJ42` and selected for `FJ43`.
+First-pass resolved by `FJ43`.
 
 ### Context
 
@@ -2179,9 +2184,9 @@ source access and records that Bieri (1976) is not yet source-verified for
 theorem use; the comparison sources do not bypass the finite-presentation or
 type-\(VFP\) bottleneck.
 
-The project now needs an explicit decision: continue `RB-004` through
-Bieri--Renz/BNS source verification only if the next step sharpens a route or
-candidate, or pivot to a more concrete attack surface.
+`FJ43` makes the explicit decision: pause automatic `RB-004`
+source-cluster continuation. Further Bieri--Renz/BNS work must be attached
+to a concrete candidate, missing bridge, or named residual subtraction.
 
 ### Relevant modules
 
@@ -2199,5 +2204,40 @@ Bieri--Renz (1988), and Karrass--Solitar (1978).
 
 ### Next action
 
-Begin `FJ43`, route-delta checkpoint for the BNS/Bieri/Karrass--Solitar
-source cluster.
+Resolved by `FJ43`. Continue with `FJ44`, residual-bucket comparison and
+attack-packet selection after the `RB-004` source-cluster pause.
+
+## OQ-065. Which residual bucket or attack packet should follow the RB-004 source-cluster pause?
+
+### Status
+
+Open inside project; generated by `FJ43` and selected for `FJ44`.
+
+### Context
+
+`FJ43` pauses automatic continuation of the BNS/Bieri--Renz/Bieri/Karrass--
+Solitar source cluster. This does not remove `RB-004` from the project, but it
+requires the next move to be candidate-ready rather than source-only.
+
+The strategic audit after cycle 002 suggests comparing possible pivots such
+as finite-index/virtually compact special handling, compact-special or
+CAT(0)-looking one-relator cases, virtually solvable recognition, and
+hierarchy-to-route extraction. `RB-004` may also return if `FJ44` identifies
+a concrete candidate or missing bridge with a clear stop condition.
+
+### Relevant modules
+
+- FJ28
+- FJ37
+- FJ43
+- FJ44
+
+### Dependencies
+
+The strategic audit after cycle 002, `ledgers/t001_residual.md`,
+`ledgers/t001_kernel_recognition.md`, `SCOPE_LEDGER.md`, and the open
+residual-bucket rows generated by `FJ28`.
+
+### Next action
+
+Begin `FJ44`, residual-bucket comparison and attack-packet selection.
