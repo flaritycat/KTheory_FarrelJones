@@ -55,13 +55,17 @@
 2. Bestvina, M.; Fujiwara, K.; Wigglesworth, D. *The Farrell-Jones conjecture for hyperbolic-by-cyclic groups*. Status: active reference for `FJ19`; main theorem, coefficient convention, and extension theorem checked at first-pass level.
 3. Howie, J. *A short proof of a theorem of Brodskii*. Status: active reference for `FJ19`; used for local indicability of torsion-free one-relator groups.
 4. Newman, B. B. *Some results on one-relator groups*. Status: background only for `FJ19`; recorded for torsion one-relator contrast.
-5. Linton, M. *One-relator hierarchies*. Status: selected primary hierarchy source for `FJ22`; theorem details and published-version numbering still need verification.
-6. Linton, M. *Hyperbolic one-relator groups*. Status: active bridge source for `FJ21`; use for first hierarchy vocabulary before checking detailed theorem statements.
+5. Linton, M. *One-relator hierarchies*. Status: active reference for `FJ22`; arXiv v3 checked for the hierarchy theorem, one-relator-complex vocabulary, \(\mathbb Z\)-stable hierarchy vocabulary, quasi-convex and acylindrical hierarchy vocabulary, and the main equivalence theorem. Published-version numbering still needs verification.
+6. Linton, M. *Hyperbolic one-relator groups*. Status: active bridge source for `FJ21` and `FJ22`; use for orientation while `One-relator hierarchies` controls exact vocabulary.
 7. Linton, M.; Nyberg-Brodda, C.-F. *The theory of one-relator groups: history and recent progress*. Status: active orientation source for `FJ21`; use as a literature map, not a proof source.
 8. Lyndon, R. C.; Schupp, P. E. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
 9. Magnus, W.; Karrass, A.; Solitar, D. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
 10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: found; verify before using BNS/free-by-cyclic splitting arguments.
 11. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: found; verify before using negative-immersion or primitivity-rank routes.
+
+Next one-relator reading task: for `FJ23`, isolate the hyperbolic-route
+subtraction using `ER-009`, `FJ13`, `FJ19`, and `FJ22`, then decide which
+additional hyperbolicity bridge source is actually needed.
 
 ## Reading protocol
 

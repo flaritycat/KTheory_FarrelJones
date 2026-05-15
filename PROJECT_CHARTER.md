@@ -244,10 +244,20 @@ orientation survey. It records Lyndon--Schupp and
 Magnus--Karrass--Solitar as classical sources to verify before
 proof-sensitive use.
 
-The next module is `FJ22`, one-relator hierarchy vocabulary. Its task is
-to choose the exact theorem statement, definitions, and hypotheses from
-the selected hierarchy source before the project starts subtracting known
-Farrell--Jones routes.
+Current status: `FJ22`, one-relator hierarchy vocabulary, has first-pass
+coverage. It adopts Linton's finite one-relator complex hierarchy theorem
+as the canonical hierarchy theorem for `T-001`, records the source-level
+vocabulary of one-relator complexes, Magnus subgraphs, one-relator
+towers, one-relator hierarchies, \(\mathbb Z\)-stable hierarchies,
+quasi-convex hierarchies, and acylindrical hierarchies, and keeps the
+result as a group-theoretic theorem map rather than a new Farrell--Jones
+claim.
+
+The next module is `FJ23`, hyperbolic-route subtraction for `T-001`. Its
+task is to combine the `ER-009` hyperbolic known-case row with the
+one-relator hierarchy vocabulary from `FJ22`, while keeping any
+virtual-special, CAT(0), and negative-immersion bridges source-checked
+before use.
 
 ## GitHub persistence policy
 

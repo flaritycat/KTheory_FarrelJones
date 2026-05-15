@@ -696,11 +696,10 @@ ledger.
 
 ### Next action
 
-First-pass resolved by `FJ21`. Use Linton's `One-relator hierarchies` as the
-primary modern hierarchy source, Linton's `Hyperbolic one-relator groups` as
-the bridge source, and Linton--Nyberg-Brodda as the orientation survey. Before
-proof attempts, `FJ22` must choose the exact hierarchy theorem statement and
-hypotheses.
+First-pass resolved by `FJ21` and refined by `FJ22`. Use Linton's
+`One-relator hierarchies` as the primary modern hierarchy source and adopt
+Linton's finite one-relator complex hierarchy theorem as the first-pass
+structure theorem for `T-001`.
 
 ## OQ-026. Which torsion-free one-relator groups survive after subtracting known routes?
 
@@ -728,21 +727,22 @@ one-relator subclass checks.
 
 ### Next action
 
-Build the surviving-case table after `FJ21` selects the source toolkit and
-the next modules subtract the known Farrell--Jones routes.
+Build the surviving-case table after `FJ23` begins subtracting the known
+Farrell--Jones routes from the hierarchy vocabulary established in `FJ22`.
 
 ## OQ-027. Which exact hierarchy theorem should FJ22 adopt?
 
 ### Status
 
-Open inside project.
+Resolved for first-pass hierarchy vocabulary.
 
 ### Context
 
 `FJ21` selected Linton's `One-relator hierarchies` as the primary modern
 hierarchy source for `T-001`, but it did not choose a proof-level theorem
-statement. The next module must decide which hierarchy statement, definition
-package, and hypotheses are needed for the residual gap analysis.
+statement. `FJ22` adopts Linton's finite one-relator complex hierarchy theorem:
+every finite one-relator complex admits a finite one-relator tower whose HNN
+splittings identify Magnus subgraphs and whose terminal group is finite cyclic.
 
 ### Relevant modules
 
@@ -757,9 +757,10 @@ requires classical comparison.
 
 ### Next action
 
-In `FJ22`, read the selected Linton hierarchy source in detail and record the
-exact theorem, definitions, and hypotheses that will become the project's
-one-relator hierarchy vocabulary.
+First-pass resolved by `FJ22`. Use the theorem map in `FJ22` for `FJ23`,
+hyperbolic-route subtraction, and return to Linton's exact source definitions
+before computing \(\mathbb Z\)-stable numbers or translating the complex-level
+language into presentation-only arguments.
 
 ## OQ-028. Which classical Magnus hierarchy source must be checked for proof-sensitive use?
 
@@ -787,5 +788,36 @@ Freiheitssatz paper.
 
 ### Next action
 
-Defer until `FJ22` determines whether Linton's source is enough for the next
-proof-sensitive step.
+Defer for now. `FJ22` is enough for the next hierarchy-vocabulary step, but a
+classical source must still be verified before the project replaces Linton's
+complex-level framework with a classical presentation-only workflow.
+
+## OQ-029. Which part of T-001 is already removed by the hyperbolic route?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ22` records Linton's hierarchy vocabulary and main equivalence theorem, and
+`ER-009` already records hyperbolic groups as a known Farrell--Jones class.
+The next step is to identify, without overclaiming, which torsion-free
+one-relator groups fall into the hyperbolic route already recorded by the
+project.
+
+### Relevant modules
+
+- FJ13
+- FJ19
+- FJ22
+- FJ23
+
+### Dependencies
+
+`ER-009`, `ER-012`, Linton's hierarchy vocabulary, and any source-verified
+bridge from one-relator hypotheses to hyperbolicity.
+
+### Next action
+
+Begin `FJ23`, hyperbolic-route subtraction for `T-001`.
