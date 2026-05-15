@@ -374,3 +374,36 @@ sources cited there for the relevant closure property.
 Before using a full \(\mathcal{FJ}\) closure row as a proof input,
 verify the cited proof source and record the exact hypotheses in the
 inheritance ledger.
+
+## OQ-016. Which BLR proof dependencies need direct checking?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Module `FJ13` uses Bartels--Lueck--Reich's hyperbolic-groups paper as
+the active source for the proof skeleton. That paper delegates key
+hyperbolic input to other sources, including the Rips-complex
+background, boundary \(Z\)-set input, Mineyev-style flow technology,
+and the equivariant wide-cover theorem.
+
+### Relevant modules
+
+- FJ13
+- FJ15
+- FJ16
+- FJ17
+
+### Dependencies
+
+Bartels--Lueck--Reich (2008), especially the Main Theorem, Theorem
+"Axiomatic Formulation", Section 2, and the cited source
+`Equivariant covers for hyperbolic groups`.
+
+### Next action
+
+Before `FJ15`--`FJ17` use any of the proof mechanisms in detail,
+choose which dependencies to check directly and record their exact
+hypotheses in the bibliography and source-status ledger.

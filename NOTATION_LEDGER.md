@@ -33,6 +33,9 @@
 | \(\Phi^*\mathcal F\) | pullback family \(\{H\leq K:\Phi(H)\in\mathcal F\}\) for a homomorphism \(\Phi\colon K\to G\) | source-level active | FJ12 | Used in Bartels--Reich's coefficient inheritance theorem. |
 | \(\mathcal{FJ}\) | Lueck's source-specific class of groups satisfying the Full Farrell--Jones Conjecture | source-specific | FJ12 | Includes more structure than the simplified ring-coefficient statement in FJ01. |
 | \(\operatorname*{colim}_i G_i\) | colimit of a directed system of groups | active | FJ12 | Used in the directed-colimit inheritance ledger. |
+| \(P_d(G)\) | Rips complex of \(G\) at scale \(d\) | source-level active | FJ13 | Used in the Bartels--Lueck--Reich hyperbolic-groups proof skeleton. |
+| \(\partial X\) | Gromov boundary of the hyperbolic complex \(X\) in FJ13 source notation | source-level active | FJ13 | Appears in the compactification \(\overline X=X\cup\partial X\). |
+| \(\overline X\) | compactification \(X\cup\partial X\) used in the hyperbolic proof skeleton | source-level active | FJ13 | In FJ13, \(X=P_d(G)\). |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |
 | \(\mathcal{All}(G)\) | family of all subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{All}}G\) is modeled by \(\mathrm{pt}\). |

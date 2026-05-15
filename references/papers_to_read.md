@@ -14,7 +14,7 @@
 
 ## Priority 2: first known cases and inheritance
 
-1. Bartels, A.; Lueck, W.; Reich, H. *The K-theoretic Farrell-Jones Conjecture for hyperbolic groups*. Status: active reference for `FJ11`; main theorem checked.
+1. Bartels, A.; Lueck, W.; Reich, H. *The K-theoretic Farrell-Jones Conjecture for hyperbolic groups*. Status: active reference for `FJ11` and `FJ13`; main theorem and proof skeleton checked.
 2. Bartels, A.; Lueck, W. *The Borel Conjecture for hyperbolic and CAT(0)-groups*. Status: active reference for `FJ11`; class \(\mathcal B\) and Theorem B checked.
 3. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ11`; main theorem checked.
 4. Wegner, C. *The Farrell-Jones conjecture for virtually solvable groups*. Status: active reference for `FJ11`; main theorem checked.
@@ -22,6 +22,11 @@
 6. Bartels, A.; Echterhoff, S.; Lueck, W. *Inheritance of Isomorphism Conjectures under Colimits*. Status: active reference for `FJ12`; theorem on directed colimits checked.
 7. Lueck, W. *Survey on the Farrell-Jones Conjecture*. Status: active reference for `FJ12`; full \(\mathcal{FJ}\) inheritance list checked at survey level.
 8. Bartels, A.; Lueck, W. *Induction Theorems and Isomorphism Conjectures for K- and L-Theory*. Status: found; possible future source for induction and transitivity refinements.
+
+## Priority 2b: hyperbolic proof technology
+
+1. Bartels, A.; Lueck, W.; Reich, H. *The K-theoretic Farrell-Jones Conjecture for hyperbolic groups*. Status: active reference for `FJ13`; proof outline, axiomatic theorem, and Section 2 checked.
+2. Bartels, A.; Lueck, W.; Reich, H. *Equivariant covers for hyperbolic groups*. Status: found; check Theorem 1.2 before `FJ16` uses wide covers.
 
 ## Reading protocol
 

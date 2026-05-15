@@ -138,9 +138,16 @@ orientation for the verified known cases:
 4. flow spaces primer;
 5. transfers primer.
 
-Current status: `FJ13`, the hyperbolic-groups case, is the next target.
-It should use the version flags from `FJ11` and `FJ12` rather than
-importing proof machinery prematurely.
+Current status: `FJ13` has first-pass coverage as a proof-strategy map
+for hyperbolic groups. It records the Bartels--Lueck--Reich main
+theorem, the axiomatic reduction, and the Rips-complex verification,
+while leaving obstruction categories, wide covers, and transfers for
+the later proof-technology modules.
+
+Current status: `FJ14`, the CAT(0)-groups case, is the next target.
+It should follow the same convention: verify the source theorem and
+record the proof architecture without pretending to rebuild the whole
+technical proof internally.
 
 ## GitHub persistence policy
 

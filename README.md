@@ -17,9 +17,9 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_001`
 - First milestone: modules `FJ01`--`FJ07`.
-- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, and `FJ12`.
+- Completed first-pass modules: `FJ01`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, and `FJ13`.
 - Deferred first-milestone module: `FJ02`, the additive-category formulation.
-- Current primary target: `FJ13`, the hyperbolic-groups case, using the known-classes and inheritance ledgers as version-checked inputs.
+- Current primary target: `FJ14`, the CAT(0)-groups case, using the same version-checked source discipline.
 
 ## Current established results
 
@@ -47,6 +47,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ11` is a first-pass known-cases ledger, not an exhaustive classification of all known Farrell--Jones groups.
 - `FJ11` records "with coefficients in additive categories" as a source-level strength flag; the internal additive-category formulation remains deferred to `FJ02`.
 - `FJ12` records inheritance properties with version flags. Pullback and subgroup inheritance are source-verified for the coefficient K-theoretic formulation; several broader closure rows are recorded as survey-level statements about Lueck's full class \(\mathcal{FJ}\).
+- `FJ13` is a proof-skeleton map for hyperbolic groups, not an internal reconstruction of the Bartels--Lueck--Reich proof.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements continue to use the nonconnective \(K\)-theory convention introduced in `FJ01`.
 

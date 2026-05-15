@@ -62,6 +62,7 @@ Unless explicitly imported later:
 15. Should negative \(K\)-group vanishing receive its own module?
 16. Which additional known Farrell--Jones classes should be verified next after the first-pass `FJ11` table?
 17. Which survey-level full \(\mathcal{FJ}\) inheritance rows from `FJ12` should be traced to primary proof sources before use in proof-sensitive reductions?
+18. Which Bartels--Lueck--Reich proof dependencies should be checked directly before `FJ15`--`FJ17` develop obstruction categories, wide covers, and transfers?
 
 ## Established results
 
@@ -94,7 +95,8 @@ The active mathematical scope is the simplified K-theoretic Farrell--Jones conje
 - Module `FJ10` records the Borel conjecture consequence as a source-verified theorem map requiring both K-theory vanishing and \(L^{\langle -\infty\rangle}\)-theory assembly.
 - Module `FJ11` starts the known-classes ledger with source-verified rows for hyperbolic groups, finite-dimensional CAT(0)-groups, and virtually solvable groups.
 - Module `FJ12` starts the inheritance-properties ledger with source-verified pullback, subgroup, and directed-colimit rows, plus survey-level full \(\mathcal{FJ}\) closure rows marked by version.
+- Module `FJ13` records the hyperbolic-groups proof skeleton from Bartels--Lueck--Reich: main theorem, axiomatic reduction, Rips-complex verification, and controlled-algebra architecture.
 
 ## Next mathematical move
 
-Proceed to module `FJ13`: the hyperbolic-groups case, using the version flags in `FJ11` and `FJ12` and deferring detailed flow-space/proof machinery to `FJ15`--`FJ17`.
+Proceed to module `FJ14`: the CAT(0)-groups case, using the version flags in `FJ11` and `FJ12` and deferring detailed proof machinery unless the source theorem requires it.

@@ -316,6 +316,10 @@ the versions stated:
 
 `modules/cycle_001/FJ11_known_classes_ledger.md`
 
+Proof-skeleton expansion:
+
+`modules/cycle_001/FJ13_hyperbolic_groups_case.md`
+
 Ledger table:
 
 `ledgers/known_classes.md`

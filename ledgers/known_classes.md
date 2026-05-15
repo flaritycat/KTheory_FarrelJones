@@ -10,7 +10,7 @@ hypotheses and version flags.
 
 | Group class | K-theory? | L-theory? | Coefficients? | Reference | Source status | Notes |
 |---|---|---|---|---|---|---|
-| Hyperbolic groups | yes, all degrees | yes, all degrees | additive categories | Bartels--Lueck--Reich (2008); Bartels--Lueck (2012) | source-verified for FJ11 | K-theory all degrees from Bartels--Lueck--Reich; L-theory with coefficients from Bartels--Lueck's class \(\mathcal B\). |
+| Hyperbolic groups | yes, all degrees | yes, all degrees | additive categories | Bartels--Lueck--Reich (2008); Bartels--Lueck (2012) | source-verified for FJ11; proof skeleton expanded in FJ13 | K-theory all degrees from Bartels--Lueck--Reich; L-theory with coefficients from Bartels--Lueck's class \(\mathcal B\). |
 | Finite-dimensional CAT(0)-groups | yes, all degrees | yes, all degrees | additive categories | Wegner (2012); Bartels--Lueck (2012) | source-verified for FJ11 | Wegner supplies full K-theory; Bartels--Lueck supplies L-theory for groups acting properly, cocompactly, and isometrically on finite-dimensional CAT(0)-spaces. |
 | Virtually solvable groups | yes, all degrees | yes, all degrees | additive categories | Wegner (2015) | source-verified for FJ11 | Main theorem states K- and L-theoretic Farrell--Jones with coefficients in additive categories with respect to \(\mathcal{VCyc}\). |
 
