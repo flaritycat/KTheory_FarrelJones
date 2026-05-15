@@ -203,7 +203,15 @@ an active recorded bucket, but further BNS/Bieri--Renz/Bieri work must be
 attached to a concrete candidate, missing bridge, or named residual
 subtraction.
 
+## FJ44 attack-packet selection effect
+
+`FJ44` selects `RB-005`, not another `RB-004` source module, as the next
+attack packet. This leaves the kernel-recognition ledger in a paused but
+available state: the Brown route, direct BNS theorem map, and Karrass--Solitar
+cleanup bridge remain usable when a concrete candidate is selected.
+
 ## Next action
 
-Begin `FJ44`, residual-bucket comparison and attack-packet selection after
-the `RB-004` source-cluster pause.
+Keep `RB-004` paused until a candidate-ready route is identified. The active
+project move is `FJ45`, finite-index formulation bridge checkpoint for
+`RB-005`.

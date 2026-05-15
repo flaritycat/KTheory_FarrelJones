@@ -606,11 +606,20 @@ The route decision after `FJ43` is to pause automatic `RB-004` source-cluster
 continuation. This does not abandon `RB-004`; it prevents a fourth
 source-only continuation without a candidate, bridge, or subtraction target.
 
-The next step after `FJ43` is `FJ44`, residual-bucket comparison and
-attack-packet selection. Its task is to decide whether the project should
-return to `RB-004` with a concrete candidate, pivot to another residual
-bucket such as finite-index/virtually special handling, or write a
-no-candidate artifact.
+Current status: `FJ44` has first-pass coverage as residual-bucket comparison
+and attack-packet selection after the `RB-004` source-cluster pause. It
+selects `RB-005`, finite-index and virtually compact special formulation
+handling, because that bucket is already tied to concrete cautions from
+`FJ24`, `FJ27`, and the Karrass--Solitar infinite-dihedral cleanup issue.
+
+The route decision after `FJ44` is to test the finite-index formulation
+bridge before using any virtual-special or dihedral finite-index route
+proof-sensitively. This does not subtract a residual case. It makes the next
+obstruction precise: either the project has a version-compatible finite-index
+bridge, or `FJ02`/source-convention debt becomes active.
+
+The next step after `FJ44` is `FJ45`, finite-index formulation bridge
+checkpoint for `RB-005`.
 
 ## GitHub persistence policy
 

@@ -12,7 +12,8 @@ selected the normal-subgroup source cluster, and `FJ39` verified the
 Karrass--Solitar finitely presented-kernel bridge. `FJ40` audits that
 subroute and selects no new non-Brown source-ready test case. `FJ41` verifies
 the original BNS finite-generation criterion but makes no residual
-subtraction.
+subtraction. `FJ43` pauses automatic `RB-004` source-cluster continuation,
+and `FJ44` selects `RB-005` as the next attack packet.
 
 ## Warning
 
@@ -304,7 +305,22 @@ Outcome:
 - automatic `RB-004` source-cluster continuation is paused;
 - no residual bucket is removed by `FJ43`.
 
+## FJ44 residual-bucket comparison update
+
+`FJ44` compares the remaining residual buckets after the `RB-004` pause.
+
+Outcome:
+
+- `RB-004` remains recorded but is not continued automatically;
+- `RB-005`, finite-index and virtually compact special formulation handling,
+  is selected as the next attack packet;
+- `RB-006`, `RB-007`, hierarchy-to-route extraction, and `RB-008` are
+  deferred until a more bounded source or candidate is selected;
+- the selected `RB-005` packet is tied to `FJ24` virtual-special cautions,
+  `FJ27` version-aware finite-index inheritance, and the Karrass--Solitar
+  infinite-dihedral cleanup issue from `FJ39`;
+- no residual bucket is removed by `FJ44`.
+
 ## Next action
 
-Begin `FJ44`, residual-bucket comparison and attack-packet selection after
-the `RB-004` source-cluster pause.
+Begin `FJ45`, finite-index formulation bridge checkpoint for `RB-005`.
