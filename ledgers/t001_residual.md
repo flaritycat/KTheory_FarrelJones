@@ -3,7 +3,7 @@
 ## Status
 
 First-pass residual ledger created in `FJ28`. First concrete attack surface
-selected in `FJ29`.
+selected in `FJ29`. Brown/BNS kernel-recognition route checked in `FJ30`.
 
 ## Warning
 
@@ -56,11 +56,24 @@ Reason for selection: a verified finite-rank free-kernel bridge would feed
 directly into the `FJ26` finite-rank free-by-cyclic route, while the source
 verification task is narrow enough for a single module.
 
-Non-use warning: Brown (1987) remains a source to verify. `FJ29` does not use
-it as a theorem source and does not assert that any one-relator epimorphism
-has finitely generated kernel.
+Non-use warning: `FJ29` did not use Brown (1987) as a theorem source and did
+not assert that any one-relator epimorphism has finitely generated kernel.
+`FJ30` below records the later limited verification.
+
+## FJ30 Brown/BNS verification update
+
+Brown (1987) is now checked at first-pass level for selected `RB-004` cases.
+The usable project criterion is stored in `ledgers/t001_kernel_recognition.md`.
+
+Scope of use:
+
+- Brown gives a finite-generation criterion for kernels of surjections
+  \(G\to\mathbb Z\) via Proposition 3.1 and Corollary 3.2.
+- Brown gives a computable two-generator one-relator criterion via Theorems
+  4.2--4.4.
+- Brown does not give a global positive theorem for every one-relator
+  epimorphism to \(\mathbb Z\).
 
 ## Next action
 
-Use `FJ30` to verify whether Brown (1987) provides an exact finite-generation
-or finite-rank free-kernel criterion usable for `RB-004`.
+Use `FJ31` to choose and run a first Brown criterion test case.

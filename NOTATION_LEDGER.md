@@ -114,6 +114,9 @@
 | selected residual attack surface | residual bucket chosen for the next bounded source-verification or reduction attempt | active term | FJ29 | Project-selection term, not a theorem label. |
 | kernel-recognition attack surface | the `RB-004` problem of controlling kernels of maps to \(\mathbb Z\), especially finite-rank free kernels | active term | FJ29 | Chosen as the next `T-001` attack surface. |
 | first verification source | first external source selected for exact theorem and hypothesis checking in the next module | active term | FJ29 | Brown (1987) is selected for `FJ30`, but not yet active theorem input. |
+| \(S(G)\) | Brown's character sphere of nonzero homomorphisms \(G\to\mathbb R\) modulo positive scalar multiplication | active term | FJ30 | Used only for Brown/BNS kernel-recognition bookkeeping. |
+| Brown-positive kernel-recognition bridge | verification that both \([\chi]\) and \([-\chi]\) pass Brown's relevant criterion for a surjection \(\chi\colon G\to\mathbb Z\) | active term | FJ30 | May feed into the finite-rank free-by-cyclic route only after the free finite-rank kernel is recorded. |
+| simple vertex / special edge | Brown's convex-hull terms in the two-generator one-relator criterion | active term | FJ30 | Used for the geometric version of the Brown criterion. |
 | \(D_\infty\) | infinite dihedral group \(\mathbb Z/2 * \mathbb Z/2\) | active | FJ04 | Used to define type II virtually cyclic groups. |
 | \(\mathcal F\) | family of subgroups of \(G\) | active | FJ01 | Closed under conjugation and passage to subgroups. |
 | \(\mathcal{All}(G)\) | family of all subgroups of \(G\) | active | FJ03 | \(E_{\mathcal{All}}G\) is modeled by \(\mathrm{pt}\). |

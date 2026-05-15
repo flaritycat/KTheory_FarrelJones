@@ -88,7 +88,10 @@ Unless explicitly imported later:
 40. What is the conservative `T-001` residual ledger after subtracting the named routes and version-aware inheritance routes? First-pass resolved by `FJ28`.
 41. Which concrete surviving one-relator subclasses should become the next attack surface? First-pass resolved by `FJ29`: `RB-004`, finite-rank free-kernel recognition over \(\mathbb Z\).
 42. Which source should be checked first for the selected residual bucket? First-pass resolved by `FJ29`: Brown (1987), without theorem-use status.
-43. What exact theorem in Brown (1987), if any, gives a finite-generation or finite-rank free-kernel criterion for one-relator epimorphisms to \(\mathbb Z\)?
+43. What exact theorem in Brown (1987), if any, gives a finite-generation or finite-rank free-kernel criterion for one-relator epimorphisms to \(\mathbb Z\)? First-pass resolved by `FJ30`: Brown's Proposition 3.1, Corollary 3.2, and Theorems 4.2--4.4 give a limited two-generator recognition route.
+44. Which first two-generator one-relator presentation should be tested with Brown's criterion?
+45. Should the original Bieri--Neumann--Strebel normal-subgroup theorem be checked directly before broader use?
+46. Which source handles `RB-004` cases outside Brown's two-generator criterion?
 
 ## Established results
 
@@ -143,6 +146,7 @@ The active project target is `T-001`, torsion-free one-relator residual gap anal
 - Module `FJ27` records the first-pass source-verified inheritance-route subtraction for `T-001`, subtracting only groups with exact inheritance bridges and preserving the distinction between coefficient K-theory rows, K-theory directed-colimit rows, and full \(\mathcal{FJ}\) survey rows.
 - Module `FJ28` records the first-pass conservative residual ledger for `T-001`, creating `ledgers/t001_residual.md` and organizing unremoved project-state cases into source-recognition buckets rather than negative Farrell--Jones classes.
 - Module `FJ29` selects `RB-004`, finite-rank free-kernel recognition over \(\mathbb Z\), as the next concrete attack surface for `T-001`, and selects Brown (1987) as the first source to verify without treating it as theorem input yet.
+- Module `FJ30` verifies Brown (1987) as a first-pass Brown/BNS kernel-recognition source for selected `RB-004` cases and creates `ledgers/t001_kernel_recognition.md`; it records that Brown supplies a computable two-generator one-relator criterion, not a global positive theorem for all one-relator epimorphisms.
 
 ## Selected target
 
@@ -165,8 +169,9 @@ Current source toolkit:
 - residual ledger: `ledgers/t001_residual.md`, created by `FJ28`;
 - selected residual attack surface: `RB-004`, finite-rank free-kernel
   recognition over \(\mathbb Z\), selected by `FJ29`;
-- next verification source: Brown (1987), selected by `FJ29` but not yet
-  upgraded to theorem-use status;
+- kernel-recognition source: Brown (1987), verified at first-pass level by
+  `FJ30` for the limited two-generator criterion;
+- kernel-recognition ledger: `ledgers/t001_kernel_recognition.md`;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -174,4 +179,4 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ30`, Brown/BNS kernel-recognition verification for `T-001`.
+Begin `FJ31`, first Brown criterion test case for `T-001`.

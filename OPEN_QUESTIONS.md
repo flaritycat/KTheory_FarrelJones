@@ -826,8 +826,9 @@ First-pass resolved by `FJ23`. `FJ24`, `FJ25`, `FJ26`, and `FJ27` have
 completed the next CAT(0), virtually solvable,
 hyperbolic-by-cyclic/free-by-cyclic, and inheritance route subtractions;
 `FJ28` has assembled the first-pass residual ledger, and `FJ29` has selected
-`RB-004` as the next attack surface. Continue with `FJ30`, Brown/BNS
-kernel-recognition verification.
+`RB-004` as the next attack surface. `FJ30` has verified Brown's limited
+kernel-recognition route. Continue with `FJ31`, a first Brown criterion test
+case.
 
 ## OQ-030. Which part of T-001 is removed by the CAT(0) route?
 
@@ -864,8 +865,9 @@ proper cocompact finite-dimensional CAT(0) action.
 First-pass resolved by `FJ24`. `FJ25`, `FJ26`, and `FJ27` have completed the
 virtually solvable, hyperbolic-by-cyclic/free-by-cyclic, and inheritance route
 subtractions; `FJ28` has assembled the first-pass residual ledger, and `FJ29`
-has selected `RB-004` as the next attack surface. Continue with `FJ30`,
-Brown/BNS kernel-recognition verification.
+has selected `RB-004` as the next attack surface. `FJ30` has verified
+Brown's limited kernel-recognition route. Continue with `FJ31`, a first Brown
+criterion test case.
 
 ## OQ-031. Which part of T-001 is removed by the virtually solvable route?
 
@@ -904,8 +906,9 @@ bookkeeping.
 First-pass resolved by `FJ25`. `FJ26` and `FJ27` have completed the
 hyperbolic-by-cyclic/free-by-cyclic and inheritance route subtractions.
 `FJ28` has assembled the first-pass residual ledger, and `FJ29` has selected
-`RB-004` as the next attack surface. Continue with `FJ30`, Brown/BNS
-kernel-recognition verification.
+`RB-004` as the next attack surface. `FJ30` has verified Brown's limited
+kernel-recognition route. Continue with `FJ31`, a first Brown criterion test
+case.
 
 ## OQ-032. Which finite-index source should support virtually compact special route use?
 
@@ -1035,14 +1038,15 @@ to identify a group as hyperbolic-by-cyclic or finite-rank free-by-cyclic.
 
 First-pass resolved by `FJ26`. `FJ27` has completed the source-verified
 inheritance-route subtraction. `FJ28` has assembled the first-pass residual
-ledger, and `FJ29` has selected `RB-004` as the next attack surface. Continue
-with `FJ30`, Brown/BNS kernel-recognition verification.
+ledger, `FJ29` has selected `RB-004` as the next attack surface, and `FJ30`
+has verified Brown's limited two-generator kernel-recognition route. Continue
+with `FJ31`, a first Brown criterion test case.
 
 ## OQ-036. Which source should recognize finite-rank free kernels over Z?
 
 ### Status
 
-Open inside project.
+Resolved for first-pass Brown source selection and verification.
 
 ### Context
 
@@ -1054,22 +1058,27 @@ with \(n<\infty\) gives a finite-rank free-by-cyclic bridge. It does not prove
 that any particular one-relator epimorphism has finitely generated free
 kernel. `FJ29` selects Brown's BNS-invariant paper as the first source to
 verify for this recognition problem, while keeping it out of theorem-use
-status until `FJ30`.
+status until `FJ30`. `FJ30` verifies Brown's Proposition 3.1, Corollary 3.2,
+and Theorems 4.2--4.4 as a limited recognition route for selected
+two-generator one-relator cases.
 
 ### Relevant modules
 
 - FJ21
 - FJ26
+- FJ29
+- FJ30
 
 ### Dependencies
 
-Brown (1987), or another source-verified one-relator kernel-finiteness
-criterion selected later.
+Brown (1987), the original Bieri--Neumann--Strebel paper if broader direct
+BNS use becomes necessary, and any later source for cases outside Brown's
+two-generator criterion.
 
 ### Next action
 
-`FJ29` selected this as the next residual attack surface. Continue with
-`FJ30`, Brown/BNS kernel-recognition verification.
+First-pass resolved by `FJ30`. Continue with `FJ31`, a first Brown criterion
+test case.
 
 ## OQ-037. Which inheritance routes remove additional T-001 cases?
 
@@ -1104,9 +1113,10 @@ Lueck's survey-level full \(\mathcal{FJ}\) inheritance table.
 ### Next action
 
 First-pass resolved by `FJ27`. `FJ28` has assembled the residual ledger after
-named and inheritance route subtractions, and `FJ29` has selected `RB-004` as
-the next attack surface. Continue with `FJ30`, Brown/BNS kernel-recognition
-verification.
+named and inheritance route subtractions, `FJ29` has selected `RB-004` as the
+next attack surface, and `FJ30` has verified Brown's limited
+kernel-recognition route. Continue with `FJ31`, a first Brown criterion test
+case.
 
 ## OQ-038. What remains in T-001 after the route-subtraction pass?
 
@@ -1147,8 +1157,9 @@ from `FJ20`, and `ledgers/t001_residual.md`.
 ### Next action
 
 First-pass resolved by `FJ28`. `FJ29` has selected `RB-004` as the concrete
-residual attack surface. Continue with `FJ30`, Brown/BNS kernel-recognition
-verification.
+residual attack surface, and `FJ30` has verified Brown's limited
+kernel-recognition route. Continue with `FJ31`, a first Brown criterion test
+case.
 
 ## OQ-039. Which concrete surviving one-relator subclasses should be attacked next?
 
@@ -1177,8 +1188,9 @@ finite-rank free-by-cyclic route.
 
 ### Next action
 
-First-pass resolved by `FJ29`. Continue with `FJ30`, Brown/BNS
-kernel-recognition verification.
+First-pass resolved by `FJ29`. `FJ30` has verified Brown's limited
+kernel-recognition route. Continue with `FJ31`, a first Brown criterion test
+case.
 
 ## OQ-040. Which source should be checked first for the selected residual bucket?
 
@@ -1210,21 +1222,25 @@ virtually solvable recognition, and hierarchy-to-route extraction.
 
 ### Next action
 
-First-pass resolved by `FJ29`. Continue with `FJ30`, which should check
-Brown (1987) for exact statements, hypotheses, and conclusions.
+First-pass resolved by `FJ29`. `FJ30` has checked Brown (1987) for exact
+statements, hypotheses, and conclusions. Continue with `FJ31`, a first Brown
+criterion test case.
 
 ## OQ-041. What exact Brown/BNS theorem recognizes finite-rank kernels?
 
 ### Status
 
-Open inside project.
+Resolved for first-pass Brown source verification.
 
 ### Context
 
 `FJ29` selects `RB-004` and Brown (1987) as the first source to verify. The
 project still needs the exact theorem statement, hypotheses, and conclusion:
 whether Brown gives finite generation, freeness, finite rank, a BNS-invariant
-criterion, or only a weaker/conditional result.
+criterion, or only a weaker/conditional result. `FJ30` records the answer:
+Brown gives a finite-generation criterion via Proposition 3.1 and Corollary
+3.2, plus computable two-generator one-relator tests in Theorems 4.2--4.4.
+It does not give a global positive theorem for all one-relator epimorphisms.
 
 ### Relevant modules
 
@@ -1235,9 +1251,93 @@ criterion, or only a weaker/conditional result.
 
 ### Dependencies
 
-Brown (1987), the `FJ26` finite-rank free-by-cyclic bridge, and any secondary
-BNS or one-relator source if Brown alone is insufficient.
+Brown (1987), the `FJ26` finite-rank free-by-cyclic bridge, and the
+project-facing route criterion in `ledgers/t001_kernel_recognition.md`.
 
 ### Next action
 
-Begin `FJ30`, Brown/BNS kernel-recognition verification for `T-001`.
+First-pass resolved by `FJ30`. Continue with `FJ31`, a first Brown criterion
+test case.
+
+## OQ-042. Which first Brown criterion test case should be used?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ30` verifies Brown's two-generator one-relator criterion as a usable
+kernel-recognition tool. The project now needs a concrete presentation or
+small family where Brown's criterion can be applied without importing
+unverified classification claims.
+
+### Relevant modules
+
+- FJ26
+- FJ29
+- FJ30
+- FJ31
+
+### Dependencies
+
+Brown (1987), `ledgers/t001_kernel_recognition.md`, and the `FJ26`
+finite-rank free-by-cyclic route.
+
+### Next action
+
+Begin `FJ31`, first Brown criterion test case for `T-001`.
+
+## OQ-043. Should the original BNS normal-subgroup theorem be checked directly?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ30` uses Brown's source for the infinite-cyclic quotient criterion and
+records the original Bieri--Neumann--Strebel paper bibliographically. Before
+the project uses the general normal-subgroup theorem beyond Brown's
+restatement, the original BNS source should be checked directly.
+
+### Relevant modules
+
+- FJ30
+
+### Dependencies
+
+Bieri--Neumann--Strebel (1987).
+
+### Next action
+
+Defer until the project needs normal subgroups with abelian quotient beyond
+\(\mathbb Z\).
+
+## OQ-044. Which source handles RB-004 cases outside Brown's two-generator criterion?
+
+### Status
+
+Open inside project.
+
+### Context
+
+Brown gives a strong computable route for two-generator one-relator
+presentations, but `T-001` may contain cases where no compatible
+two-generator presentation has been recorded. Those cases need either a
+presentation bridge or a separate kernel-recognition source.
+
+### Relevant modules
+
+- FJ29
+- FJ30
+
+### Dependencies
+
+Brown (1987), later BNS/Renz sources if selected, and one-relator structure
+sources already tracked in `FJ21`--`FJ22`.
+
+### Next action
+
+Defer until `FJ31` shows what Brown's criterion can do in a first concrete
+case.

@@ -358,10 +358,24 @@ finite-rank free-by-cyclic route if the kernel bridge is verified. It
 selects Brown (1987) as the first source to verify, without upgrading
 Brown to theorem-use status.
 
-The next module is `FJ30`, Brown/BNS kernel-recognition verification
-for `T-001`. Its task is to check Brown (1987) for exact hypotheses and
-conclusions about one-relator epimorphisms, BNS data, finitely
-generated kernels, and finite-rank free-kernel bridges.
+The next step after `FJ29` was `FJ30`, Brown/BNS kernel-recognition
+verification for `T-001`. Its task was to check Brown (1987) for exact
+hypotheses and conclusions about one-relator epimorphisms, BNS data,
+finitely generated kernels, and finite-rank free-kernel bridges.
+
+Current status: `FJ30`, Brown/BNS kernel-recognition verification for
+`T-001`, has first-pass coverage. It verifies Brown's Proposition 3.1,
+Corollary 3.2, and Theorems 4.2--4.4 as a source-checked kernel
+recognition tool for selected `RB-004` cases. The output is limited:
+Brown gives a computable criterion for two-generator one-relator
+presentations, not a global theorem that all one-relator epimorphisms to
+\(\mathbb Z\) have finitely generated kernel.
+
+The next module is `FJ31`, first Brown criterion test case for `T-001`.
+Its task is to choose a concrete two-generator one-relator presentation
+or small test family and apply the Brown criterion carefully enough to
+decide whether it supplies a finite-rank free-by-cyclic bridge into
+`FJ26`.
 
 ## GitHub persistence policy
 
