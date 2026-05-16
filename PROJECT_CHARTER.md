@@ -1310,10 +1310,31 @@ class.
 `C4-CLOSE-001`, records `OBL-C4-001`, and makes no Farrell--Jones theorem
 claim.
 
-The next step is `FJ78`, Cycle-004 Closure-Readiness Audit. It should audit
-active obligations, open questions, paused target gates, the foundational
-source-queue pause, and remaining cycle-004 module slots before selecting the
-next packet.
+The next step after `FJ77` was `FJ78`, Cycle-004 Closure-Readiness Audit.
+Its task was to audit active obligations, open questions, paused target
+gates, the foundational source-queue pause, and remaining cycle-004 module
+slots before selecting the next packet.
+
+## FJ78 cycle-004 closure-readiness audit
+
+Current status: `FJ78` has first-pass coverage as the Cycle-004
+Closure-Readiness Audit module. It uses only current repository records and
+does not check a new external source.
+
+The closure-readiness decision after `FJ78` is that `cycle_004` should not
+reactivate a mathematical target or restart the foundational source queue.
+The remaining two numbered module slots, `FJ79` and `FJ80`, should be used
+for handoff preparation and final pre-reflection closure.
+
+`FJ78` resolves `OQ-098`, completes `OBL-C4-001`, completes
+`C4-CLOSE-001`, records a closure-ready cycle-state decision, selects
+`C4-HANDOFF-001`, records `OBL-C4-002`, and makes no Farrell--Jones theorem
+claim.
+
+The next step is `FJ79`, Cycle-004 Handoff Table and Gate Index. It should
+assemble the paused target gates, source-queue pause data, open-question
+clusters, proof-obligation status, remaining cycle slots, and inputs needed
+for the final pre-reflection module.
 
 ## GitHub persistence policy
 

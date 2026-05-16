@@ -158,6 +158,12 @@ Closure-Readiness Audit. `FJ78` must audit active obligations, open
 questions, paused target gates, source-queue pause data, and remaining
 cycle-004 module slots before selecting any further packet.
 
+After `FJ78`, `cycle_004` is closure-ready rather than target-ready. The
+remaining numbered module slots should prepare handoff and reflection. The
+next packet is `C4-HANDOFF-001`, Cycle-004 Handoff Table and Gate Index.
+`FJ79` must build the handoff table and gate index; it must not reactivate a
+target or restart source work unless a recorded gate is satisfied.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -186,7 +192,8 @@ Current module handoff:
 - `FJ76`: Foundational Source-Queue Checkpoint After `OQ-006` No-Promotion
   is completed.
 - `FJ77`: Target-Pivot Readiness After Foundational Queue Pause is completed.
-- `FJ78`: Cycle-004 Closure-Readiness Audit is next.
+- `FJ78`: Cycle-004 Closure-Readiness Audit is completed.
+- `FJ79`: Cycle-004 Handoff Table and Gate Index is next.
 
 Current obstruction:
 
@@ -286,6 +293,12 @@ Current obstruction:
 - `OBL-C4-001`: `FJ78` must audit cycle-004 closure readiness. It must not
   use remaining cycle slots for source summaries, target summaries, or
   target reactivation unless a concrete project object and gate are recorded.
+  `FJ78` completes this by sending the remaining slots toward handoff and
+  reflection preparation.
+- `OBL-C4-002`: `FJ79` must build a cycle-004 handoff table and gate index.
+  It must include paused gates, source-queue pause data, open-question
+  clusters, proof-obligation status, remaining cycle slots, and reflection
+  inputs.
 
 ## Repository Hygiene
 

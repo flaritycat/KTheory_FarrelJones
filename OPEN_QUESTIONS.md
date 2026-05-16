@@ -3774,7 +3774,7 @@ Resolved by `FJ77`. Continue with `OQ-098` and `FJ78`.
 
 ### Status
 
-Open inside project; selected by `FJ77` for `FJ78`.
+First-pass resolved by `FJ78`.
 
 ### Context
 
@@ -3790,6 +3790,10 @@ The project is late in `cycle_004`, whose planned module range is
 `FJ61`--`FJ80`. The next useful step is to audit cycle-closure readiness and
 prevent the remaining module slots from becoming decorative summaries.
 
+`FJ78` records that `cycle_004` is closure-ready rather than target-ready.
+The remaining slots should prepare handoff and reflection inputs, not reopen
+targets or source queues.
+
 ### Relevant modules
 
 - FJ61
@@ -3798,6 +3802,7 @@ prevent the remaining module slots from becoming decorative summaries.
 - FJ72
 - FJ76
 - FJ77
+- FJ78
 
 ### Dependencies
 
@@ -3808,4 +3813,40 @@ prevent the remaining module slots from becoming decorative summaries.
 
 ### Next action
 
-Begin `FJ78`, Cycle-004 Closure-Readiness Audit.
+Resolved by `FJ78`. Continue with `OQ-099` and `FJ79`.
+
+## OQ-099. What handoff table and gate index should prepare cycle_004 for its final module and reflection?
+
+### Status
+
+Open inside project; selected by `FJ78` for `FJ79`.
+
+### Context
+
+`FJ78` resolves `OQ-098` by selecting `C4-HANDOFF-001`, Cycle-004 Handoff
+Table and Gate Index. The project has two numbered modules remaining before
+the cycle reflection: `FJ79` and `FJ80`.
+
+The next module should not reactivate targets or restart source work. It
+should assemble a compact handoff table and gate index for the final
+pre-reflection module.
+
+### Relevant modules
+
+- FJ61
+- FJ66
+- FJ71
+- FJ76
+- FJ77
+- FJ78
+
+### Dependencies
+
+`SCOPE_LEDGER.md`, `AGENTS.md`, `NOTATION_LEDGER.md`,
+`ledgers/theorem_dependencies.md`, `ledgers/open_group_classes.md`,
+`ledgers/t001_candidate_inventory.md`,
+`ledgers/artin_subclass_gap_inventory.md`, and `OBL-C4-002`.
+
+### Next action
+
+Begin `FJ79`, Cycle-004 Handoff Table and Gate Index.
