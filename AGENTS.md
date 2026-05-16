@@ -47,6 +47,10 @@ After `FJ59`, no weaker \(K_0\) / Cohen--Lyndon source payload is recorded.
 The next step may select one exact source payload or close the lane, but it
 must not become a broad classical-source survey.
 
+After `FJ60`, the weaker \(K_0\) / Cohen--Lyndon consequence lane is inactive
+until an exact source payload is named. The next step is the cycle-003
+reflection, not another source-summary module.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -54,7 +58,8 @@ Current module handoff:
 - `FJ57`: Candidate Family Proof Attempt or Obstruction Record is completed.
 - `FJ58`: Post-Hybrid Candidate-Production Checkpoint is completed.
 - `FJ59`: Weaker \(K_0\) / Cohen--Lyndon Consequence Intake Gate is completed.
-- `FJ60`: Weaker Consequence Source-Payload Selection is next.
+- `FJ60`: Weaker Consequence Source-Payload Selection is completed.
+- `reflections/cycle_003_reflection.md` is next.
 
 Current obstruction:
 
@@ -68,8 +73,11 @@ Current obstruction:
   `T-001`. Do not convert `FJ59` into a residual subtraction unless a full
   formulation-safe route is actually recorded.
 - `OBL-T001-006`: no weaker \(K_0\) / Cohen--Lyndon source payload is
-  currently recorded for `T-001`. `FJ60` must select one exact source payload
-  or close the lane as inactive until a source is named.
+  currently recorded for `T-001`. `FJ60` closed the lane rather than
+  selecting a payload.
+- `OBL-T001-007`: the weaker \(K_0\) / Cohen--Lyndon consequence lane is
+  inactive until a future module names an exact source, theorem statement,
+  hypotheses, formulation level, and project object changed.
 
 ## Repository Hygiene
 

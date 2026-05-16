@@ -17,10 +17,10 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_003`.
 - Completed cycles: `cycle_001` and `cycle_002`.
-- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, and `FJ59`. `FJ53` is retained as WIP / provisional.
+- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, and `FJ60`. `FJ53` is retained as WIP / provisional.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md` and `reflections/cycle_002_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ60`, Weaker Consequence Source-Payload Selection.
+- Current procedural target: write `reflections/cycle_003_reflection.md`.
 
 ## Current established results
 
@@ -58,6 +58,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ57` records that no repository-supported non-routed candidate can be promoted for the selected hybrid packet without fabrication; it creates `OBL-T001-004` and sends the project to a post-hybrid candidate-production checkpoint.
 - `FJ58` records that no replacement candidate-production lane is currently ready after the blocked hybrid packet; it creates `OBL-T001-005` and sends the project to a bounded weaker \(K_0\) / Cohen--Lyndon consequence intake gate.
 - `FJ59` records that no weaker \(K_0\) / Cohen--Lyndon source payload is currently present in the repository; it creates `OBL-T001-006` and sends the project to a one-module source-payload selection or closure step.
+- `FJ60` records that no exact weaker \(K_0\) / Cohen--Lyndon source payload is available for selection, closes that consequence lane as inactive via `OBL-T001-007`, and sends the project to the cycle-003 reflection.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.
@@ -116,6 +117,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ57` completes the candidate-family proof-attempt check by recording a no-candidate obstruction, not by inventing a new family.
 - `FJ58` completes the post-hybrid candidate-production checkpoint: all currently named residual lanes remain dormant or blocked as proof-attempt lanes, so the next step is a bounded weaker \(K_0\) / Cohen--Lyndon intake, not a residual subtraction.
 - `FJ59` completes that intake gate: existing \(K_0\)-level consequences are only conditional on Farrell--Jones, and no Cohen--Lyndon-style source payload is recorded yet.
+- `FJ60` completes the source-payload selection step by closing the weaker consequence lane as inactive until a future module names an exact payload; no new source is checked and no residual case is removed.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements now use the nonconnective \(K\)-theory convention source-checked in `FJ02`, while preserving the `FJ01` black-box normalization for simplified examples.
 

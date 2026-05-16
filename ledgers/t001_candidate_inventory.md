@@ -6,8 +6,9 @@ Created by `FJ54` as the candidate ledger for the `RB-003` +
 `RB-004`/`RB-008` hybrid attack packet. Updated by `FJ55` with
 route-output proof obligations, by `FJ56` with explicit kernel-control
 audit status, by `FJ57` with the no-candidate endpoint obstruction, and by
-`FJ58` with the post-hybrid no-active-lane obstruction, and by `FJ59` with
-the no-weaker-consequence-source-payload obstruction.
+`FJ58` with the post-hybrid no-active-lane obstruction, by `FJ59` with
+the no-weaker-consequence-source-payload obstruction, and by `FJ60` with
+the inactive-consequence-lane obstruction.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -32,6 +33,11 @@ consequence intake, not a proof attempt and not a residual subtraction.
 Current status after `FJ59`: no weaker \(K_0\) / Cohen--Lyndon source payload
 is currently recorded. The next module must select one exact source payload
 or close the lane as inactive until a source is named.
+
+Current status after `FJ60`: the weaker \(K_0\) / Cohen--Lyndon lane is
+inactive. It may be reopened only by an exact source payload with theorem
+statement, hypotheses, formulation level, source status, and project object
+changed.
 
 Guiding question:
 
@@ -106,6 +112,19 @@ adds real candidate data or a checked bridge.
 `FJ59` conclusion: the weaker consequence lane has no usable source payload
 yet. It is not a proof attempt and not a residual subtraction.
 
+## FJ60 source-payload selection
+
+| Payload lane | FJ60 status | Reason |
+|---|---|---|
+| Conditional \(\widetilde K_0(\mathbb Z[G])\)-vanishing | already recorded; not selected | remains conditional on Farrell--Jones through `FJ08`/`FJ09` |
+| Global weaker K-theoretic theorem for torsion-free one-relator groups | no payload | no exact source theorem or formulation comparison is recorded |
+| Cohen--Lyndon-style theorem payload | no payload | classical source names are not theorem payloads while marked `found; to verify` |
+| Prior-art blocker for candidate production | no payload | no candidate or theorem payload exists for comparison |
+
+`FJ60` conclusion: the weaker consequence lane is inactive until a future
+module names an exact source payload. This records `OBL-T001-007` and closes
+the module portion of cycle 003 without a residual subtraction.
+
 ## Candidate intake checklist
 
 For every future candidate row, record:
@@ -135,7 +154,8 @@ For every future candidate row, record:
 | `OBL-T001-003` | active obstruction | `FJ56` | No live non-routed kernel-control candidate is currently present in the candidate inventory. Existing concrete rows are calibration-only or already removed through `FJ26`; the remaining template row is not a mathematical candidate. | Use `FJ57` either to promote a repository-supported non-routed candidate or to record the no-candidate obstruction precisely. | Stop the hybrid packet if no real candidate, bridge lemma, or obstruction beyond this inventory can be recorded. |
 | `OBL-T001-004` | active obstruction | `FJ57` | The selected `RB-003` + `RB-004`/`RB-008` hybrid packet is blocked at candidate production. | `FJ58` checked replacement lanes and recorded `OBL-T001-005`; reactivation now requires new candidate-level data. | Do not reactivate the hybrid packet unless a real candidate, concrete computation, bridge lemma, or prior-art comparison is recorded. |
 | `OBL-T001-005` | active obstruction | `FJ58` | No active candidate-production lane is currently ready for `T-001`. | `FJ59` completed the bounded weaker \(K_0\) / Cohen--Lyndon consequence intake and recorded `OBL-T001-006`. | Stop any candidate-level claim unless a real candidate, checked bridge, computation, formulation-safe application, non-hyperbolic geometric bridge, or prior-art comparison is recorded. |
-| `OBL-T001-006` | active obstruction | `FJ59` | No weaker \(K_0\) / Cohen--Lyndon source payload is currently recorded for `T-001`. | Use `FJ60` to select one exact source payload or close the lane as inactive until a source is named. | Stop if the next module cannot name an exact theorem statement, hypotheses, formulation level, and project object changed. |
+| `OBL-T001-006` | superseded for next-action purposes | `FJ59` | No weaker \(K_0\) / Cohen--Lyndon source payload is currently recorded for `T-001`. | `FJ60` checked the source-payload lane and recorded `OBL-T001-007`. | Stop if a future module cannot name an exact theorem statement, hypotheses, formulation level, and project object changed. |
+| `OBL-T001-007` | active obstruction | `FJ60` | The weaker \(K_0\) / Cohen--Lyndon consequence lane is inactive after no exact source payload was available for selection. | Use the cycle-003 reflection to decide the next project move. Reopen this lane only with an exact source payload. | Do not continue the weaker consequence lane through source summaries or theorem names alone. |
 
 ## Non-use warnings
 
@@ -144,10 +164,10 @@ For every future candidate row, record:
   residual subtractions.
 - Do not use `TPL-RB003-004-008` as a mathematical candidate; it is a
   placeholder for future module work.
-- Do not open a source-summary module unless a row above changes or a new
-  candidate row is justified.
+- Do not open a source-summary module unless a row above changes, a new
+  candidate row is justified, or an exact source payload changes a project
+  object.
 
 ## Next update
 
-`FJ60` should select one exact weaker consequence source payload or close the
-lane as inactive until a source is named.
+`reflections/cycle_003_reflection.md` should decide the next project move.

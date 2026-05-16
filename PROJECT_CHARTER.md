@@ -869,7 +869,22 @@ The route decision after `FJ59` is to record `OBL-T001-006`: no weaker
 The lane may continue only as a bounded source-payload selection, not as a
 proof attempt or residual subtraction.
 
-The next step is `FJ60`, Weaker Consequence Source-Payload Selection.
+Current status: `FJ60` has first-pass coverage as Weaker Consequence
+Source-Payload Selection. It checks the repository's bibliography, source
+status ledger, and candidate inventory for an exact weaker \(K_0\) /
+Cohen--Lyndon payload. No payload is available for selection: the existing
+\(K_0\)-level statements remain conditional on Farrell--Jones, and the
+classical one-relator sources are still only located or queued for later
+verification in this lane.
+
+The route decision after `FJ60` is to record `OBL-T001-007`: the weaker
+\(K_0\) / Cohen--Lyndon consequence lane is inactive until a future module
+names an exact source, theorem statement, hypotheses, formulation level, and
+project object changed. This makes no residual subtraction and does not
+resolve `OQ-024`.
+
+`FJ60` closes the module portion of cycle 003. The next step is
+`reflections/cycle_003_reflection.md`.
 
 ## GitHub persistence policy
 

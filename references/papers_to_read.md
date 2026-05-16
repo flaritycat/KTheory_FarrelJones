@@ -80,12 +80,13 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ60`, Weaker Consequence Source-Payload Selection.
-Start from `FJ08`, `FJ09`, `FJ19`, `FJ21`, `FJ59`, `OQ-081`,
-`OBL-T001-006`, `BIBLIOGRAPHY.md`, `ledgers/source_status.md`, and
-`ledgers/t001_candidate_inventory.md`. Do not summarize several classical
-sources. Select one exact source payload for follow-up verification, or close
-the weaker consequence lane as inactive until a source is named.
+Next project task: `reflections/cycle_003_reflection.md`.
+
+`FJ60` closed the weaker \(K_0\) / Cohen--Lyndon consequence lane as inactive
+because no exact source payload is recorded. Do not begin another source
+summary before the reflection decides the next project move. A future source
+task should name an exact theorem, hypotheses, formulation level, and project
+object changed before reading begins.
 
 ## Reading protocol
 

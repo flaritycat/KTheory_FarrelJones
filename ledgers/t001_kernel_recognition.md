@@ -272,6 +272,14 @@ data remain dormant until a candidate, computation, or source-ready bridge is
 recorded. The weaker \(K_0\) / Cohen--Lyndon intake creates no kernel-control
 candidate.
 
+## FJ60 source-payload selection update
+
+`FJ60` does not change kernel-recognition status. It closes the weaker
+\(K_0\) / Cohen--Lyndon lane as inactive until an exact source payload is
+named. Brown/BNS/Karrass--Solitar data remain dormant until a concrete
+candidate, \(\Sigma(G)\)-membership computation, or source-ready finitely
+presented normal subgroup is recorded.
+
 ## Next action
 
-Continue with `FJ60`, Weaker Consequence Source-Payload Selection.
+Write `reflections/cycle_003_reflection.md`.

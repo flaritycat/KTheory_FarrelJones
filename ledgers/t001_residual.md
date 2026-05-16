@@ -43,7 +43,9 @@ replacement candidate-production lane is currently ready and creates
 `OBL-T001-005`, sending the project to a bounded weaker \(K_0\) /
 Cohen--Lyndon consequence intake. `FJ59` records that no weaker \(K_0\) /
 Cohen--Lyndon source payload is currently available and creates
-`OBL-T001-006`.
+`OBL-T001-006`. `FJ60` checks the source-payload selection lane, records no
+exact payload, and creates `OBL-T001-007`, closing the weaker consequence
+lane as inactive until a source is named.
 
 ## Warning
 
@@ -686,4 +688,28 @@ payload is currently recorded for `T-001`.
 
 ## Next action after FJ59
 
-Begin `FJ60`, Weaker Consequence Source-Payload Selection.
+At this point the next module was `FJ60`, Weaker Consequence Source-Payload
+Selection.
+
+## FJ60 weaker consequence source-payload selection update
+
+`FJ60` checks whether the repository contains an exact weaker \(K_0\) /
+Cohen--Lyndon payload for selection.
+
+Outcome:
+
+- no exact weaker consequence source payload is currently recorded;
+- `FJ08`, `FJ09`, and `ER-007` remain conditional theorem maps from
+  Farrell--Jones;
+- classical one-relator source names do not count as payloads while their
+  theorem statements remain unverified for this lane;
+- `OQ-081` is resolved by closure rather than by payload selection;
+- no residual bucket is removed by `FJ60`.
+
+`FJ60` records `OBL-T001-007`: the weaker \(K_0\) / Cohen--Lyndon lane is
+inactive until a future module names an exact source, theorem statement,
+hypotheses, formulation level, and project object changed.
+
+## Next action after FJ60
+
+Write `reflections/cycle_003_reflection.md`.
