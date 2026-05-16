@@ -284,6 +284,16 @@ defines target-pivot criteria for the post-`T-001` pause state, records
 satisfied by a later target-pivot matrix or another permitted reactivation
 object.
 
+## FJ68 target-pivot matrix update
+
+`FJ68` does not reactivate `T-001`. The target-pivot matrix keeps `T-001` as
+a dormant comparator because no candidate-admissible row, exact source
+payload, bridge, computation, prior-art blocker, or explicit reselection
+object satisfies `OBL-T001-013`.
+
+The active bounded target packet after `FJ68` is `A-001`, Artin
+subclass-gap inventory after `FJ18`.
+
 ## Non-use warnings
 
 - Do not fabricate candidate families.
@@ -297,4 +307,5 @@ object.
 
 ## Next update
 
-Begin `FJ68`, Target-Pivot Candidate Matrix.
+No active `T-001` update is scheduled. `T-001` remains dormant unless
+`OBL-T001-013` is satisfied.

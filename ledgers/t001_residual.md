@@ -811,6 +811,14 @@ target-pivot criteria for possible post-`T-001` targets, records
 `OBL-PIVOT-001`, and keeps `T-001` dormant unless the `OBL-T001-013`
 reactivation gate is satisfied.
 
-## Next action after FJ67
+## FJ68 target-pivot matrix update
 
-Begin `FJ68`, Target-Pivot Candidate Matrix.
+`FJ68` records no `T-001` residual subtraction and no new theorem. It applies
+the target-pivot matrix, keeps `T-001` dormant because `OBL-T001-013` is not
+satisfied, and selects `A-001`, Artin subclass-gap inventory after `FJ18`, as
+the active bounded target packet.
+
+## Next action after FJ68
+
+No active `T-001` residual action is scheduled. `T-001` remains dormant
+unless `OBL-T001-013` is satisfied.

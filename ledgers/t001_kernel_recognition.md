@@ -297,6 +297,12 @@ presented normal subgroup is recorded.
 data remain dormant `T-001` resources, not a reason to reactivate `T-001`
 without satisfying `OBL-T001-013`.
 
+## FJ68 target-pivot matrix update
+
+`FJ68` does not change kernel-recognition status and does not reactivate
+`T-001`. Brown/BNS/Karrass--Solitar data remain dormant until
+`OBL-T001-013` is satisfied.
+
 ## Next action
 
-Begin `FJ68`, Target-Pivot Candidate Matrix.
+No active kernel-recognition action is scheduled for `T-001`.

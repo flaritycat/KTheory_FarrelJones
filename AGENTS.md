@@ -91,6 +91,12 @@ After `FJ67`, no new active target has been selected. The next step is
 before selecting any target packet, and it must keep dormant `T-001` inactive
 unless the matrix explicitly reselects it through `OBL-T001-013`.
 
+After `FJ68`, the active bounded target packet is `A-001`, Artin
+subclass-gap inventory after `FJ18`. The next step is `FJ69`, Artin
+Subclass-Gap Inventory After FJ18. Do not claim Farrell--Jones for all Artin
+groups; `FJ69` must inventory covered, gap, deferred, and
+formulation-unclear rows from existing repository records first.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -107,7 +113,8 @@ Current module handoff:
 - `FJ65`: Prior-Art / Branch-Readiness Checkpoint is completed.
 - `FJ66`: T-001 Branch Checkpoint is completed.
 - `FJ67`: Target-Pivot Criteria After T-001 Pause is completed.
-- `FJ68`: Target-Pivot Candidate Matrix is next.
+- `FJ68`: Target-Pivot Candidate Matrix is completed.
+- `FJ69`: Artin Subclass-Gap Inventory After FJ18 is next.
 
 Current obstruction:
 
@@ -158,6 +165,10 @@ Current obstruction:
   candidate-level object, Farrell--Jones relevance, formulation-safety flags,
   known-route overlap, prior-art risk, expected project output, stop
   condition, and explicit decision.
+- `OBL-ARTIN-001`: `FJ69` must produce an Artin subclass-gap inventory from
+  existing repository records before beginning any new Artin source-summary
+  lane. It must preserve source formulation labels and must not promote a
+  global all-Artin theorem.
 
 ## Repository Hygiene
 

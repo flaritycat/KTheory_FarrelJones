@@ -1050,9 +1050,41 @@ satisfied. Artin groups, automatic / biautomatic groups, Thompson-type
 groups, and dormant `T-001` are possible inputs to the next comparison, but
 none is selected by `FJ67`.
 
-The next step is `FJ68`, Target-Pivot Candidate Matrix. It should apply the
-`FJ67` criteria to the currently recorded possible targets and either select
-one bounded target packet or record that no target is ready.
+At this point, the next step was `FJ68`, Target-Pivot Candidate Matrix.
+
+## FJ68 target-pivot candidate matrix
+
+Current status: `FJ68` has first-pass coverage as the Target-Pivot Candidate
+Matrix module. It applies `OBL-PIVOT-001` to the currently recorded possible
+targets: Artin groups, automatic / biautomatic groups, Thompson-type groups,
+and dormant `T-001`.
+
+The route decision after `FJ68` is to select exactly one bounded target
+packet:
+
+```text
+A-001. Artin subclass-gap inventory after FJ18
+```
+
+This is a project-selection result, not a mathematical theorem. It does not
+claim the Farrell--Jones conjecture for all Artin groups. It records only
+that Artin subclass-gap work is currently the only compared target with
+source-verified internal anchors, open project questions, and a bounded next
+object.
+
+`FJ68` defers automatic / biautomatic groups and Thompson-type groups because
+no exact source payload or bounded candidate object is recorded for them in
+the current repository. `T-001` remains dormant because the `OBL-T001-013`
+reactivation gate is not satisfied.
+
+`FJ68` records `OBL-ARTIN-001`: `FJ69` must produce an Artin subclass-gap
+inventory from existing repository records before beginning any new Artin
+source-summary lane.
+
+The next step is `FJ69`, Artin Subclass-Gap Inventory After FJ18. It should
+update `OQ-021`, sharpen `OQ-023`, and either select a bounded Artin
+follow-up packet or record that no Artin gap is ready without a new exact
+source payload.
 
 ## GitHub persistence policy
 
