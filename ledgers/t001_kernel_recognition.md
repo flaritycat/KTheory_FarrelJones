@@ -220,5 +220,6 @@ finds no current `FJCw` application for the Karrass--Solitar dihedral cleanup,
 and `FJ49` does not license a direct CAT(0) finite-extension bridge. The
 `FJ50` route-delta checkpoint pauses `RB-005` and selects `RB-006`. The
 `FJ51` source-selection module selects Louder--Wilton for a bounded `RB-006`
-boundary check. The active project move is `FJ52`, not a return to
-kernel-recognition.
+boundary check. `FJ52` finds no independent `RB-006` compact-special/CAT(0)
+route delta. The active project move is `FJ53`, a hyperbolic-overlap
+checkpoint, not a return to kernel-recognition.

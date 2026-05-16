@@ -72,7 +72,7 @@
 14. Karrass, A.; Solitar, D. *One relator groups having a finitely presented normal subgroup*. Status: active reference for `FJ39`--`FJ40`; main theorem checked for the finitely presented normal-subgroup bridge. `FJ40` records that this bridge is not an example generator without a separate finite-presentation input.
 15. Friedl, S.; Tillmann, S. *Two-generator one-relator groups and marked polytopes*. Status: background only for `FJ38`; metadata checked; not the immediate beyond-Brown source.
 16. Kielak, D. *The Bieri-Neumann-Strebel invariants via Newton polytopes*. Status: background/possible later source for `FJ38`; metadata checked; specialized hypotheses remain to verify before use.
-17. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: selected for `FJ52` boundary check; verify before using negative-immersion or primitivity-rank routes.
+17. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: active reference for `FJ52`; checked for \(\pi(w)>2\), negative immersions, low-rank subgroup consequences, and the hyperbolicity conjecture boundary.
 18. Serre, J.-P. *Trees*, chapter "Trees and Amalgams". Status: active reference for `FJ36`; Springer bibliographic and chapter metadata checked in `FJ35`; `FJ36` uses Serre as the canonical Bass--Serre source for the \(K_{p,q}\) freeness bridge.
 19. Carrasco, M.; Mackay, J. M. *Conformal dimension of hyperbolic groups that split over elementary subgroups*. Status: active auxiliary reference for `FJ36`; used for the graph-of-groups/Bass--Serre stabilizer formulation, citing Serre.
 20. Chiswell, I.; Mueller, T. *A universal construction for groups acting freely on real trees*. Status: active auxiliary reference for `FJ36`; used only for the free-action bridge.
@@ -80,10 +80,9 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ52`, Louder--Wilton negative-immersion boundary check
-for `RB-006`. Start from `FJ22`, `FJ23`, `FJ24`, `FJ51`, `OQ-073`, and the
-stop condition that hyperbolic-route overlap must not be counted as new
-`RB-006` progress.
+Next project task: `FJ53`, \(\pi(w)>2\) hyperbolic-overlap checkpoint. Start
+from `FJ22`, `FJ23`, `FJ52`, `OQ-074`, Linton's negative-immersion theorem,
+and Louder--Wilton's \(\pi(w)>2\) boundary check.
 
 ## Reading protocol
 

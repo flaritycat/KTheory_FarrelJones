@@ -757,8 +757,27 @@ route output, and overlap with `FJ23`. If the output is only hyperbolic-route
 input, record the overlap and pause this `RB-006` path rather than drifting
 into adjacent sources.
 
-The next step is `FJ52`, a Louder--Wilton negative-immersion boundary check
-for `RB-006`.
+The historical next step after `FJ51` was `FJ52`, a Louder--Wilton
+negative-immersion boundary check for `RB-006`.
+
+Current status: `FJ52` has first-pass coverage as the Louder--Wilton
+negative-immersion boundary check. It verifies that Louder--Wilton supplies
+the primitivity-rank/negative-immersion bridge and subgroup-structure
+consequences, but not a compact-special, virtually compact special, direct
+CAT(0), or hyperbolicity theorem. Hyperbolicity of negative-immersion
+one-relator groups belongs to the Linton source row already recorded in
+`FJ22`.
+
+The route decision after `FJ52` is that Louder--Wilton does not give an
+independent `RB-006` compact-special/CAT(0) route delta. Its useful project
+role is hyperbolic-route overlap: paired with Linton's negative-immersion
+theorem, the condition \(\pi(w)>2\) may feed the `FJ23` hyperbolic route, but
+that should be recorded as hyperbolic overlap rather than as new `RB-006`
+progress.
+
+The next step is `FJ53`, a \(\pi(w)>2\) hyperbolic-overlap checkpoint: decide
+whether to record a route-subtraction note through `FJ23` or mark the path as
+already absorbed by the existing negative-immersion route marker.
 
 ## GitHub persistence policy
 

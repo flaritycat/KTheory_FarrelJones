@@ -17,10 +17,10 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_003`.
 - Completed cycles: `cycle_001` and `cycle_002`.
-- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, and `FJ51`.
+- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, and `FJ52`.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md` and `reflections/cycle_002_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ52`, a Louder--Wilton negative-immersion boundary check for `RB-006`.
+- Current procedural target: begin `FJ53`, a \(\pi(w)>2\) hyperbolic-overlap checkpoint.
 
 ## Current established results
 
@@ -50,6 +50,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ49` source-checks the direct CAT(0) finite-extension bridge and does not promote it: Ruane records the finite-extension direction as a question, with cocompactness as the unresolved point.
 - `FJ50` pauses `RB-005` after its finite-index bridge sequence produces no residual subtraction and selects `RB-006` as the next bounded attack packet.
 - `FJ51` selects Louder--Wilton only as a bounded `RB-006` source-boundary check; no theorem from that source is imported yet.
+- `FJ52` checks Louder--Wilton and records no independent `RB-006` compact-special/CAT(0) route delta; its useful output is hyperbolic-route overlap through `FJ23`.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.
@@ -100,6 +101,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ49` checks the direct finite-dimensional CAT(0) finite-extension bridge and records it as unavailable for project route use: Ruane treats finite extensions of CAT(0)-groups as a question, not a theorem. No residual subtraction is made.
 - `FJ50` completes the `RB-005` route-delta checkpoint: `RB-005` is paused, no residual subtraction is made, and `FJ51` is selected to prepare an `RB-006` compact-special/CAT(0)-looking attack packet.
 - `FJ51` completes the `RB-006` source-selection attack packet: Louder--Wilton is selected for `FJ52` as a negative-immersion boundary check, with a stop condition against duplicating the hyperbolic route. No residual subtraction is made.
+- `FJ52` completes the Louder--Wilton boundary check: \(\pi(w)>2\) characterizes negative immersions, but the source does not itself prove hyperbolicity, compact specialness, or CAT(0) status. No `RB-006` subtraction is made.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements now use the nonconnective \(K\)-theory convention source-checked in `FJ02`, while preserving the `FJ01` black-box normalization for simplified examples.
 
