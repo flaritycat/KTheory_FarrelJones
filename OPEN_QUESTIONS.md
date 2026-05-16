@@ -4179,7 +4179,7 @@ is recorded.
 
 ### Status
 
-Open inside project; blocked until a new accepted payload is recorded.
+Resolved by `FJ86`.
 
 ### Context
 
@@ -4189,22 +4189,64 @@ mathematical payload unless it names a candidate, source theorem, bridge
 lemma, computation, formulation comparison, prior-art blocker, or other
 project object with success and stop criteria.
 
-No `FJ86` module is selected. A future module must be instantiated by a new
-accepted payload with exact target gate, changed project object, success
-criterion, failure criterion, and stop condition.
+On 2026-05-17, payload `PAY-T001-CAND-BS23-2026-001` was accepted for a
+candidate-intake audit of
+\[
+G_{BS23}=\langle a,t\mid t a^2t^{-1}a^{-3}\rangle.
+\]
+
+FJ86 records this as `CAND-T001-004`, a concrete but blocked intake row. It
+does not prove full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or a residual
+subtraction.
 
 ### Relevant modules
 
 - FJ82
 - FJ84
 - FJ85
+- FJ86
 
 ### Dependencies
 
-`ledgers/payload_intake_protocol.md`, `OBL-C5-006`,
+`ledgers/payload_intake_protocol.md`, `OBL-C5-006`, `OBL-C5-007`,
 `ledgers/theorem_dependencies.md`, `NOTATION_LEDGER.md`, and `AGENTS.md`.
 
 ### Next action
 
-No numbered module is currently selected. Record a new accepted payload
-before instantiating `FJ86`.
+Resolved by `FJ86`. Continue only through `OQ-108` if a new accepted payload
+is recorded.
+
+## OQ-108. Which accepted payload, if any, should instantiate FJ87 after the FJ86 G_BS23 candidate-intake audit?
+
+### Status
+
+Open inside project; blocked until a new accepted payload is recorded.
+
+### Context
+
+FJ86 records accepted candidate payload `PAY-T001-CAND-BS23-2026-001` and
+adds `CAND-T001-004` for \(G_{BS23}\). The audit records a concrete
+presentation and an epimorphism to \(\mathbb Z\), but it does not verify
+torsion-free status, kernel control, route output, or prior-art comparison.
+
+No `FJ87` module is selected. A future module must be instantiated by a new
+accepted payload with exact target gate, changed project object, success
+criterion, failure criterion, and stop condition.
+
+### Relevant modules
+
+- FJ82
+- FJ85
+- FJ86
+
+### Dependencies
+
+`ledgers/payload_intake_protocol.md`, `OBL-C5-007`, `OBL-T001-016`,
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
+`ledgers/theorem_dependencies.md`, `NOTATION_LEDGER.md`, and `AGENTS.md`.
+
+### Next action
+
+Record a new accepted payload before instantiating `FJ87`. A useful payload
+would check torsion-free/HNN status, Brown/BNS/kernel control, known-route
+overlap, or a prior-art blocker for `CAND-T001-004`.

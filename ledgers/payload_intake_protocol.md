@@ -77,6 +77,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-T001-K0-CL-2025-001` | `PAY-T001-BRIDGE` | accepted for `FJ83` only | Exact weaker \(K_0\) / Cohen--Lyndon source payload located for `OBL-C5-003`, `OBL-T001-013`, `OQ-081`, and `OBL-T001-007`; accepted only for source-hypothesis verification and not for full `T-001` or residual subtraction. |
 | `PAY-T001-K0-CL-HYP-2026-001` | `PAY-T001-BRIDGE` | accepted for `FJ84` only | Candidate/family-level hypothesis audit payload for the FJ83 weaker \(K_0\) / Cohen--Lyndon source. Accepted only to check current `T-001` candidate rows against the FJ83 hypothesis package, not for full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
 | `PAY-C5-GOV-NEXT-2026-001` | `PAY-GOV` | accepted for `FJ85` only | Governance payload interpreting "paste the next payload, then continue" after `FJ84`. Accepted only to record that no mathematical payload is present and to update the next gate; not for source work, proof work, or residual subtraction. |
+| `PAY-T001-CAND-BS23-2026-001` | `PAY-T001-CAND` | accepted for `FJ86` only | Concrete Baumslag--Solitar-type candidate-intake payload for \(G_{BS23}=\langle a,t\mid t a^2t^{-1}a^{-3}\rangle\). Accepted only for candidate-admissibility audit and ledger update; not for full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
 
 ## Accepted intake records
 
@@ -140,6 +141,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for FJ85 governance checkpoint only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ85_payload_authorship_checkpoint_after_FJ84.md` |
 
+### `PAY-T001-CAND-BS23-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-T001-CAND-BS23-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-T001-CAND` |
+| Target gate | `OQ-107`, `OBL-C5-006`, and `OBL-T001-013`. |
+| Candidate, source, bridge, computation, or blocker | Candidate group \(G_{BS23}=\langle a,t\mid t a^2 t^{-1}a^{-3}\rangle\). |
+| Exact statement or object | Run FJ86 as a candidate-intake audit for the Baumslag--Solitar-type one-relator group \(G_{BS23}\). Determine whether it is candidate-admissible for `T-001`, already removed by an existing route, blocked by missing torsion-free/proper-power/source data, or useful as an obstruction record. |
+| APA citation if external source is used | No external source is used by the payload. FJ86 must add citations if it uses a source to verify torsion-free status, HNN structure, prior art, or route status. |
+| Source-status label | No source checked by the payload; candidate object supplied for audit only. |
+| Hypotheses and formulation level | Torsion-free one-relator candidate audit only. Do not claim full Farrell--Jones, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. Verify relator/proper-power status, torsion-free status, known-route overlap, and prior-art risk before any promotion. |
+| Repository object changed | `ledgers/payload_intake_protocol.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `NOTATION_LEDGER.md`; `ledgers/open_group_classes.md`. |
+| Success criterion | FJ86 records whether \(G_{BS23}\) is candidate-admissible, already routed, blocked by missing data, or useful only as an obstruction. |
+| Failure criterion | The module cannot verify enough candidate data to classify the row, or the audit becomes a broad source summary. |
+| Stop condition | Stop after the candidate-admissibility audit and ledger update. Do not start a general Baumslag--Solitar or one-relator survey. |
+| Accepted? | Yes, for FJ86 candidate-intake audit only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ86_t001_candidate_intake_audit.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -184,9 +205,8 @@ accepted payload `PAY-T001-K0-CL-HYP-2026-001` instantiated `FJ84`.
 After `FJ84`, accepted governance payload `PAY-C5-GOV-NEXT-2026-001`
 instantiated `FJ85`.
 
-After `FJ85`, no `FJ86` module is selected. A future `FJ86` may be created
-only after a new accepted payload row is added above or an equivalent
-accepted payload is recorded in the relevant target ledger.
+After `FJ85`, accepted candidate-intake payload
+`PAY-T001-CAND-BS23-2026-001` instantiated `FJ86`.
 
 `FJ84` records that no currently recorded `T-001` candidate/family row is
 eligible for project use of the FJ83 weaker \(K_0\) / Cohen--Lyndon payload.
@@ -195,5 +215,12 @@ This is not a full `T-001` theorem and not a residual subtraction.
 `FJ85` records that the next payload after `FJ84` is governance-only. It does
 not reactivate a target, start source work, or create a mathematical claim.
 
-The latest intake attempt, `REJECTED-PAYLOAD-030`, does not change this
-state. No `FJ86` module is selected.
+`FJ86` records \(G_{BS23}\) as `CAND-T001-004`, a concrete but blocked
+candidate-intake row. It records no full `T-001` theorem and no residual
+subtraction. After `FJ86`, no `FJ87` module is selected. A future `FJ87` may
+be created only after a new accepted payload row is added above or an
+equivalent accepted payload is recorded in the relevant target ledger.
+
+The latest accepted payload, `PAY-T001-CAND-BS23-2026-001`, changes the
+state by instantiating `FJ86`; the earlier rejected intake attempts through
+`REJECTED-PAYLOAD-030` do not instantiate any module.

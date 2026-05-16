@@ -50,7 +50,12 @@ payload `PAY-T001-K0-CL-2025-001` and verifies a weaker \(K_0\) /
 Cohen--Lyndon source payload at first-pass level, but it records no full
 `T-001` result and no residual subtraction. `FJ84` then audits the current
 candidate inventory against that source-hypothesis package and records that
-no current row is FJ83-eligible; again no residual bucket is removed.
+no current row is FJ83-eligible; again no residual bucket is removed. `FJ86`
+records accepted payload `PAY-T001-CAND-BS23-2026-001` and adds the concrete
+candidate-intake row \(G_{BS23}=\langle a,t\mid t a^2t^{-1}a^{-3}\rangle\),
+but leaves it blocked by missing torsion-free source verification,
+kernel-control data, route output, and prior-art comparison; again no
+residual bucket is removed.
 `reflections/cycle_003_reflection.md`
 closes the third cycle and selects `FJ61` to set candidate-intake and exit
 criteria for the next `T-001` decision. `FJ61` records `OBL-T001-008`, the
@@ -88,11 +93,11 @@ cases not yet removed by the repository's current source-verified route data.
 | RB-001 | Groups that may be hyperbolic, CAT(0), virtually solvable, hyperbolic-by-cyclic, or inherited from known cases, but no bridge is recorded | The route exists only after the bridge is source-verified or proved internally | OQ-026, OQ-038 |
 | RB-002 | Locally indicable-only torsion-free one-relator data | Local indicability is structural and is not a Farrell--Jones theorem route in the project | OQ-026 |
 | RB-003 | One-relator hierarchy-only data from the Linton vocabulary | A hierarchy is not automatically a bridge to hyperbolicity, CAT(0), virtual solvability, a mapping torus, or an inheritance row | OQ-038, OQ-039 |
-| RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge | OQ-036 |
+| RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge. `FJ86` adds \(G_{BS23}\) as a blocked intake row with an epimorphism to \(\mathbb Z\), but no kernel-control bridge. | OQ-036 |
 | RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ50` pauses this bucket after the `FJCw` application audit and direct CAT(0) finite-extension check produce no residual subtraction | OQ-032, OQ-068, OQ-069, OQ-070, OQ-071 |
 | RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | Selected by `FJ50`; `FJ52` checks Louder--Wilton and finds no independent compact-special/CAT(0) route delta; WIP / provisional `FJ53` records \(\pi(w)>2\) only as hyperbolic overlap through `FJ23`; `FJ54` demotes this bucket as provisionally non-subtractive pending a genuinely non-hyperbolic bridge | OQ-033, OQ-072, OQ-073, OQ-074, OQ-075 |
 | RB-007 | Virtually solvable-looking one-relator cases without a recognition source | `FJ25` deliberately does not classify virtually solvable one-relator groups | OQ-034 |
-| RB-008 | Countable-free-kernel or extension cases without exact inheritance data | `FJ27` requires the exact sequence, quotient status, and source version flag | OQ-037 |
+| RB-008 | Countable-free-kernel or extension cases without exact inheritance data | `FJ27` requires the exact sequence, quotient status, and source version flag. `FJ86` does not identify the \(G_{BS23}\) kernel type, so no extension inheritance row is available. | OQ-037 |
 
 ## Candidate next attack surfaces
 
@@ -870,3 +875,26 @@ Residual-bucket effect:
 
 The weaker \(K_0\) / Cohen--Lyndon lane remains non-subtractive after the
 candidate audit.
+
+## FJ86 G_BS23 candidate-intake update
+
+`FJ86` records accepted payload `PAY-T001-CAND-BS23-2026-001` and adds
+`CAND-T001-004`:
+\[
+G_{BS23}=\langle a,t\mid t a^2t^{-1}a^{-3}\rangle.
+\]
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed;
+- no torsion-free one-relator class is promoted to full Farrell--Jones;
+- no coefficient K-theory FJC, `FJCw`, `FICwF`, or full \(\mathcal{FJ}\)
+  route is added;
+- the row is relevant to `RB-004` because it has an epimorphism
+  \(\chi(t)=1,\chi(a)=0\) to \(\mathbb Z\);
+- the row is relevant to `RB-008` only as an uncertainty, because the kernel
+  type and extension-theorem fit are not recorded;
+- torsion-free status, route output, and prior-art comparison remain blocked.
+
+The \(G_{BS23}\) row is therefore a concrete intake object, not a route
+result and not a residual subtraction.

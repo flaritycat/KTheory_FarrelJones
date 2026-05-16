@@ -1532,7 +1532,37 @@ bucket.
 payload type `PAY-GOV`, records `OBL-C5-006` blocking `FJ86` without a new
 accepted payload, and creates `OQ-107`.
 
-The next project move is not a numbered module. A future `FJ86` may be
+The next project move after `FJ85` was not automatic. It became `FJ86` only
+after accepted candidate payload `PAY-T001-CAND-BS23-2026-001` was recorded
+under the payload protocol.
+
+## FJ86 T-001 candidate intake audit for G_BS23
+
+Current status: `FJ86` has first-pass coverage as the T-001 Candidate Intake
+Audit for \(G_{BS23}\). It checks no external source and makes no
+Farrell--Jones theorem claim.
+
+`FJ86` records accepted payload `PAY-T001-CAND-BS23-2026-001`, whose object
+is the Baumslag--Solitar-type one-relator presentation
+\[
+G_{BS23}=\langle a,t\mid ta^2t^{-1}a^{-3}\rangle.
+\]
+
+The FJ86 decision is conservative. The payload supplies a concrete
+one-relator candidate and an epimorphism to \(\mathbb Z\), but the repository
+does not yet source-verify torsion-free status, compute Brown/BNS or kernel
+control data, identify a hyperbolic/CAT(0)/virtually solvable/finite-index
+route, or record prior-art comparison. FJ86 therefore records
+`CAND-T001-004` as a concrete blocked intake row, not as an active proof
+success row.
+
+`FJ86` resolves `OQ-107`, completes `OBL-C5-006` for FJ86, records
+`OBL-T001-016` for any later use of `CAND-T001-004`, records `OBL-C5-007`
+blocking `FJ87` without a new accepted payload, creates `OQ-108`, and makes
+no full `T-001` claim, no coefficient FJC claim, no `FJCw` or `FICwF` claim,
+and no residual subtraction.
+
+The next project move is not a numbered module. A future `FJ87` may be
 instantiated only after a new accepted payload is recorded under
 `ledgers/payload_intake_protocol.md` or in the relevant target ledger.
 
