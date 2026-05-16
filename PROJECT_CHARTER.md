@@ -1101,9 +1101,32 @@ Artin subclass outside the `FJ18` rows is currently candidate-ready.
 two `FJ18` source-verified rows into `ledgers/known_classes.md`. It makes no
 new external source check and no global all-Artin theorem claim.
 
-The next step is `FJ70`, Wu Clique-Reduction Candidate Filter for Artin Gap
-Rows. It should test whether `ART-GAP-003` can produce a bounded candidate
-from existing records, or record that no current Wu-filter candidate exists.
+The next step after `FJ69` was `FJ70`, Wu Clique-Reduction Candidate Filter
+for Artin Gap Rows. Its task was to test whether `ART-GAP-003` could produce
+a bounded candidate from existing records, or record that no current
+Wu-filter candidate exists.
+
+## FJ70 Wu clique-reduction candidate filter
+
+Current status: `FJ70` has first-pass coverage as the Wu Clique-Reduction
+Candidate Filter for Artin Gap Rows module. It uses only existing
+repository records and does not re-check Wu's source.
+
+The route decision after `FJ70` is that the current repository has no
+Wu-filter candidate. The already recorded Wu rows are covered under `FJ18`;
+the remaining Artin gap rows are global or placeholder rows and do not name a
+finite graph, graph family, or subclass with clique-subgroup data.
+
+`FJ70` resolves `OQ-092`, updates `OQ-023`, completes `OBL-ARTIN-002`,
+records `OBL-ARTIN-003`, and makes no global all-Artin theorem claim. The
+Wu lane may be reactivated only with a named source payload: graph/subclass,
+finite positive-even hypotheses, clique data, formulation safety, and
+prior-art-overlap notes.
+
+The next step is `FJ71`, Artin Branch Checkpoint After Wu Filter. It should
+decide whether to pause the active Artin packet, select a named
+source-payload acquisition task, return to target-pivot comparison, or
+continue through a concrete repository object.
 
 ## GitHub persistence policy
 

@@ -103,6 +103,12 @@ Clique-Reduction Candidate Filter for Artin Gap Rows. `FJ70` must test
 `ART-GAP-003` from existing records; allowed outputs are a candidate row, an
 exact source-payload requirement, or a no-current-candidate note.
 
+After `FJ70`, no current Wu-filter candidate is recorded from existing Artin
+gap rows. The Wu lane may be reactivated only by a named finite graph,
+graph family, or subclass with clique data, formulation safety, and a
+project object changed. The next step is `FJ71`, Artin Branch Checkpoint
+After Wu Filter, not another Artin source summary.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -121,7 +127,9 @@ Current module handoff:
 - `FJ67`: Target-Pivot Criteria After T-001 Pause is completed.
 - `FJ68`: Target-Pivot Candidate Matrix is completed.
 - `FJ69`: Artin Subclass-Gap Inventory After FJ18 is completed.
-- `FJ70`: Wu Clique-Reduction Candidate Filter for Artin Gap Rows is next.
+- `FJ70`: Wu Clique-Reduction Candidate Filter for Artin Gap Rows is
+  completed.
+- `FJ71`: Artin Branch Checkpoint After Wu Filter is next.
 
 Current obstruction:
 
@@ -180,6 +188,10 @@ Current obstruction:
   for `ART-GAP-003` without broad source accumulation. It must either name a
   candidate row from existing records, identify an exact source-payload
   requirement, or record no current candidate.
+- `OBL-ARTIN-003`: after `FJ70`, do not reactivate the Wu clique-reduction
+  lane without a named finite graph/subclass, clique data, formulation
+  safety, prior-art-overlap note, and changed project object, or a branch
+  decision pausing/redirecting the active Artin packet.
 
 ## Repository Hygiene
 
