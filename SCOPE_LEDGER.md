@@ -147,7 +147,8 @@ Unless explicitly imported later:
 97. Which foundational blocker, if any, should be selected after the target pauses? Tracked as `OQ-095`; first-pass resolved by `FJ73`, which selects `OQ-005` for fixed-point convention cleanup.
 98. Should weakly contractible and contractible fixed-point formulations be separated? Tracked as `OQ-005`; first-pass resolved by `FJ74`, which records `FND-CONV-001`.
 99. Should Farrell--Jones 1995 be directly verified for the virtually cyclic dichotomy? Tracked as `OQ-006`; first-pass resolved negatively by `FJ75`, which checks DOI metadata but does not access Lemma 2.5 text.
-100. Which foundational source-payload item, if any, should follow the `OQ-006` no-promotion result? Tracked as `OQ-096`; selected by `FJ75` for `FJ76`.
+100. Which foundational source-payload item, if any, should follow the `OQ-006` no-promotion result? Tracked as `OQ-096`; first-pass resolved by `FJ76`, which pauses the foundational source queue.
+101. Which target-pivot packet, if any, should follow the foundational source-queue pause? Tracked as `OQ-097`; selected by `FJ76` for `FJ77`.
 
 ## Established results
 
@@ -174,8 +175,8 @@ specialization of the additive-category coefficient convention recorded in
 `FJ02`. Here \(R\) is an associative unital ring and \(G\) is a discrete
 group unless stated otherwise.
 
-The active project target packet is `FND-004`, foundational source-queue
-checkpoint after `OQ-006` no-promotion. `T-001`, torsion-free one-relator
+The active project target packet is `PIVOT-003`, target-pivot readiness
+after the foundational source-queue pause. `T-001`, torsion-free one-relator
 residual gap analysis, remains unresolved but dormant after `FJ66`.
 
 ## What has been established
@@ -315,11 +316,16 @@ residual gap analysis, remains unresolved but dormant after `FJ66`.
   first pass, completes `OBL-FND-003`, records `FND-SRC-001`, records
   `OBL-FND-004`, selects `FND-004`, selects `FJ76`, and makes no
   Farrell--Jones theorem claim.
+- Module `FJ76` completes the foundational source-queue checkpoint after the
+  `OQ-006` no-promotion result. It selects no further foundational source
+  payload, records `FND-QUEUE-PAUSE-001`, resolves `OQ-096`, completes
+  `OBL-FND-004`, records `OBL-PIVOT-003`, selects `PIVOT-003`, selects
+  `FJ77`, and makes no Farrell--Jones theorem claim.
 
 ## Selected target
 
-Current active target packet: `FND-004`, foundational source-queue
-checkpoint after `OQ-006` no-promotion.
+Current active target packet: `PIVOT-003`, target-pivot readiness after the
+foundational source-queue pause.
 
 Previous first serious target: `T-001`, torsion-free one-relator residual
 gap analysis. After `FJ66`--`FJ68`, `T-001` is dormant rather than active. It
@@ -332,8 +338,7 @@ graph, graph family, subclass, source theorem, bridge object, formulation
 label, prior-art-overlap note, and changed project object.
 
 No group-class target is currently active. The current packet is a bounded
-checkpoint after a no-promotion source-access result: decide whether another
-exact foundational source payload is ready, or pause the foundational queue.
+target-pivot readiness check after the foundational source queue was paused.
 
 Cycle 002 identified which parts of the torsion-free one-relator target are
 removed by verified hyperbolic, finite-dimensional CAT(0), virtually
@@ -443,8 +448,13 @@ Current source toolkit:
   source check;
 - virtually cyclic original-source access: `FJ75` records `FND-SRC-001`,
   DOI-checked but no-promotion status for Farrell--Jones (1995), Lemma 2.5;
-- foundational source queue: `FJ76` should decide whether another exact
-  source payload is ready or whether to pause the queue;
+- foundational source queue: `FJ76` decides that no further exact
+  application-tethered source payload is ready and pauses the queue;
+- foundational queue pause: `FJ76` records `FND-QUEUE-PAUSE-001`; a future
+  foundations source module requires an exact payload, changed project
+  object, current proof/candidate/route need, and stop condition;
+- target-pivot readiness: `FJ77` should apply `OBL-PIVOT-003` after the
+  foundational queue pause;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -452,5 +462,4 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ76`, Foundational Source-Queue Checkpoint After `OQ-006`
-No-Promotion.
+Begin `FJ77`, Target-Pivot Readiness After Foundational Queue Pause.

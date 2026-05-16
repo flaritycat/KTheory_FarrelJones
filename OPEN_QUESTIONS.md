@@ -3695,7 +3695,7 @@ Resolved by `FJ73`. Continue with `OQ-005` and `FJ74`.
 
 ### Status
 
-Open inside project; selected by `FJ75` for `FJ76`.
+First-pass resolved by `FJ76`.
 
 ### Context
 
@@ -3707,6 +3707,11 @@ because one exact payload could not be promoted.
 `FJ76` must decide whether another exact foundational source-payload item is
 ready, or whether the foundational source queue should pause and return to
 target-pivot comparison.
+
+`FJ76` pauses the foundational source queue. The remaining foundational
+items are not both exact and application-tethered in the current project
+state, so selecting another source-reading module would risk source
+accumulation without mathematical progress.
 
 ### Relevant modules
 
@@ -3722,5 +3727,40 @@ target-pivot comparison.
 
 ### Next action
 
-Begin `FJ76`, Foundational Source-Queue Checkpoint After `OQ-006`
-No-Promotion.
+Resolved by `FJ76`. Continue with `OQ-097` and `FJ77`.
+
+## OQ-097. Which target-pivot packet, if any, should follow the foundational source-queue pause?
+
+### Status
+
+Open inside project; selected by `FJ76` for `FJ77`.
+
+### Context
+
+`FJ76` records `FND-QUEUE-PAUSE-001`: the foundational source queue is
+paused after the `OQ-006` no-promotion result because no remaining
+foundational source payload is both exact and application-tethered.
+
+The project must now return to target-pivot readiness rather than continue
+with passive source accumulation. Paused targets remain governed by their
+reactivation gates: `T-001` by `OBL-T001-013`, and the Artin lane by
+`OBL-ARTIN-004`.
+
+### Relevant modules
+
+- FJ66
+- FJ67
+- FJ71
+- FJ72
+- FJ76
+
+### Dependencies
+
+`SCOPE_LEDGER.md`, `ledgers/open_group_classes.md`,
+`ledgers/t001_candidate_inventory.md`,
+`ledgers/artin_subclass_gap_inventory.md`, `OBL-PIVOT-001`, and
+`OBL-PIVOT-003`.
+
+### Next action
+
+Begin `FJ77`, Target-Pivot Readiness After Foundational Queue Pause.

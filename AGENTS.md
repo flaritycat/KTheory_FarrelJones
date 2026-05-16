@@ -143,6 +143,15 @@ The next packet is `FND-004`, Foundational Source-Queue Checkpoint After
 source payload or pause the queue; it must not become a broad bibliography
 or foundations survey.
 
+After `FJ76`, the foundational source queue is paused under
+`FND-QUEUE-PAUSE-001`: no remaining foundational item is both exact and
+application-tethered in the current repository state. The next packet is
+`PIVOT-003`, Target-Pivot Readiness After Foundational Queue Pause. `FJ77`
+must select one bounded packet with a concrete project object, or record that
+no target is ready. Do not reactivate `T-001` without `OBL-T001-013`, the
+Artin lane without `OBL-ARTIN-004`, or the foundational source queue without
+the reactivation data required by `FND-QUEUE-PAUSE-001`.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -169,7 +178,8 @@ Current module handoff:
 - `FJ74`: Fixed-Point Convention Cleanup for Classifying Spaces is completed.
 - `FJ75`: Virtually Cyclic Dichotomy Source-Payload Check is completed.
 - `FJ76`: Foundational Source-Queue Checkpoint After `OQ-006` No-Promotion
-  is next.
+  is completed.
+- `FJ77`: Target-Pivot Readiness After Foundational Queue Pause is next.
 
 Current obstruction:
 
@@ -258,7 +268,12 @@ Current obstruction:
 - `OBL-FND-004`: `FJ76` must decide whether the foundational source queue
   contains another exact bounded source payload ready for action, or whether
   the foundational queue should pause and return to target-pivot comparison.
-  Do not launch a broad foundations or bibliography survey.
+  Do not launch a broad foundations or bibliography survey. `FJ76` completes
+  this by pausing the foundational source queue.
+- `OBL-PIVOT-003`: `FJ77` must run target-pivot readiness after the
+  foundational source-queue pause. It must select one bounded packet with a
+  concrete project object, or record that no target is ready; it must not
+  reactivate a paused target or the source queue without the relevant gate.
 
 ## Repository Hygiene
 

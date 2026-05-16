@@ -1258,9 +1258,36 @@ already checked Lueck--Reich survey statement from `FJ04`.
 `OBL-FND-003`, records `FND-SRC-001`, records `OBL-FND-004`, selects
 `FND-004`, and makes no Farrell--Jones theorem claim.
 
-The next step is `FJ76`, Foundational Source-Queue Checkpoint After `OQ-006`
-No-Promotion. It should decide whether another exact foundational
-source-payload item is ready, or whether the foundational queue should pause.
+The next step after `FJ75` was `FJ76`, Foundational Source-Queue Checkpoint
+After `OQ-006` No-Promotion. Its task was to decide whether another exact
+foundational source-payload item was ready, or whether the foundational queue
+should pause.
+
+## FJ76 foundational source-queue checkpoint after OQ-006 no-promotion
+
+Current status: `FJ76` has first-pass coverage as the Foundational
+Source-Queue Checkpoint After `OQ-006` No-Promotion module. It uses only
+current repository records and does not check a new external source.
+
+The source-queue decision after `FJ76` is to select no further foundational
+source payload. The remaining foundational items are either already adequate
+for first-pass use, closed for the current state, or too source-heavy without
+a current proof-sensitive application. Continuing the queue would risk
+literature bookkeeping without mathematical progress.
+
+`FJ76` records `FND-QUEUE-PAUSE-001`: the foundational source queue is
+paused until a later module names an exact source payload, the project object
+changed by checking it, the current proof/candidate/route need, and a stop
+condition.
+
+`FJ76` resolves `OQ-096`, completes `OBL-FND-004`, completes `FND-004`,
+records `OBL-PIVOT-003`, selects `PIVOT-003`, and makes no Farrell--Jones
+theorem claim.
+
+The next step is `FJ77`, Target-Pivot Readiness After Foundational Queue
+Pause. It should select one bounded next packet with a concrete project
+object, or record that no target is ready and name the next governance
+action.
 
 ## GitHub persistence policy
 
