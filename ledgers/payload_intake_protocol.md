@@ -78,6 +78,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-T001-K0-CL-HYP-2026-001` | `PAY-T001-BRIDGE` | accepted for `FJ84` only | Candidate/family-level hypothesis audit payload for the FJ83 weaker \(K_0\) / Cohen--Lyndon source. Accepted only to check current `T-001` candidate rows against the FJ83 hypothesis package, not for full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
 | `PAY-C5-GOV-NEXT-2026-001` | `PAY-GOV` | accepted for `FJ85` only | Governance payload interpreting "paste the next payload, then continue" after `FJ84`. Accepted only to record that no mathematical payload is present and to update the next gate; not for source work, proof work, or residual subtraction. |
 | `PAY-T001-CAND-BS23-2026-001` | `PAY-T001-CAND` | accepted for `FJ86` only | Concrete Baumslag--Solitar-type candidate-intake payload for \(G_{BS23}=\langle a,t\mid t a^2t^{-1}a^{-3}\rangle\). Accepted only for candidate-admissibility audit and ledger update; not for full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
+| `PAY-T001-BS23-TF-HNN-2026-001` | `PAY-T001-BRIDGE` | accepted for `FJ87` only | Bounded torsion-free / HNN status check for `CAND-T001-004`, \(G_{BS23}\). Accepted only to update candidate status; not for kernel control, full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
 
 ## Accepted intake records
 
@@ -161,6 +162,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for FJ86 candidate-intake audit only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ86_t001_candidate_intake_audit.md` |
 
+### `PAY-T001-BS23-TF-HNN-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-T001-BS23-TF-HNN-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-T001-BRIDGE` |
+| Target gate | `OQ-108`, `OBL-C5-007`, and `OBL-T001-016`. |
+| Candidate, source, bridge, computation, or blocker | Torsion-free / HNN status check for `CAND-T001-004`, \(G_{BS23}=\langle a,t\mid t a^2t^{-1}a^{-3}\rangle\). |
+| Exact statement or object | Continue with FJ87 by checking whether \(G_{BS23}\) is torsion-free. The module must use only a bounded HNN/Bass--Serre check and update candidate status, without computing the kernel or claiming a Farrell--Jones route. |
+| APA citation if external source is used | Carrasco, M., & Mackay, J. M. (2022). Conformal dimension of hyperbolic groups that split over elementary subgroups. *Inventiones Mathematicae, 227*, 795--854. https://doi.org/10.1007/s00222-021-01074-w. Serre, J.-P. (1980). Trees and amalgams. In *Trees* (pp. 1--68). Springer. https://doi.org/10.1007/978-3-642-61856-7_1. |
+| Source-status label | Existing active Bass--Serre source package from `FJ36`; no new external source checked in FJ87. |
+| Hypotheses and formulation level | Candidate-status verification only. The output may verify torsion-free / HNN status for `CAND-T001-004`, but must not claim full Farrell--Jones, coefficient FJC, `FJCw`, `FICwF`, full \(\mathcal{FJ}\), kernel control, prior-art closure, or residual subtraction. |
+| Repository object changed | `ledgers/payload_intake_protocol.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `NOTATION_LEDGER.md`; `ledgers/open_group_classes.md`; `BIBLIOGRAPHY.md`; `ledgers/source_status.md`. |
+| Success criterion | FJ87 records whether \(G_{BS23}\) is torsion-free, updates `CAND-T001-004`, and records the next gate without route promotion. |
+| Failure criterion | The module cannot justify the HNN/torsion-free status at first pass, or it expands into kernel-control, prior-art, or general Baumslag--Solitar source work. |
+| Stop condition | Stop after the torsion-free / HNN status audit and ledger update. Do not compute Brown/BNS data, identify a kernel type, audit prior art, or claim a Farrell--Jones route. |
+| Accepted? | Yes, for FJ87 torsion-free / HNN status check only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ87_gbs23_torsion_free_hnn_check.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -208,6 +229,9 @@ instantiated `FJ85`.
 After `FJ85`, accepted candidate-intake payload
 `PAY-T001-CAND-BS23-2026-001` instantiated `FJ86`.
 
+After `FJ86`, accepted torsion-free / HNN status payload
+`PAY-T001-BS23-TF-HNN-2026-001` instantiated `FJ87`.
+
 `FJ84` records that no currently recorded `T-001` candidate/family row is
 eligible for project use of the FJ83 weaker \(K_0\) / Cohen--Lyndon payload.
 This is not a full `T-001` theorem and not a residual subtraction.
@@ -217,10 +241,15 @@ not reactivate a target, start source work, or create a mathematical claim.
 
 `FJ86` records \(G_{BS23}\) as `CAND-T001-004`, a concrete but blocked
 candidate-intake row. It records no full `T-001` theorem and no residual
-subtraction. After `FJ86`, no `FJ87` module is selected. A future `FJ87` may
-be created only after a new accepted payload row is added above or an
-equivalent accepted payload is recorded in the relevant target ledger.
+subtraction.
 
-The latest accepted payload, `PAY-T001-CAND-BS23-2026-001`, changes the
-state by instantiating `FJ86`; the earlier rejected intake attempts through
+`FJ87` records \(G_{BS23}\) as torsion-free at first pass by an HNN /
+Bass--Serre argument. It does not compute kernel control, does not identify a
+Farrell--Jones route, and does not remove a residual bucket. After `FJ87`, no
+`FJ88` module is selected. A future `FJ88` may be created only after a new
+accepted payload row is added above or an equivalent accepted payload is
+recorded in the relevant target ledger.
+
+The latest accepted payload, `PAY-T001-BS23-TF-HNN-2026-001`, changes the
+state by instantiating `FJ87`; the earlier rejected intake attempts through
 `REJECTED-PAYLOAD-030` do not instantiate any module.

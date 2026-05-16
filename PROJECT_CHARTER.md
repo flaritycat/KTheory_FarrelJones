@@ -1562,7 +1562,43 @@ blocking `FJ87` without a new accepted payload, creates `OQ-108`, and makes
 no full `T-001` claim, no coefficient FJC claim, no `FJCw` or `FICwF` claim,
 and no residual subtraction.
 
-The next project move is not a numbered module. A future `FJ87` may be
+The next project move after `FJ86` was not automatic. It became `FJ87` only
+after accepted torsion-free / HNN payload
+`PAY-T001-BS23-TF-HNN-2026-001` was recorded under the payload protocol.
+
+## FJ87 G_BS23 torsion-free HNN check
+
+Current status: `FJ87` has first-pass coverage as the \(G_{BS23}\)
+Torsion-Free HNN Check. It uses the Bass--Serre source package already
+recorded in `FJ36` and checks no new external source.
+
+`FJ87` records accepted payload `PAY-T001-BS23-TF-HNN-2026-001`, whose object
+is to check whether
+\[
+G_{BS23}=\langle a,t\mid ta^2t^{-1}a^{-3}\rangle
+\]
+is torsion-free.
+
+The FJ87 decision is bounded. The group is the HNN extension of
+\(\langle a\rangle\cong\mathbb Z\) identifying \(\langle a^2\rangle\) with
+\(\langle a^3\rangle\). Its Bass--Serre tree has vertex stabilizers conjugate
+to \(\langle a\rangle\). Any finite-order element fixes a vertex of that
+tree and is therefore conjugate into \(\langle a\rangle\), so it is trivial.
+Thus `CAND-T001-004` is first-pass verified as torsion-free.
+
+This does not identify the kernel of \(\chi(t)=1,\chi(a)=0\), does not
+compute Brown/BNS data, does not identify a hyperbolic, CAT(0), virtually
+solvable, finite-index, or FJ83 weaker \(K_0\) route, and does not record a
+prior-art comparison.
+
+`FJ87` resolves `OQ-108`, completes `OBL-C5-007` for FJ87, partially
+completes `OBL-T001-016` only for the torsion-free-status component, records
+`OBL-T001-017` for any later route use of `CAND-T001-004`, records
+`OBL-C5-008` blocking `FJ88` without a new accepted payload, creates
+`OQ-109`, and makes no full `T-001` claim, no coefficient FJC claim, no
+`FJCw` or `FICwF` claim, and no residual subtraction.
+
+The next project move is not a numbered module. A future `FJ88` may be
 instantiated only after a new accepted payload is recorded under
 `ledgers/payload_intake_protocol.md` or in the relevant target ledger.
 

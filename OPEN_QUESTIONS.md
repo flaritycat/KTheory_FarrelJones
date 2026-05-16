@@ -4220,7 +4220,7 @@ is recorded.
 
 ### Status
 
-Open inside project; blocked until a new accepted payload is recorded.
+Resolved by `FJ87`.
 
 ### Context
 
@@ -4229,24 +4229,65 @@ adds `CAND-T001-004` for \(G_{BS23}\). The audit records a concrete
 presentation and an epimorphism to \(\mathbb Z\), but it does not verify
 torsion-free status, kernel control, route output, or prior-art comparison.
 
-No `FJ87` module is selected. A future module must be instantiated by a new
-accepted payload with exact target gate, changed project object, success
-criterion, failure criterion, and stop condition.
+On 2026-05-17, the request "Continue with FJ87 by checking whether G_BS23 is
+torsion-free" was accepted as payload `PAY-T001-BS23-TF-HNN-2026-001`.
+
+FJ87 verifies torsion-free / HNN status for `CAND-T001-004` at first pass.
+It does not compute kernel control, identify a Farrell--Jones route, audit
+prior art, or remove a residual bucket.
 
 ### Relevant modules
 
 - FJ82
 - FJ85
 - FJ86
+- FJ87
 
 ### Dependencies
 
-`ledgers/payload_intake_protocol.md`, `OBL-C5-007`, `OBL-T001-016`,
+`ledgers/payload_intake_protocol.md`, `OBL-C5-007`, `OBL-C5-008`,
+`OBL-T001-016`, `OBL-T001-017`,
 `ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
 `ledgers/theorem_dependencies.md`, `NOTATION_LEDGER.md`, and `AGENTS.md`.
 
 ### Next action
 
-Record a new accepted payload before instantiating `FJ87`. A useful payload
-would check torsion-free/HNN status, Brown/BNS/kernel control, known-route
-overlap, or a prior-art blocker for `CAND-T001-004`.
+Resolved by `FJ87`. Continue only through `OQ-109` if a new accepted payload
+is recorded.
+
+## OQ-109. Which accepted payload, if any, should instantiate FJ88 after the FJ87 G_BS23 torsion-free / HNN check?
+
+### Status
+
+Open inside project; blocked until a new accepted payload is recorded.
+
+### Context
+
+FJ87 verifies that `CAND-T001-004`, \(G_{BS23}\), is torsion-free at first
+pass by an HNN / Bass--Serre argument. The row remains blocked because the
+kernel of \(\chi(t)=1,\chi(a)=0\) is uncontrolled, no Brown/BNS data are
+computed, no hyperbolic/CAT(0)/virtually solvable/finite-index route is
+recorded, no FJ83 weaker \(K_0\) eligibility is checked, and no prior-art
+comparison is recorded.
+
+No `FJ88` module is selected. A future module must be instantiated by a new
+accepted payload with exact target gate, changed project object, success
+criterion, failure criterion, and stop condition.
+
+### Relevant modules
+
+- FJ82
+- FJ86
+- FJ87
+
+### Dependencies
+
+`ledgers/payload_intake_protocol.md`, `OBL-C5-008`, `OBL-T001-017`,
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
+`ledgers/theorem_dependencies.md`, `NOTATION_LEDGER.md`, and `AGENTS.md`.
+
+### Next action
+
+Record a new accepted payload before instantiating `FJ88`. A useful payload
+would check Brown/BNS/kernel control, known-route overlap, FJ83 weaker
+\(K_0\) eligibility, or a prior-art blocker for `CAND-T001-004`.

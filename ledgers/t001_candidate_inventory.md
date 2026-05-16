@@ -19,7 +19,8 @@ target-pivot refresh, and by `FJ77` with the post-foundational-pause
 target-pivot readiness checkpoint, by `FJ82` with the payload protocol, and
 by `FJ83` with the weaker \(K_0\) / Cohen--Lyndon source-payload update,
 and by `FJ84` with the candidate/family-level hypothesis audit for that
-payload, and by `FJ86` with the \(G_{BS23}\) candidate-intake audit.
+payload, by `FJ86` with the \(G_{BS23}\) candidate-intake audit, and by
+`FJ87` with the \(G_{BS23}\) torsion-free / HNN check.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -69,6 +70,13 @@ candidate-intake row: the presentation and epimorphism to \(\mathbb Z\) are
 recorded, but torsion-free status, kernel control, route output, and
 prior-art comparison are not source-verified. No full `T-001` theorem is
 claimed and no residual bucket is subtracted.
+
+Current status after `FJ87`: accepted payload
+`PAY-T001-BS23-TF-HNN-2026-001` verifies the torsion-free / HNN status of
+`CAND-T001-004` at first pass. The row remains blocked for route use because
+kernel control, known-route overlap, and prior-art comparison are still not
+recorded. No full `T-001` theorem is claimed and no residual bucket is
+subtracted.
 
 Current status after `reflections/cycle_003_reflection.md`: `T-001` remains
 important but is not currently candidate-ready. The next module is `FJ61`,
@@ -123,7 +131,7 @@ FJ route, a candidate family, a bridge lemma, or a documented obstruction?
 | `CAND-T001-001` | \(\langle x,y\mid xyx^{-1}y^{-1}\rangle\) | unknown in this inventory | Recorded as calibration example in `FJ31`; already non-residual | not used | known route overlap via virtually solvable status, not a new hyperbolic subtraction | not needed | Brown maximum-count test recorded in `FJ31`; \(\ker(\chi)\cong F_1\) | yes, \(\chi(x)=1,\chi(y)=0\) | finite-rank free | `FJ26` route available but redundant; `FJ25` already covers it | no new finite-index or `FJCw` use | high risk of double-counting as novelty | none; calibration only | stop if proposed as a new residual subtraction |
 | `CAND-T001-002` | \(G_{2,3}=\langle x,y\mid x^2y^{-3}\rangle\) | unknown in this inventory | Internally verified in `FJ33` | not used | not needed for recorded route | not needed | Brown full test recorded in `FJ33` | yes, \(\chi(x)=3,\chi(y)=2\) | finite-rank free, specifically \(F_2\) in `FJ33` | `FJ26` finite-rank free-by-cyclic route | formulation-safe through existing `FJ26` route, not a new `FJCw` case | already removed; novelty risk if reused | none; already routed | stop if proposed as a new residual subtraction |
 | `CAND-T001-003` | \(G_{p,q}=\langle x,y\mid x^p y^{-q}\rangle\), \(p,q\geq2\), \(\gcd(p,q)=1\) | unknown in this inventory | Internally verified for the recorded family route in `FJ36` | not used | not needed for recorded route | not needed | Brown-positive finite generation in `FJ34`; Bass--Serre freeness bridge in `FJ36` | yes, \(\chi_{p,q}(x)=q,\chi_{p,q}(y)=p\) | finite-rank free, rank not computed | `FJ26` finite-rank free-by-cyclic route | formulation-safe through existing `FJ26` route, not a new `FJCw` case | already removed; novelty risk if reused | none; already routed | stop if proposed as a new residual subtraction |
-| `CAND-T001-004` | \(G_{BS23}=\langle a,t\mid t a^2t^{-1}a^{-3}\rangle\) | no, first-pass internal length check in `FJ86` | not source-verified in `FJ86`; blocked for `T-001` proof use until torsion-free/HNN status is checked | not used | unknown from current repository records | unknown from current repository records | not computed | yes, \(\chi(t)=1,\chi(a)=0\) | unknown / uncontrolled | possible `FJ26` route only after finite-rank free or hyperbolic kernel data; none recorded | no full FJ, coefficient FJC, `FJCw`, `FICwF`, or weaker \(K_0\) promotion | high; Baumslag--Solitar-type prior-art comparison not checked | verify torsion-free status, kernel-control data, route overlap, or prior-art blocker | stop if treated as solved, routed, or residual-subtractive from intake data alone |
+| `CAND-T001-004` | \(G_{BS23}=\langle a,t\mid t a^2t^{-1}a^{-3}\rangle\) | no, first-pass internal length check in `FJ86` | first-pass verified in `FJ87` by HNN / Bass--Serre argument | not used | unknown from current repository records | unknown from current repository records | not computed | yes, \(\chi(t)=1,\chi(a)=0\) | unknown / uncontrolled | possible `FJ26` route only after finite-rank free or hyperbolic kernel data; none recorded | no full FJ, coefficient FJC, `FJCw`, `FICwF`, or weaker \(K_0\) promotion | high; Baumslag--Solitar-type prior-art comparison not checked | verify kernel-control data, known-route overlap, or prior-art blocker | stop if treated as solved, routed, or residual-subtractive from torsion-free status alone |
 | `TPL-RB003-004-008` | template placeholder only | unknown | unknown | unknown | unknown | unknown | not computed | unknown | unknown | none selected | unresolved | unrecorded | identify a real presentation or family before source work | stop unless future module supplies an actual candidate, bridge lemma, or obstruction |
 
 ## FJ56 kernel-control audit
@@ -237,7 +245,8 @@ For every future candidate row, record:
 | `OBL-T001-013` | active requirement | `FJ66` | Reactivation gate for paused `T-001`. | Reactivate only with a candidate-admissible row, exact source payload, bridge lemma, concrete computation, prior-art blocker object, or target-pivot comparison result explicitly reselecting `T-001`. | A source name, residual bucket label, or general desire to continue is insufficient. |
 | `OBL-T001-014` | completed for current inventory by `FJ84`; active as future theorem-promotion caution | `FJ83`; completed for current rows by `FJ84` | Future use of `PAY-T001-K0-CL-2025-001` had to map the exact weaker \(K_0\) / Cohen--Lyndon source hypotheses to a concrete `T-001` candidate or family before any promotion. `FJ84` performs this audit for the current inventory and finds no eligible row. | For current rows, no action remains. For future rows, use `OBL-T001-015`. | Stop if the source payload is treated as full Farrell--Jones, coefficient FJC, `FJCw`, `FICwF`, or a residual subtraction. |
 | `OBL-T001-015` | active requirement | `FJ84` | Future FJ83-payload use requires a new or amended `T-001` candidate/family row recording the full FJ83 hypothesis package. | Add or amend a concrete row with torsion-free status, regular-ring formulation, Cohen--Lyndon presentation or group-pair data, group-pair quotient data, normalizer data, finite cohomological dimension, coherent group-ring hypotheses, formulation safety, and prior-art overlap before any promotion. | Stop if the proposed row is a template, already routed case, source summary, or if it treats the payload as full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or a residual subtraction. |
-| `OBL-T001-016` | active requirement | `FJ86` | `CAND-T001-004` is a concrete \(G_{BS23}\) intake row, but FJ86 does not verify torsion-free status, kernel control, route output, or prior-art comparison. | Supply a later accepted payload checking torsion-free/HNN status, Brown/BNS/kernel-control data, known-route overlap, or a prior-art blocker. | Stop if \(G_{BS23}\) is treated as a solved Farrell--Jones case, an active route result, or a residual subtraction from intake data alone. |
+| `OBL-T001-016` | partially completed by `FJ87`; active as route-promotion caution | `FJ86`, `FJ87` | `CAND-T001-004` is a concrete \(G_{BS23}\) intake row. `FJ87` verifies torsion-free / HNN status at first pass, but kernel control, route output, and prior-art comparison remain unresolved. | For the remaining row, use `OBL-T001-017`: supply Brown/BNS/kernel-control data, known-route overlap, route bridge, or prior-art blocker before any promotion. | Stop if \(G_{BS23}\) is treated as a solved Farrell--Jones case, an active route result, or a residual subtraction from torsion-free status alone. |
+| `OBL-T001-017` | active requirement | `FJ87` | After torsion-free status is verified for `CAND-T001-004`, the row still lacks kernel-control data, known-route classification, formulation-safe route output, and prior-art comparison. | Supply a later accepted payload checking Brown/BNS/kernel type, hyperbolic/CAT(0)/virtually solvable/finite-index route overlap, FJ83 weaker \(K_0\) eligibility, or a prior-art blocker. | Stop if the next module repeats torsion-free verification or treats \(G_{BS23}\) as residual-subtractive without an approved route. |
 
 ## Cycle 003 reflection update
 
@@ -435,14 +444,30 @@ Audit result:
 
 | Candidate row | FJ86 status | Reason |
 |---|---|---|
-| `CAND-T001-004` | concrete blocked intake row | Presentation and epimorphism to \(\mathbb Z\) are recorded; torsion-free status, kernel control, route output, and prior-art comparison are not source-verified. |
+| `CAND-T001-004` | concrete blocked intake row at FJ86 | Presentation and epimorphism to \(\mathbb Z\) are recorded. At the FJ86 stage, torsion-free status, kernel control, route output, and prior-art comparison were not source-verified. FJ87 later resolves only the torsion-free / HNN item. |
 
 Conclusion: the row supplies a real object for future work, but it is not a
 route result and not a residual subtraction. Future use is governed by
 `OBL-T001-016`.
 
+## FJ87 G_BS23 torsion-free / HNN check
+
+`FJ87` records accepted payload `PAY-T001-BS23-TF-HNN-2026-001` and checks
+the torsion-free status of `CAND-T001-004`.
+
+Audit result:
+
+| Candidate row | FJ87 status | Reason |
+|---|---|---|
+| `CAND-T001-004` | torsion-free at first pass | The presentation is an HNN extension of \(\langle a\rangle\cong\mathbb Z\) with associated subgroups \(\langle a^2\rangle\) and \(\langle a^3\rangle\). The Bass--Serre tree has vertex stabilizers conjugate to \(\langle a\rangle\); any finite-order element fixes a vertex and is therefore conjugate into a torsion-free cyclic group. |
+
+Conclusion: torsion-free status is no longer the active blocker for
+`CAND-T001-004`. Kernel control, route output, formulation safety, and
+prior-art comparison remain unresolved. Future use is governed by
+`OBL-T001-017`.
+
 ## Next update
 
-No active `T-001` proof-target update is scheduled after `FJ86` unless a
-future accepted payload satisfies `OBL-T001-016` or otherwise satisfies
-`OBL-T001-013`. No `FJ87` module is selected without a new accepted payload.
+No active `T-001` proof-target update is scheduled after `FJ87` unless a
+future accepted payload satisfies `OBL-T001-017` or otherwise satisfies
+`OBL-T001-013`. No `FJ88` module is selected without a new accepted payload.
