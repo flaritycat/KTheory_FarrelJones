@@ -170,6 +170,7 @@ Use this template before instantiating a future numbered module.
 | `REJECTED-PAYLOAD-024` | 2026-05-17 | "Continue with the next best payload." | rejected / not an accepted payload | Repeated next-best-payload request after `REJECTED-PAYLOAD-023`; the best-rated next payload type remains `PAY-T001-CAND`, but no concrete candidate presentation or family, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition is supplied. | Keep `OQ-107` open; do not instantiate `FJ86`. |
 | `REJECTED-PAYLOAD-025` | 2026-05-17 | "Continue with the next best payload." | rejected / not an accepted payload | Repeated next-best-payload request after `REJECTED-PAYLOAD-024`; the request still names a preferred payload type rather than a concrete payload object. No candidate presentation or family, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition is supplied. | Keep `OQ-107` open; do not instantiate `FJ86`. |
 | `REJECTED-PAYLOAD-026` | 2026-05-17 | "Continue with the next best payload." | rejected / not an accepted payload | Repeated next-best-payload request after `REJECTED-PAYLOAD-025`; the request still identifies no concrete payload object. It does not name a candidate presentation or family, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-107` open; do not instantiate `FJ86`. |
+| `REJECTED-PAYLOAD-027` | 2026-05-17 | "Continue with the next best payload." | rejected / not an accepted payload | Repeated next-best-payload request after `REJECTED-PAYLOAD-026`; the request still identifies no concrete payload object. It does not name a candidate presentation or family, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-107` open; do not instantiate `FJ86`. |
 
 ## Current project state
 
@@ -191,5 +192,5 @@ This is not a full `T-001` theorem and not a residual subtraction.
 `FJ85` records that the next payload after `FJ84` is governance-only. It does
 not reactivate a target, start source work, or create a mathematical claim.
 
-The latest intake attempt, `REJECTED-PAYLOAD-026`, does not change this
+The latest intake attempt, `REJECTED-PAYLOAD-027`, does not change this
 state. No `FJ86` module is selected.
