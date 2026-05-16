@@ -222,6 +222,8 @@ and `FJ49` does not license a direct CAT(0) finite-extension bridge. The
 `FJ51` source-selection module selects Louder--Wilton for a bounded `RB-006`
 boundary check. `FJ52` finds no independent `RB-006` compact-special/CAT(0)
 route delta, and `FJ53` records the remaining \(\pi(w)>2\) use only as
-hyperbolic-route overlap through `FJ23`. The active project move is `FJ54`, a
-residual-bucket checkpoint after closing the Louder--Wilton `RB-006` path,
-not a return to kernel-recognition.
+hyperbolic-route overlap through `FJ23`. `FJ54` records that no residual
+bucket is candidate-ready enough for another source-only module. The active
+project move is `FJ55`, a `T-001` candidate-inventory and attack-packet
+builder, not a return to kernel-recognition unless that inventory selects a
+concrete `RB-004` candidate.

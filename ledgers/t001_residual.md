@@ -28,7 +28,9 @@ but imports no theorem from it. `FJ52` checks Louder--Wilton and records no
 independent `RB-006` route delta; the remaining value is hyperbolic-route
 overlap. `FJ53` records \(\pi(w)>2\) as an explicit hyperbolic-overlap
 criterion through `FJ23`, closes the Louder--Wilton `RB-006` path as
-non-subtractive, and makes no concrete residual subtraction.
+non-subtractive, and makes no concrete residual subtraction. `FJ54` records
+that no remaining bucket is candidate-ready enough for another source-only
+module and selects a candidate inventory for `FJ55`.
 
 ## Warning
 
@@ -68,6 +70,7 @@ cases not yet removed by the repository's current source-verified route data.
 | Compact special or CAT(0) cases beyond hyperbolicity | It targets a concrete geometric bridge bucket left open by `FJ24` | Needs one-relator cubulation/specialness sources beyond the first-pass Haglund--Wise bridge |
 | Virtually solvable one-relator recognition | It could convert `FJ25` from a conditional row into a more explicit example ledger | Needs a classification or recognition source |
 | Hierarchy-to-route extraction | It uses the adopted Linton hierarchy vocabulary to search for route bridges | Must not treat hierarchy language as a Farrell--Jones route without an additional source |
+| Candidate inventory and attack-packet builder | It forces named candidates or no-candidate artifacts before another source lane | Must classify items without pretending that a residual bucket itself is a theorem route |
 
 ## FJ29 selected attack surface
 
@@ -532,7 +535,24 @@ Outcome:
 - the Louder--Wilton `RB-006` path is closed as an independent
   compact-special/CAT(0) path.
 
+## FJ54 residual-bucket checkpoint update
+
+`FJ54` compares the residual buckets after the `RB-006` closure.
+
+Outcome:
+
+- `RB-004` remains useful but should not resume without a concrete candidate,
+  BNS computation, or finitely presented-kernel input;
+- `RB-005` remains paused until an actual finite-index case or bridge is
+  named;
+- the current Louder--Wilton `RB-006` path remains closed as an independent
+  compact-special/CAT(0) lane;
+- `RB-003`, `RB-007`, `RB-008`, `RB-001`, and `RB-002` are too broad to serve
+  as the immediate next source lane;
+- no residual bucket is removed by `FJ54`;
+- the next module is `FJ55`, a `T-001` candidate-inventory and attack-packet
+  builder.
+
 ## Next action
 
-Begin `FJ54`, a residual-bucket checkpoint after closing the Louder--Wilton
-`RB-006` path.
+Begin `FJ55`, a `T-001` candidate-inventory and attack-packet builder.

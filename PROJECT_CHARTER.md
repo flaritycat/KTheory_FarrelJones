@@ -791,10 +791,22 @@ for the recorded hyperbolic-overlap criterion, but the next move should not
 continue the same source lane unless a new concrete presentation word or
 separate geometric bridge is selected.
 
-The next step is `FJ54`, a residual-bucket checkpoint after the closed
-Louder--Wilton `RB-006` path. Its job is to decide which remaining attack
-packet, if any, should follow now that `RB-004`, `RB-005`, and the current
-`RB-006` lane have produced no new residual subtraction.
+The historical next step after `FJ53` was `FJ54`, a residual-bucket
+checkpoint after the closed Louder--Wilton `RB-006` path.
+
+Current status: `FJ54` has first-pass coverage as the post-`RB-006`
+residual-bucket checkpoint. It records that `RB-004`, `RB-005`, and the
+current `RB-006` lane remain useful but are not candidate-ready enough to
+justify another source-only module. It makes no residual subtraction and
+does not close the `T-001` target.
+
+The route decision after `FJ54` is to require a candidate inventory before
+opening another theorem-source lane. The next module should classify the
+current residual items by missing bridge and either select a concrete
+candidate-ready attack packet or write a no-candidate artifact.
+
+The next step is `FJ55`, a `T-001` candidate-inventory and attack-packet
+builder.
 
 ## GitHub persistence policy
 

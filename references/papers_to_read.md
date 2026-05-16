@@ -80,10 +80,11 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ54`, residual-bucket checkpoint after the closed
-Louder--Wilton `RB-006` path. Start from `FJ43`, `FJ50`, `FJ53`, `OQ-075`,
-`ledgers/t001_residual.md`, and
-`reflections/strategic_audit_after_cycle_002.md`.
+Next project task: `FJ55`, `T-001` candidate-inventory and attack-packet
+builder. Start from `FJ28`, `FJ36`, `FJ43`, `FJ50`, `FJ53`, `FJ54`,
+`OQ-076`, `ledgers/t001_residual.md`, `ledgers/open_group_classes.md`, and
+`ledgers/t001_kernel_recognition.md`. Do not open a new external source lane
+unless the inventory names a concrete candidate and missing source statement.
 
 ## Reading protocol
 
