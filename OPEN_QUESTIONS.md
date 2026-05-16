@@ -3888,15 +3888,14 @@ index. The only remaining numbered module in `cycle_004` is `FJ80`.
 
 ### Next action
 
-Resolved by `FJ80`. Continue with `OQ-101` and
-`reflections/cycle_004_reflection.md`.
+Resolved by `FJ80`. `OQ-101` is now resolved by
+`reflections/cycle_004_reflection.md`; continue with `OQ-102` and `FJ81`.
 
 ## OQ-101. What should the cycle-004 reflection select as the next project move after the no-target/no-source-ready closure path?
 
 ### Status
 
-Open inside project; selected by `FJ80` for
-`reflections/cycle_004_reflection.md`.
+First-pass resolved by `reflections/cycle_004_reflection.md`.
 
 ### Context
 
@@ -3905,8 +3904,9 @@ The numbered module portion of `cycle_004` is complete after `FJ80`.
 classes remain deferred, the foundational source queue remains paused, and
 `FJ53` remains WIP / provisional.
 
-The reflection should decide the next project posture without treating
-reflection readiness as target readiness.
+The reflection decides that cycle 005 should begin with a reactivation gate
+audit, not with a theorem source or proof attempt. It selects `C5-GATE-001`,
+records `OBL-C5-001`, and sends the project to `FJ81`.
 
 ### Relevant modules
 
@@ -3928,4 +3928,45 @@ the paused-gate records `OBL-T001-013`, `OBL-ARTIN-004`, and
 
 ### Next action
 
-Begin `reflections/cycle_004_reflection.md`.
+Resolved by `reflections/cycle_004_reflection.md`. Continue with `OQ-102`
+and `FJ81`.
+
+## OQ-102. Which recorded reactivation gate, if any, is satisfied at the start of cycle 005?
+
+### Status
+
+Open inside project; selected by `reflections/cycle_004_reflection.md` for
+`FJ81`.
+
+### Context
+
+Cycle 004 closes with no active group-class target and no active
+foundational source queue. `T-001` remains dormant under `OBL-T001-013`; the
+Artin lane remains paused under `OBL-ARTIN-004`; the foundational source
+queue remains paused under `FND-QUEUE-PAUSE-001`; automatic / biautomatic
+groups and Thompson-type groups remain deferred; and WIP / provisional
+`FJ53` remains provisional.
+
+`FJ81` should audit these gates and decide whether the repository contains a
+gate-satisfying payload. If none exists, it should record a payload-acquisition
+or project-pause decision.
+
+### Relevant modules
+
+- FJ66
+- FJ71
+- FJ76
+- FJ80
+- cycle-004 reflection
+
+### Dependencies
+
+`SCOPE_LEDGER.md`, `AGENTS.md`, `NOTATION_LEDGER.md`,
+`ledgers/theorem_dependencies.md`, `ledgers/cycle_004_handoff.md`,
+`ledgers/open_group_classes.md`, `ledgers/t001_candidate_inventory.md`,
+`ledgers/artin_subclass_gap_inventory.md`, `OBL-T001-013`,
+`OBL-ARTIN-004`, `FND-QUEUE-PAUSE-001`, and `OBL-C5-001`.
+
+### Next action
+
+Begin `FJ81`, Cycle-005 Reactivation Gate Audit.

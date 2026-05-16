@@ -1377,9 +1377,30 @@ remain unsatisfied.
 module portion of `cycle_004`, selects `C4-REFLECT-001`, and makes no
 Farrell--Jones theorem claim.
 
-The next artifact is `reflections/cycle_004_reflection.md`. It should close
-the cycle by recording what cycle 004 accomplished, what remains gated or
-paused, and what posture should govern the next cycle.
+The next artifact after `FJ80` was `reflections/cycle_004_reflection.md`.
+Its task was to close cycle 004 by recording what the cycle accomplished,
+what remains gated or paused, and what posture should govern the next cycle.
+
+## Cycle 004 reflection
+
+Current status: `reflections/cycle_004_reflection.md` has first-pass
+coverage as the cycle-004 reflection. It uses only current repository records
+and does not check a new external source.
+
+The reflection decision after cycle 004 is that the project should not
+reactivate a target, restart the foundational source queue, or finalize WIP /
+provisional `FJ53` merely because a new cycle begins. The cycle closed with
+`T-001` dormant under `OBL-T001-013`, the Artin lane paused under
+`OBL-ARTIN-004`, deferred group classes still deferred, and the foundational
+source queue paused under `FND-QUEUE-PAUSE-001`.
+
+The reflection resolves `OQ-101`, selects `C5-GATE-001`, records
+`OBL-C5-001`, selects `FJ81`, and makes no Farrell--Jones theorem claim.
+
+The next step is `FJ81`, Cycle-005 Reactivation Gate Audit. It should test
+whether any recorded reactivation gate is currently satisfiable from
+repository data, and if not, record the exact payload-acquisition or
+project-pause decision rather than starting a source summary.
 
 ## GitHub persistence policy
 

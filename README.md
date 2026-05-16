@@ -15,14 +15,15 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 ## Current module cycle
 
-- Active cycle: `cycle_004`, reflection pending.
-- Completed cycles: `cycle_001`, `cycle_002`, and `cycle_003`.
+- Active cycle: `cycle_005`.
+- Completed cycles: `cycle_001`, `cycle_002`, `cycle_003`, and
+  `cycle_004`.
 - Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, `FJ77`, `FJ78`, `FJ79`, and `FJ80`.
 - `FJ53` is retained as WIP / provisional.
-- Completed cycle reflections: `reflections/cycle_001_reflection.md`, `reflections/cycle_002_reflection.md`, and `reflections/cycle_003_reflection.md`.
+- Completed cycle reflections: `reflections/cycle_001_reflection.md`, `reflections/cycle_002_reflection.md`, `reflections/cycle_003_reflection.md`, and `reflections/cycle_004_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current active bounded project packet: `C4-REFLECT-001`, cycle-004 reflection.
-- Current procedural target: begin `reflections/cycle_004_reflection.md`.
+- Current active bounded project packet: `C5-GATE-001`, cycle-005 reactivation gate audit.
+- Current procedural target: begin `FJ81`, Cycle-005 Reactivation Gate Audit.
 
 ## Current established results
 
@@ -82,6 +83,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ78` completes the cycle-004 closure-readiness audit: it records that the remaining cycle slots should be used for handoff and reflection preparation, completes `OBL-C4-001`, selects `C4-HANDOFF-001`, records `OBL-C4-002`, and sends the project to `FJ79`, Cycle-004 Handoff Table and Gate Index.
 - `FJ79` completes the cycle-004 handoff table and gate index: it creates `ledgers/cycle_004_handoff.md`, resolves `OQ-099`, completes `OBL-C4-002`, selects `C4-FINAL-001`, records `OBL-C4-003`, and sends the project to `FJ80`, Final Pre-Reflection Closure Module.
 - `FJ80` completes the final pre-reflection closure module: it resolves `OQ-100`, completes `OBL-C4-003`, completes `C4-FINAL-001`, selects `C4-REFLECT-001`, and sends the project to `reflections/cycle_004_reflection.md`.
+- `reflections/cycle_004_reflection.md` closes cycle 004: it records that `T-001`, the Artin lane, deferred group classes, and the foundational source queue remain gated, resolves `OQ-101`, selects `C5-GATE-001`, records `OBL-C5-001`, and sends the project to `FJ81`, Cycle-005 Reactivation Gate Audit.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.
@@ -176,6 +178,7 @@ modules/cycle_001/                first 20 modules
 modules/cycle_002/                second module cycle, beginning with FJ21
 modules/cycle_003/                third module cycle, beginning with FJ41
 modules/cycle_004/                fourth module cycle, beginning with FJ61
+modules/cycle_005/                fifth module cycle, beginning with FJ81
 reflections/                      reflection reports after module cycles
 ledgers/                          known cases, inheritance, sources, dependencies
 ledgers/artin_subclass_gap_inventory.md Artin covered/gap/deferred inventory

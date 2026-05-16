@@ -176,6 +176,12 @@ next artifact is `reflections/cycle_004_reflection.md`; it must decide the
 next project posture from recorded gates and handoff data, not by importing a
 new source or reactivating a target.
 
+After `reflections/cycle_004_reflection.md`, cycle 004 is closed. The next
+packet is `C5-GATE-001`, Cycle-005 Reactivation Gate Audit. `FJ81` must
+audit the recorded gates and either select one gate-satisfying packet or
+record that no gate-ready payload exists. It must not begin a source summary,
+proof attempt, or target reactivation by preference.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -207,7 +213,8 @@ Current module handoff:
 - `FJ78`: Cycle-004 Closure-Readiness Audit is completed.
 - `FJ79`: Cycle-004 Handoff Table and Gate Index is completed.
 - `FJ80`: Final Pre-Reflection Closure Module is completed.
-- `reflections/cycle_004_reflection.md`: Cycle-004 Reflection is next.
+- `reflections/cycle_004_reflection.md`: Cycle-004 Reflection is completed.
+- `FJ81`: Cycle-005 Reactivation Gate Audit is next.
 
 Current obstruction:
 
@@ -317,6 +324,11 @@ Current obstruction:
   for `reflections/cycle_004_reflection.md` and select the reflection or
   record the exact blocker. It must not start a target lane or source queue.
   `FJ80` completes this and selects `C4-REFLECT-001`.
+- `OBL-C5-001`: `FJ81` must audit the recorded reactivation gates:
+  `OBL-T001-013`, `OBL-ARTIN-004`, `FND-QUEUE-PAUSE-001`, deferred
+  automatic / biautomatic groups, deferred Thompson-type groups, and WIP /
+  provisional `FJ53`. It must select one gate-satisfying packet or record
+  that no gate-ready payload exists.
 
 ## Repository Hygiene
 

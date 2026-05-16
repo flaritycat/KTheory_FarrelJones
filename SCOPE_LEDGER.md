@@ -152,7 +152,8 @@ Unless explicitly imported later:
 102. How should the remaining cycle-004 module slots be used after the no-target/no-source-ready decision? Tracked as `OQ-098`; first-pass resolved by `FJ78`, which sends the cycle toward handoff and reflection preparation.
 103. What handoff table and gate index should prepare `cycle_004` for its final module and reflection? Tracked as `OQ-099`; first-pass resolved by `FJ79`, which creates `ledgers/cycle_004_handoff.md`.
 104. Is `cycle_004` ready for reflection after final pre-reflection closure? Tracked as `OQ-100`; first-pass resolved by `FJ80`.
-105. What should the cycle-004 reflection select as the next project move after the no-target/no-source-ready closure path? Tracked as `OQ-101`; selected by `FJ80` for `reflections/cycle_004_reflection.md`.
+105. What should the cycle-004 reflection select as the next project move after the no-target/no-source-ready closure path? Tracked as `OQ-101`; first-pass resolved by `reflections/cycle_004_reflection.md`, which selects a cycle-005 reactivation gate audit.
+106. Which recorded reactivation gate, if any, is satisfied at the start of cycle 005? Tracked as `OQ-102`; selected by `reflections/cycle_004_reflection.md` for `FJ81`.
 
 ## Established results
 
@@ -179,7 +180,8 @@ specialization of the additive-category coefficient convention recorded in
 `FJ02`. Here \(R\) is an associative unital ring and \(G\) is a discrete
 group unless stated otherwise.
 
-The active project packet is `C4-REFLECT-001`, cycle-004 reflection.
+The active project packet is `C5-GATE-001`, cycle-005 reactivation gate
+audit.
 `T-001`, torsion-free one-relator
 residual gap analysis, remains unresolved but dormant after `FJ66`.
 
@@ -346,10 +348,15 @@ residual gap analysis, remains unresolved but dormant after `FJ66`.
   reflection, selects `C4-REFLECT-001`, selects
   `reflections/cycle_004_reflection.md`, and makes no Farrell--Jones theorem
   claim.
+- `reflections/cycle_004_reflection.md` closes cycle 004. It records that no
+  target or source queue is active, resolves `OQ-101`, selects
+  `C5-GATE-001`, records `OBL-C5-001`, selects `FJ81`, and makes no
+  Farrell--Jones theorem claim.
 
 ## Selected target
 
-Current active project packet: `C4-REFLECT-001`, cycle-004 reflection.
+Current active project packet: `C5-GATE-001`, cycle-005 reactivation gate
+audit.
 
 Previous first serious target: `T-001`, torsion-free one-relator residual
 gap analysis. After `FJ66`--`FJ68`, `T-001` is dormant rather than active. It
@@ -361,9 +368,8 @@ but a later module may reactivate it only through `OBL-ARTIN-004`: a named
 graph, graph family, subclass, source theorem, bridge object, formulation
 label, prior-art-overlap note, and changed project object.
 
-No group-class target is currently active. The current packet is the
-cycle-004 reflection after `FJ80` closed the numbered module portion of the
-cycle.
+No group-class target is currently active. The current packet is a cycle-005
+reactivation gate audit selected by the cycle-004 reflection.
 
 Cycle 002 identified which parts of the torsion-free one-relator target are
 removed by verified hyperbolic, finite-dimensional CAT(0), virtually
@@ -489,6 +495,8 @@ Current source toolkit:
   `reflections/cycle_004_reflection.md`;
 - cycle-004 reflection: `reflections/cycle_004_reflection.md` should decide
   the next project posture from the recorded gates and handoff ledger;
+- cycle-005 gate audit: `FJ81` should apply `OBL-C5-001` by checking whether
+  any recorded reactivation gate is satisfied from repository data;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -496,4 +504,4 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `reflections/cycle_004_reflection.md`.
+Begin `FJ81`, Cycle-005 Reactivation Gate Audit.
