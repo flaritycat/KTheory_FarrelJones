@@ -158,6 +158,7 @@ Use this template before instantiating a future numbered module.
 | `REJECTED-PAYLOAD-012` | 2026-05-16 | "Paste the next payload. Then continue" | rejected / not an accepted payload | Repeated generic continuation request after `REJECTED-PAYLOAD-011`; still no new accepted payload, mathematical candidate, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-107` open; do not instantiate `FJ86`. |
 | `REJECTED-PAYLOAD-013` | 2026-05-16 | "Paste the next payload. Then continue" | rejected / not an accepted payload | Repeated generic continuation request after `REJECTED-PAYLOAD-012`; still no new accepted payload, mathematical candidate, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-107` open; do not instantiate `FJ86`. |
 | `REJECTED-PAYLOAD-014` | 2026-05-16 | "Paste the next payload. Then continue" | rejected / not an accepted payload | Repeated generic continuation request after `REJECTED-PAYLOAD-013`; still no new accepted payload, mathematical candidate, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-107` open; do not instantiate `FJ86`. |
+| `REJECTED-PAYLOAD-015` | 2026-05-16 | "Paste the next payload. Then continue" | rejected / not an accepted payload | Repeated generic continuation request after `REJECTED-PAYLOAD-014`; still no new accepted payload, mathematical candidate, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-107` open; do not instantiate `FJ86`. |
 
 ## Current project state
 
@@ -179,5 +180,5 @@ This is not a full `T-001` theorem and not a residual subtraction.
 `FJ85` records that the next payload after `FJ84` is governance-only. It does
 not reactivate a target, start source work, or create a mathematical claim.
 
-The latest intake attempt, `REJECTED-PAYLOAD-014`, does not change this
+The latest intake attempt, `REJECTED-PAYLOAD-015`, does not change this
 state. No `FJ86` module is selected.
