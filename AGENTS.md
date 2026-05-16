@@ -182,6 +182,13 @@ audit the recorded gates and either select one gate-satisfying packet or
 record that no gate-ready payload exists. It must not begin a source summary,
 proof attempt, or target reactivation by preference.
 
+After `FJ81`, no recorded reactivation gate is satisfied. The next packet is
+`C5-PAYLOAD-001`, Payload Acquisition Protocol or Project-Pause Decision.
+`FJ82` must define allowable payload types, the repository object changed,
+and the stop condition, or record a project-pause decision. It must not begin
+source reading, target reactivation, or a proof attempt without an exact
+payload and changed project object.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -214,7 +221,8 @@ Current module handoff:
 - `FJ79`: Cycle-004 Handoff Table and Gate Index is completed.
 - `FJ80`: Final Pre-Reflection Closure Module is completed.
 - `reflections/cycle_004_reflection.md`: Cycle-004 Reflection is completed.
-- `FJ81`: Cycle-005 Reactivation Gate Audit is next.
+- `FJ81`: Cycle-005 Reactivation Gate Audit is completed.
+- `FJ82`: Payload Acquisition Protocol or Project-Pause Decision is next.
 
 Current obstruction:
 
@@ -328,7 +336,13 @@ Current obstruction:
   `OBL-T001-013`, `OBL-ARTIN-004`, `FND-QUEUE-PAUSE-001`, deferred
   automatic / biautomatic groups, deferred Thompson-type groups, and WIP /
   provisional `FJ53`. It must select one gate-satisfying packet or record
-  that no gate-ready payload exists.
+  that no gate-ready payload exists. `FJ81` completes this by recording that
+  no gate-ready payload exists.
+- `OBL-C5-002`: `FJ82` must define a payload-acquisition protocol or record
+  a project-pause decision after the no-gate-ready audit. It must name
+  allowable payload types, the changed repository object, and a stop
+  condition. It must not restart source reading, target work, or proof
+  attempts without an exact payload.
 
 ## Repository Hygiene
 

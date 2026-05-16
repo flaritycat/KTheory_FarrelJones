@@ -2,14 +2,15 @@
 
 ## Status
 
-Created by `FJ79`; checked by `FJ80`.
+Created by `FJ79`; checked by `FJ80`; used by
+`reflections/cycle_004_reflection.md` and `FJ81`.
 
 No new external source was used.
 
 ## Use rules
 
-- Use this ledger as the handoff artifact for `FJ80` and
-  `reflections/cycle_004_reflection.md`.
+- Use this ledger as the handoff artifact for `FJ80`,
+  `reflections/cycle_004_reflection.md`, and `FJ81`.
 - Do not treat this ledger as a theorem source.
 - Do not reactivate a paused target or source queue unless the relevant gate
   is satisfied.
@@ -27,7 +28,7 @@ No new external source was used.
 | Foundational source queue | paused | `FND-QUEUE-PAUSE-001` | The cycle clarified the fixed-point convention and recorded no-promotion status for Farrell--Jones (1995), Lemma 2.5. | Preserve paused status. |
 | `FJ53` | WIP / provisional | no independent non-hyperbolic `RB-006` bridge | The Louder--Wilton route remains provisionally non-subtractive because current use overlaps the hyperbolic route. | Preserve WIP / provisional status. |
 | Open-question queue | active archive | no current proof-sensitive source task | `OQ-083`--`OQ-099` organize cycle-004 governance. | Close `OQ-099`; send `OQ-100` to `FJ80`. |
-| Theorem-dependency ledger | active archive | no new source theorem required by `FJ79`, `FJ80`, or the cycle reflection | No Farrell--Jones theorem claim is produced by the handoff, closure check, or reflection. | Mark `FJ79`, `FJ80`, and cycle-004 reflection complete; keep `FJ81` pending. |
+| Theorem-dependency ledger | active archive | no new source theorem required by `FJ79`, `FJ80`, the cycle reflection, or `FJ81` | No Farrell--Jones theorem claim is produced by the handoff, closure check, reflection, or gate audit. | Mark `FJ79`, `FJ80`, cycle-004 reflection, and `FJ81` complete; add `FJ82` pending. |
 | Reading queue | paused for current handoff | no exact application-tethered source payload | No source is used in `FJ79`. | Update only the next-task pointer. |
 
 ## Gate index
@@ -56,6 +57,18 @@ The reflection uses this handoff ledger, closes cycle 004, and selects
 `C5-GATE-001`, Cycle-005 Reactivation Gate Audit. It records `OBL-C5-001`:
 `FJ81` must audit the recorded gates and either select one gate-satisfying
 packet or record that no gate-ready payload exists.
+
+## FJ81 gate-audit result
+
+`FJ81` uses this handoff ledger and records that no handoff gate is currently
+satisfied. `T-001` remains dormant; the Artin lane remains paused; automatic
+/ biautomatic groups and Thompson-type groups remain deferred; the
+foundational source queue remains paused; and WIP / provisional `FJ53`
+remains provisional.
+
+`FJ81` completes `C5-GATE-001` and `OBL-C5-001`, resolves `OQ-102`, selects
+`C5-PAYLOAD-001`, records `OBL-C5-002`, and sends the project to `FJ82`,
+Payload Acquisition Protocol or Project-Pause Decision.
 
 ## FJ80 input checklist
 

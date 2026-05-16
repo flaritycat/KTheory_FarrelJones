@@ -1397,10 +1397,36 @@ source queue paused under `FND-QUEUE-PAUSE-001`.
 The reflection resolves `OQ-101`, selects `C5-GATE-001`, records
 `OBL-C5-001`, selects `FJ81`, and makes no Farrell--Jones theorem claim.
 
-The next step is `FJ81`, Cycle-005 Reactivation Gate Audit. It should test
-whether any recorded reactivation gate is currently satisfiable from
-repository data, and if not, record the exact payload-acquisition or
-project-pause decision rather than starting a source summary.
+The next step after the reflection was `FJ81`, Cycle-005 Reactivation Gate
+Audit. Its task was to test whether any recorded reactivation gate was
+currently satisfiable from repository data.
+
+## FJ81 cycle-005 reactivation gate audit
+
+Current status: `FJ81` has first-pass coverage as the Cycle-005
+Reactivation Gate Audit module. It uses only current repository records and
+does not check a new external source.
+
+The audit decision after `FJ81` is that no recorded reactivation gate is
+satisfied at the start of cycle 005. `T-001` remains dormant under
+`OBL-T001-013`; the Artin lane remains paused under `OBL-ARTIN-004`; the
+foundational source queue remains paused under `FND-QUEUE-PAUSE-001`;
+automatic / biautomatic groups and Thompson-type groups remain deferred; and
+WIP / provisional `FJ53` remains provisional.
+
+This is a project-state decision, not a mathematical theorem about any group
+class. It does not prove a Farrell--Jones result, reactivate `T-001`, reopen
+the Artin lane, or finalize `FJ53`.
+
+`FJ81` resolves `OQ-102`, completes `OBL-C5-001`, completes
+`C5-GATE-001`, records the no-gate-ready cycle-005 state, selects
+`C5-PAYLOAD-001`, records `OBL-C5-002`, selects `FJ82`, and makes no
+Farrell--Jones theorem claim.
+
+The next step is `FJ82`, Payload Acquisition Protocol or Project-Pause
+Decision. It should define a bounded payload-acquisition protocol, including
+allowable payload types, the project object changed, and a stop condition, or
+record a project-pause decision if no such protocol can be made precise.
 
 ## GitHub persistence policy
 

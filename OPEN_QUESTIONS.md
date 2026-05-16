@@ -3935,8 +3935,7 @@ and `FJ81`.
 
 ### Status
 
-Open inside project; selected by `reflections/cycle_004_reflection.md` for
-`FJ81`.
+First-pass resolved by `FJ81`.
 
 ### Context
 
@@ -3947,9 +3946,13 @@ queue remains paused under `FND-QUEUE-PAUSE-001`; automatic / biautomatic
 groups and Thompson-type groups remain deferred; and WIP / provisional
 `FJ53` remains provisional.
 
-`FJ81` should audit these gates and decide whether the repository contains a
-gate-satisfying payload. If none exists, it should record a payload-acquisition
-or project-pause decision.
+`FJ81` audits these gates and decides whether the repository contains a
+gate-satisfying payload. If none exists, it should record a
+payload-acquisition or project-pause decision.
+
+`FJ81` records that no recorded reactivation gate is satisfied at the start
+of cycle 005. It completes `C5-GATE-001` and `OBL-C5-001`, selects
+`C5-PAYLOAD-001`, records `OBL-C5-002`, and sends the project to `FJ82`.
 
 ### Relevant modules
 
@@ -3958,6 +3961,7 @@ or project-pause decision.
 - FJ76
 - FJ80
 - cycle-004 reflection
+- FJ81
 
 ### Dependencies
 
@@ -3969,4 +3973,41 @@ or project-pause decision.
 
 ### Next action
 
-Begin `FJ81`, Cycle-005 Reactivation Gate Audit.
+Resolved by `FJ81`. Continue with `OQ-103` and `FJ82`.
+
+## OQ-103. What payload-acquisition protocol or project-pause decision should follow the no-gate-ready cycle-005 audit?
+
+### Status
+
+Open inside project; selected by `FJ81` for `FJ82`.
+
+### Context
+
+`FJ81` resolves `OQ-102` by recording a no-gate-ready state: none of the
+recorded reactivation gates for `T-001`, the Artin lane, the foundational
+source queue, deferred group-class lines, or WIP / provisional `FJ53` is
+satisfied from current repository data.
+
+The next step should not be another source summary or proof attempt. It
+should either define a payload-acquisition protocol with allowable payload
+types, a changed project object, and a stop condition, or record a
+project-pause decision.
+
+### Relevant modules
+
+- FJ66
+- FJ71
+- FJ76
+- FJ81
+
+### Dependencies
+
+`SCOPE_LEDGER.md`, `AGENTS.md`, `NOTATION_LEDGER.md`,
+`ledgers/theorem_dependencies.md`, `ledgers/cycle_004_handoff.md`,
+`ledgers/open_group_classes.md`, `ledgers/t001_candidate_inventory.md`,
+`ledgers/artin_subclass_gap_inventory.md`, `OBL-T001-013`,
+`OBL-ARTIN-004`, `FND-QUEUE-PAUSE-001`, and `OBL-C5-002`.
+
+### Next action
+
+Begin `FJ82`, Payload Acquisition Protocol or Project-Pause Decision.

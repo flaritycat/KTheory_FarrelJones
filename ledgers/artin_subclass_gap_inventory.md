@@ -2,7 +2,7 @@
 
 ## Status
 
-Created by `FJ69`; updated by `FJ70`, `FJ71`, `FJ72`, and `FJ77`.
+Created by `FJ69`; updated by `FJ70`, `FJ71`, `FJ72`, `FJ77`, and `FJ81`.
 
 This ledger is an internal inventory extracted from existing repository
 records. No new external source was checked for this ledger.
@@ -123,6 +123,17 @@ and again keeps the Artin lane paused.
 No named graph, graph family, subclass, source theorem, bridge object,
 formulation label, prior-art-overlap note, or changed project object has
 appeared since `FJ72`. Therefore `OBL-ARTIN-004` remains unsatisfied.
+
+## FJ81 reactivation gate audit status
+
+`FJ81` checks this ledger against `OBL-ARTIN-004` at the start of cycle 005.
+
+No named graph, graph family, subclass, source theorem, bridge object,
+formulation label, prior-art-overlap note, or changed project object has
+appeared since the `FJ71` pause and later `FJ77` readiness check.
+
+Therefore `OBL-ARTIN-004` remains unsatisfied. No active Artin update is
+scheduled by `FJ81`; the Artin lane remains paused.
 
 ## Next update
 

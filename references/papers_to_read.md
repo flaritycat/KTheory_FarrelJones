@@ -80,7 +80,8 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ81`, Cycle-005 Reactivation Gate Audit.
+Next project task: `FJ82`, Payload Acquisition Protocol or Project-Pause
+Decision.
 
 `FJ60` closed the weaker \(K_0\) / Cohen--Lyndon consequence lane as inactive
 because no exact source payload is recorded. `reflections/cycle_003_reflection.md`
@@ -123,7 +124,10 @@ handoff table and gate index in `ledgers/cycle_004_handoff.md`, resolves
 `OQ-099`, and selects `C4-FINAL-001`. `FJ80` verifies reflection readiness,
 resolves `OQ-100`, and selects `C4-REFLECT-001`. The cycle-004 reflection
 closes the cycle, resolves `OQ-101`, selects `C5-GATE-001`, and sends the
-project to `FJ81`. `FJ81` must audit recorded reactivation gates rather than
+project to `FJ81`. `FJ81` audits recorded reactivation gates, resolves
+`OQ-102`, records that no gate-ready payload is present, selects
+`C5-PAYLOAD-001`, and sends the project to `FJ82`. `FJ82` must define a
+payload-acquisition protocol or record a project-pause decision rather than
 read another source.
 
 ## Reading protocol

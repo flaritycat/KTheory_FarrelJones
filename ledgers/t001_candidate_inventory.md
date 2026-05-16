@@ -323,6 +323,18 @@ has appeared since `FJ72`.
 The next active packet after `FJ77` is not a `T-001` packet; it is
 `C4-CLOSE-001`, cycle-004 closure-readiness audit.
 
+## FJ81 reactivation gate audit update
+
+`FJ81` checks this inventory against `OBL-T001-013` at the start of
+cycle 005.
+
+No candidate-admissible row, exact source payload, bridge lemma, concrete
+computation, prior-art blocker object, or explicit target-pivot reselection
+has appeared since the `FJ66` pause and later `FJ77` readiness check.
+
+Therefore `OBL-T001-013` remains unsatisfied. No active `T-001` update is
+scheduled by `FJ81`; `T-001` remains dormant.
+
 ## Non-use warnings
 
 - Do not fabricate candidate families.
