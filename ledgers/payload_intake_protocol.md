@@ -102,6 +102,7 @@ Use this template before instantiating a future numbered module.
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
 | --- | --- | --- | --- | --- | --- |
 | `REJECTED-PAYLOAD-001` | 2026-05-16 | "Continue the project charter." | rejected / not an accepted payload | The request gives a general preference to continue but does not name a candidate, exact source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, or stop condition. | Historical record: this request did not instantiate `FJ83`; later accepted payload `PAY-T001-K0-CL-2025-001` did. |
+| `REJECTED-PAYLOAD-002` | 2026-05-16 | "Continue" | rejected / not an accepted payload | After `FJ83`, this request gives only a general preference to continue. It does not name a new accepted payload, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-105` open; do not instantiate `FJ84`. |
 
 ## Current project state
 
@@ -111,3 +112,6 @@ Use this template before instantiating a future numbered module.
 After `FJ83`, no `FJ84` module is selected. A future `FJ84` may be created
 only after a new accepted payload row is added above or an equivalent
 accepted payload is recorded in the relevant target ledger.
+
+The latest intake attempt, `REJECTED-PAYLOAD-002`, does not change this
+state.
