@@ -152,6 +152,12 @@ no target is ready. Do not reactivate `T-001` without `OBL-T001-013`, the
 Artin lane without `OBL-ARTIN-004`, or the foundational source queue without
 the reactivation data required by `FND-QUEUE-PAUSE-001`.
 
+After `FJ77`, no group-class target and no foundational source packet is
+ready for activation. The next packet is `C4-CLOSE-001`, Cycle-004
+Closure-Readiness Audit. `FJ78` must audit active obligations, open
+questions, paused target gates, source-queue pause data, and remaining
+cycle-004 module slots before selecting any further packet.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -179,7 +185,8 @@ Current module handoff:
 - `FJ75`: Virtually Cyclic Dichotomy Source-Payload Check is completed.
 - `FJ76`: Foundational Source-Queue Checkpoint After `OQ-006` No-Promotion
   is completed.
-- `FJ77`: Target-Pivot Readiness After Foundational Queue Pause is next.
+- `FJ77`: Target-Pivot Readiness After Foundational Queue Pause is completed.
+- `FJ78`: Cycle-004 Closure-Readiness Audit is next.
 
 Current obstruction:
 
@@ -274,6 +281,11 @@ Current obstruction:
   foundational source-queue pause. It must select one bounded packet with a
   concrete project object, or record that no target is ready; it must not
   reactivate a paused target or the source queue without the relevant gate.
+  `FJ77` completes this by recording no target or source packet ready and
+  selecting cycle-004 closure-readiness audit.
+- `OBL-C4-001`: `FJ78` must audit cycle-004 closure readiness. It must not
+  use remaining cycle slots for source summaries, target summaries, or
+  target reactivation unless a concrete project object and gate are recorded.
 
 ## Repository Hygiene
 

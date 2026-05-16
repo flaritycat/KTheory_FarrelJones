@@ -17,11 +17,11 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_004`.
 - Completed cycles: `cycle_001`, `cycle_002`, and `cycle_003`.
-- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, and `FJ76`. `FJ53` is retained as WIP / provisional.
+- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, and `FJ77`. `FJ53` is retained as WIP / provisional.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md`, `reflections/cycle_002_reflection.md`, and `reflections/cycle_003_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current active bounded target packet: `PIVOT-003`, target-pivot readiness after foundational queue pause.
-- Current procedural target: begin `FJ77`, Target-Pivot Readiness After Foundational Queue Pause.
+- Current active bounded target packet: `C4-CLOSE-001`, cycle-004 closure-readiness audit.
+- Current procedural target: begin `FJ78`, Cycle-004 Closure-Readiness Audit.
 
 ## Current established results
 
@@ -77,6 +77,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ74` completes the fixed-point convention cleanup: it resolves `OQ-005` at first pass by separating the strict contractible/empty model convention from the weakly contractible plus isotropy source-level criterion, records `FND-CONV-001`, completes `OBL-FND-002`, records `OBL-FND-003`, selects `FND-003`, and sends the project to `FJ75`, Virtually Cyclic Dichotomy Source-Payload Check.
 - `FJ75` completes the virtually cyclic dichotomy source-payload check: it verifies the Farrell--Jones (1995) DOI metadata but does not access the primary Lemma 2.5 text, records no-promotion status `FND-SRC-001`, completes `OBL-FND-003`, records `OBL-FND-004`, and sends the project to `FJ76`, Foundational Source-Queue Checkpoint After `OQ-006` No-Promotion.
 - `FJ76` completes the foundational source-queue checkpoint: it selects no further foundational source payload, pauses the queue through `FND-QUEUE-PAUSE-001`, completes `OBL-FND-004`, records `OBL-PIVOT-003`, and sends the project to `FJ77`, Target-Pivot Readiness After Foundational Queue Pause.
+- `FJ77` completes target-pivot readiness after the foundational queue pause: it records no target or source packet ready for activation, completes `OBL-PIVOT-003`, selects `C4-CLOSE-001`, records `OBL-C4-001`, and sends the project to `FJ78`, Cycle-004 Closure-Readiness Audit.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.

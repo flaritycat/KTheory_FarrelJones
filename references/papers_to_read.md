@@ -80,8 +80,7 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ77`, Target-Pivot Readiness After Foundational Queue
-Pause.
+Next project task: `FJ78`, Cycle-004 Closure-Readiness Audit.
 
 `FJ60` closed the weaker \(K_0\) / Cohen--Lyndon consequence lane as inactive
 because no exact source payload is recorded. `reflections/cycle_003_reflection.md`
@@ -116,7 +115,9 @@ and selects `OQ-096`. `FJ76` pauses the foundational source queue because no
 remaining item is both exact and application-tethered, then records
 `FND-QUEUE-PAUSE-001`, `OBL-PIVOT-003`, and `OQ-097`. `FJ77` must run
 target-pivot readiness after the pause rather than begin another source
-survey.
+survey. `FJ77` records no target or source packet ready for activation,
+resolves `OQ-097`, and selects `C4-CLOSE-001`. `FJ78` must audit cycle-004
+closure readiness rather than read another source.
 
 ## Reading protocol
 

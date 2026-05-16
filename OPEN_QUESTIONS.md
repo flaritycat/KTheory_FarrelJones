@@ -3733,7 +3733,7 @@ Resolved by `FJ76`. Continue with `OQ-097` and `FJ77`.
 
 ### Status
 
-Open inside project; selected by `FJ76` for `FJ77`.
+First-pass resolved by `FJ77`.
 
 ### Context
 
@@ -3746,6 +3746,10 @@ with passive source accumulation. Paused targets remain governed by their
 reactivation gates: `T-001` by `OBL-T001-013`, and the Artin lane by
 `OBL-ARTIN-004`.
 
+`FJ77` records that no group-class target and no foundational source packet
+is currently ready for activation. It selects `C4-CLOSE-001`, a cycle-004
+closure-readiness audit, as the next bounded governance packet.
+
 ### Relevant modules
 
 - FJ66
@@ -3753,6 +3757,7 @@ reactivation gates: `T-001` by `OBL-T001-013`, and the Artin lane by
 - FJ71
 - FJ72
 - FJ76
+- FJ77
 
 ### Dependencies
 
@@ -3763,4 +3768,44 @@ reactivation gates: `T-001` by `OBL-T001-013`, and the Artin lane by
 
 ### Next action
 
-Begin `FJ77`, Target-Pivot Readiness After Foundational Queue Pause.
+Resolved by `FJ77`. Continue with `OQ-098` and `FJ78`.
+
+## OQ-098. How should the remaining cycle-004 module slots be used after the no-target/no-source-ready decision?
+
+### Status
+
+Open inside project; selected by `FJ77` for `FJ78`.
+
+### Context
+
+`FJ77` records a no-target/no-source-ready decision:
+
+- `T-001` remains dormant under `OBL-T001-013`;
+- the Artin lane remains paused under `OBL-ARTIN-004`;
+- automatic / biautomatic groups and Thompson-type groups remain deferred;
+- the foundational source queue remains paused under
+  `FND-QUEUE-PAUSE-001`.
+
+The project is late in `cycle_004`, whose planned module range is
+`FJ61`--`FJ80`. The next useful step is to audit cycle-closure readiness and
+prevent the remaining module slots from becoming decorative summaries.
+
+### Relevant modules
+
+- FJ61
+- FJ66
+- FJ71
+- FJ72
+- FJ76
+- FJ77
+
+### Dependencies
+
+`SCOPE_LEDGER.md`, `AGENTS.md`, `NOTATION_LEDGER.md`,
+`ledgers/theorem_dependencies.md`, `ledgers/open_group_classes.md`,
+`ledgers/t001_candidate_inventory.md`,
+`ledgers/artin_subclass_gap_inventory.md`, and `OBL-C4-001`.
+
+### Next action
+
+Begin `FJ78`, Cycle-004 Closure-Readiness Audit.

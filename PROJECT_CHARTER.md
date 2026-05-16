@@ -1284,10 +1284,36 @@ condition.
 records `OBL-PIVOT-003`, selects `PIVOT-003`, and makes no Farrell--Jones
 theorem claim.
 
-The next step is `FJ77`, Target-Pivot Readiness After Foundational Queue
-Pause. It should select one bounded next packet with a concrete project
-object, or record that no target is ready and name the next governance
-action.
+The next step after `FJ76` was `FJ77`, Target-Pivot Readiness After
+Foundational Queue Pause. Its task was to select one bounded next packet with
+a concrete project object, or record that no target was ready and name the
+next governance action.
+
+## FJ77 target-pivot readiness after foundational queue pause
+
+Current status: `FJ77` has first-pass coverage as the Target-Pivot Readiness
+After Foundational Queue Pause module. It uses only current repository
+records and does not check a new external source.
+
+The pivot-readiness decision after `FJ77` is that no group-class target and
+no foundational source packet is ready for immediate activation. `T-001`
+remains dormant under `OBL-T001-013`; the Artin lane remains paused under
+`OBL-ARTIN-004`; automatic / biautomatic groups and Thompson-type groups
+remain deferred; and the foundational source queue remains paused under
+`FND-QUEUE-PAUSE-001`.
+
+This is a project-state decision, not a mathematical theorem about any group
+class.
+
+`FJ77` resolves `OQ-097`, completes `OBL-PIVOT-003`, completes
+`PIVOT-003`, records a no-target/no-source-ready decision, selects
+`C4-CLOSE-001`, records `OBL-C4-001`, and makes no Farrell--Jones theorem
+claim.
+
+The next step is `FJ78`, Cycle-004 Closure-Readiness Audit. It should audit
+active obligations, open questions, paused target gates, the foundational
+source-queue pause, and remaining cycle-004 module slots before selecting the
+next packet.
 
 ## GitHub persistence policy
 
