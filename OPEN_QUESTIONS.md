@@ -3049,7 +3049,7 @@ Continue with the cycle-003 reflection.
 
 ### Status
 
-First-pass resolved by `FJ60`.
+Reopened and first-pass updated by `FJ83`.
 
 ### Context
 
@@ -3063,13 +3063,24 @@ source name is insufficient. The selected payload must include a theorem
 statement, exact hypotheses, formulation level, and the project object it
 would change.
 
-`FJ60` resolves this by selecting no payload. The repository's current
-source-status ledger has no exact weaker \(K_0\) / Cohen--Lyndon theorem
-payload available: the classical one-relator sources remain `found; to
-verify`, and the existing low-dimensional \(K\)-theory consequences remain
-conditional on Farrell--Jones. The lane is inactive until a future module
-names an exact source, theorem statement, hypotheses, formulation level, and
-project object changed.
+`FJ60` resolved this by selecting no payload. At that point the repository's
+source-status ledger had no exact weaker \(K_0\) / Cohen--Lyndon theorem
+payload available.
+
+`FJ83` reopens this question for the accepted payload
+`PAY-T001-K0-CL-2025-001`. The source payload is Jaikin-Zapirain, Linton,
+and Sanchez-Peralta (2025), *Group pairs, coherence and Farrell-Jones
+Conjecture for K0*. FJ83 verifies at first-pass level that the source states
+Conjecture 1 as the \(K_0(R)\to K_0(RG)\) isomorphism for torsion-free
+groups and regular rings, and that its K0 group-pair theorem gives
+surjectivity under Cohen--Lyndon, normalizer, finite cohomological
+dimension, and coherent group-ring hypotheses.
+
+This changes the lane from "no exact source payload available" to "exact
+weaker \(K_0\) / Cohen--Lyndon source payload located and first-pass
+verified." It does not prove full `T-001`, does not supply coefficient
+K-theory FJC, `FJCw`, `FICwF`, or full \(\mathcal{FJ}\), and does not remove
+a residual bucket.
 
 ### Relevant modules
 
@@ -3081,17 +3092,19 @@ project object changed.
 - FJ58
 - FJ59
 - FJ60
+- FJ83
 
 ### Dependencies
 
 `ledgers/source_status.md`, `BIBLIOGRAPHY.md`,
-`ledgers/t001_candidate_inventory.md`, `OBL-T001-006`, and
-`OBL-T001-007`.
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
+`OBL-T001-006`, `OBL-T001-007`, and `OBL-T001-014`.
 
 ### Next action
 
-Resolved by `FJ60`. `reflections/cycle_003_reflection.md` resolves
-`OQ-082`; `FJ61` resolves `OQ-083` and selects `OQ-084` / `FJ62`.
+Updated by `FJ83`. Future use of the payload requires mapping the exact
+source hypotheses to a concrete `T-001` candidate or family; do not continue
+with a general one-relator survey.
 
 ## OQ-082. What should the cycle-003 reflection select after the T-001 lanes stalled?
 
@@ -4023,7 +4036,7 @@ recorded.
 
 ### Status
 
-Open inside project; blocked until an accepted payload is recorded.
+First-pass resolved by `FJ83`.
 
 ### Context
 
@@ -4043,18 +4056,64 @@ A future module may be instantiated only after a payload row records:
 - failure criterion;
 - stop condition.
 
+On 2026-05-16, payload `PAY-T001-K0-CL-2025-001` was accepted for source
+verification only. It instantiated
+`modules/cycle_005/FJ83_k0_cohen_lyndon_payload_verification.md`.
+
+FJ83 resolves this question by verifying the weaker \(K_0\) /
+Cohen--Lyndon payload at source-statement level. The result is a
+source-payload update, not full `T-001`, not a residual subtraction, and not
+permission to create `FJ84` without a new accepted payload.
+
 ### Relevant modules
 
 - FJ81
 - FJ82
+- FJ83
 
 ### Dependencies
 
-`ledgers/payload_intake_protocol.md`, `OBL-C5-003`, `OBL-T001-013`,
-`OBL-ARTIN-004`, `FND-QUEUE-PAUSE-001`, `ledgers/t001_candidate_inventory.md`,
-`ledgers/artin_subclass_gap_inventory.md`, and `ledgers/open_group_classes.md`.
+`ledgers/payload_intake_protocol.md`, `OBL-C5-003`, `OBL-C5-004`,
+`OBL-T001-013`, `OBL-T001-014`, `ledgers/t001_candidate_inventory.md`,
+`ledgers/t001_residual.md`, `ledgers/source_status.md`, and
+`ledgers/theorem_dependencies.md`.
 
 ### Next action
 
-No numbered module is currently selected. Record an accepted payload before
-instantiating `FJ83`.
+Resolved by `FJ83`. Continue only through `OQ-105` if a new accepted payload
+is recorded.
+
+## OQ-105. Which accepted payload, if any, should instantiate FJ84 after the FJ83 source-payload audit?
+
+### Status
+
+Open inside project; blocked until a new accepted payload is recorded.
+
+### Context
+
+FJ83 verifies `PAY-T001-K0-CL-2025-001` as a weaker \(K_0\) /
+Cohen--Lyndon source payload and then stops. The module creates
+`OBL-C5-004`: no `FJ84` may be created without a new accepted payload under
+the payload-intake protocol or an equivalent accepted row in the relevant
+target ledger.
+
+For the FJ83 payload itself, future mathematical promotion would require a
+candidate or family satisfying the source hypotheses. A repeated source
+summary, a theorem name, or a broad desire to continue does not satisfy this
+question.
+
+### Relevant modules
+
+- FJ82
+- FJ83
+
+### Dependencies
+
+`ledgers/payload_intake_protocol.md`, `OBL-C5-004`,
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
+`ledgers/source_status.md`, and `ledgers/theorem_dependencies.md`.
+
+### Next action
+
+No numbered module is currently selected. Record a new accepted payload
+before instantiating `FJ84`.

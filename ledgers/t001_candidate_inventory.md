@@ -16,7 +16,8 @@ blocker pruning, by `FJ63` with selected packet `DAP-T001-001`, by
 prior-art / branch-readiness checkpoint, and by `FJ66` with the target-pause
 recommendation and reactivation gate, by `FJ72` with the post-Artin-pause
 target-pivot refresh, and by `FJ77` with the post-foundational-pause
-target-pivot readiness checkpoint.
+target-pivot readiness checkpoint, by `FJ82` with the payload protocol, and
+by `FJ83` with the weaker \(K_0\) / Cohen--Lyndon source-payload update.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -46,6 +47,12 @@ Current status after `FJ60`: the weaker \(K_0\) / Cohen--Lyndon lane is
 inactive. It may be reopened only by an exact source payload with theorem
 statement, hypotheses, formulation level, source status, and project object
 changed.
+
+Current status after `FJ83`: exact source payload
+`PAY-T001-K0-CL-2025-001` has been first-pass verified for the weaker
+\(K_0\) / Cohen--Lyndon lane. This changes the source-payload status only:
+no candidate row is promoted, no full `T-001` theorem is claimed, and no
+residual bucket is subtracted.
 
 Current status after `reflections/cycle_003_reflection.md`: `T-001` remains
 important but is not currently candidate-ready. The next module is `FJ61`,
@@ -204,13 +211,14 @@ For every future candidate row, record:
 | `OBL-T001-004` | active obstruction | `FJ57` | The selected `RB-003` + `RB-004`/`RB-008` hybrid packet is blocked at candidate production. | `FJ58` checked replacement lanes and recorded `OBL-T001-005`; reactivation now requires new candidate-level data. | Do not reactivate the hybrid packet unless a real candidate, concrete computation, bridge lemma, or prior-art comparison is recorded. |
 | `OBL-T001-005` | active obstruction | `FJ58` | No active candidate-production lane is currently ready for `T-001`. | `FJ59` completed the bounded weaker \(K_0\) / Cohen--Lyndon consequence intake and recorded `OBL-T001-006`. | Stop any candidate-level claim unless a real candidate, checked bridge, computation, formulation-safe application, non-hyperbolic geometric bridge, or prior-art comparison is recorded. |
 | `OBL-T001-006` | superseded for next-action purposes | `FJ59` | No weaker \(K_0\) / Cohen--Lyndon source payload is currently recorded for `T-001`. | `FJ60` checked the source-payload lane and recorded `OBL-T001-007`. | Stop if a future module cannot name an exact theorem statement, hypotheses, formulation level, and project object changed. |
-| `OBL-T001-007` | active obstruction | `FJ60` | The weaker \(K_0\) / Cohen--Lyndon consequence lane is inactive after no exact source payload was available for selection. | `FJ61` completed the candidate-intake reset; reopen this lane only with an exact source payload. | Do not continue the weaker consequence lane through source summaries or theorem names alone. |
+| `OBL-T001-007` | superseded for source-payload availability by `FJ83`; still active as a theorem-promotion caution | `FJ60`; updated by `FJ83` | The weaker \(K_0\) / Cohen--Lyndon consequence lane was inactive after no exact source payload was available for selection. `FJ83` supplies one exact source payload. | Use `OBL-T001-014` before any future promotion or candidate application. | Do not treat the source payload as full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or a residual subtraction. |
 | `OBL-T001-008` | active requirement | `FJ61` | Candidate-intake gate: no cycle-004 `T-001` module may launch a proof attempt, source verification, or route subtraction unless it identifies a candidate-admissible row or exact bridge, computation, source payload, prior-art blocker, target-pause recommendation, or target-pivot comparison that changes a project object. | Use `FJ62` to prune active blockers before candidate-data acquisition. | If no admissible object appears by `FJ66`, recommend pausing `T-001` as an active proof-target sequence or compare target pivots. |
 | `OBL-T001-009` | active requirement | `FJ62` | Exact data-acquisition packet requirement: `FJ63` must select exactly one candidate-row, bridge-lemma, computation, source-payload, prior-art blocker, target-pause, or target-pivot packet, or record failure to do so. | Use `FJ63` to choose the packet and state the project object changed. | A broad source survey does not satisfy this obligation. |
 | `OBL-T001-010` | completed first pass | `FJ63`; completed by `FJ64` | `FJ64` must execute `DAP-T001-001`, candidate-row acquisition from current repository records. | `FJ64` records a no-candidate note. | Do not promote a placeholder, calibration example, or already routed row if no row satisfies the `FJ61` checklist. |
 | `OBL-T001-011` | completed first pass | `FJ64`; completed by `FJ65` | `FJ65` must perform a prior-art / branch-readiness checkpoint after the no-candidate note. | `FJ65` records no exact prior-art object and sends the project to `FJ66`. | Do not open another source-summary lane without an exact project object changed. |
 | `OBL-T001-012` | completed first pass | `FJ65`; completed by `FJ66` | `FJ66` must make an explicit branch decision for `T-001`. | `FJ66` records a target-pause recommendation and selects `FJ67`. | Do not continue `T-001` through source summary, proof attempt, or route subtraction without an exact project object. |
 | `OBL-T001-013` | active requirement | `FJ66` | Reactivation gate for paused `T-001`. | Reactivate only with a candidate-admissible row, exact source payload, bridge lemma, concrete computation, prior-art blocker object, or target-pivot comparison result explicitly reselecting `T-001`. | A source name, residual bucket label, or general desire to continue is insufficient. |
+| `OBL-T001-014` | active requirement | `FJ83` | Future use of `PAY-T001-K0-CL-2025-001` must map the exact weaker \(K_0\) / Cohen--Lyndon source hypotheses to a concrete `T-001` candidate or family before any promotion. | Check torsion-free status, regular-ring formulation, Cohen--Lyndon presentation or group pair, normalizer condition, finite cohomological dimension, coherent group-ring hypotheses, formulation safety, and prior-art overlap. | Stop if the next step is only a source summary, or if it treats the payload as full Farrell--Jones, coefficient FJC, `FJCw`, `FICwF`, or a residual subtraction. |
 
 ## Cycle 003 reflection update
 
@@ -345,7 +353,26 @@ For `T-001`, future reactivation requires an accepted payload of type
 equivalent accepted row recorded in this inventory. Such a payload must also
 satisfy `OBL-T001-013`.
 
-No accepted `T-001` payload is recorded by `FJ82`.
+No accepted `T-001` payload was recorded by `FJ82`.
+
+## FJ83 weaker K0 / Cohen--Lyndon payload update
+
+`FJ83` records accepted payload `PAY-T001-K0-CL-2025-001` and verifies the
+source-payload statement at first-pass level.
+
+Payload status:
+
+- source: Jaikin-Zapirain, Linton, and Sanchez-Peralta (2025);
+- formulation: weaker \(K_0\)-level / projective-class-group formulation
+  only;
+- source statement checked: Conjecture 1 and the K0 group-pair theorem
+  package;
+- project effect: `OQ-081` changes from no source payload available to exact
+  source payload first-pass verified;
+- non-effect: no candidate row is promoted, no full `T-001` theorem is
+  claimed, and no residual bucket is subtracted.
+
+Future use of this payload is governed by `OBL-T001-014`.
 
 ## Non-use warnings
 
@@ -360,5 +387,6 @@ No accepted `T-001` payload is recorded by `FJ82`.
 
 ## Next update
 
-No active `T-001` update is scheduled. `T-001` remains dormant unless
-`OBL-T001-013` is satisfied.
+No active `T-001` proof-target update is scheduled. `T-001` remains dormant
+unless a future accepted payload satisfies `OBL-T001-013` and, for the FJ83
+source specifically, `OBL-T001-014`.

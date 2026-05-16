@@ -45,7 +45,10 @@ Cohen--Lyndon consequence intake. `FJ59` records that no weaker \(K_0\) /
 Cohen--Lyndon source payload is currently available and creates
 `OBL-T001-006`. `FJ60` checks the source-payload selection lane, records no
 exact payload, and creates `OBL-T001-007`, closing the weaker consequence
-lane as inactive until a source is named. `reflections/cycle_003_reflection.md`
+lane as inactive until a source is named. `FJ83` later records accepted
+payload `PAY-T001-K0-CL-2025-001` and verifies a weaker \(K_0\) /
+Cohen--Lyndon source payload at first-pass level, but it records no full
+`T-001` result and no residual subtraction. `reflections/cycle_003_reflection.md`
 closes the third cycle and selects `FJ61` to set candidate-intake and exit
 criteria for the next `T-001` decision. `FJ61` records `OBL-T001-008`, the
 candidate-intake gate, and selects `FJ62` for active blocker pruning. `FJ62`
@@ -822,3 +825,22 @@ the active bounded target packet.
 
 No active `T-001` residual action is scheduled. `T-001` remains dormant
 unless `OBL-T001-013` is satisfied.
+
+## FJ83 weaker K0 / Cohen--Lyndon payload update
+
+`FJ83` records accepted payload `PAY-T001-K0-CL-2025-001`, sourced to
+Jaikin-Zapirain, Linton, and Sanchez-Peralta (2025).
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed;
+- no torsion-free one-relator class is promoted to full Farrell--Jones;
+- no coefficient K-theory FJC, `FJCw`, `FICwF`, or full \(\mathcal{FJ}\)
+  route is added;
+- the weaker \(K_0\) / Cohen--Lyndon lane changes from "no source payload"
+  to "exact source payload first-pass verified";
+- future use requires `OBL-T001-014`, a candidate/family-level check of the
+  source hypotheses.
+
+The source payload is therefore non-subtractive. It belongs to the weaker
+consequence lane, not to the active residual-removal table.

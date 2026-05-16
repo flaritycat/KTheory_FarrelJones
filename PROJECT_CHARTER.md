@@ -1444,17 +1444,46 @@ names, target names, broad class labels, and residual bucket labels by
 themselves.
 
 No immediate payload is accepted by `FJ82`. Therefore no `FJ83` module is
-selected. A future `FJ83` may be instantiated only after an accepted payload
-is recorded under `ledgers/payload_intake_protocol.md` or in the relevant
-target ledger.
+selected at that point. A future `FJ83` may be instantiated only after an
+accepted payload is recorded under `ledgers/payload_intake_protocol.md` or in
+the relevant target ledger.
 
 `FJ82` resolves `OQ-103`, completes `OBL-C5-002`, completes
 `C5-PAYLOAD-001`, records `C5-PAUSE-001`, records `OBL-C5-003`, records
 `OQ-104`, and makes no Farrell--Jones theorem claim.
 
-The next project move is payload intake under the `FJ82` protocol, not a
-numbered module. If an accepted payload appears, instantiate `FJ83` from that
-payload's exact target, changed project object, and stop condition.
+The next project move after `FJ82` was payload intake under the `FJ82`
+protocol, not a numbered module. An accepted payload later appeared and
+instantiated `FJ83` from its exact target, changed project object, and stop
+condition.
+
+## FJ83 K0 Cohen--Lyndon payload verification
+
+Current status: `FJ83` has first-pass coverage as the K0 Cohen--Lyndon
+Payload Verification module. It checks one external source and records the
+result only at weaker \(K_0\)-level.
+
+`FJ83` records accepted payload `PAY-T001-K0-CL-2025-001`, sourced to
+Jaikin-Zapirain, Linton, and Sanchez-Peralta (2025), *Group pairs, coherence
+and Farrell-Jones Conjecture for K0*. The source metadata, Conjecture 1, the
+introductory K0 theorem, and the technical group-pair K0 theorem are checked
+at first-pass level.
+
+The FJ83 decision is conservative. The payload changes `OQ-081` from no
+exact weaker \(K_0\) / Cohen--Lyndon source payload available to exact source
+payload located and first-pass verified. It resolves `OQ-104` by identifying
+FJ83 as the payload-instantiated module. It does not prove full `T-001`, does
+not claim coefficient K-theory FJC, `FJCw`, `FICwF`, or full
+\(\mathcal{FJ}\), and does not remove a residual bucket.
+
+`FJ83` completes `OBL-C5-003`, records `OBL-T001-014` for any future
+candidate/family-level use of the source, records `OBL-C5-004` blocking
+`FJ84` without a new accepted payload, and makes no Farrell--Jones theorem
+claim.
+
+The next project move is not a numbered module. A future `FJ84` may be
+instantiated only after a new accepted payload is recorded under
+`ledgers/payload_intake_protocol.md` or in the relevant target ledger.
 
 ## GitHub persistence policy
 

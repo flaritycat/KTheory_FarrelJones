@@ -18,12 +18,15 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - Active cycle: `cycle_005`.
 - Completed cycles: `cycle_001`, `cycle_002`, `cycle_003`, and
   `cycle_004`.
-- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, `FJ77`, `FJ78`, `FJ79`, `FJ80`, `FJ81`, and `FJ82`.
+- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, `FJ77`, `FJ78`, `FJ79`, `FJ80`, `FJ81`, `FJ82`, and `FJ83`.
 - `FJ53` is retained as WIP / provisional.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md`, `reflections/cycle_002_reflection.md`, `reflections/cycle_003_reflection.md`, and `reflections/cycle_004_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current active project status: `C5-PAUSE-001`, payload-gated pause.
-- Current procedural target: no numbered module is selected; instantiate `FJ83` only after an accepted payload is recorded in `ledgers/payload_intake_protocol.md`.
+- Current active project status: post-`FJ83` payload gate. `C5-PAUSE-001`
+  was exited for accepted payload `PAY-T001-K0-CL-2025-001`.
+- Current procedural target: no numbered module is selected; instantiate
+  `FJ84` only after a new accepted payload is recorded in
+  `ledgers/payload_intake_protocol.md` or an equivalent target ledger.
 
 ## Current established results
 
@@ -86,6 +89,11 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `reflections/cycle_004_reflection.md` closes cycle 004: it records that `T-001`, the Artin lane, deferred group classes, and the foundational source queue remain gated, resolves `OQ-101`, selects `C5-GATE-001`, records `OBL-C5-001`, and sends the project to `FJ81`, Cycle-005 Reactivation Gate Audit.
 - `FJ81` completes the cycle-005 reactivation gate audit: it resolves `OQ-102` by recording that no recorded reactivation gate is satisfied, completes `OBL-C5-001` and `C5-GATE-001`, selects `C5-PAYLOAD-001`, records `OBL-C5-002`, and sends the project to `FJ82`, Payload Acquisition Protocol or Project-Pause Decision.
 - `FJ82` completes the payload-acquisition protocol / project-pause decision: it creates `ledgers/payload_intake_protocol.md`, resolves `OQ-103`, completes `OBL-C5-002` and `C5-PAYLOAD-001`, records `C5-PAUSE-001`, records `OBL-C5-003`, and selects no `FJ83` until an accepted payload is recorded.
+- `FJ83` records accepted payload `PAY-T001-K0-CL-2025-001` and verifies
+  Jaikin-Zapirain--Linton--Sanchez-Peralta (2025) as a weaker \(K_0\) /
+  Cohen--Lyndon source payload. It updates `OQ-081`, resolves `OQ-104`,
+  creates `OBL-T001-014` and `OBL-C5-004`, and makes no full `T-001` claim
+  or residual subtraction.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.

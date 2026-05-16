@@ -76,8 +76,9 @@ Payload Acquisition Protocol or Project-Pause Decision.
 accepted payload, completes `C5-PAYLOAD-001` and `OBL-C5-002`, and places the
 project in `C5-PAUSE-001`.
 
-The cycle-004 handoff gates remain unsatisfied. No `FJ83` module is selected
-from this handoff ledger alone.
+The cycle-004 handoff gates remain unsatisfied. No `FJ83` module was selected
+from this handoff ledger alone. Later accepted payload
+`PAY-T001-K0-CL-2025-001` instantiated `FJ83` under the FJ82 protocol.
 
 ## FJ80 input checklist
 
