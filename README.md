@@ -17,11 +17,11 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_004`.
 - Completed cycles: `cycle_001`, `cycle_002`, and `cycle_003`.
-- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, and `FJ72`. `FJ53` is retained as WIP / provisional.
+- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, and `FJ73`. `FJ53` is retained as WIP / provisional.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md`, `reflections/cycle_002_reflection.md`, and `reflections/cycle_003_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current active bounded target packet: `FND-001`, foundational open-question triage after target pauses.
-- Current procedural target: begin `FJ73`, Foundational Open-Question Triage After Target Pauses.
+- Current active bounded target packet: `FND-002`, fixed-point convention cleanup for classifying spaces.
+- Current procedural target: begin `FJ74`, Fixed-Point Convention Cleanup for Classifying Spaces.
 
 ## Current established results
 
@@ -73,6 +73,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ70` completes the Wu clique-reduction candidate filter: it records no current Wu-filter candidate from existing Artin gap rows, completes `OBL-ARTIN-002`, records `OBL-ARTIN-003`, and sends the project to `FJ71`, Artin Branch Checkpoint After Wu Filter.
 - `FJ71` completes the Artin branch checkpoint: it pauses the active Artin proof/source lane until a named reactivation payload appears, records `OBL-ARTIN-004` and `OBL-PIVOT-002`, selects `A-004`, and sends the project to `FJ72`, Target-Pivot Refresh After Artin Pause.
 - `FJ72` completes the target-pivot refresh after the Artin pause: it records that no group-class target is currently ready for active proof or source work, completes `OBL-PIVOT-002`, records `OBL-FND-001`, selects `FND-001`, and sends the project to `FJ73`, Foundational Open-Question Triage After Target Pauses.
+- `FJ73` completes foundational open-question triage: it selects `OQ-005`, weakly contractible versus contractible fixed-point formulations, as the bounded blocker for immediate action, records `OBL-FND-002`, selects `FND-002`, and sends the project to `FJ74`, Fixed-Point Convention Cleanup for Classifying Spaces.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.

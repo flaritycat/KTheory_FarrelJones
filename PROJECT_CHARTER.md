@@ -1181,9 +1181,34 @@ survey.
 `FJ72` resolves `OQ-094`, completes `OBL-PIVOT-002`, records
 `OBL-FND-001`, selects `FND-001`, and makes no Farrell--Jones theorem claim.
 
-The next step is `FJ73`, Foundational Open-Question Triage After Target
-Pauses. It should select at most one foundational blocker for bounded action,
-or record that no foundational blocker is ready.
+The next step after `FJ72` was `FJ73`, Foundational Open-Question Triage
+After Target Pauses. Its task was to select at most one foundational blocker
+for bounded action, or record that no foundational blocker was ready.
+
+## FJ73 foundational open-question triage after target pauses
+
+Current status: `FJ73` has first-pass coverage as the Foundational
+Open-Question Triage After Target Pauses module. It uses only existing
+repository records and does not check any new external source.
+
+The triage decision after `FJ73` is to select `OQ-005`, the weakly
+contractible versus contractible fixed-point formulation issue, as the next
+bounded foundational blocker. This is selected because `FJ03` already
+records the relevant source anchor and the issue can sharpen a concrete
+project convention without opening a broad foundations survey.
+
+Deferred foundational blockers include primary-source tracing for broad
+inheritance rows, canonical obstruction-category source selection, and
+transfer-category model selection. Those remain important but source-heavy
+unless a later module identifies a proof-sensitive application.
+
+`FJ73` resolves `OQ-095`, completes `OBL-FND-001`, records `OBL-FND-002`,
+selects `FND-002`, and makes no Farrell--Jones theorem claim.
+
+The next step is `FJ74`, Fixed-Point Convention Cleanup for Classifying
+Spaces. It should resolve or sharpen `OQ-005` by separating the readable
+contractible/empty formulation from the weakly contractible source
+characterization recorded in `FJ03`.
 
 ## GitHub persistence policy
 

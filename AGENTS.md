@@ -123,6 +123,13 @@ biautomatic and Thompson-type groups remain deferred. The next packet is
 must select at most one exact foundational blocker or record that none is
 ready; it must not become a broad foundations source survey.
 
+After `FJ73`, foundational triage selects `OQ-005` as `FND-BLK-001`. The
+next packet is `FND-002`, Fixed-Point Convention Cleanup for Classifying
+Spaces. `FJ74` must separate the readable contractible/empty formulation
+from the weakly contractible source characterization already recorded in
+`FJ03`; it must not become a broad classifying-space or model-category
+survey.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -145,7 +152,8 @@ Current module handoff:
   completed.
 - `FJ71`: Artin Branch Checkpoint After Wu Filter is completed.
 - `FJ72`: Target-Pivot Refresh After Artin Pause is completed.
-- `FJ73`: Foundational Open-Question Triage After Target Pauses is next.
+- `FJ73`: Foundational Open-Question Triage After Target Pauses is completed.
+- `FJ74`: Fixed-Point Convention Cleanup for Classifying Spaces is next.
 
 Current obstruction:
 
@@ -218,7 +226,13 @@ Current obstruction:
 - `OBL-FND-001`: after `FJ72`, triage existing foundational open questions
   and select at most one exact blocker for bounded action, or record that no
   foundational blocker is ready. A broad foundations source survey does not
-  satisfy this obligation.
+  satisfy this obligation. `FJ73` completes this obligation at first pass by
+  selecting `OQ-005`.
+- `OBL-FND-002`: `FJ74` must separate the readable contractible/empty
+  formulation used in `FJ03` from the weakly contractible fixed-point
+  characterization recorded from Lueck's classifying-space survey, then
+  update notation and dependency ledgers without promoting a new theorem
+  beyond the checked source anchor.
 
 ## Repository Hygiene
 
