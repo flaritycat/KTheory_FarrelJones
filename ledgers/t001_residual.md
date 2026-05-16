@@ -56,7 +56,8 @@ project to `FJ64`. `FJ64` executes that packet and records a no-candidate
 note: no current repository row can be promoted without new source acquisition
 or fabrication. `FJ65` records no exact prior-art blocker object, treats the
 no-candidate state as a target-pause trigger, and sends the project to the
-`FJ66` branch checkpoint.
+`FJ66` branch checkpoint. `FJ66` pauses `T-001` as an active proof-target
+sequence while keeping it unresolved and archived.
 
 ## Warning
 
@@ -793,4 +794,16 @@ project to `FJ66`.
 
 ## Next action after FJ65
 
-Begin `FJ66`, T-001 Branch Checkpoint.
+At this point the next module was `FJ66`, T-001 Branch Checkpoint.
+
+## FJ66 T-001 branch checkpoint update
+
+`FJ66` records no residual subtraction and no new theorem. It pauses `T-001`
+as an active proof-target sequence because no candidate-admissible row, exact
+source payload, bridge, computation, prior-art blocker object, or
+pivot-comparison result is present. `T-001` remains unresolved and may be
+reactivated only through the `OBL-T001-013` gate.
+
+## Next action after FJ66
+
+Begin `FJ67`, Target-Pivot Criteria After T-001 Pause.

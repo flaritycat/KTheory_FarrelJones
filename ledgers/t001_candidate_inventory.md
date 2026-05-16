@@ -13,7 +13,8 @@ the inactive-consequence-lane obstruction, and by
 reset, by `FJ61` with the candidate-intake gate, by `FJ62` with active
 blocker pruning, by `FJ63` with selected packet `DAP-T001-001`, by
 `FJ64` with the no-candidate note for that packet, and by `FJ65` with the
-prior-art / branch-readiness checkpoint.
+prior-art / branch-readiness checkpoint, and by `FJ66` with the target-pause
+recommendation and reactivation gate.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -71,6 +72,10 @@ external source acquisition or fabrication.
 Current status after `FJ65`: no exact prior-art blocker object or
 pivot-comparison object is available. The no-candidate state is a
 target-pause trigger, and `FJ66` must make the branch decision.
+
+Current status after `FJ66`: `T-001` is paused as an active proof-target
+sequence. It remains unresolved and archived. Reactivation requires the
+`OBL-T001-013` gate.
 
 Guiding question:
 
@@ -193,7 +198,8 @@ For every future candidate row, record:
 | `OBL-T001-009` | active requirement | `FJ62` | Exact data-acquisition packet requirement: `FJ63` must select exactly one candidate-row, bridge-lemma, computation, source-payload, prior-art blocker, target-pause, or target-pivot packet, or record failure to do so. | Use `FJ63` to choose the packet and state the project object changed. | A broad source survey does not satisfy this obligation. |
 | `OBL-T001-010` | completed first pass | `FJ63`; completed by `FJ64` | `FJ64` must execute `DAP-T001-001`, candidate-row acquisition from current repository records. | `FJ64` records a no-candidate note. | Do not promote a placeholder, calibration example, or already routed row if no row satisfies the `FJ61` checklist. |
 | `OBL-T001-011` | completed first pass | `FJ64`; completed by `FJ65` | `FJ65` must perform a prior-art / branch-readiness checkpoint after the no-candidate note. | `FJ65` records no exact prior-art object and sends the project to `FJ66`. | Do not open another source-summary lane without an exact project object changed. |
-| `OBL-T001-012` | active requirement | `FJ65` | `FJ66` must make an explicit branch decision for `T-001`. | Record a target-pause recommendation, select a bounded target-pivot comparison packet, or identify an exact repository object justifying continuation. | Do not continue `T-001` through source summary, proof attempt, or route subtraction without an exact project object. |
+| `OBL-T001-012` | completed first pass | `FJ65`; completed by `FJ66` | `FJ66` must make an explicit branch decision for `T-001`. | `FJ66` records a target-pause recommendation and selects `FJ67`. | Do not continue `T-001` through source summary, proof attempt, or route subtraction without an exact project object. |
+| `OBL-T001-013` | active requirement | `FJ66` | Reactivation gate for paused `T-001`. | Reactivate only with a candidate-admissible row, exact source payload, bridge lemma, concrete computation, prior-art blocker object, or target-pivot comparison result explicitly reselecting `T-001`. | A source name, residual bucket label, or general desire to continue is insufficient. |
 
 ## Cycle 003 reflection update
 
@@ -263,6 +269,13 @@ compare.
 It also records the no-candidate state as a target-pause trigger and sends
 the project to `FJ66`, T-001 Branch Checkpoint.
 
+## FJ66 branch checkpoint
+
+`FJ66` pauses `T-001` as an active proof-target sequence. This is a
+project-state decision, not a theorem or negative result.
+
+`T-001` may be reactivated only through `OBL-T001-013`.
+
 ## Non-use warnings
 
 - Do not fabricate candidate families.
@@ -276,4 +289,4 @@ the project to `FJ66`, T-001 Branch Checkpoint.
 
 ## Next update
 
-Begin `FJ66`, T-001 Branch Checkpoint.
+Begin `FJ67`, Target-Pivot Criteria After T-001 Pause.

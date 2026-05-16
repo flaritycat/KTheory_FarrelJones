@@ -81,6 +81,11 @@ After `FJ65`, no exact prior-art blocker object or target-pivot comparison
 object is available. The no-candidate state is a target-pause trigger, but
 the actual branch decision belongs to `FJ66`, T-001 Branch Checkpoint.
 
+After `FJ66`, `T-001` is paused as an active proof-target sequence. It
+remains unresolved and archived. Do not reactivate `T-001` unless
+`OBL-T001-013` is satisfied. The next step is `FJ67`, Target-Pivot Criteria
+After T-001 Pause.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -95,7 +100,8 @@ Current module handoff:
 - `FJ63`: Candidate-Data Acquisition Packet is completed.
 - `FJ64`: Candidate Intake Attempt or No-Candidate Note is completed.
 - `FJ65`: Prior-Art / Branch-Readiness Checkpoint is completed.
-- `FJ66`: T-001 Branch Checkpoint is next.
+- `FJ66`: T-001 Branch Checkpoint is completed.
+- `FJ67`: Target-Pivot Criteria After T-001 Pause is next.
 
 Current obstruction:
 
@@ -136,7 +142,11 @@ Current obstruction:
 - `OBL-T001-012`: `FJ66` must make an explicit branch decision for `T-001`.
   It must record a target-pause recommendation, select a bounded target-pivot
   comparison packet, or identify an exact repository object that justifies
-  continuing `T-001`.
+  continuing `T-001`. `FJ66` records the target-pause recommendation.
+- `OBL-T001-013`: paused `T-001` may be reactivated only by a
+  candidate-admissible row, exact source payload, bridge lemma, concrete
+  computation, prior-art blocker object, or target-pivot comparison result
+  explicitly reselecting `T-001`.
 
 ## Repository Hygiene
 

@@ -1008,7 +1008,30 @@ T-001 Branch Checkpoint. `FJ66` must either pause `T-001`, select a bounded
 target-pivot comparison packet, or identify an exact repository object that
 justifies continuing `T-001`.
 
-The next step is `FJ66`, T-001 Branch Checkpoint.
+At this point, the next step was `FJ66`, T-001 Branch Checkpoint.
+
+## FJ66 T-001 branch checkpoint
+
+Current status: `FJ66` has first-pass coverage as the T-001 Branch
+Checkpoint module. It makes the branch decision required after the
+no-candidate and no-prior-art-object sequence from `FJ64` and `FJ65`.
+
+The route decision after `FJ66` is to pause `T-001` as an active
+proof-target sequence. This is not a theorem about torsion-free one-relator
+groups and not evidence against Farrell--Jones. It records only that the
+current repository has no candidate-admissible row, exact source payload,
+bridge, computation, prior-art blocker object, or pivot-comparison result
+that justifies continuing `T-001` now.
+
+`T-001` remains an unresolved archived target. `FJ66` records
+`OBL-T001-013`, the reactivation gate: future modules may reactivate `T-001`
+only with a candidate-admissible row, exact source payload, bridge lemma,
+concrete computation, prior-art blocker object, or target-pivot comparison
+result explicitly reselecting it.
+
+The next step is `FJ67`, Target-Pivot Criteria After T-001 Pause. It should
+define criteria for comparing possible next active targets before selecting
+one.
 
 ## GitHub persistence policy
 
