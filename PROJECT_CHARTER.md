@@ -936,7 +936,22 @@ subtraction should begin unless it identifies a candidate-admissible row or
 an exact bridge, computation, source payload, prior-art blocker, target
 pause, or target-pivot comparison.
 
-The next step is `FJ62`, Active Blocker Pruning for `T-001`.
+At this point, the next step was `FJ62`, Active Blocker Pruning for `T-001`.
+
+## FJ62 active blocker pruning
+
+Current status: `FJ62` has first-pass coverage as the Active Blocker Pruning
+module for `T-001`. It sorts accumulated blockers into active
+candidate-intake blockers, deferred foundations, historical trail markers,
+and possible pivot-comparison inputs.
+
+The route decision after `FJ62` is that only three blocker classes remain
+active for the next module: candidate-object acquisition, route-data
+acquisition, and the branch decision about whether acquisition succeeds. The
+module records `OBL-T001-009`, requiring `FJ63` to select exactly one
+data-acquisition packet or record failure to do so.
+
+The next step is `FJ63`, Candidate-Data Acquisition Packet.
 
 ## GitHub persistence policy
 

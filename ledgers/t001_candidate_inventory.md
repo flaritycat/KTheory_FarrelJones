@@ -10,7 +10,8 @@ audit status, by `FJ57` with the no-candidate endpoint obstruction, and by
 the no-weaker-consequence-source-payload obstruction, by `FJ60` with
 the inactive-consequence-lane obstruction, and by
 `reflections/cycle_003_reflection.md` with the cycle-004 candidate-intake
-reset, and by `FJ61` with the candidate-intake gate.
+reset, by `FJ61` with the candidate-intake gate, and by `FJ62` with active
+blocker pruning.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -51,6 +52,11 @@ intake and blocker pruning. No proof attempt, source verification, or route
 subtraction should begin until a candidate-admissible row or exact bridge,
 computation, source payload, prior-art blocker, pause recommendation, or
 pivot comparison is recorded.
+
+Current status after `FJ62`: active blockers are pruned to candidate-object
+acquisition, route-data acquisition, and the branch decision about whether
+acquisition succeeds. The next module must select exactly one data-acquisition
+packet or record failure to do so.
 
 Guiding question:
 
@@ -170,6 +176,7 @@ For every future candidate row, record:
 | `OBL-T001-006` | superseded for next-action purposes | `FJ59` | No weaker \(K_0\) / Cohen--Lyndon source payload is currently recorded for `T-001`. | `FJ60` checked the source-payload lane and recorded `OBL-T001-007`. | Stop if a future module cannot name an exact theorem statement, hypotheses, formulation level, and project object changed. |
 | `OBL-T001-007` | active obstruction | `FJ60` | The weaker \(K_0\) / Cohen--Lyndon consequence lane is inactive after no exact source payload was available for selection. | `FJ61` completed the candidate-intake reset; reopen this lane only with an exact source payload. | Do not continue the weaker consequence lane through source summaries or theorem names alone. |
 | `OBL-T001-008` | active requirement | `FJ61` | Candidate-intake gate: no cycle-004 `T-001` module may launch a proof attempt, source verification, or route subtraction unless it identifies a candidate-admissible row or exact bridge, computation, source payload, prior-art blocker, target-pause recommendation, or target-pivot comparison that changes a project object. | Use `FJ62` to prune active blockers before candidate-data acquisition. | If no admissible object appears by `FJ66`, recommend pausing `T-001` as an active proof-target sequence or compare target pivots. |
+| `OBL-T001-009` | active requirement | `FJ62` | Exact data-acquisition packet requirement: `FJ63` must select exactly one candidate-row, bridge-lemma, computation, source-payload, prior-art blocker, target-pause, or target-pivot packet, or record failure to do so. | Use `FJ63` to choose the packet and state the project object changed. | A broad source survey does not satisfy this obligation. |
 
 ## Cycle 003 reflection update
 
@@ -196,6 +203,17 @@ The gate is now active. Future rows must not be promoted from this inventory
 unless they satisfy that checklist or explicitly record a documented
 obstruction.
 
+## FJ62 active blocker pruning
+
+`FJ62` reduces the active blocker list to:
+
+1. candidate-object acquisition;
+2. route-data acquisition;
+3. branch decision after the acquisition attempt.
+
+Deferred foundations, historical trail markers, and pivot-comparison inputs
+remain recorded, but they do not authorize a source-summary module.
+
 ## Non-use warnings
 
 - Do not fabricate candidate families.
@@ -209,4 +227,4 @@ obstruction.
 
 ## Next update
 
-Begin `FJ62`, Active Blocker Pruning for `T-001`.
+Begin `FJ63`, Candidate-Data Acquisition Packet.

@@ -80,17 +80,17 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ62`, Active Blocker Pruning for `T-001`.
+Next project task: `FJ63`, Candidate-Data Acquisition Packet.
 
 `FJ60` closed the weaker \(K_0\) / Cohen--Lyndon consequence lane as inactive
 because no exact source payload is recorded. `reflections/cycle_003_reflection.md`
 then selects `FJ61` as an internal candidate-intake and exit-criteria module.
-`FJ61` records the candidate-intake gate and selects `FJ62`. Do not begin
-another source summary before `FJ62` prunes the active blockers and identifies
-whether any source task would change a candidate, bridge, computation,
-source payload, prior-art blocker, pause recommendation, or pivot comparison.
-A future source task should name an exact theorem, hypotheses, formulation
-level, and project object changed before reading begins.
+`FJ61` records the candidate-intake gate and selects `FJ62`. `FJ62` prunes
+the active blockers and selects `FJ63`. Do not begin another source summary
+before `FJ63` selects exactly one data-acquisition packet and identifies the
+project object it would change. A future source task should name an exact
+theorem, hypotheses, formulation level, and project object changed before
+reading begins.
 
 ## Reading protocol
 

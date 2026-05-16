@@ -48,7 +48,9 @@ exact payload, and creates `OBL-T001-007`, closing the weaker consequence
 lane as inactive until a source is named. `reflections/cycle_003_reflection.md`
 closes the third cycle and selects `FJ61` to set candidate-intake and exit
 criteria for the next `T-001` decision. `FJ61` records `OBL-T001-008`, the
-candidate-intake gate, and selects `FJ62` for active blocker pruning.
+candidate-intake gate, and selects `FJ62` for active blocker pruning. `FJ62`
+records `OBL-T001-009`, prunes active blockers, and selects `FJ63`,
+Candidate-Data Acquisition Packet.
 
 ## Warning
 
@@ -739,4 +741,15 @@ before further proof-target work.
 
 ## Next action after FJ61
 
-Begin `FJ62`, Active Blocker Pruning for `T-001`.
+At this point the next module was `FJ62`, Active Blocker Pruning for `T-001`.
+
+## FJ62 active blocker pruning update
+
+`FJ62` records no residual subtraction and no new theorem. It moves
+source-only or no-application items to deferred status, keeps cycle-003 route
+decisions as historical trail markers, and preserves only candidate-object
+acquisition, route-data acquisition, and branch decision as active blockers.
+
+## Next action after FJ62
+
+Begin `FJ63`, Candidate-Data Acquisition Packet.

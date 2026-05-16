@@ -61,6 +61,11 @@ next step is `FJ62`, Active Blocker Pruning for `T-001`. Do not launch a
 proof attempt, source verification, or route subtraction until the
 candidate-intake gate in `OBL-T001-008` is satisfied.
 
+After `FJ62`, active blockers are pruned. The next step is `FJ63`,
+Candidate-Data Acquisition Packet. `FJ63` must select exactly one
+data-acquisition packet or record failure to do so; broad source surveys do
+not satisfy `OBL-T001-009`.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -71,7 +76,8 @@ Current module handoff:
 - `FJ60`: Weaker Consequence Source-Payload Selection is completed.
 - `reflections/cycle_003_reflection.md` is completed.
 - `FJ61`: T-001 Candidate-Intake Reset and Exit Criteria is completed.
-- `FJ62`: Active Blocker Pruning for `T-001` is next.
+- `FJ62`: Active Blocker Pruning for `T-001` is completed.
+- `FJ63`: Candidate-Data Acquisition Packet is next.
 
 Current obstruction:
 
@@ -99,6 +105,8 @@ Current obstruction:
   candidate-admissible row or exact bridge, computation, source payload,
   prior-art blocker, target-pause recommendation, or target-pivot comparison
   that changes a project object.
+- `OBL-T001-009`: `FJ63` must select exactly one data-acquisition packet or
+  record failure to do so. Candidate-free source surveys are not allowed.
 
 ## Repository Hygiene
 

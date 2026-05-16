@@ -10,7 +10,9 @@ presented-kernel bridge, and `FJ41` verified the original BNS Theorem B1 as a
 finite-generation criterion. `reflections/cycle_003_reflection.md` leaves
 kernel recognition dormant until `FJ61` defines candidate-intake and exit
 criteria for `T-001`. `FJ61` keeps kernel recognition dormant until a
-candidate-admissible row or exact computation need is identified.
+candidate-admissible row or exact computation need is identified. `FJ62`
+preserves kernel recognition only as a possible route-data acquisition path
+for `FJ63`.
 
 ## Warning
 
@@ -285,4 +287,4 @@ presented normal subgroup is recorded.
 
 ## Next action
 
-Begin `FJ62`, Active Blocker Pruning for `T-001`.
+Begin `FJ63`, Candidate-Data Acquisition Packet.
