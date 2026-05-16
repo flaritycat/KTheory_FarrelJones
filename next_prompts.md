@@ -168,11 +168,11 @@ claim Farrell-Jones, FJCw, FICwF, or residual subtraction.
 
 ## Prompt 009
 
-Status: Open
+Status: Completed
 
-Completed by:
+Completed by: `FJ91`
 
-Commit:
+Commit: this commit (`[module] complete FJ91 torsion-free source check`)
 
 Prompt:
 
@@ -242,14 +242,14 @@ Prompt:
 
 ```text
 Continue with FJ92 by running a bounded Brown/BNS kernel-control computation
-for CAND-T001-005, but only if FJ91 has verified or explicitly bracketed
-torsion-free target status.
+for CAND-T001-005. FJ91 has verified torsion-free target status at
+first-pass candidate-ledger level.
 
 Payload ID: PAY-T001-CAND005-BROWN-BNS-2026-001
 Payload type: PAY-T001-COMPUTATION
 
 Target gate:
-OQ-112 or its FJ91 successor, OBL-C5-011 or its successor, and OBL-T001-018.
+OQ-113, OBL-C5-012, and OBL-T001-019.
 
 Object:
 CAND-T001-005:
@@ -293,7 +293,7 @@ Payload ID: PAY-T001-CAND005-ROUTE-PRIORART-2026-001
 Payload type: PAY-T001-BLOCKER
 
 Target gate:
-The active post-FJ90 or post-FJ91/FJ92 gate, plus OBL-T001-018.
+The active post-FJ91 gate, plus OBL-T001-019.
 
 Object:
 CAND-T001-005:
@@ -336,7 +336,7 @@ Payload ID: PAY-T001-CAND005-K0-CL-HYP-2026-001
 Payload type: PAY-T001-BRIDGE
 
 Target gate:
-The active post-FJ90 gate and OBL-T001-018.
+The active post-FJ91 gate and OBL-T001-019.
 
 Object:
 CAND-T001-005 and the FJ83 Jaikin-Zapirain--Linton--Sanchez-Peralta

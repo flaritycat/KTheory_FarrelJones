@@ -4384,7 +4384,7 @@ is recorded.
 
 ### Status
 
-Open inside project; blocked until a new accepted payload is recorded.
+Resolved by `FJ91`.
 
 ### Context
 
@@ -4394,9 +4394,13 @@ record verifies only first-pass proper-power status and an epimorphism to
 Brown/BNS or kernel data, identify a known Farrell--Jones route, or perform a
 prior-art comparison.
 
-No `FJ91` module is selected. A future module must be instantiated by a new
-accepted payload with exact target gate, changed project object, success
-criterion, failure criterion, and stop condition.
+Accepted payload `PAY-T001-CAND005-TF-2026-001` instantiates `FJ91`.
+`FJ91` uses Putman's statement of the Karrass--Magnus--Solitar one-relator
+torsion theorem to source-check torsion-free status for `CAND-T001-005`.
+
+The result clears only the torsion-free-status blocker. `FJ91` does not
+compute Brown/BNS or kernel data, identify a known Farrell--Jones route, or
+perform a prior-art comparison.
 
 ### Relevant modules
 
@@ -4404,18 +4408,53 @@ criterion, failure criterion, and stop condition.
 - FJ82
 - FJ89
 - FJ90
+- FJ91
 
 ### Dependencies
 
 `ledgers/payload_intake_protocol.md`, `OBL-C5-011`, `OBL-T001-018`,
+`CAND-T001-005`, `BIBLIOGRAPHY.md`, `ledgers/source_status.md`,
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
+`ledgers/theorem_dependencies.md`, `NOTATION_LEDGER.md`, and `AGENTS.md`.
+
+### Next action
+
+Resolved by `FJ91`. Continue only through `OQ-113` if a new accepted payload
+is recorded.
+
+## OQ-113. Which accepted payload, if any, should instantiate FJ92 after the FJ91 torsion-free source check?
+
+### Status
+
+Open inside project; blocked until a new accepted payload is recorded.
+
+### Context
+
+`FJ91` verifies torsion-free status for `CAND-T001-005` at first-pass
+candidate-ledger level. The row remains blocked for route or residual use:
+kernel control, known-route overlap, prior-art comparison, and formulation
+safety are not checked.
+
+No `FJ92` module is selected. A future module must be instantiated by a new
+accepted payload with exact target gate, changed project object, success
+criterion, failure criterion, and stop condition.
+
+### Relevant modules
+
+- FJ82
+- FJ90
+- FJ91
+
+### Dependencies
+
+`ledgers/payload_intake_protocol.md`, `OBL-C5-012`, `OBL-T001-019`,
 `CAND-T001-005`, `ledgers/t001_candidate_inventory.md`,
 `ledgers/t001_residual.md`, `ledgers/theorem_dependencies.md`,
 `NOTATION_LEDGER.md`, and `AGENTS.md`.
 
 ### Next action
 
-Record a new accepted payload before instantiating `FJ91`. A useful payload
-should name a bounded torsion-free source check, Brown/BNS or kernel-control
-computation, known-route bridge, formulation comparison, or prior-art blocker
-for `CAND-T001-005`. Do not create a source-summary module without such an
-object.
+Record a new accepted payload before instantiating `FJ92`. A useful payload
+should name a Brown/BNS or kernel-control computation, known-route bridge,
+formulation comparison, or prior-art blocker for `CAND-T001-005`. Do not
+create a broad source-summary module without such an object.

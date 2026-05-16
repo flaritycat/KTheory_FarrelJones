@@ -1698,7 +1698,38 @@ target, not a route result, and not a residual subtraction.
 creates `OBL-C5-011` blocking `FJ91` without a new accepted payload, creates
 `OQ-112`, and makes no full `T-001` claim.
 
-The next project move is not a numbered module. A future `FJ91` may be
+At the close of `FJ90`, the next project move was not a numbered module. The
+later accepted payload `PAY-T001-CAND005-TF-2026-001` instantiated `FJ91`.
+
+## FJ91 CAND-T001-005 torsion-free source check
+
+Current status: `FJ91` has first-pass coverage as the torsion-free
+source-check for `CAND-T001-005`.
+
+`FJ91` records accepted payload `PAY-T001-CAND005-TF-2026-001`, whose object
+is to decide whether the `FJ90` non-proper-power check combines with a
+source-checked one-relator torsion theorem.
+
+The source decision is bounded. Putman's notes state the
+Karrass--Magnus--Solitar torsion theorem and the corollary that
+\(\langle S\mid r\rangle\) is torsion-free when \(r\in F(S)\) is not a
+proper power. `FJ91` applies this to
+\[
+G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle
+\]
+using the `FJ90` abelianization check that the relator is not a proper power.
+
+Thus `CAND-T001-005` is torsion-free at first-pass candidate-ledger level.
+This is not a Farrell--Jones route, not kernel control, not a prior-art
+audit, and not a residual subtraction.
+
+`FJ91` resolves `OQ-112`, completes `OBL-C5-011`, partially completes
+`OBL-T001-018` for torsion-free status, creates `OBL-T001-019` for the
+remaining route/prior-art question, creates `OBL-C5-012` blocking `FJ92`
+without a new accepted payload, creates `OQ-113`, and makes no full `T-001`
+claim.
+
+The next project move is not a numbered module. A future `FJ92` may be
 instantiated only after a new accepted payload is recorded under
 `ledgers/payload_intake_protocol.md` or in the relevant target ledger.
 

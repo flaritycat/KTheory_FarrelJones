@@ -83,6 +83,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-T001-BS23-ROUTE-PRIORART-2026-001` | `PAY-T001-BLOCKER` | accepted for `FJ88` only | Bounded known-route / prior-art blocker audit for `CAND-T001-004`, \(G_{BS23}=BS(2,3)\). Accepted only to check whether the candidate is already source-routed or prior-art-blocked; not for Brown/BNS computation, kernel control, global `T-001`, or a new residual method. |
 | `PAY-T001-LIVE-CAND-AUDIT-2026-001` | `PAY-T001-BLOCKER` | accepted for `FJ89` only | Internal live-candidate audit after the FJ88 closure of `CAND-T001-004`. Accepted only to classify current rows and record whether a no-live-candidate blocker remains; not for adding candidates, searching externally, reopening \(G_{BS23}\), global `T-001`, or residual subtraction. |
 | `PAY-T001-CAND-FJ90-2026-001` | `PAY-T001-CAND` | accepted for `FJ90` only | Concrete one-relator candidate-intake payload for `CAND-T001-005`, \(G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle\). Accepted only for candidate-admissibility audit and ledger update; not for full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
+| `PAY-T001-CAND005-TF-2026-001` | `PAY-T001-BRIDGE` | accepted for `FJ91` only | Bounded torsion-free source-check payload for `CAND-T001-005`, \(G_{FJ90}\). Accepted only to check whether the `FJ90` non-proper-power result combines with a source-checked one-relator torsion theorem; not for Brown/BNS computation, route/prior-art audit, full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
 
 ## Accepted intake records
 
@@ -246,6 +247,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for FJ90 candidate-intake audit only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ90_t001_candidate_intake_after_no_live_candidate.md` |
 
+### `PAY-T001-CAND005-TF-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-T001-CAND005-TF-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-T001-BRIDGE` |
+| Target gate | `OQ-112`, `OBL-C5-011`, and `OBL-T001-018`. |
+| Candidate, source, bridge, computation, or blocker | Torsion-free source-check for `CAND-T001-005`, \(G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle\). |
+| Exact statement or object | Verify whether the non-proper-power relator check recorded in `FJ90` combines with a source-checked one-relator torsion theorem to promote torsion-free status for `CAND-T001-005`. |
+| APA citation if external source is used | Putman, A. (n.d.). *One-relator groups*. University of Notre Dame. https://www3.nd.edu/~andyp/notes/OneRelator.pdf. Karrass, A., Magnus, W., & Solitar, D. (1960). Elements of finite order in groups with a single defining relation. *Communications on Pure and Applied Mathematics, 13*, 57--66. Cited in Putman (n.d.); original paper not independently checked in `FJ91`. |
+| Source-status label | External source checked at first-pass level in `FJ91`: Putman's notes state the Karrass--Magnus--Solitar torsion theorem and the corollary that a one-relator group with non-proper-power relator is torsion-free. The original Karrass--Magnus--Solitar paper is cited through Putman but not independently checked. |
+| Hypotheses and formulation level | Candidate-status verification only. Hypotheses checked: one-relator presentation \(\langle S\mid r\rangle\), relator \(r\in F(S)\), and \(r\) not a proper power. This is not full Farrell--Jones, coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, weaker \(K_0\), or residual subtraction. |
+| Repository object changed | `modules/cycle_005/FJ91_cand005_torsion_free_source_check.md`; `next_prompts.md`; `ledgers/payload_intake_protocol.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `SCOPE_LEDGER.md`; `NOTATION_LEDGER.md`; `BIBLIOGRAPHY.md`; `ledgers/source_status.md`; `AGENTS.md`. |
+| Success criterion | `FJ91` records whether torsion-free status for `CAND-T001-005` is source-verified, partially verified, or still blocked. |
+| Failure criterion | The module cannot verify exact theorem text/hypotheses, or it becomes a broad one-relator survey. |
+| Stop condition | Stop after the torsion-free source-check and ledger update. Do not compute Brown/BNS data, audit prior art, claim a Farrell--Jones route, or create `FJ92`. |
+| Accepted? | Yes, for `FJ91` torsion-free source-check only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ91_cand005_torsion_free_source_check.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -305,6 +326,9 @@ After `FJ88`, accepted internal live-candidate audit payload
 After `FJ89`, accepted candidate-intake payload
 `PAY-T001-CAND-FJ90-2026-001` instantiated `FJ90`.
 
+After `FJ90`, accepted torsion-free source-check payload
+`PAY-T001-CAND005-TF-2026-001` instantiated `FJ91`.
+
 `FJ84` records that no currently recorded `T-001` candidate/family row is
 eligible for project use of the FJ83 weaker \(K_0\) / Cohen--Lyndon payload.
 This is not a full `T-001` theorem and not a residual subtraction.
@@ -334,10 +358,16 @@ selected. `FJ90` was created only after the accepted payload
 
 `FJ90` records \(G_{FJ90}\) as `CAND-T001-005`, a concrete but blocked
 candidate-intake row. It records no full `T-001` theorem and no residual
-subtraction. After `FJ90`, no `FJ91` module is selected. A future `FJ91` may
-be created only after a new accepted payload row is added above or an
-equivalent accepted payload is recorded in the relevant target ledger.
+subtraction. `FJ91` later source-checks the torsion-free status of this row
+through Putman's statement of the Karrass--Magnus--Solitar one-relator torsion
+theorem, but still records no Farrell--Jones route, no kernel-control result,
+and no residual subtraction.
 
-The latest accepted payload, `PAY-T001-CAND-FJ90-2026-001`, changes the
-state by instantiating `FJ90`; the earlier rejected intake
-attempts through `REJECTED-PAYLOAD-030` do not instantiate any module.
+After `FJ91`, no `FJ92` module is selected. A future `FJ92` may be created
+only after a new accepted payload row is added above or an equivalent accepted
+payload is recorded in the relevant target ledger.
+
+The latest accepted payload, `PAY-T001-CAND005-TF-2026-001`, changes the
+state by instantiating `FJ91`; the earlier accepted payload
+`PAY-T001-CAND-FJ90-2026-001` instantiated `FJ90`; the earlier rejected
+intake attempts through `REJECTED-PAYLOAD-030` do not instantiate any module.

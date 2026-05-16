@@ -261,7 +261,8 @@ Current module handoff:
 - `FJ89`: Live-Candidate Audit After G_BS23 Closure is completed.
 - `FJ90`: T-001 Candidate Intake After No-Live-Candidate Blocker is
   completed.
-- `FJ91`: no module selected; instantiate only from a new accepted payload.
+- `FJ91`: CAND-T001-005 Torsion-Free Source Check is completed.
+- `FJ92`: no module selected; instantiate only from a new accepted payload.
 
 Current obstruction:
 
@@ -287,16 +288,22 @@ Current obstruction:
 - `OBL-T001-017`: completed for route/prior-art status of `CAND-T001-004` by
   `FJ88`; do not treat \(G_{BS23}\) as a live non-routed residual candidate
   unless a later accepted payload names a different bounded object.
-- `NLC-T001-001`: `FJ89` records that no current `T-001` candidate-inventory
-  row is live and non-routed after the FJ88 closure. This is a project-state
-  blocker, not a theorem about torsion-free one-relator groups.
-- `OBL-T001-018`: `FJ90` records `CAND-T001-005` as a concrete blocked
-  intake row. Do not promote it without source-checked torsion-free status,
-  kernel-control data, known-route bridge, or prior-art blocker.
-- Cycle-003 reflection obstruction: `T-001` has no live non-routed candidate
-  row. `FJ61` must either define a legitimate intake branch, require a
-  concrete bridge/computation, recommend pausing `T-001`, or compare target
-  pivots.
+- `NLC-T001-001`: historical no-live-candidate blocker after the FJ88
+  closure. It was superseded for intake purposes by `FJ90`, which added
+  `CAND-T001-005`; do not use it to claim that the post-FJ91 inventory has no
+  concrete row.
+- `OBL-T001-018`: partially completed by `FJ91` for torsion-free status and
+  superseded for route promotion by `OBL-T001-019`. Do not promote
+  `CAND-T001-005` from torsion-free status alone.
+- `OBL-T001-019`: `FJ91` records `CAND-T001-005` as torsion-free at
+  first-pass candidate-ledger level, but kernel control, known-route overlap,
+  prior-art comparison, and formulation-safe route status remain unverified.
+  Do not treat it as routed or residual-subtractive without a new accepted
+  payload.
+- Cycle-003 reflection obstruction: historical. Later cycle-005 payloads
+  added `CAND-T001-004` and `CAND-T001-005`; the current blocker is not
+  absence of any concrete row but absence of kernel-control, route, or
+  prior-art data for `CAND-T001-005`.
 - `OBL-T001-008`: no cycle-004 `T-001` module may launch a proof attempt,
   source verification, or route subtraction unless it identifies a
   candidate-admissible row or exact bridge, computation, source payload,
@@ -420,11 +427,13 @@ Current obstruction:
   computation, source theorem, formulation comparison, or prior-art object
   with success criterion, failure criterion, and stop condition. Completed by
   accepted payload `PAY-T001-CAND-FJ90-2026-001`, which instantiated `FJ90`.
-- `OBL-C5-011`: no `FJ91` module may be created until a new accepted payload
+- `OBL-C5-011`: completed by accepted payload
+  `PAY-T001-CAND005-TF-2026-001`, which instantiated `FJ91`.
+- `OBL-C5-012`: no `FJ92` module may be created until a new accepted payload
   is recorded under `ledgers/payload_intake_protocol.md` or in the relevant
-  target ledger. Useful next payloads for `CAND-T001-005` include a
-  torsion-free source check, Brown/BNS or kernel-control computation,
-  known-route bridge, formulation comparison, or prior-art blocker.
+  target ledger. Useful next payloads for `CAND-T001-005` include Brown/BNS
+  or kernel-control computation, known-route bridge, formulation comparison,
+  or prior-art blocker.
 
 ## Repository Hygiene
 

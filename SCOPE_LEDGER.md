@@ -163,7 +163,8 @@ Unless explicitly imported later:
 113. Is \(G_{BS23}\) already covered by a known route or prior-art theorem? Tracked as `OQ-109`; first-pass resolved by `FJ88`, which routes the row through `ER-015`.
 114. Which accepted payload, if any, should instantiate FJ89 after FJ88? Tracked as `OQ-110`; resolved by `FJ89`, which records no-live-candidate blocker `NLC-T001-001`.
 115. Which accepted payload, if any, should instantiate FJ90 after FJ89? Tracked as `OQ-111`; resolved by `FJ90`, which adds concrete blocked intake row `CAND-T001-005`.
-116. Which accepted payload, if any, should instantiate FJ91 after FJ90? Tracked as `OQ-112`; open and blocked until a new accepted payload is recorded.
+116. Which accepted payload, if any, should instantiate FJ91 after FJ90? Tracked as `OQ-112`; resolved by `FJ91`, which source-checks torsion-free status for `CAND-T001-005`.
+117. Which accepted payload, if any, should instantiate FJ92 after FJ91? Tracked as `OQ-113`; open and blocked until a new accepted payload is recorded.
 
 ## Established results
 
@@ -193,15 +194,15 @@ specialization of the additive-category coefficient convention recorded in
 `FJ02`. Here \(R\) is an associative unital ring and \(G\) is a discrete
 group unless stated otherwise.
 
-The active project posture is post-`FJ90` candidate-intake gate. `T-001`,
+The active project posture is post-`FJ91` torsion-free source-check gate. `T-001`,
 torsion-free one-relator residual gap analysis, remains unresolved as a
 global target. The concrete row `CAND-T001-004` is no longer live as a
 non-routed residual candidate, because `FJ88` routes it through `ER-015`.
 `FJ90` adds `CAND-T001-005` as a concrete blocked intake row, with
-proper-power status and an epimorphism to \(\mathbb Z\) recorded, but without
-source-verified torsion-free status, kernel control, known-route overlap, or
-prior-art comparison. No `FJ91` module is selected without a new accepted
-payload.
+proper-power status and an epimorphism to \(\mathbb Z\) recorded. `FJ91`
+source-checks torsion-free status for this row. Kernel control, known-route
+overlap, prior-art comparison, and route formulation remain unverified. No
+`FJ92` module is selected without a new accepted payload.
 
 ## What has been established
 
@@ -581,6 +582,13 @@ Current source toolkit:
   a concrete blocked intake row; it resolves `OQ-111`, completes
   `OBL-C5-010`, creates `OBL-T001-018`, `OBL-C5-011`, and `OQ-112`, and
   makes no Farrell--Jones theorem claim;
+- torsion-free source check for `CAND-T001-005`: `FJ91` records accepted
+  payload `PAY-T001-CAND005-TF-2026-001` and verifies torsion-free status at
+  first-pass candidate-ledger level using Putman's statement of the
+  Karrass--Magnus--Solitar one-relator torsion theorem; it resolves
+  `OQ-112`, completes `OBL-C5-011`, partially completes `OBL-T001-018`,
+  creates `OBL-T001-019`, `OBL-C5-012`, and `OQ-113`, and makes no
+  Farrell--Jones route claim;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -589,4 +597,4 @@ Current source toolkit:
 ## Next mathematical move
 
 No numbered module is currently selected. Record a new accepted payload under
-`ledgers/payload_intake_protocol.md` before instantiating `FJ91`.
+`ledgers/payload_intake_protocol.md` before instantiating `FJ92`.

@@ -65,7 +65,12 @@ non-routed residual candidate, but this does not solve global `T-001`.
 records no-live-candidate blocker `NLC-T001-001`: no current row is live,
 non-routed, and candidate-admissible. `FJ90` then records accepted payload
 `PAY-T001-CAND-FJ90-2026-001` and adds `CAND-T001-005` as a concrete blocked
-intake row, not yet a live residual proof target.
+intake row, not yet a live residual proof target. `FJ91` then records
+accepted payload `PAY-T001-CAND005-TF-2026-001` and source-checks
+torsion-free status for `CAND-T001-005` via Putman's statement of the
+Karrass--Magnus--Solitar one-relator torsion theorem. This clears only the
+torsion-free-status blocker; kernel control, route overlap, and prior-art
+comparison remain unresolved.
 `reflections/cycle_003_reflection.md`
 closes the third cycle and selects `FJ61` to set candidate-intake and exit
 criteria for the next `T-001` decision. `FJ61` records `OBL-T001-008`, the
@@ -103,7 +108,7 @@ cases not yet removed by the repository's current source-verified route data.
 | RB-001 | Groups that may be hyperbolic, CAT(0), virtually solvable, hyperbolic-by-cyclic, or inherited from known cases, but no bridge is recorded | The route exists only after the bridge is source-verified or proved internally | OQ-026, OQ-038 |
 | RB-002 | Locally indicable-only torsion-free one-relator data | Local indicability is structural and is not a Farrell--Jones theorem route in the project | OQ-026 |
 | RB-003 | One-relator hierarchy-only data from the Linton vocabulary | A hierarchy is not automatically a bridge to hyperbolicity, CAT(0), virtual solvability, a mapping torus, or an inheritance row | OQ-038, OQ-039 |
-| RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge. `FJ86` adds \(G_{BS23}\) as an intake row and `FJ87` verifies torsion-free / HNN status, but `FJ88` routes this specific row through the graph-of-abelian-groups prior-art theorem instead of kernel control. | OQ-036 |
+| RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge. `FJ86` adds \(G_{BS23}\) as an intake row and `FJ87` verifies torsion-free / HNN status, but `FJ88` routes this specific row through the graph-of-abelian-groups prior-art theorem instead of kernel control. `FJ90` adds `CAND-T001-005` with an epimorphism to \(\mathbb Z\), and `FJ91` source-checks torsion-free status, but its kernel type remains unknown. | OQ-036 |
 | RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ50` pauses this bucket after the `FJCw` application audit and direct CAT(0) finite-extension check produce no residual subtraction | OQ-032, OQ-068, OQ-069, OQ-070, OQ-071 |
 | RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | Selected by `FJ50`; `FJ52` checks Louder--Wilton and finds no independent compact-special/CAT(0) route delta; WIP / provisional `FJ53` records \(\pi(w)>2\) only as hyperbolic overlap through `FJ23`; `FJ54` demotes this bucket as provisionally non-subtractive pending a genuinely non-hyperbolic bridge | OQ-033, OQ-072, OQ-073, OQ-074, OQ-075 |
 | RB-007 | Virtually solvable-looking one-relator cases without a recognition source | `FJ25` deliberately does not classify virtually solvable one-relator groups | OQ-034 |
@@ -1007,5 +1012,35 @@ Residual-bucket effect:
 
 This records `OBL-T001-018` for any later use of `CAND-T001-005`. Future
 work must supply a new accepted payload naming a torsion-free source check,
-kernel-control computation, route bridge, or prior-art blocker. No `FJ91`
-module is selected.
+kernel-control computation, route bridge, or prior-art blocker. At the close
+of `FJ90`, no `FJ91` module was selected; `FJ91` was later instantiated only
+after accepted payload `PAY-T001-CAND005-TF-2026-001` was recorded.
+
+## FJ91 CAND-T001-005 torsion-free source-check update
+
+`FJ91` records accepted payload `PAY-T001-CAND005-TF-2026-001` and verifies
+that
+\[
+G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle
+\]
+is torsion-free at first-pass candidate-status level.
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- the `FJ90` non-proper-power check is combined with Putman's statement of
+  the Karrass--Magnus--Solitar one-relator torsion theorem;
+- `CAND-T001-005` is now inside the torsion-free target at first-pass
+  candidate-ledger level;
+- the epimorphism \(\chi(a)=0,\chi(b)=1\) keeps the row near the
+  `RB-004` / `RB-008` kernel-control lane;
+- kernel control, known-route overlap, and prior-art comparison remain
+  unverified;
+- no coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, or
+  weaker \(K_0\) conclusion is recorded.
+
+This partially completes `OBL-T001-018` for torsion-free status and creates
+`OBL-T001-019` for the remaining route/prior-art question. Future work must
+use a new accepted payload naming a kernel-control computation, route bridge,
+formulation comparison, or prior-art blocker. No `FJ92` module is selected.
