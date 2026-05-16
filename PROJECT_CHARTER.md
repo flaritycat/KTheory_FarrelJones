@@ -1668,7 +1668,37 @@ no-live-candidate blocker `NLC-T001-001`, creates `OBL-C5-010` blocking
 `FJ90` without a new accepted payload, creates `OQ-111`, and makes no full
 `T-001` claim.
 
-The next project move is not a numbered module. A future `FJ90` may be
+The next project move after `FJ89` was not automatic. It became `FJ90` only
+after accepted candidate-intake payload `PAY-T001-CAND-FJ90-2026-001` was
+recorded under the payload protocol.
+
+## FJ90 T-001 candidate intake after no-live-candidate blocker
+
+Current status: `FJ90` has first-pass coverage as the candidate-intake audit
+for `CAND-T001-005`.
+
+`FJ90` records accepted payload `PAY-T001-CAND-FJ90-2026-001`, whose object
+is the concrete one-relator candidate
+\[
+G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle.
+\]
+
+The FJ90 decision is conservative. The relator is first-pass checked as not
+a proper power by the abelianization vector \((1,0)\), and the epimorphism
+\(\chi(a)=0,\chi(b)=1\) is recorded. However, FJ90 does not source-verify
+torsion-free status, does not compute Brown/BNS or kernel data, does not
+identify a known Farrell--Jones route, and does not perform a prior-art
+comparison.
+
+Thus `CAND-T001-005` is a concrete blocked intake row, not a live proof
+target, not a route result, and not a residual subtraction.
+
+`FJ90` resolves `OQ-111`, completes `OBL-C5-010`, records
+`CAND-T001-005`, creates `OBL-T001-018` for any later use of the candidate,
+creates `OBL-C5-011` blocking `FJ91` without a new accepted payload, creates
+`OQ-112`, and makes no full `T-001` claim.
+
+The next project move is not a numbered module. A future `FJ91` may be
 instantiated only after a new accepted payload is recorded under
 `ledgers/payload_intake_protocol.md` or in the relevant target ledger.
 

@@ -259,7 +259,9 @@ Current module handoff:
 - `FJ87`: G_BS23 Torsion-Free HNN Check is completed.
 - `FJ88`: G_BS23 Known-Route and Prior-Art Blocker Audit is completed.
 - `FJ89`: Live-Candidate Audit After G_BS23 Closure is completed.
-- `FJ90`: no module selected; instantiate only from a new accepted payload.
+- `FJ90`: T-001 Candidate Intake After No-Live-Candidate Blocker is
+  completed.
+- `FJ91`: no module selected; instantiate only from a new accepted payload.
 
 Current obstruction:
 
@@ -288,6 +290,9 @@ Current obstruction:
 - `NLC-T001-001`: `FJ89` records that no current `T-001` candidate-inventory
   row is live and non-routed after the FJ88 closure. This is a project-state
   blocker, not a theorem about torsion-free one-relator groups.
+- `OBL-T001-018`: `FJ90` records `CAND-T001-005` as a concrete blocked
+  intake row. Do not promote it without source-checked torsion-free status,
+  kernel-control data, known-route bridge, or prior-art blocker.
 - Cycle-003 reflection obstruction: `T-001` has no live non-routed candidate
   row. `FJ61` must either define a legitimate intake branch, require a
   concrete bridge/computation, recommend pausing `T-001`, or compare target
@@ -413,7 +418,13 @@ Current obstruction:
   is recorded under `ledgers/payload_intake_protocol.md` or in the relevant
   target ledger. The payload must supply a concrete candidate, bridge,
   computation, source theorem, formulation comparison, or prior-art object
-  with success criterion, failure criterion, and stop condition.
+  with success criterion, failure criterion, and stop condition. Completed by
+  accepted payload `PAY-T001-CAND-FJ90-2026-001`, which instantiated `FJ90`.
+- `OBL-C5-011`: no `FJ91` module may be created until a new accepted payload
+  is recorded under `ledgers/payload_intake_protocol.md` or in the relevant
+  target ledger. Useful next payloads for `CAND-T001-005` include a
+  torsion-free source check, Brown/BNS or kernel-control computation,
+  known-route bridge, formulation comparison, or prior-art blocker.
 
 ## Repository Hygiene
 

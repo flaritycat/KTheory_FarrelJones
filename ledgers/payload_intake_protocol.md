@@ -82,6 +82,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-T001-BS23-TF-HNN-2026-001` | `PAY-T001-BRIDGE` | accepted for `FJ87` only | Bounded torsion-free / HNN status check for `CAND-T001-004`, \(G_{BS23}\). Accepted only to update candidate status; not for kernel control, full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
 | `PAY-T001-BS23-ROUTE-PRIORART-2026-001` | `PAY-T001-BLOCKER` | accepted for `FJ88` only | Bounded known-route / prior-art blocker audit for `CAND-T001-004`, \(G_{BS23}=BS(2,3)\). Accepted only to check whether the candidate is already source-routed or prior-art-blocked; not for Brown/BNS computation, kernel control, global `T-001`, or a new residual method. |
 | `PAY-T001-LIVE-CAND-AUDIT-2026-001` | `PAY-T001-BLOCKER` | accepted for `FJ89` only | Internal live-candidate audit after the FJ88 closure of `CAND-T001-004`. Accepted only to classify current rows and record whether a no-live-candidate blocker remains; not for adding candidates, searching externally, reopening \(G_{BS23}\), global `T-001`, or residual subtraction. |
+| `PAY-T001-CAND-FJ90-2026-001` | `PAY-T001-CAND` | accepted for `FJ90` only | Concrete one-relator candidate-intake payload for `CAND-T001-005`, \(G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle\). Accepted only for candidate-admissibility audit and ledger update; not for full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
 
 ## Accepted intake records
 
@@ -225,6 +226,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for FJ89 live-candidate audit only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ89_live_candidate_audit_after_gbs23_closure.md` |
 
+### `PAY-T001-CAND-FJ90-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-T001-CAND-FJ90-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-T001-CAND` |
+| Target gate | `OQ-111`, `OBL-C5-010`, and `NLC-T001-001`. |
+| Candidate, source, bridge, computation, or blocker | Candidate group `CAND-T001-005`: \(G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle\). |
+| Exact statement or object | Run FJ90 as a candidate-intake audit for this one-relator group. Determine whether the row is candidate-admissible for `T-001`, already routed by an existing repository route, blocked by missing torsion-free/proper-power/source data, or useful only as an obstruction record. Do not treat the candidate as live until the module checks relator/proper-power status, torsion-free status, known-route overlap, and prior-art risk. |
+| APA citation if external source is used | No external source is supplied by this payload. FJ90 must add APA citations if it uses a source to verify torsion-free status, one-relator torsion criteria, hyperbolicity, CAT(0), prior art, or route status. No external source is used in FJ90. |
+| Source-status label | No source checked yet; candidate object supplied for bounded audit only. FJ90 performs no external source check. |
+| Hypotheses and formulation level | Torsion-free one-relator candidate audit only. Do not claim full Farrell--Jones, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. Verify formulation level before any route promotion. |
+| Repository object changed | `modules/cycle_005/FJ90_t001_candidate_intake_after_no_live_candidate.md`; `ledgers/payload_intake_protocol.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `SCOPE_LEDGER.md`; `NOTATION_LEDGER.md`. |
+| Success criterion | FJ90 records whether `CAND-T001-005` is candidate-admissible, already routed, blocked by missing data, or useful only as an obstruction. |
+| Failure criterion | The module cannot verify enough candidate data to classify the row, the candidate is immediately a placeholder, or the audit becomes a broad source summary. |
+| Stop condition | Stop after the candidate-admissibility audit and ledger update. Do not start a broad one-relator survey. Do not create `FJ91`. |
+| Accepted? | Yes, for FJ90 candidate-intake audit only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ90_t001_candidate_intake_after_no_live_candidate.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -281,6 +302,9 @@ After `FJ87`, accepted known-route / prior-art blocker payload
 After `FJ88`, accepted internal live-candidate audit payload
 `PAY-T001-LIVE-CAND-AUDIT-2026-001` instantiated `FJ89`.
 
+After `FJ89`, accepted candidate-intake payload
+`PAY-T001-CAND-FJ90-2026-001` instantiated `FJ90`.
+
 `FJ84` records that no currently recorded `T-001` candidate/family row is
 eligible for project use of the FJ83 weaker \(K_0\) / Cohen--Lyndon payload.
 This is not a full `T-001` theorem and not a residual subtraction.
@@ -304,11 +328,16 @@ kernel control and does not prove global `T-001`.
 `FJ89` records that no current `T-001` candidate-inventory row remains live
 and non-routed after the FJ88 closure. It records no-live-candidate blocker
 `NLC-T001-001`, completes `OBL-C5-009`, resolves `OQ-110`, and creates
-`OBL-C5-010` and `OQ-111`. After `FJ89`, no `FJ90` module is selected. A
-future `FJ90` may be created only after a new accepted payload row is added
-above or an equivalent accepted payload is recorded in the relevant target
-ledger.
+`OBL-C5-010` and `OQ-111`. At the close of `FJ89`, no `FJ90` module was
+selected. `FJ90` was created only after the accepted payload
+`PAY-T001-CAND-FJ90-2026-001` was recorded.
 
-The latest accepted payload, `PAY-T001-LIVE-CAND-AUDIT-2026-001`, changes
-the state by instantiating `FJ89`; the earlier rejected intake
+`FJ90` records \(G_{FJ90}\) as `CAND-T001-005`, a concrete but blocked
+candidate-intake row. It records no full `T-001` theorem and no residual
+subtraction. After `FJ90`, no `FJ91` module is selected. A future `FJ91` may
+be created only after a new accepted payload row is added above or an
+equivalent accepted payload is recorded in the relevant target ledger.
+
+The latest accepted payload, `PAY-T001-CAND-FJ90-2026-001`, changes the
+state by instantiating `FJ90`; the earlier rejected intake
 attempts through `REJECTED-PAYLOAD-030` do not instantiate any module.

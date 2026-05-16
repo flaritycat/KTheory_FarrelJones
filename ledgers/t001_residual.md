@@ -63,7 +63,9 @@ graph-of-abelian-groups route. The row is therefore no longer a live
 non-routed residual candidate, but this does not solve global `T-001`.
 `FJ89` then audits the current candidate inventory after this closure and
 records no-live-candidate blocker `NLC-T001-001`: no current row is live,
-non-routed, and candidate-admissible.
+non-routed, and candidate-admissible. `FJ90` then records accepted payload
+`PAY-T001-CAND-FJ90-2026-001` and adds `CAND-T001-005` as a concrete blocked
+intake row, not yet a live residual proof target.
 `reflections/cycle_003_reflection.md`
 closes the third cycle and selects `FJ61` to set candidate-intake and exit
 criteria for the next `T-001` decision. `FJ61` records `OBL-T001-008`, the
@@ -977,4 +979,33 @@ Residual-bucket effect:
 This records `NLC-T001-001`, the no-live-candidate blocker after the FJ88
 closure. Future residual-bucket work requires a new accepted payload
 supplying a concrete candidate, exact bridge, computation, source theorem,
-formulation comparison, or prior-art object. No `FJ90` module is selected.
+formulation comparison, or prior-art object. At the close of `FJ89`, no
+`FJ90` module was selected; `FJ90` was later instantiated only after accepted
+payload `PAY-T001-CAND-FJ90-2026-001` was recorded.
+
+## FJ90 candidate-intake update after no-live-candidate blocker
+
+`FJ90` records accepted payload `PAY-T001-CAND-FJ90-2026-001` and adds
+`CAND-T001-005`:
+\[
+G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle.
+\]
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- the relator is first-pass checked as not a proper power by the
+  abelianization vector \((1,0)\);
+- the epimorphism \(\chi(a)=0,\chi(b)=1\) places the row near the
+  `RB-004` / `RB-008` kernel-control lane;
+- torsion-free status is not source-verified in `FJ90`;
+- kernel control, known-route overlap, and prior-art comparison remain
+  unverified;
+- the row is therefore concrete and blocked, not live for residual
+  subtraction.
+
+This records `OBL-T001-018` for any later use of `CAND-T001-005`. Future
+work must supply a new accepted payload naming a torsion-free source check,
+kernel-control computation, route bridge, or prior-art blocker. No `FJ91`
+module is selected.

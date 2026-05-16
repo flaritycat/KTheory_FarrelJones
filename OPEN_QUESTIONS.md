@@ -4340,7 +4340,7 @@ non-routed.
 
 ### Status
 
-Open inside project; blocked until a new accepted payload is recorded.
+Resolved by `FJ90`.
 
 ### Context
 
@@ -4350,9 +4350,15 @@ classified as calibration-only, routed, source-routed / prior-art-blocked,
 or placeholder. This is a project-state blocker, not a theorem about
 torsion-free one-relator groups.
 
-No `FJ90` module is selected. A future module must be instantiated by a new
-accepted payload with exact target gate, changed project object, success
-criterion, failure criterion, and stop condition.
+Accepted payload `PAY-T001-CAND-FJ90-2026-001` instantiated `FJ90` as a
+bounded candidate-intake audit for `CAND-T001-005`,
+\[
+G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle.
+\]
+FJ90 adds the row as concrete but blocked: the relator is first-pass checked
+as not a proper power and an epimorphism to \(\mathbb Z\) is recorded, but
+torsion-free status, kernel control, known-route overlap, and prior-art
+comparison remain unverified.
 
 ### Relevant modules
 
@@ -4361,6 +4367,7 @@ criterion, failure criterion, and stop condition.
 - FJ87
 - FJ88
 - FJ89
+- FJ90
 
 ### Dependencies
 
@@ -4370,8 +4377,45 @@ criterion, failure criterion, and stop condition.
 
 ### Next action
 
-Record a new accepted payload before instantiating `FJ90`. A useful payload
-must supply a concrete new candidate or family, exact source theorem, bridge
-lemma, computation, formulation comparison, or prior-art object that changes
-a repository object. Do not create a source-summary module without such an
+Resolved by `FJ90`. Continue only through `OQ-112` if a new accepted payload
+is recorded.
+
+## OQ-112. Which accepted payload, if any, should instantiate FJ91 after the FJ90 candidate-intake audit?
+
+### Status
+
+Open inside project; blocked until a new accepted payload is recorded.
+
+### Context
+
+FJ90 records `CAND-T001-005` as a concrete blocked intake row. The current
+record verifies only first-pass proper-power status and an epimorphism to
+\(\mathbb Z\). It does not source-verify torsion-free status, compute
+Brown/BNS or kernel data, identify a known Farrell--Jones route, or perform a
+prior-art comparison.
+
+No `FJ91` module is selected. A future module must be instantiated by a new
+accepted payload with exact target gate, changed project object, success
+criterion, failure criterion, and stop condition.
+
+### Relevant modules
+
+- FJ61
+- FJ82
+- FJ89
+- FJ90
+
+### Dependencies
+
+`ledgers/payload_intake_protocol.md`, `OBL-C5-011`, `OBL-T001-018`,
+`CAND-T001-005`, `ledgers/t001_candidate_inventory.md`,
+`ledgers/t001_residual.md`, `ledgers/theorem_dependencies.md`,
+`NOTATION_LEDGER.md`, and `AGENTS.md`.
+
+### Next action
+
+Record a new accepted payload before instantiating `FJ91`. A useful payload
+should name a bounded torsion-free source check, Brown/BNS or kernel-control
+computation, known-route bridge, formulation comparison, or prior-art blocker
+for `CAND-T001-005`. Do not create a source-summary module without such an
 object.
