@@ -153,6 +153,7 @@ Use this template before instantiating a future numbered module.
 | `REJECTED-PAYLOAD-007` | 2026-05-16 | "Continue" | rejected / not an accepted payload | Repeated generic continuation request after `REJECTED-PAYLOAD-006`; still no new accepted payload, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-105` open; do not instantiate `FJ84`. |
 | `REJECTED-PAYLOAD-008` | 2026-05-16 | "Continue" | rejected / not an accepted payload | Repeated generic continuation request after `REJECTED-PAYLOAD-007`; still no new accepted payload, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-105` open; do not instantiate `FJ84`. |
 | `REJECTED-PAYLOAD-009` | 2026-05-16 | "Continue" | rejected / not an accepted payload | Repeated generic continuation request after `REJECTED-PAYLOAD-008`; still no new accepted payload, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-105` open; do not instantiate `FJ84`. |
+| `REJECTED-PAYLOAD-010` | 2026-05-16 | "Paste the next payload. Then continue" | rejected / not an accepted payload | After `FJ85`, this repeats a continuation instruction without naming a new mathematical candidate, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition. `FJ85` already records that governance-only continuation cannot instantiate mathematical work. | Keep `OQ-107` open; do not instantiate `FJ86`. |
 
 ## Current project state
 
@@ -173,3 +174,6 @@ This is not a full `T-001` theorem and not a residual subtraction.
 
 `FJ85` records that the next payload after `FJ84` is governance-only. It does
 not reactivate a target, start source work, or create a mathematical claim.
+
+The latest intake attempt, `REJECTED-PAYLOAD-010`, does not change this
+state. No `FJ86` module is selected.
