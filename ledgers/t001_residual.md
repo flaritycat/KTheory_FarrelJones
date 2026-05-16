@@ -31,7 +31,9 @@ hyperbolic-overlap criterion through `FJ23`, while demoting the
 Louder--Wilton `RB-006` path as provisionally non-subtractive. `FJ54`
 records the residual-bucket checkpoint, creates the candidate-inventory
 ledger, and selects the `RB-003` + `RB-004`/`RB-008` hybrid attack packet for
-`FJ55`.
+`FJ55`. `FJ55` records that hierarchy / primitive-extension data alone does
+not supply a direct FJ route in the current repository and sends the project
+to kernel-control candidate inventory.
 
 ## Warning
 
@@ -557,6 +559,29 @@ Outcome:
 - the next module is `FJ55`, Primitive-Extension / Hierarchy-to-FJ Bridge
   Test.
 
-## Next action
+## Historical next action after FJ54
 
-Begin `FJ55`, Primitive-Extension / Hierarchy-to-FJ Bridge Test.
+The next module at that point was `FJ55`, Primitive-Extension /
+Hierarchy-to-FJ Bridge Test.
+
+## FJ55 primitive-extension / hierarchy-to-FJ bridge test update
+
+`FJ55` tests the hierarchy side of the selected hybrid packet.
+
+Outcome:
+
+- hierarchy existence, HNN structure, and primitive-extension shorthand are
+  not direct FJ routes in the current repository;
+- hierarchy data may still route through approved outputs, especially
+  hyperbolicity via `FJ23`, finite-dimensional CAT(0) input via `FJ24`,
+  finite-rank free or hyperbolic kernel extension data via `FJ26`, or
+  version-safe inheritance via `FJ27`;
+- `OBL-T001-001` records the missing direct hierarchy-to-FJ bridge;
+- `OBL-T001-002` requires future hybrid candidates to declare their intended
+  route output before source work begins;
+- no residual bucket is removed by `FJ55`;
+- the next module is `FJ56`, Kernel-Control Candidate Inventory.
+
+## Next action after FJ55
+
+Begin `FJ56`, Kernel-Control Candidate Inventory.

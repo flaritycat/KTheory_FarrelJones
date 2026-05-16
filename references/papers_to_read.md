@@ -80,13 +80,12 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ55`, Primitive-Extension / Hierarchy-to-FJ Bridge
-Test. Start from `FJ22`, `FJ23`, `FJ28`, `FJ36`, `FJ43`, `FJ50`, WIP /
-provisional `FJ53`, `FJ54`, `OQ-076`, `ledgers/t001_residual.md`,
-`ledgers/t001_candidate_inventory.md`, `ledgers/open_group_classes.md`, and
-`ledgers/t001_kernel_recognition.md`. Do not open a new external source lane
-unless the hierarchy/primitive-extension test changes a candidate, bucket,
-proof obligation, or obstruction.
+Next project task: `FJ56`, Kernel-Control Candidate Inventory. Start from
+`FJ30`, `FJ36`, `FJ41`, `FJ54`, `FJ55`, `OQ-077`,
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_kernel_recognition.md`,
+and `ledgers/t001_residual.md`. Do not open a new external source lane unless
+the candidate inventory names a concrete candidate and missing source
+statement.
 
 ## Reading protocol
 

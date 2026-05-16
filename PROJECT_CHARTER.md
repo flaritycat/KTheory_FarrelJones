@@ -805,7 +805,20 @@ hierarchy data can be converted into an FJ route, candidate family, bridge
 lemma, or documented obstruction when paired with explicit kernel-control
 work.
 
-The next step is `FJ55`, Primitive-Extension / Hierarchy-to-FJ Bridge Test.
+Current status: `FJ55` has first-pass coverage as the Primitive-Extension /
+Hierarchy-to-FJ Bridge Test. It records that hierarchy existence, HNN
+structure, and primitive-extension shorthand are not direct Farrell--Jones
+routes in the current repository. Their project use must pass through an
+approved route output: hyperbolicity, finite-dimensional CAT(0), virtual
+solvability, finite-rank free or hyperbolic kernel extension, or
+version-safe inheritance.
+
+The route decision after `FJ55` is to stop the hierarchy-only lane and move
+to explicit kernel-control candidate inventory. The module creates
+`OBL-T001-001` and `OBL-T001-002` in
+`ledgers/t001_candidate_inventory.md` and makes no residual subtraction.
+
+The next step is `FJ56`, Kernel-Control Candidate Inventory.
 
 ## GitHub persistence policy
 

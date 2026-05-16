@@ -3,7 +3,8 @@
 ## Status
 
 Created by `FJ54` as the candidate ledger for the `RB-003` +
-`RB-004`/`RB-008` hybrid attack packet.
+`RB-004`/`RB-008` hybrid attack packet. Updated by `FJ55` with
+route-output proof obligations.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -51,6 +52,13 @@ For every future candidate row, record:
 - next proof obligation;
 - stop condition.
 
+## Proof-obligation inventory
+
+| Obligation ID | Status | Source module | Statement | Required next action | Stop condition |
+|---|---|---|---|---|---|
+| `OBL-T001-001` | active obstruction | `FJ55` | No direct hierarchy-to-FJ bridge is currently recorded. Hierarchy existence, HNN structure, or primitive-extension shorthand must pass through an approved route output before any residual subtraction. | Use `FJ56` to attach explicit kernel-control data to repository-supported candidate rows. | Stop any hierarchy-only source lane unless it changes a candidate, route output, or obstruction. |
+| `OBL-T001-002` | active requirement | `FJ55` | Every future `RB-003` + `RB-004`/`RB-008` hybrid candidate must state which route output it seeks: hyperbolicity, CAT(0)/special input, finite-rank free or hyperbolic kernel extension, or version-safe inheritance. | Add a route-output field note to candidate rows when they become active. | Stop if the candidate cannot name a route output or a documented obstruction. |
+
 ## Non-use warnings
 
 - Do not fabricate candidate families.
@@ -63,6 +71,5 @@ For every future candidate row, record:
 
 ## Next update
 
-`FJ55` should test whether primitive-extension / hierarchy data can create a
-candidate-level bridge, candidate row, or obstruction for the selected hybrid
-packet.
+`FJ56` should attach explicit kernel-control data to repository-supported
+candidate rows for the selected hybrid packet.

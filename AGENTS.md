@@ -35,10 +35,10 @@ The current primary attack packet after `FJ54` is:
 framework combined with explicit kernel-control testing for concrete
 torsion-free one-relator candidate families.
 
-The next modules should follow:
+Current module handoff:
 
-- `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test.
-- `FJ56`: Kernel-Control Candidate Inventory.
+- `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
+- `FJ56`: Kernel-Control Candidate Inventory is next.
 - `FJ57`: Candidate Family Proof Attempt or Obstruction Record.
 
 ## Repository Hygiene

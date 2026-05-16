@@ -224,6 +224,7 @@ boundary check. `FJ52` finds no independent `RB-006` compact-special/CAT(0)
 route delta, and WIP / provisional `FJ53` records the remaining
 \(\pi(w)>2\) use only as hyperbolic-route overlap through `FJ23`. `FJ54`
 demotes `RB-006` and selects the `RB-003` + `RB-004`/`RB-008` hybrid attack
-packet. The active project move is `FJ55`, Primitive-Extension /
-Hierarchy-to-FJ Bridge Test; kernel-recognition returns only as the
-`RB-004`/`RB-008` component of that hybrid packet.
+packet. `FJ55` records that hierarchy data alone is not an FJ route. The
+active project move is `FJ56`, Kernel-Control Candidate Inventory, where
+kernel-recognition returns as the `RB-004`/`RB-008` component of the hybrid
+packet.
