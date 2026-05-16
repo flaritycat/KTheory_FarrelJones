@@ -1029,9 +1029,30 @@ only with a candidate-admissible row, exact source payload, bridge lemma,
 concrete computation, prior-art blocker object, or target-pivot comparison
 result explicitly reselecting it.
 
-The next step is `FJ67`, Target-Pivot Criteria After T-001 Pause. It should
-define criteria for comparing possible next active targets before selecting
-one.
+At this point, the next step was `FJ67`, Target-Pivot Criteria After T-001
+Pause.
+
+## FJ67 target-pivot criteria after T-001 pause
+
+Current status: `FJ67` has first-pass coverage as the Target-Pivot Criteria
+After T-001 Pause module. It records the criteria that must be checked before
+the project selects any new active target after the `T-001` pause.
+
+The route decision after `FJ67` is not to select a new active target yet.
+Instead, `FJ67` records `OBL-PIVOT-001`: no new active target may be selected
+until a target-pivot matrix records source-readiness, candidate-level object,
+Farrell--Jones relevance, formulation-safety flags, known-route overlap,
+prior-art risk, expected project output, stop condition, and explicit
+decision.
+
+`T-001` remains dormant unless the `OBL-T001-013` reactivation gate is
+satisfied. Artin groups, automatic / biautomatic groups, Thompson-type
+groups, and dormant `T-001` are possible inputs to the next comparison, but
+none is selected by `FJ67`.
+
+The next step is `FJ68`, Target-Pivot Candidate Matrix. It should apply the
+`FJ67` criteria to the currently recorded possible targets and either select
+one bounded target packet or record that no target is ready.
 
 ## GitHub persistence policy
 

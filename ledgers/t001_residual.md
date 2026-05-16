@@ -804,6 +804,13 @@ source payload, bridge, computation, prior-art blocker object, or
 pivot-comparison result is present. `T-001` remains unresolved and may be
 reactivated only through the `OBL-T001-013` gate.
 
-## Next action after FJ66
+## FJ67 target-pivot criteria update
 
-Begin `FJ67`, Target-Pivot Criteria After T-001 Pause.
+`FJ67` records no residual subtraction and no new theorem. It defines
+target-pivot criteria for possible post-`T-001` targets, records
+`OBL-PIVOT-001`, and keeps `T-001` dormant unless the `OBL-T001-013`
+reactivation gate is satisfied.
+
+## Next action after FJ67
+
+Begin `FJ68`, Target-Pivot Candidate Matrix.

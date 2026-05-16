@@ -86,6 +86,11 @@ remains unresolved and archived. Do not reactivate `T-001` unless
 `OBL-T001-013` is satisfied. The next step is `FJ67`, Target-Pivot Criteria
 After T-001 Pause.
 
+After `FJ67`, no new active target has been selected. The next step is
+`FJ68`, Target-Pivot Candidate Matrix. `FJ68` must apply `OBL-PIVOT-001`
+before selecting any target packet, and it must keep dormant `T-001` inactive
+unless the matrix explicitly reselects it through `OBL-T001-013`.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -101,7 +106,8 @@ Current module handoff:
 - `FJ64`: Candidate Intake Attempt or No-Candidate Note is completed.
 - `FJ65`: Prior-Art / Branch-Readiness Checkpoint is completed.
 - `FJ66`: T-001 Branch Checkpoint is completed.
-- `FJ67`: Target-Pivot Criteria After T-001 Pause is next.
+- `FJ67`: Target-Pivot Criteria After T-001 Pause is completed.
+- `FJ68`: Target-Pivot Candidate Matrix is next.
 
 Current obstruction:
 
@@ -147,6 +153,11 @@ Current obstruction:
   candidate-admissible row, exact source payload, bridge lemma, concrete
   computation, prior-art blocker object, or target-pivot comparison result
   explicitly reselecting `T-001`.
+- `OBL-PIVOT-001`: no new active target may be selected after the `T-001`
+  pause until a target-pivot matrix records source-readiness,
+  candidate-level object, Farrell--Jones relevance, formulation-safety flags,
+  known-route overlap, prior-art risk, expected project output, stop
+  condition, and explicit decision.
 
 ## Repository Hygiene
 

@@ -291,6 +291,12 @@ named. Brown/BNS/Karrass--Solitar data remain dormant until a concrete
 candidate, \(\Sigma(G)\)-membership computation, or source-ready finitely
 presented normal subgroup is recorded.
 
+## FJ67 target-pivot criteria update
+
+`FJ67` does not change kernel-recognition status. Brown/BNS/Karrass--Solitar
+data remain dormant `T-001` resources, not a reason to reactivate `T-001`
+without satisfying `OBL-T001-013`.
+
 ## Next action
 
-Begin `FJ67`, Target-Pivot Criteria After T-001 Pause.
+Begin `FJ68`, Target-Pivot Candidate Matrix.

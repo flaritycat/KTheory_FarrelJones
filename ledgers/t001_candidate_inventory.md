@@ -276,6 +276,14 @@ project-state decision, not a theorem or negative result.
 
 `T-001` may be reactivated only through `OBL-T001-013`.
 
+## FJ67 target-pivot criteria update
+
+`FJ67` records no new `T-001` candidate row and no residual subtraction. It
+defines target-pivot criteria for the post-`T-001` pause state, records
+`OBL-PIVOT-001`, and keeps `T-001` dormant unless `OBL-T001-013` is
+satisfied by a later target-pivot matrix or another permitted reactivation
+object.
+
 ## Non-use warnings
 
 - Do not fabricate candidate families.
@@ -289,4 +297,4 @@ project-state decision, not a theorem or negative result.
 
 ## Next update
 
-Begin `FJ67`, Target-Pivot Criteria After T-001 Pause.
+Begin `FJ68`, Target-Pivot Candidate Matrix.
