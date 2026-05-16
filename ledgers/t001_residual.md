@@ -33,7 +33,10 @@ records the residual-bucket checkpoint, creates the candidate-inventory
 ledger, and selects the `RB-003` + `RB-004`/`RB-008` hybrid attack packet for
 `FJ55`. `FJ55` records that hierarchy / primitive-extension data alone does
 not supply a direct FJ route in the current repository and sends the project
-to kernel-control candidate inventory.
+to kernel-control candidate inventory. `FJ56` audits the current candidate
+rows, records that the concrete kernel-control rows are calibration-only or
+already removed through `FJ26`, and creates the no-live-candidate obstruction
+`OBL-T001-003`.
 
 ## Warning
 
@@ -582,6 +585,24 @@ Outcome:
 - no residual bucket is removed by `FJ55`;
 - the next module is `FJ56`, Kernel-Control Candidate Inventory.
 
-## Next action after FJ55
+## FJ56 kernel-control candidate inventory update
 
-Begin `FJ56`, Kernel-Control Candidate Inventory.
+`FJ56` audits the candidate inventory for the selected hybrid packet.
+
+Outcome:
+
+- `CAND-T001-001` has finite-rank free kernel data but is calibration-only and
+  already virtually solvable;
+- `CAND-T001-002` is \(G_{2,3}\), has \(\ker(\chi)\cong F_2\), and is
+  already removed through `FJ26`;
+- `CAND-T001-003` is the \(G_{p,q}\)-family, has finite-rank free kernel by
+  the `FJ36` Bass--Serre bridge, and is already removed through `FJ26`;
+- `TPL-RB003-004-008` remains a placeholder, not a mathematical candidate;
+- no current row supplies a live `RB-004`/`RB-008` extension problem.
+
+`FJ56` therefore resolves `OQ-077` at first pass but makes no residual
+subtraction.
+
+## Next action after FJ56
+
+Begin `FJ57`, Candidate Family Proof Attempt or Obstruction Record.

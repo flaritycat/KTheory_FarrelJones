@@ -4,7 +4,8 @@
 
 Created by `FJ54` as the candidate ledger for the `RB-003` +
 `RB-004`/`RB-008` hybrid attack packet. Updated by `FJ55` with
-route-output proof obligations.
+route-output proof obligations and by `FJ56` with explicit kernel-control
+audit status.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -32,6 +33,20 @@ FJ route, a candidate family, a bridge lemma, or a documented obstruction?
 | `CAND-T001-003` | \(G_{p,q}=\langle x,y\mid x^p y^{-q}\rangle\), \(p,q\geq2\), \(\gcd(p,q)=1\) | unknown in this inventory | Internally verified for the recorded family route in `FJ36` | not used | not needed for recorded route | not needed | Brown-positive finite generation in `FJ34`; Bass--Serre freeness bridge in `FJ36` | yes, \(\chi_{p,q}(x)=q,\chi_{p,q}(y)=p\) | finite-rank free, rank not computed | `FJ26` finite-rank free-by-cyclic route | formulation-safe through existing `FJ26` route, not a new `FJCw` case | already removed; novelty risk if reused | none; already routed | stop if proposed as a new residual subtraction |
 | `TPL-RB003-004-008` | template placeholder only | unknown | unknown | unknown | unknown | unknown | not computed | unknown | unknown | none selected | unresolved | unrecorded | identify a real presentation or family before source work | stop unless future module supplies an actual candidate, bridge lemma, or obstruction |
 
+## FJ56 kernel-control audit
+
+| Candidate ID | Kernel-control status | Route-output status | Active for `FJ57`? | FJ56 decision |
+|---|---|---|---|---|
+| `CAND-T001-001` | epimorphism and finite-rank free kernel recorded in `FJ31` | `FJ26` output exists but is redundant with the virtually solvable route | no | keep as calibration only |
+| `CAND-T001-002` | epimorphism, Brown-positive data, and \(\ker(\chi)\cong F_2\) recorded in `FJ33` | already removed through `FJ26` | no | keep as routed example only |
+| `CAND-T001-003` | epimorphism, Brown-positive finite generation, and Bass--Serre finite-rank freeness recorded in `FJ34`/`FJ36` | already removed through `FJ26` | no | keep as routed family only |
+| `TPL-RB003-004-008` | no presentation, epimorphism, BNS/Brown data, or kernel type | no route output selected | no | placeholder only; future module must supply a real candidate before proof work |
+
+`FJ56` conclusion: the repository has no live non-routed kernel-control
+candidate after auditing the existing rows. The next module must either add a
+repository-supported non-routed candidate row or record the no-candidate
+obstruction as the current endpoint of the hybrid packet.
+
 ## Candidate intake checklist
 
 For every future candidate row, record:
@@ -58,6 +73,7 @@ For every future candidate row, record:
 |---|---|---|---|---|---|
 | `OBL-T001-001` | active obstruction | `FJ55` | No direct hierarchy-to-FJ bridge is currently recorded. Hierarchy existence, HNN structure, or primitive-extension shorthand must pass through an approved route output before any residual subtraction. | Use `FJ56` to attach explicit kernel-control data to repository-supported candidate rows. | Stop any hierarchy-only source lane unless it changes a candidate, route output, or obstruction. |
 | `OBL-T001-002` | active requirement | `FJ55` | Every future `RB-003` + `RB-004`/`RB-008` hybrid candidate must state which route output it seeks: hyperbolicity, CAT(0)/special input, finite-rank free or hyperbolic kernel extension, or version-safe inheritance. | Add a route-output field note to candidate rows when they become active. | Stop if the candidate cannot name a route output or a documented obstruction. |
+| `OBL-T001-003` | active obstruction | `FJ56` | No live non-routed kernel-control candidate is currently present in the candidate inventory. Existing concrete rows are calibration-only or already removed through `FJ26`; the remaining template row is not a mathematical candidate. | Use `FJ57` either to promote a repository-supported non-routed candidate or to record the no-candidate obstruction precisely. | Stop the hybrid packet if no real candidate, bridge lemma, or obstruction beyond this inventory can be recorded. |
 
 ## Non-use warnings
 
@@ -71,5 +87,6 @@ For every future candidate row, record:
 
 ## Next update
 
-`FJ56` should attach explicit kernel-control data to repository-supported
-candidate rows for the selected hybrid packet.
+`FJ57` should either promote a repository-supported non-routed candidate into
+this inventory or record the no-candidate obstruction as the current endpoint
+of the selected hybrid packet.

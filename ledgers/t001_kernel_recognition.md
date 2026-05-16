@@ -213,18 +213,31 @@ kernel-recognition ledger in a paused but available state: the Brown route,
 direct BNS theorem map, and Karrass--Solitar cleanup bridge remain usable when
 a concrete candidate is selected.
 
+## FJ56 kernel-control inventory update
+
+`FJ56` returns to kernel recognition as the `RB-004`/`RB-008` component of
+the selected hybrid packet.
+
+Outcome:
+
+- the commutator calibration row has recorded finite-rank free kernel data
+  but remains calibration-only;
+- \(G_{2,3}\) has \(\ker(\chi)\cong F_2\) and is already removed through
+  `FJ26`;
+- the \(G_{p,q}\)-family has finite-rank free kernel by `FJ36` and is already
+  removed through `FJ26`;
+- direct BNS theorem use from `FJ41` remains available but does not create a
+  new candidate without a \(\Sigma(G)\)-membership computation;
+- no current row supplies a countable-free-kernel or inheritance-sensitive
+  `RB-008` candidate.
+
+`FJ56` therefore records no new kernel-recognition theorem and no residual
+subtraction. Its new obstruction is stored as `OBL-T001-003` in
+`ledgers/t001_candidate_inventory.md`.
+
 ## Next action
 
-Keep `RB-004` paused until a candidate-ready route is identified. `FJ48`
-finds no current `FJCw` application for the Karrass--Solitar dihedral cleanup,
-and `FJ49` does not license a direct CAT(0) finite-extension bridge. The
-`FJ50` route-delta checkpoint pauses `RB-005` and selects `RB-006`. The
-`FJ51` source-selection module selects Louder--Wilton for a bounded `RB-006`
-boundary check. `FJ52` finds no independent `RB-006` compact-special/CAT(0)
-route delta, and WIP / provisional `FJ53` records the remaining
-\(\pi(w)>2\) use only as hyperbolic-route overlap through `FJ23`. `FJ54`
-demotes `RB-006` and selects the `RB-003` + `RB-004`/`RB-008` hybrid attack
-packet. `FJ55` records that hierarchy data alone is not an FJ route. The
-active project move is `FJ56`, Kernel-Control Candidate Inventory, where
-kernel-recognition returns as the `RB-004`/`RB-008` component of the hybrid
-packet.
+Continue with `FJ57`, Candidate Family Proof Attempt or Obstruction Record.
+The next step should either promote a repository-supported non-routed
+candidate into the inventory or record the no-candidate obstruction as the
+current endpoint of the `RB-003` + `RB-004`/`RB-008` hybrid packet.

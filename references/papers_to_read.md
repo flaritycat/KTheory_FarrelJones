@@ -57,7 +57,7 @@
 ## Priority 2f: one-relator groups
 
 1. Lueck, W. *Survey on the Farrell-Jones Conjecture*. Status: active reference for `FJ19`; Section 11 checked for the open-status warning about torsion-free one-relator groups and locally indicable groups in the Full Farrell--Jones formulation.
-2. Bestvina, M.; Fujiwara, K.; Wigglesworth, D. *The Farrell-Jones conjecture for hyperbolic-by-cyclic groups*. Status: active reference for `FJ19`, `FJ26`, `FJ33`, `FJ36`, `FJ37`, and `FJ38`; main theorem, coefficient convention, and extension theorem checked at first-pass level. `FJ33` uses the existing `FJ26` route for \(G_{2,3}\), `FJ36` uses it for the \(G_{p,q}\)-family after the finite-rank free-by-cyclic bridge is verified, and `FJ37`/`FJ38` use it only through the existing `FJ26` route ledger.
+2. Bestvina, M.; Fujiwara, K.; Wigglesworth, D. *The Farrell-Jones conjecture for hyperbolic-by-cyclic groups*. Status: active reference for `FJ19`, `FJ26`, `FJ33`, `FJ36`, `FJ37`, `FJ38`, `FJ55`, and `FJ56`; main theorem, coefficient convention, and extension theorem checked at first-pass level. `FJ33` uses the existing `FJ26` route for \(G_{2,3}\), `FJ36` uses it for the \(G_{p,q}\)-family after the finite-rank free-by-cyclic bridge is verified, and `FJ56` uses it only through the existing `FJ26` route ledger.
 3. Howie, J. *A short proof of a theorem of Brodskii*. Status: active reference for `FJ19`; used for local indicability of torsion-free one-relator groups.
 4. Newman, B. B. *Some results on one-relator groups*. Status: background only for `FJ19`; recorded for torsion one-relator contrast.
 5. Linton, M. *One-relator hierarchies*. Status: active reference for `FJ22`; arXiv v3 checked for the hierarchy theorem, one-relator-complex vocabulary, \(\mathbb Z\)-stable hierarchy vocabulary, quasi-convex and acylindrical hierarchy vocabulary, and the main equivalence theorem. Published-version numbering still needs verification.
@@ -65,26 +65,27 @@
 7. Linton, M.; Nyberg-Brodda, C.-F. *The theory of one-relator groups: history and recent progress*. Status: active orientation source for `FJ21`; use as a literature map, not a proof source.
 8. Lyndon, R. C.; Schupp, P. E. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
 9. Magnus, W.; Karrass, A.; Solitar, D. *Combinatorial group theory*. Status: found; verify before using classical one-relator theorems proof-sensitively.
-10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: active reference for `FJ30`--`FJ41`; Proposition 3.1, Corollary 3.2, Theorems 4.2--4.4, and Theorem 5.2 checked for the Brown/BNS kernel-recognition route. `FJ31` uses the checked criterion on the commutator-presentation calibration example. `FJ32` uses the checked criterion to select \(G_{2,3}\) as the next worked test case. `FJ33` uses the checked criterion for the full \(G_{2,3}\) Brown test. `FJ34` uses the checked criterion for the \(G_{p,q}\)-family finite-generation statement. `FJ35` carries the Brown finite-generation result into a conditional Bass--Serre bridge map. `FJ36` combines that finite generation with the Bass--Serre freeness bridge. `FJ37` and `FJ38` use Brown only to audit the limits of the checked two-generator route. `FJ40` uses the recorded Brown-route cases only for candidate auditing. `FJ41` uses Brown only as a comparison source for the two-sided BNS criterion.
+10. Brown, K. S. *Trees, valuations, and the Bieri-Neumann-Strebel invariant*. Status: active reference for `FJ30`--`FJ41` and `FJ56`; Proposition 3.1, Corollary 3.2, Theorems 4.2--4.4, and Theorem 5.2 checked for the Brown/BNS kernel-recognition route. `FJ31` uses the checked criterion on the commutator-presentation calibration example. `FJ32` uses the checked criterion to select \(G_{2,3}\) as the next worked test case. `FJ33` uses the checked criterion for the full \(G_{2,3}\) Brown test. `FJ34` uses the checked criterion for the \(G_{p,q}\)-family finite-generation statement. `FJ35` carries the Brown finite-generation result into a conditional Bass--Serre bridge map. `FJ36` combines that finite generation with the Bass--Serre freeness bridge. `FJ37` and `FJ38` use Brown only to audit the limits of the checked two-generator route. `FJ40` uses the recorded Brown-route cases only for candidate auditing. `FJ41` uses Brown only as a comparison source for the two-sided BNS criterion. `FJ56` uses Brown only through the recorded candidate rows.
 11. Bieri, R. *Normal subgroups in duality groups and in groups of cohomological dimension 2*. Status: metadata/source-access checked in `FJ42`; primary theorem statements still need direct verification before theorem use.
-12. Bieri, R.; Neumann, W. D.; Strebel, R. *A geometric invariant of discrete groups*. Status: active reference for `FJ41`; Theorem B1 checked from GDZ pages 451--452 for normal subgroups with abelian quotient.
+12. Bieri, R.; Neumann, W. D.; Strebel, R. *A geometric invariant of discrete groups*. Status: active reference for `FJ41` and `FJ56`; Theorem B1 checked from GDZ pages 451--452 for normal subgroups with abelian quotient.
 13. Bieri, R.; Renz, B. *Valuations on free resolutions and higher geometric invariants of groups*. Status: secondary finiteness context after `FJ39`; metadata checked in `FJ38`; no theorem imported yet.
 14. Karrass, A.; Solitar, D. *One relator groups having a finitely presented normal subgroup*. Status: active reference for `FJ39`--`FJ40`; main theorem checked for the finitely presented normal-subgroup bridge. `FJ40` records that this bridge is not an example generator without a separate finite-presentation input.
 15. Friedl, S.; Tillmann, S. *Two-generator one-relator groups and marked polytopes*. Status: background only for `FJ38`; metadata checked; not the immediate beyond-Brown source.
 16. Kielak, D. *The Bieri-Neumann-Strebel invariants via Newton polytopes*. Status: background/possible later source for `FJ38`; metadata checked; specialized hypotheses remain to verify before use.
 17. Louder, L.; Wilton, H. *Negative immersions for one-relator groups*. Status: active reference for `FJ52` and WIP / provisional `FJ53`; checked for \(\pi(w)>2\), negative immersions, low-rank subgroup consequences, and the hyperbolicity conjecture boundary. `FJ53` records \(\pi(w)>2\) only as hyperbolic-route overlap through `FJ23`, not as `RB-006` progress.
-18. Serre, J.-P. *Trees*, chapter "Trees and Amalgams". Status: active reference for `FJ36`; Springer bibliographic and chapter metadata checked in `FJ35`; `FJ36` uses Serre as the canonical Bass--Serre source for the \(K_{p,q}\) freeness bridge.
+18. Serre, J.-P. *Trees*, chapter "Trees and Amalgams". Status: active reference for `FJ36` and `FJ56`; Springer bibliographic and chapter metadata checked in `FJ35`; `FJ36` uses Serre as the canonical Bass--Serre source for the \(K_{p,q}\) freeness bridge.
 19. Carrasco, M.; Mackay, J. M. *Conformal dimension of hyperbolic groups that split over elementary subgroups*. Status: active auxiliary reference for `FJ36`; used for the graph-of-groups/Bass--Serre stabilizer formulation, citing Serre.
 20. Chiswell, I.; Mueller, T. *A universal construction for groups acting freely on real trees*. Status: active auxiliary reference for `FJ36`; used only for the free-action bridge.
 21. Margalit, D. "Office hour three: Groups acting on trees." Status: active auxiliary reference for `FJ36`; used for the explicit theorem that a group acting freely on a tree is free.
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ56`, Kernel-Control Candidate Inventory. Start from
-`FJ30`, `FJ36`, `FJ41`, `FJ54`, `FJ55`, `OQ-077`,
-`ledgers/t001_candidate_inventory.md`, `ledgers/t001_kernel_recognition.md`,
-and `ledgers/t001_residual.md`. Do not open a new external source lane unless
-the candidate inventory names a concrete candidate and missing source
+Next project task: `FJ57`, Candidate Family Proof Attempt or Obstruction
+Record. Start from `FJ54`, `FJ55`, `FJ56`, `OQ-078`,
+`OBL-T001-003`, `ledgers/t001_candidate_inventory.md`,
+`ledgers/t001_kernel_recognition.md`, and `ledgers/t001_residual.md`. Do not
+open a new external source lane unless the module promotes a
+repository-supported non-routed candidate and names the missing source
 statement.
 
 ## Reading protocol

@@ -38,8 +38,14 @@ torsion-free one-relator candidate families.
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
-- `FJ56`: Kernel-Control Candidate Inventory is next.
-- `FJ57`: Candidate Family Proof Attempt or Obstruction Record.
+- `FJ56`: Kernel-Control Candidate Inventory is completed.
+- `FJ57`: Candidate Family Proof Attempt or Obstruction Record is next.
+
+Current obstruction:
+
+- `OBL-T001-003`: no live non-routed kernel-control candidate is currently
+  present in the candidate inventory. Existing concrete rows are
+  calibration-only or already removed through `FJ26`.
 
 ## Repository Hygiene
 

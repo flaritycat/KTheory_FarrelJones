@@ -818,7 +818,20 @@ to explicit kernel-control candidate inventory. The module creates
 `OBL-T001-001` and `OBL-T001-002` in
 `ledgers/t001_candidate_inventory.md` and makes no residual subtraction.
 
-The next step is `FJ56`, Kernel-Control Candidate Inventory.
+Current status: `FJ56` has first-pass coverage as the Kernel-Control
+Candidate Inventory. It audits the repository-supported candidate rows for
+the selected `RB-003` + `RB-004`/`RB-008` hybrid packet. The commutator
+calibration row, \(G_{2,3}\), and the \(G_{p,q}\)-family all have explicit
+kernel-control data, but they are calibration-only or already removed through
+the `FJ26` finite-rank free-by-cyclic route.
+
+The route decision after `FJ56` is that there is no live non-routed
+kernel-control candidate in the current inventory. The module creates
+`OBL-T001-003` in `ledgers/t001_candidate_inventory.md` and makes no residual
+subtraction.
+
+The next step is `FJ57`, Candidate Family Proof Attempt or Obstruction
+Record.
 
 ## GitHub persistence policy
 
