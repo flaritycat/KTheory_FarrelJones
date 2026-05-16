@@ -26,11 +26,12 @@ CAT(0) finite-extension lane and records it as unavailable for route use.
 `FJ51` selects Louder--Wilton as a bounded `RB-006` source-boundary check,
 but imports no theorem from it. `FJ52` checks Louder--Wilton and records no
 independent `RB-006` route delta; the remaining value is hyperbolic-route
-overlap. `FJ53` records \(\pi(w)>2\) as an explicit hyperbolic-overlap
-criterion through `FJ23`, closes the Louder--Wilton `RB-006` path as
-non-subtractive, and makes no concrete residual subtraction. `FJ54` records
-that no remaining bucket is candidate-ready enough for another source-only
-module and selects a candidate inventory for `FJ55`.
+overlap. `FJ53` is WIP / provisional and records \(\pi(w)>2\) as an explicit
+hyperbolic-overlap criterion through `FJ23`, while demoting the
+Louder--Wilton `RB-006` path as provisionally non-subtractive. `FJ54`
+records the residual-bucket checkpoint, creates the candidate-inventory
+ledger, and selects the `RB-003` + `RB-004`/`RB-008` hybrid attack packet for
+`FJ55`.
 
 ## Warning
 
@@ -57,7 +58,7 @@ cases not yet removed by the repository's current source-verified route data.
 | RB-003 | One-relator hierarchy-only data from the Linton vocabulary | A hierarchy is not automatically a bridge to hyperbolicity, CAT(0), virtual solvability, a mapping torus, or an inheritance row | OQ-038, OQ-039 |
 | RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge | OQ-036 |
 | RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ50` pauses this bucket after the `FJCw` application audit and direct CAT(0) finite-extension check produce no residual subtraction | OQ-032, OQ-068, OQ-069, OQ-070, OQ-071 |
-| RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | Selected by `FJ50`; `FJ52` checks Louder--Wilton and finds no independent compact-special/CAT(0) route delta; `FJ53` closes the Louder--Wilton path as non-subtractive and records \(\pi(w)>2\) only as hyperbolic overlap through `FJ23` | OQ-033, OQ-072, OQ-073, OQ-074, OQ-075 |
+| RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | Selected by `FJ50`; `FJ52` checks Louder--Wilton and finds no independent compact-special/CAT(0) route delta; WIP / provisional `FJ53` records \(\pi(w)>2\) only as hyperbolic overlap through `FJ23`; `FJ54` demotes this bucket as provisionally non-subtractive pending a genuinely non-hyperbolic bridge | OQ-033, OQ-072, OQ-073, OQ-074, OQ-075 |
 | RB-007 | Virtually solvable-looking one-relator cases without a recognition source | `FJ25` deliberately does not classify virtually solvable one-relator groups | OQ-034 |
 | RB-008 | Countable-free-kernel or extension cases without exact inheritance data | `FJ27` requires the exact sequence, quotient status, and source version flag | OQ-037 |
 
@@ -70,7 +71,7 @@ cases not yet removed by the repository's current source-verified route data.
 | Compact special or CAT(0) cases beyond hyperbolicity | It targets a concrete geometric bridge bucket left open by `FJ24` | Needs one-relator cubulation/specialness sources beyond the first-pass Haglund--Wise bridge |
 | Virtually solvable one-relator recognition | It could convert `FJ25` from a conditional row into a more explicit example ledger | Needs a classification or recognition source |
 | Hierarchy-to-route extraction | It uses the adopted Linton hierarchy vocabulary to search for route bridges | Must not treat hierarchy language as a Farrell--Jones route without an additional source |
-| Candidate inventory and attack-packet builder | It forces named candidates or no-candidate artifacts before another source lane | Must classify items without pretending that a residual bucket itself is a theorem route |
+| `RB-003` + `RB-004`/`RB-008` hybrid attack packet | It forces hierarchy / primitive-extension data to interact with explicit kernel-control tests | Must produce a candidate, bridge lemma, proof obligation, or documented obstruction rather than another source summary |
 
 ## FJ29 selected attack surface
 
@@ -518,8 +519,9 @@ Outcome:
 
 ## FJ53 pi(w)>2 hyperbolic-overlap update
 
-`FJ53` records the remaining Louder--Wilton use after the `RB-006` boundary
-check.
+`FJ53` is WIP / provisional. It records the remaining Louder--Wilton use
+after the `RB-006` boundary check, but should not be read as a final
+independent `RB-006` closure.
 
 Outcome:
 
@@ -532,27 +534,29 @@ Outcome:
   new `RB-006` route delta;
 - no concrete presentation word \(w\) is checked, so no residual case is
   subtracted;
-- the Louder--Wilton `RB-006` path is closed as an independent
-  compact-special/CAT(0) path.
+- the Louder--Wilton `RB-006` path is demoted as provisionally
+  non-subtractive as an independent compact-special/CAT(0) path.
 
 ## FJ54 residual-bucket checkpoint update
 
-`FJ54` compares the residual buckets after the `RB-006` closure.
+`FJ54` compares the residual buckets after the `RB-006` demotion.
 
 Outcome:
 
-- `RB-004` remains useful but should not resume without a concrete candidate,
-  BNS computation, or finitely presented-kernel input;
+- `RB-003` is now the highest-ranked attack axis, but only when paired with a
+  candidate-level bridge, family, or obstruction test;
+- `RB-004` and `RB-008` are paired with `RB-003` as kernel-control and
+  extension components of the selected hybrid packet;
 - `RB-005` remains paused until an actual finite-index case or bridge is
   named;
-- the current Louder--Wilton `RB-006` path remains closed as an independent
-  compact-special/CAT(0) lane;
-- `RB-003`, `RB-007`, `RB-008`, `RB-001`, and `RB-002` are too broad to serve
-  as the immediate next source lane;
+- the current Louder--Wilton `RB-006` path is demoted as provisionally
+  non-subtractive pending a genuinely non-hyperbolic bridge;
+- `RB-001`, `RB-002`, and `RB-007` remain classification buckets, not
+  immediate source lanes;
 - no residual bucket is removed by `FJ54`;
-- the next module is `FJ55`, a `T-001` candidate-inventory and attack-packet
-  builder.
+- the next module is `FJ55`, Primitive-Extension / Hierarchy-to-FJ Bridge
+  Test.
 
 ## Next action
 
-Begin `FJ55`, a `T-001` candidate-inventory and attack-packet builder.
+Begin `FJ55`, Primitive-Extension / Hierarchy-to-FJ Bridge Test.

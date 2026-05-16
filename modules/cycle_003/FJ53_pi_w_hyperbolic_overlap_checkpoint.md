@@ -2,7 +2,12 @@
 
 ## Status
 
-Completed
+WIP / Provisional
+
+Reason: The `RB-006`/Louder--Wilton route currently appears non-subtractive
+because it overlaps the negative-immersion/hyperbolic route already governed
+by `FJ23`. The module is retained as a route-overlap warning and source-chain
+note, not as a final residual-bucket closure.
 
 ## Module type
 
@@ -74,9 +79,9 @@ complexes with negative immersions have hyperbolic fundamental groups
 removed from `T-001` through the hyperbolic route once the project has a
 source-verified bridge to word-hyperbolicity.
 
-### Decision
+### Provisional decision
 
-**Route decision.** Record the \(\pi(w)>2\) criterion as an explicit
+**Provisional route decision.** Record the \(\pi(w)>2\) criterion as an explicit
 hyperbolic-route overlap. This is useful because it turns the earlier
 negative-immersion route marker into a concrete source-chain checkpoint.
 
@@ -96,22 +101,26 @@ a route criterion, not a concrete residual subtraction.
 | What is recorded? | A source chain: \(\pi(w)>2\) \(\Rightarrow\) negative immersions \(\Rightarrow\) hyperbolicity \(\Rightarrow\) `FJ23` hyperbolic route. |
 | What source supplies \(\pi(w)>2\)? | Louder--Wilton (2022), as checked in `FJ52`. |
 | What source supplies hyperbolicity? | Linton (2024), as recorded in `FJ22`. |
-| Is this `RB-006` progress? | No. It is hyperbolic-route overlap. |
+| Is this `RB-006` progress? | Provisionally no. It is currently only hyperbolic-route overlap. |
 | Does it remove a concrete case now? | No. No presentation word is checked for \(\pi(w)>2\) in this module. |
-| Next decision | Close the Louder--Wilton `RB-006` path and run a residual-bucket checkpoint in `FJ54`. |
+| Next decision | Demote the Louder--Wilton `RB-006` path pending a genuinely independent CAT(0), compact-special, or FJ bridge, and run a residual-bucket checkpoint in `FJ54`. |
 
 ## Proposition / Theorem / Conjecture / Example
 
-**Route proposition.** If a torsion-free one-relator group is represented by
+**Provisional route proposition.** If a torsion-free one-relator group is represented by
 a natural one-relator presentation complex whose defining word \(w\) satisfies
-the source hypotheses and \(\pi(w)>2\), then the project may route that group
-through the `FJ23` hyperbolic route, not through `RB-006`.
+the source hypotheses and \(\pi(w)>2\), then the current project record
+supports routing that group through the `FJ23` hyperbolic route, not through
+`RB-006`. This proposition supplies no independent CAT(0), compact-special,
+or residual-bucket subtraction.
 
 **Proposition.** `FJ53` produces no concrete `T-001` residual subtraction.
 
-**Route decision.** The Louder--Wilton `RB-006` path should be closed as an
-independent compact-special/CAT(0) path. Its remaining value is the
-hyperbolic-overlap criterion above.
+**Route decision.** The Louder--Wilton `RB-006` path should be treated as
+demoted / provisionally non-subtractive as an independent
+compact-special/CAT(0) path. Its remaining value is the hyperbolic-overlap
+criterion above, unless a later module identifies a genuinely non-hyperbolic
+bridge.
 
 ## Proof or verification
 
@@ -158,25 +167,25 @@ This module depends on:
 
 This module produced:
 
-- a first-pass resolution of `OQ-074`;
+- a provisional route-overlap record for `OQ-074`;
 - an explicit \(\pi(w)>2\) hyperbolic-overlap route criterion;
-- a decision to close the Louder--Wilton `RB-006` path as non-subtractive for
-  compact-special/CAT(0) purposes;
+- a decision to demote the Louder--Wilton `RB-006` path as provisionally
+  non-subtractive for compact-special/CAT(0) purposes;
 - no new `ER-*` result;
 - no concrete residual subtraction.
 
 ## Open questions generated
 
-- `OQ-075`: Which residual bucket or attack packet should follow the closed
+- `OQ-075`: Which residual bucket or attack packet should follow the demoted
   `RB-006` Louder--Wilton path?
 
 ## Update to ledgers
 
 After completion, update:
 
-- `README.md` and `PROJECT_CHARTER.md` for completed `FJ53` and next
+- `README.md` and `PROJECT_CHARTER.md` for provisional `FJ53` and next
   `FJ54`;
-- `SCOPE_LEDGER.md` for the `OQ-074` resolution and new `OQ-075`;
+- `SCOPE_LEDGER.md` for the provisional `OQ-074` status and new `OQ-075`;
 - `OPEN_QUESTIONS.md` for `OQ-073`, `OQ-074`, and `OQ-075`;
 - `NOTATION_LEDGER.md` for the \(\pi(w)>2\) hyperbolic-overlap route;
 - `BIBLIOGRAPHY.md` and `ledgers/source_status.md` for the `FJ53` source-chain

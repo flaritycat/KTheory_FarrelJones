@@ -107,7 +107,8 @@ Use `FJ04` and `FJ06` to develop virtually cyclic groups and the infinite cyclic
 
 ### Status
 
-Open inside project.
+Open inside project; flagged by `FJ54` for a later lower-priority update, not
+for resolution in the current attack packet.
 
 ### Context
 
@@ -671,8 +672,10 @@ One-relator literature and modern Farrell--Jones formulation sources.
 ### Next action
 
 Promoted by `FJ20` as part of `T-001`, but not as the first proof attempt.
-First build the residual subclass map and then decide whether a global weaker
-K-theory theorem is plausible or source-supported.
+First build the residual subclass map and run the `RB-003` +
+`RB-004`/`RB-008` hybrid attack packet. Later, revisit weaker \(K_0\)-level
+or Cohen--Lyndon-style consequences only if they change a bucket, candidate,
+proof obligation, or prior-art blocker.
 
 ## OQ-025. Which one-relator structure theorem should become the canonical reduction tool?
 
@@ -1007,9 +1010,11 @@ Haglund--Wise bridge.
 ### Next action
 
 `FJ51` selects Louder--Wilton for a bounded source-boundary check, `FJ52`
-records no independent `RB-006` route delta, and `FJ53` records the remaining
-\(\pi(w)>2\) use as hyperbolic overlap. `FJ54` requires candidate inventory
-before another source lane; continue with `OQ-076`/`FJ55`.
+records no independent `RB-006` route delta, and WIP / provisional `FJ53`
+records the remaining \(\pi(w)>2\) use as hyperbolic overlap. `FJ54`
+demotes `RB-006` pending a genuinely non-hyperbolic bridge and selects the
+`RB-003` + `RB-004`/`RB-008` hybrid attack packet; continue with
+`OQ-076`/`FJ55`.
 
 ## OQ-034. Which source should classify or recognize virtually solvable one-relator cases?
 
@@ -2575,8 +2580,8 @@ and the current `RB-005` module sequence.
 ### Next action
 
 Resolved by `FJ50`. `FJ51` resolved `OQ-072`, `FJ52` resolved `OQ-073`,
-`FJ53` resolved `OQ-074`, and `FJ54` resolved `OQ-075`; continue with
-`OQ-076`/`FJ55`.
+WIP / provisional `FJ53` addressed `OQ-074`, and `FJ54` resolved `OQ-075`;
+continue with `OQ-076`/`FJ55`.
 
 ## OQ-072. Which source can make RB-006 candidate-ready?
 
@@ -2617,9 +2622,9 @@ as a source selected for `FJ52` verification.
 ### Next action
 
 Resolved by `FJ51`. `FJ52` completed the Louder--Wilton boundary check, and
-`FJ53` recorded the remaining \(\pi(w)>2\) use as hyperbolic overlap;
-`FJ54` selected candidate inventory before further source work; continue with
-`OQ-076`/`FJ55`.
+WIP / provisional `FJ53` recorded the remaining \(\pi(w)>2\) use as
+hyperbolic overlap; `FJ54` selected the `RB-003` + `RB-004`/`RB-008` hybrid
+attack packet before further source work; continue with `OQ-076`/`FJ55`.
 
 ## OQ-073. Does Louder--Wilton give an RB-006 route delta?
 
@@ -2656,15 +2661,16 @@ condition from `FJ51`.
 
 ### Next action
 
-Resolved by `FJ52`. `FJ53` records the \(\pi(w)>2\) criterion as
-hyperbolic-route overlap and closes the Louder--Wilton `RB-006` path;
-`FJ54` selects candidate inventory; continue with `OQ-076`/`FJ55`.
+Resolved by `FJ52`. WIP / provisional `FJ53` records the \(\pi(w)>2\)
+criterion as hyperbolic-route overlap and demotes the Louder--Wilton
+`RB-006` path; `FJ54` selects the `RB-003` + `RB-004`/`RB-008` hybrid
+attack packet; continue with `OQ-076`/`FJ55`.
 
 ## OQ-074. Should pi(w)>2 be recorded as hyperbolic-route overlap?
 
 ### Status
 
-First-pass resolved by `FJ53`.
+WIP / provisional in `FJ53`.
 
 ### Context
 
@@ -2679,11 +2685,12 @@ use the `FJ23` hyperbolic route. The project must decide whether to record
 that overlap explicitly or treat it as already absorbed by the `FJ23`
 negative-immersion route marker.
 
-`FJ53` resolves this by recording the route explicitly as hyperbolic overlap:
+`FJ53` provisionally records the route explicitly as hyperbolic overlap:
 \(\pi(w)>2\Rightarrow\) negative immersions \(\Rightarrow\) hyperbolicity
 \(\Rightarrow\) `FJ23`. This is not `RB-006` compact-special/CAT(0) progress,
 and it produces no concrete residual subtraction because no specific word
-\(w\) is checked.
+\(w\) is checked. `FJ53` remains WIP / provisional until a later module
+explicitly finalizes the route-overlap handoff.
 
 ### Relevant modules
 
@@ -2701,10 +2708,10 @@ Louder--Wilton (2022), Linton (2024), `ledgers/source_status.md`, and
 
 ### Next action
 
-Resolved by `FJ53`. `FJ54` resolves the post-`RB-006` checkpoint; continue
-with `OQ-076`/`FJ55`.
+Provisionally addressed by `FJ53`. `FJ54` resolves the post-`RB-006`
+checkpoint; continue with `OQ-076`/`FJ55`.
 
-## OQ-075. Which attack packet follows the closed RB-006 path?
+## OQ-075. Which attack packet follows the demoted RB-006 path?
 
 ### Status
 
@@ -2714,9 +2721,10 @@ First-pass resolved by `FJ54`.
 
 `FJ43` pauses automatic continuation of the `RB-004`
 BNS/Bieri/Karrass--Solitar source cluster. `FJ50` pauses `RB-005` after the
-finite-index bridge sequence produces no residual subtraction. `FJ53` closes
-the Louder--Wilton `RB-006` path as non-subtractive for compact-special/CAT(0)
-purposes, preserving only the hyperbolic-overlap criterion through `FJ23`.
+finite-index bridge sequence produces no residual subtraction. WIP /
+provisional `FJ53` demotes the Louder--Wilton `RB-006` path as
+non-subtractive for compact-special/CAT(0) purposes, preserving only the
+hyperbolic-overlap criterion through `FJ23`.
 
 The project now needs a residual-bucket checkpoint rather than another
 decorative source-selection step. The next module should compare the remaining
@@ -2724,10 +2732,10 @@ attack surfaces and either select a candidate-ready packet or explicitly
 record that the project should pivot to a different kind of work, such as
 example construction or a missing-bridge inventory.
 
-`FJ54` resolves this by recording that no remaining residual bucket is
-candidate-ready enough to justify another source-only module. The next step is
-not a theorem-source search but a `T-001` candidate inventory and attack-packet
-builder.
+`FJ54` resolves this by ranking the residual buckets and selecting the
+`RB-003` + `RB-004`/`RB-008` hybrid attack packet. The next step is not a
+theorem-source search; it is a primitive-extension / hierarchy-to-FJ bridge
+test combined with kernel-control pressure.
 
 ### Relevant modules
 
@@ -2746,9 +2754,9 @@ from `FJ43`, `FJ50`, and `FJ53`.
 
 ### Next action
 
-Resolved by `FJ54`. Continue with `OQ-076`/`FJ55`.
+Resolved by `FJ54`. Continue with revised `OQ-076`/`FJ55`.
 
-## OQ-076. Which concrete T-001 candidate can be promoted to an attack packet?
+## OQ-076. Can hierarchy / primitive-extension data become a route, candidate, bridge, or obstruction?
 
 ### Status
 
@@ -2756,18 +2764,17 @@ Open inside project; generated by `FJ54` and selected for `FJ55`.
 
 ### Context
 
-`FJ54` records that another source-only module is not justified until the
-project names a concrete candidate, family, or missing bridge. The next task
-is to inventory the active `T-001` residual ledger and classify candidate
-items by route status.
+`FJ54` selects the primary attack packet:
 
-The inventory should distinguish:
+`RB-003` + `RB-004`/`RB-008` hybrid: primitive-extension / hierarchy
+framework combined with explicit kernel-control testing for concrete
+torsion-free one-relator candidate families.
 
-- already removed cases;
-- candidate-ready cases;
-- bridge-missing cases;
-- source-missing cases;
-- no-data buckets.
+The next task is to test whether Linton-style hierarchy / primitive-extension
+data can be converted into an FJ route, a candidate family, a bridge lemma,
+or a documented obstruction. The candidate inventory in
+`ledgers/t001_candidate_inventory.md` must be updated only with repository
+supported candidates or clearly marked placeholders.
 
 ### Relevant modules
 
@@ -2782,8 +2789,9 @@ The inventory should distinguish:
 
 `ledgers/t001_residual.md`, `ledgers/open_group_classes.md`,
 `ledgers/t001_kernel_recognition.md`, and
+`ledgers/t001_candidate_inventory.md`, and
 `reflections/strategic_audit_after_cycle_002.md`.
 
 ### Next action
 
-Begin `FJ55`, a `T-001` candidate-inventory and attack-packet builder.
+Begin `FJ55`, Primitive-Extension / Hierarchy-to-FJ Bridge Test.
