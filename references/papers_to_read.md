@@ -79,10 +79,11 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ48`, `RB-005` `FJCw` application audit. Start from
-the `FJ47` bridge, `ledgers/t001_residual.md`, the compact-special caution
-from `FJ24`, and the Karrass--Solitar infinite-dihedral alternative from
-`FJ39`.
+Next project task: `FJ49`, direct finite-dimensional CAT(0) finite-extension
+bridge source check. Start from the `FJ48` negative `FJCw` application audit,
+the compact-special caution from `FJ24`, the CAT(0) source row for Wegner,
+and a source to be located or checked for finite extensions of
+finite-dimensional CAT(0)-groups.
 
 ## Reading protocol
 

@@ -19,7 +19,8 @@ the full \(\mathcal{FJ}\) finite-index bridge is currently usable, and
 proof-sensitive `RB-005` work. `FJ02` completes that source-convention
 interruption and returns `RB-005` to finite-index bridge source selection.
 `FJ47` verifies the `FJCw` finite-index overgroup bridge, but not a plain
-coefficient-only bridge.
+coefficient-only bridge. `FJ48` audits `RB-005` and records that no current
+`T-001` finite-index cleanup case is `FJCw-ready`.
 
 ## Warning
 
@@ -45,7 +46,7 @@ cases not yet removed by the repository's current source-verified route data.
 | RB-002 | Locally indicable-only torsion-free one-relator data | Local indicability is structural and is not a Farrell--Jones theorem route in the project | OQ-026 |
 | RB-003 | One-relator hierarchy-only data from the Linton vocabulary | A hierarchy is not automatically a bridge to hyperbolicity, CAT(0), virtual solvability, a mapping torus, or an inheritance row | OQ-038, OQ-039 |
 | RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge | OQ-036 |
-| RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ47` supplies an `FJCw` finite-index bridge; the remaining task is to identify which cases have `FJCw` subgroup input, and which still require a plain coefficient or direct CAT(0) finite-extension bridge | OQ-032, OQ-068, OQ-069 |
+| RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ48` finds no current `T-001` case with `FJCw` subgroup input; the active bridge to check is now a direct finite-dimensional CAT(0) finite-extension route for virtual compact special cases | OQ-032, OQ-068, OQ-069, OQ-070 |
 | RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | The project needs a source-verified bridge not already absorbed by `FJ23` | OQ-033 |
 | RB-007 | Virtually solvable-looking one-relator cases without a recognition source | `FJ25` deliberately does not classify virtually solvable one-relator groups | OQ-034 |
 | RB-008 | Countable-free-kernel or extension cases without exact inheritance data | `FJ27` requires the exact sequence, quotient status, and source version flag | OQ-037 |
@@ -413,7 +414,26 @@ Outcome:
   source-verified `FJCw` input;
 - no residual bucket is removed by `FJ47`.
 
+## FJ48 FJCw application audit update
+
+`FJ48` audits whether the `FJ47` bridge has an immediate `T-001` target.
+
+Outcome:
+
+- no current `T-001`/`RB-005` finite-index case is recorded with
+  source-verified `FJCw` subgroup input;
+- the virtual compact special path has compact-special/CAT(0) subgroup input,
+  not `FJCw`;
+- the Karrass--Solitar infinite-dihedral path has at most a
+  finite-rank-free-by-cyclic coefficient route if a concrete candidate is
+  selected, not `FJCw`;
+- Artin-related `FJCw` rows remain available in the broader project but do
+  not count as `T-001` residual progress;
+- no residual bucket is removed by `FJ48`;
+- the next `RB-005` move is `FJ49`, direct CAT(0) finite-extension source
+  checking.
+
 ## Next action
 
-Begin `FJ48`, auditing which `RB-005` cases have source-verified `FJCw`
-finite-index subgroup input.
+Begin `FJ49`, source-checking a direct finite-dimensional CAT(0)
+finite-extension bridge for virtual compact special cases.

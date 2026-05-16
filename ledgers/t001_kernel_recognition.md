@@ -206,13 +206,16 @@ subtraction.
 ## FJ44 attack-packet selection effect
 
 `FJ44` selects `RB-005`, not another `RB-004` source module, as the next
-attack packet. This leaves the kernel-recognition ledger in a paused but
-available state: the Brown route, direct BNS theorem map, and Karrass--Solitar
-cleanup bridge remain usable when a concrete candidate is selected.
+attack packet. `FJ48` records that the Karrass--Solitar infinite-dihedral
+cleanup is not currently `FJCw-ready` and that no concrete source-ready
+candidate presently needs that cleanup bridge. This leaves the
+kernel-recognition ledger in a paused but available state: the Brown route,
+direct BNS theorem map, and Karrass--Solitar cleanup bridge remain usable when
+a concrete candidate is selected.
 
 ## Next action
 
-Keep `RB-004` paused until a candidate-ready route is identified. `FJ02`
-and `FJ47` are now complete at first pass, so the active project move remains
-inside `RB-005`: begin `FJ48`, auditing which finite-index cases have
-source-verified `FJCw` subgroup input.
+Keep `RB-004` paused until a candidate-ready route is identified. `FJ48`
+finds no current `FJCw` application for the Karrass--Solitar dihedral cleanup,
+so the active project move remains inside `RB-005`: begin `FJ49`, checking a
+direct finite-dimensional CAT(0) finite-extension bridge.

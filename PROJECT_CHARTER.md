@@ -689,9 +689,26 @@ through `FJCw` and hence through coefficient K-theory under the `FJ02`
 convention. A plain coefficient K-theory statement for the subgroup still
 does not by itself pass to the ambient group inside this project.
 
-The next step is `FJ48`, an `RB-005` application audit: identify which
-virtual-special or finite-index cleanup cases actually have the `FJCw`
-subgroup input required by `FJ47`.
+The historical next step after `FJ47` was `FJ48`, an `RB-005` application
+audit: identify which virtual-special or finite-index cleanup cases actually
+have the `FJCw` subgroup input required by `FJ47`.
+
+Current status: `FJ48` has first-pass coverage as the `RB-005` `FJCw`
+application audit. It records that the current `T-001` finite-index cleanup
+cases are not `FJCw-ready`: the virtual compact special path has
+compact-special/CAT(0) subgroup input, and the Karrass--Solitar
+infinite-dihedral path has at most a finite-rank free-by-cyclic coefficient
+route if a concrete candidate is selected. Neither is recorded with the
+finite-wreath-product source label required by `FJ47`.
+
+The route decision after `FJ48` is negative but useful: do not apply the
+`FJ47` bridge to the current `T-001` residual. The next concrete obstruction
+is not another abstract `FJCw` inventory; it is whether the virtual compact
+special case can be routed directly through finite-dimensional CAT(0)-group
+closure under finite extensions.
+
+The next step is `FJ49`, a source check for a direct finite-extension bridge
+for finite-dimensional CAT(0)-groups.
 
 ## GitHub persistence policy
 

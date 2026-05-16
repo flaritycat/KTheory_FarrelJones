@@ -11,6 +11,8 @@ statement has been checked. A row is usable only under its stated
 hypotheses and version flags. After `FJ02`, coefficient K-theory rows are
 interpreted through the Bartels--Reich additive-category convention; after
 `FJ47`, finite-index overgroup passage is available for `FJCw` rows only.
+`FJ48` records that no current `T-001`/`RB-005` finite-index cleanup case is
+already recorded with `FJCw` subgroup input.
 `FJCw`, `FICwF`, full \(\mathcal{FJ}\), and simplified ring-coefficient
 statements remain separate source labels unless a comparison is checked.
 
