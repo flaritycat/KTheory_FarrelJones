@@ -830,8 +830,20 @@ kernel-control candidate in the current inventory. The module creates
 `OBL-T001-003` in `ledgers/t001_candidate_inventory.md` and makes no residual
 subtraction.
 
-The next step is `FJ57`, Candidate Family Proof Attempt or Obstruction
-Record.
+Current status: `FJ57` has first-pass coverage as the Candidate Family Proof
+Attempt or Obstruction Record. It tries to promote a repository-supported
+non-routed candidate for the selected hybrid packet and records that no such
+candidate is currently available. The named rows are calibration-only or
+already routed, and the remaining residual lanes lack the presentation,
+route-output target, kernel data, or prior-art comparison required by the
+candidate intake checklist.
+
+The route decision after `FJ57` is to close the current `RB-003` +
+`RB-004`/`RB-008` hybrid packet as blocked, not abandoned. The module creates
+`OBL-T001-004` in `ledgers/t001_candidate_inventory.md` and makes no residual
+subtraction.
+
+The next step is `FJ58`, Post-Hybrid Candidate-Production Checkpoint.
 
 ## GitHub persistence policy
 

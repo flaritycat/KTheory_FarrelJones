@@ -4,8 +4,8 @@
 
 Created by `FJ54` as the candidate ledger for the `RB-003` +
 `RB-004`/`RB-008` hybrid attack packet. Updated by `FJ55` with
-route-output proof obligations and by `FJ56` with explicit kernel-control
-audit status.
+route-output proof obligations, by `FJ56` with explicit kernel-control
+audit status, and by `FJ57` with the no-candidate endpoint obstruction.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -13,11 +13,15 @@ for future modules.
 
 ## Active attack packet
 
-Primary packet:
+Selected packet:
 
 `RB-003` + `RB-004`/`RB-008` hybrid: primitive-extension / hierarchy
 framework combined with explicit kernel-control testing for concrete
 torsion-free one-relator candidate families.
+
+Current status after `FJ57`: blocked at candidate production. The packet can
+be reactivated only after a real candidate, concrete computation, bridge
+lemma, or prior-art comparison is recorded.
 
 Guiding question:
 
@@ -47,6 +51,23 @@ candidate after auditing the existing rows. The next module must either add a
 repository-supported non-routed candidate row or record the no-candidate
 obstruction as the current endpoint of the hybrid packet.
 
+## FJ57 candidate-promotion attempt
+
+| Possible promotion source | FJ57 decision | Reason |
+|---|---|---|
+| `CAND-T001-001` | do not promote | calibration-only and already covered by the virtually solvable route |
+| `CAND-T001-002` | do not promote | already removed through `FJ26` |
+| `CAND-T001-003` | do not promote | already removed through `FJ26` |
+| `TPL-RB003-004-008` | do not promote | placeholder only; no presentation, route output, kernel data, or prior-art comparison |
+| Non-Brown finitely presented-kernel lane | do not promote | `FJ40` records no source-ready non-Brown example |
+| Direct BNS lane | do not promote | no \(\Sigma(G)\)-membership computation for a non-routed candidate |
+| Finite-index / `FJCw` lane | do not promote | no named application case after `FJ48`/`FJ50` |
+| `RB-006` Louder--Wilton lane | do not promote | WIP / provisional `FJ53` records only hyperbolic overlap and no concrete word |
+
+`FJ57` conclusion: the selected hybrid packet is blocked at candidate
+production. The candidate inventory remains open for intake, but no current
+row supports a new proof attempt.
+
 ## Candidate intake checklist
 
 For every future candidate row, record:
@@ -74,6 +95,7 @@ For every future candidate row, record:
 | `OBL-T001-001` | active obstruction | `FJ55` | No direct hierarchy-to-FJ bridge is currently recorded. Hierarchy existence, HNN structure, or primitive-extension shorthand must pass through an approved route output before any residual subtraction. | Use `FJ56` to attach explicit kernel-control data to repository-supported candidate rows. | Stop any hierarchy-only source lane unless it changes a candidate, route output, or obstruction. |
 | `OBL-T001-002` | active requirement | `FJ55` | Every future `RB-003` + `RB-004`/`RB-008` hybrid candidate must state which route output it seeks: hyperbolicity, CAT(0)/special input, finite-rank free or hyperbolic kernel extension, or version-safe inheritance. | Add a route-output field note to candidate rows when they become active. | Stop if the candidate cannot name a route output or a documented obstruction. |
 | `OBL-T001-003` | active obstruction | `FJ56` | No live non-routed kernel-control candidate is currently present in the candidate inventory. Existing concrete rows are calibration-only or already removed through `FJ26`; the remaining template row is not a mathematical candidate. | Use `FJ57` either to promote a repository-supported non-routed candidate or to record the no-candidate obstruction precisely. | Stop the hybrid packet if no real candidate, bridge lemma, or obstruction beyond this inventory can be recorded. |
+| `OBL-T001-004` | active obstruction | `FJ57` | The selected `RB-003` + `RB-004`/`RB-008` hybrid packet is blocked at candidate production. | Use `FJ58` to decide whether another candidate-production lane can be made legitimate. | Do not reactivate the hybrid packet unless a real candidate, concrete computation, bridge lemma, or prior-art comparison is recorded. |
 
 ## Non-use warnings
 
@@ -87,6 +109,5 @@ For every future candidate row, record:
 
 ## Next update
 
-`FJ57` should either promote a repository-supported non-routed candidate into
-this inventory or record the no-candidate obstruction as the current endpoint
-of the selected hybrid packet.
+`FJ58` should decide which candidate-production lane, if any, can replace the
+blocked hybrid packet without reopening passive source accumulation.

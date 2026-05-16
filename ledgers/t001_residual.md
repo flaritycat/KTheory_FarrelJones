@@ -36,7 +36,9 @@ not supply a direct FJ route in the current repository and sends the project
 to kernel-control candidate inventory. `FJ56` audits the current candidate
 rows, records that the concrete kernel-control rows are calibration-only or
 already removed through `FJ26`, and creates the no-live-candidate obstruction
-`OBL-T001-003`.
+`OBL-T001-003`. `FJ57` records that no repository-supported non-routed
+candidate can be promoted into a proof attempt and creates the
+candidate-production obstruction `OBL-T001-004`.
 
 ## Warning
 
@@ -605,4 +607,29 @@ subtraction.
 
 ## Next action after FJ56
 
-Begin `FJ57`, Candidate Family Proof Attempt or Obstruction Record.
+At this point the next module was `FJ57`, Candidate Family Proof Attempt or
+Obstruction Record.
+
+## FJ57 candidate-family proof attempt or obstruction update
+
+`FJ57` tries to promote a non-routed candidate from the repository state.
+
+Outcome:
+
+- the existing concrete candidate rows remain calibration-only or already
+  removed through `FJ26`;
+- the template row is not a candidate;
+- the non-Brown finitely presented-kernel lane still has no source-ready
+  example;
+- the direct BNS lane has no new \(\Sigma(G)\)-membership computation;
+- the finite-index / `FJCw` lane has no named application case;
+- the WIP / provisional `RB-006` lane has no concrete word and no
+  non-hyperbolic bridge;
+- no residual bucket is removed by `FJ57`.
+
+`FJ57` closes the current `RB-003` + `RB-004`/`RB-008` hybrid packet as
+blocked at candidate production, not abandoned.
+
+## Next action after FJ57
+
+Begin `FJ58`, Post-Hybrid Candidate-Production Checkpoint.

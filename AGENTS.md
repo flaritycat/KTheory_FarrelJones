@@ -29,23 +29,31 @@ Persistent instructions for future Codex runs in this repository.
 
 ## Active T-001 Direction
 
-The current primary attack packet after `FJ54` is:
+The primary attack packet selected by `FJ54` was:
 
 `RB-003` + `RB-004`/`RB-008` hybrid: primitive-extension / hierarchy
 framework combined with explicit kernel-control testing for concrete
 torsion-free one-relator candidate families.
 
+After `FJ57`, this packet is blocked at candidate production until a real
+candidate, concrete computation, bridge lemma, or prior-art comparison is
+recorded.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
 - `FJ56`: Kernel-Control Candidate Inventory is completed.
-- `FJ57`: Candidate Family Proof Attempt or Obstruction Record is next.
+- `FJ57`: Candidate Family Proof Attempt or Obstruction Record is completed.
+- `FJ58`: Post-Hybrid Candidate-Production Checkpoint is next.
 
 Current obstruction:
 
 - `OBL-T001-003`: no live non-routed kernel-control candidate is currently
   present in the candidate inventory. Existing concrete rows are
   calibration-only or already removed through `FJ26`.
+- `OBL-T001-004`: the selected `RB-003` + `RB-004`/`RB-008` hybrid packet is
+  blocked at candidate production. Do not reactivate it without a real
+  candidate, concrete computation, bridge lemma, or prior-art comparison.
 
 ## Repository Hygiene
 

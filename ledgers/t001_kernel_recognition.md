@@ -235,9 +235,25 @@ Outcome:
 subtraction. Its new obstruction is stored as `OBL-T001-003` in
 `ledgers/t001_candidate_inventory.md`.
 
+## FJ57 candidate-promotion obstruction update
+
+`FJ57` checks whether kernel recognition can supply a live non-routed
+candidate for a proof attempt.
+
+Outcome:
+
+- Brown-positive concrete rows remain exhausted by the `FJ26` route or by
+  calibration status;
+- direct BNS theorem use remains unavailable as a candidate generator without
+  a \(\Sigma(G)\)-membership computation;
+- the Karrass--Solitar bridge remains a cleanup theorem without a concrete
+  source-ready finitely presented normal subgroup;
+- no new kernel-recognition source or theorem is imported.
+
+The kernel-recognition side of the selected hybrid packet is therefore
+blocked at candidate production until a new candidate, computation, or bridge
+is recorded.
+
 ## Next action
 
-Continue with `FJ57`, Candidate Family Proof Attempt or Obstruction Record.
-The next step should either promote a repository-supported non-routed
-candidate into the inventory or record the no-candidate obstruction as the
-current endpoint of the `RB-003` + `RB-004`/`RB-008` hybrid packet.
+Continue with `FJ58`, Post-Hybrid Candidate-Production Checkpoint.
