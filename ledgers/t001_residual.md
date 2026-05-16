@@ -26,7 +26,9 @@ CAT(0) finite-extension lane and records it as unavailable for route use.
 `FJ51` selects Louder--Wilton as a bounded `RB-006` source-boundary check,
 but imports no theorem from it. `FJ52` checks Louder--Wilton and records no
 independent `RB-006` route delta; the remaining value is hyperbolic-route
-overlap.
+overlap. `FJ53` records \(\pi(w)>2\) as an explicit hyperbolic-overlap
+criterion through `FJ23`, closes the Louder--Wilton `RB-006` path as
+non-subtractive, and makes no concrete residual subtraction.
 
 ## Warning
 
@@ -53,7 +55,7 @@ cases not yet removed by the repository's current source-verified route data.
 | RB-003 | One-relator hierarchy-only data from the Linton vocabulary | A hierarchy is not automatically a bridge to hyperbolicity, CAT(0), virtual solvability, a mapping torus, or an inheritance row | OQ-038, OQ-039 |
 | RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge | OQ-036 |
 | RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ50` pauses this bucket after the `FJCw` application audit and direct CAT(0) finite-extension check produce no residual subtraction | OQ-032, OQ-068, OQ-069, OQ-070, OQ-071 |
-| RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | Selected by `FJ50`; `FJ52` checks Louder--Wilton and finds no independent compact-special/CAT(0) route delta; possible use is hyperbolic-route overlap through `FJ23` | OQ-033, OQ-072, OQ-073, OQ-074 |
+| RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | Selected by `FJ50`; `FJ52` checks Louder--Wilton and finds no independent compact-special/CAT(0) route delta; `FJ53` closes the Louder--Wilton path as non-subtractive and records \(\pi(w)>2\) only as hyperbolic overlap through `FJ23` | OQ-033, OQ-072, OQ-073, OQ-074, OQ-075 |
 | RB-007 | Virtually solvable-looking one-relator cases without a recognition source | `FJ25` deliberately does not classify virtually solvable one-relator groups | OQ-034 |
 | RB-008 | Countable-free-kernel or extension cases without exact inheritance data | `FJ27` requires the exact sequence, quotient status, and source version flag | OQ-037 |
 
@@ -511,6 +513,26 @@ Outcome:
 - any immediate project use must be recorded as hyperbolic-route overlap
   through `FJ23`, not as `RB-006` progress.
 
+## FJ53 pi(w)>2 hyperbolic-overlap update
+
+`FJ53` records the remaining Louder--Wilton use after the `RB-006` boundary
+check.
+
+Outcome:
+
+- \(\pi(w)>2\) is recorded as a source-chain criterion:
+  \(\pi(w)>2\Rightarrow\) negative immersions \(\Rightarrow\) hyperbolicity
+  \(\Rightarrow\) the `FJ23` hyperbolic route;
+- the hyperbolicity leg is supplied by the Linton source row already recorded
+  in `FJ22`;
+- this is not compact-special/CAT(0) progress and should not be counted as a
+  new `RB-006` route delta;
+- no concrete presentation word \(w\) is checked, so no residual case is
+  subtracted;
+- the Louder--Wilton `RB-006` path is closed as an independent
+  compact-special/CAT(0) path.
+
 ## Next action
 
-Begin `FJ53`, a \(\pi(w)>2\) hyperbolic-overlap checkpoint.
+Begin `FJ54`, a residual-bucket checkpoint after closing the Louder--Wilton
+`RB-006` path.

@@ -221,5 +221,7 @@ and `FJ49` does not license a direct CAT(0) finite-extension bridge. The
 `FJ50` route-delta checkpoint pauses `RB-005` and selects `RB-006`. The
 `FJ51` source-selection module selects Louder--Wilton for a bounded `RB-006`
 boundary check. `FJ52` finds no independent `RB-006` compact-special/CAT(0)
-route delta. The active project move is `FJ53`, a hyperbolic-overlap
-checkpoint, not a return to kernel-recognition.
+route delta, and `FJ53` records the remaining \(\pi(w)>2\) use only as
+hyperbolic-route overlap through `FJ23`. The active project move is `FJ54`, a
+residual-bucket checkpoint after closing the Louder--Wilton `RB-006` path,
+not a return to kernel-recognition.

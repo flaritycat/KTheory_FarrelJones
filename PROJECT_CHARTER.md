@@ -775,9 +775,26 @@ theorem, the condition \(\pi(w)>2\) may feed the `FJ23` hyperbolic route, but
 that should be recorded as hyperbolic overlap rather than as new `RB-006`
 progress.
 
-The next step is `FJ53`, a \(\pi(w)>2\) hyperbolic-overlap checkpoint: decide
-whether to record a route-subtraction note through `FJ23` or mark the path as
-already absorbed by the existing negative-immersion route marker.
+The historical next step after `FJ52` was `FJ53`, a \(\pi(w)>2\)
+hyperbolic-overlap checkpoint.
+
+Current status: `FJ53` has first-pass coverage as the \(\pi(w)>2\)
+hyperbolic-overlap checkpoint. It records the source chain
+\(\pi(w)>2\Rightarrow\) negative immersions \(\Rightarrow\) hyperbolicity
+\(\Rightarrow\) the `FJ23` hyperbolic route. It does not count this as
+`RB-006` compact-special/CAT(0) progress and it makes no concrete residual
+subtraction.
+
+The route decision after `FJ53` is to close the Louder--Wilton `RB-006` path
+as an independent compact-special/CAT(0) route. Louder--Wilton remains useful
+for the recorded hyperbolic-overlap criterion, but the next move should not
+continue the same source lane unless a new concrete presentation word or
+separate geometric bridge is selected.
+
+The next step is `FJ54`, a residual-bucket checkpoint after the closed
+Louder--Wilton `RB-006` path. Its job is to decide which remaining attack
+packet, if any, should follow now that `RB-004`, `RB-005`, and the current
+`RB-006` lane have produced no new residual subtraction.
 
 ## GitHub persistence policy
 
