@@ -80,12 +80,14 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ58`, Post-Hybrid Candidate-Production Checkpoint.
-Start from `FJ54`, `FJ55`, `FJ56`, `FJ57`, `OQ-079`, `OBL-T001-004`,
-`ledgers/t001_candidate_inventory.md`, `ledgers/t001_kernel_recognition.md`,
-and `ledgers/t001_residual.md`. Do not open a new external source lane unless
-the checkpoint selects a candidate-production lane with a named candidate,
-bridge lemma, or prior-art blocker.
+Next project task: `FJ59`, Weaker \(K_0\) / Cohen--Lyndon Consequence Intake
+Gate.
+Start from `FJ08`, `FJ09`, `FJ54`, `FJ58`, `OQ-024`, `OQ-080`,
+`OBL-T001-005`, `ledgers/t001_candidate_inventory.md`, and
+`ledgers/t001_residual.md`. Do not treat this as a Farrell--Jones route
+subtraction. The task is only to decide whether a weaker consequence source
+payload can update an open question, proof obligation, consequence ledger, or
+prior-art blocker.
 
 ## Reading protocol
 

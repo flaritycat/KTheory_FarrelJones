@@ -5,7 +5,8 @@
 Created by `FJ54` as the candidate ledger for the `RB-003` +
 `RB-004`/`RB-008` hybrid attack packet. Updated by `FJ55` with
 route-output proof obligations, by `FJ56` with explicit kernel-control
-audit status, and by `FJ57` with the no-candidate endpoint obstruction.
+audit status, by `FJ57` with the no-candidate endpoint obstruction, and by
+`FJ58` with the post-hybrid no-active-lane obstruction.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -22,6 +23,10 @@ torsion-free one-relator candidate families.
 Current status after `FJ57`: blocked at candidate production. The packet can
 be reactivated only after a real candidate, concrete computation, bridge
 lemma, or prior-art comparison is recorded.
+
+Current status after `FJ58`: no active candidate-production lane is ready for
+`T-001`. The next module is a bounded weaker \(K_0\) / Cohen--Lyndon
+consequence intake, not a proof attempt and not a residual subtraction.
 
 Guiding question:
 
@@ -68,6 +73,21 @@ obstruction as the current endpoint of the hybrid packet.
 production. The candidate inventory remains open for intake, but no current
 row supports a new proof attempt.
 
+## FJ58 post-hybrid lane audit
+
+| Lane | FJ58 status | Reason |
+|---|---|---|
+| Reactivate `RB-003` + `RB-004`/`RB-008` hybrid | blocked | `OBL-T001-004` remains active; no new candidate, bridge, computation, or prior-art comparison is recorded |
+| Return to `RB-004` BNS/Bieri/Karrass--Solitar work | dormant | `FJ43` requires a candidate-ready route before another source-only continuation |
+| Return to `RB-005` finite-index / `FJCw` handling | dormant | no named `FJCw`-ready or direct CAT(0)-finite-extension application case is present |
+| Return to WIP / provisional `RB-006` | demoted | current Louder--Wilton / \(\pi(w)>2\) use remains hyperbolic-overlap only |
+| Use `RB-007` virtually solvable recognition | dormant | no concrete virtually-solvable-looking family or recognition source is tied to a candidate row |
+| Weaker \(K_0\) / Cohen--Lyndon update | selected as consequence-lane intake | lower-priority lane may update `OQ-024`, a proof obligation, or a prior-art blocker, but not a residual subtraction |
+
+`FJ58` conclusion: no replacement candidate-production lane is currently
+ready. Candidate-level proof work can restart only after a future module
+adds real candidate data or a checked bridge.
+
 ## Candidate intake checklist
 
 For every future candidate row, record:
@@ -95,7 +115,8 @@ For every future candidate row, record:
 | `OBL-T001-001` | active obstruction | `FJ55` | No direct hierarchy-to-FJ bridge is currently recorded. Hierarchy existence, HNN structure, or primitive-extension shorthand must pass through an approved route output before any residual subtraction. | Use `FJ56` to attach explicit kernel-control data to repository-supported candidate rows. | Stop any hierarchy-only source lane unless it changes a candidate, route output, or obstruction. |
 | `OBL-T001-002` | active requirement | `FJ55` | Every future `RB-003` + `RB-004`/`RB-008` hybrid candidate must state which route output it seeks: hyperbolicity, CAT(0)/special input, finite-rank free or hyperbolic kernel extension, or version-safe inheritance. | Add a route-output field note to candidate rows when they become active. | Stop if the candidate cannot name a route output or a documented obstruction. |
 | `OBL-T001-003` | active obstruction | `FJ56` | No live non-routed kernel-control candidate is currently present in the candidate inventory. Existing concrete rows are calibration-only or already removed through `FJ26`; the remaining template row is not a mathematical candidate. | Use `FJ57` either to promote a repository-supported non-routed candidate or to record the no-candidate obstruction precisely. | Stop the hybrid packet if no real candidate, bridge lemma, or obstruction beyond this inventory can be recorded. |
-| `OBL-T001-004` | active obstruction | `FJ57` | The selected `RB-003` + `RB-004`/`RB-008` hybrid packet is blocked at candidate production. | Use `FJ58` to decide whether another candidate-production lane can be made legitimate. | Do not reactivate the hybrid packet unless a real candidate, concrete computation, bridge lemma, or prior-art comparison is recorded. |
+| `OBL-T001-004` | active obstruction | `FJ57` | The selected `RB-003` + `RB-004`/`RB-008` hybrid packet is blocked at candidate production. | `FJ58` checked replacement lanes and recorded `OBL-T001-005`; reactivation now requires new candidate-level data. | Do not reactivate the hybrid packet unless a real candidate, concrete computation, bridge lemma, or prior-art comparison is recorded. |
+| `OBL-T001-005` | active obstruction | `FJ58` | No active candidate-production lane is currently ready for `T-001`. | Use `FJ59` only as a bounded weaker \(K_0\) / Cohen--Lyndon consequence intake, not as a proof attempt. | Stop any candidate-level claim unless a real candidate, checked bridge, computation, formulation-safe application, non-hyperbolic geometric bridge, or prior-art comparison is recorded. |
 
 ## Non-use warnings
 
@@ -109,5 +130,6 @@ For every future candidate row, record:
 
 ## Next update
 
-`FJ58` should decide which candidate-production lane, if any, can replace the
-blocked hybrid packet without reopening passive source accumulation.
+`FJ59` should test whether the weaker \(K_0\) / Cohen--Lyndon consequence
+lane can update an open question, proof obligation, or prior-art blocker
+without being misread as a Farrell--Jones route subtraction.

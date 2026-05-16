@@ -843,7 +843,21 @@ The route decision after `FJ57` is to close the current `RB-003` +
 `OBL-T001-004` in `ledgers/t001_candidate_inventory.md` and makes no residual
 subtraction.
 
-The next step is `FJ58`, Post-Hybrid Candidate-Production Checkpoint.
+Current status: `FJ58` has first-pass coverage as the Post-Hybrid
+Candidate-Production Checkpoint. It audits the plausible replacement lanes
+after the blocked hybrid packet and records that none is presently
+candidate-ready as a proof-attempt lane: `RB-004` remains paused without a new
+candidate or BNS computation, `RB-005` remains paused without an application
+case, WIP / provisional `RB-006` remains hyperbolic-overlap only, and
+`RB-007` remains a recognition bucket without a selected family.
+
+The route decision after `FJ58` is to record `OBL-T001-005`: no active
+candidate-production lane is currently ready for `T-001`. This is not a
+mathematical nonexistence theorem and not a retreat from `T-001`; it is a
+stop condition against fabricated proof attempts.
+
+The next step is `FJ59`, Weaker \(K_0\) / Cohen--Lyndon Consequence Intake
+Gate.
 
 ## GitHub persistence policy
 

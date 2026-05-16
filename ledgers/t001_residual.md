@@ -38,7 +38,10 @@ rows, records that the concrete kernel-control rows are calibration-only or
 already removed through `FJ26`, and creates the no-live-candidate obstruction
 `OBL-T001-003`. `FJ57` records that no repository-supported non-routed
 candidate can be promoted into a proof attempt and creates the
-candidate-production obstruction `OBL-T001-004`.
+candidate-production obstruction `OBL-T001-004`. `FJ58` records that no
+replacement candidate-production lane is currently ready and creates
+`OBL-T001-005`, sending the project to a bounded weaker \(K_0\) /
+Cohen--Lyndon consequence intake.
 
 ## Warning
 
@@ -632,4 +635,29 @@ blocked at candidate production, not abandoned.
 
 ## Next action after FJ57
 
-Begin `FJ58`, Post-Hybrid Candidate-Production Checkpoint.
+At this point the next module was `FJ58`, Post-Hybrid Candidate-Production
+Checkpoint.
+
+## FJ58 post-hybrid candidate-production checkpoint update
+
+`FJ58` audits the lanes available after the selected `RB-003` +
+`RB-004`/`RB-008` hybrid packet is blocked at candidate production.
+
+Outcome:
+
+- the selected hybrid packet remains blocked by `OBL-T001-004`;
+- automatic `RB-004` source-cluster continuation remains paused by `FJ43`;
+- `RB-005` remains paused because no `FJCw`-ready or direct CAT(0)
+  finite-extension application case is recorded;
+- WIP / provisional `RB-006` remains demoted because the current
+  Louder--Wilton / \(\pi(w)>2\) path is hyperbolic-overlap only;
+- `RB-007` remains a recognition bucket without a selected candidate family;
+- no residual bucket is removed by `FJ58`.
+
+`FJ58` records `OBL-T001-005`: no active candidate-production lane is
+currently ready for `T-001`. The next module is a bounded weaker \(K_0\) /
+Cohen--Lyndon consequence intake, not a proof attempt.
+
+## Next action after FJ58
+
+Begin `FJ59`, Weaker \(K_0\) / Cohen--Lyndon Consequence Intake Gate.

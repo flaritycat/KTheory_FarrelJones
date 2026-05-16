@@ -17,10 +17,10 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_003`.
 - Completed cycles: `cycle_001` and `cycle_002`.
-- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, and `FJ57`. `FJ53` is retained as WIP / provisional.
+- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, and `FJ58`. `FJ53` is retained as WIP / provisional.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md` and `reflections/cycle_002_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ58`, Post-Hybrid Candidate-Production Checkpoint.
+- Current procedural target: begin `FJ59`, Weaker \(K_0\) / Cohen--Lyndon Consequence Intake Gate.
 
 ## Current established results
 
@@ -56,6 +56,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ55` records that hierarchy / primitive-extension data alone is not an FJ route in the current repository; it creates proof obligations `OBL-T001-001` and `OBL-T001-002` and sends the project to kernel-control candidate inventory.
 - `FJ56` records that the current concrete kernel-control candidate rows are calibration-only or already removed through `FJ26`; it creates `OBL-T001-003` and sends the project to a candidate-family proof attempt or obstruction record.
 - `FJ57` records that no repository-supported non-routed candidate can be promoted for the selected hybrid packet without fabrication; it creates `OBL-T001-004` and sends the project to a post-hybrid candidate-production checkpoint.
+- `FJ58` records that no replacement candidate-production lane is currently ready after the blocked hybrid packet; it creates `OBL-T001-005` and sends the project to a bounded weaker \(K_0\) / Cohen--Lyndon consequence intake gate.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.
@@ -112,6 +113,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ55` completes the primitive-extension / hierarchy-to-FJ bridge test: no direct hierarchy-to-FJ bridge is recorded, so the hybrid packet must proceed through explicit route-output and kernel-control obligations.
 - `FJ56` completes the kernel-control candidate inventory: existing concrete rows have explicit kernel-control data but are route-exhausted, and no live non-routed candidate is currently present.
 - `FJ57` completes the candidate-family proof-attempt check by recording a no-candidate obstruction, not by inventing a new family.
+- `FJ58` completes the post-hybrid candidate-production checkpoint: all currently named residual lanes remain dormant or blocked as proof-attempt lanes, so the next step is a bounded weaker \(K_0\) / Cohen--Lyndon intake, not a residual subtraction.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements now use the nonconnective \(K\)-theory convention source-checked in `FJ02`, while preserving the `FJ01` black-box normalization for simplified examples.
 

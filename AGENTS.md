@@ -39,12 +39,17 @@ After `FJ57`, this packet is blocked at candidate production until a real
 candidate, concrete computation, bridge lemma, or prior-art comparison is
 recorded.
 
+After `FJ58`, no active replacement candidate-production lane is ready for
+`T-001`. Treat the next step as a bounded consequence-lane intake, not as a
+proof attempt.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
 - `FJ56`: Kernel-Control Candidate Inventory is completed.
 - `FJ57`: Candidate Family Proof Attempt or Obstruction Record is completed.
-- `FJ58`: Post-Hybrid Candidate-Production Checkpoint is next.
+- `FJ58`: Post-Hybrid Candidate-Production Checkpoint is completed.
+- `FJ59`: Weaker \(K_0\) / Cohen--Lyndon Consequence Intake Gate is next.
 
 Current obstruction:
 
@@ -54,6 +59,9 @@ Current obstruction:
 - `OBL-T001-004`: the selected `RB-003` + `RB-004`/`RB-008` hybrid packet is
   blocked at candidate production. Do not reactivate it without a real
   candidate, concrete computation, bridge lemma, or prior-art comparison.
+- `OBL-T001-005`: no active candidate-production lane is currently ready for
+  `T-001`. Do not convert `FJ59` into a residual subtraction unless a full
+  formulation-safe route is actually recorded.
 
 ## Repository Hygiene
 

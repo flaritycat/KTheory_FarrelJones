@@ -254,6 +254,18 @@ The kernel-recognition side of the selected hybrid packet is therefore
 blocked at candidate production until a new candidate, computation, or bridge
 is recorded.
 
+## FJ58 post-hybrid checkpoint update
+
+`FJ58` keeps kernel recognition in a dormant but available state. The Brown
+route, direct BNS theorem map, and Karrass--Solitar cleanup bridge remain
+usable only when a future module supplies a concrete candidate, a
+\(\Sigma(G)\)-membership computation, or a source-ready finitely presented
+normal subgroup outside the exhausted rows.
+
+No new kernel-recognition theorem is recorded by `FJ58`, and no
+kernel-control candidate is promoted.
+
 ## Next action
 
-Continue with `FJ58`, Post-Hybrid Candidate-Production Checkpoint.
+Continue with `FJ59`, Weaker \(K_0\) / Cohen--Lyndon Consequence Intake
+Gate.
