@@ -2,7 +2,7 @@
 
 ## Status
 
-Created by `FJ69`; updated by `FJ70` and `FJ71`.
+Created by `FJ69`; updated by `FJ70`, `FJ71`, and `FJ72`.
 
 This ledger is an internal inventory extracted from existing repository
 records. No new external source was checked for this ledger.
@@ -105,6 +105,17 @@ Minimum reactivation data after `FJ71`:
 - a prior-art-overlap note;
 - source-status and APA citation data if a new external theorem is used.
 
+## FJ72 pivot-refresh status
+
+`FJ72` uses this ledger as an input to the target-pivot refresh and keeps the
+Artin lane paused.
+
+No row in this ledger currently supplies the `OBL-ARTIN-004` reactivation
+payload. The covered rows remain usable only under their exact source
+hypotheses; the global all-Artin row remains unresolved; the unnamed-subclass
+and Wu candidate rows remain inactive until named payload data appears.
+
 ## Next update
 
-Use this ledger as input to `FJ72`, Target-Pivot Refresh After Artin Pause.
+No active Artin update is scheduled. Reactivate only through
+`OBL-ARTIN-004`.

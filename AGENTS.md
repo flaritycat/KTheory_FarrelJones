@@ -116,6 +116,13 @@ theorem, bridge object, formulation label, prior-art-overlap note, and
 changed project object. The next step is `FJ72`, Target-Pivot Refresh After
 Artin Pause.
 
+After `FJ72`, no group-class target is currently ready for active proof or
+source work. `T-001` remains dormant, Artin remains paused, and automatic /
+biautomatic and Thompson-type groups remain deferred. The next packet is
+`FND-001`, Foundational Open-Question Triage After Target Pauses. `FJ73`
+must select at most one exact foundational blocker or record that none is
+ready; it must not become a broad foundations source survey.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -137,7 +144,8 @@ Current module handoff:
 - `FJ70`: Wu Clique-Reduction Candidate Filter for Artin Gap Rows is
   completed.
 - `FJ71`: Artin Branch Checkpoint After Wu Filter is completed.
-- `FJ72`: Target-Pivot Refresh After Artin Pause is next.
+- `FJ72`: Target-Pivot Refresh After Artin Pause is completed.
+- `FJ73`: Foundational Open-Question Triage After Target Pauses is next.
 
 Current obstruction:
 
@@ -207,6 +215,10 @@ Current obstruction:
   selecting another active target. The refresh must either select one bounded
   next packet with a concrete repository object or record that no target is
   ready.
+- `OBL-FND-001`: after `FJ72`, triage existing foundational open questions
+  and select at most one exact blocker for bounded action, or record that no
+  foundational blocker is ready. A broad foundations source survey does not
+  satisfy this obligation.
 
 ## Repository Hygiene
 

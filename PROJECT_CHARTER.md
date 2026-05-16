@@ -1149,10 +1149,41 @@ that changes a project object.
 `OBL-PIVOT-002`, selects target packet `A-004`, and makes no global
 all-Artin theorem claim.
 
-The next step is `FJ72`, Target-Pivot Refresh After Artin Pause. It should
-reapply the `FJ67` target-pivot criteria after both dormant `T-001` and the
-paused Artin lane, and either select one bounded next packet with a concrete
-repository object or record that no target is ready.
+The next step after `FJ71` was `FJ72`, Target-Pivot Refresh After Artin
+Pause. Its task was to reapply the `FJ67` target-pivot criteria after both
+dormant `T-001` and the paused Artin lane, and either select one bounded
+next packet with a concrete repository object or record that no target is
+ready.
+
+## FJ72 target-pivot refresh after Artin pause
+
+Current status: `FJ72` has first-pass coverage as the Target-Pivot Refresh
+After Artin Pause module. It uses only existing repository records and does
+not check any new external source.
+
+The pivot decision after `FJ72` is that no group-class target is currently
+ready for active proof or source work. `T-001` remains dormant under
+`OBL-T001-013`; the Artin lane remains paused under `OBL-ARTIN-004`;
+automatic / biautomatic groups and Thompson-type groups remain deferred
+because the repository records no exact source payload or bounded candidate
+object for them.
+
+The selected next packet is non-group-theoretic:
+
+```text
+FND-001. Foundational Open-Question Triage After Target Pauses
+```
+
+This packet is bounded by existing repository objects: open foundational
+questions and theorem-dependency rows. It must not become a broad foundations
+survey.
+
+`FJ72` resolves `OQ-094`, completes `OBL-PIVOT-002`, records
+`OBL-FND-001`, selects `FND-001`, and makes no Farrell--Jones theorem claim.
+
+The next step is `FJ73`, Foundational Open-Question Triage After Target
+Pauses. It should select at most one foundational blocker for bounded action,
+or record that no foundational blocker is ready.
 
 ## GitHub persistence policy
 

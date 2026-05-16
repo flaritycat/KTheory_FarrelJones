@@ -80,7 +80,8 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ72`, Target-Pivot Refresh After Artin Pause.
+Next project task: `FJ73`, Foundational Open-Question Triage After Target
+Pauses.
 
 `FJ60` closed the weaker \(K_0\) / Cohen--Lyndon consequence lane as inactive
 because no exact source payload is recorded. `reflections/cycle_003_reflection.md`
@@ -101,8 +102,12 @@ filter and records no current candidate from existing Artin gap rows. It
 records `OBL-ARTIN-003`: future Wu-lane work requires a named graph or
 subclass, clique data, formulation level, and project object changed before
 reading begins. `FJ71` makes the Artin branch decision by pausing the active
-Artin lane and recording `OBL-ARTIN-004`. `FJ72` must now refresh the
-target-pivot comparison rather than begin a broad source survey.
+Artin lane and recording `OBL-ARTIN-004`. `FJ72` refreshes the target-pivot
+comparison and records that no group-class target is currently ready for
+active proof or source work. It selects `FND-001`, foundational open-question
+triage after target pauses. `FJ73` must choose at most one concrete
+foundational blocker from existing repository records rather than begin a
+broad foundations source survey.
 
 ## Reading protocol
 

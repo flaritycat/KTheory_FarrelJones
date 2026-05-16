@@ -14,7 +14,8 @@ reset, by `FJ61` with the candidate-intake gate, by `FJ62` with active
 blocker pruning, by `FJ63` with selected packet `DAP-T001-001`, by
 `FJ64` with the no-candidate note for that packet, and by `FJ65` with the
 prior-art / branch-readiness checkpoint, and by `FJ66` with the target-pause
-recommendation and reactivation gate.
+recommendation and reactivation gate, and by `FJ72` with the post-Artin-pause
+target-pivot refresh.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -76,6 +77,11 @@ target-pause trigger, and `FJ66` must make the branch decision.
 Current status after `FJ66`: `T-001` is paused as an active proof-target
 sequence. It remains unresolved and archived. Reactivation requires the
 `OBL-T001-013` gate.
+
+Current status after `FJ72`: `T-001` remains dormant. The target-pivot
+refresh does not find a candidate-admissible row, exact source payload,
+bridge, computation, prior-art blocker, or explicit reselection object
+satisfying `OBL-T001-013`.
 
 Guiding question:
 
@@ -293,6 +299,14 @@ object satisfies `OBL-T001-013`.
 
 The active bounded target packet after `FJ68` is `A-001`, Artin
 subclass-gap inventory after `FJ18`.
+
+## FJ72 target-pivot refresh update
+
+`FJ72` again keeps `T-001` dormant. No row in this inventory has changed
+since the `FJ66` pause in a way that satisfies the reactivation gate.
+
+The next active packet after `FJ72` is not a `T-001` packet; it is `FND-001`,
+foundational open-question triage after target pauses.
 
 ## Non-use warnings
 
