@@ -86,7 +86,7 @@ For every group \(G\), the collection
 
 is closed under conjugation and passage to subgroups. Hence \(\mathcal{VCyc}(G)\) is a family of subgroups in the project sense.
 
-The same module records the source-verified dichotomy that an infinite virtually cyclic group maps with finite kernel either onto \(\mathbb Z\) or onto \(D_\infty=\mathbb Z/2 * \mathbb Z/2\).
+The same module records the source-verified dichotomy that an infinite virtually cyclic group maps with finite kernel either onto \(\mathbb Z\) or onto \(D_\infty=\mathbb Z/2 * \mathbb Z/2\), using the checked Lueck--Reich source statement. `FJ75` checks metadata for Farrell--Jones (1995), Lemma 2.5, but does not access or promote the primary lemma text.
 
 ### Proof location
 
@@ -99,7 +99,7 @@ The same module records the source-verified dichotomy that an infinite virtually
 
 ### Source status
 
-The family property is proved internally. The infinite virtually cyclic dichotomy is source-verified from Lueck--Reich, with the original proof source Farrell--Jones 1995 still marked `to verify`.
+The family property is proved internally. The infinite virtually cyclic dichotomy is source-verified from Lueck--Reich. The original proof source Farrell--Jones (1995), Lemma 2.5, is DOI-checked after `FJ75`, but the primary lemma text remains unverified and is not a direct theorem source for this repository.
 
 ## ER-004. Infinite cyclic group case of the simplified assembly map
 

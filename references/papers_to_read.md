@@ -10,7 +10,7 @@
 ## Priority 1b: virtually cyclic structure
 
 1. Lueck, W.; Weiermann, M. *On the classifying space of the family of virtually cyclic subgroups*. Status: partially read for `FJ04`.
-2. Farrell, F. T.; Jones, L. E. *The lower algebraic K-theory of virtually infinite cyclic groups*. Status: to verify; selected for `FJ75`; check Lemma 2.5 before using the type I/type II dichotomy in proof-sensitive work.
+2. Farrell, F. T.; Jones, L. E. *The lower algebraic K-theory of virtually infinite cyclic groups*. Status: metadata checked by `FJ75`; primary Lemma 2.5 text not accessed; do not use directly before source-text verification.
 
 ## Priority 2: first known cases and inheritance
 
@@ -80,7 +80,8 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ75`, Virtually Cyclic Dichotomy Source-Payload Check.
+Next project task: `FJ76`, Foundational Source-Queue Checkpoint After
+`OQ-006` No-Promotion.
 
 `FJ60` closed the weaker \(K_0\) / Cohen--Lyndon consequence lane as inactive
 because no exact source payload is recorded. `reflections/cycle_003_reflection.md`
@@ -109,9 +110,10 @@ pass by selecting `OQ-005`, weakly contractible versus contractible
 fixed-point formulations, and recording `OBL-FND-002`. `FJ74` cleans up
 that convention from the existing `FJ03` source anchor, records
 `FND-CONV-001`, resolves `OQ-005`, and selects `OQ-006` as the next bounded
-source-payload item. `FJ75` should check Farrell--Jones (1995), Lemma 2.5,
-or record no-promotion status; it must not become a broad virtually cyclic
-or lower algebraic \(K\)-theory survey.
+source-payload item. `FJ75` checks Farrell--Jones (1995) metadata, records
+that Lemma 2.5 was not accessed or promoted, resolves `OQ-006` negatively,
+and selects `OQ-096`. `FJ76` must decide whether another exact foundational
+source payload is ready or whether to pause the foundational source queue.
 
 ## Reading protocol
 

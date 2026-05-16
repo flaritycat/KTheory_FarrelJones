@@ -136,6 +136,13 @@ Check. `FJ75` must check Farrell--Jones (1995), Lemma 2.5, or record
 no-promotion status; it must not become a broad virtually cyclic or lower
 algebraic K-theory survey.
 
+After `FJ75`, Farrell--Jones (1995), Lemma 2.5, has DOI-checked metadata
+but no direct theorem-use promotion: the primary lemma text was not accessed.
+The next packet is `FND-004`, Foundational Source-Queue Checkpoint After
+`OQ-006` No-Promotion. `FJ76` must select at most one exact foundational
+source payload or pause the queue; it must not become a broad bibliography
+or foundations survey.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -160,7 +167,9 @@ Current module handoff:
 - `FJ72`: Target-Pivot Refresh After Artin Pause is completed.
 - `FJ73`: Foundational Open-Question Triage After Target Pauses is completed.
 - `FJ74`: Fixed-Point Convention Cleanup for Classifying Spaces is completed.
-- `FJ75`: Virtually Cyclic Dichotomy Source-Payload Check is next.
+- `FJ75`: Virtually Cyclic Dichotomy Source-Payload Check is completed.
+- `FJ76`: Foundational Source-Queue Checkpoint After `OQ-006` No-Promotion
+  is next.
 
 Current obstruction:
 
@@ -245,7 +254,11 @@ Current obstruction:
   virtually cyclic dichotomy source payload, specifically Lemma 2.5 as cited
   by the current dependency chain, or record no-promotion status. Do not
   broaden this into a survey of virtually cyclic groups or lower algebraic
-  K-theory.
+  K-theory. `FJ75` completes this with no-promotion status.
+- `OBL-FND-004`: `FJ76` must decide whether the foundational source queue
+  contains another exact bounded source payload ready for action, or whether
+  the foundational queue should pause and return to target-pivot comparison.
+  Do not launch a broad foundations or bibliography survey.
 
 ## Repository Hygiene
 

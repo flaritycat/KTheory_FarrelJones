@@ -146,13 +146,14 @@ Unless explicitly imported later:
 96. Which target-pivot input should follow the Artin pause? Tracked as `OQ-094`; first-pass resolved by `FJ72`, which records no group-class target ready and selects foundational open-question triage.
 97. Which foundational blocker, if any, should be selected after the target pauses? Tracked as `OQ-095`; first-pass resolved by `FJ73`, which selects `OQ-005` for fixed-point convention cleanup.
 98. Should weakly contractible and contractible fixed-point formulations be separated? Tracked as `OQ-005`; first-pass resolved by `FJ74`, which records `FND-CONV-001`.
-99. Should Farrell--Jones 1995 be directly verified for the virtually cyclic dichotomy? Tracked as `OQ-006`; selected by `FJ74` for bounded source-payload checking in `FJ75`.
+99. Should Farrell--Jones 1995 be directly verified for the virtually cyclic dichotomy? Tracked as `OQ-006`; first-pass resolved negatively by `FJ75`, which checks DOI metadata but does not access Lemma 2.5 text.
+100. Which foundational source-payload item, if any, should follow the `OQ-006` no-promotion result? Tracked as `OQ-096`; selected by `FJ75` for `FJ76`.
 
 ## Established results
 
 - ER-001: For the trivial group \(G=1\), the simplified assembly map in module `FJ01` is the identity on \(K_n(R)\), assuming the black-box normalization of the equivariant homology theory.
 - ER-002: Source-verified existence and homotopy characterization of \(E_{\mathcal F}G\) for project-style families of subgroups, using Lueck's Definition 1.8 and Theorem 1.9; `FJ74` records the `FND-CONV-001` convention separating strict readable models from the weakly contractible source criterion.
-- ER-003: For every group \(G\), \(\mathcal{VCyc}(G)\) is a family of subgroups; infinite virtually cyclic groups are organized into type I/type II by the source-verified dichotomy.
+- ER-003: For every group \(G\), \(\mathcal{VCyc}(G)\) is a family of subgroups; infinite virtually cyclic groups are organized into type I/type II by the checked Lueck--Reich source statement. `FJ75` does not promote Farrell--Jones (1995), Lemma 2.5, to direct theorem-use status.
 - ER-004: For \(G=\mathbb Z\), the simplified assembly map is the identity under the point model for \(E_{\mathcal{VCyc}}\mathbb Z\), with target \(K_n(R[t,t^{-1}])\).
 - ER-005: Source-verified Bass--Heller--Swan decomposition of \(K_n(R[\mathbb Z])\) into \(K_n(R)\), \(K_{n-1}(R)\), and two \(NK_n(R)\)-summands.
 - ER-006: Conditional Whitehead-group vanishing from the K-theoretic Farrell--Jones conjecture for torsion-free groups with regular coefficients.
@@ -173,9 +174,9 @@ specialization of the additive-category coefficient convention recorded in
 `FJ02`. Here \(R\) is an associative unital ring and \(G\) is a discrete
 group unless stated otherwise.
 
-The active project target packet is `FND-003`, virtually cyclic dichotomy
-source-payload check. `T-001`, torsion-free one-relator residual gap analysis,
-remains unresolved but dormant after `FJ66`.
+The active project target packet is `FND-004`, foundational source-queue
+checkpoint after `OQ-006` no-promotion. `T-001`, torsion-free one-relator
+residual gap analysis, remains unresolved but dormant after `FJ66`.
 
 ## What has been established
 
@@ -308,11 +309,17 @@ remains unresolved but dormant after `FJ66`.
   isotropy source criterion, completes `OBL-FND-002`, records
   `OBL-FND-003`, selects `FND-003`, selects `FJ75`, and makes no
   Farrell--Jones theorem claim.
+- Module `FJ75` completes the virtually cyclic dichotomy source-payload
+  check. It verifies DOI metadata for Farrell--Jones (1995), records that
+  Lemma 2.5 was not accessed or promoted, resolves `OQ-006` negatively at
+  first pass, completes `OBL-FND-003`, records `FND-SRC-001`, records
+  `OBL-FND-004`, selects `FND-004`, selects `FJ76`, and makes no
+  Farrell--Jones theorem claim.
 
 ## Selected target
 
-Current active target packet: `FND-003`, virtually cyclic dichotomy
-source-payload check.
+Current active target packet: `FND-004`, foundational source-queue
+checkpoint after `OQ-006` no-promotion.
 
 Previous first serious target: `T-001`, torsion-free one-relator residual
 gap analysis. After `FJ66`--`FJ68`, `T-001` is dormant rather than active. It
@@ -325,8 +332,8 @@ graph, graph family, subclass, source theorem, bridge object, formulation
 label, prior-art-overlap note, and changed project object.
 
 No group-class target is currently active. The current packet is a bounded
-source-payload check for `OQ-006`: verify Farrell--Jones (1995), Lemma 2.5,
-or record that the original-source payload cannot yet be promoted.
+checkpoint after a no-promotion source-access result: decide whether another
+exact foundational source payload is ready, or pause the foundational queue.
 
 Cycle 002 identified which parts of the torsion-free one-relator target are
 removed by verified hyperbolic, finite-dimensional CAT(0), virtually
@@ -434,6 +441,10 @@ Current source toolkit:
 - selected foundational source-payload check: `FJ75` should address
   `OQ-006`, the direct Farrell--Jones (1995) virtually cyclic dichotomy
   source check;
+- virtually cyclic original-source access: `FJ75` records `FND-SRC-001`,
+  DOI-checked but no-promotion status for Farrell--Jones (1995), Lemma 2.5;
+- foundational source queue: `FJ76` should decide whether another exact
+  source payload is ready or whether to pause the queue;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -441,4 +452,5 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ75`, Virtually Cyclic Dichotomy Source-Payload Check.
+Begin `FJ76`, Foundational Source-Queue Checkpoint After `OQ-006`
+No-Promotion.

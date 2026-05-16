@@ -32,7 +32,7 @@
 
 - Lueck, W., & Weiermann, M. (2009). *On the classifying space of the family of virtually cyclic subgroups* (arXiv:math/0702646, Version 2). arXiv. https://arxiv.org/abs/math/0702646. Status: `partially read`. Notes: used in `FJ04` for type I/type II terminology and the finite-amalgam orientation for type II groups.
 
-- Farrell, F. T., & Jones, L. E. (1995). The lower algebraic K-theory of virtually infinite cyclic groups. *K-Theory, 9*, 13--30. URL/DOI: to verify. Status: `to verify`; selected for `FJ75`. Notes: cited by Lueck--Reich as the proof source for the infinite virtually cyclic dichotomy; not directly checked in `FJ04`. `FJ75` should check Lemma 2.5 or record no-promotion status.
+- Farrell, F. T., & Jones, L. E. (1995). The lower algebraic K-theory of virtually infinite cyclic groups. *K-Theory, 9*(1), 13--30. https://doi.org/10.1007/BF00965457. Status: `metadata checked; primary Lemma 2.5 text not accessed; do not use directly`. Notes: cited by Lueck--Reich as the proof source for the infinite virtually cyclic dichotomy; not directly checked in `FJ04`. `FJ75` checks Crossref/OpenAlex metadata and records no-promotion status for direct theorem use.
 
 ## Known cases
 

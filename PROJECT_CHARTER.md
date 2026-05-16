@@ -1232,9 +1232,35 @@ contractibility in source-verified claims.
 `FND-CONV-001`, completes `FND-002`, records `OBL-FND-003`, selects
 `FND-003`, and makes no Farrell--Jones theorem claim.
 
-The next step is `FJ75`, Virtually Cyclic Dichotomy Source-Payload Check. It
-should address `OQ-006` by checking Farrell--Jones (1995), Lemma 2.5, or by
-recording that the source payload cannot yet be promoted.
+The next step after `FJ74` was `FJ75`, Virtually Cyclic Dichotomy
+Source-Payload Check. Its task was to address `OQ-006` by checking
+Farrell--Jones (1995), Lemma 2.5, or by recording that the source payload
+could not yet be promoted.
+
+## FJ75 virtually cyclic dichotomy source-payload check
+
+Current status: `FJ75` has first-pass coverage as the Virtually Cyclic
+Dichotomy Source-Payload Check module. It performs a bounded source-access
+audit for Farrell--Jones (1995), Lemma 2.5.
+
+The source decision after `FJ75` is no-promotion. Crossref and OpenAlex
+metadata verify the article record and DOI `10.1007/BF00965457`, but the
+primary Lemma 2.5 text was not accessible in this environment. The Springer
+route returned a client challenge rather than article text, and no open
+full-text route was found.
+
+Therefore Farrell--Jones (1995) is now DOI-checked and metadata-checked, but
+it is not a direct theorem source inside this repository. The usable
+first-pass source for the infinite virtually cyclic dichotomy remains the
+already checked Lueck--Reich survey statement from `FJ04`.
+
+`FJ75` resolves `OQ-006` negatively for first-pass project use, completes
+`OBL-FND-003`, records `FND-SRC-001`, records `OBL-FND-004`, selects
+`FND-004`, and makes no Farrell--Jones theorem claim.
+
+The next step is `FJ76`, Foundational Source-Queue Checkpoint After `OQ-006`
+No-Promotion. It should decide whether another exact foundational
+source-payload item is ready, or whether the foundational queue should pause.
 
 ## GitHub persistence policy
 

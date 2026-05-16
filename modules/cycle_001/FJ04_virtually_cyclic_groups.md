@@ -125,6 +125,12 @@ cyclic` in the arXiv source. The proof there refers to Farrell--Jones,
 *The lower algebraic K-theory of virtually infinite cyclic groups*,
 Lemma 2.5.
 
+Post-`FJ75` source-access note: `FJ75` checked the Farrell--Jones 1995
+DOI and metadata but did not access the primary text of Lemma 2.5. Thus
+Farrell--Jones (1995) remains a located original proof source, not a
+directly source-verified theorem source inside this repository. The
+usable first-pass source for this claim remains Lueck--Reich.
+
 ### Proposition: Type I groups are finite-by-infinite-cyclic
 
 Let \(V\) be an infinite virtually cyclic group of type I. Then there is
@@ -292,8 +298,10 @@ discussion.
   type II amalgam orientation.
 - Farrell, F. T.; Jones, L. E. *The lower algebraic K-theory of
   virtually infinite cyclic groups*. K-Theory 9 (1995), 13--30.
-  Status: `to verify`; cited by Lueck--Reich as the proof source for
-  the dichotomy, but not directly checked in this module.
+  DOI: 10.1007/BF00965457. Status: `metadata checked; primary Lemma 2.5
+  text not accessed`; cited by Lueck--Reich as the proof source for the
+  dichotomy, but not directly checked in this module or promoted by
+  `FJ75`.
 
 ## Dependencies
 

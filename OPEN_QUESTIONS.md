@@ -144,8 +144,8 @@ Resolved by `FJ74`. Use `FND-CONV-001` in later classifying-space modules.
 
 ### Status
 
-Open inside project; selected by `FJ74` for bounded source-payload checking
-in `FJ75`.
+First-pass resolved negatively by `FJ75`; direct Farrell--Jones 1995 theorem
+use is not promoted.
 
 ### Context
 
@@ -155,6 +155,12 @@ Module `FJ04` uses Lueck--Reich's source-verified statement that an infinite vir
 `OQ-005`. The target is exact: check Farrell--Jones (1995), Lemma 2.5, or
 record that no source-payload promotion is currently available. This is
 tracked by `OBL-FND-003`.
+
+`FJ75` checks DOI and metadata records for Farrell--Jones (1995), but does
+not access the primary text of Lemma 2.5. The project therefore records
+no-promotion status: Farrell--Jones (1995) is located and DOI-checked, but
+is not a direct theorem source in this repository. The `FJ04` dichotomy
+continues to rest on the checked Lueck--Reich source statement.
 
 ### Relevant modules
 
@@ -169,7 +175,8 @@ Access to Farrell--Jones, *The lower algebraic K-theory of virtually infinite cy
 
 ### Next action
 
-Begin `FJ75`, Virtually Cyclic Dichotomy Source-Payload Check.
+Resolved negatively by `FJ75`. Do not cite Farrell--Jones (1995), Lemma 2.5,
+as source-verified unless the primary text is later accessed and checked.
 
 ## OQ-007. Which source should be used for Bass--Heller--Swan and Nil-terms?
 
@@ -3683,3 +3690,37 @@ not currently tied to a proof-sensitive application.
 ### Next action
 
 Resolved by `FJ73`. Continue with `OQ-005` and `FJ74`.
+
+## OQ-096. Which foundational source-payload item, if any, should follow the OQ-006 no-promotion result?
+
+### Status
+
+Open inside project; selected by `FJ75` for `FJ76`.
+
+### Context
+
+`FJ75` records a no-promotion result for Farrell--Jones (1995), Lemma 2.5:
+the DOI and metadata are checked, but the primary lemma text is not accessed.
+The foundational queue should not drift into source accumulation merely
+because one exact payload could not be promoted.
+
+`FJ76` must decide whether another exact foundational source-payload item is
+ready, or whether the foundational source queue should pause and return to
+target-pivot comparison.
+
+### Relevant modules
+
+- FJ73
+- FJ74
+- FJ75
+
+### Dependencies
+
+`OPEN_QUESTIONS.md`, `SCOPE_LEDGER.md`, `NOTATION_LEDGER.md`,
+`ledgers/source_status.md`, `ledgers/theorem_dependencies.md`, and
+`OBL-FND-004`.
+
+### Next action
+
+Begin `FJ76`, Foundational Source-Queue Checkpoint After `OQ-006`
+No-Promotion.
