@@ -164,6 +164,7 @@ Use this template before instantiating a future numbered module.
 | `REJECTED-PAYLOAD-018` | 2026-05-16 | "Execute payload object." | rejected / not an accepted payload | Repeated execution request after `REJECTED-PAYLOAD-017`; no accepted `FJ86` payload object is recorded. The request still does not name a mathematical candidate, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-107` open; do not instantiate `FJ86`. |
 | `REJECTED-PAYLOAD-019` | 2026-05-16 | "Execute payload object." | rejected / not an accepted payload | Repeated execution request after `REJECTED-PAYLOAD-018`; no accepted `FJ86` payload object is recorded. The request still does not name a mathematical candidate, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-107` open; do not instantiate `FJ86`. |
 | `REJECTED-PAYLOAD-020` | 2026-05-16 | `PAY-T001-CAND-2026-001` with candidate field `[Give one concrete torsion-free one-relator group or family here.]` | rejected / not an accepted payload | The object uses the `PAY-T001-CAND` form but does not name a concrete torsion-free one-relator group or family. A bracketed placeholder is not a candidate-admissible row, even when the submitted `Accepted?` field says yes. | Keep `OQ-107` open; do not instantiate `FJ86`. Submit a real candidate presentation or family before using this payload ID again. |
+| `REJECTED-PAYLOAD-021` | 2026-05-17 | `[Give one concrete torsion-free one-relator group or family here.]` | rejected / not an accepted payload | The request repeats the placeholder text itself. It does not name a concrete torsion-free one-relator group or family, so it cannot satisfy `PAY-T001-CAND` or instantiate `FJ86`. | Keep `OQ-107` open; do not instantiate `FJ86`. |
 
 ## Current project state
 
@@ -185,5 +186,5 @@ This is not a full `T-001` theorem and not a residual subtraction.
 `FJ85` records that the next payload after `FJ84` is governance-only. It does
 not reactivate a target, start source work, or create a mathematical claim.
 
-The latest intake attempt, `REJECTED-PAYLOAD-020`, does not change this
+The latest intake attempt, `REJECTED-PAYLOAD-021`, does not change this
 state. No `FJ86` module is selected.
