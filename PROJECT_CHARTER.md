@@ -722,8 +722,27 @@ The route decision after `FJ49` is to keep the virtual compact special case
 blocked in the direct CAT(0) lane. After `FJ47`, `FJ48`, and `FJ49`,
 `RB-005` has produced useful source discipline but no residual subtraction.
 
-The next step is `FJ50`, an `RB-005` route-delta checkpoint and pivot
-decision: decide whether to pause `RB-005` and select the next attack packet.
+The historical next step after `FJ49` was `FJ50`, an `RB-005` route-delta
+checkpoint and pivot decision: decide whether to pause `RB-005` and select
+the next attack packet.
+
+Current status: `FJ50` has first-pass coverage as the `RB-005` route-delta
+checkpoint. It records that `RB-005` produced useful formulation control but
+no `T-001` residual subtraction: the full \(\mathcal{FJ}\) lane is too
+narrow for the current cases, the `FJCw` bridge has no current `T-001`
+application, and the direct CAT(0) finite-extension lane is blocked by
+`FJ49`.
+
+The route decision after `FJ50` is to pause `RB-005` as the immediate attack
+packet. This is not a mathematical negative result; it is a governance
+decision that another finite-index source check now needs a new concrete
+candidate or named bridge.
+
+The next step is `FJ51`, an `RB-006` compact-special/CAT(0)-looking
+source-selection and attack-packet module. Its job is to determine whether
+there is a bounded one-relator cubulation, specialness, or CAT(0)-recognition
+source to check without duplicating the hyperbolic route or reopening the
+finite-index shortcut blocked in `FJ49`.
 
 ## GitHub persistence policy
 

@@ -22,6 +22,7 @@ interruption and returns `RB-005` to finite-index bridge source selection.
 coefficient-only bridge. `FJ48` audits `RB-005` and records that no current
 `T-001` finite-index cleanup case is `FJCw-ready`. `FJ49` checks the direct
 CAT(0) finite-extension lane and records it as unavailable for route use.
+`FJ50` pauses `RB-005` and selects `RB-006` as the next attack packet.
 
 ## Warning
 
@@ -47,8 +48,8 @@ cases not yet removed by the repository's current source-verified route data.
 | RB-002 | Locally indicable-only torsion-free one-relator data | Local indicability is structural and is not a Farrell--Jones theorem route in the project | OQ-026 |
 | RB-003 | One-relator hierarchy-only data from the Linton vocabulary | A hierarchy is not automatically a bridge to hyperbolicity, CAT(0), virtual solvability, a mapping torus, or an inheritance row | OQ-038, OQ-039 |
 | RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge | OQ-036 |
-| RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ48` finds no current `T-001` case with `FJCw` subgroup input; `FJ49` does not license a direct CAT(0) finite-extension route; the bucket now needs a route-delta checkpoint before more source work | OQ-032, OQ-068, OQ-069, OQ-070, OQ-071 |
-| RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | The project needs a source-verified bridge not already absorbed by `FJ23` | OQ-033 |
+| RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ50` pauses this bucket after the `FJCw` application audit and direct CAT(0) finite-extension check produce no residual subtraction | OQ-032, OQ-068, OQ-069, OQ-070, OQ-071 |
+| RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | Selected by `FJ50`; the project needs a bounded source or candidate not already absorbed by `FJ23` and not dependent on the blocked `RB-005` finite-index shortcut | OQ-033, OQ-072 |
 | RB-007 | Virtually solvable-looking one-relator cases without a recognition source | `FJ25` deliberately does not classify virtually solvable one-relator groups | OQ-034 |
 | RB-008 | Countable-free-kernel or extension cases without exact inheritance data | `FJ27` requires the exact sequence, quotient status, and source version flag | OQ-037 |
 
@@ -450,9 +451,27 @@ Outcome:
 - the virtual compact special path is not removed by a direct CAT(0)
   finite-extension bridge;
 - no residual bucket is removed by `FJ49`;
-- the next move is `FJ50`, a checkpoint deciding whether to pause `RB-005`
-  and pivot to another attack packet.
+- the historical next move after `FJ49` was the `FJ50` checkpoint, now
+  completed below.
+
+## FJ50 RB-005 route-delta checkpoint update
+
+`FJ50` evaluates the full `RB-005` sequence from `FJ44` through `FJ49`.
+
+Outcome:
+
+- `RB-005` is paused as the immediate attack packet;
+- the pause is a project-state decision, not a theorem-level negative result;
+- the full \(\mathcal{FJ}\), `FJCw`, application-audit, and direct CAT(0)
+  finite-extension checks produce no `T-001` residual subtraction;
+- another finite-index source check now requires a new concrete candidate or
+  named bridge;
+- `RB-006`, compact special or CAT(0)-looking one-relator cases beyond the
+  hyperbolic route, is selected as the next attack packet;
+- the next module is `FJ51`, a bounded source-selection and attack-packet
+  module for `RB-006`.
 
 ## Next action
 
-Begin `FJ50`, an `RB-005` route-delta checkpoint and pivot decision.
+Begin `FJ51`, an `RB-006` compact-special/CAT(0)-looking source-selection
+and attack-packet module.
