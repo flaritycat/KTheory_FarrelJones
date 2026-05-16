@@ -563,3 +563,41 @@ Source-verified from Bartels and Reich (2007), especially Definitions 2.1
 and 3.1, Conjecture 3.2, Remark 3.3, Corollary 4.3, Theorem 4.5, and
 Proposition 4.6, as recorded in `FJ02`, `BIBLIOGRAPHY.md`, and
 `ledgers/source_status.md`.
+
+## ER-014. Source-verified FJCw finite-index overgroup bridge
+
+### Status
+
+Source-verified inheritance route.
+
+### Statement
+
+Let \(H\leq G\) be a subgroup of finite index. If \(H\) satisfies the
+K-theoretic Farrell--Jones conjecture with coefficients in additive
+categories and finite wreath products (`FJCw` in the project source-label
+sense), then \(G\) satisfies the same finite-wreath-product version.
+
+Consequently, \(G\) also satisfies the K-theoretic Farrell--Jones conjecture
+with coefficients in additive categories under the `FJ02` convention, but the
+stronger `FJCw` source label must remain visible.
+
+### Proof location
+
+`modules/cycle_003/FJ47_fjcw_finite_index_bridge_source_selection.md`
+
+### Assumptions
+
+- The finite-index subgroup must carry the finite-wreath-product version,
+  not merely plain coefficient K-theory FJC.
+- This result does not identify `FJCw` with full \(\mathcal{FJ}\),
+  `FICwF`, or a direct CAT(0)-route statement.
+- This result does not by itself remove any `T-001` residual case.
+
+### Source status
+
+Source-verified from Bartels, Lueck, Reich, and Rueping (2014), especially
+Remark 6.2. Reich and Varisco (2018), Theorem 27, is recorded as a survey
+cross-check pointing to the finite-wreath-product version for the listed
+inheritance properties. Wang (2015), Theorems A and C, is recorded as a
+warning that plain coefficient finite-index closure is not imported here as
+an unconditional theorem.

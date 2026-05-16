@@ -622,7 +622,7 @@ proof-sensitively. This does not subtract a residual case. It makes the next
 obstruction precise: either the project has a version-compatible finite-index
 bridge, or `FJ02`/source-convention debt becomes active.
 
-The next step after `FJ44` is `FJ45`, finite-index formulation bridge
+The next step after `FJ44` was `FJ45`, finite-index formulation bridge
 checkpoint for `RB-005`.
 
 Current status: `FJ45` has first-pass coverage as the finite-index
@@ -641,7 +641,7 @@ Virtual-special and Karrass--Solitar infinite-dihedral cases remain blocked
 for coefficient-route use until a version-compatible finite-index bridge is
 source-verified or the source-convention debt around `FJ02` is addressed.
 
-The next step after `FJ45` is `FJ46`: decide whether `RB-005` should proceed
+The next step after `FJ45` was `FJ46`: decide whether `RB-005` should proceed
 by verifying a coefficient K-theory finite-index source, or by interrupting
 the current one-relator route for `FJ02`/source-convention reconciliation.
 
@@ -672,9 +672,26 @@ coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, and the
 simplified ring-coefficient statement remain distinct unless a source
 comparison is checked.
 
-The route decision after `FJ02` is to return to `RB-005` with the source
-labels now under control. The next step is `FJ47`, a coefficient
+The route decision after `FJ02` was to return to `RB-005` with the source
+labels now under control. The historical next step was `FJ47`, a coefficient
 finite-index bridge source-selection module under the `FJ02` convention.
+
+Current status: `FJ47` has first-pass coverage as the finite-index bridge
+source-selection module after `FJ02`. It verifies a usable finite-index
+overgroup bridge for the finite-wreath-product version `FJCw`, using
+Bartels--Lueck--Reich--Rueping Remark 6.2, and records Wang's finite-index
+paper as evidence that plain coefficient K-theory finite-index closure is
+not imported as an unconditional theorem.
+
+The route decision after `FJ47` is version-preserving: if a finite-index
+subgroup has source-verified `FJCw`, then the ambient group may be routed
+through `FJCw` and hence through coefficient K-theory under the `FJ02`
+convention. A plain coefficient K-theory statement for the subgroup still
+does not by itself pass to the ambient group inside this project.
+
+The next step is `FJ48`, an `RB-005` application audit: identify which
+virtual-special or finite-index cleanup cases actually have the `FJCw`
+subgroup input required by `FJ47`.
 
 ## GitHub persistence policy
 

@@ -13,8 +13,9 @@ The rows below do not all refer to the same formulation. Rows marked
 coefficients in additive categories. Rows marked `full \(\mathcal{FJ}\)`
 refer to Lueck's survey class of groups satisfying the Full
 Farrell--Jones Conjecture. `FJ02` internalizes the first-pass
-additive-category convention but does not collapse coefficient rows and full
-\(\mathcal{FJ}\) rows.
+additive-category convention but does not collapse coefficient rows, `FJCw`
+rows, and full \(\mathcal{FJ}\) rows. `FJ47` adds a finite-index overgroup
+bridge only for the finite-wreath-product version.
 
 | Property | Version | Statement | Hypotheses | Reference | Source status | Used in modules |
 |---|---|---|---|---|---|---|
@@ -30,4 +31,5 @@ additive-category convention but does not collapse coefficient rows and full
 | Extensions with countable free kernel | full \(\mathcal{FJ}\) | If \(1\to K\to G\to Q\to 1\), \(K\) is a countable free group, and \(Q\in\mathcal{FJ}\), then \(G\in\mathcal{FJ}\). | Full Farrell--Jones class; free group may have infinite rank. | Lueck (2025), same theorem, inheritance item "Group extensions with countable free groups as kernel". | source-verified survey statement | FJ12, FJ19, FJ27 |
 | Free products | full \(\mathcal{FJ}\) | If every \(G_i\in\mathcal{FJ}\), then \(\ast_i G_i\in\mathcal{FJ}\). | Full Farrell--Jones class. | Lueck (2025), same theorem, inheritance item "Passing to free products". | source-verified survey statement | FJ12, FJ27 |
 | Finite-index overgroups | full \(\mathcal{FJ}\) | If \(H\leq G\) has finite index and \(H\in\mathcal{FJ}\), then \(G\in\mathcal{FJ}\). | Full Farrell--Jones class. | Lueck (2025), same theorem, inheritance item "Passing to overgroups of finite index". | source-verified survey statement | FJ12, FJ27, FJ45 |
+| Finite-index overgroups | `FJCw` / coefficients with finite wreath products | If \(H\leq G\) has finite index and \(H\) satisfies the K-theoretic Farrell--Jones conjecture with coefficients in additive categories and finite wreath products, then \(G\) satisfies the same finite-wreath-product version. | The finite-index subgroup must carry the finite-wreath-product version; plain coefficient K-theory FJC is not enough for this row. | Bartels--Lueck--Reich--Rueping (2014), Remark 6.2; Reich--Varisco (2018), Theorem 27 as survey cross-check. | source-verified for FJ47 | FJ47; future `RB-005` reductions |
 | Graph products | full \(\mathcal{FJ}\) | A graph product of groups in \(\mathcal{FJ}\) again lies in \(\mathcal{FJ}\). | Full Farrell--Jones class. | Lueck (2025), same theorem, inheritance item "Graph products". | source-verified survey statement; primary proof not traced | FJ12, FJ27; future Artin-group dossier |

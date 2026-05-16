@@ -18,6 +18,8 @@ the full \(\mathcal{FJ}\) finite-index bridge is currently usable, and
 `FJ46` selects an `FJ02` source-convention interruption before further
 proof-sensitive `RB-005` work. `FJ02` completes that source-convention
 interruption and returns `RB-005` to finite-index bridge source selection.
+`FJ47` verifies the `FJCw` finite-index overgroup bridge, but not a plain
+coefficient-only bridge.
 
 ## Warning
 
@@ -43,7 +45,7 @@ cases not yet removed by the repository's current source-verified route data.
 | RB-002 | Locally indicable-only torsion-free one-relator data | Local indicability is structural and is not a Farrell--Jones theorem route in the project | OQ-026 |
 | RB-003 | One-relator hierarchy-only data from the Linton vocabulary | A hierarchy is not automatically a bridge to hyperbolicity, CAT(0), virtual solvability, a mapping torus, or an inheritance row | OQ-038, OQ-039 |
 | RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge | OQ-036 |
-| RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ02` supplies the source convention; the remaining gap is a coefficient K-theory finite-index overgroup bridge or a direct CAT(0) finite-extension bridge | OQ-032, OQ-068 |
+| RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ47` supplies an `FJCw` finite-index bridge; the remaining task is to identify which cases have `FJCw` subgroup input, and which still require a plain coefficient or direct CAT(0) finite-extension bridge | OQ-032, OQ-068, OQ-069 |
 | RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | The project needs a source-verified bridge not already absorbed by `FJ23` | OQ-033 |
 | RB-007 | Virtually solvable-looking one-relator cases without a recognition source | `FJ25` deliberately does not classify virtually solvable one-relator groups | OQ-034 |
 | RB-008 | Countable-free-kernel or extension cases without exact inheritance data | `FJ27` requires the exact sequence, quotient status, and source version flag | OQ-037 |
@@ -390,7 +392,28 @@ Outcome:
   finite-index overgroup bridge;
 - no residual bucket is removed by `FJ02`.
 
+## FJ02 handoff resolved by FJ47
+
+The `FJ02` handoff to finite-index bridge source selection was completed in
+`FJ47`; the active follow-up is now the `FJ48` audit of which `RB-005`
+cases carry source-verified `FJCw` subgroup input.
+
+## FJ47 FJCw finite-index bridge update
+
+`FJ47` completes the finite-index bridge source-selection pass after `FJ02`.
+
+Outcome:
+
+- the finite-wreath-product version `FJCw` passes to finite-index
+  overgroups, source-verified from Bartels--Lueck--Reich--Rueping
+  Remark 6.2;
+- plain coefficient K-theory finite-index overgroup passage remains
+  unauthorized inside the project;
+- the bridge can be applied only when the finite-index subgroup has
+  source-verified `FJCw` input;
+- no residual bucket is removed by `FJ47`.
+
 ## Next action
 
-Begin `FJ47`, coefficient finite-index bridge source selection under the
-`FJ02` convention.
+Begin `FJ48`, auditing which `RB-005` cases have source-verified `FJCw`
+finite-index subgroup input.

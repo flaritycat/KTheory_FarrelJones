@@ -22,6 +22,9 @@
 6. Bartels, A.; Echterhoff, S.; Lueck, W. *Inheritance of Isomorphism Conjectures under Colimits*. Status: active reference for `FJ12` and `FJ27`; theorem on directed colimits checked.
 7. Lueck, W. *Survey on the Farrell-Jones Conjecture*. Status: active reference for `FJ12` and `FJ27`; full \(\mathcal{FJ}\) inheritance list checked at survey level.
 8. Bartels, A.; Lueck, W. *Induction Theorems and Isomorphism Conjectures for K- and L-Theory*. Status: found; possible future source for induction and transitivity refinements.
+9. Bartels, A.; Lueck, W.; Reich, H.; Rueping, H. *K- and L-theory of group rings over GL_n(Z)*. Status: active reference for `FJ47`; Remark 6.2 checked for `FJCw` finite-index overgroup passage.
+10. Wang, K. *On passage to over-groups of finite indices of the Farrell-Jones conjecture*. Status: active reference for `FJ47`; checked as a caution that plain coefficient finite-index closure is a problem/reduction, not an imported unconditional bridge.
+11. Reich, H.; Varisco, M. *Algebraic K-theory, assembly maps, controlled algebra, and trace methods*. Status: active survey cross-check for `FJ47`; Theorem 27 checked for the finite-wreath-product inheritance package.
 
 ## Priority 2b: hyperbolic proof technology
 
@@ -76,10 +79,10 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ47`, coefficient finite-index bridge source selection
-under the `FJ02` convention. Start from Bartels--Reich, Bartels--Lueck
-induction/inheritance sources, and any source explicitly proving
-finite-index overgroup inheritance for K-theory with coefficients.
+Next project task: `FJ48`, `RB-005` `FJCw` application audit. Start from
+the `FJ47` bridge, `ledgers/t001_residual.md`, the compact-special caution
+from `FJ24`, and the Karrass--Solitar infinite-dihedral alternative from
+`FJ39`.
 
 ## Reading protocol
 

@@ -17,10 +17,10 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_003`.
 - Completed cycles: `cycle_001` and `cycle_002`.
-- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, and `FJ46`.
+- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, and `FJ47`.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md` and `reflections/cycle_002_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ47`, selecting or verifying a coefficient K-theory finite-index overgroup bridge under the `FJ02` source convention.
+- Current procedural target: begin `FJ48`, auditing which `RB-005` cases have `FJCw` input so the `FJ47` finite-index bridge can be applied.
 
 ## Current established results
 
@@ -37,6 +37,7 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - `ER-011`: first source-verified Artin-group Farrell--Jones subclass ledger, including FC-type Artin groups, even FC-type Artin groups, RAAG-related semidirect products, Wu's even-Artin clique and join constructions, and Roushon's listed finite real, complex, and affine types, all only under their source hypotheses.
 - `ER-012`: first source-verified one-relator-group Farrell--Jones status ledger, including conditional routes through hyperbolic, finite-dimensional CAT(0), virtually solvable, and hyperbolic-by-cyclic classes, while keeping the global torsion-free one-relator class unresolved inside the project.
 - `ER-013`: source-verified additive-category K-theory formulation and source-convention policy, adopting Bartels--Reich's coefficient formulation as the first-pass project convention.
+- `ER-014`: source-verified `FJCw` finite-index overgroup bridge, authorizing finite-index passage only when the finite-index subgroup carries the finite-wreath-product version.
 
 See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, and source status.
 
@@ -44,6 +45,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 
 - The repository has not proved or claimed the Farrell--Jones conjecture in full generality.
 - `FJ02` is now a first-pass source-convention module. It adopts Bartels--Reich's additive-category K-theory formulation, but it does not identify `FJCw`, `FICwF`, full \(\mathcal{FJ}\), and simplified ring-coefficient statements without checked comparison data.
+- `FJ47` verifies a finite-index overgroup bridge only for `FJCw`. It does not authorize plain coefficient K-theory finite-index passage.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.
@@ -89,6 +91,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ45` completes the finite-index formulation bridge checkpoint for `RB-005`. The only finite-index overgroup passage currently licensed by the repository is Lueck's full \(\mathcal{FJ}\) survey-level row; no coefficient K-theory finite-index overgroup bridge or direct CAT(0) finite-extension bridge is promoted to use, and no residual subtraction is made.
 - `FJ46` resolves the `RB-005` source-convention decision by selecting an interruption for `FJ02` rather than a narrow coefficient finite-index source hunt. It records the minimum `FJ02` payload needed before `RB-005` resumes and makes no residual subtraction.
 - `FJ02` completes the source-convention interruption selected by `FJ46`: it adopts Bartels--Reich Conjecture 3.2 as the first-pass coefficient K-theory formulation, records the additive-category notation, and sends `RB-005` back to a narrower finite-index bridge source-selection task.
+- `FJ47` verifies the `FJCw` finite-index overgroup bridge from Bartels--Lueck--Reich--Rueping, while recording from Wang that plain coefficient finite-index closure is not imported as an unconditional theorem. It makes no residual subtraction.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements now use the nonconnective \(K\)-theory convention source-checked in `FJ02`, while preserving the `FJ01` black-box normalization for simplified examples.
 
