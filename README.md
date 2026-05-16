@@ -17,10 +17,10 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_003`.
 - Completed cycles: `cycle_001` and `cycle_002`.
-- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, and `FJ48`.
+- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, and `FJ49`.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md` and `reflections/cycle_002_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ49`, source-checking a direct finite-extension bridge for finite-dimensional CAT(0)-groups.
+- Current procedural target: begin `FJ50`, an `RB-005` route-delta checkpoint and pivot decision.
 
 ## Current established results
 
@@ -47,6 +47,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ02` is now a first-pass source-convention module. It adopts Bartels--Reich's additive-category K-theory formulation, but it does not identify `FJCw`, `FICwF`, full \(\mathcal{FJ}\), and simplified ring-coefficient statements without checked comparison data.
 - `FJ47` verifies a finite-index overgroup bridge only for `FJCw`. It does not authorize plain coefficient K-theory finite-index passage.
 - `FJ48` audits current `RB-005` cases and finds no `T-001` finite-index subgroup input already recorded with `FJCw`; the `FJ47` bridge therefore produces no immediate residual subtraction.
+- `FJ49` source-checks the direct CAT(0) finite-extension bridge and does not promote it: Ruane records the finite-extension direction as a question, with cocompactness as the unresolved point.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.
@@ -94,6 +95,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ02` completes the source-convention interruption selected by `FJ46`: it adopts Bartels--Reich Conjecture 3.2 as the first-pass coefficient K-theory formulation, records the additive-category notation, and sends `RB-005` back to a narrower finite-index bridge source-selection task.
 - `FJ47` verifies the `FJCw` finite-index overgroup bridge from Bartels--Lueck--Reich--Rueping, while recording from Wang that plain coefficient finite-index closure is not imported as an unconditional theorem. It makes no residual subtraction.
 - `FJ48` completes the `RB-005` `FJCw` application audit: virtual compact special and Karrass--Solitar infinite-dihedral cleanup cases are not currently `FJCw-ready`, so no residual subtraction is made; `FJ49` is selected to check a direct CAT(0) finite-extension bridge.
+- `FJ49` checks the direct finite-dimensional CAT(0) finite-extension bridge and records it as unavailable for project route use: Ruane treats finite extensions of CAT(0)-groups as a question, not a theorem. No residual subtraction is made.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements now use the nonconnective \(K\)-theory convention source-checked in `FJ02`, while preserving the `FJ01` black-box normalization for simplified examples.
 

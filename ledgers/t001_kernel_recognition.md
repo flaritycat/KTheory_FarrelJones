@@ -217,5 +217,6 @@ a concrete candidate is selected.
 
 Keep `RB-004` paused until a candidate-ready route is identified. `FJ48`
 finds no current `FJCw` application for the Karrass--Solitar dihedral cleanup,
-so the active project move remains inside `RB-005`: begin `FJ49`, checking a
-direct finite-dimensional CAT(0) finite-extension bridge.
+and `FJ49` does not license a direct CAT(0) finite-extension bridge. The
+active project move is `FJ50`, an `RB-005` route-delta checkpoint and pivot
+decision.

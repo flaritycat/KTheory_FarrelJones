@@ -15,6 +15,8 @@ interpreted through the Bartels--Reich additive-category convention; after
 already recorded with `FJCw` subgroup input.
 `FJCw`, `FICwF`, full \(\mathcal{FJ}\), and simplified ring-coefficient
 statements remain separate source labels unless a comparison is checked.
+After `FJ49`, finite extensions of finite-dimensional CAT(0)-groups are not
+promoted to the CAT(0)-group row; Ruane records that direction as a question.
 
 | Group class | K-theory? | L-theory? | Coefficients? | Reference | Source status | Notes |
 |---|---|---|---|---|---|---|

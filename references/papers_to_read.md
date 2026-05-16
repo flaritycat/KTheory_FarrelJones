@@ -37,6 +37,7 @@
 1. Wegner, C. *The K-theoretic Farrell-Jones conjecture for CAT(0)-groups*. Status: active reference for `FJ14`, `FJ15`, and `FJ17`; obstruction-category review, strong homotopy actions, strong transfer reducibility, and transfer diagram checked at first-pass level.
 2. Bartels, A.; Lueck, W. *Geodesic flow for CAT(0)-groups*. Status: active reference for `FJ16` and `FJ17`; flow-space definition, cover-route statements, transfer reducibility, and contracting-transfer definitions checked at first-pass level.
 3. Haglund, F.; Wise, D. T. *Special cube complexes*. Status: active bridge reference for `FJ24`; special cube complex and CAT(0) cube-complex bridge checked at first-pass level.
+4. Ruane, K. *Two CAT(0) group questions*. Status: active reference for `FJ49`; checked for the warning that finite extensions of CAT(0)-groups are posed as a question, with cocompactness missing from the product-action construction.
 
 ## Priority 2d: controlled algebra and transfers
 
@@ -79,11 +80,11 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ49`, direct finite-dimensional CAT(0) finite-extension
-bridge source check. Start from the `FJ48` negative `FJCw` application audit,
-the compact-special caution from `FJ24`, the CAT(0) source row for Wegner,
-and a source to be located or checked for finite extensions of
-finite-dimensional CAT(0)-groups.
+Next project task: `FJ50`, `RB-005` route-delta checkpoint and pivot
+decision. Start from the `FJ44` attack packet, the `FJ47` bridge, the
+negative `FJ48` `FJCw` application audit, the `FJ49` direct CAT(0)
+finite-extension warning, and the strategic audit rule against decorative
+source continuation.
 
 ## Reading protocol
 

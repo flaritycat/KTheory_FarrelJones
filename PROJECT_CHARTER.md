@@ -707,8 +707,23 @@ is not another abstract `FJCw` inventory; it is whether the virtual compact
 special case can be routed directly through finite-dimensional CAT(0)-group
 closure under finite extensions.
 
-The next step is `FJ49`, a source check for a direct finite-extension bridge
-for finite-dimensional CAT(0)-groups.
+The historical next step after `FJ48` was `FJ49`, a source check for a
+direct finite-extension bridge for finite-dimensional CAT(0)-groups.
+
+Current status: `FJ49` has first-pass coverage as the direct CAT(0)
+finite-extension bridge check for `RB-005`. It checks Ruane's CAT(0)-group
+question source and records that finite-index subgroups of CAT(0)-groups are
+easy, but finite extensions are posed as a question. The available product
+construction gives a proper isometric action on a finite product of CAT(0)
+spaces, but it does not supply the cocompact geometric action needed by the
+`FJ14`/`FJ24` route.
+
+The route decision after `FJ49` is to keep the virtual compact special case
+blocked in the direct CAT(0) lane. After `FJ47`, `FJ48`, and `FJ49`,
+`RB-005` has produced useful source discipline but no residual subtraction.
+
+The next step is `FJ50`, an `RB-005` route-delta checkpoint and pivot
+decision: decide whether to pause `RB-005` and select the next attack packet.
 
 ## GitHub persistence policy
 
