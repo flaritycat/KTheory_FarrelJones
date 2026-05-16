@@ -45,7 +45,9 @@ Cohen--Lyndon consequence intake. `FJ59` records that no weaker \(K_0\) /
 Cohen--Lyndon source payload is currently available and creates
 `OBL-T001-006`. `FJ60` checks the source-payload selection lane, records no
 exact payload, and creates `OBL-T001-007`, closing the weaker consequence
-lane as inactive until a source is named.
+lane as inactive until a source is named. `reflections/cycle_003_reflection.md`
+closes the third cycle and selects `FJ61` to set candidate-intake and exit
+criteria for the next `T-001` decision.
 
 ## Warning
 
@@ -712,4 +714,15 @@ hypotheses, formulation level, and project object changed.
 
 ## Next action after FJ60
 
-Write `reflections/cycle_003_reflection.md`.
+At this point the next artifact was `reflections/cycle_003_reflection.md`.
+
+## Cycle 003 reflection update
+
+`reflections/cycle_003_reflection.md` closes the module portion of cycle 003.
+It records no new residual subtraction and no new theorem. It keeps `FJ53`
+WIP / provisional, leaves `OQ-024` open, and records that `T-001` is not
+currently candidate-ready.
+
+## Next action after cycle 003 reflection
+
+Begin `FJ61`, T-001 Candidate-Intake Reset and Exit Criteria.

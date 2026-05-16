@@ -48,8 +48,13 @@ The next step may select one exact source payload or close the lane, but it
 must not become a broad classical-source survey.
 
 After `FJ60`, the weaker \(K_0\) / Cohen--Lyndon consequence lane is inactive
-until an exact source payload is named. The next step is the cycle-003
-reflection, not another source-summary module.
+until an exact source payload is named. The next step at that point was the
+cycle-003 reflection, not another source-summary module.
+
+After `reflections/cycle_003_reflection.md`, cycle 003 is closed. `T-001`
+remains important but is not currently candidate-ready. The next step is
+`FJ61`, T-001 Candidate-Intake Reset and Exit Criteria, and it must define
+candidate-intake and exit criteria rather than summarize another source.
 
 Current module handoff:
 
@@ -59,7 +64,8 @@ Current module handoff:
 - `FJ58`: Post-Hybrid Candidate-Production Checkpoint is completed.
 - `FJ59`: Weaker \(K_0\) / Cohen--Lyndon Consequence Intake Gate is completed.
 - `FJ60`: Weaker Consequence Source-Payload Selection is completed.
-- `reflections/cycle_003_reflection.md` is next.
+- `reflections/cycle_003_reflection.md` is completed.
+- `FJ61`: T-001 Candidate-Intake Reset and Exit Criteria is next.
 
 Current obstruction:
 
@@ -78,6 +84,10 @@ Current obstruction:
 - `OBL-T001-007`: the weaker \(K_0\) / Cohen--Lyndon consequence lane is
   inactive until a future module names an exact source, theorem statement,
   hypotheses, formulation level, and project object changed.
+- Cycle-003 reflection obstruction: `T-001` has no live non-routed candidate
+  row. `FJ61` must either define a legitimate intake branch, require a
+  concrete bridge/computation, recommend pausing `T-001`, or compare target
+  pivots.
 
 ## Repository Hygiene
 

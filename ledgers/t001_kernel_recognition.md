@@ -7,7 +7,9 @@ in `FJ33`. The \(G_{p,q}\)-family bridge was recorded in `FJ36`; `FJ37`
 selected beyond-Brown source selection, `FJ38` selected the normal-subgroup
 source cluster, `FJ39` verified the Karrass--Solitar finitely
 presented-kernel bridge, and `FJ41` verified the original BNS Theorem B1 as a
-finite-generation criterion.
+finite-generation criterion. `reflections/cycle_003_reflection.md` leaves
+kernel recognition dormant until `FJ61` defines candidate-intake and exit
+criteria for `T-001`.
 
 ## Warning
 
@@ -282,4 +284,4 @@ presented normal subgroup is recorded.
 
 ## Next action
 
-Write `reflections/cycle_003_reflection.md`.
+Begin `FJ61`, T-001 Candidate-Intake Reset and Exit Criteria.

@@ -7,8 +7,10 @@ Created by `FJ54` as the candidate ledger for the `RB-003` +
 route-output proof obligations, by `FJ56` with explicit kernel-control
 audit status, by `FJ57` with the no-candidate endpoint obstruction, and by
 `FJ58` with the post-hybrid no-active-lane obstruction, by `FJ59` with
-the no-weaker-consequence-source-payload obstruction, and by `FJ60` with
-the inactive-consequence-lane obstruction.
+the no-weaker-consequence-source-payload obstruction, by `FJ60` with
+the inactive-consequence-lane obstruction, and by
+`reflections/cycle_003_reflection.md` with the cycle-004 candidate-intake
+reset.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -38,6 +40,11 @@ Current status after `FJ60`: the weaker \(K_0\) / Cohen--Lyndon lane is
 inactive. It may be reopened only by an exact source payload with theorem
 statement, hypotheses, formulation level, source status, and project object
 changed.
+
+Current status after `reflections/cycle_003_reflection.md`: `T-001` remains
+important but is not currently candidate-ready. The next module is `FJ61`,
+which must define candidate-intake and exit criteria before any new proof
+attempt, source check, or target pivot.
 
 Guiding question:
 
@@ -155,7 +162,21 @@ For every future candidate row, record:
 | `OBL-T001-004` | active obstruction | `FJ57` | The selected `RB-003` + `RB-004`/`RB-008` hybrid packet is blocked at candidate production. | `FJ58` checked replacement lanes and recorded `OBL-T001-005`; reactivation now requires new candidate-level data. | Do not reactivate the hybrid packet unless a real candidate, concrete computation, bridge lemma, or prior-art comparison is recorded. |
 | `OBL-T001-005` | active obstruction | `FJ58` | No active candidate-production lane is currently ready for `T-001`. | `FJ59` completed the bounded weaker \(K_0\) / Cohen--Lyndon consequence intake and recorded `OBL-T001-006`. | Stop any candidate-level claim unless a real candidate, checked bridge, computation, formulation-safe application, non-hyperbolic geometric bridge, or prior-art comparison is recorded. |
 | `OBL-T001-006` | superseded for next-action purposes | `FJ59` | No weaker \(K_0\) / Cohen--Lyndon source payload is currently recorded for `T-001`. | `FJ60` checked the source-payload lane and recorded `OBL-T001-007`. | Stop if a future module cannot name an exact theorem statement, hypotheses, formulation level, and project object changed. |
-| `OBL-T001-007` | active obstruction | `FJ60` | The weaker \(K_0\) / Cohen--Lyndon consequence lane is inactive after no exact source payload was available for selection. | Use the cycle-003 reflection to decide the next project move. Reopen this lane only with an exact source payload. | Do not continue the weaker consequence lane through source summaries or theorem names alone. |
+| `OBL-T001-007` | active obstruction | `FJ60` | The weaker \(K_0\) / Cohen--Lyndon consequence lane is inactive after no exact source payload was available for selection. | Cycle-003 reflection completed; continue with `FJ61` candidate-intake and exit criteria. Reopen this lane only with an exact source payload. | Do not continue the weaker consequence lane through source summaries or theorem names alone. |
+
+## Cycle 003 reflection update
+
+`reflections/cycle_003_reflection.md` closes the third module cycle and
+records that this inventory contains no live non-routed candidate. The next
+project move is `FJ61`, not another candidate-free source summary.
+
+`FJ61` should define:
+
+- the minimum data required for a new candidate row;
+- allowed route-output targets;
+- formulation-safety fields;
+- prior-art comparison requirements;
+- exit criteria for pausing `T-001` or comparing target pivots.
 
 ## Non-use warnings
 
@@ -170,4 +191,4 @@ For every future candidate row, record:
 
 ## Next update
 
-`reflections/cycle_003_reflection.md` should decide the next project move.
+Begin `FJ61`, T-001 Candidate-Intake Reset and Exit Criteria.

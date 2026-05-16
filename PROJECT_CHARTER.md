@@ -883,8 +883,43 @@ names an exact source, theorem statement, hypotheses, formulation level, and
 project object changed. This makes no residual subtraction and does not
 resolve `OQ-024`.
 
-`FJ60` closes the module portion of cycle 003. The next step is
-`reflections/cycle_003_reflection.md`.
+`FJ60` closes the module portion of cycle 003. At that point, the next step
+was `reflections/cycle_003_reflection.md`.
+
+## Cycle 003 reflection
+
+Current status: `reflections/cycle_003_reflection.md` closes the third
+numbered module cycle. Its main conclusion is that cycle 003 produced useful
+route boundaries and formulation control, but no new live non-routed
+candidate after the earlier \(G_{p,q}\)-family route.
+
+The reflection keeps `FJ53` WIP / provisional, keeps `T-001` unresolved, and
+records that `T-001` is not currently candidate-ready. The weaker
+\(K_0\) / Cohen--Lyndon consequence lane remains inactive under
+`OBL-T001-007` until an exact source payload is named.
+
+The reflection selects `FJ61`, T-001 Candidate-Intake Reset and Exit
+Criteria, as the first move of cycle 004. The purpose of `FJ61` is not to
+verify another source. It must define the candidate-intake and exit criteria
+that decide whether `T-001` continues as an active proof-target cycle, pauses
+pending new candidate data, or pivots to another target comparison.
+
+## Seventh milestone
+
+Begin cycle 004 with modules `FJ61`--`FJ80`, guided by the cycle-003
+reflection.
+
+The provisional cycle-004 posture is:
+
+1. do not begin with another external source summary;
+2. consolidate active `T-001` blockers and proof obligations;
+3. define what counts as a legitimate new candidate row;
+4. require route-output, formulation-safety, and prior-art fields before a
+   candidate can drive proof work;
+5. pause or pivot from `T-001` if the project cannot name a candidate,
+   bridge, computation, or exact source payload within the early cycle.
+
+The next step is `FJ61`, T-001 Candidate-Intake Reset and Exit Criteria.
 
 ## GitHub persistence policy
 
