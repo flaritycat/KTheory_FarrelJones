@@ -6,7 +6,8 @@ Created by `FJ54` as the candidate ledger for the `RB-003` +
 `RB-004`/`RB-008` hybrid attack packet. Updated by `FJ55` with
 route-output proof obligations, by `FJ56` with explicit kernel-control
 audit status, by `FJ57` with the no-candidate endpoint obstruction, and by
-`FJ58` with the post-hybrid no-active-lane obstruction.
+`FJ58` with the post-hybrid no-active-lane obstruction, and by `FJ59` with
+the no-weaker-consequence-source-payload obstruction.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -27,6 +28,10 @@ lemma, or prior-art comparison is recorded.
 Current status after `FJ58`: no active candidate-production lane is ready for
 `T-001`. The next module is a bounded weaker \(K_0\) / Cohen--Lyndon
 consequence intake, not a proof attempt and not a residual subtraction.
+
+Current status after `FJ59`: no weaker \(K_0\) / Cohen--Lyndon source payload
+is currently recorded. The next module must select one exact source payload
+or close the lane as inactive until a source is named.
 
 Guiding question:
 
@@ -88,6 +93,19 @@ row supports a new proof attempt.
 ready. Candidate-level proof work can restart only after a future module
 adds real candidate data or a checked bridge.
 
+## FJ59 weaker-consequence intake gate
+
+| Lane | FJ59 status | Reason |
+|---|---|---|
+| Conditional \(\widetilde K_0(\mathbb Z[G])\)-vanishing | already recorded | `FJ08`, `FJ09`, and `ER-007` make this conditional on Farrell--Jones |
+| Wall finiteness-obstruction consequence | already recorded conditionally | `FJ09` records the consequence only after \(\widetilde K_0\)-vanishing |
+| Global weaker K-theoretic theorem for torsion-free one-relator groups | unresolved | `OQ-024` has no source payload recorded |
+| Cohen--Lyndon-style theorem payload | unavailable | no exact source, theorem statement, hypotheses, or project effect is recorded |
+| Prior-art blocker | unavailable | no candidate or theorem payload exists for comparison |
+
+`FJ59` conclusion: the weaker consequence lane has no usable source payload
+yet. It is not a proof attempt and not a residual subtraction.
+
 ## Candidate intake checklist
 
 For every future candidate row, record:
@@ -116,7 +134,8 @@ For every future candidate row, record:
 | `OBL-T001-002` | active requirement | `FJ55` | Every future `RB-003` + `RB-004`/`RB-008` hybrid candidate must state which route output it seeks: hyperbolicity, CAT(0)/special input, finite-rank free or hyperbolic kernel extension, or version-safe inheritance. | Add a route-output field note to candidate rows when they become active. | Stop if the candidate cannot name a route output or a documented obstruction. |
 | `OBL-T001-003` | active obstruction | `FJ56` | No live non-routed kernel-control candidate is currently present in the candidate inventory. Existing concrete rows are calibration-only or already removed through `FJ26`; the remaining template row is not a mathematical candidate. | Use `FJ57` either to promote a repository-supported non-routed candidate or to record the no-candidate obstruction precisely. | Stop the hybrid packet if no real candidate, bridge lemma, or obstruction beyond this inventory can be recorded. |
 | `OBL-T001-004` | active obstruction | `FJ57` | The selected `RB-003` + `RB-004`/`RB-008` hybrid packet is blocked at candidate production. | `FJ58` checked replacement lanes and recorded `OBL-T001-005`; reactivation now requires new candidate-level data. | Do not reactivate the hybrid packet unless a real candidate, concrete computation, bridge lemma, or prior-art comparison is recorded. |
-| `OBL-T001-005` | active obstruction | `FJ58` | No active candidate-production lane is currently ready for `T-001`. | Use `FJ59` only as a bounded weaker \(K_0\) / Cohen--Lyndon consequence intake, not as a proof attempt. | Stop any candidate-level claim unless a real candidate, checked bridge, computation, formulation-safe application, non-hyperbolic geometric bridge, or prior-art comparison is recorded. |
+| `OBL-T001-005` | active obstruction | `FJ58` | No active candidate-production lane is currently ready for `T-001`. | `FJ59` completed the bounded weaker \(K_0\) / Cohen--Lyndon consequence intake and recorded `OBL-T001-006`. | Stop any candidate-level claim unless a real candidate, checked bridge, computation, formulation-safe application, non-hyperbolic geometric bridge, or prior-art comparison is recorded. |
+| `OBL-T001-006` | active obstruction | `FJ59` | No weaker \(K_0\) / Cohen--Lyndon source payload is currently recorded for `T-001`. | Use `FJ60` to select one exact source payload or close the lane as inactive until a source is named. | Stop if the next module cannot name an exact theorem statement, hypotheses, formulation level, and project object changed. |
 
 ## Non-use warnings
 
@@ -130,6 +149,5 @@ For every future candidate row, record:
 
 ## Next update
 
-`FJ59` should test whether the weaker \(K_0\) / Cohen--Lyndon consequence
-lane can update an open question, proof obligation, or prior-art blocker
-without being misread as a Farrell--Jones route subtraction.
+`FJ60` should select one exact weaker consequence source payload or close the
+lane as inactive until a source is named.

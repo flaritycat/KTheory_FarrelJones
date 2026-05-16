@@ -41,7 +41,9 @@ candidate can be promoted into a proof attempt and creates the
 candidate-production obstruction `OBL-T001-004`. `FJ58` records that no
 replacement candidate-production lane is currently ready and creates
 `OBL-T001-005`, sending the project to a bounded weaker \(K_0\) /
-Cohen--Lyndon consequence intake.
+Cohen--Lyndon consequence intake. `FJ59` records that no weaker \(K_0\) /
+Cohen--Lyndon source payload is currently available and creates
+`OBL-T001-006`.
 
 ## Warning
 
@@ -660,4 +662,28 @@ Cohen--Lyndon consequence intake, not a proof attempt.
 
 ## Next action after FJ58
 
-Begin `FJ59`, Weaker \(K_0\) / Cohen--Lyndon Consequence Intake Gate.
+At this point the next module was `FJ59`, Weaker \(K_0\) / Cohen--Lyndon
+Consequence Intake Gate.
+
+## FJ59 weaker K0 / Cohen--Lyndon consequence intake update
+
+`FJ59` audits whether the lower-priority weaker consequence lane has a source
+payload already recorded in the repository.
+
+Outcome:
+
+- `FJ08`, `FJ09`, and `ER-007` already record conditional
+  \(\widetilde K_0(\mathbb Z[G])\)-vanishing from Farrell--Jones;
+- this does not give an independent \(K_0\)-level theorem for all
+  torsion-free one-relator groups;
+- no Cohen--Lyndon-style source payload is currently recorded with exact
+  theorem statement, hypotheses, formulation level, and project effect;
+- `OQ-024` remains unresolved;
+- no residual bucket is removed by `FJ59`.
+
+`FJ59` records `OBL-T001-006`: no weaker \(K_0\) / Cohen--Lyndon source
+payload is currently recorded for `T-001`.
+
+## Next action after FJ59
+
+Begin `FJ60`, Weaker Consequence Source-Payload Selection.

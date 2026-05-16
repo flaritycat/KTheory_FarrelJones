@@ -265,7 +265,13 @@ normal subgroup outside the exhausted rows.
 No new kernel-recognition theorem is recorded by `FJ58`, and no
 kernel-control candidate is promoted.
 
+## FJ59 consequence-lane intake update
+
+`FJ59` does not change kernel-recognition status. Brown/BNS/Karrass--Solitar
+data remain dormant until a candidate, computation, or source-ready bridge is
+recorded. The weaker \(K_0\) / Cohen--Lyndon intake creates no kernel-control
+candidate.
+
 ## Next action
 
-Continue with `FJ59`, Weaker \(K_0\) / Cohen--Lyndon Consequence Intake
-Gate.
+Continue with `FJ60`, Weaker Consequence Source-Payload Selection.

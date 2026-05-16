@@ -43,13 +43,18 @@ After `FJ58`, no active replacement candidate-production lane is ready for
 `T-001`. Treat the next step as a bounded consequence-lane intake, not as a
 proof attempt.
 
+After `FJ59`, no weaker \(K_0\) / Cohen--Lyndon source payload is recorded.
+The next step may select one exact source payload or close the lane, but it
+must not become a broad classical-source survey.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
 - `FJ56`: Kernel-Control Candidate Inventory is completed.
 - `FJ57`: Candidate Family Proof Attempt or Obstruction Record is completed.
 - `FJ58`: Post-Hybrid Candidate-Production Checkpoint is completed.
-- `FJ59`: Weaker \(K_0\) / Cohen--Lyndon Consequence Intake Gate is next.
+- `FJ59`: Weaker \(K_0\) / Cohen--Lyndon Consequence Intake Gate is completed.
+- `FJ60`: Weaker Consequence Source-Payload Selection is next.
 
 Current obstruction:
 
@@ -62,6 +67,9 @@ Current obstruction:
 - `OBL-T001-005`: no active candidate-production lane is currently ready for
   `T-001`. Do not convert `FJ59` into a residual subtraction unless a full
   formulation-safe route is actually recorded.
+- `OBL-T001-006`: no weaker \(K_0\) / Cohen--Lyndon source payload is
+  currently recorded for `T-001`. `FJ60` must select one exact source payload
+  or close the lane as inactive until a source is named.
 
 ## Repository Hygiene
 

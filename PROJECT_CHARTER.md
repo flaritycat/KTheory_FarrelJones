@@ -856,8 +856,20 @@ candidate-production lane is currently ready for `T-001`. This is not a
 mathematical nonexistence theorem and not a retreat from `T-001`; it is a
 stop condition against fabricated proof attempts.
 
-The next step is `FJ59`, Weaker \(K_0\) / Cohen--Lyndon Consequence Intake
-Gate.
+Current status: `FJ59` has first-pass coverage as the Weaker \(K_0\) /
+Cohen--Lyndon Consequence Intake Gate. It separates the already recorded
+conditional \(K_0\)-level consequence from `FJ08` and `FJ09` from any new
+weaker theorem claim. It records that the repository has no current
+Cohen--Lyndon-style source payload: no exact source theorem, hypotheses,
+formulation level, or project object changed by such a theorem has been
+recorded.
+
+The route decision after `FJ59` is to record `OBL-T001-006`: no weaker
+\(K_0\) / Cohen--Lyndon source payload is currently available for `T-001`.
+The lane may continue only as a bounded source-payload selection, not as a
+proof attempt or residual subtraction.
+
+The next step is `FJ60`, Weaker Consequence Source-Payload Selection.
 
 ## GitHub persistence policy
 
