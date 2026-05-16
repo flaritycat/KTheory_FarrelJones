@@ -1081,10 +1081,29 @@ reactivation gate is not satisfied.
 inventory from existing repository records before beginning any new Artin
 source-summary lane.
 
-The next step is `FJ69`, Artin Subclass-Gap Inventory After FJ18. It should
-update `OQ-021`, sharpen `OQ-023`, and either select a bounded Artin
-follow-up packet or record that no Artin gap is ready without a new exact
-source payload.
+At this point, the next step was `FJ69`, Artin Subclass-Gap Inventory After
+FJ18.
+
+## FJ69 Artin subclass-gap inventory after FJ18
+
+Current status: `FJ69` has first-pass coverage as the Artin Subclass-Gap
+Inventory After FJ18 module. It creates
+`ledgers/artin_subclass_gap_inventory.md`, using only existing repository
+records.
+
+The route decision after `FJ69` is that the repository now has a first-pass
+Artin covered/gap/deferred inventory. In the current repository state, the
+only explicit global Artin gap row is all Artin groups. No additional named
+Artin subclass outside the `FJ18` rows is currently candidate-ready.
+
+`FJ69` gives a first-pass current-repository answer to `OQ-021`, sharpens
+`OQ-023`, completes `OBL-ARTIN-001`, records `OBL-ARTIN-002`, and normalizes
+two `FJ18` source-verified rows into `ledgers/known_classes.md`. It makes no
+new external source check and no global all-Artin theorem claim.
+
+The next step is `FJ70`, Wu Clique-Reduction Candidate Filter for Artin Gap
+Rows. It should test whether `ART-GAP-003` can produce a bounded candidate
+from existing records, or record that no current Wu-filter candidate exists.
 
 ## GitHub persistence policy
 

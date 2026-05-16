@@ -80,7 +80,8 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ69`, Artin Subclass-Gap Inventory After FJ18.
+Next project task: `FJ70`, Wu Clique-Reduction Candidate Filter for Artin
+Gap Rows.
 
 `FJ60` closed the weaker \(K_0\) / Cohen--Lyndon consequence lane as inactive
 because no exact source payload is recorded. `reflections/cycle_003_reflection.md`
@@ -94,10 +95,12 @@ object and sends the project to `FJ66`. `FJ66` pauses `T-001` as an active
 proof-target sequence. `FJ67` defines target-pivot criteria and records
 `OBL-PIVOT-001`; no new active target is selected yet. `FJ68` applies the
 matrix, selects `A-001`, Artin subclass-gap inventory after `FJ18`, and
-records `OBL-ARTIN-001`. `FJ69` must build the inventory from existing
-repository records before any new Artin source task begins. A future source
-task should name an exact theorem, hypotheses, formulation level, and project
-object changed before reading begins.
+records `OBL-ARTIN-001`. `FJ69` builds the inventory from existing
+repository records, creates `ledgers/artin_subclass_gap_inventory.md`, and
+records `OBL-ARTIN-002`. `FJ70` must run the Wu clique-reduction candidate
+filter before any new Artin source task begins. A future source task should
+name an exact theorem, hypotheses, formulation level, and project object
+changed before reading begins.
 
 ## Reading protocol
 

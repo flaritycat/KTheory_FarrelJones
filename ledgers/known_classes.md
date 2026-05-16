@@ -2,9 +2,9 @@
 
 ## Status
 
-First-pass source-verified table started in `FJ11` and extended for
-Artin-group subclasses in `FJ18` and one-relator-relevant routes in
-`FJ19`.
+First-pass source-verified table started in `FJ11`, extended for
+Artin-group subclasses in `FJ18`, one-relator-relevant routes in `FJ19`, and
+normalized for selected `FJ18` Artin rows in `FJ69`.
 
 This ledger records known Farrell--Jones cases only after a theorem
 statement has been checked. A row is usable only under its stated
@@ -25,8 +25,10 @@ promoted to the CAT(0)-group row; Ruane records that direction as a question.
 | Finite-dimensional CAT(0)-groups | yes, all degrees | yes, all degrees | additive categories | Wegner (2012); Bartels--Lueck (2012) | source-verified for FJ11; proof skeleton expanded in FJ14; used for FJ24 route subtraction | Wegner supplies full K-theory through strong transfer reducibility; Bartels--Lueck supplies L-theory for groups acting properly, cocompactly, and isometrically on finite-dimensional CAT(0)-spaces. Used in `FJ24` to subtract torsion-free one-relator groups once a source-verified finite-dimensional CAT(0) bridge is available. |
 | Virtually solvable groups | yes, all degrees | yes, all degrees | additive categories | Wegner (2015) | source-verified for FJ11; used for FJ25 route subtraction | Main theorem states K- and L-theoretic Farrell--Jones with coefficients in additive categories with respect to \(\mathcal{VCyc}\). Used in `FJ25` to subtract torsion-free one-relator groups once a source-verified virtual-solvability bridge is available. |
 | Artin groups of FC-type | source says Farrell--Jones with finite wreath products | source says Farrell--Jones with finite wreath products | source-level finite wreath product formulation | Huang--Osajda (2021) | source-verified for FJ18 | Huang--Osajda prove FC-type Artin groups are Helly and record Farrell--Jones with finite wreath products as a corollary. Internal Helly proof details are not reconstructed. |
+| Weak Garside groups of finite type, including the spherical Artin and braid examples listed in FJ18 | source says Farrell--Jones with finite wreath products | source says Farrell--Jones with finite wreath products | source-level finite wreath product formulation | Huang--Osajda (2021) | source-verified for FJ18; ledger-normalized by FJ69 | Added to this ledger by FJ69 because it was already present in the FJ18 source-verified table. Use only under the source's weak finite-type Garside hypotheses. |
 | Even Artin groups of FC-type | yes, all degrees in source FJCw | yes, all degrees in source FJCw | additive categories and finite wreath products | Brueck--Kielak--Wu (2021) | source-verified for FJ18 | Corollary B follows from normally poly-free groups; also covered by the broader Huang--Osajda FC-type row with a different route. |
 | Normally poly-free groups | yes, all degrees in source FJCw | yes, all degrees in source FJCw | additive categories and finite wreath products | Brueck--Kielak--Wu (2021) | source-verified for FJ18 | Method row used for Artin applications, including even FC-type Artin groups and \(A_\Gamma\rtimes_f\mathbb Z\) for finite-graph RAAGs. |
+| Right-angled Artin groups and finite-graph semidirect products \(A_\Gamma\rtimes_f\mathbb Z\) | source-level yes for the recorded routes | source-level yes for the recorded routes | RAAG route through CAT(0)/known-class rows; semidirect-product route through source-level FJCw | Brueck--Kielak--Wu (2021); CAT(0) route rows from FJ11/FJ14 | source-verified for FJ18; ledger-normalized by FJ69 | Added to this ledger by FJ69 because it was already present in the FJ18 source-verified table. The semidirect row assumes the source's finite simplicial graph and automorphism hypotheses. |
 | Even Artin groups satisfying Wu's clique or join/tree criteria | yes in source FJCw | yes in source FJCw | additive categories and finite wreath products | Wu (2022) | source-verified for FJ18 | Applies only under Wu's finite graph, positive even label, clique, and join/tree hypotheses. |
 | Roushon's listed finite real, complex, and affine Artin types | yes in source FICwF | yes in source FICwF | coefficients and finite wreath products; also A-theory in source | Roushon (2021, 2022, 2024) | source-verified for FJ18 with erratum/corrigendum caution | Includes types \(A_n\), \(B_n(=C_n)\), \(D_n\), \(F_4\), \(G_2\), \(I_2(p)\), \(\widetilde A_n\), \(\widetilde B_n\), \(\widetilde C_n\), and \(G(de,e,r)\); use the 2024 corrigendum for \(\widetilde B_n\). |
 

@@ -97,6 +97,12 @@ Subclass-Gap Inventory After FJ18. Do not claim Farrell--Jones for all Artin
 groups; `FJ69` must inventory covered, gap, deferred, and
 formulation-unclear rows from existing repository records first.
 
+After `FJ69`, the Artin subclass-gap inventory exists at
+`ledgers/artin_subclass_gap_inventory.md`. The next step is `FJ70`, Wu
+Clique-Reduction Candidate Filter for Artin Gap Rows. `FJ70` must test
+`ART-GAP-003` from existing records; allowed outputs are a candidate row, an
+exact source-payload requirement, or a no-current-candidate note.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -114,7 +120,8 @@ Current module handoff:
 - `FJ66`: T-001 Branch Checkpoint is completed.
 - `FJ67`: Target-Pivot Criteria After T-001 Pause is completed.
 - `FJ68`: Target-Pivot Candidate Matrix is completed.
-- `FJ69`: Artin Subclass-Gap Inventory After FJ18 is next.
+- `FJ69`: Artin Subclass-Gap Inventory After FJ18 is completed.
+- `FJ70`: Wu Clique-Reduction Candidate Filter for Artin Gap Rows is next.
 
 Current obstruction:
 
@@ -169,6 +176,10 @@ Current obstruction:
   existing repository records before beginning any new Artin source-summary
   lane. It must preserve source formulation labels and must not promote a
   global all-Artin theorem.
+- `OBL-ARTIN-002`: `FJ70` must run the Wu clique-reduction candidate filter
+  for `ART-GAP-003` without broad source accumulation. It must either name a
+  candidate row from existing records, identify an exact source-payload
+  requirement, or record no current candidate.
 
 ## Repository Hygiene
 
