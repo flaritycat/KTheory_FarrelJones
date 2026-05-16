@@ -1123,10 +1123,36 @@ Wu lane may be reactivated only with a named source payload: graph/subclass,
 finite positive-even hypotheses, clique data, formulation safety, and
 prior-art-overlap notes.
 
-The next step is `FJ71`, Artin Branch Checkpoint After Wu Filter. It should
-decide whether to pause the active Artin packet, select a named
-source-payload acquisition task, return to target-pivot comparison, or
-continue through a concrete repository object.
+The next step after `FJ70` was `FJ71`, Artin Branch Checkpoint After Wu
+Filter. Its task was to decide whether to pause the active Artin packet,
+select a named source-payload acquisition task, return to target-pivot
+comparison, or continue through a concrete repository object.
+
+## FJ71 Artin branch checkpoint after Wu filter
+
+Current status: `FJ71` has first-pass coverage as the Artin Branch
+Checkpoint After Wu Filter module. It uses only existing repository records
+and does not check any new external source.
+
+The branch decision after `FJ71` is to pause the active Artin proof/source
+lane. The current repository has no named Artin graph, graph family,
+subclass, source theorem, or bridge object that could support a bounded
+continuation after the no-current-Wu-candidate note from `FJ70`.
+
+This pause is not a mathematical theorem. It does not claim the
+Farrell--Jones conjecture for all Artin groups, and it does not claim that no
+future Artin subclass can become candidate-ready. It records only that the
+current Artin lane should not continue without a named reactivation payload
+that changes a project object.
+
+`FJ71` resolves `OQ-093`, records `OBL-ARTIN-004`, records
+`OBL-PIVOT-002`, selects target packet `A-004`, and makes no global
+all-Artin theorem claim.
+
+The next step is `FJ72`, Target-Pivot Refresh After Artin Pause. It should
+reapply the `FJ67` target-pivot criteria after both dormant `T-001` and the
+paused Artin lane, and either select one bounded next packet with a concrete
+repository object or record that no target is ready.
 
 ## GitHub persistence policy
 

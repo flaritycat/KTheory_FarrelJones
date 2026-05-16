@@ -2,7 +2,7 @@
 
 ## Status
 
-Created by `FJ69`; updated by `FJ70`.
+Created by `FJ69`; updated by `FJ70` and `FJ71`.
 
 This ledger is an internal inventory extracted from existing repository
 records. No new external source was checked for this ledger.
@@ -38,7 +38,7 @@ records. No new external source was checked for this ledger.
 | `ART-COV-006` | Roushon's listed finite real, complex, and affine Artin types | Source-verified in `FJ18` and `ledgers/known_classes.md` with erratum/corrigendum caution. | `FICwF`; K-, L-, and A-theory with coefficients and finite wreath products. | covered under exact listed types and correction status | Helps answer `OQ-021`: the listed finite real, complex, and affine types are not uncovered gap rows. | Use the corrected \(\widetilde B_n\) route; preserve `FICwF`. |
 | `ART-GAP-001` | All Artin groups | Explicitly not established by `FJ18` or `ledgers/known_classes.md`. | unknown / not recorded as known. | global gap row | Main residual answer to `OQ-021`: global all-Artin status remains unresolved inside the project. | Do not promote without an exact global source payload and formulation-safe theorem statement. |
 | `ART-GAP-002` | Named Artin subclasses outside `FJ18` rows | No specific subclass name is currently recorded in the repository beyond broad placeholders. | unknown. | no-current-name gap row | First-pass answer to `OQ-021`: no additional named outside subclass is ready inside the current repository. | A future module must name an exact subclass before source work begins. |
-| `ART-GAP-003` | Possible Wu clique-reduction target not already covered by `FJ18` | `OQ-023` asks for this route, but no concrete noncovered graph/subclass is currently isolated. `FJ70` confirms that no current repository row supplies the required graph/subclass and clique-subgroup data. | likely `FJCw` if the source route applies; otherwise unknown. | candidate-filter row; no-current-candidate after `FJ70` | Sharpens `OQ-023`: the next task is no longer to rerun the Wu filter, but to supply a named payload or make a branch decision. | `FJ71` must pause the Artin lane, select a named source-payload task, return to target-pivot comparison, or identify a concrete repository object. |
+| `ART-GAP-003` | Possible Wu clique-reduction target not already covered by `FJ18` | `OQ-023` asks for this route, but no concrete noncovered graph/subclass is currently isolated. `FJ70` confirms that no current repository row supplies the required graph/subclass and clique-subgroup data. `FJ71` pauses the active Artin lane rather than continuing without a named payload. | likely `FJCw` if the source route applies; otherwise unknown. | candidate-filter row; no-current-candidate after `FJ70`; paused after `FJ71` | Sharpens `OQ-023`: the Wu route is inactive until a named payload appears. | Future use must satisfy `OBL-ARTIN-004`; otherwise use this row only as a paused pivot-comparison input. |
 | `ART-FORM-001` | Formulation comparison between `FJCw`, `FICwF`, full \(\mathcal{FJ}\), and coefficient K-theory | First-pass policy supplied by `FJ02`; finite-index `FJCw` bridge supplied by `FJ47`. | formulation policy, not a group class. | formulation-safety row | Applies to both `OQ-021` and `OQ-023`. | Do not collapse source labels without a checked comparison. |
 
 ## FJ69 decision
@@ -83,6 +83,28 @@ Minimum reactivation payload for the Wu lane:
 reactivate the Wu clique-reduction lane without the payload above, or a
 branch decision pausing/redirecting the active Artin packet.
 
+## FJ71 branch decision
+
+`FJ71` records the branch decision required by `OBL-ARTIN-003`.
+
+For the current repository state, the active Artin proof/source lane is
+paused. The repository does not contain a named noncovered Artin graph, graph
+family, subclass, source theorem, bridge object, or changed project row that
+would justify continuing the lane.
+
+This pause does not resolve the global all-Artin gap. It records a stop
+condition: future Artin modules may reactivate the lane only by satisfying
+`OBL-ARTIN-004`, the Artin reactivation gate.
+
+Minimum reactivation data after `FJ71`:
+
+- a named finite Artin graph, graph family, subclass, source theorem, or
+  bridge object;
+- exact hypotheses and formulation label;
+- the project row or open question changed;
+- a prior-art-overlap note;
+- source-status and APA citation data if a new external theorem is used.
+
 ## Next update
 
-Begin `FJ71`, Artin Branch Checkpoint After Wu Filter.
+Use this ledger as input to `FJ72`, Target-Pivot Refresh After Artin Pause.

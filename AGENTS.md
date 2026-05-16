@@ -106,8 +106,15 @@ exact source-payload requirement, or a no-current-candidate note.
 After `FJ70`, no current Wu-filter candidate is recorded from existing Artin
 gap rows. The Wu lane may be reactivated only by a named finite graph,
 graph family, or subclass with clique data, formulation safety, and a
-project object changed. The next step is `FJ71`, Artin Branch Checkpoint
-After Wu Filter, not another Artin source summary.
+project object changed. The next step at that point was `FJ71`, Artin Branch
+Checkpoint After Wu Filter, not another Artin source summary.
+
+After `FJ71`, the active Artin proof/source lane is paused. Artin groups
+remain unresolved and archived, but no Artin module should continue unless it
+satisfies `OBL-ARTIN-004` with a named graph, graph family, subclass, source
+theorem, bridge object, formulation label, prior-art-overlap note, and
+changed project object. The next step is `FJ72`, Target-Pivot Refresh After
+Artin Pause.
 
 Current module handoff:
 
@@ -129,7 +136,8 @@ Current module handoff:
 - `FJ69`: Artin Subclass-Gap Inventory After FJ18 is completed.
 - `FJ70`: Wu Clique-Reduction Candidate Filter for Artin Gap Rows is
   completed.
-- `FJ71`: Artin Branch Checkpoint After Wu Filter is next.
+- `FJ71`: Artin Branch Checkpoint After Wu Filter is completed.
+- `FJ72`: Target-Pivot Refresh After Artin Pause is next.
 
 Current obstruction:
 
@@ -192,6 +200,13 @@ Current obstruction:
   lane without a named finite graph/subclass, clique data, formulation
   safety, prior-art-overlap note, and changed project object, or a branch
   decision pausing/redirecting the active Artin packet.
+- `OBL-ARTIN-004`: after `FJ71`, do not reactivate the Artin lane without a
+  named graph, graph family, subclass, source theorem, bridge object,
+  formulation label, prior-art-overlap note, and changed project object.
+- `OBL-PIVOT-002`: after the Artin pause, run a target-pivot refresh before
+  selecting another active target. The refresh must either select one bounded
+  next packet with a concrete repository object or record that no target is
+  ready.
 
 ## Repository Hygiene
 

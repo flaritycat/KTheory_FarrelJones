@@ -80,7 +80,7 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ71`, Artin Branch Checkpoint After Wu Filter.
+Next project task: `FJ72`, Target-Pivot Refresh After Artin Pause.
 
 `FJ60` closed the weaker \(K_0\) / Cohen--Lyndon consequence lane as inactive
 because no exact source payload is recorded. `reflections/cycle_003_reflection.md`
@@ -100,8 +100,9 @@ records `OBL-ARTIN-002`. `FJ70` runs the Wu clique-reduction candidate
 filter and records no current candidate from existing Artin gap rows. It
 records `OBL-ARTIN-003`: future Wu-lane work requires a named graph or
 subclass, clique data, formulation level, and project object changed before
-reading begins. `FJ71` must make the Artin branch decision rather than begin
-a broad source survey.
+reading begins. `FJ71` makes the Artin branch decision by pausing the active
+Artin lane and recording `OBL-ARTIN-004`. `FJ72` must now refresh the
+target-pivot comparison rather than begin a broad source survey.
 
 ## Reading protocol
 
