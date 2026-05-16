@@ -364,12 +364,20 @@ residual gap analysis, remains unresolved but dormant after `FJ66`.
   payload, completes `OBL-C5-002` and `C5-PAYLOAD-001`, records
   `C5-PAUSE-001`, records `OBL-C5-003`, and makes no Farrell--Jones theorem
   claim.
+- Module `FJ83` records accepted payload `PAY-T001-K0-CL-2025-001` and
+  verifies the weaker \(K_0\) / Cohen--Lyndon source-payload package at
+  first-pass level. It makes no full `T-001` claim and no residual
+  subtraction.
+- Module `FJ84` records accepted payload `PAY-T001-K0-CL-HYP-2026-001` and
+  audits current `T-001` candidate rows against the FJ83 source hypotheses.
+  It finds no FJ83-eligible current row, makes no full `T-001` claim, and
+  makes no residual subtraction.
 
 ## Selected target
 
-Current active project status: post-`FJ83` payload gate. `C5-PAUSE-001` was
-exited for accepted payload `PAY-T001-K0-CL-2025-001`; no new numbered
-module is selected after FJ83.
+Current active project status: post-`FJ84` payload gate. `FJ84` was
+instantiated by accepted payload `PAY-T001-K0-CL-HYP-2026-001`; no new
+numbered module is selected after FJ84.
 
 Previous first serious target: `T-001`, torsion-free one-relator residual
 gap analysis. After `FJ66`--`FJ68`, `T-001` is dormant rather than active. It
@@ -521,6 +529,11 @@ Current source toolkit:
   (2025) as a weaker \(K_0\) / Cohen--Lyndon source payload, updates
   `OQ-081`, resolves `OQ-104`, creates `OBL-T001-014` and `OBL-C5-004`, and
   makes no residual subtraction;
+- K0 Cohen--Lyndon candidate hypothesis audit: `FJ84` records accepted
+  payload `PAY-T001-K0-CL-HYP-2026-001`, checks the current `T-001`
+  candidate inventory against the FJ83 source hypotheses, finds no eligible
+  current row, resolves `OQ-105`, creates `OBL-T001-015` and `OBL-C5-005`,
+  and makes no residual subtraction;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -529,4 +542,4 @@ Current source toolkit:
 ## Next mathematical move
 
 No numbered module is currently selected. Record a new accepted payload under
-`ledgers/payload_intake_protocol.md` before instantiating `FJ84`.
+`ledgers/payload_intake_protocol.md` before instantiating `FJ85`.

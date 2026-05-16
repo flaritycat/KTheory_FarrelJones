@@ -74,6 +74,7 @@ Use this template before instantiating a future numbered module.
 | --- | --- | --- | --- |
 | `PAYLOAD-NONE-001` | none | historical no-payload record | `FJ82` checked the current repository state after `FJ81` and found no candidate, source, bridge, computation, formulation comparison, prior-art blocker, or non-hyperbolic `RB-006` bridge satisfying this protocol. |
 | `PAY-T001-K0-CL-2025-001` | `PAY-T001-BRIDGE` | accepted for `FJ83` only | Exact weaker \(K_0\) / Cohen--Lyndon source payload located for `OBL-C5-003`, `OBL-T001-013`, `OQ-081`, and `OBL-T001-007`; accepted only for source-hypothesis verification and not for full `T-001` or residual subtraction. |
+| `PAY-T001-K0-CL-HYP-2026-001` | `PAY-T001-BRIDGE` | accepted for `FJ84` only | Candidate/family-level hypothesis audit payload for the FJ83 weaker \(K_0\) / Cohen--Lyndon source. Accepted only to check current `T-001` candidate rows against the FJ83 hypothesis package, not for full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
 
 ## Accepted intake records
 
@@ -97,6 +98,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for FJ83 source-payload verification only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ83_k0_cohen_lyndon_payload_verification.md` |
 
+### `PAY-T001-K0-CL-HYP-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-T001-K0-CL-HYP-2026-001` |
+| Date recorded | 2026-05-16 |
+| Payload type | `PAY-T001-BRIDGE` |
+| Target gate | `OQ-105`, `OBL-C5-004`, and `OBL-T001-014`. |
+| Candidate, source, bridge, computation, or blocker | Use FJ83's Jaikin-Zapirain--Linton--Sanchez-Peralta \(K_0\) / Cohen--Lyndon payload to run a candidate/family-level hypothesis audit. |
+| Exact statement or object | Determine whether any currently recorded `T-001` candidate or family satisfies the FJ83 source hypotheses, or record that no current candidate/family is eligible. |
+| APA citation if external source is used | No new external source is used in FJ84. The audit relies on the source already checked and cited in `FJ83`: Jaikin-Zapirain, A., Linton, M., & Sanchez-Peralta, P. (2025). *Group pairs, coherence and Farrell-Jones Conjecture for K0* (arXiv:2510.23518v2). arXiv. https://arxiv.org/abs/2510.23518. https://doi.org/10.48550/arXiv.2510.23518. |
+| Source-status label | no new source check; source-level payload already first-pass verified in `FJ83`; FJ84 is a candidate/family hypothesis audit only. |
+| Hypotheses and formulation level | Weaker \(K_0\)-level Farrell--Jones / projective-class-group formulation only. Do not treat as coefficient K-theory FJC, full FJ, `FJCw`, `FICwF`, or a `T-001` residual subtraction. FJ84 must check current rows for torsion-free status, regular-ring formulation, Cohen--Lyndon presentation or group-pair data, normalizer data, finite cohomological dimension, coherent group-ring hypotheses, formulation safety, and prior-art overlap. |
+| Repository object changed | `ledgers/payload_intake_protocol.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `BIBLIOGRAPHY.md`; `ledgers/source_status.md`; `README.md`; `PROJECT_CHARTER.md`; `SCOPE_LEDGER.md`; `NOTATION_LEDGER.md`; `AGENTS.md`; `references/papers_to_read.md`; `ledgers/open_group_classes.md`. |
+| Success criterion | FJ84 determines whether any currently recorded `T-001` candidate/family satisfies the FJ83 source hypotheses, or records that no current candidate/family is eligible. |
+| Failure criterion | No concrete candidate/family can be checked, or the module would become only a source summary. |
+| Stop condition | Stop after the candidate/family hypothesis audit. Do not claim full Farrell--Jones, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
+| Accepted? | Yes, for FJ84 candidate/family hypothesis audit only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ84_k0_cohen_lyndon_candidate_hypothesis_audit.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -113,12 +134,14 @@ Use this template before instantiating a future numbered module.
 
 ## Current project state
 
-`C5-PAUSE-001` was exited for the accepted payload
-`PAY-T001-K0-CL-2025-001`, which instantiated `FJ83`.
+`C5-PAUSE-001` was exited first for accepted payload
+`PAY-T001-K0-CL-2025-001`, which instantiated `FJ83`, and then the separate
+accepted payload `PAY-T001-K0-CL-HYP-2026-001` instantiated `FJ84`.
 
-After `FJ83`, no `FJ84` module is selected. A future `FJ84` may be created
+After `FJ84`, no `FJ85` module is selected. A future `FJ85` may be created
 only after a new accepted payload row is added above or an equivalent
 accepted payload is recorded in the relevant target ledger.
 
-The latest intake attempt, `REJECTED-PAYLOAD-009`, does not change this
-state.
+`FJ84` records that no currently recorded `T-001` candidate/family row is
+eligible for project use of the FJ83 weaker \(K_0\) / Cohen--Lyndon payload.
+This is not a full `T-001` theorem and not a residual subtraction.

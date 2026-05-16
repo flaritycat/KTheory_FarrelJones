@@ -190,10 +190,11 @@ source reading, target reactivation, or a proof attempt without an exact
 payload and changed project object.
 
 After `FJ82`, the project entered `C5-PAUSE-001`, payload-gated pause. That
-pause was exited only for accepted payload `PAY-T001-K0-CL-2025-001`, which
-instantiated `FJ83`.
+pause was first exited for accepted payload `PAY-T001-K0-CL-2025-001`, which
+instantiated `FJ83`; `FJ84` was later instantiated by the separate accepted
+payload `PAY-T001-K0-CL-HYP-2026-001`.
 
-After `FJ83`, no `FJ84` module is selected. Future numbered work may begin
+After `FJ84`, no `FJ85` module is selected. Future numbered work may begin
 only after a new accepted payload is recorded under
 `ledgers/payload_intake_protocol.md` or in the relevant target ledger. Do
 not create a new source-summary, target summary, or proof-attempt module
@@ -204,6 +205,11 @@ weaker \(K_0\) / Cohen--Lyndon source payload. Do not cite it as full
 `T-001`, coefficient FJC, `FJCw`, `FICwF`, full \(\mathcal{FJ}\), or a
 residual subtraction unless a later module records the exact additional
 bridge.
+
+`FJ84` audits the current `T-001` candidate inventory against the FJ83
+source-hypothesis package and finds no FJ83-eligible current row. Do not
+reuse the FJ83 payload without a new or amended candidate row satisfying
+`OBL-T001-015`.
 
 Current module handoff:
 
@@ -241,7 +247,8 @@ Current module handoff:
 - `FJ82`: Payload Acquisition Protocol or Project-Pause Decision is
   completed.
 - `FJ83`: K0 Cohen--Lyndon Payload Verification is completed.
-- `FJ84`: no module selected; instantiate only from a new accepted payload.
+- `FJ84`: K0 Cohen--Lyndon Candidate Hypothesis Audit is completed.
+- `FJ85`: no module selected; instantiate only from a new accepted payload.
 
 Current obstruction:
 
@@ -260,8 +267,10 @@ Current obstruction:
 - `OBL-T001-007`: the weaker \(K_0\) / Cohen--Lyndon consequence lane is
   no longer blocked for lack of any source payload, because `FJ83` verifies
   `PAY-T001-K0-CL-2025-001`; it remains a theorem-promotion caution.
-- `OBL-T001-014`: future use of the FJ83 payload must map the exact source
-  hypotheses to a concrete `T-001` candidate or family before any promotion.
+- `OBL-T001-014`: completed for current inventory by `FJ84`; keep as a
+  theorem-promotion caution.
+- `OBL-T001-015`: future use of the FJ83 payload requires a new or amended
+  `T-001` candidate/family row recording the full FJ83 hypothesis package.
 - Cycle-003 reflection obstruction: `T-001` has no live non-routed candidate
   row. `FJ61` must either define a legitimate intake branch, require a
   concrete bridge/computation, recommend pausing `T-001`, or compare target
@@ -367,7 +376,9 @@ Current obstruction:
   `ledgers/payload_intake_protocol.md` and recording `C5-PAUSE-001`.
 - `OBL-C5-003`: completed by accepted payload
   `PAY-T001-K0-CL-2025-001`, which instantiated `FJ83`.
-- `OBL-C5-004`: no `FJ84` module may be created until a new accepted payload
+- `OBL-C5-004`: completed by accepted payload
+  `PAY-T001-K0-CL-HYP-2026-001`, which instantiated `FJ84`.
+- `OBL-C5-005`: no `FJ85` module may be created until a new accepted payload
   is recorded under `ledgers/payload_intake_protocol.md` or in the relevant
   target ledger. The payload must name exact target, changed project object,
   success criterion, failure criterion, and stop condition.

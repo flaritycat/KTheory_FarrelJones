@@ -48,7 +48,10 @@ exact payload, and creates `OBL-T001-007`, closing the weaker consequence
 lane as inactive until a source is named. `FJ83` later records accepted
 payload `PAY-T001-K0-CL-2025-001` and verifies a weaker \(K_0\) /
 Cohen--Lyndon source payload at first-pass level, but it records no full
-`T-001` result and no residual subtraction. `reflections/cycle_003_reflection.md`
+`T-001` result and no residual subtraction. `FJ84` then audits the current
+candidate inventory against that source-hypothesis package and records that
+no current row is FJ83-eligible; again no residual bucket is removed.
+`reflections/cycle_003_reflection.md`
 closes the third cycle and selects `FJ61` to set candidate-intake and exit
 criteria for the next `T-001` decision. `FJ61` records `OBL-T001-008`, the
 candidate-intake gate, and selects `FJ62` for active blocker pruning. `FJ62`
@@ -840,7 +843,30 @@ Residual-bucket effect:
 - the weaker \(K_0\) / Cohen--Lyndon lane changes from "no source payload"
   to "exact source payload first-pass verified";
 - future use requires `OBL-T001-014`, a candidate/family-level check of the
-  source hypotheses.
+  source hypotheses. `FJ84` later completes that audit for the current
+  inventory and records no eligible current row.
 
 The source payload is therefore non-subtractive. It belongs to the weaker
 consequence lane, not to the active residual-removal table.
+
+## FJ84 K0 / Cohen--Lyndon candidate hypothesis audit update
+
+`FJ84` records accepted payload `PAY-T001-K0-CL-HYP-2026-001` and audits the
+current `T-001` candidate/family rows against the FJ83 source-hypothesis
+package.
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed;
+- no torsion-free one-relator class is promoted to full Farrell--Jones;
+- no coefficient K-theory FJC, `FJCw`, `FICwF`, or full \(\mathcal{FJ}\)
+  route is added;
+- `CAND-T001-001`, `CAND-T001-002`, and `CAND-T001-003` are not
+  FJ83-eligible from current repository records;
+- `TPL-RB003-004-008` remains a template placeholder, not a mathematical
+  candidate;
+- future use of the FJ83 payload requires `OBL-T001-015`, a new or amended
+  candidate row recording the full source-hypothesis package.
+
+The weaker \(K_0\) / Cohen--Lyndon lane remains non-subtractive after the
+candidate audit.

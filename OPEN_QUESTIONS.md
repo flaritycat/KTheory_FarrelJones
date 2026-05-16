@@ -4087,7 +4087,7 @@ is recorded.
 
 ### Status
 
-Open inside project; blocked until a new accepted payload is recorded.
+First-pass resolved by `FJ84`.
 
 ### Context
 
@@ -4102,18 +4102,65 @@ candidate or family satisfying the source hypotheses. A repeated source
 summary, a theorem name, or a broad desire to continue does not satisfy this
 question.
 
+On 2026-05-16, payload `PAY-T001-K0-CL-HYP-2026-001` was accepted for a
+candidate/family-level hypothesis audit. It instantiated
+`modules/cycle_005/FJ84_k0_cohen_lyndon_candidate_hypothesis_audit.md`.
+
+FJ84 resolves this question by checking the current `T-001` candidate rows
+against the FJ83 weaker \(K_0\) / Cohen--Lyndon source-hypothesis package.
+No current row is FJ83-eligible from repository records. This does not prove
+full `T-001`, coefficient FJC, `FJCw`, `FICwF`, full \(\mathcal{FJ}\), or
+any residual subtraction.
+
 ### Relevant modules
 
 - FJ82
 - FJ83
+- FJ84
 
 ### Dependencies
 
 `ledgers/payload_intake_protocol.md`, `OBL-C5-004`,
+`OBL-C5-005`, `OBL-T001-015`,
 `ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
 `ledgers/source_status.md`, and `ledgers/theorem_dependencies.md`.
 
 ### Next action
 
+Resolved by `FJ84`. Continue only through `OQ-106` if a new accepted payload
+is recorded.
+
+## OQ-106. Which accepted payload, if any, should instantiate FJ85 after the FJ84 no-eligible-current-candidate audit?
+
+### Status
+
+Open inside project; blocked until a new accepted payload is recorded.
+
+### Context
+
+FJ84 audits the current `T-001` candidate inventory against the FJ83 weaker
+\(K_0\) / Cohen--Lyndon source-hypothesis package and finds no eligible
+current row. The audit completes `OBL-C5-004` for FJ84, completes
+`OBL-T001-014` for the current inventory, and records `OBL-T001-015` for
+any future use of the FJ83 payload.
+
+No `FJ85` module is selected. A future module must be instantiated by a new
+accepted payload with exact target gate, changed project object, success
+criterion, failure criterion, and stop condition.
+
+### Relevant modules
+
+- FJ82
+- FJ83
+- FJ84
+
+### Dependencies
+
+`ledgers/payload_intake_protocol.md`, `OBL-C5-005`,
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
+`ledgers/theorem_dependencies.md`, and `NOTATION_LEDGER.md`.
+
+### Next action
+
 No numbered module is currently selected. Record a new accepted payload
-before instantiating `FJ84`.
+before instantiating `FJ85`.

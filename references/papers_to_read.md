@@ -79,11 +79,12 @@
 21. Margalit, D. "Office hour three: Groups acting on trees." Status: active auxiliary reference for `FJ36`; used for the explicit theorem that a group acting freely on a tree is free.
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
-24. Jaikin-Zapirain, A.; Linton, M.; Sanchez-Peralta, P. *Group pairs, coherence and Farrell-Jones Conjecture for K0*. Status: active reference for `FJ83`; Conjecture 1, the introductory K0 theorem, and the technical group-pair K0 theorem checked at first-pass level. Use only as a weaker \(K_0\) / Cohen--Lyndon payload until a concrete candidate/family-level hypothesis audit is recorded.
+24. Jaikin-Zapirain, A.; Linton, M.; Sanchez-Peralta, P. *Group pairs, coherence and Farrell-Jones Conjecture for K0*. Status: active reference for `FJ83`; Conjecture 1, the introductory K0 theorem, and the technical group-pair K0 theorem checked at first-pass level. `FJ84` audits current `T-001` candidate rows and finds no FJ83-eligible current row. Use only as a weaker \(K_0\) / Cohen--Lyndon payload; do not treat it as full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction.
 
-Next project task: no source-reading task is active. `C5-PAUSE-001` was
-exited for accepted payload `PAY-T001-K0-CL-2025-001`, which instantiated
-`FJ83`. After `FJ83`, no `FJ84` is selected without a new accepted payload.
+Next project task: no source-reading task is active. `FJ84` was instantiated
+by accepted payload `PAY-T001-K0-CL-HYP-2026-001` and stopped after the
+candidate/family hypothesis audit. After `FJ84`, no `FJ85` is selected
+without a new accepted payload.
 
 `FJ60` closed the weaker \(K_0\) / Cohen--Lyndon consequence lane as inactive
 because no exact source payload is recorded. `reflections/cycle_003_reflection.md`
@@ -132,9 +133,10 @@ project to `FJ81`. `FJ81` audits recorded reactivation gates, resolves
 payload-intake protocol in `ledgers/payload_intake_protocol.md`, records no
 immediate accepted payload, and places the project in `C5-PAUSE-001`. `FJ83`
 then records the accepted weaker \(K_0\) / Cohen--Lyndon payload and stops
-after source-hypothesis verification. No paper should be read next unless it
-is part of a new accepted payload with an exact changed project object and
-stop condition.
+after source-hypothesis verification. `FJ84` later audits current candidate
+rows against that source-hypothesis package and finds no eligible current
+row. No paper should be read next unless it is part of a new accepted payload
+with an exact changed project object and stop condition.
 
 ## Reading protocol
 

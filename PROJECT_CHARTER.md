@@ -1481,7 +1481,33 @@ candidate/family-level use of the source, records `OBL-C5-004` blocking
 `FJ84` without a new accepted payload, and makes no Farrell--Jones theorem
 claim.
 
-The next project move is not a numbered module. A future `FJ84` may be
+The next project move after `FJ83` was not automatic continuation. It became
+`FJ84` only after accepted payload `PAY-T001-K0-CL-HYP-2026-001` was
+recorded under the payload protocol.
+
+## FJ84 K0 Cohen--Lyndon candidate hypothesis audit
+
+Current status: `FJ84` has first-pass coverage as the K0 Cohen--Lyndon
+Candidate Hypothesis Audit module. It checks no new external source; it uses
+the source-hypothesis package already verified in `FJ83`.
+
+`FJ84` records accepted payload `PAY-T001-K0-CL-HYP-2026-001`, whose object
+is to determine whether any currently recorded `T-001` candidate/family
+satisfies the FJ83 weaker \(K_0\) / Cohen--Lyndon source hypotheses.
+
+The FJ84 decision is conservative. The current candidate rows
+`CAND-T001-001`, `CAND-T001-002`, and `CAND-T001-003` are not FJ83-eligible
+from repository records, and `TPL-RB003-004-008` remains only a placeholder.
+The audit therefore records no candidate promotion, no full `T-001` theorem,
+no coefficient K-theory FJC, no `FJCw`, no `FICwF`, no full
+\(\mathcal{FJ}\), and no residual subtraction.
+
+`FJ84` resolves `OQ-105`, completes `OBL-C5-004` for FJ84, completes
+`OBL-T001-014` for the current inventory, records `OBL-T001-015` for any
+future FJ83-payload use, records `OBL-C5-005` blocking `FJ85` without a new
+accepted payload, and creates `OQ-106`.
+
+The next project move is not a numbered module. A future `FJ85` may be
 instantiated only after a new accepted payload is recorded under
 `ledgers/payload_intake_protocol.md` or in the relevant target ledger.
 
