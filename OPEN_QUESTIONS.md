@@ -3851,23 +3851,23 @@ and gate index, records that the active gates remain unsatisfied, and selects
 
 ### Next action
 
-Resolved by `FJ79`. Continue with `OQ-100` and `FJ80`.
+Resolved by `FJ79`. `OQ-100` is now resolved by `FJ80`; continue with
+`OQ-101` and `reflections/cycle_004_reflection.md`.
 
 ## OQ-100. Is cycle_004 ready for reflection after final pre-reflection closure?
 
 ### Status
 
-Open inside project; selected by `FJ79` for `FJ80`.
+First-pass resolved by `FJ80`.
 
 ### Context
 
 `FJ79` resolves `OQ-099` by creating the cycle-004 handoff table and gate
 index. The only remaining numbered module in `cycle_004` is `FJ80`.
 
-`FJ80` should not begin a new mathematical target, restart the foundational
-source queue, or promote a new theorem claim. Its task is to verify whether
-the current handoff data is sufficient for `reflections/cycle_004_reflection.md`
-and to select that reflection unless an exact blocker remains.
+`FJ80` verifies that the current handoff data is sufficient for
+`reflections/cycle_004_reflection.md`. It completes `OBL-C4-003`, completes
+`C4-FINAL-001`, and selects `C4-REFLECT-001`.
 
 ### Relevant modules
 
@@ -3878,6 +3878,7 @@ and to select that reflection unless an exact blocker remains.
 - FJ77
 - FJ78
 - FJ79
+- FJ80
 
 ### Dependencies
 
@@ -3887,4 +3888,44 @@ and to select that reflection unless an exact blocker remains.
 
 ### Next action
 
-Begin `FJ80`, Final Pre-Reflection Closure Module.
+Resolved by `FJ80`. Continue with `OQ-101` and
+`reflections/cycle_004_reflection.md`.
+
+## OQ-101. What should the cycle-004 reflection select as the next project move after the no-target/no-source-ready closure path?
+
+### Status
+
+Open inside project; selected by `FJ80` for
+`reflections/cycle_004_reflection.md`.
+
+### Context
+
+The numbered module portion of `cycle_004` is complete after `FJ80`.
+`T-001` remains dormant, the Artin lane remains paused, deferred group
+classes remain deferred, the foundational source queue remains paused, and
+`FJ53` remains WIP / provisional.
+
+The reflection should decide the next project posture without treating
+reflection readiness as target readiness.
+
+### Relevant modules
+
+- FJ61
+- FJ66
+- FJ71
+- FJ76
+- FJ77
+- FJ78
+- FJ79
+- FJ80
+
+### Dependencies
+
+`SCOPE_LEDGER.md`, `AGENTS.md`, `NOTATION_LEDGER.md`,
+`ledgers/theorem_dependencies.md`, `ledgers/cycle_004_handoff.md`, and
+the paused-gate records `OBL-T001-013`, `OBL-ARTIN-004`, and
+`FND-QUEUE-PAUSE-001`.
+
+### Next action
+
+Begin `reflections/cycle_004_reflection.md`.

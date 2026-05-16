@@ -170,6 +170,12 @@ Pre-Reflection Closure Module. `FJ80` must verify whether `cycle_004` is
 ready for `reflections/cycle_004_reflection.md`; it must not reactivate a
 target or restart source work unless a recorded gate is satisfied.
 
+After `FJ80`, the numbered module portion of `cycle_004` is ready for
+reflection. The next packet is `C4-REFLECT-001`, Cycle-004 Reflection. The
+next artifact is `reflections/cycle_004_reflection.md`; it must decide the
+next project posture from recorded gates and handoff data, not by importing a
+new source or reactivating a target.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -200,7 +206,8 @@ Current module handoff:
 - `FJ77`: Target-Pivot Readiness After Foundational Queue Pause is completed.
 - `FJ78`: Cycle-004 Closure-Readiness Audit is completed.
 - `FJ79`: Cycle-004 Handoff Table and Gate Index is completed.
-- `FJ80`: Final Pre-Reflection Closure Module is next.
+- `FJ80`: Final Pre-Reflection Closure Module is completed.
+- `reflections/cycle_004_reflection.md`: Cycle-004 Reflection is next.
 
 Current obstruction:
 
@@ -309,6 +316,7 @@ Current obstruction:
 - `OBL-C4-003`: `FJ80` must verify that `cycle_004` has enough handoff data
   for `reflections/cycle_004_reflection.md` and select the reflection or
   record the exact blocker. It must not start a target lane or source queue.
+  `FJ80` completes this and selects `C4-REFLECT-001`.
 
 ## Repository Hygiene
 

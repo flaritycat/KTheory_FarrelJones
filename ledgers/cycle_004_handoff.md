@@ -2,7 +2,7 @@
 
 ## Status
 
-Created by `FJ79`.
+Created by `FJ79`; checked by `FJ80`.
 
 No new external source was used.
 
@@ -27,7 +27,7 @@ No new external source was used.
 | Foundational source queue | paused | `FND-QUEUE-PAUSE-001` | The cycle clarified the fixed-point convention and recorded no-promotion status for Farrell--Jones (1995), Lemma 2.5. | Preserve paused status. |
 | `FJ53` | WIP / provisional | no independent non-hyperbolic `RB-006` bridge | The Louder--Wilton route remains provisionally non-subtractive because current use overlaps the hyperbolic route. | Preserve WIP / provisional status. |
 | Open-question queue | active archive | no current proof-sensitive source task | `OQ-083`--`OQ-099` organize cycle-004 governance. | Close `OQ-099`; send `OQ-100` to `FJ80`. |
-| Theorem-dependency ledger | active archive | no new source theorem required by `FJ79` | No Farrell--Jones theorem claim is produced by the handoff. | Mark `FJ79` complete; keep `FJ80` pending. |
+| Theorem-dependency ledger | active archive | no new source theorem required by `FJ79` or `FJ80` | No Farrell--Jones theorem claim is produced by the handoff or closure check. | Mark `FJ79` and `FJ80` complete; keep cycle-004 reflection pending. |
 | Reading queue | paused for current handoff | no exact application-tethered source payload | No source is used in `FJ79`. | Update only the next-task pointer. |
 
 ## Gate index
@@ -38,7 +38,22 @@ No new external source was used.
 | `OBL-ARTIN-004` | Artin lane | named graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object | unsatisfied | keep closed |
 | `FND-QUEUE-PAUSE-001` | foundational source queue | exact source payload, changed project object, current proof/candidate/route need, and stop condition | unsatisfied | keep closed |
 | `OBL-C4-002` | cycle-004 handoff | handoff table and gate index | completed by `FJ79` | archive as completed |
-| `OBL-C4-003` | final pre-reflection closure | verify reflection readiness and select the reflection or record the blocker | active for `FJ80` | assign to `FJ80` |
+| `OBL-C4-003` | final pre-reflection closure | verify reflection readiness and select the reflection or record the blocker | completed by `FJ80` | archive as completed |
+
+## FJ80 closure result
+
+`FJ80` verifies that the numbered module portion of `cycle_004` is ready for
+reflection. It completes `OBL-C4-003`, completes `C4-FINAL-001`, and selects
+`C4-REFLECT-001`, Cycle-004 Reflection.
+
+Next artifact:
+
+```text
+reflections/cycle_004_reflection.md
+```
+
+The reflection should use this handoff ledger and must preserve the recorded
+gates unless a later repository artifact explicitly satisfies them.
 
 ## FJ80 input checklist
 

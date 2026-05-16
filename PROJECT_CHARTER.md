@@ -1355,10 +1355,31 @@ completes `OBL-C4-002`, completes `C4-HANDOFF-001`, selects
 `C4-FINAL-001`, records `OBL-C4-003`, and makes no Farrell--Jones theorem
 claim.
 
-The next step is `FJ80`, Final Pre-Reflection Closure Module. It should
-verify that `cycle_004` has enough handoff data for
+The next step after `FJ79` was `FJ80`, Final Pre-Reflection Closure Module.
+Its task was to verify that `cycle_004` has enough handoff data for
 `reflections/cycle_004_reflection.md`, select that reflection if no blocker
 remains, and avoid starting any new target or source lane.
+
+## FJ80 final pre-reflection closure module
+
+Current status: `FJ80` has first-pass coverage as the Final Pre-Reflection
+Closure Module. It uses only current repository records and does not check a
+new external source.
+
+The final closure decision after `FJ80` is that the numbered module portion
+of `cycle_004` is ready for reflection. `FJ80` confirms that `OQ-099` is
+resolved, `OBL-C4-002` is complete, `C4-HANDOFF-001` is complete,
+`OBL-C4-003` is active for this module, and the paused target/source gates
+remain unsatisfied.
+
+`FJ80` resolves `OQ-100`, completes `OBL-C4-003`, completes
+`C4-FINAL-001`, records a reflection-ready cycle state for the numbered
+module portion of `cycle_004`, selects `C4-REFLECT-001`, and makes no
+Farrell--Jones theorem claim.
+
+The next artifact is `reflections/cycle_004_reflection.md`. It should close
+the cycle by recording what cycle 004 accomplished, what remains gated or
+paused, and what posture should govern the next cycle.
 
 ## GitHub persistence policy
 
