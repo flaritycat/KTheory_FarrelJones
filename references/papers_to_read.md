@@ -80,8 +80,8 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ82`, Payload Acquisition Protocol or Project-Pause
-Decision.
+Next project task: no source-reading task is active. The project is in
+`C5-PAUSE-001`, payload-gated pause, after `FJ82`.
 
 `FJ60` closed the weaker \(K_0\) / Cohen--Lyndon consequence lane as inactive
 because no exact source payload is recorded. `reflections/cycle_003_reflection.md`
@@ -126,9 +126,11 @@ resolves `OQ-100`, and selects `C4-REFLECT-001`. The cycle-004 reflection
 closes the cycle, resolves `OQ-101`, selects `C5-GATE-001`, and sends the
 project to `FJ81`. `FJ81` audits recorded reactivation gates, resolves
 `OQ-102`, records that no gate-ready payload is present, selects
-`C5-PAYLOAD-001`, and sends the project to `FJ82`. `FJ82` must define a
-payload-acquisition protocol or record a project-pause decision rather than
-read another source.
+`C5-PAYLOAD-001`, and sends the project to `FJ82`. `FJ82` defines the
+payload-intake protocol in `ledgers/payload_intake_protocol.md`, records no
+immediate accepted payload, and places the project in `C5-PAUSE-001`. No
+paper should be read next unless it is part of an accepted payload with an
+exact changed project object and stop condition.
 
 ## Reading protocol
 

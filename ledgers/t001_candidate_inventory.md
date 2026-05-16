@@ -335,6 +335,18 @@ has appeared since the `FJ66` pause and later `FJ77` readiness check.
 Therefore `OBL-T001-013` remains unsatisfied. No active `T-001` update is
 scheduled by `FJ81`; `T-001` remains dormant.
 
+## FJ82 payload protocol update
+
+`FJ82` creates `ledgers/payload_intake_protocol.md` and places the project in
+payload-gated pause `C5-PAUSE-001`.
+
+For `T-001`, future reactivation requires an accepted payload of type
+`PAY-T001-CAND`, `PAY-T001-BRIDGE`, `PAY-FJ53-RB006`, or `PAY-PRIOR`, or an
+equivalent accepted row recorded in this inventory. Such a payload must also
+satisfy `OBL-T001-013`.
+
+No accepted `T-001` payload is recorded by `FJ82`.
+
 ## Non-use warnings
 
 - Do not fabricate candidate families.

@@ -28,7 +28,7 @@ No new external source was used.
 | Foundational source queue | paused | `FND-QUEUE-PAUSE-001` | The cycle clarified the fixed-point convention and recorded no-promotion status for Farrell--Jones (1995), Lemma 2.5. | Preserve paused status. |
 | `FJ53` | WIP / provisional | no independent non-hyperbolic `RB-006` bridge | The Louder--Wilton route remains provisionally non-subtractive because current use overlaps the hyperbolic route. | Preserve WIP / provisional status. |
 | Open-question queue | active archive | no current proof-sensitive source task | `OQ-083`--`OQ-099` organize cycle-004 governance. | Close `OQ-099`; send `OQ-100` to `FJ80`. |
-| Theorem-dependency ledger | active archive | no new source theorem required by `FJ79`, `FJ80`, the cycle reflection, or `FJ81` | No Farrell--Jones theorem claim is produced by the handoff, closure check, reflection, or gate audit. | Mark `FJ79`, `FJ80`, cycle-004 reflection, and `FJ81` complete; add `FJ82` pending. |
+| Theorem-dependency ledger | active archive | no new source theorem required by `FJ79`, `FJ80`, the cycle reflection, `FJ81`, or `FJ82` | No Farrell--Jones theorem claim is produced by the handoff, closure check, reflection, gate audit, or payload protocol. | Mark `FJ79`, `FJ80`, cycle-004 reflection, `FJ81`, and `FJ82` complete; keep `FJ83` blocked until an accepted payload is recorded. |
 | Reading queue | paused for current handoff | no exact application-tethered source payload | No source is used in `FJ79`. | Update only the next-task pointer. |
 
 ## Gate index
@@ -69,6 +69,15 @@ remains provisional.
 `FJ81` completes `C5-GATE-001` and `OBL-C5-001`, resolves `OQ-102`, selects
 `C5-PAYLOAD-001`, records `OBL-C5-002`, and sends the project to `FJ82`,
 Payload Acquisition Protocol or Project-Pause Decision.
+
+## FJ82 payload-gated pause result
+
+`FJ82` creates `ledgers/payload_intake_protocol.md`, records no immediate
+accepted payload, completes `C5-PAYLOAD-001` and `OBL-C5-002`, and places the
+project in `C5-PAUSE-001`.
+
+The cycle-004 handoff gates remain unsatisfied. No `FJ83` module is selected
+from this handoff ledger alone.
 
 ## FJ80 input checklist
 

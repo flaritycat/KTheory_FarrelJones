@@ -189,6 +189,12 @@ and the stop condition, or record a project-pause decision. It must not begin
 source reading, target reactivation, or a proof attempt without an exact
 payload and changed project object.
 
+After `FJ82`, the project is in `C5-PAUSE-001`, payload-gated pause. No
+`FJ83` module is selected. Future numbered work may begin only after an
+accepted payload is recorded under `ledgers/payload_intake_protocol.md` or in
+the relevant target ledger. Do not create a new source-summary, target
+summary, or proof-attempt module merely to keep the cycle moving.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -222,7 +228,9 @@ Current module handoff:
 - `FJ80`: Final Pre-Reflection Closure Module is completed.
 - `reflections/cycle_004_reflection.md`: Cycle-004 Reflection is completed.
 - `FJ81`: Cycle-005 Reactivation Gate Audit is completed.
-- `FJ82`: Payload Acquisition Protocol or Project-Pause Decision is next.
+- `FJ82`: Payload Acquisition Protocol or Project-Pause Decision is
+  completed.
+- `FJ83`: no module selected; instantiate only from an accepted payload.
 
 Current obstruction:
 
@@ -342,7 +350,12 @@ Current obstruction:
   a project-pause decision after the no-gate-ready audit. It must name
   allowable payload types, the changed repository object, and a stop
   condition. It must not restart source reading, target work, or proof
-  attempts without an exact payload.
+  attempts without an exact payload. `FJ82` completes this by creating
+  `ledgers/payload_intake_protocol.md` and recording `C5-PAUSE-001`.
+- `OBL-C5-003`: no `FJ83` module may be created until an accepted payload is
+  recorded under `ledgers/payload_intake_protocol.md` or in the relevant
+  target ledger. The payload must name exact target, changed project object,
+  success criterion, failure criterion, and stop condition.
 
 ## Repository Hygiene
 

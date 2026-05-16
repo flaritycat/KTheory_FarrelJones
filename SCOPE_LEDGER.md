@@ -154,7 +154,8 @@ Unless explicitly imported later:
 104. Is `cycle_004` ready for reflection after final pre-reflection closure? Tracked as `OQ-100`; first-pass resolved by `FJ80`.
 105. What should the cycle-004 reflection select as the next project move after the no-target/no-source-ready closure path? Tracked as `OQ-101`; first-pass resolved by `reflections/cycle_004_reflection.md`, which selects a cycle-005 reactivation gate audit.
 106. Which recorded reactivation gate, if any, is satisfied at the start of cycle 005? Tracked as `OQ-102`; first-pass resolved by `FJ81`: no recorded reactivation gate is satisfied.
-107. What payload-acquisition protocol or project-pause decision should follow the no-gate-ready audit? Tracked as `OQ-103`; selected by `FJ81` for `FJ82`.
+107. What payload-acquisition protocol or project-pause decision should follow the no-gate-ready audit? Tracked as `OQ-103`; first-pass resolved by `FJ82`, which creates the payload-intake protocol and records a payload-gated pause.
+108. Which accepted payload, if any, should instantiate the next numbered module after the payload-gated pause? Tracked as `OQ-104`; blocked until an accepted payload is recorded.
 
 ## Established results
 
@@ -357,11 +358,17 @@ residual gap analysis, remains unresolved but dormant after `FJ66`.
   `OQ-102`, records that no reactivation gate is satisfied, completes
   `OBL-C5-001` and `C5-GATE-001`, selects `C5-PAYLOAD-001`, records
   `OBL-C5-002`, selects `FJ82`, and makes no Farrell--Jones theorem claim.
+- Module `FJ82` completes the payload-acquisition protocol / project-pause
+  decision. It resolves `OQ-103`, creates
+  `ledgers/payload_intake_protocol.md`, records no immediate accepted
+  payload, completes `OBL-C5-002` and `C5-PAYLOAD-001`, records
+  `C5-PAUSE-001`, records `OBL-C5-003`, and makes no Farrell--Jones theorem
+  claim.
 
 ## Selected target
 
-Current active project packet: `C5-PAYLOAD-001`, payload-acquisition
-protocol or project-pause decision after the no-gate-ready audit.
+Current active project status: `C5-PAUSE-001`, payload-gated pause after the
+no-gate-ready audit and payload-protocol decision.
 
 Previous first serious target: `T-001`, torsion-free one-relator residual
 gap analysis. After `FJ66`--`FJ68`, `T-001` is dormant rather than active. It
@@ -373,9 +380,9 @@ but a later module may reactivate it only through `OBL-ARTIN-004`: a named
 graph, graph family, subclass, source theorem, bridge object, formulation
 label, prior-art-overlap note, and changed project object.
 
-No group-class target is currently active. The current packet is a
-payload-protocol decision selected by `FJ81` after no recorded reactivation
-gate was satisfied.
+No group-class target is currently active. No numbered module is currently
+selected. Future numbered work requires an accepted payload under
+`ledgers/payload_intake_protocol.md`.
 
 Cycle 002 identified which parts of the torsion-free one-relator target are
 removed by verified hyperbolic, finite-dimensional CAT(0), virtually
@@ -504,8 +511,10 @@ Current source toolkit:
 - cycle-005 gate audit: `FJ81` applies `OBL-C5-001` by checking whether any
   recorded reactivation gate is satisfied from repository data and records a
   no-gate-ready state;
-- payload-protocol decision: `FJ82` should apply `OBL-C5-002` by defining a
-  bounded payload-acquisition protocol or recording a project-pause decision;
+- payload-protocol decision: `FJ82` applies `OBL-C5-002` by defining a
+  bounded payload-acquisition protocol and recording a payload-gated pause;
+- payload-gated pause: `OBL-C5-003` blocks `FJ83` until an accepted payload
+  row is recorded;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -513,4 +522,5 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ82`, Payload Acquisition Protocol or Project-Pause Decision.
+No numbered module is currently selected. Record an accepted payload under
+`ledgers/payload_intake_protocol.md` before instantiating `FJ83`.

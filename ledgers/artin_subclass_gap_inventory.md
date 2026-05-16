@@ -2,7 +2,8 @@
 
 ## Status
 
-Created by `FJ69`; updated by `FJ70`, `FJ71`, `FJ72`, `FJ77`, and `FJ81`.
+Created by `FJ69`; updated by `FJ70`, `FJ71`, `FJ72`, `FJ77`, `FJ81`, and
+`FJ82`.
 
 This ledger is an internal inventory extracted from existing repository
 records. No new external source was checked for this ledger.
@@ -134,6 +135,19 @@ appeared since the `FJ71` pause and later `FJ77` readiness check.
 
 Therefore `OBL-ARTIN-004` remains unsatisfied. No active Artin update is
 scheduled by `FJ81`; the Artin lane remains paused.
+
+## FJ82 payload protocol status
+
+`FJ82` creates `ledgers/payload_intake_protocol.md` and places the project in
+payload-gated pause `C5-PAUSE-001`.
+
+For the Artin lane, future reactivation requires an accepted `PAY-ARTIN`
+payload or an equivalent accepted row recorded in this inventory. Such a
+payload must also satisfy `OBL-ARTIN-004`: named graph, graph family,
+subclass, source theorem, bridge object, formulation label,
+prior-art-overlap note, and changed project object.
+
+No accepted Artin payload is recorded by `FJ82`.
 
 ## Next update
 

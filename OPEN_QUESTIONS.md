@@ -3979,7 +3979,7 @@ Resolved by `FJ81`. Continue with `OQ-103` and `FJ82`.
 
 ### Status
 
-Open inside project; selected by `FJ81` for `FJ82`.
+First-pass resolved by `FJ82`.
 
 ### Context
 
@@ -3993,12 +3993,17 @@ should either define a payload-acquisition protocol with allowable payload
 types, a changed project object, and a stop condition, or record a
 project-pause decision.
 
+`FJ82` creates `ledgers/payload_intake_protocol.md`, records no immediate
+accepted payload, completes `C5-PAYLOAD-001` and `OBL-C5-002`, and places
+the project in payload-gated pause `C5-PAUSE-001`.
+
 ### Relevant modules
 
 - FJ66
 - FJ71
 - FJ76
 - FJ81
+- FJ82
 
 ### Dependencies
 
@@ -4006,8 +4011,50 @@ project-pause decision.
 `ledgers/theorem_dependencies.md`, `ledgers/cycle_004_handoff.md`,
 `ledgers/open_group_classes.md`, `ledgers/t001_candidate_inventory.md`,
 `ledgers/artin_subclass_gap_inventory.md`, `OBL-T001-013`,
-`OBL-ARTIN-004`, `FND-QUEUE-PAUSE-001`, and `OBL-C5-002`.
+`OBL-ARTIN-004`, `FND-QUEUE-PAUSE-001`, `OBL-C5-002`,
+`ledgers/payload_intake_protocol.md`, and `OBL-C5-003`.
 
 ### Next action
 
-Begin `FJ82`, Payload Acquisition Protocol or Project-Pause Decision.
+Resolved by `FJ82`. Continue with `OQ-104` only if an accepted payload is
+recorded.
+
+## OQ-104. Which accepted payload, if any, should instantiate the next numbered module after the payload-gated pause?
+
+### Status
+
+Open inside project; blocked until an accepted payload is recorded.
+
+### Context
+
+`FJ82` creates the payload-intake protocol and records `C5-PAUSE-001`.
+No `FJ83` module is selected because no immediate payload satisfies the
+protocol.
+
+A future module may be instantiated only after a payload row records:
+
+- payload type;
+- target gate;
+- exact candidate, source, bridge, computation, formulation comparison, or
+  blocker;
+- hypotheses and formulation level;
+- repository object changed;
+- success criterion;
+- failure criterion;
+- stop condition.
+
+### Relevant modules
+
+- FJ81
+- FJ82
+
+### Dependencies
+
+`ledgers/payload_intake_protocol.md`, `OBL-C5-003`, `OBL-T001-013`,
+`OBL-ARTIN-004`, `FND-QUEUE-PAUSE-001`, `ledgers/t001_candidate_inventory.md`,
+`ledgers/artin_subclass_gap_inventory.md`, and `ledgers/open_group_classes.md`.
+
+### Next action
+
+No numbered module is currently selected. Record an accepted payload before
+instantiating `FJ83`.

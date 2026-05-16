@@ -1428,6 +1428,34 @@ Decision. It should define a bounded payload-acquisition protocol, including
 allowable payload types, the project object changed, and a stop condition, or
 record a project-pause decision if no such protocol can be made precise.
 
+## FJ82 payload acquisition protocol or project-pause decision
+
+Current status: `FJ82` has first-pass coverage as the Payload Acquisition
+Protocol or Project-Pause Decision module. It uses only current repository
+records and does not check a new external source.
+
+The decision after `FJ82` is to create `ledgers/payload_intake_protocol.md`
+and place the project in a payload-gated pause. The protocol records which
+payloads can restart mathematical work: candidate-admissible `T-001` rows,
+exact `T-001` bridge or computation payloads, named Artin payloads, exact
+foundational source payloads, formulation-comparison payloads, non-hyperbolic
+`RB-006` bridge payloads, and exact prior-art blockers. It rejects source
+names, target names, broad class labels, and residual bucket labels by
+themselves.
+
+No immediate payload is accepted by `FJ82`. Therefore no `FJ83` module is
+selected. A future `FJ83` may be instantiated only after an accepted payload
+is recorded under `ledgers/payload_intake_protocol.md` or in the relevant
+target ledger.
+
+`FJ82` resolves `OQ-103`, completes `OBL-C5-002`, completes
+`C5-PAYLOAD-001`, records `C5-PAUSE-001`, records `OBL-C5-003`, records
+`OQ-104`, and makes no Farrell--Jones theorem claim.
+
+The next project move is payload intake under the `FJ82` protocol, not a
+numbered module. If an accepted payload appears, instantiate `FJ83` from that
+payload's exact target, changed project object, and stop condition.
+
 ## GitHub persistence policy
 
 The GitHub repository `flaritycat/KTheory_FarrelJones` is the durable archive and source of truth.

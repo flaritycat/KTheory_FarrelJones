@@ -18,3 +18,13 @@ verification.
 no gate-ready group-class packet. `T-001` remains dormant, Artin groups
 remain paused, and automatic / biautomatic and Thompson-type groups remain
 deferred.
+
+## FJ82 payload protocol update
+
+`FJ82` creates `ledgers/payload_intake_protocol.md` and places the project in
+payload-gated pause `C5-PAUSE-001`.
+
+No group-class target is active. A future group-class module requires an
+accepted payload that changes a candidate inventory, residual-bucket status,
+open-question status, proof obligation, formulation-safety bridge, or
+prior-art blocker list.
