@@ -431,6 +431,12 @@ Current obstruction:
 - Use the repository as the source of truth.
 - Do not import mathematical content from chat memory unless it is present in
   the repository or pasted by the user.
+- Maintain `next_prompts.md` as a prompt backlog when prompt status changes:
+  mark executed prompts `Completed`, rejected prompts `Rejected`, superseded
+  prompts `Superseded`, and do not renumber existing prompts.
+- Prompts listed in `next_prompts.md` are not accepted payloads by themselves;
+  a prompt becomes actionable only when the user submits it or it is recorded
+  under the payload protocol.
 - Preserve strict claim labels: Definition, Example, Proposition, Theorem,
   Proof, Conjecture, Heuristic, Remark, Warning, Open problem, Speculation,
   Failed attempt, Literature claim, Source-verified claim.
