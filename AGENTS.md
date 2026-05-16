@@ -164,6 +164,12 @@ next packet is `C4-HANDOFF-001`, Cycle-004 Handoff Table and Gate Index.
 `FJ79` must build the handoff table and gate index; it must not reactivate a
 target or restart source work unless a recorded gate is satisfied.
 
+After `FJ79`, the cycle-004 handoff table and gate index are recorded in
+`ledgers/cycle_004_handoff.md`. The next packet is `C4-FINAL-001`, Final
+Pre-Reflection Closure Module. `FJ80` must verify whether `cycle_004` is
+ready for `reflections/cycle_004_reflection.md`; it must not reactivate a
+target or restart source work unless a recorded gate is satisfied.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -193,7 +199,8 @@ Current module handoff:
   is completed.
 - `FJ77`: Target-Pivot Readiness After Foundational Queue Pause is completed.
 - `FJ78`: Cycle-004 Closure-Readiness Audit is completed.
-- `FJ79`: Cycle-004 Handoff Table and Gate Index is next.
+- `FJ79`: Cycle-004 Handoff Table and Gate Index is completed.
+- `FJ80`: Final Pre-Reflection Closure Module is next.
 
 Current obstruction:
 
@@ -298,7 +305,10 @@ Current obstruction:
 - `OBL-C4-002`: `FJ79` must build a cycle-004 handoff table and gate index.
   It must include paused gates, source-queue pause data, open-question
   clusters, proof-obligation status, remaining cycle slots, and reflection
-  inputs.
+  inputs. `FJ79` completes this in `ledgers/cycle_004_handoff.md`.
+- `OBL-C4-003`: `FJ80` must verify that `cycle_004` has enough handoff data
+  for `reflections/cycle_004_reflection.md` and select the reflection or
+  record the exact blocker. It must not start a target lane or source queue.
 
 ## Repository Hygiene
 

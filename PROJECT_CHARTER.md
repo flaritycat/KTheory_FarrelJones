@@ -1331,10 +1331,34 @@ for handoff preparation and final pre-reflection closure.
 `C4-HANDOFF-001`, records `OBL-C4-002`, and makes no Farrell--Jones theorem
 claim.
 
-The next step is `FJ79`, Cycle-004 Handoff Table and Gate Index. It should
-assemble the paused target gates, source-queue pause data, open-question
-clusters, proof-obligation status, remaining cycle slots, and inputs needed
-for the final pre-reflection module.
+The next step after `FJ78` was `FJ79`, Cycle-004 Handoff Table and Gate
+Index. Its task was to assemble the paused target gates, source-queue pause
+data, open-question clusters, proof-obligation status, remaining cycle slots,
+and inputs needed for the final pre-reflection module.
+
+## FJ79 cycle-004 handoff table and gate index
+
+Current status: `FJ79` has first-pass coverage as the Cycle-004 Handoff
+Table and Gate Index module. It uses only current repository records and does
+not check a new external source.
+
+The handoff decision after `FJ79` is that no target or source lane should be
+reactivated in the final numbered module of `cycle_004`. `T-001` remains
+dormant under `OBL-T001-013`; the Artin lane remains paused under
+`OBL-ARTIN-004`; automatic / biautomatic groups and Thompson-type groups
+remain deferred; the foundational source queue remains paused under
+`FND-QUEUE-PAUSE-001`; and WIP / provisional `FJ53` remains provisional.
+
+`FJ79` creates `ledgers/cycle_004_handoff.md` as the reusable handoff
+artifact for `FJ80` and the cycle reflection. It resolves `OQ-099`,
+completes `OBL-C4-002`, completes `C4-HANDOFF-001`, selects
+`C4-FINAL-001`, records `OBL-C4-003`, and makes no Farrell--Jones theorem
+claim.
+
+The next step is `FJ80`, Final Pre-Reflection Closure Module. It should
+verify that `cycle_004` has enough handoff data for
+`reflections/cycle_004_reflection.md`, select that reflection if no blocker
+remains, and avoid starting any new target or source lane.
 
 ## GitHub persistence policy
 

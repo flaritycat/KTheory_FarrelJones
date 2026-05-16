@@ -80,7 +80,7 @@
 22. Margolis, A. J. *Groups of cohomological codimension one*. Status: comparison source for `FJ42`; partially read for the type `VFP` convention, Bieri Theorem A comparison, and finite-presentation one-relator consequences.
 23. Osajda, D. *Normal subgroups of SimpHAtic groups*. Status: comparison source for `FJ42`; arXiv v2 partially read for the report of Bieri Theorem B with a finitely presented normal-subgroup hypothesis.
 
-Next project task: `FJ79`, Cycle-004 Handoff Table and Gate Index.
+Next project task: `FJ80`, Final Pre-Reflection Closure Module.
 
 `FJ60` closed the weaker \(K_0\) / Cohen--Lyndon consequence lane as inactive
 because no exact source payload is recorded. `reflections/cycle_003_reflection.md`
@@ -118,8 +118,10 @@ target-pivot readiness after the pause rather than begin another source
 survey. `FJ77` records no target or source packet ready for activation,
 resolves `OQ-097`, and selects `C4-CLOSE-001`. `FJ78` audits cycle-004
 closure readiness, records that the remaining cycle slots should prepare
-handoff and reflection, and selects `C4-HANDOFF-001`. `FJ79` must build the
-handoff table and gate index rather than read another source.
+handoff and reflection, and selects `C4-HANDOFF-001`. `FJ79` builds the
+handoff table and gate index in `ledgers/cycle_004_handoff.md`, resolves
+`OQ-099`, and selects `C4-FINAL-001`. `FJ80` must verify reflection
+readiness rather than read another source.
 
 ## Reading protocol
 

@@ -3819,7 +3819,7 @@ Resolved by `FJ78`. Continue with `OQ-099` and `FJ79`.
 
 ### Status
 
-Open inside project; selected by `FJ78` for `FJ79`.
+First-pass resolved by `FJ79`.
 
 ### Context
 
@@ -3827,9 +3827,9 @@ Open inside project; selected by `FJ78` for `FJ79`.
 Table and Gate Index. The project has two numbered modules remaining before
 the cycle reflection: `FJ79` and `FJ80`.
 
-The next module should not reactivate targets or restart source work. It
-should assemble a compact handoff table and gate index for the final
-pre-reflection module.
+`FJ79` creates `ledgers/cycle_004_handoff.md`, completes the handoff table
+and gate index, records that the active gates remain unsatisfied, and selects
+`C4-FINAL-001` for `FJ80`.
 
 ### Relevant modules
 
@@ -3839,14 +3839,52 @@ pre-reflection module.
 - FJ76
 - FJ77
 - FJ78
+- FJ79
 
 ### Dependencies
 
 `SCOPE_LEDGER.md`, `AGENTS.md`, `NOTATION_LEDGER.md`,
 `ledgers/theorem_dependencies.md`, `ledgers/open_group_classes.md`,
 `ledgers/t001_candidate_inventory.md`,
-`ledgers/artin_subclass_gap_inventory.md`, and `OBL-C4-002`.
+`ledgers/artin_subclass_gap_inventory.md`,
+`ledgers/cycle_004_handoff.md`, and `OBL-C4-002`.
 
 ### Next action
 
-Begin `FJ79`, Cycle-004 Handoff Table and Gate Index.
+Resolved by `FJ79`. Continue with `OQ-100` and `FJ80`.
+
+## OQ-100. Is cycle_004 ready for reflection after final pre-reflection closure?
+
+### Status
+
+Open inside project; selected by `FJ79` for `FJ80`.
+
+### Context
+
+`FJ79` resolves `OQ-099` by creating the cycle-004 handoff table and gate
+index. The only remaining numbered module in `cycle_004` is `FJ80`.
+
+`FJ80` should not begin a new mathematical target, restart the foundational
+source queue, or promote a new theorem claim. Its task is to verify whether
+the current handoff data is sufficient for `reflections/cycle_004_reflection.md`
+and to select that reflection unless an exact blocker remains.
+
+### Relevant modules
+
+- FJ61
+- FJ66
+- FJ71
+- FJ76
+- FJ77
+- FJ78
+- FJ79
+
+### Dependencies
+
+`SCOPE_LEDGER.md`, `AGENTS.md`, `NOTATION_LEDGER.md`,
+`ledgers/theorem_dependencies.md`, `ledgers/cycle_004_handoff.md`, and
+`OBL-C4-003`.
+
+### Next action
+
+Begin `FJ80`, Final Pre-Reflection Closure Module.

@@ -150,7 +150,8 @@ Unless explicitly imported later:
 100. Which foundational source-payload item, if any, should follow the `OQ-006` no-promotion result? Tracked as `OQ-096`; first-pass resolved by `FJ76`, which pauses the foundational source queue.
 101. Which target-pivot packet, if any, should follow the foundational source-queue pause? Tracked as `OQ-097`; first-pass resolved by `FJ77`, which records no target or source packet ready and selects a cycle-004 closure-readiness audit.
 102. How should the remaining cycle-004 module slots be used after the no-target/no-source-ready decision? Tracked as `OQ-098`; first-pass resolved by `FJ78`, which sends the cycle toward handoff and reflection preparation.
-103. What handoff table and gate index should prepare `cycle_004` for its final module and reflection? Tracked as `OQ-099`; selected by `FJ78` for `FJ79`.
+103. What handoff table and gate index should prepare `cycle_004` for its final module and reflection? Tracked as `OQ-099`; first-pass resolved by `FJ79`, which creates `ledgers/cycle_004_handoff.md`.
+104. Is `cycle_004` ready for reflection after final pre-reflection closure? Tracked as `OQ-100`; selected by `FJ79` for `FJ80`.
 
 ## Established results
 
@@ -177,8 +178,8 @@ specialization of the additive-category coefficient convention recorded in
 `FJ02`. Here \(R\) is an associative unital ring and \(G\) is a discrete
 group unless stated otherwise.
 
-The active project target packet is `C4-HANDOFF-001`, cycle-004 handoff
-table and gate index. `T-001`, torsion-free one-relator
+The active project target packet is `C4-FINAL-001`, final pre-reflection
+closure module. `T-001`, torsion-free one-relator
 residual gap analysis, remains unresolved but dormant after `FJ66`.
 
 ## What has been established
@@ -333,11 +334,16 @@ residual gap analysis, remains unresolved but dormant after `FJ66`.
   reflection preparation, resolves `OQ-098`, completes `OBL-C4-001`,
   completes `C4-CLOSE-001`, selects `C4-HANDOFF-001`, records
   `OBL-C4-002`, selects `FJ79`, and makes no Farrell--Jones theorem claim.
+- Module `FJ79` completes the cycle-004 handoff table and gate index. It
+  creates `ledgers/cycle_004_handoff.md`, resolves `OQ-099`, completes
+  `OBL-C4-002`, completes `C4-HANDOFF-001`, selects `C4-FINAL-001`,
+  records `OBL-C4-003`, selects `FJ80`, and makes no Farrell--Jones theorem
+  claim.
 
 ## Selected target
 
-Current active target packet: `C4-HANDOFF-001`, cycle-004 handoff table and
-gate index.
+Current active target packet: `C4-FINAL-001`, final pre-reflection closure
+module.
 
 Previous first serious target: `T-001`, torsion-free one-relator residual
 gap analysis. After `FJ66`--`FJ68`, `T-001` is dormant rather than active. It
@@ -349,9 +355,9 @@ but a later module may reactivate it only through `OBL-ARTIN-004`: a named
 graph, graph family, subclass, source theorem, bridge object, formulation
 label, prior-art-overlap note, and changed project object.
 
-No group-class target is currently active. The current packet is a bounded
-cycle-004 handoff table and gate index after `FJ78` recorded the cycle as
-closure-ready rather than target-ready.
+No group-class target is currently active. The current packet is a final
+pre-reflection closure module after `FJ79` recorded the handoff table and
+gate index.
 
 Cycle 002 identified which parts of the torsion-free one-relator target are
 removed by verified hyperbolic, finite-dimensional CAT(0), virtually
@@ -470,8 +476,10 @@ Current source toolkit:
 - cycle-004 closure readiness: `FJ78` applies `OBL-C4-001`, records that the
   remaining slots should prepare handoff and reflection, and selects
   `FJ79`;
-- cycle-004 handoff: `FJ79` should apply `OBL-C4-002` by building a compact
-  handoff table and gate index;
+- cycle-004 handoff: `FJ79` applies `OBL-C4-002` by building a compact
+  handoff table and gate index in `ledgers/cycle_004_handoff.md`;
+- cycle-004 final closure: `FJ80` should apply `OBL-C4-003` by checking that
+  the cycle is ready for `reflections/cycle_004_reflection.md`;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -479,4 +487,4 @@ Current source toolkit:
 
 ## Next mathematical move
 
-Begin `FJ79`, Cycle-004 Handoff Table and Gate Index.
+Begin `FJ80`, Final Pre-Reflection Closure Module.
