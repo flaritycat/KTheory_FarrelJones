@@ -18,15 +18,15 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - Active cycle: `cycle_005`.
 - Completed cycles: `cycle_001`, `cycle_002`, `cycle_003`, and
   `cycle_004`.
-- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, `FJ77`, `FJ78`, `FJ79`, `FJ80`, `FJ81`, `FJ82`, `FJ83`, `FJ84`, `FJ85`, `FJ86`, and `FJ87`.
+- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, `FJ77`, `FJ78`, `FJ79`, `FJ80`, `FJ81`, `FJ82`, `FJ83`, `FJ84`, `FJ85`, `FJ86`, `FJ87`, and `FJ88`.
 - `FJ53` is retained as WIP / provisional.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md`, `reflections/cycle_002_reflection.md`, `reflections/cycle_003_reflection.md`, and `reflections/cycle_004_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current active project status: post-`FJ87` payload gate. `FJ87` was
-  instantiated by accepted torsion-free / HNN payload
-  `PAY-T001-BS23-TF-HNN-2026-001`.
+- Current active project status: post-`FJ88` payload gate. `FJ88` was
+  instantiated by accepted known-route / prior-art blocker payload
+  `PAY-T001-BS23-ROUTE-PRIORART-2026-001`.
 - Current procedural target: no numbered module is selected; instantiate
-  `FJ88` only after a new accepted payload is recorded in
+  `FJ89` only after a new accepted payload is recorded in
   `ledgers/payload_intake_protocol.md` or an equivalent target ledger.
 
 ## Current established results
@@ -45,6 +45,7 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - `ER-012`: first source-verified one-relator-group Farrell--Jones status ledger, including conditional routes through hyperbolic, finite-dimensional CAT(0), virtually solvable, and hyperbolic-by-cyclic classes, while keeping the global torsion-free one-relator class unresolved inside the project.
 - `ER-013`: source-verified additive-category K-theory formulation and source-convention policy, adopting Bartels--Reich's coefficient formulation as the first-pass project convention.
 - `ER-014`: source-verified `FJCw` finite-index overgroup bridge, authorizing finite-index passage only when the finite-index subgroup carries the finite-wreath-product version.
+- `ER-015`: source-verified graph-of-abelian-groups route for Baumslag--Solitar candidates, used in `FJ88` to route `CAND-T001-004` only.
 
 See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, and source status.
 
@@ -115,6 +116,12 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
   resolves `OQ-108`, completes `OBL-C5-007`, creates `OBL-T001-017`,
   `OBL-C5-008`, and `OQ-109`, and makes no Farrell--Jones route claim or
   residual subtraction.
+- `FJ88` records accepted payload
+  `PAY-T001-BS23-ROUTE-PRIORART-2026-001` and source-verifies that
+  `CAND-T001-004` is already covered by the Gandini--Meinert--Rueping
+  graph-of-abelian-groups route. It resolves `OQ-109`, completes
+  `OBL-C5-008` and `OBL-T001-017`, creates `OBL-C5-009` and `OQ-110`,
+  and makes no global `T-001` theorem claim.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.

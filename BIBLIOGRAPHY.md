@@ -54,6 +54,8 @@
 
 - Wegner, C. (2015). The Farrell-Jones conjecture for virtually solvable groups. *Journal of Topology, 8*(4), 975--1016. https://doi.org/10.1112/jtopol/jtv026. Status: `active reference for FJ11 and FJ25`. Notes: used in `FJ11` for K- and L-theoretic Farrell--Jones with coefficients in additive categories for virtually solvable groups; `FJ25` uses this known-case row for the virtually solvable route subtraction in `T-001`; arXiv version: https://arxiv.org/abs/1308.2432.
 
+- Gandini, G., Meinert, S., & Rueping, H. (2015). The Farrell-Jones conjecture for fundamental groups of graphs of abelian groups. *Groups, Geometry, and Dynamics, 9*(3), 783--792. https://doi.org/10.4171/GGD/327. Status: `active reference for FJ88; theorem text checked at first pass`. Notes: `FJ88` checks the source's class \(C\), the main theorem for fundamental groups of graphs of abelian groups, Example 3.1 identifying \(BS(p,q)\) as a graph-of-groups fundamental group with infinite cyclic vertex and edge groups, and Corollary 1.1 that all generalized Baumslag--Solitar groups, in particular all Baumslag--Solitar groups, lie in \(C\). Used to route only `CAND-T001-004`, not to prove global `T-001`.
+
 ## Artin groups
 
 - Brueck, B., Kielak, D., & Wu, X. (2021). The Farrell-Jones conjecture for normally poly-free groups. *Proceedings of the American Mathematical Society, 149*(6), 2349--2356. https://doi.org/10.1090/proc/15357. Status: `active reference for FJ18; partially read overall`. Notes: arXiv source and bibliographic metadata checked for Theorem A on normally poly-free groups, Corollary B on even Artin groups of FC-type, the `FJCw` convention, and the RAAG semidirect-product theorem.

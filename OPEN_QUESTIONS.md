@@ -4259,7 +4259,7 @@ is recorded.
 
 ### Status
 
-Open inside project; blocked until a new accepted payload is recorded.
+Resolved by `FJ88`.
 
 ### Context
 
@@ -4270,7 +4270,48 @@ computed, no hyperbolic/CAT(0)/virtually solvable/finite-index route is
 recorded, no FJ83 weaker \(K_0\) eligibility is checked, and no prior-art
 comparison is recorded.
 
-No `FJ88` module is selected. A future module must be instantiated by a new
+On 2026-05-17, the request "Continue with FJ88 by running a bounded
+known-route / prior-art blocker audit for CAND-T001-004" was accepted as
+payload `PAY-T001-BS23-ROUTE-PRIORART-2026-001`.
+
+FJ88 verifies that `CAND-T001-004` is already covered by the
+Gandini--Meinert--Rueping graph-of-abelian-groups route. This resolves the
+route/prior-art blocker for this candidate row. It does not compute the
+kernel, does not compute Brown/BNS data, and does not prove global `T-001`.
+
+### Relevant modules
+
+- FJ82
+- FJ86
+- FJ87
+- FJ88
+
+### Dependencies
+
+`ledgers/payload_intake_protocol.md`, `OBL-C5-008`, `OBL-C5-009`,
+`OBL-T001-017`, `ER-015`,
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
+`ledgers/theorem_dependencies.md`, `NOTATION_LEDGER.md`, and `AGENTS.md`.
+
+### Next action
+
+Resolved by `FJ88`. Continue only through `OQ-110` if a new accepted payload
+is recorded.
+
+## OQ-110. Which accepted payload, if any, should instantiate FJ89 after the FJ88 G_BS23 known-route / prior-art audit?
+
+### Status
+
+Open inside project; blocked until a new accepted payload is recorded.
+
+### Context
+
+FJ88 records that `CAND-T001-004`, \(G_{BS23}=BS(2,3)\), is already covered
+by the Gandini--Meinert--Rueping graph-of-abelian-groups route. The candidate
+is no longer a live non-routed residual row. Kernel control remains
+uncomputed, but no kernel computation is required to route this candidate.
+
+No `FJ89` module is selected. A future module must be instantiated by a new
 accepted payload with exact target gate, changed project object, success
 criterion, failure criterion, and stop condition.
 
@@ -4279,15 +4320,17 @@ criterion, failure criterion, and stop condition.
 - FJ82
 - FJ86
 - FJ87
+- FJ88
 
 ### Dependencies
 
-`ledgers/payload_intake_protocol.md`, `OBL-C5-008`, `OBL-T001-017`,
+`ledgers/payload_intake_protocol.md`, `OBL-C5-009`,
 `ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
 `ledgers/theorem_dependencies.md`, `NOTATION_LEDGER.md`, and `AGENTS.md`.
 
 ### Next action
 
-Record a new accepted payload before instantiating `FJ88`. A useful payload
-would check Brown/BNS/kernel control, known-route overlap, FJ83 weaker
-\(K_0\) eligibility, or a prior-art blocker for `CAND-T001-004`.
+Record a new accepted payload before instantiating `FJ89`. A useful payload
+should name a new candidate, source theorem, bridge, computation,
+formulation comparison, or prior-art blocker that changes a repository
+object. Do not continue with \(G_{BS23}\) as if it were still non-routed.

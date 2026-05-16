@@ -1598,7 +1598,43 @@ completes `OBL-T001-016` only for the torsion-free-status component, records
 `OQ-109`, and makes no full `T-001` claim, no coefficient FJC claim, no
 `FJCw` or `FICwF` claim, and no residual subtraction.
 
-The next project move is not a numbered module. A future `FJ88` may be
+The next project move after `FJ87` was not automatic. It became `FJ88` only
+after accepted known-route / prior-art blocker payload
+`PAY-T001-BS23-ROUTE-PRIORART-2026-001` was recorded under the payload
+protocol.
+
+## FJ88 G_BS23 known-route / prior-art blocker audit
+
+Current status: `FJ88` has first-pass coverage as the \(G_{BS23}\)
+Known-Route and Prior-Art Blocker Audit.
+
+`FJ88` records accepted payload
+`PAY-T001-BS23-ROUTE-PRIORART-2026-001`, whose object is to determine
+whether
+\[
+G_{BS23}=\langle a,t\mid ta^2t^{-1}a^{-3}\rangle
+\]
+is already removed from the `T-001` residual bucket by a source-verified
+route or prior-art theorem.
+
+The FJ88 decision is source-driven. The group is \(BS(2,3)\). Gandini--
+Meinert--Rueping (2015) prove that fundamental groups of graphs of abelian
+groups lie in their finite-wreath-product, additive-category K- and
+L-theoretic Farrell--Jones class \(C\), and they explicitly include all
+Baumslag--Solitar groups as a corollary. Thus `CAND-T001-004` is already
+covered by a source-verified route.
+
+This is a route closure for one candidate row, not a global theorem for all
+torsion-free one-relator groups. `FJ88` does not compute the kernel of
+\(\chi(t)=1,\chi(a)=0\), does not compute Brown/BNS data, and does not claim
+that the project has solved `T-001`.
+
+`FJ88` resolves `OQ-109`, completes `OBL-C5-008` for FJ88, completes
+`OBL-T001-017` for the known-route / prior-art audit of `CAND-T001-004`,
+records `ER-015`, records `OBL-C5-009` blocking `FJ89` without a new
+accepted payload, creates `OQ-110`, and makes no full `T-001` claim.
+
+The next project move is not a numbered module. A future `FJ89` may be
 instantiated only after a new accepted payload is recorded under
 `ledgers/payload_intake_protocol.md` or in the relevant target ledger.
 

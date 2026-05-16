@@ -601,3 +601,55 @@ cross-check pointing to the finite-wreath-product version for the listed
 inheritance properties. Wang (2015), Theorems A and C, is recorded as a
 warning that plain coefficient finite-index closure is not imported here as
 an unconditional theorem.
+
+## ER-015. Source-verified graph-of-abelian-groups route for Baumslag--Solitar candidates
+
+### Status
+
+Source-verified known-case route and candidate prior-art blocker.
+
+### Statement
+
+Let \(G\) be the fundamental group of a graph of abelian groups. In the
+source formulation of Gandini--Meinert--Rueping (2015), \(G\) lies in the
+class \(C\) of groups satisfying the K- and L-theoretic Farrell--Jones
+conjecture with finite wreath products and coefficients in additive
+categories, with respect to the family of virtually cyclic subgroups.
+
+In particular, all generalized Baumslag--Solitar groups, and hence all
+Baumslag--Solitar groups, lie in this source class \(C\).
+
+For the project candidate
+\[
+G_{BS23}=\langle a,t\mid t a^2t^{-1}a^{-3}\rangle=BS(2,3),
+\]
+this gives a source-verified route and prior-art blocker for
+`CAND-T001-004`.
+
+### Proof location
+
+`modules/cycle_005/FJ88_gbs23_known_route_prior_art_audit.md`
+
+Ledger tables:
+
+`ledgers/known_classes.md`
+
+`ledgers/t001_candidate_inventory.md`
+
+`ledgers/t001_residual.md`
+
+### Assumptions
+
+- This is a finite-wreath-product, additive-category source formulation.
+- The `FJCw`/finite-wreath-product strength flag remains visible under the
+  `FJ02` source-convention policy.
+- This result routes `CAND-T001-004`; it does not prove the global class of
+  torsion-free one-relator groups satisfies Farrell--Jones.
+- No Brown/BNS or kernel-control statement is inferred from this result.
+
+### Source status
+
+Source-verified from Gandini, Meinert, and Rueping (2015), especially the
+definition of the source class \(C\), the main theorem for graphs of abelian
+groups, Example 3.1 for \(BS(p,q)\), and Corollary 1.1 for generalized
+Baumslag--Solitar and Baumslag--Solitar groups.

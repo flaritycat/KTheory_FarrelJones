@@ -173,6 +173,9 @@ Unless explicitly imported later:
 - ER-012: First source-verified one-relator-group Farrell--Jones status ledger, recording conditional routes through hyperbolic, finite-dimensional CAT(0), virtually solvable, and hyperbolic-by-cyclic classes, while keeping the global torsion-free one-relator class unresolved inside the project.
 - ER-013: Source-verified additive-category K-theory formulation and source-convention policy, adopting Bartels--Reich's coefficient formulation and preserving source-label distinctions.
 - ER-014: Source-verified `FJCw` finite-index overgroup bridge, preserving the finite-wreath-product hypothesis and refusing plain coefficient-only finite-index passage.
+- ER-015: Source-verified graph-of-abelian-groups route for Baumslag--Solitar
+  candidates, used in `FJ88` to route `CAND-T001-004` without solving
+  global `T-001`.
 
 ## Current scope
 
@@ -182,10 +185,11 @@ specialization of the additive-category coefficient convention recorded in
 `FJ02`. Here \(R\) is an associative unital ring and \(G\) is a discrete
 group unless stated otherwise.
 
-The active project packet is `C5-PAYLOAD-001`, payload-acquisition protocol
-or project-pause decision after the no-gate-ready audit.
-`T-001`, torsion-free one-relator
-residual gap analysis, remains unresolved but dormant after `FJ66`.
+The active project posture is post-`FJ88` payload gate. `T-001`,
+torsion-free one-relator residual gap analysis, remains unresolved as a
+global target. The concrete row `CAND-T001-004` is no longer live as a
+non-routed residual candidate, because `FJ88` routes it through `ER-015`.
+No `FJ89` module is selected without a new accepted payload.
 
 ## What has been established
 
@@ -541,6 +545,19 @@ Current source toolkit:
 - payload-authorship governance checkpoint: `FJ85` records accepted
   governance payload `PAY-C5-GOV-NEXT-2026-001`, resolves `OQ-106`, creates
   `OBL-C5-006`, and records that no mathematical `FJ86` is selected;
+- candidate-intake audit: `FJ86` records accepted payload
+  `PAY-T001-CAND-BS23-2026-001` and adds `CAND-T001-004` for
+  \(G_{BS23}=\langle a,t\mid ta^2t^{-1}a^{-3}\rangle\), but records no
+  Farrell--Jones route and no residual subtraction;
+- torsion-free / HNN check: `FJ87` records accepted payload
+  `PAY-T001-BS23-TF-HNN-2026-001` and verifies the torsion-free status of
+  `CAND-T001-004` at first pass, without computing kernel control or route
+  status;
+- known-route / prior-art blocker audit: `FJ88` records accepted payload
+  `PAY-T001-BS23-ROUTE-PRIORART-2026-001` and verifies that
+  `CAND-T001-004`, \(G_{BS23}=BS(2,3)\), is already routed by the
+  Gandini--Meinert--Rueping graph-of-abelian-groups theorem; this closes the
+  candidate as a live residual row but does not solve global `T-001`;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -549,4 +566,4 @@ Current source toolkit:
 ## Next mathematical move
 
 No numbered module is currently selected. Record a new accepted payload under
-`ledgers/payload_intake_protocol.md` before instantiating `FJ86`.
+`ledgers/payload_intake_protocol.md` before instantiating `FJ89`.

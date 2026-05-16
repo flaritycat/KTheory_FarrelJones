@@ -28,6 +28,7 @@ No external source was checked for this ledger.
 | --- | --- | --- | --- |
 | `PAY-T001-CAND` | A candidate-admissible `T-001` row with presentation, relator status, torsion-free status, residual bucket, route-output target, formulation-safety note, prior-art risk, and next proof obligation | `ledgers/t001_candidate_inventory.md` | Stop if the row is a placeholder, calibration example, already routed case, or lacks a route-output target. |
 | `PAY-T001-BRIDGE` | Exact bridge lemma, computation, or source theorem that changes a `T-001` candidate, residual bucket, or route-output status | `ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`, or `ledgers/t001_kernel_recognition.md` | Stop if hypotheses, formulation level, or prior-art comparison are missing. |
+| `PAY-T001-BLOCKER` | Exact known-route, prior-art, or obstruction object tied to a `T-001` candidate or residual row | `ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`, or a route ledger | Stop if no candidate, theorem payload, route claim, or blocker object is named. |
 | `PAY-ARTIN` | Named Artin graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object | `ledgers/artin_subclass_gap_inventory.md` or `ledgers/open_group_classes.md` | Stop if the item is merely "all Artin groups" or an unnamed outside subclass. |
 | `PAY-FND` | Exact foundational source payload with current proof/candidate/route need, changed project object, source status, and stop condition | `NOTATION_LEDGER.md`, `ledgers/theorem_dependencies.md`, or a module depending on the convention | Stop if the item is broad background or a bibliography-only task. |
 | `PAY-FORM` | Exact formulation-comparison payload for coefficient K-theory, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, or finite-index inheritance | `NOTATION_LEDGER.md`, `ledgers/inheritance_properties.md`, or `ledgers/theorem_dependencies.md` | Stop if the comparison would be used without exact hypotheses. |
@@ -79,6 +80,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-C5-GOV-NEXT-2026-001` | `PAY-GOV` | accepted for `FJ85` only | Governance payload interpreting "paste the next payload, then continue" after `FJ84`. Accepted only to record that no mathematical payload is present and to update the next gate; not for source work, proof work, or residual subtraction. |
 | `PAY-T001-CAND-BS23-2026-001` | `PAY-T001-CAND` | accepted for `FJ86` only | Concrete Baumslag--Solitar-type candidate-intake payload for \(G_{BS23}=\langle a,t\mid t a^2t^{-1}a^{-3}\rangle\). Accepted only for candidate-admissibility audit and ledger update; not for full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
 | `PAY-T001-BS23-TF-HNN-2026-001` | `PAY-T001-BRIDGE` | accepted for `FJ87` only | Bounded torsion-free / HNN status check for `CAND-T001-004`, \(G_{BS23}\). Accepted only to update candidate status; not for kernel control, full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
+| `PAY-T001-BS23-ROUTE-PRIORART-2026-001` | `PAY-T001-BLOCKER` | accepted for `FJ88` only | Bounded known-route / prior-art blocker audit for `CAND-T001-004`, \(G_{BS23}=BS(2,3)\). Accepted only to check whether the candidate is already source-routed or prior-art-blocked; not for Brown/BNS computation, kernel control, global `T-001`, or a new residual method. |
 
 ## Accepted intake records
 
@@ -182,6 +184,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for FJ87 torsion-free / HNN status check only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ87_gbs23_torsion_free_hnn_check.md` |
 
+### `PAY-T001-BS23-ROUTE-PRIORART-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-T001-BS23-ROUTE-PRIORART-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-T001-BLOCKER` |
+| Target gate | `OQ-109`, `OBL-C5-008`, and `OBL-T001-017`. |
+| Candidate, source, bridge, computation, or blocker | Candidate row `CAND-T001-004`: \(G_{BS23}=\langle a,t\mid t a^2t^{-1}a^{-3}\rangle=BS(2,3)\). |
+| Exact statement or object | Run FJ88 as a bounded known-route / prior-art blocker audit for `CAND-T001-004`, checking whether \(G_{BS23}\) is already removed from the `T-001` residual bucket by an existing source-verified route or prior-art theorem. |
+| APA citation if external source is used | Gandini, G., Meinert, S., & Rueping, H. (2015). The Farrell-Jones conjecture for fundamental groups of graphs of abelian groups. *Groups, Geometry, and Dynamics, 9*(3), 783--792. https://doi.org/10.4171/GGD/327. |
+| Source-status label | external source located and checked at first-pass level in `FJ88`; exact theorem, formulation level, and Baumslag--Solitar corollary recorded; promoted only as a candidate route/prior-art blocker, not as global `T-001`. |
+| Hypotheses and formulation level | \(G_{BS23}\) is \(BS(2,3)\), hence the fundamental group of a finite graph of infinite cyclic groups. Gandini--Meinert--Rueping's source class \(C\) is K- and L-theoretic Farrell--Jones with finite wreath products and coefficients in additive categories. Do not identify this with full \(\mathcal{FJ}\), `FICwF`, or a global torsion-free one-relator theorem without separate comparison. |
+| Repository object changed | `modules/cycle_005/FJ88_gbs23_known_route_prior_art_audit.md`; `ledgers/payload_intake_protocol.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `BIBLIOGRAPHY.md`; `ledgers/source_status.md`; `ESTABLISHED_RESULTS.md`; `SCOPE_LEDGER.md`; `NOTATION_LEDGER.md`; `ledgers/known_classes.md`; `ledgers/open_group_classes.md`. |
+| Success criterion | FJ88 records whether \(G_{BS23}\) is already routed, blocked by missing route hypotheses, or useful as a prior-art obstruction. If a theorem is used, record exact source, exact hypotheses, and formulation level. |
+| Failure criterion | The module becomes only a broad Baumslag--Solitar survey, cannot verify theorem hypotheses, or cannot connect any source to the project's route ledger. |
+| Stop condition | Stop after the known-route / prior-art blocker audit and ledger update. Do not compute Brown/BNS data or kernel control unless needed only to check a named route hypothesis. Do not create `FJ89`. |
+| Accepted? | Yes, for FJ88 known-route / prior-art blocker audit only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ88_gbs23_known_route_prior_art_audit.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -232,6 +254,9 @@ After `FJ85`, accepted candidate-intake payload
 After `FJ86`, accepted torsion-free / HNN status payload
 `PAY-T001-BS23-TF-HNN-2026-001` instantiated `FJ87`.
 
+After `FJ87`, accepted known-route / prior-art blocker payload
+`PAY-T001-BS23-ROUTE-PRIORART-2026-001` instantiated `FJ88`.
+
 `FJ84` records that no currently recorded `T-001` candidate/family row is
 eligible for project use of the FJ83 weaker \(K_0\) / Cohen--Lyndon payload.
 This is not a full `T-001` theorem and not a residual subtraction.
@@ -246,10 +271,15 @@ subtraction.
 `FJ87` records \(G_{BS23}\) as torsion-free at first pass by an HNN /
 Bass--Serre argument. It does not compute kernel control, does not identify a
 Farrell--Jones route, and does not remove a residual bucket. After `FJ87`, no
-`FJ88` module is selected. A future `FJ88` may be created only after a new
-accepted payload row is added above or an equivalent accepted payload is
-recorded in the relevant target ledger.
+`FJ88` module is selected without a new accepted payload.
 
-The latest accepted payload, `PAY-T001-BS23-TF-HNN-2026-001`, changes the
-state by instantiating `FJ87`; the earlier rejected intake attempts through
-`REJECTED-PAYLOAD-030` do not instantiate any module.
+`FJ88` records \(G_{BS23}=BS(2,3)\) as already covered by the
+Gandini--Meinert--Rueping graph-of-abelian-groups route. It does not compute
+kernel control and does not prove global `T-001`. After `FJ88`, no `FJ89`
+module is selected. A future `FJ89` may be created only after a new accepted
+payload row is added above or an equivalent accepted payload is recorded in
+the relevant target ledger.
+
+The latest accepted payload, `PAY-T001-BS23-ROUTE-PRIORART-2026-001`,
+changes the state by instantiating `FJ88`; the earlier rejected intake
+attempts through `REJECTED-PAYLOAD-030` do not instantiate any module.
