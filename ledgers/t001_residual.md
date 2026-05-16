@@ -61,6 +61,9 @@ prior-art comparison unresolved. `FJ88` then verifies that
 \(G_{BS23}=BS(2,3)\) is already covered by the Gandini--Meinert--Rueping
 graph-of-abelian-groups route. The row is therefore no longer a live
 non-routed residual candidate, but this does not solve global `T-001`.
+`FJ89` then audits the current candidate inventory after this closure and
+records no-live-candidate blocker `NLC-T001-001`: no current row is live,
+non-routed, and candidate-admissible.
 `reflections/cycle_003_reflection.md`
 closes the third cycle and selects `FJ61` to set candidate-intake and exit
 criteria for the next `T-001` decision. `FJ61` records `OBL-T001-008`, the
@@ -955,3 +958,23 @@ Residual-bucket effect:
 The \(G_{BS23}\) row should not be used as the next residual proof target
 unless a later accepted payload names a different bounded object. Its
 Farrell--Jones route status is already resolved at first pass.
+
+## FJ89 live-candidate audit after G_BS23 closure
+
+`FJ89` records accepted payload `PAY-T001-LIVE-CAND-AUDIT-2026-001` and
+audits the current candidate rows after the FJ88 closure of `CAND-T001-004`.
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- `CAND-T001-001` remains calibration-only and already non-residual;
+- `CAND-T001-002` and `CAND-T001-003` remain routed through `FJ26`;
+- `CAND-T001-004` remains source-routed / prior-art-blocked through `ER-015`;
+- `TPL-RB003-004-008` remains a placeholder, not a mathematical candidate;
+- no live non-routed `T-001` candidate row remains in the current inventory.
+
+This records `NLC-T001-001`, the no-live-candidate blocker after the FJ88
+closure. Future residual-bucket work requires a new accepted payload
+supplying a concrete candidate, exact bridge, computation, source theorem,
+formulation comparison, or prior-art object. No `FJ90` module is selected.

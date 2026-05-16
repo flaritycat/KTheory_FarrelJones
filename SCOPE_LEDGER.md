@@ -155,7 +155,14 @@ Unless explicitly imported later:
 105. What should the cycle-004 reflection select as the next project move after the no-target/no-source-ready closure path? Tracked as `OQ-101`; first-pass resolved by `reflections/cycle_004_reflection.md`, which selects a cycle-005 reactivation gate audit.
 106. Which recorded reactivation gate, if any, is satisfied at the start of cycle 005? Tracked as `OQ-102`; first-pass resolved by `FJ81`: no recorded reactivation gate is satisfied.
 107. What payload-acquisition protocol or project-pause decision should follow the no-gate-ready audit? Tracked as `OQ-103`; first-pass resolved by `FJ82`, which creates the payload-intake protocol and records a payload-gated pause.
-108. Which accepted payload, if any, should instantiate the next numbered module after the payload-gated pause? Tracked as `OQ-104`; blocked until an accepted payload is recorded.
+108. Which accepted payload, if any, should instantiate the next numbered module after the payload-gated pause? Tracked as `OQ-104`; first-pass resolved by `FJ83`, which verifies the weaker \(K_0\) / Cohen--Lyndon source payload without promoting full `T-001`.
+109. Does any current `T-001` candidate/family satisfy the FJ83 weaker \(K_0\) / Cohen--Lyndon source hypotheses? Tracked as `OQ-105`; first-pass resolved by `FJ84`, which finds no eligible current row.
+110. What payload, if any, should follow the FJ84 candidate-hypothesis audit? Tracked as `OQ-106`; first-pass resolved by `FJ85`, which records a governance-only checkpoint.
+111. Which accepted payload, if any, should instantiate FJ86? Tracked as `OQ-107`; first-pass resolved by `FJ86`, which records `CAND-T001-004`.
+112. Is \(G_{BS23}\) torsion-free? Tracked as `OQ-108`; first-pass resolved by `FJ87`.
+113. Is \(G_{BS23}\) already covered by a known route or prior-art theorem? Tracked as `OQ-109`; first-pass resolved by `FJ88`, which routes the row through `ER-015`.
+114. Which accepted payload, if any, should instantiate FJ89 after FJ88? Tracked as `OQ-110`; resolved by `FJ89`, which records no-live-candidate blocker `NLC-T001-001`.
+115. Which accepted payload, if any, should instantiate FJ90 after FJ89? Tracked as `OQ-111`; open and blocked until a new accepted payload is recorded.
 
 ## Established results
 
@@ -185,11 +192,13 @@ specialization of the additive-category coefficient convention recorded in
 `FJ02`. Here \(R\) is an associative unital ring and \(G\) is a discrete
 group unless stated otherwise.
 
-The active project posture is post-`FJ88` payload gate. `T-001`,
+The active project posture is post-`FJ89` no-live-candidate gate. `T-001`,
 torsion-free one-relator residual gap analysis, remains unresolved as a
 global target. The concrete row `CAND-T001-004` is no longer live as a
 non-routed residual candidate, because `FJ88` routes it through `ER-015`.
-No `FJ89` module is selected without a new accepted payload.
+`FJ89` audits the current inventory and records `NLC-T001-001`: no current
+`T-001` row is live and non-routed. No `FJ90` module is selected without a
+new accepted payload.
 
 ## What has been established
 
@@ -558,6 +567,12 @@ Current source toolkit:
   `CAND-T001-004`, \(G_{BS23}=BS(2,3)\), is already routed by the
   Gandini--Meinert--Rueping graph-of-abelian-groups theorem; this closes the
   candidate as a live residual row but does not solve global `T-001`;
+- live-candidate audit: `FJ89` records accepted payload
+  `PAY-T001-LIVE-CAND-AUDIT-2026-001` and verifies internally that no current
+  `T-001` candidate-inventory row remains live and non-routed after the FJ88
+  closure; it records `NLC-T001-001`, resolves `OQ-110`, completes
+  `OBL-C5-009`, creates `OBL-C5-010` and `OQ-111`, and makes no
+  Farrell--Jones theorem claim;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -566,4 +581,4 @@ Current source toolkit:
 ## Next mathematical move
 
 No numbered module is currently selected. Record a new accepted payload under
-`ledgers/payload_intake_protocol.md` before instantiating `FJ89`.
+`ledgers/payload_intake_protocol.md` before instantiating `FJ90`.

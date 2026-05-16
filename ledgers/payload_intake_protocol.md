@@ -81,6 +81,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-T001-CAND-BS23-2026-001` | `PAY-T001-CAND` | accepted for `FJ86` only | Concrete Baumslag--Solitar-type candidate-intake payload for \(G_{BS23}=\langle a,t\mid t a^2t^{-1}a^{-3}\rangle\). Accepted only for candidate-admissibility audit and ledger update; not for full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
 | `PAY-T001-BS23-TF-HNN-2026-001` | `PAY-T001-BRIDGE` | accepted for `FJ87` only | Bounded torsion-free / HNN status check for `CAND-T001-004`, \(G_{BS23}\). Accepted only to update candidate status; not for kernel control, full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
 | `PAY-T001-BS23-ROUTE-PRIORART-2026-001` | `PAY-T001-BLOCKER` | accepted for `FJ88` only | Bounded known-route / prior-art blocker audit for `CAND-T001-004`, \(G_{BS23}=BS(2,3)\). Accepted only to check whether the candidate is already source-routed or prior-art-blocked; not for Brown/BNS computation, kernel control, global `T-001`, or a new residual method. |
+| `PAY-T001-LIVE-CAND-AUDIT-2026-001` | `PAY-T001-BLOCKER` | accepted for `FJ89` only | Internal live-candidate audit after the FJ88 closure of `CAND-T001-004`. Accepted only to classify current rows and record whether a no-live-candidate blocker remains; not for adding candidates, searching externally, reopening \(G_{BS23}\), global `T-001`, or residual subtraction. |
 
 ## Accepted intake records
 
@@ -204,6 +205,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for FJ88 known-route / prior-art blocker audit only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ88_gbs23_known_route_prior_art_audit.md` |
 
+### `PAY-T001-LIVE-CAND-AUDIT-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-T001-LIVE-CAND-AUDIT-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-T001-BLOCKER` |
+| Target gate | `OQ-110` and `OBL-C5-009`. |
+| Candidate, source, bridge, computation, or blocker | Current `T-001` candidate inventory after FJ88, especially whether any row remains live, non-routed, and candidate-admissible after `CAND-T001-004` was routed by `ER-015`. |
+| Exact statement or object | Audit `ledgers/t001_candidate_inventory.md` and `ledgers/t001_residual.md` to determine whether the repository currently contains any live non-routed `T-001` candidate row after FJ88. Do not add a new mathematical candidate. Classify the current rows as routed, calibration-only, placeholder, blocked, or live. If no live row remains, record a no-live-candidate blocker and the next payload requirements. |
+| APA citation if external source is used | No external source is used. |
+| Source-status label | No new external source checked; internal ledger audit only. |
+| Hypotheses and formulation level | Project-governance / candidate-status audit only. Do not claim full Farrell--Jones, coefficient FJC, `FJCw`, `FICwF`, or a new residual subtraction. Do not reopen \(G_{BS23}\) as unresolved after FJ88. |
+| Repository object changed | `modules/cycle_005/FJ89_live_candidate_audit_after_gbs23_closure.md`; `ledgers/payload_intake_protocol.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `SCOPE_LEDGER.md`; `NOTATION_LEDGER.md`. |
+| Success criterion | FJ89 records whether any live non-routed `T-001` candidate remains after FJ88. If none remains, it records the exact blocker and the requirements for a future payload to introduce a new candidate, bridge, computation, source theorem, or prior-art object. |
+| Failure criterion | The module invents a candidate, starts a broad source survey, treats \(G_{BS23}\) as unresolved, or makes a Farrell--Jones theorem claim. |
+| Stop condition | Stop after the live-candidate audit and ledger update. Do not create `FJ90`. Do not search for new candidates externally. |
+| Accepted? | Yes, for FJ89 live-candidate audit only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ89_live_candidate_audit_after_gbs23_closure.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -257,6 +278,9 @@ After `FJ86`, accepted torsion-free / HNN status payload
 After `FJ87`, accepted known-route / prior-art blocker payload
 `PAY-T001-BS23-ROUTE-PRIORART-2026-001` instantiated `FJ88`.
 
+After `FJ88`, accepted internal live-candidate audit payload
+`PAY-T001-LIVE-CAND-AUDIT-2026-001` instantiated `FJ89`.
+
 `FJ84` records that no currently recorded `T-001` candidate/family row is
 eligible for project use of the FJ83 weaker \(K_0\) / Cohen--Lyndon payload.
 This is not a full `T-001` theorem and not a residual subtraction.
@@ -275,11 +299,16 @@ Farrell--Jones route, and does not remove a residual bucket. After `FJ87`, no
 
 `FJ88` records \(G_{BS23}=BS(2,3)\) as already covered by the
 Gandini--Meinert--Rueping graph-of-abelian-groups route. It does not compute
-kernel control and does not prove global `T-001`. After `FJ88`, no `FJ89`
-module is selected. A future `FJ89` may be created only after a new accepted
-payload row is added above or an equivalent accepted payload is recorded in
-the relevant target ledger.
+kernel control and does not prove global `T-001`.
 
-The latest accepted payload, `PAY-T001-BS23-ROUTE-PRIORART-2026-001`,
-changes the state by instantiating `FJ88`; the earlier rejected intake
+`FJ89` records that no current `T-001` candidate-inventory row remains live
+and non-routed after the FJ88 closure. It records no-live-candidate blocker
+`NLC-T001-001`, completes `OBL-C5-009`, resolves `OQ-110`, and creates
+`OBL-C5-010` and `OQ-111`. After `FJ89`, no `FJ90` module is selected. A
+future `FJ90` may be created only after a new accepted payload row is added
+above or an equivalent accepted payload is recorded in the relevant target
+ledger.
+
+The latest accepted payload, `PAY-T001-LIVE-CAND-AUDIT-2026-001`, changes
+the state by instantiating `FJ89`; the earlier rejected intake
 attempts through `REJECTED-PAYLOAD-030` do not instantiate any module.

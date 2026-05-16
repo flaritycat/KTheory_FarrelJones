@@ -21,7 +21,8 @@ by `FJ83` with the weaker \(K_0\) / Cohen--Lyndon source-payload update,
 and by `FJ84` with the candidate/family-level hypothesis audit for that
 payload, by `FJ86` with the \(G_{BS23}\) candidate-intake audit, by
 `FJ87` with the \(G_{BS23}\) torsion-free / HNN check, and by `FJ88` with
-the \(G_{BS23}\) known-route / prior-art blocker audit.
+the \(G_{BS23}\) known-route / prior-art blocker audit, and by `FJ89` with
+the live-candidate audit after the \(G_{BS23}\) closure.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -85,6 +86,14 @@ already covered by the Gandini--Meinert--Rueping graph-of-abelian-groups
 route. The row is no longer a live non-routed residual candidate. Kernel
 control remains uncomputed, but no kernel computation is required to route
 this candidate. No global `T-001` theorem is claimed.
+
+Current status after `FJ89`: accepted payload
+`PAY-T001-LIVE-CAND-AUDIT-2026-001` audits the current inventory after the
+FJ88 closure. No current row is live and non-routed. `CAND-T001-001` is
+calibration-only, `CAND-T001-002` and `CAND-T001-003` are routed through
+`FJ26`, `CAND-T001-004` is source-routed / prior-art-blocked by `FJ88`, and
+`TPL-RB003-004-008` is only a placeholder. The no-live-candidate blocker is
+recorded as `NLC-T001-001`.
 
 Current status after `reflections/cycle_003_reflection.md`: `T-001` remains
 important but is not currently candidate-ready. The next module is `FJ61`,
@@ -492,9 +501,30 @@ this candidate's route status. Future use of this row should treat it as a
 source-routed calibration/prior-art example unless a later accepted payload
 asks a different bounded question.
 
+## FJ89 live-candidate audit after G_BS23 closure
+
+`FJ89` records accepted payload `PAY-T001-LIVE-CAND-AUDIT-2026-001` and
+audits the current inventory after the FJ88 closure of `CAND-T001-004`.
+
+Audit result:
+
+| Candidate row | FJ89 classification | Live non-routed? | Reason |
+|---|---|---|---|
+| `CAND-T001-001` | calibration-only / already non-residual | no | The row is the abelian calibration example already covered by the virtually solvable route; it is not a new residual target. |
+| `CAND-T001-002` | routed | no | The row is already removed through the `FJ26` finite-rank free-by-cyclic route. |
+| `CAND-T001-003` | routed family | no | The family is already removed through the `FJ26` finite-rank free-by-cyclic route after the `FJ34`/`FJ36` bridge. |
+| `CAND-T001-004` | source-routed / prior-art-blocked | no | `FJ88` routes \(G_{BS23}=BS(2,3)\) through `ER-015`; kernel control remains uncomputed but is not needed for route status. |
+| `TPL-RB003-004-008` | template placeholder | no | No mathematical candidate, presentation, family, route-output target, or proof obligation is recorded. |
+
+Conclusion: no current candidate-inventory row is live and non-routed after
+`FJ88`. This records no-live-candidate blocker `NLC-T001-001`. Future `T-001`
+work requires a new accepted payload supplying a concrete candidate, exact
+bridge, computation, source theorem, formulation comparison, or prior-art
+object that changes a repository ledger.
+
 ## Next update
 
-No active `T-001` proof-target update is scheduled after `FJ88` unless a
+No active `T-001` proof-target update is scheduled after `FJ89` unless a
 future accepted payload supplies a new candidate, source theorem, bridge,
 computation, formulation comparison, or prior-art blocker satisfying the
-payload protocol. No `FJ89` module is selected without a new accepted payload.
+payload protocol. No `FJ90` module is selected without a new accepted payload.

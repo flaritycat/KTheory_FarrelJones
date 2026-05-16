@@ -1634,7 +1634,41 @@ that the project has solved `T-001`.
 records `ER-015`, records `OBL-C5-009` blocking `FJ89` without a new
 accepted payload, creates `OQ-110`, and makes no full `T-001` claim.
 
-The next project move is not a numbered module. A future `FJ89` may be
+The next project move after `FJ88` was not automatic. It became `FJ89` only
+after accepted internal live-candidate audit payload
+`PAY-T001-LIVE-CAND-AUDIT-2026-001` was recorded under the payload protocol.
+
+## FJ89 live-candidate audit after G_BS23 closure
+
+Current status: `FJ89` has first-pass coverage as the Live-Candidate Audit
+After \(G_{BS23}\) Closure.
+
+`FJ89` records accepted payload `PAY-T001-LIVE-CAND-AUDIT-2026-001`, whose
+object is to audit the current `T-001` candidate inventory after the FJ88
+route closure of `CAND-T001-004`.
+
+The FJ89 decision is internal and finite. The current rows are classified as
+follows:
+
+- `CAND-T001-001`: calibration-only / already non-residual;
+- `CAND-T001-002`: routed through `FJ26`;
+- `CAND-T001-003`: routed through `FJ26` after the recorded
+  `FJ34`/`FJ36` bridge;
+- `CAND-T001-004`: source-routed / prior-art-blocked by `FJ88` through
+  `ER-015`;
+- `TPL-RB003-004-008`: template placeholder only.
+
+Thus no current `T-001` candidate row is live and non-routed. This is a
+project-state blocker, not a theorem about torsion-free one-relator groups.
+`FJ89` does not add a candidate, search externally, reopen \(G_{BS23}\), or
+claim any Farrell--Jones theorem.
+
+`FJ89` resolves `OQ-110`, completes `OBL-C5-009`, records the
+no-live-candidate blocker `NLC-T001-001`, creates `OBL-C5-010` blocking
+`FJ90` without a new accepted payload, creates `OQ-111`, and makes no full
+`T-001` claim.
+
+The next project move is not a numbered module. A future `FJ90` may be
 instantiated only after a new accepted payload is recorded under
 `ledgers/payload_intake_protocol.md` or in the relevant target ledger.
 

@@ -4302,7 +4302,7 @@ is recorded.
 
 ### Status
 
-Open inside project; blocked until a new accepted payload is recorded.
+Resolved by `FJ89`.
 
 ### Context
 
@@ -4311,9 +4311,10 @@ by the Gandini--Meinert--Rueping graph-of-abelian-groups route. The candidate
 is no longer a live non-routed residual row. Kernel control remains
 uncomputed, but no kernel computation is required to route this candidate.
 
-No `FJ89` module is selected. A future module must be instantiated by a new
-accepted payload with exact target gate, changed project object, success
-criterion, failure criterion, and stop condition.
+Accepted payload `PAY-T001-LIVE-CAND-AUDIT-2026-001` instantiated `FJ89` as
+an internal live-candidate audit. FJ89 checks the current inventory and
+records no-live-candidate blocker `NLC-T001-001`: no current row remains
+live and non-routed after the FJ88 closure.
 
 ### Relevant modules
 
@@ -4321,6 +4322,7 @@ criterion, failure criterion, and stop condition.
 - FJ86
 - FJ87
 - FJ88
+- FJ89
 
 ### Dependencies
 
@@ -4330,7 +4332,46 @@ criterion, failure criterion, and stop condition.
 
 ### Next action
 
-Record a new accepted payload before instantiating `FJ89`. A useful payload
-should name a new candidate, source theorem, bridge, computation,
-formulation comparison, or prior-art blocker that changes a repository
-object. Do not continue with \(G_{BS23}\) as if it were still non-routed.
+Resolved by `FJ89`. Continue only through `OQ-111` if a new accepted payload
+is recorded. Do not continue with \(G_{BS23}\) as if it were still
+non-routed.
+
+## OQ-111. Which accepted payload, if any, should instantiate FJ90 after the FJ89 no-live-candidate audit?
+
+### Status
+
+Open inside project; blocked until a new accepted payload is recorded.
+
+### Context
+
+FJ89 records that no current `T-001` candidate-inventory row is live and
+non-routed after the FJ88 closure of `CAND-T001-004`. The current rows are
+classified as calibration-only, routed, source-routed / prior-art-blocked,
+or placeholder. This is a project-state blocker, not a theorem about
+torsion-free one-relator groups.
+
+No `FJ90` module is selected. A future module must be instantiated by a new
+accepted payload with exact target gate, changed project object, success
+criterion, failure criterion, and stop condition.
+
+### Relevant modules
+
+- FJ82
+- FJ86
+- FJ87
+- FJ88
+- FJ89
+
+### Dependencies
+
+`ledgers/payload_intake_protocol.md`, `OBL-C5-010`, `NLC-T001-001`,
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
+`ledgers/theorem_dependencies.md`, `NOTATION_LEDGER.md`, and `AGENTS.md`.
+
+### Next action
+
+Record a new accepted payload before instantiating `FJ90`. A useful payload
+must supply a concrete new candidate or family, exact source theorem, bridge
+lemma, computation, formulation comparison, or prior-art object that changes
+a repository object. Do not create a source-summary module without such an
+object.

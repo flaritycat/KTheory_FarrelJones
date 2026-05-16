@@ -255,7 +255,11 @@ Current module handoff:
 - `FJ83`: K0 Cohen--Lyndon Payload Verification is completed.
 - `FJ84`: K0 Cohen--Lyndon Candidate Hypothesis Audit is completed.
 - `FJ85`: Payload Authorship Checkpoint After FJ84 is completed.
-- `FJ86`: no module selected; instantiate only from a new accepted payload.
+- `FJ86`: T-001 Candidate Intake Audit for \(G_{BS23}\) is completed.
+- `FJ87`: G_BS23 Torsion-Free HNN Check is completed.
+- `FJ88`: G_BS23 Known-Route and Prior-Art Blocker Audit is completed.
+- `FJ89`: Live-Candidate Audit After G_BS23 Closure is completed.
+- `FJ90`: no module selected; instantiate only from a new accepted payload.
 
 Current obstruction:
 
@@ -278,6 +282,12 @@ Current obstruction:
   theorem-promotion caution.
 - `OBL-T001-015`: future use of the FJ83 payload requires a new or amended
   `T-001` candidate/family row recording the full FJ83 hypothesis package.
+- `OBL-T001-017`: completed for route/prior-art status of `CAND-T001-004` by
+  `FJ88`; do not treat \(G_{BS23}\) as a live non-routed residual candidate
+  unless a later accepted payload names a different bounded object.
+- `NLC-T001-001`: `FJ89` records that no current `T-001` candidate-inventory
+  row is live and non-routed after the FJ88 closure. This is a project-state
+  blocker, not a theorem about torsion-free one-relator groups.
 - Cycle-003 reflection obstruction: `T-001` has no live non-routed candidate
   row. `FJ61` must either define a legitimate intake branch, require a
   concrete bridge/computation, recommend pausing `T-001`, or compare target
@@ -393,6 +403,17 @@ Current obstruction:
   is recorded under `ledgers/payload_intake_protocol.md` or in the relevant
   target ledger. The payload must name exact target, changed project object,
   success criterion, failure criterion, and stop condition.
+- `OBL-C5-007`: completed by accepted payload
+  `PAY-T001-BS23-TF-HNN-2026-001`, which instantiated `FJ87`.
+- `OBL-C5-008`: completed by accepted payload
+  `PAY-T001-BS23-ROUTE-PRIORART-2026-001`, which instantiated `FJ88`.
+- `OBL-C5-009`: completed by accepted payload
+  `PAY-T001-LIVE-CAND-AUDIT-2026-001`, which instantiated `FJ89`.
+- `OBL-C5-010`: no `FJ90` module may be created until a new accepted payload
+  is recorded under `ledgers/payload_intake_protocol.md` or in the relevant
+  target ledger. The payload must supply a concrete candidate, bridge,
+  computation, source theorem, formulation comparison, or prior-art object
+  with success criterion, failure criterion, and stop condition.
 
 ## Repository Hygiene
 
