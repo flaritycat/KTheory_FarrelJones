@@ -71,6 +71,12 @@ acquisition from current repository records. The next step is `FJ64`,
 Candidate Intake Attempt or No-Candidate Note. `FJ64` must execute the
 packet rather than redesign the cycle-004 plan.
 
+After `FJ64`, `DAP-T001-001` has been executed with a no-candidate note: no
+current repository row can be promoted to candidate-admissible status without
+external source acquisition or fabrication. The next step is `FJ65`,
+Prior-Art / Branch-Readiness Checkpoint. `FJ65` must not begin a source
+summary unless it identifies an exact project object changed.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -83,7 +89,8 @@ Current module handoff:
 - `FJ61`: T-001 Candidate-Intake Reset and Exit Criteria is completed.
 - `FJ62`: Active Blocker Pruning for `T-001` is completed.
 - `FJ63`: Candidate-Data Acquisition Packet is completed.
-- `FJ64`: Candidate Intake Attempt or No-Candidate Note is next.
+- `FJ64`: Candidate Intake Attempt or No-Candidate Note is completed.
+- `FJ65`: Prior-Art / Branch-Readiness Checkpoint is next.
 
 Current obstruction:
 
@@ -114,7 +121,12 @@ Current obstruction:
 - `OBL-T001-009`: `FJ63` must select exactly one data-acquisition packet or
   record failure to do so. Candidate-free source surveys are not allowed.
 - `OBL-T001-010`: `FJ64` must execute `DAP-T001-001`. It must either add one
-  candidate-admissible row or record a no-candidate note.
+  candidate-admissible row or record a no-candidate note. `FJ64` records the
+  no-candidate note.
+- `OBL-T001-011`: `FJ65` must check whether the no-candidate state leaves an
+  exact prior-art blocker object, target-pause recommendation, or target-pivot
+  comparison to record. It must not open another source-summary lane without a
+  changed project object.
 
 ## Repository Hygiene
 

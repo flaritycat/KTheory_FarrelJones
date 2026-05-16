@@ -14,7 +14,8 @@ candidate-admissible row or exact computation need is identified. `FJ62`
 preserves kernel recognition only as a possible route-data acquisition path
 for `FJ63`. `FJ63` does not select a kernel-computation packet; kernel
 recognition remains dormant unless `FJ64` produces a candidate row that needs
-it.
+it. `FJ64` records a no-candidate note, so kernel recognition remains dormant
+for the next checkpoint.
 
 ## Warning
 
@@ -289,4 +290,4 @@ presented normal subgroup is recorded.
 
 ## Next action
 
-Begin `FJ64`, Candidate Intake Attempt or No-Candidate Note.
+Begin `FJ65`, Prior-Art / Branch-Readiness Checkpoint.

@@ -966,7 +966,28 @@ must either add one candidate-admissible row to
 not select a new external source, bridge, computation, or target pivot unless
 the candidate-row packet itself produces the required object.
 
-The next step is `FJ64`, Candidate Intake Attempt or No-Candidate Note.
+At this point, the next step was `FJ64`, Candidate Intake Attempt or
+No-Candidate Note.
+
+## FJ64 candidate intake attempt
+
+Current status: `FJ64` has first-pass coverage as the Candidate Intake
+Attempt or No-Candidate Note module. It executes `DAP-T001-001` against the
+current candidate inventory, residual ledger, kernel-recognition ledger, open
+group classes ledger, and open questions.
+
+The route decision after `FJ64` is a no-candidate note: no current repository
+row can be promoted to a candidate-admissible row without importing a new
+source payload or fabricating a family. The concrete rows remain calibration
+or already routed, the template row remains non-mathematical, and no residual
+bucket supplies a named non-routed presentation with route data.
+
+`FJ64` completes `OBL-T001-010`, records `OBL-T001-011`, and selects `FJ65`,
+Prior-Art / Branch-Readiness Checkpoint. The next step must decide whether a
+prior-art blocker object, target-pause recommendation, or target-pivot
+comparison can be recorded, without beginning another source-summary lane.
+
+The next step is `FJ65`, Prior-Art / Branch-Readiness Checkpoint.
 
 ## GitHub persistence policy
 

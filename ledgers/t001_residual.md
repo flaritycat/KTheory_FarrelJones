@@ -52,7 +52,9 @@ candidate-intake gate, and selects `FJ62` for active blocker pruning. `FJ62`
 records `OBL-T001-009`, prunes active blockers, and selects `FJ63`,
 Candidate-Data Acquisition Packet. `FJ63` selects `DAP-T001-001`,
 candidate-row acquisition from current repository records, and sends the
-project to `FJ64`.
+project to `FJ64`. `FJ64` executes that packet and records a no-candidate
+note: no current repository row can be promoted without new source acquisition
+or fabrication.
 
 ## Warning
 
@@ -764,4 +766,17 @@ as the packet that `FJ64` must execute.
 
 ## Next action after FJ63
 
-Begin `FJ64`, Candidate Intake Attempt or No-Candidate Note.
+At this point the next module was `FJ64`, Candidate Intake Attempt or
+No-Candidate Note.
+
+## FJ64 candidate intake attempt update
+
+`FJ64` records no residual subtraction and no new theorem. It executes
+`DAP-T001-001` and records a no-candidate note: the concrete candidate rows
+are calibration-only or already routed, the template row is not a
+mathematical candidate, and no residual bucket supplies a named non-routed
+presentation with route data.
+
+## Next action after FJ64
+
+Begin `FJ65`, Prior-Art / Branch-Readiness Checkpoint.

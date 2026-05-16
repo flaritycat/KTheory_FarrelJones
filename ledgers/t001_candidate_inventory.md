@@ -11,7 +11,8 @@ the no-weaker-consequence-source-payload obstruction, by `FJ60` with
 the inactive-consequence-lane obstruction, and by
 `reflections/cycle_003_reflection.md` with the cycle-004 candidate-intake
 reset, by `FJ61` with the candidate-intake gate, by `FJ62` with active
-blocker pruning, and by `FJ63` with selected packet `DAP-T001-001`.
+blocker pruning, by `FJ63` with selected packet `DAP-T001-001`, and by
+`FJ64` with the no-candidate note for that packet.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -61,6 +62,10 @@ packet or record failure to do so.
 Current status after `FJ63`: selected packet `DAP-T001-001` is candidate-row
 acquisition from current repository records. `FJ64` must either add one
 candidate-admissible row or record a no-candidate note.
+
+Current status after `FJ64`: `DAP-T001-001` produces a no-candidate note. No
+current repository row can be promoted to candidate-admissible status without
+external source acquisition or fabrication.
 
 Guiding question:
 
@@ -181,7 +186,8 @@ For every future candidate row, record:
 | `OBL-T001-007` | active obstruction | `FJ60` | The weaker \(K_0\) / Cohen--Lyndon consequence lane is inactive after no exact source payload was available for selection. | `FJ61` completed the candidate-intake reset; reopen this lane only with an exact source payload. | Do not continue the weaker consequence lane through source summaries or theorem names alone. |
 | `OBL-T001-008` | active requirement | `FJ61` | Candidate-intake gate: no cycle-004 `T-001` module may launch a proof attempt, source verification, or route subtraction unless it identifies a candidate-admissible row or exact bridge, computation, source payload, prior-art blocker, target-pause recommendation, or target-pivot comparison that changes a project object. | Use `FJ62` to prune active blockers before candidate-data acquisition. | If no admissible object appears by `FJ66`, recommend pausing `T-001` as an active proof-target sequence or compare target pivots. |
 | `OBL-T001-009` | active requirement | `FJ62` | Exact data-acquisition packet requirement: `FJ63` must select exactly one candidate-row, bridge-lemma, computation, source-payload, prior-art blocker, target-pause, or target-pivot packet, or record failure to do so. | Use `FJ63` to choose the packet and state the project object changed. | A broad source survey does not satisfy this obligation. |
-| `OBL-T001-010` | active requirement | `FJ63` | `FJ64` must execute `DAP-T001-001`, candidate-row acquisition from current repository records. | Add one candidate-admissible row or record a no-candidate note. | Do not promote a placeholder, calibration example, or already routed row if no row satisfies the `FJ61` checklist. |
+| `OBL-T001-010` | completed first pass | `FJ63`; completed by `FJ64` | `FJ64` must execute `DAP-T001-001`, candidate-row acquisition from current repository records. | `FJ64` records a no-candidate note. | Do not promote a placeholder, calibration example, or already routed row if no row satisfies the `FJ61` checklist. |
+| `OBL-T001-011` | active requirement | `FJ64` | `FJ65` must perform a prior-art / branch-readiness checkpoint after the no-candidate note. | Record an exact prior-art blocker object, target-pause recommendation, target-pivot comparison, or send the project to `FJ66`. | Do not open another source-summary lane without an exact project object changed. |
 
 ## Cycle 003 reflection update
 
@@ -228,6 +234,20 @@ The packet changes this ledger only if `FJ64` adds a candidate-admissible row
 or records a no-candidate note. It does not authorize an external source
 search by itself.
 
+## FJ64 no-candidate note
+
+`FJ64` executes `DAP-T001-001` and records the no-candidate outcome.
+
+Audit result:
+
+- `CAND-T001-001` remains calibration-only and already non-residual;
+- `CAND-T001-002` remains already routed through `FJ26`;
+- `CAND-T001-003` remains already routed through `FJ26`;
+- `TPL-RB003-004-008` remains a placeholder, not a mathematical candidate;
+- no residual bucket supplies a named non-routed presentation with route data.
+
+No candidate-admissible row is added by `FJ64`.
+
 ## Non-use warnings
 
 - Do not fabricate candidate families.
@@ -241,4 +261,4 @@ search by itself.
 
 ## Next update
 
-Begin `FJ64`, Candidate Intake Attempt or No-Candidate Note.
+Begin `FJ65`, Prior-Art / Branch-Readiness Checkpoint.
