@@ -50,7 +50,9 @@ closes the third cycle and selects `FJ61` to set candidate-intake and exit
 criteria for the next `T-001` decision. `FJ61` records `OBL-T001-008`, the
 candidate-intake gate, and selects `FJ62` for active blocker pruning. `FJ62`
 records `OBL-T001-009`, prunes active blockers, and selects `FJ63`,
-Candidate-Data Acquisition Packet.
+Candidate-Data Acquisition Packet. `FJ63` selects `DAP-T001-001`,
+candidate-row acquisition from current repository records, and sends the
+project to `FJ64`.
 
 ## Warning
 
@@ -752,4 +754,14 @@ acquisition, route-data acquisition, and branch decision as active blockers.
 
 ## Next action after FJ62
 
-Begin `FJ63`, Candidate-Data Acquisition Packet.
+At this point the next module was `FJ63`, Candidate-Data Acquisition Packet.
+
+## FJ63 candidate-data acquisition packet update
+
+`FJ63` records no residual subtraction and no new theorem. It selects
+`DAP-T001-001`, candidate-row acquisition from current repository records,
+as the packet that `FJ64` must execute.
+
+## Next action after FJ63
+
+Begin `FJ64`, Candidate Intake Attempt or No-Candidate Note.

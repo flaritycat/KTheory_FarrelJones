@@ -12,7 +12,9 @@ kernel recognition dormant until `FJ61` defines candidate-intake and exit
 criteria for `T-001`. `FJ61` keeps kernel recognition dormant until a
 candidate-admissible row or exact computation need is identified. `FJ62`
 preserves kernel recognition only as a possible route-data acquisition path
-for `FJ63`.
+for `FJ63`. `FJ63` does not select a kernel-computation packet; kernel
+recognition remains dormant unless `FJ64` produces a candidate row that needs
+it.
 
 ## Warning
 
@@ -287,4 +289,4 @@ presented normal subgroup is recorded.
 
 ## Next action
 
-Begin `FJ63`, Candidate-Data Acquisition Packet.
+Begin `FJ64`, Candidate Intake Attempt or No-Candidate Note.

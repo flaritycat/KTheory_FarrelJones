@@ -10,8 +10,8 @@ audit status, by `FJ57` with the no-candidate endpoint obstruction, and by
 the no-weaker-consequence-source-payload obstruction, by `FJ60` with
 the inactive-consequence-lane obstruction, and by
 `reflections/cycle_003_reflection.md` with the cycle-004 candidate-intake
-reset, by `FJ61` with the candidate-intake gate, and by `FJ62` with active
-blocker pruning.
+reset, by `FJ61` with the candidate-intake gate, by `FJ62` with active
+blocker pruning, and by `FJ63` with selected packet `DAP-T001-001`.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -57,6 +57,10 @@ Current status after `FJ62`: active blockers are pruned to candidate-object
 acquisition, route-data acquisition, and the branch decision about whether
 acquisition succeeds. The next module must select exactly one data-acquisition
 packet or record failure to do so.
+
+Current status after `FJ63`: selected packet `DAP-T001-001` is candidate-row
+acquisition from current repository records. `FJ64` must either add one
+candidate-admissible row or record a no-candidate note.
 
 Guiding question:
 
@@ -177,6 +181,7 @@ For every future candidate row, record:
 | `OBL-T001-007` | active obstruction | `FJ60` | The weaker \(K_0\) / Cohen--Lyndon consequence lane is inactive after no exact source payload was available for selection. | `FJ61` completed the candidate-intake reset; reopen this lane only with an exact source payload. | Do not continue the weaker consequence lane through source summaries or theorem names alone. |
 | `OBL-T001-008` | active requirement | `FJ61` | Candidate-intake gate: no cycle-004 `T-001` module may launch a proof attempt, source verification, or route subtraction unless it identifies a candidate-admissible row or exact bridge, computation, source payload, prior-art blocker, target-pause recommendation, or target-pivot comparison that changes a project object. | Use `FJ62` to prune active blockers before candidate-data acquisition. | If no admissible object appears by `FJ66`, recommend pausing `T-001` as an active proof-target sequence or compare target pivots. |
 | `OBL-T001-009` | active requirement | `FJ62` | Exact data-acquisition packet requirement: `FJ63` must select exactly one candidate-row, bridge-lemma, computation, source-payload, prior-art blocker, target-pause, or target-pivot packet, or record failure to do so. | Use `FJ63` to choose the packet and state the project object changed. | A broad source survey does not satisfy this obligation. |
+| `OBL-T001-010` | active requirement | `FJ63` | `FJ64` must execute `DAP-T001-001`, candidate-row acquisition from current repository records. | Add one candidate-admissible row or record a no-candidate note. | Do not promote a placeholder, calibration example, or already routed row if no row satisfies the `FJ61` checklist. |
 
 ## Cycle 003 reflection update
 
@@ -214,6 +219,15 @@ obstruction.
 Deferred foundations, historical trail markers, and pivot-comparison inputs
 remain recorded, but they do not authorize a source-summary module.
 
+## FJ63 selected data-acquisition packet
+
+`FJ63` selects `DAP-T001-001`: candidate-row acquisition from current
+repository records.
+
+The packet changes this ledger only if `FJ64` adds a candidate-admissible row
+or records a no-candidate note. It does not authorize an external source
+search by itself.
+
 ## Non-use warnings
 
 - Do not fabricate candidate families.
@@ -227,4 +241,4 @@ remain recorded, but they do not authorize a source-summary module.
 
 ## Next update
 
-Begin `FJ63`, Candidate-Data Acquisition Packet.
+Begin `FJ64`, Candidate Intake Attempt or No-Candidate Note.

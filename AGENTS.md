@@ -66,6 +66,11 @@ Candidate-Data Acquisition Packet. `FJ63` must select exactly one
 data-acquisition packet or record failure to do so; broad source surveys do
 not satisfy `OBL-T001-009`.
 
+After `FJ63`, the selected packet is `DAP-T001-001`, candidate-row
+acquisition from current repository records. The next step is `FJ64`,
+Candidate Intake Attempt or No-Candidate Note. `FJ64` must execute the
+packet rather than redesign the cycle-004 plan.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -77,7 +82,8 @@ Current module handoff:
 - `reflections/cycle_003_reflection.md` is completed.
 - `FJ61`: T-001 Candidate-Intake Reset and Exit Criteria is completed.
 - `FJ62`: Active Blocker Pruning for `T-001` is completed.
-- `FJ63`: Candidate-Data Acquisition Packet is next.
+- `FJ63`: Candidate-Data Acquisition Packet is completed.
+- `FJ64`: Candidate Intake Attempt or No-Candidate Note is next.
 
 Current obstruction:
 
@@ -107,6 +113,8 @@ Current obstruction:
   that changes a project object.
 - `OBL-T001-009`: `FJ63` must select exactly one data-acquisition packet or
   record failure to do so. Candidate-free source surveys are not allowed.
+- `OBL-T001-010`: `FJ64` must execute `DAP-T001-001`. It must either add one
+  candidate-admissible row or record a no-candidate note.
 
 ## Repository Hygiene
 

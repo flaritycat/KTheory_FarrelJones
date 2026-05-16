@@ -951,7 +951,22 @@ acquisition, and the branch decision about whether acquisition succeeds. The
 module records `OBL-T001-009`, requiring `FJ63` to select exactly one
 data-acquisition packet or record failure to do so.
 
-The next step is `FJ63`, Candidate-Data Acquisition Packet.
+At this point, the next step was `FJ63`, Candidate-Data Acquisition Packet.
+
+## FJ63 candidate-data acquisition packet
+
+Current status: `FJ63` has first-pass coverage as the Candidate-Data
+Acquisition Packet module. It compares the allowed packet types from `FJ62`
+and selects exactly one: `DAP-T001-001`, candidate-row acquisition from
+current repository records.
+
+The route decision after `FJ63` is that `FJ64` must execute this packet. It
+must either add one candidate-admissible row to
+`ledgers/t001_candidate_inventory.md` or record a no-candidate note. It must
+not select a new external source, bridge, computation, or target pivot unless
+the candidate-row packet itself produces the required object.
+
+The next step is `FJ64`, Candidate Intake Attempt or No-Candidate Note.
 
 ## GitHub persistence policy
 

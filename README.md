@@ -17,10 +17,10 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 - Active cycle: `cycle_004`.
 - Completed cycles: `cycle_001`, `cycle_002`, and `cycle_003`.
-- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, and `FJ62`. `FJ53` is retained as WIP / provisional.
+- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, and `FJ63`. `FJ53` is retained as WIP / provisional.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md`, `reflections/cycle_002_reflection.md`, and `reflections/cycle_003_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current procedural target: begin `FJ63`, Candidate-Data Acquisition Packet.
+- Current procedural target: begin `FJ64`, Candidate Intake Attempt or No-Candidate Note.
 
 ## Current established results
 
@@ -62,6 +62,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `reflections/cycle_003_reflection.md` closes cycle 003 and selects `FJ61`, T-001 Candidate-Intake Reset and Exit Criteria, as the first cycle-004 move. `T-001` remains important but is not currently candidate-ready.
 - `FJ61` completes the candidate-intake reset for `T-001`: it defines candidate-admissible rows, allowed route-output targets, early cycle-004 exit criteria, and `OBL-T001-008`; the next move is `FJ62`, Active Blocker Pruning for `T-001`.
 - `FJ62` completes active blocker pruning for `T-001`: it preserves only candidate-object acquisition, route-data acquisition, and branch-decision blockers as active for early cycle 004, records `OBL-T001-009`, and selects `FJ63`, Candidate-Data Acquisition Packet.
+- `FJ63` selects exactly one data-acquisition packet: `DAP-T001-001`, candidate-row acquisition from current repository records. It records `OBL-T001-010` and sends the project to `FJ64`, Candidate Intake Attempt or No-Candidate Note.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.
@@ -124,6 +125,7 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `reflections/cycle_003_reflection.md` completes the third cycle reflection: the next cycle begins with candidate-intake governance, not source accumulation.
 - `FJ61` completes the first cycle-004 governance module: `T-001` remains active only through intake and blocker pruning until a candidate, bridge, computation, source payload, prior-art blocker, pause recommendation, or pivot comparison is recorded.
 - `FJ62` completes the blocker-pruning module: most route-delta questions from cycle 003 are historical or deferred, and `FJ63` must select exactly one data-acquisition packet or record failure to do so.
+- `FJ63` completes the packet-selection step: the next module must execute candidate-row acquisition from existing repository records and either add one candidate-admissible row or record a no-candidate note.
 - The project has not yet chosen a concrete example of a ring with nonzero \(NK_n(R)\).
 - All-degree statements now use the nonconnective \(K\)-theory convention source-checked in `FJ02`, while preserving the `FJ01` black-box normalization for simplified examples.
 
