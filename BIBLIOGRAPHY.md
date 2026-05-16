@@ -6,7 +6,7 @@
 
 ## Surveys and general references
 
-- Lueck, W. (2004). *Survey on classifying spaces for families of subgroups* (arXiv:math/0312378, Version 2). arXiv. https://arxiv.org/abs/math/0312378. Status: `active reference`. Notes: Definition 1.8 and Theorem 1.9 checked in `FJ03` for the terminal-object definition, existence, uniqueness up to \(G\)-homotopy, and fixed-point characterization of \(E_{\mathcal F}G\).
+- Lueck, W. (2004). *Survey on classifying spaces for families of subgroups* (arXiv:math/0312378, Version 2). arXiv. https://arxiv.org/abs/math/0312378. Status: `active reference`. Notes: Definition 1.8 and Theorem 1.9 checked in `FJ03` for the terminal-object definition, existence, uniqueness up to \(G\)-homotopy, and fixed-point characterization of \(E_{\mathcal F}G\). `FJ74` uses the existing `FJ03` check to record the `FND-CONV-001` fixed-point convention; no new source check was performed in `FJ74`.
 
 - Lueck, W., & Reich, H. (2004). *The Baum-Connes and the Farrell-Jones conjectures in K- and L-theory* (arXiv:math/0402405). arXiv. https://arxiv.org/abs/math/0402405. Status: `active reference for FJ04, FJ07, FJ08, FJ09, and FJ10; partially read overall`. Notes: used in `FJ01` as a survey reference for the group-ring target and assembly-map viewpoint; used in `FJ04` for virtually cyclic definitions and the infinite virtually cyclic dichotomy; used in `FJ07` for Remark 1.15, Proposition 2.14, and the Nil-term/relative-family interpretation in Subsection 2.2.5; used in `FJ08` for Whitehead group definitions and the torsion-free regular-ring consequence; used in `FJ09` for reduced algebraic \(K\)-groups and Wall finiteness obstruction; used in `FJ10` for the Borel conjecture theorem map.
 
@@ -32,7 +32,7 @@
 
 - Lueck, W., & Weiermann, M. (2009). *On the classifying space of the family of virtually cyclic subgroups* (arXiv:math/0702646, Version 2). arXiv. https://arxiv.org/abs/math/0702646. Status: `partially read`. Notes: used in `FJ04` for type I/type II terminology and the finite-amalgam orientation for type II groups.
 
-- Farrell, F. T., & Jones, L. E. (1995). The lower algebraic K-theory of virtually infinite cyclic groups. *K-Theory, 9*, 13--30. URL/DOI: to verify. Status: `to verify`. Notes: cited by Lueck--Reich as the proof source for the infinite virtually cyclic dichotomy; not directly checked in `FJ04`.
+- Farrell, F. T., & Jones, L. E. (1995). The lower algebraic K-theory of virtually infinite cyclic groups. *K-Theory, 9*, 13--30. URL/DOI: to verify. Status: `to verify`; selected for `FJ75`. Notes: cited by Lueck--Reich as the proof source for the infinite virtually cyclic dichotomy; not directly checked in `FJ04`. `FJ75` should check Lemma 2.5 or record no-promotion status.
 
 ## Known cases
 

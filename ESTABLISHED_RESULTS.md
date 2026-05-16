@@ -54,7 +54,7 @@ There exists a model for \(E_{\mathcal F}G\). It is unique up to \(G\)-homotopy 
 E_{\mathcal F_0}G\longrightarrow E_{\mathcal F_1}G.
 \]
 
-In Lueck's source formulation, a \(G\)-CW complex \(X\) is a model for \(E_{\mathcal F}G\) if and only if all isotropy groups of \(X\) belong to \(\mathcal F\) and \(X^H\) is weakly contractible for each \(H\in\mathcal F\).
+In Lueck's source formulation, a \(G\)-CW complex \(X\) is a model for \(E_{\mathcal F}G\) if and only if all isotropy groups of \(X\) belong to \(\mathcal F\) and \(X^H\) is weakly contractible for each \(H\in\mathcal F\). Module `FJ74` records the project convention `FND-CONV-001`: the contractible/empty fixed-point formulation is a strict readable model convention, while this weakly contractible plus isotropy formulation remains the source-level criterion.
 
 ### Proof location
 

@@ -107,7 +107,7 @@ Use `FJ04` and `FJ06` to develop virtually cyclic groups and the infinite cyclic
 
 ### Status
 
-Open inside project; selected by `FJ73` for bounded cleanup in `FJ74`.
+Resolved for first-pass project use by `FJ74`.
 
 ### Context
 
@@ -118,9 +118,17 @@ pauses. The reason is boundedness: the source anchor is already recorded in
 `FJ03`, and the expected project object is a convention/dependency cleanup,
 not a new source survey.
 
+`FJ74` resolves the question by adopting a two-layer convention:
+contractible/empty fixed-point spaces form the strict readable model
+convention for examples and exposition, while the source-level theorem behind
+existence, uniqueness, terminality, and general recognition remains Lueck's
+weakly contractible fixed-point plus isotropy formulation as recorded in
+`ER-002`.
+
 ### Relevant modules
 
 - FJ03
+- FJ74
 - FJ15
 - FJ16
 
@@ -130,21 +138,28 @@ A later foundations module should decide how much model-category or \(G\)-CW tec
 
 ### Next action
 
-Begin `FJ74`, Fixed-Point Convention Cleanup for Classifying Spaces.
+Resolved by `FJ74`. Use `FND-CONV-001` in later classifying-space modules.
 
 ## OQ-006. Should Farrell--Jones 1995 be directly verified for the virtually cyclic dichotomy?
 
 ### Status
 
-Open inside project.
+Open inside project; selected by `FJ74` for bounded source-payload checking
+in `FJ75`.
 
 ### Context
 
 Module `FJ04` uses Lueck--Reich's source-verified statement that an infinite virtually cyclic group maps with finite kernel either onto \(\mathbb Z\) or onto \(D_\infty\). Lueck--Reich cite Farrell--Jones 1995, Lemma 2.5, as the proof source.
 
+`FJ74` selects this as the next bounded foundational item after resolving
+`OQ-005`. The target is exact: check Farrell--Jones (1995), Lemma 2.5, or
+record that no source-payload promotion is currently available. This is
+tracked by `OBL-FND-003`.
+
 ### Relevant modules
 
 - FJ04
+- FJ75
 - FJ07
 - FJ11
 
@@ -154,7 +169,7 @@ Access to Farrell--Jones, *The lower algebraic K-theory of virtually infinite cy
 
 ### Next action
 
-Before using the dichotomy in a proof-sensitive way beyond first-pass structure, directly check the original Farrell--Jones 1995 lemma or another primary source with equivalent hypotheses.
+Begin `FJ75`, Virtually Cyclic Dichotomy Source-Payload Check.
 
 ## OQ-007. Which source should be used for Bass--Heller--Swan and Nil-terms?
 

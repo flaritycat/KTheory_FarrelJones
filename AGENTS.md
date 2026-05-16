@@ -130,6 +130,12 @@ from the weakly contractible source characterization already recorded in
 `FJ03`; it must not become a broad classifying-space or model-category
 survey.
 
+After `FJ74`, `OQ-005` is resolved for first-pass use by `FND-CONV-001`.
+The next packet is `FND-003`, Virtually Cyclic Dichotomy Source-Payload
+Check. `FJ75` must check Farrell--Jones (1995), Lemma 2.5, or record
+no-promotion status; it must not become a broad virtually cyclic or lower
+algebraic K-theory survey.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -153,7 +159,8 @@ Current module handoff:
 - `FJ71`: Artin Branch Checkpoint After Wu Filter is completed.
 - `FJ72`: Target-Pivot Refresh After Artin Pause is completed.
 - `FJ73`: Foundational Open-Question Triage After Target Pauses is completed.
-- `FJ74`: Fixed-Point Convention Cleanup for Classifying Spaces is next.
+- `FJ74`: Fixed-Point Convention Cleanup for Classifying Spaces is completed.
+- `FJ75`: Virtually Cyclic Dichotomy Source-Payload Check is next.
 
 Current obstruction:
 
@@ -232,7 +239,13 @@ Current obstruction:
   formulation used in `FJ03` from the weakly contractible fixed-point
   characterization recorded from Lueck's classifying-space survey, then
   update notation and dependency ledgers without promoting a new theorem
-  beyond the checked source anchor.
+  beyond the checked source anchor. `FJ74` completes this through
+  `FND-CONV-001`.
+- `OBL-FND-003`: `FJ75` must check the original Farrell--Jones (1995)
+  virtually cyclic dichotomy source payload, specifically Lemma 2.5 as cited
+  by the current dependency chain, or record no-promotion status. Do not
+  broaden this into a survey of virtually cyclic groups or lower algebraic
+  K-theory.
 
 ## Repository Hygiene
 

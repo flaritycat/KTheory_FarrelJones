@@ -106,6 +106,16 @@ groups lie in \(\mathcal F\). The project's first-pass formulation uses
 contractible fixed-point spaces because that is the most readable
 version for the present module.
 
+### Post-FJ74 convention
+
+Module `FJ74` resolves `OQ-005` by making this a two-layer convention.
+The contractible/empty formulation in this definition is the project's
+strict readable fixed-point model convention for examples and exposition.
+The source-level theorem behind existence, uniqueness, terminality, and
+general recognition of \(E_{\mathcal F}G\) remains the weakly
+contractible fixed-point plus isotropy formulation recorded from Lueck's
+Definition 1.8 and Theorem 1.9.
+
 ## Main work
 
 The point of \(E_{\mathcal F}G\) is that it is the universal

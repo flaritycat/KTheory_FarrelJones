@@ -1205,10 +1205,36 @@ unless a later module identifies a proof-sensitive application.
 `FJ73` resolves `OQ-095`, completes `OBL-FND-001`, records `OBL-FND-002`,
 selects `FND-002`, and makes no Farrell--Jones theorem claim.
 
-The next step is `FJ74`, Fixed-Point Convention Cleanup for Classifying
-Spaces. It should resolve or sharpen `OQ-005` by separating the readable
-contractible/empty formulation from the weakly contractible source
-characterization recorded in `FJ03`.
+The next step after `FJ73` was `FJ74`, Fixed-Point Convention Cleanup for
+Classifying Spaces. Its task was to resolve or sharpen `OQ-005` by
+separating the readable contractible/empty formulation from the weakly
+contractible source characterization recorded in `FJ03`.
+
+## FJ74 fixed-point convention cleanup for classifying spaces
+
+Current status: `FJ74` has first-pass coverage as the Fixed-Point
+Convention Cleanup for Classifying Spaces module. It uses Lueck's
+classifying-spaces survey only through the source anchor already recorded in
+`FJ03`; it does not check a new external source.
+
+The convention decision after `FJ74` is to use a two-layer formulation for
+models of \(E_{\mathcal F}G\). The contractible/empty fixed-point condition
+is retained as a strict readable model convention for examples and
+exposition. The source-level theorem behind existence, uniqueness,
+terminality, and general recognition remains Lueck's weakly contractible
+fixed-point plus isotropy formulation as recorded in `ER-002`.
+
+This is a convention cleanup, not a new theorem. It does not create a new
+Farrell--Jones route, and it does not replace weak contractibility by
+contractibility in source-verified claims.
+
+`FJ74` resolves `OQ-005` at first pass, completes `OBL-FND-002`, records
+`FND-CONV-001`, completes `FND-002`, records `OBL-FND-003`, selects
+`FND-003`, and makes no Farrell--Jones theorem claim.
+
+The next step is `FJ75`, Virtually Cyclic Dichotomy Source-Payload Check. It
+should address `OQ-006` by checking Farrell--Jones (1995), Lemma 2.5, or by
+recording that the source payload cannot yet be promoted.
 
 ## GitHub persistence policy
 
