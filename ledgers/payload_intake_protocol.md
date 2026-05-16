@@ -74,6 +74,12 @@ Use this template before instantiating a future numbered module.
 | --- | --- | --- | --- |
 | `PAYLOAD-NONE-001` | none | no accepted payload | `FJ82` checks the current repository state after `FJ81` and finds no candidate, source, bridge, computation, formulation comparison, prior-art blocker, or non-hyperbolic `RB-006` bridge satisfying this protocol. |
 
+## Rejected intake attempts
+
+| Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
+| --- | --- | --- | --- | --- | --- |
+| `REJECTED-PAYLOAD-001` | 2026-05-16 | "Continue the project charter." | rejected / not an accepted payload | The request gives a general preference to continue but does not name a candidate, exact source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, or stop condition. | Keep `C5-PAUSE-001`; do not instantiate `FJ83`. |
+
 ## Current project state
 
 The project is in `C5-PAUSE-001`, a payload-gated pause.
