@@ -738,11 +738,27 @@ packet. This is not a mathematical negative result; it is a governance
 decision that another finite-index source check now needs a new concrete
 candidate or named bridge.
 
-The next step is `FJ51`, an `RB-006` compact-special/CAT(0)-looking
-source-selection and attack-packet module. Its job is to determine whether
-there is a bounded one-relator cubulation, specialness, or CAT(0)-recognition
-source to check without duplicating the hyperbolic route or reopening the
-finite-index shortcut blocked in `FJ49`.
+The historical next step after `FJ50` was `FJ51`, an `RB-006`
+compact-special/CAT(0)-looking source-selection and attack-packet module.
+Its job was to determine whether there is a bounded one-relator cubulation,
+specialness, or CAT(0)-recognition source to check without duplicating the
+hyperbolic route or reopening the finite-index shortcut blocked in `FJ49`.
+
+Current status: `FJ51` has first-pass coverage as the `RB-006`
+source-selection and attack-packet module. It does not import a new theorem.
+It selects Louder--Wilton's negative-immersion source only as a boundary
+check: the next module must determine whether that source gives any compact
+special or CAT(0) route delta beyond the hyperbolic route already governed by
+`FJ23`.
+
+The route decision after `FJ51` is intentionally narrow. Do not begin a broad
+cubulation literature survey. Check Louder--Wilton once for exact hypotheses,
+route output, and overlap with `FJ23`. If the output is only hyperbolic-route
+input, record the overlap and pause this `RB-006` path rather than drifting
+into adjacent sources.
+
+The next step is `FJ52`, a Louder--Wilton negative-immersion boundary check
+for `RB-006`.
 
 ## GitHub persistence policy
 

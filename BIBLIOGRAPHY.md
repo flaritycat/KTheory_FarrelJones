@@ -122,7 +122,7 @@
 
 - Linton, M., & Nyberg-Brodda, C.-F. (2025). *The theory of one-relator groups: History and recent progress* (arXiv:2501.18306). arXiv. https://arxiv.org/abs/2501.18306. Status: `active orientation source for FJ21; not a proof source yet`. Notes: arXiv page checked for survey scope: historical development and recent progress in one-relator group theory.
 
-- Louder, L., & Wilton, H. (2022). Negative immersions for one-relator groups. *Duke Mathematical Journal, 171*(3), 547--594. https://doi.org/10.1215/00127094-2021-0024. Status: `found; to verify for hyperbolicity/subgroup route use`. Notes: located in `FJ21` as a downstream source for primitivity rank, negative immersions, and Baumslag--Solitar obstructions.
+- Louder, L., & Wilton, H. (2022). Negative immersions for one-relator groups. *Duke Mathematical Journal, 171*(3), 547--594. https://doi.org/10.1215/00127094-2021-0024. Status: `selected for FJ52 boundary check; not theorem-verified`. Notes: located in `FJ21` as a downstream source for primitivity rank, negative immersions, and Baumslag--Solitar obstructions. `FJ51` selects it for a bounded `RB-006` check: determine whether it supplies compact-special/CAT(0) route delta beyond hyperbolic overlap. No theorem from this source is imported yet.
 
 - Lyndon, R. C., & Schupp, P. E. (2001). *Combinatorial group theory*. Springer. https://doi.org/10.1007/978-3-642-61896-3. Status: `found; to verify for classical one-relator theorem use`. Notes: classical monograph cited by modern one-relator hierarchy sources; not yet used as a proof source in the project.
 

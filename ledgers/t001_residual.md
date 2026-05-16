@@ -23,6 +23,8 @@ coefficient-only bridge. `FJ48` audits `RB-005` and records that no current
 `T-001` finite-index cleanup case is `FJCw-ready`. `FJ49` checks the direct
 CAT(0) finite-extension lane and records it as unavailable for route use.
 `FJ50` pauses `RB-005` and selects `RB-006` as the next attack packet.
+`FJ51` selects Louder--Wilton as a bounded `RB-006` source-boundary check,
+but imports no theorem from it.
 
 ## Warning
 
@@ -49,7 +51,7 @@ cases not yet removed by the repository's current source-verified route data.
 | RB-003 | One-relator hierarchy-only data from the Linton vocabulary | A hierarchy is not automatically a bridge to hyperbolicity, CAT(0), virtual solvability, a mapping torus, or an inheritance row | OQ-038, OQ-039 |
 | RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge | OQ-036 |
 | RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ50` pauses this bucket after the `FJCw` application audit and direct CAT(0) finite-extension check produce no residual subtraction | OQ-032, OQ-068, OQ-069, OQ-070, OQ-071 |
-| RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | Selected by `FJ50`; the project needs a bounded source or candidate not already absorbed by `FJ23` and not dependent on the blocked `RB-005` finite-index shortcut | OQ-033, OQ-072 |
+| RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | Selected by `FJ50`; `FJ51` selects Louder--Wilton for a boundary check, not theorem use; the source must produce route delta beyond `FJ23` hyperbolic overlap to continue | OQ-033, OQ-072, OQ-073 |
 | RB-007 | Virtually solvable-looking one-relator cases without a recognition source | `FJ25` deliberately does not classify virtually solvable one-relator groups | OQ-034 |
 | RB-008 | Countable-free-kernel or extension cases without exact inheritance data | `FJ27` requires the exact sequence, quotient status, and source version flag | OQ-037 |
 
@@ -471,7 +473,23 @@ Outcome:
 - the next module is `FJ51`, a bounded source-selection and attack-packet
   module for `RB-006`.
 
+## FJ51 RB-006 source-selection update
+
+`FJ51` prepares the `RB-006` attack packet.
+
+Outcome:
+
+- Haglund--Wise remains a compact-special-to-CAT(0) bridge source, not a
+  one-relator recognition source;
+- Linton's currently recorded negative-immersion and virtual-special route
+  markers are treated as hyperbolic-overlap unless a later source separates
+  compact-special/CAT(0) output from `FJ23`;
+- Louder--Wilton is selected for a one-module boundary check in `FJ52`;
+- no theorem from Louder--Wilton is imported by `FJ51`;
+- no residual bucket is removed by `FJ51`;
+- the stop condition is strict: if `FJ52` finds only hyperbolic-route input,
+  record that overlap and pause this `RB-006` path.
+
 ## Next action
 
-Begin `FJ51`, an `RB-006` compact-special/CAT(0)-looking source-selection
-and attack-packet module.
+Begin `FJ52`, Louder--Wilton negative-immersion boundary check for `RB-006`.
