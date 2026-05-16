@@ -161,6 +161,7 @@ Use this template before instantiating a future numbered module.
 | `REJECTED-PAYLOAD-015` | 2026-05-16 | "Paste the next payload. Then continue" | rejected / not an accepted payload | Repeated generic continuation request after `REJECTED-PAYLOAD-014`; still no new accepted payload, mathematical candidate, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-107` open; do not instantiate `FJ86`. |
 | `REJECTED-PAYLOAD-016` | 2026-05-16 | "Execute payload object." | rejected / not an accepted payload | The request asks to execute a payload object, but no accepted `FJ86` payload object is recorded. It does not name a mathematical candidate, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-107` open; do not instantiate `FJ86`. |
 | `REJECTED-PAYLOAD-017` | 2026-05-16 | "Execute payload object." | rejected / not an accepted payload | Repeated execution request after `REJECTED-PAYLOAD-016`; no accepted `FJ86` payload object is recorded. The request still does not name a mathematical candidate, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-107` open; do not instantiate `FJ86`. |
+| `REJECTED-PAYLOAD-018` | 2026-05-16 | "Execute payload object." | rejected / not an accepted payload | Repeated execution request after `REJECTED-PAYLOAD-017`; no accepted `FJ86` payload object is recorded. The request still does not name a mathematical candidate, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-107` open; do not instantiate `FJ86`. |
 
 ## Current project state
 
@@ -182,5 +183,5 @@ This is not a full `T-001` theorem and not a residual subtraction.
 `FJ85` records that the next payload after `FJ84` is governance-only. It does
 not reactivate a target, start source work, or create a mathematical claim.
 
-The latest intake attempt, `REJECTED-PAYLOAD-017`, does not change this
+The latest intake attempt, `REJECTED-PAYLOAD-018`, does not change this
 state. No `FJ86` module is selected.
