@@ -987,7 +987,28 @@ Prior-Art / Branch-Readiness Checkpoint. The next step must decide whether a
 prior-art blocker object, target-pause recommendation, or target-pivot
 comparison can be recorded, without beginning another source-summary lane.
 
-The next step is `FJ65`, Prior-Art / Branch-Readiness Checkpoint.
+At this point, the next step was `FJ65`, Prior-Art / Branch-Readiness
+Checkpoint.
+
+## FJ65 prior-art / branch-readiness checkpoint
+
+Current status: `FJ65` has first-pass coverage as the Prior-Art /
+Branch-Readiness Checkpoint module. It audits the `FJ64` no-candidate state
+for an exact prior-art blocker object, target-pause recommendation, or
+target-pivot comparison object.
+
+The route decision after `FJ65` is that no exact prior-art blocker object or
+pivot-comparison object is present. Prior-art checking has no candidate or
+theorem payload to compare. The no-candidate state is recorded as a
+target-pause trigger, but the actual pause-or-pivot decision is deferred to
+the branch checkpoint.
+
+`FJ65` completes `OBL-T001-011`, records `OBL-T001-012`, and selects `FJ66`,
+T-001 Branch Checkpoint. `FJ66` must either pause `T-001`, select a bounded
+target-pivot comparison packet, or identify an exact repository object that
+justifies continuing `T-001`.
+
+The next step is `FJ66`, T-001 Branch Checkpoint.
 
 ## GitHub persistence policy
 

@@ -15,7 +15,8 @@ preserves kernel recognition only as a possible route-data acquisition path
 for `FJ63`. `FJ63` does not select a kernel-computation packet; kernel
 recognition remains dormant unless `FJ64` produces a candidate row that needs
 it. `FJ64` records a no-candidate note, so kernel recognition remains dormant
-for the next checkpoint.
+for the next checkpoint. `FJ65` records no prior-art or branch object that
+reactivates kernel recognition.
 
 ## Warning
 
@@ -290,4 +291,4 @@ presented normal subgroup is recorded.
 
 ## Next action
 
-Begin `FJ65`, Prior-Art / Branch-Readiness Checkpoint.
+Begin `FJ66`, T-001 Branch Checkpoint.

@@ -77,6 +77,10 @@ external source acquisition or fabrication. The next step is `FJ65`,
 Prior-Art / Branch-Readiness Checkpoint. `FJ65` must not begin a source
 summary unless it identifies an exact project object changed.
 
+After `FJ65`, no exact prior-art blocker object or target-pivot comparison
+object is available. The no-candidate state is a target-pause trigger, but
+the actual branch decision belongs to `FJ66`, T-001 Branch Checkpoint.
+
 Current module handoff:
 
 - `FJ55`: Primitive-Extension / Hierarchy-to-FJ Bridge Test is completed.
@@ -90,7 +94,8 @@ Current module handoff:
 - `FJ62`: Active Blocker Pruning for `T-001` is completed.
 - `FJ63`: Candidate-Data Acquisition Packet is completed.
 - `FJ64`: Candidate Intake Attempt or No-Candidate Note is completed.
-- `FJ65`: Prior-Art / Branch-Readiness Checkpoint is next.
+- `FJ65`: Prior-Art / Branch-Readiness Checkpoint is completed.
+- `FJ66`: T-001 Branch Checkpoint is next.
 
 Current obstruction:
 
@@ -126,7 +131,12 @@ Current obstruction:
 - `OBL-T001-011`: `FJ65` must check whether the no-candidate state leaves an
   exact prior-art blocker object, target-pause recommendation, or target-pivot
   comparison to record. It must not open another source-summary lane without a
-  changed project object.
+  changed project object. `FJ65` records no exact prior-art blocker object
+  and sends the project to `FJ66`.
+- `OBL-T001-012`: `FJ66` must make an explicit branch decision for `T-001`.
+  It must record a target-pause recommendation, select a bounded target-pivot
+  comparison packet, or identify an exact repository object that justifies
+  continuing `T-001`.
 
 ## Repository Hygiene
 

@@ -11,8 +11,9 @@ the no-weaker-consequence-source-payload obstruction, by `FJ60` with
 the inactive-consequence-lane obstruction, and by
 `reflections/cycle_003_reflection.md` with the cycle-004 candidate-intake
 reset, by `FJ61` with the candidate-intake gate, by `FJ62` with active
-blocker pruning, by `FJ63` with selected packet `DAP-T001-001`, and by
-`FJ64` with the no-candidate note for that packet.
+blocker pruning, by `FJ63` with selected packet `DAP-T001-001`, by
+`FJ64` with the no-candidate note for that packet, and by `FJ65` with the
+prior-art / branch-readiness checkpoint.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -66,6 +67,10 @@ candidate-admissible row or record a no-candidate note.
 Current status after `FJ64`: `DAP-T001-001` produces a no-candidate note. No
 current repository row can be promoted to candidate-admissible status without
 external source acquisition or fabrication.
+
+Current status after `FJ65`: no exact prior-art blocker object or
+pivot-comparison object is available. The no-candidate state is a
+target-pause trigger, and `FJ66` must make the branch decision.
 
 Guiding question:
 
@@ -187,7 +192,8 @@ For every future candidate row, record:
 | `OBL-T001-008` | active requirement | `FJ61` | Candidate-intake gate: no cycle-004 `T-001` module may launch a proof attempt, source verification, or route subtraction unless it identifies a candidate-admissible row or exact bridge, computation, source payload, prior-art blocker, target-pause recommendation, or target-pivot comparison that changes a project object. | Use `FJ62` to prune active blockers before candidate-data acquisition. | If no admissible object appears by `FJ66`, recommend pausing `T-001` as an active proof-target sequence or compare target pivots. |
 | `OBL-T001-009` | active requirement | `FJ62` | Exact data-acquisition packet requirement: `FJ63` must select exactly one candidate-row, bridge-lemma, computation, source-payload, prior-art blocker, target-pause, or target-pivot packet, or record failure to do so. | Use `FJ63` to choose the packet and state the project object changed. | A broad source survey does not satisfy this obligation. |
 | `OBL-T001-010` | completed first pass | `FJ63`; completed by `FJ64` | `FJ64` must execute `DAP-T001-001`, candidate-row acquisition from current repository records. | `FJ64` records a no-candidate note. | Do not promote a placeholder, calibration example, or already routed row if no row satisfies the `FJ61` checklist. |
-| `OBL-T001-011` | active requirement | `FJ64` | `FJ65` must perform a prior-art / branch-readiness checkpoint after the no-candidate note. | Record an exact prior-art blocker object, target-pause recommendation, target-pivot comparison, or send the project to `FJ66`. | Do not open another source-summary lane without an exact project object changed. |
+| `OBL-T001-011` | completed first pass | `FJ64`; completed by `FJ65` | `FJ65` must perform a prior-art / branch-readiness checkpoint after the no-candidate note. | `FJ65` records no exact prior-art object and sends the project to `FJ66`. | Do not open another source-summary lane without an exact project object changed. |
+| `OBL-T001-012` | active requirement | `FJ65` | `FJ66` must make an explicit branch decision for `T-001`. | Record a target-pause recommendation, select a bounded target-pivot comparison packet, or identify an exact repository object justifying continuation. | Do not continue `T-001` through source summary, proof attempt, or route subtraction without an exact project object. |
 
 ## Cycle 003 reflection update
 
@@ -248,6 +254,15 @@ Audit result:
 
 No candidate-admissible row is added by `FJ64`.
 
+## FJ65 prior-art / branch-readiness checkpoint
+
+`FJ65` records that no exact prior-art blocker object is available because
+there is no candidate-admissible row, theorem payload, or route claim to
+compare.
+
+It also records the no-candidate state as a target-pause trigger and sends
+the project to `FJ66`, T-001 Branch Checkpoint.
+
 ## Non-use warnings
 
 - Do not fabricate candidate families.
@@ -261,4 +276,4 @@ No candidate-admissible row is added by `FJ64`.
 
 ## Next update
 
-Begin `FJ65`, Prior-Art / Branch-Readiness Checkpoint.
+Begin `FJ66`, T-001 Branch Checkpoint.

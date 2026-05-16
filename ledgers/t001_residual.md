@@ -54,7 +54,9 @@ Candidate-Data Acquisition Packet. `FJ63` selects `DAP-T001-001`,
 candidate-row acquisition from current repository records, and sends the
 project to `FJ64`. `FJ64` executes that packet and records a no-candidate
 note: no current repository row can be promoted without new source acquisition
-or fabrication.
+or fabrication. `FJ65` records no exact prior-art blocker object, treats the
+no-candidate state as a target-pause trigger, and sends the project to the
+`FJ66` branch checkpoint.
 
 ## Warning
 
@@ -779,4 +781,16 @@ presentation with route data.
 
 ## Next action after FJ64
 
-Begin `FJ65`, Prior-Art / Branch-Readiness Checkpoint.
+At this point the next module was `FJ65`, Prior-Art / Branch-Readiness
+Checkpoint.
+
+## FJ65 prior-art / branch-readiness update
+
+`FJ65` records no residual subtraction and no new theorem. It finds no exact
+prior-art blocker object and no prepared target-pivot comparison object. It
+records the no-candidate state as a target-pause trigger and sends the
+project to `FJ66`.
+
+## Next action after FJ65
+
+Begin `FJ66`, T-001 Branch Checkpoint.
