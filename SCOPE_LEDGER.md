@@ -372,12 +372,16 @@ residual gap analysis, remains unresolved but dormant after `FJ66`.
   audits current `T-001` candidate rows against the FJ83 source hypotheses.
   It finds no FJ83-eligible current row, makes no full `T-001` claim, and
   makes no residual subtraction.
+- Module `FJ85` records accepted governance payload
+  `PAY-C5-GOV-NEXT-2026-001`. It resolves `OQ-106` by recording that no
+  mathematical payload is currently present after `FJ84`, creates
+  `OBL-C5-006`, and makes no Farrell--Jones theorem claim.
 
 ## Selected target
 
-Current active project status: post-`FJ84` payload gate. `FJ84` was
-instantiated by accepted payload `PAY-T001-K0-CL-HYP-2026-001`; no new
-numbered module is selected after FJ84.
+Current active project status: post-`FJ85` payload gate. `FJ85` was
+instantiated by accepted governance payload `PAY-C5-GOV-NEXT-2026-001`; no
+new numbered module is selected after FJ85.
 
 Previous first serious target: `T-001`, torsion-free one-relator residual
 gap analysis. After `FJ66`--`FJ68`, `T-001` is dormant rather than active. It
@@ -534,6 +538,9 @@ Current source toolkit:
   candidate inventory against the FJ83 source hypotheses, finds no eligible
   current row, resolves `OQ-105`, creates `OBL-T001-015` and `OBL-C5-005`,
   and makes no residual subtraction;
+- payload-authorship governance checkpoint: `FJ85` records accepted
+  governance payload `PAY-C5-GOV-NEXT-2026-001`, resolves `OQ-106`, creates
+  `OBL-C5-006`, and records that no mathematical `FJ86` is selected;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -542,4 +549,4 @@ Current source toolkit:
 ## Next mathematical move
 
 No numbered module is currently selected. Record a new accepted payload under
-`ledgers/payload_intake_protocol.md` before instantiating `FJ85`.
+`ledgers/payload_intake_protocol.md` before instantiating `FJ86`.

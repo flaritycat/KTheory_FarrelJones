@@ -4134,7 +4134,7 @@ is recorded.
 
 ### Status
 
-Open inside project; blocked until a new accepted payload is recorded.
+First-pass resolved by `FJ85`.
 
 ### Context
 
@@ -4148,19 +4148,63 @@ No `FJ85` module is selected. A future module must be instantiated by a new
 accepted payload with exact target gate, changed project object, success
 criterion, failure criterion, and stop condition.
 
+On 2026-05-16, payload `PAY-C5-GOV-NEXT-2026-001` was accepted for a
+governance checkpoint only. It instantiated
+`modules/cycle_005/FJ85_payload_authorship_checkpoint_after_FJ84.md`.
+
+FJ85 resolves this question by recording that the only repository-supported
+next payload after `FJ84` is governance-only. No mathematical payload is
+available for candidate work, source verification, proof work, or residual
+subtraction.
+
 ### Relevant modules
 
 - FJ82
 - FJ83
 - FJ84
+- FJ85
 
 ### Dependencies
 
-`ledgers/payload_intake_protocol.md`, `OBL-C5-005`,
+`ledgers/payload_intake_protocol.md`, `OBL-C5-005`, `OBL-C5-006`,
 `ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
 `ledgers/theorem_dependencies.md`, and `NOTATION_LEDGER.md`.
 
 ### Next action
 
+Resolved by `FJ85`. Continue only through `OQ-107` if a new accepted payload
+is recorded.
+
+## OQ-107. Which accepted payload, if any, should instantiate FJ86 after the FJ85 governance checkpoint?
+
+### Status
+
+Open inside project; blocked until a new accepted payload is recorded.
+
+### Context
+
+FJ85 records accepted governance payload `PAY-C5-GOV-NEXT-2026-001`.
+It clarifies that "paste the next payload, then continue" is not a
+mathematical payload unless it names a candidate, source theorem, bridge
+lemma, computation, formulation comparison, prior-art blocker, or other
+project object with success and stop criteria.
+
+No `FJ86` module is selected. A future module must be instantiated by a new
+accepted payload with exact target gate, changed project object, success
+criterion, failure criterion, and stop condition.
+
+### Relevant modules
+
+- FJ82
+- FJ84
+- FJ85
+
+### Dependencies
+
+`ledgers/payload_intake_protocol.md`, `OBL-C5-006`,
+`ledgers/theorem_dependencies.md`, `NOTATION_LEDGER.md`, and `AGENTS.md`.
+
+### Next action
+
 No numbered module is currently selected. Record a new accepted payload
-before instantiating `FJ85`.
+before instantiating `FJ86`.

@@ -1507,7 +1507,32 @@ no coefficient K-theory FJC, no `FJCw`, no `FICwF`, no full
 future FJ83-payload use, records `OBL-C5-005` blocking `FJ85` without a new
 accepted payload, and creates `OQ-106`.
 
-The next project move is not a numbered module. A future `FJ85` may be
+The next project move after `FJ84` was not a mathematical module. It became
+`FJ85` only after accepted governance payload `PAY-C5-GOV-NEXT-2026-001`
+was recorded.
+
+## FJ85 payload authorship checkpoint after FJ84
+
+Current status: `FJ85` has first-pass coverage as the Payload Authorship
+Checkpoint After FJ84 module. It checks no external source and makes no
+mathematical claim.
+
+`FJ85` records accepted payload `PAY-C5-GOV-NEXT-2026-001`, whose object is
+to interpret the instruction "paste the next payload, then continue" without
+inventing a candidate, source theorem, bridge lemma, computation,
+formulation comparison, prior-art blocker, or residual-bucket route.
+
+The FJ85 decision is procedural. The only repository-supported next payload
+after `FJ84` is governance-only. It can update gate and handoff records, but
+it cannot reactivate `T-001`, prove any Farrell--Jones statement, promote
+the FJ83 weaker \(K_0\) source to a candidate result, or remove a residual
+bucket.
+
+`FJ85` resolves `OQ-106`, completes `OBL-C5-005` for FJ85, records the
+payload type `PAY-GOV`, records `OBL-C5-006` blocking `FJ86` without a new
+accepted payload, and creates `OQ-107`.
+
+The next project move is not a numbered module. A future `FJ86` may be
 instantiated only after a new accepted payload is recorded under
 `ledgers/payload_intake_protocol.md` or in the relevant target ledger.
 

@@ -194,7 +194,7 @@ pause was first exited for accepted payload `PAY-T001-K0-CL-2025-001`, which
 instantiated `FJ83`; `FJ84` was later instantiated by the separate accepted
 payload `PAY-T001-K0-CL-HYP-2026-001`.
 
-After `FJ84`, no `FJ85` module is selected. Future numbered work may begin
+After `FJ85`, no `FJ86` module is selected. Future numbered work may begin
 only after a new accepted payload is recorded under
 `ledgers/payload_intake_protocol.md` or in the relevant target ledger. Do
 not create a new source-summary, target summary, or proof-attempt module
@@ -210,6 +210,12 @@ bridge.
 source-hypothesis package and finds no FJ83-eligible current row. Do not
 reuse the FJ83 payload without a new or amended candidate row satisfying
 `OBL-T001-015`.
+
+`FJ85` records governance-only payload `PAY-C5-GOV-NEXT-2026-001`. It does
+not supply a mathematical payload. Do not infer a candidate, source theorem,
+bridge, computation, prior-art blocker, or residual subtraction from a
+request to "paste the next payload" unless the payload itself provides those
+objects.
 
 Current module handoff:
 
@@ -248,7 +254,8 @@ Current module handoff:
   completed.
 - `FJ83`: K0 Cohen--Lyndon Payload Verification is completed.
 - `FJ84`: K0 Cohen--Lyndon Candidate Hypothesis Audit is completed.
-- `FJ85`: no module selected; instantiate only from a new accepted payload.
+- `FJ85`: Payload Authorship Checkpoint After FJ84 is completed.
+- `FJ86`: no module selected; instantiate only from a new accepted payload.
 
 Current obstruction:
 
@@ -379,6 +386,10 @@ Current obstruction:
 - `OBL-C5-004`: completed by accepted payload
   `PAY-T001-K0-CL-HYP-2026-001`, which instantiated `FJ84`.
 - `OBL-C5-005`: no `FJ85` module may be created until a new accepted payload
+  is recorded under `ledgers/payload_intake_protocol.md` or in the relevant
+  target ledger. Completed by accepted governance payload
+  `PAY-C5-GOV-NEXT-2026-001`, which instantiated `FJ85`.
+- `OBL-C5-006`: no `FJ86` module may be created until a new accepted payload
   is recorded under `ledgers/payload_intake_protocol.md` or in the relevant
   target ledger. The payload must name exact target, changed project object,
   success criterion, failure criterion, and stop condition.

@@ -47,3 +47,11 @@ No group-class target becomes active from this audit. No current row is
 FJ83-eligible, and the audit does not prove Farrell--Jones for torsion-free
 one-relator groups, does not prove coefficient FJC, `FJCw`, or `FICwF`, and
 does not remove a residual bucket.
+
+## FJ85 governance payload update
+
+`FJ85` records accepted governance payload `PAY-C5-GOV-NEXT-2026-001`.
+
+No group-class target becomes active from this governance checkpoint. It
+records payload authorship and continuation rules only; it does not prove a
+Farrell--Jones result, supply a candidate row, or remove a residual bucket.

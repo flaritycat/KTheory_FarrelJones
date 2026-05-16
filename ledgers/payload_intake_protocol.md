@@ -33,6 +33,7 @@ No external source was checked for this ledger.
 | `PAY-FORM` | Exact formulation-comparison payload for coefficient K-theory, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, or finite-index inheritance | `NOTATION_LEDGER.md`, `ledgers/inheritance_properties.md`, or `ledgers/theorem_dependencies.md` | Stop if the comparison would be used without exact hypotheses. |
 | `PAY-FJ53-RB006` | A genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge for the `RB-006` line, or another recorded reason the route is subtractive | `modules/cycle_003/FJ53_pi_w_hyperbolic_overlap_checkpoint.md`, `ledgers/t001_residual.md`, or `ledgers/t001_candidate_inventory.md` | Stop if the payload only repeats hyperbolic-route overlap. |
 | `PAY-PRIOR` | Exact prior-art blocker or comparison object tied to a candidate, route claim, or target-pivot decision | The relevant candidate, route, or open-question ledger | Stop if no candidate, theorem payload, or route claim is named. |
+| `PAY-GOV` | Exact project-governance payload for payload intake, gate status, handoff instructions, open-question status, or proof-obligation status | `ledgers/payload_intake_protocol.md`, `OPEN_QUESTIONS.md`, `NOTATION_LEDGER.md`, `AGENTS.md`, or `ledgers/theorem_dependencies.md` | Stop if the payload is used to invent a mathematical candidate, source theorem, bridge, computation, or residual subtraction. |
 
 ## Rejected payload forms
 
@@ -75,6 +76,7 @@ Use this template before instantiating a future numbered module.
 | `PAYLOAD-NONE-001` | none | historical no-payload record | `FJ82` checked the current repository state after `FJ81` and found no candidate, source, bridge, computation, formulation comparison, prior-art blocker, or non-hyperbolic `RB-006` bridge satisfying this protocol. |
 | `PAY-T001-K0-CL-2025-001` | `PAY-T001-BRIDGE` | accepted for `FJ83` only | Exact weaker \(K_0\) / Cohen--Lyndon source payload located for `OBL-C5-003`, `OBL-T001-013`, `OQ-081`, and `OBL-T001-007`; accepted only for source-hypothesis verification and not for full `T-001` or residual subtraction. |
 | `PAY-T001-K0-CL-HYP-2026-001` | `PAY-T001-BRIDGE` | accepted for `FJ84` only | Candidate/family-level hypothesis audit payload for the FJ83 weaker \(K_0\) / Cohen--Lyndon source. Accepted only to check current `T-001` candidate rows against the FJ83 hypothesis package, not for full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
+| `PAY-C5-GOV-NEXT-2026-001` | `PAY-GOV` | accepted for `FJ85` only | Governance payload interpreting "paste the next payload, then continue" after `FJ84`. Accepted only to record that no mathematical payload is present and to update the next gate; not for source work, proof work, or residual subtraction. |
 
 ## Accepted intake records
 
@@ -118,6 +120,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for FJ84 candidate/family hypothesis audit only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ84_k0_cohen_lyndon_candidate_hypothesis_audit.md` |
 
+### `PAY-C5-GOV-NEXT-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-C5-GOV-NEXT-2026-001` |
+| Date recorded | 2026-05-16 |
+| Payload type | `PAY-GOV` |
+| Target gate | `OQ-106` and `OBL-C5-005`. |
+| Candidate, source, bridge, computation, or blocker | Governance checkpoint interpreting the instruction "paste the next payload, then continue" after `FJ84`. |
+| Exact statement or object | Record that the only repository-supported next payload is governance-only: no mathematical candidate, source theorem, bridge lemma, computation, formulation comparison, prior-art blocker, or residual-bucket route is currently present after `FJ84`. |
+| APA citation if external source is used | No external source is used. |
+| Source-status label | no source check; project-governance payload only. |
+| Hypotheses and formulation level | Not a mathematical formulation payload. It must not be used as full `T-001`, coefficient K-theory FJC, full FJ, `FJCw`, `FICwF`, or residual subtraction. |
+| Repository object changed | `ledgers/payload_intake_protocol.md`; `OPEN_QUESTIONS.md`; `NOTATION_LEDGER.md`; `AGENTS.md`; `README.md`; `PROJECT_CHARTER.md`; `SCOPE_LEDGER.md`; `ledgers/theorem_dependencies.md`; `references/papers_to_read.md`; `ledgers/open_group_classes.md`. |
+| Success criterion | FJ85 records the governance-only payload, resolves `OQ-106`, creates the next gate for `FJ86`, and makes no mathematical claim. |
+| Failure criterion | FJ85 invents a candidate, source theorem, bridge, computation, formulation comparison, prior-art blocker, or residual subtraction not present in the repository or user-provided payload. |
+| Stop condition | Stop after the governance update. Do not create `FJ86`; do not claim full Farrell--Jones, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
+| Accepted? | Yes, for FJ85 governance checkpoint only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ85_payload_authorship_checkpoint_after_FJ84.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -138,10 +160,16 @@ Use this template before instantiating a future numbered module.
 `PAY-T001-K0-CL-2025-001`, which instantiated `FJ83`, and then the separate
 accepted payload `PAY-T001-K0-CL-HYP-2026-001` instantiated `FJ84`.
 
-After `FJ84`, no `FJ85` module is selected. A future `FJ85` may be created
+After `FJ84`, accepted governance payload `PAY-C5-GOV-NEXT-2026-001`
+instantiated `FJ85`.
+
+After `FJ85`, no `FJ86` module is selected. A future `FJ86` may be created
 only after a new accepted payload row is added above or an equivalent
 accepted payload is recorded in the relevant target ledger.
 
 `FJ84` records that no currently recorded `T-001` candidate/family row is
 eligible for project use of the FJ83 weaker \(K_0\) / Cohen--Lyndon payload.
 This is not a full `T-001` theorem and not a residual subtraction.
+
+`FJ85` records that the next payload after `FJ84` is governance-only. It does
+not reactivate a target, start source work, or create a mathematical claim.
