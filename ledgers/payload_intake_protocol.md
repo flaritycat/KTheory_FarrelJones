@@ -105,6 +105,7 @@ Use this template before instantiating a future numbered module.
 | `REJECTED-PAYLOAD-002` | 2026-05-16 | "Continue" | rejected / not an accepted payload | After `FJ83`, this request gives only a general preference to continue. It does not name a new accepted payload, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-105` open; do not instantiate `FJ84`. |
 | `REJECTED-PAYLOAD-003` | 2026-05-16 | "Continue" | rejected / not an accepted payload | Repeated generic continuation request after `REJECTED-PAYLOAD-002`; still no new accepted payload, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-105` open; do not instantiate `FJ84`. |
 | `REJECTED-PAYLOAD-004` | 2026-05-16 | "Continue" | rejected / not an accepted payload | Repeated generic continuation request after `REJECTED-PAYLOAD-003`; still no new accepted payload, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-105` open; do not instantiate `FJ84`. |
+| `REJECTED-PAYLOAD-005` | 2026-05-16 | "Continue" | rejected / not an accepted payload | Repeated generic continuation request after `REJECTED-PAYLOAD-004`; still no new accepted payload, changed repository object, success criterion, failure criterion, or stop condition. | Keep `OQ-105` open; do not instantiate `FJ84`. |
 
 ## Current project state
 
@@ -115,5 +116,5 @@ After `FJ83`, no `FJ84` module is selected. A future `FJ84` may be created
 only after a new accepted payload row is added above or an equivalent
 accepted payload is recorded in the relevant target ledger.
 
-The latest intake attempt, `REJECTED-PAYLOAD-004`, does not change this
+The latest intake attempt, `REJECTED-PAYLOAD-005`, does not change this
 state.
