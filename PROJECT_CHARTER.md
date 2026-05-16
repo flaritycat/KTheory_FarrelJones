@@ -919,7 +919,24 @@ The provisional cycle-004 posture is:
 5. pause or pivot from `T-001` if the project cannot name a candidate,
    bridge, computation, or exact source payload within the early cycle.
 
-The next step is `FJ61`, T-001 Candidate-Intake Reset and Exit Criteria.
+At this point, the next step was `FJ61`, T-001 Candidate-Intake Reset and
+Exit Criteria.
+
+## FJ61 candidate-intake reset
+
+Current status: `FJ61` has first-pass coverage as the T-001
+Candidate-Intake Reset and Exit Criteria module. It defines a
+candidate-admissible row, allowed route-output targets, and early cycle-004
+exit criteria. It records `OBL-T001-008`, the candidate-intake gate for
+`T-001`.
+
+The route decision after `FJ61` is to keep `T-001` active only through
+bounded intake governance. No proof attempt, source verification, or route
+subtraction should begin unless it identifies a candidate-admissible row or
+an exact bridge, computation, source payload, prior-art blocker, target
+pause, or target-pivot comparison.
+
+The next step is `FJ62`, Active Blocker Pruning for `T-001`.
 
 ## GitHub persistence policy
 

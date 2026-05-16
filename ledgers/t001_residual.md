@@ -47,7 +47,8 @@ Cohen--Lyndon source payload is currently available and creates
 exact payload, and creates `OBL-T001-007`, closing the weaker consequence
 lane as inactive until a source is named. `reflections/cycle_003_reflection.md`
 closes the third cycle and selects `FJ61` to set candidate-intake and exit
-criteria for the next `T-001` decision.
+criteria for the next `T-001` decision. `FJ61` records `OBL-T001-008`, the
+candidate-intake gate, and selects `FJ62` for active blocker pruning.
 
 ## Warning
 
@@ -725,4 +726,17 @@ currently candidate-ready.
 
 ## Next action after cycle 003 reflection
 
-Begin `FJ61`, T-001 Candidate-Intake Reset and Exit Criteria.
+At this point the next module was `FJ61`, T-001 Candidate-Intake Reset and
+Exit Criteria.
+
+## FJ61 candidate-intake reset update
+
+`FJ61` records no residual subtraction and no new theorem. It keeps `T-001`
+active only through intake governance and records `OBL-T001-008`, requiring
+a candidate-admissible row or exact bridge, computation, source payload,
+prior-art blocker, target-pause recommendation, or target-pivot comparison
+before further proof-target work.
+
+## Next action after FJ61
+
+Begin `FJ62`, Active Blocker Pruning for `T-001`.

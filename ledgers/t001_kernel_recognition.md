@@ -9,7 +9,8 @@ source cluster, `FJ39` verified the Karrass--Solitar finitely
 presented-kernel bridge, and `FJ41` verified the original BNS Theorem B1 as a
 finite-generation criterion. `reflections/cycle_003_reflection.md` leaves
 kernel recognition dormant until `FJ61` defines candidate-intake and exit
-criteria for `T-001`.
+criteria for `T-001`. `FJ61` keeps kernel recognition dormant until a
+candidate-admissible row or exact computation need is identified.
 
 ## Warning
 
@@ -284,4 +285,4 @@ presented normal subgroup is recorded.
 
 ## Next action
 
-Begin `FJ61`, T-001 Candidate-Intake Reset and Exit Criteria.
+Begin `FJ62`, Active Blocker Pruning for `T-001`.

@@ -10,7 +10,7 @@ audit status, by `FJ57` with the no-candidate endpoint obstruction, and by
 the no-weaker-consequence-source-payload obstruction, by `FJ60` with
 the inactive-consequence-lane obstruction, and by
 `reflections/cycle_003_reflection.md` with the cycle-004 candidate-intake
-reset.
+reset, and by `FJ61` with the candidate-intake gate.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -45,6 +45,12 @@ Current status after `reflections/cycle_003_reflection.md`: `T-001` remains
 important but is not currently candidate-ready. The next module is `FJ61`,
 which must define candidate-intake and exit criteria before any new proof
 attempt, source check, or target pivot.
+
+Current status after `FJ61`: `T-001` remains active only through candidate
+intake and blocker pruning. No proof attempt, source verification, or route
+subtraction should begin until a candidate-admissible row or exact bridge,
+computation, source payload, prior-art blocker, pause recommendation, or
+pivot comparison is recorded.
 
 Guiding question:
 
@@ -162,21 +168,33 @@ For every future candidate row, record:
 | `OBL-T001-004` | active obstruction | `FJ57` | The selected `RB-003` + `RB-004`/`RB-008` hybrid packet is blocked at candidate production. | `FJ58` checked replacement lanes and recorded `OBL-T001-005`; reactivation now requires new candidate-level data. | Do not reactivate the hybrid packet unless a real candidate, concrete computation, bridge lemma, or prior-art comparison is recorded. |
 | `OBL-T001-005` | active obstruction | `FJ58` | No active candidate-production lane is currently ready for `T-001`. | `FJ59` completed the bounded weaker \(K_0\) / Cohen--Lyndon consequence intake and recorded `OBL-T001-006`. | Stop any candidate-level claim unless a real candidate, checked bridge, computation, formulation-safe application, non-hyperbolic geometric bridge, or prior-art comparison is recorded. |
 | `OBL-T001-006` | superseded for next-action purposes | `FJ59` | No weaker \(K_0\) / Cohen--Lyndon source payload is currently recorded for `T-001`. | `FJ60` checked the source-payload lane and recorded `OBL-T001-007`. | Stop if a future module cannot name an exact theorem statement, hypotheses, formulation level, and project object changed. |
-| `OBL-T001-007` | active obstruction | `FJ60` | The weaker \(K_0\) / Cohen--Lyndon consequence lane is inactive after no exact source payload was available for selection. | Cycle-003 reflection completed; continue with `FJ61` candidate-intake and exit criteria. Reopen this lane only with an exact source payload. | Do not continue the weaker consequence lane through source summaries or theorem names alone. |
+| `OBL-T001-007` | active obstruction | `FJ60` | The weaker \(K_0\) / Cohen--Lyndon consequence lane is inactive after no exact source payload was available for selection. | `FJ61` completed the candidate-intake reset; reopen this lane only with an exact source payload. | Do not continue the weaker consequence lane through source summaries or theorem names alone. |
+| `OBL-T001-008` | active requirement | `FJ61` | Candidate-intake gate: no cycle-004 `T-001` module may launch a proof attempt, source verification, or route subtraction unless it identifies a candidate-admissible row or exact bridge, computation, source payload, prior-art blocker, target-pause recommendation, or target-pivot comparison that changes a project object. | Use `FJ62` to prune active blockers before candidate-data acquisition. | If no admissible object appears by `FJ66`, recommend pausing `T-001` as an active proof-target sequence or compare target pivots. |
 
 ## Cycle 003 reflection update
 
 `reflections/cycle_003_reflection.md` closes the third module cycle and
-records that this inventory contains no live non-routed candidate. The next
-project move is `FJ61`, not another candidate-free source summary.
+records that this inventory contains no live non-routed candidate. At that
+point, the next project move was `FJ61`, not another candidate-free source
+summary.
 
-`FJ61` should define:
+`FJ61` defines:
 
 - the minimum data required for a new candidate row;
 - allowed route-output targets;
 - formulation-safety fields;
 - prior-art comparison requirements;
 - exit criteria for pausing `T-001` or comparing target pivots.
+
+## FJ61 candidate-intake gate
+
+`FJ61` defines a candidate-admissible row as one with recorded candidate
+identity, target status, residual status, route-output target, required data,
+formulation safety, prior-art risk, and exit condition.
+
+The gate is now active. Future rows must not be promoted from this inventory
+unless they satisfy that checklist or explicitly record a documented
+obstruction.
 
 ## Non-use warnings
 
@@ -191,4 +209,4 @@ project move is `FJ61`, not another candidate-free source summary.
 
 ## Next update
 
-Begin `FJ61`, T-001 Candidate-Intake Reset and Exit Criteria.
+Begin `FJ62`, Active Blocker Pruning for `T-001`.
