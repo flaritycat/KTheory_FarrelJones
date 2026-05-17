@@ -655,11 +655,11 @@ Execution rule for future runs:
 
 ## Prompt 021
 
-Status: Open
+Status: Completed
 
-Completed by:
+Completed by: `reflections/cycle_005_reflection.md`
 
-Commit:
+Commit: this commit (`[reflection] close cycle 005`)
 
 Prompt:
 

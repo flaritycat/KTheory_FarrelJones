@@ -42,8 +42,8 @@ cycle_005 is closure-ready.
 | Automatic / biautomatic line | deferred | no source-ready bounded object | Reactivate only with exact source-ready object changing a project ledger. |
 | Thompson-type line | deferred | no source-ready bounded object | Reactivate only with exact source-ready object changing a project ledger. |
 | `FJ53` / `RB-006` | WIP / provisional | no non-hyperbolic bridge | Continue only if a genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge is supplied. |
-| Prompt backlog | Prompt 020 remains open | `OBL-C5-021`; `OQ-122` | Run prompt-backlog maintenance as governance only, unless a higher-priority accepted payload arrives. |
-| Reflection / review | due after 100 modules | handoff now recorded | Prepare cycle-005 reflection / larger review after backlog maintenance or after explicitly skipping it. |
+| Prompt backlog | Prompt 020 completed; Prompt 021 completed by the cycle-005 reflection | `OQ-122` resolved | Preserve the backlog discipline; the next open prompt is Prompt 022. |
+| Reflection / review | cycle-005 reflection completed | `OBL-POST100-001`; `OQ-123` | Prepare the post-100-module strategic review unless a higher-priority accepted payload is recorded. |
 
 ## Gate index
 
@@ -56,7 +56,8 @@ cycle_005 is closure-ready.
 | deferred automatic / biautomatic line | automatic / biautomatic groups | unsatisfied | Exact source-ready bounded object changing a project ledger. |
 | deferred Thompson-type line | Thompson-type groups | unsatisfied | Exact source-ready bounded object changing a project ledger. |
 | `PAY-FJ53-RB006` gate | WIP / provisional `FJ53` / `RB-006` line | unsatisfied | Genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge, or another subtractive object. |
-| `OBL-C5-021` | post-FJ100 prompt-backlog maintenance | active | Execute queued Prompt 020 as governance maintenance, or record a new accepted payload with higher priority. |
+| `OBL-C5-021` | post-FJ100 prompt-backlog maintenance / reflection preparation | completed by Prompt 020 and cycle-005 reflection | The next gate is `OBL-POST100-001`. |
+| `OBL-POST100-001` | post-100-module strategic review | active | Execute queued Prompt 022 or explicitly record why the review is skipped. |
 
 ## FJ100 closure result
 
@@ -64,13 +65,17 @@ cycle_005 is closure-ready.
 closure-ready status for `cycle_005`, creates `OQ-122`, and creates
 `OBL-C5-021`.
 
+`reflections/cycle_005_reflection.md` closes `cycle_005`, resolves
+`OQ-122`, completes `OBL-C5-021`, creates `OQ-123`, and records
+`OBL-POST100-001`.
+
 It records no new theorem, source claim, candidate row, proof attempt,
 target reactivation, or residual subtraction.
 
 ## Next allowed actions
 
-1. Execute queued Prompt 020 as prompt-backlog maintenance only.
+1. Execute queued Prompt 022 as post-100-module strategic review.
 2. Record a new accepted concrete payload satisfying
    `ledgers/payload_intake_protocol.md`.
-3. After handoff and backlog maintenance, prepare the cycle-005 reflection or
-   larger post-100-module review.
+3. If the post-100-module review is skipped, record the skip reason and the
+   replacement gate explicitly.

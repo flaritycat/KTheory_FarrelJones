@@ -94,6 +94,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-PIVOT-READINESS-2026-001` | `PAY-GOV` | accepted for `FJ98` only | Internal target-pivot readiness checkpoint after `FJ97`; records that no mathematical target lane has a concrete next object and all target lanes remain paused, deferred, WIP / provisional, or payload-blocked. |
 | `PAY-C5-STRATEGIC-CHECKPOINT-2026-001` | `PAY-GOV` | accepted for `FJ99` only | Internal cycle-005 strategic checkpoint after `FJ98`; records that cycle 005 made real candidate-level progress but is now no-target-ready / governance-only, and selects closure-readiness as the next acceptable queued governance payload. |
 | `PAY-C5-CLOSURE-READINESS-2026-001` | `PAY-GOV` | accepted for `FJ100` only | Internal cycle-005 closure-readiness audit after `FJ99`; records closure-ready status, creates `ledgers/cycle_005_handoff.md`, records exact unresolved gates, and makes no mathematical claim. |
+| `PAY-C5-REFLECTION-2026-001` | `PAY-GOV` | accepted for `reflections/cycle_005_reflection.md` only | Internal cycle-005 reflection after `FJ100`; closes cycle 005, records what was achieved and what remains gated, and selects the post-100-module strategic review without adding mathematics. |
 
 ## Accepted intake records
 
@@ -457,6 +458,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for `FJ100` closure-readiness audit only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ100_cycle_005_closure_readiness_audit.md` |
 
+### `PAY-C5-REFLECTION-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-C5-REFLECTION-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-GOV` |
+| Target gate | `FJ100`, `ledgers/cycle_005_handoff.md`, `OQ-122`, and `OBL-C5-021`. |
+| Candidate, source, bridge, computation, or blocker | Cycle-005 reflection after the closure-ready handoff. |
+| Exact statement or object | Create `reflections/cycle_005_reflection.md` as a bounded cycle reflection. Summarize what cycle 005 achieved, what remains gated, and what the next cycle or review should do. |
+| APA citation if external source is used | No external source is used. |
+| Source-status label | No new external source checked; internal reflection only. |
+| Hypotheses and formulation level | Project-governance / reflection artifact only. Do not claim full Farrell--Jones, coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, weaker \(K_0\), route closure, target reactivation, or residual subtraction. |
+| Repository object changed | `reflections/cycle_005_reflection.md`; `next_prompts.md`; `ledgers/payload_intake_protocol.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `SCOPE_LEDGER.md`; `NOTATION_LEDGER.md`; `AGENTS.md`; `ledgers/cycle_005_handoff.md`; `ledgers/open_group_classes.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`. |
+| Success criterion | Record a reflection-ready or next-cycle-ready state with exact gates. |
+| Failure criterion | The reflection invents a source theorem, candidate, route, proof attempt, target reactivation, or residual subtraction. |
+| Stop condition | Stop after reflection and ledger updates. |
+| Accepted? | Yes, for the cycle-005 reflection only. |
+| Follow-up artifact if accepted | `reflections/cycle_005_reflection.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -621,12 +642,20 @@ proof attempt, target reactivation, or residual subtraction.
 theorem, route, candidate, proof-attempt, target-reactivation, or residual
 subtraction claim.
 
-After `FJ100`, no `FJ101` module is selected except through a new accepted
-payload or the queued Prompt 020 prompt-backlog maintenance pass.
+`reflections/cycle_005_reflection.md` closes `cycle_005`, resolves
+`OQ-122`, completes `OBL-C5-021`, creates `OQ-123`, records
+`OBL-POST100-001`, selects `PAY-POST100-REVIEW-2026-001`, and makes no
+source, theorem, route, candidate, proof-attempt, target-reactivation, or
+residual subtraction claim.
+
+After the cycle-005 reflection, no `FJ101` module is selected. The next
+queued governance object is Prompt 022, the post-100-module strategic
+review, unless a higher-priority accepted payload is recorded.
 
 The latest accepted payload,
-`PAY-C5-CLOSURE-READINESS-2026-001`, changes the state by instantiating
-`FJ100`; the earlier accepted payload
+`PAY-C5-REFLECTION-2026-001`, changes the state by creating
+`reflections/cycle_005_reflection.md`; the earlier accepted payload
+`PAY-C5-CLOSURE-READINESS-2026-001` instantiated `FJ100`; the earlier accepted payload
 `PAY-C5-STRATEGIC-CHECKPOINT-2026-001` instantiated `FJ99`; the earlier
 accepted payload `PAY-PIVOT-READINESS-2026-001`
 instantiated `FJ98`; the earlier accepted payload

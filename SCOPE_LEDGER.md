@@ -173,7 +173,8 @@ Unless explicitly imported later:
 123. What target-pivot readiness status follows the post-FJ97 formulation-irrelevant audit? Tracked as `OQ-119`; resolved by `FJ98`, which records all-targets-paused / no-target-ready status.
 124. What cycle-005 strategic status follows the post-FJ98 all-targets-paused checkpoint? Tracked as `OQ-120`; resolved by `FJ99`, which records that cycle 005 made candidate-level progress but is now no-target-ready / governance-only.
 125. Should cycle 005 close, continue only with a concrete active payload, or pause after the FJ99 strategic checkpoint? Tracked as `OQ-121`; resolved by `FJ100`, which records `cycle_005` as closure-ready and creates `ledgers/cycle_005_handoff.md`.
-126. What prompt-backlog maintenance or review-preparation step should follow the FJ100 cycle-005 closure-readiness audit? Tracked as `OQ-122`; open and queued by `next_prompts.md`, Prompt 020.
+126. What prompt-backlog maintenance or review-preparation step should follow the FJ100 cycle-005 closure-readiness audit? Tracked as `OQ-122`; resolved by `reflections/cycle_005_reflection.md`, after Prompt 020 completed the backlog maintenance pass and Prompt 021 created the cycle-005 reflection.
+127. What post-100-module strategic review should follow the cycle-005 reflection? Tracked as `OQ-123`; open and queued by `next_prompts.md`, Prompt 022.
 
 ## Established results
 
@@ -228,8 +229,10 @@ records that cycle 005 made real candidate-level progress through
 `CAND-T001-004` and `CAND-T001-005`, but that the current state is
 no-target-ready / governance-only. `FJ100` records that `cycle_005` is
 closure-ready, creates `ledgers/cycle_005_handoff.md`, resolves `OQ-121`,
-completes `OBL-C5-020`, and creates `OQ-122` and `OBL-C5-021`. The next
-queued gate is the prompt-backlog maintenance pass in Prompt 020.
+completes `OBL-C5-020`, and creates `OQ-122` and `OBL-C5-021`.
+`reflections/cycle_005_reflection.md` closes cycle 005, resolves `OQ-122`,
+completes `OBL-C5-021`, creates `OQ-123`, and records `OBL-POST100-001`.
+The next queued gate is the post-100-module strategic review in Prompt 022.
 
 ## What has been established
 
@@ -671,6 +674,11 @@ Current source toolkit:
   `OQ-121`, completes `OBL-C5-020`, creates `OQ-122` and `OBL-C5-021`, and
   makes no source, route, candidate, proof-attempt, target-reactivation, or
   theorem claim;
+- cycle-005 reflection: `reflections/cycle_005_reflection.md` closes
+  `cycle_005`, records that the cycle produced real candidate-level progress
+  but no theorem or residual subtraction, resolves `OQ-122`, completes
+  `OBL-C5-021`, creates `OQ-123`, records `OBL-POST100-001`, and selects
+  Prompt 022, the post-100-module strategic review;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -678,8 +686,7 @@ Current source toolkit:
 
 ## Next mathematical move
 
-The next queued open prompt is the prompt-backlog maintenance pass in
-`next_prompts.md`, Prompt 020. It should be executed only as governance
-maintenance unless a higher-priority accepted payload is recorded. After
-handoff and backlog maintenance, the project should prepare the cycle-005
-reflection or larger post-100-module review.
+The next queued open prompt is the post-100-module strategic review in
+`next_prompts.md`, Prompt 022. It should audit `FJ01` through `FJ100` for
+structural debt, live mathematical objects, blocked target lanes, and
+decorative-bookkeeping risk before any `cycle_006` target is opened.

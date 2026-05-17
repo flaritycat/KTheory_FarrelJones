@@ -2019,6 +2019,29 @@ in `next_prompts.md`, Prompt 020. After handoff and backlog maintenance, the
 project should prepare the cycle-005 reflection or larger post-100-module
 review unless a higher-priority accepted payload is recorded.
 
+## Cycle 005 reflection
+
+Current status: `reflections/cycle_005_reflection.md` closes `cycle_005`.
+
+The reflection records that cycle 005 made real candidate-level progress
+under payload discipline. It verified a weaker \(K_0\) / Cohen--Lyndon source
+payload at first-pass level, tested two concrete `T-001` candidate rows, and
+closed with no live non-routed candidate row.
+
+The reflection is bounded. It checks no external source, adds no candidate,
+reactivates no target, starts no proof attempt, and creates no theorem claim.
+
+The reflection decision is that `cycle_005` is closed and the next project
+move should be a post-100-module strategic review before any `cycle_006`
+target is opened.
+
+The reflection resolves `OQ-122`, completes `OBL-C5-021`, creates
+`OQ-123`, records `OBL-POST100-001`, and selects
+`PAY-POST100-REVIEW-2026-001` as the next queued governance payload.
+
+The next bounded project move is `next_prompts.md`, Prompt 022: a
+post-100-module strategic review of `FJ01` through `FJ100`.
+
 ## GitHub persistence policy
 
 The GitHub repository `flaritycat/KTheory_FarrelJones` is the durable archive and source of truth.

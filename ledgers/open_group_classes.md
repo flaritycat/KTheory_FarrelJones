@@ -160,3 +160,26 @@ Current group-class posture:
 
 The next queued object is Prompt 020, a governance-only prompt-backlog
 maintenance pass. It is not a group-class reactivation.
+
+## Cycle 005 reflection update
+
+`reflections/cycle_005_reflection.md` closes `cycle_005`.
+
+No group-class target becomes active from this reflection. The reflection
+records that cycle 005 produced bounded candidate-level progress, but no new
+theorem, candidate row, source route, target reactivation, or residual
+subtraction.
+
+Current group-class posture after the reflection:
+
+| Target or lane | Reflection status | Next acceptable object |
+|---|---|---|
+| `T-001` | unresolved but paused / payload-blocked | accepted `PAY-T001-CAND`, `PAY-T001-BRIDGE`, or `PAY-T001-BLOCKER` satisfying a recorded `T-001` gate |
+| Artin groups | paused | accepted `PAY-ARTIN` satisfying `OBL-ARTIN-004` |
+| Foundational source queue | paused | accepted `PAY-FND` satisfying `FND-QUEUE-PAUSE-001` |
+| Automatic / biautomatic groups | deferred | exact target-pivot payload with changed project object |
+| Thompson-type groups | deferred | exact target-pivot payload with changed project object |
+| `FJ53` / `RB-006` | WIP / provisional | accepted `PAY-FJ53-RB006` with a genuinely non-hyperbolic bridge or subtractive object |
+
+The next queued object is Prompt 022, the post-100-module strategic review.
+It is a governance review gate, not a group-class reactivation.

@@ -4857,7 +4857,7 @@ created by this resolution.
 
 ### Status
 
-Open inside project; queued by `next_prompts.md`, Prompt 020.
+Resolved by `reflections/cycle_005_reflection.md`.
 
 ### Context
 
@@ -4902,7 +4902,50 @@ residual subtraction.
 
 ### Next action
 
-Execute the queued prompt-backlog maintenance pass only as governance, or
-record a new accepted payload with higher priority. Do not create `FJ101`
-unless the repository records a concrete accepted payload or Prompt 020 is
-explicitly instantiated as a numbered governance module.
+Resolved in two governance steps. Prompt 020 completed the prompt-backlog
+maintenance pass, and `reflections/cycle_005_reflection.md` completed the
+review-preparation step by closing `cycle_005`, completing `OBL-C5-021`,
+creating `OQ-123`, and recording `OBL-POST100-001`.
+
+The next queued governance object is the post-100-module strategic review in
+`next_prompts.md`, Prompt 022.
+
+## OQ-123. What post-100-module strategic review should follow the cycle-005 reflection?
+
+### Status
+
+Open inside project; queued by `next_prompts.md`, Prompt 022.
+
+### Context
+
+`reflections/cycle_005_reflection.md` closes the fifth numbered module cycle.
+The project has now passed `FJ100`, has no active mathematical target lane,
+and has several exact gates recorded for future work. Before opening
+`cycle_006` or selecting another target, the repository should run a compact
+post-100-module strategic review.
+
+This is a governance question only. It does not authorize a theorem claim,
+source summary, proof attempt, candidate invention, target reactivation, or
+residual subtraction.
+
+### Relevant modules
+
+- FJ01--FJ100
+- `reflections/cycle_001_reflection.md`
+- `reflections/cycle_002_reflection.md`
+- `reflections/cycle_003_reflection.md`
+- `reflections/cycle_004_reflection.md`
+- `reflections/cycle_005_reflection.md`
+
+### Dependencies
+
+`next_prompts.md`, Prompt 022, `reflections/cycle_005_reflection.md`,
+`ledgers/cycle_005_handoff.md`, `ledgers/payload_intake_protocol.md`,
+`SCOPE_LEDGER.md`, `NOTATION_LEDGER.md`, `AGENTS.md`, and
+`OBL-POST100-001`.
+
+### Next action
+
+Execute the queued post-100-module strategic review, or record an explicit
+skip reason and replacement gate. Do not open `cycle_006` before this review
+gate is handled.

@@ -1303,4 +1303,25 @@ Residual-bucket effect:
 
 This resolves `OQ-121`, completes `OBL-C5-020`, creates `OQ-122`, and
 creates `OBL-C5-021` for the next queued prompt-backlog maintenance pass.
-No `FJ101` module is selected without an accepted payload or queued prompt.
+At the close of `FJ100`, no `FJ101` module was selected without an accepted
+payload or queued prompt; `reflections/cycle_005_reflection.md` later
+completed the cycle closeout.
+
+## Cycle 005 reflection update
+
+`reflections/cycle_005_reflection.md` closes `cycle_005`.
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- no candidate row is added;
+- no external source is checked;
+- no target is reactivated;
+- no proof attempt is started;
+- no active `T-001` candidate route is reopened;
+- `cycle_005` is closed with `T-001` paused / payload-blocked.
+
+The reflection resolves `OQ-122`, completes `OBL-C5-021`, creates
+`OQ-123`, and records `OBL-POST100-001`. The next queued object is the
+post-100-module strategic review, not a residual-bucket attack.

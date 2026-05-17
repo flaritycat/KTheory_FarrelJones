@@ -810,8 +810,23 @@ No live non-routed `T-001` candidate row is active after `FJ100`. Future
 candidate work must supply an accepted payload that changes this inventory or
 reopens a recorded row under its gate.
 
+## Cycle 005 reflection update
+
+`reflections/cycle_005_reflection.md` closes `cycle_005`.
+
+The reflection makes no candidate-inventory change. The durable `T-001`
+candidate lessons from cycle 005 are:
+
+- `CAND-T001-004` is archived as source-routed / prior-art-blocked through
+  `ER-015`;
+- `CAND-T001-005` is retained as a concrete torsion-free but blocked /
+  inactive proof-target row;
+- no current row is live and non-routed;
+- future `T-001` work must satisfy `OBL-T001-013` or a row-specific gate
+  such as `OBL-T001-023`.
+
 ## Next update
 
-The next queued prompt is the prompt-backlog maintenance pass in
-`next_prompts.md`, Prompt 020. No `FJ101` module is selected without an
-accepted payload or queued prompt.
+The next queued prompt is the post-100-module strategic review in
+`next_prompts.md`, Prompt 022. No `T-001` candidate row becomes active from
+the cycle-005 reflection alone.

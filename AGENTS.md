@@ -292,8 +292,12 @@ Current module handoff:
 - `FJ99`: Cycle-005 Strategic Checkpoint is completed.
 - `FJ100`: Cycle-005 Closure-Readiness Audit is completed. It records
   `cycle_005` as closure-ready and creates `ledgers/cycle_005_handoff.md`.
-- `FJ101`: no module selected; instantiate only from a new accepted payload
-  or the queued Prompt 020 prompt-backlog maintenance pass.
+- `reflections/cycle_005_reflection.md`: completed. It closes `cycle_005`,
+  resolves `OQ-122`, completes `OBL-C5-021`, records `OBL-POST100-001`, and
+  selects the post-100-module strategic review.
+- `FJ101`: no module selected. Do not instantiate it unless a future accepted
+  payload explicitly requires a numbered module after the post-100 review
+  gate is handled.
 
 Current obstruction:
 
@@ -510,8 +514,11 @@ Current obstruction:
   `PAY-C5-CLOSURE-READINESS-2026-001`, which instantiated `FJ100`.
 - `OBL-C5-021`: no `FJ101` module may be created until a new accepted payload
   is recorded or the queued Prompt 020 prompt-backlog maintenance pass is
-  executed. The maintenance pass is governance only and must not create
-  mathematical work.
+  executed. Completed by Prompt 020 and `reflections/cycle_005_reflection.md`.
+- `OBL-POST100-001`: the next governance artifact must run a post-100-module
+  strategic review or explicitly record why that review is being skipped.
+  Do not open `cycle_006` or select a new active target before this gate is
+  handled.
 
 ## Repository Hygiene
 
