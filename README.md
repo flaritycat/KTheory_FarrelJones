@@ -18,7 +18,7 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - Active cycle: cycle-006 payload-gated candidate-intake queue.
 - Completed cycles: `cycle_001`, `cycle_002`, `cycle_003`, and
   `cycle_004`, and `cycle_005`.
-- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, `FJ77`, `FJ78`, `FJ79`, `FJ80`, `FJ81`, `FJ82`, `FJ83`, `FJ84`, `FJ85`, `FJ86`, `FJ87`, `FJ88`, `FJ89`, `FJ90`, `FJ91`, `FJ92`, `FJ93`, `FJ94`, `FJ95`, `FJ96`, `FJ97`, `FJ98`, `FJ99`, `FJ100`, `FJ101`, `FJ102`, `FJ103`, `FJ104`, `FJ105`, `FJ106`, `FJ107`, `FJ108`, `FJ109`, `FJ110`, `FJ111`, `FJ112`, `FJ113`, `FJ114`, `FJ115`, `FJ116`, `FJ117`, `FJ118`, `FJ119`, `FJ120`, `FJ121`, `FJ122`, `FJ123`, `FJ124`, `FJ125`, `FJ126`, and `FJ127`.
+- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, `FJ77`, `FJ78`, `FJ79`, `FJ80`, `FJ81`, `FJ82`, `FJ83`, `FJ84`, `FJ85`, `FJ86`, `FJ87`, `FJ88`, `FJ89`, `FJ90`, `FJ91`, `FJ92`, `FJ93`, `FJ94`, `FJ95`, `FJ96`, `FJ97`, `FJ98`, `FJ99`, `FJ100`, `FJ101`, `FJ102`, `FJ103`, `FJ104`, `FJ105`, `FJ106`, `FJ107`, `FJ108`, `FJ109`, `FJ110`, `FJ111`, `FJ112`, `FJ113`, `FJ114`, `FJ115`, `FJ116`, `FJ117`, `FJ118`, `FJ119`, `FJ120`, `FJ121`, `FJ122`, `FJ123`, `FJ124`, `FJ125`, `FJ126`, `FJ127`, and `FJ128`.
 - `FJ53` is retained as WIP / provisional.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md`, `reflections/cycle_002_reflection.md`, `reflections/cycle_003_reflection.md`, `reflections/cycle_004_reflection.md`, and `reflections/cycle_005_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
@@ -34,7 +34,8 @@ Develop a modular research program around the Farrell--Jones conjecture by:
   `019`, `FJ120` consumed row `020`, `FJ121` consumed row `021`, and
   `FJ122` consumed row `022`, `FJ123` consumed row `023`, `FJ124`
   consumed row `024`, `FJ125` consumed row `025`, `FJ126` consumed
-  row `026`, and `FJ127` consumed row `027`, and none
+  row `026`, `FJ127` consumed row `027`, and `FJ128` consumed row `028`,
+  and none
   creates a route, theorem, or residual subtraction.
 - Current procedural target: use `ledgers/payload_execution_queue.md` as the
   callback queue. The exact phrase `Continue payload` consumes the next row
@@ -74,7 +75,8 @@ Develop a modular research program around the Farrell--Jones conjecture by:
   `CAND-T001-C6-024`, `OQ-151` / `OBL-C6-028` for follow-up work on
   `CAND-T001-C6-025`, `OQ-152` / `OBL-C6-029` for follow-up work on
   `CAND-T001-C6-026`, `OQ-153` / `OBL-C6-030` for follow-up work on
-  `CAND-T001-C6-027`, and the callback queue discipline for later row intake.
+  `CAND-T001-C6-027`, `OQ-154` / `OBL-C6-031` for follow-up work on
+  `CAND-T001-C6-028`, and the callback queue discipline for later row intake.
   Template prompts remain non-executable until filled and accepted under the
   payload protocol.
 
@@ -357,6 +359,9 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
 - `FJ127` consumes callback queue row `027`, adds `CAND-T001-C6-027` as a
   candidate-admissible but route-unresolved row, and creates `OQ-153` /
   `OBL-C6-030` without a Farrell--Jones route or residual subtraction.
+- `FJ128` consumes callback queue row `028`, adds `CAND-T001-C6-028` as a
+  candidate-admissible but route-unresolved row, and creates `OQ-154` /
+  `OBL-C6-031` without a Farrell--Jones route or residual subtraction.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.
