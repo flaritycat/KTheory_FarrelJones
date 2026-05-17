@@ -5037,7 +5037,8 @@ by `FJ102` for payload `PAY-T001-CAND-C6-002-2026-001`, by `FJ103` for
 payload `PAY-T001-CAND-C6-003-2026-001`, and by `FJ104` for payload
 `PAY-T001-CAND-C6-004-2026-001`, and by `FJ105` for payload
 `PAY-T001-CAND-C6-005-2026-001`, and by `FJ106` for payload
-`PAY-T001-CAND-C6-006-2026-001` only; callback queue remains active for
+`PAY-T001-CAND-C6-006-2026-001`, and by `FJ107` for payload
+`PAY-T001-CAND-C6-007-2026-001` only; callback queue remains active for
 later rows.
 
 ### Context
@@ -5065,7 +5066,7 @@ residual subtraction.
 
 ### Next action
 
-`FJ101`, `FJ102`, `FJ103`, `FJ104`, `FJ105`, and `FJ106` have instantiated the first six
+`FJ101`, `FJ102`, `FJ103`, `FJ104`, `FJ105`, `FJ106`, and `FJ107` have instantiated the first seven
 concrete callback-queue rows. Future numbered work still requires a concrete accepted payload. The
 exact callback phrase `Continue payload` may consume the next `Ready for
 intake` row from `ledgers/payload_execution_queue.md`, one row per run, if
@@ -5314,3 +5315,46 @@ Supply a new accepted payload for kernel-control computation, route/prior-art
 blocker audit, formulation comparison, route bridge, or branch decision.
 The callback queue may continue to add separate candidate-intake rows, but a
 future row does not by itself resolve this question for `CAND-T001-C6-006`.
+
+## OQ-133. Which accepted payload, if any, should act on CAND-T001-C6-007 after FJ107?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ107` records accepted payload `PAY-T001-CAND-C6-007-2026-001` and adds
+`CAND-T001-C6-007` as a concrete torsion-free one-relator candidate at
+first-pass intake level. The row has a non-proper-power relator check, an
+epimorphism \(\chi(a)=1,\chi(b)=0\), and first-pass torsion-free status via
+the existing Putman source-status row used in `FJ91` and reused in
+`FJ101`--`FJ106`.
+
+No kernel-control computation, known-route audit, prior-art blocker,
+formulation comparison, weaker \(K_0\) package, or Farrell--Jones route is
+recorded for the row.
+
+### Relevant modules
+
+- `FJ91`
+- `FJ101`
+- `FJ102`
+- `FJ103`
+- `FJ104`
+- `FJ105`
+- `FJ106`
+- `FJ107`
+
+### Dependencies
+
+`ledgers/payload_execution_queue.md`, `ledgers/payload_intake_protocol.md`,
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
+`ledgers/theorem_dependencies.md`, and `OBL-C6-010`.
+
+### Next action
+
+Supply a new accepted payload for kernel-control computation, route/prior-art
+blocker audit, formulation comparison, route bridge, or branch decision.
+The callback queue may continue to add separate candidate-intake rows, but a
+future row does not by itself resolve this question for `CAND-T001-C6-007`.
