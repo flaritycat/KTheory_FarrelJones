@@ -96,6 +96,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-C5-CLOSURE-READINESS-2026-001` | `PAY-GOV` | accepted for `FJ100` only | Internal cycle-005 closure-readiness audit after `FJ99`; records closure-ready status, creates `ledgers/cycle_005_handoff.md`, records exact unresolved gates, and makes no mathematical claim. |
 | `PAY-C5-REFLECTION-2026-001` | `PAY-GOV` | accepted for `reflections/cycle_005_reflection.md` only | Internal cycle-005 reflection after `FJ100`; closes cycle 005, records what was achieved and what remains gated, and selects the post-100-module strategic review without adding mathematics. |
 | `PAY-POST100-REVIEW-2026-001` | `PAY-GOV` | accepted for `reflections/post_100_module_strategic_review.md` only | Internal post-100-module strategic review after cycle 005; records structural debt, live mathematical objects, decorative-bookkeeping risk, and the cycle-006 entry gate without adding mathematics. |
+| `PAY-C6-GATE-2026-001` | `PAY-GOV` | accepted for `ledgers/cycle_006_entry_gate.md` only | Internal cycle-006 entry-gate audit after the post-100 review; records no-gate-ready status and selects the cycle-006 payload acquisition / project-pause decision without adding mathematics. |
 
 ## Accepted intake records
 
@@ -656,12 +657,24 @@ source, theorem, route, candidate, proof-attempt, target-reactivation, or
 residual subtraction claim.
 
 After the post-100-module strategic review, no mathematical `cycle_006`
-module is selected. The next queued governance object is Prompt 023, the
-cycle-006 entry-gate audit, unless a higher-priority accepted payload is
-recorded.
+module was selected. The next queued governance object at that stage was
+Prompt 023, the cycle-006 entry-gate audit.
+
+`ledgers/cycle_006_entry_gate.md` completes `PAY-C6-GATE-2026-001`, resolves
+`OQ-124`, completes `OBL-C6-001`, records a no-gate-ready state, creates
+`OQ-125`, records `OBL-C6-002`, and makes no source, theorem, route,
+candidate, proof-attempt, target-reactivation, or residual subtraction
+claim.
+
+After the cycle-006 entry-gate audit, no mathematical `cycle_006` module is
+selected. The next queued governance object is Prompt 024, the cycle-006
+payload acquisition / project-pause decision, unless a higher-priority
+accepted payload is recorded.
 
 The latest accepted payload,
-`PAY-POST100-REVIEW-2026-001`, changes the state by creating
+`PAY-C6-GATE-2026-001`, changes the state by creating
+`ledgers/cycle_006_entry_gate.md`; the earlier accepted payload
+`PAY-POST100-REVIEW-2026-001` created
 `reflections/post_100_module_strategic_review.md`; the earlier accepted
 payload `PAY-C5-REFLECTION-2026-001` created
 `reflections/cycle_005_reflection.md`; the earlier accepted payload

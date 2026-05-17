@@ -840,6 +840,24 @@ candidate posture remains:
 - future `T-001` work must satisfy `OBL-T001-013` or a row-specific gate
   such as `OBL-T001-023`.
 
-The next queued prompt is the cycle-006 entry-gate audit in
-`next_prompts.md`, Prompt 023. No `T-001` candidate row becomes active from
-the post-100 review alone.
+The next queued prompt at that stage was the cycle-006 entry-gate audit in
+`next_prompts.md`, Prompt 023. That audit is now recorded in
+`ledgers/cycle_006_entry_gate.md`.
+
+## Cycle 006 entry-gate update
+
+`ledgers/cycle_006_entry_gate.md` completes the cycle-006 entry-gate audit.
+
+The audit makes no candidate-inventory change. The durable `T-001`
+candidate posture remains:
+
+- no current row is live and non-routed;
+- `CAND-T001-004` remains source-routed / prior-art-blocked;
+- `CAND-T001-005` remains a concrete torsion-free but blocked / inactive
+  proof-target row;
+- no payload satisfying `OBL-T001-013` or `OBL-T001-023` is currently
+  recorded.
+
+The next queued prompt is the cycle-006 payload acquisition / project-pause
+decision in `next_prompts.md`, Prompt 024. No `T-001` candidate row becomes
+active from the cycle-006 entry-gate audit alone.

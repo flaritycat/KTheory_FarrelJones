@@ -175,7 +175,8 @@ Unless explicitly imported later:
 125. Should cycle 005 close, continue only with a concrete active payload, or pause after the FJ99 strategic checkpoint? Tracked as `OQ-121`; resolved by `FJ100`, which records `cycle_005` as closure-ready and creates `ledgers/cycle_005_handoff.md`.
 126. What prompt-backlog maintenance or review-preparation step should follow the FJ100 cycle-005 closure-readiness audit? Tracked as `OQ-122`; resolved by `reflections/cycle_005_reflection.md`, after Prompt 020 completed the backlog maintenance pass and Prompt 021 created the cycle-005 reflection.
 127. What post-100-module strategic review should follow the cycle-005 reflection? Tracked as `OQ-123`; resolved by `reflections/post_100_module_strategic_review.md`.
-128. What cycle-006 entry-gate status follows the post-100-module strategic review? Tracked as `OQ-124`; open and queued by `next_prompts.md`, Prompt 023.
+128. What cycle-006 entry-gate status follows the post-100-module strategic review? Tracked as `OQ-124`; resolved by `ledgers/cycle_006_entry_gate.md`, which records a no-gate-ready state.
+129. What payload-acquisition or project-pause decision should follow the cycle-006 no-gate-ready audit? Tracked as `OQ-125`; open and queued by `next_prompts.md`, Prompt 024.
 
 ## Established results
 
@@ -235,7 +236,10 @@ completes `OBL-C5-020`, and creates `OQ-122` and `OBL-C5-021`.
 completes `OBL-C5-021`, creates `OQ-123`, and records `OBL-POST100-001`.
 `reflections/post_100_module_strategic_review.md` resolves `OQ-123`,
 completes `OBL-POST100-001`, creates `OQ-124`, and records `OBL-C6-001`.
-The next queued gate is the cycle-006 entry-gate audit in Prompt 023.
+`ledgers/cycle_006_entry_gate.md` resolves `OQ-124`, completes
+`OBL-C6-001`, records a no-gate-ready state, creates `OQ-125`, and records
+`OBL-C6-002`. The next queued gate is the cycle-006 payload decision in
+Prompt 024.
 
 ## What has been established
 
@@ -686,6 +690,10 @@ Current source toolkit:
   `reflections/post_100_module_strategic_review.md` resolves `OQ-123`,
   completes `OBL-POST100-001`, creates `OQ-124`, records `OBL-C6-001`, and
   selects Prompt 023, the cycle-006 entry-gate audit;
+- cycle-006 entry-gate audit: `ledgers/cycle_006_entry_gate.md` resolves
+  `OQ-124`, completes `OBL-C6-001`, records a no-gate-ready state, creates
+  `OQ-125`, records `OBL-C6-002`, and selects Prompt 024, the cycle-006
+  payload acquisition / project-pause decision;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -693,8 +701,7 @@ Current source toolkit:
 
 ## Next mathematical move
 
-The next queued open prompt is the cycle-006 entry-gate audit in
-`next_prompts.md`, Prompt 023. It should check whether `T-001`, the Artin
-lane, foundational conventions, `FJ53` / `RB-006`, or another recorded lane
-has a gate-satisfying payload before any `cycle_006` mathematical module is
-opened.
+The next queued open prompt is the cycle-006 payload acquisition /
+project-pause decision in `next_prompts.md`, Prompt 024. It should apply
+`ledgers/payload_intake_protocol.md` after the cycle-006 no-gate-ready audit
+and either record an accepted concrete payload or a payload-gated pause.

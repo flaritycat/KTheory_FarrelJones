@@ -2063,6 +2063,27 @@ next queued governance payload.
 The next bounded project move is `next_prompts.md`, Prompt 023: a cycle-006
 entry-gate audit.
 
+## Cycle 006 entry-gate audit
+
+Current status: `ledgers/cycle_006_entry_gate.md` completes the cycle-006
+entry-gate audit required by the post-100-module strategic review.
+
+The audit is bounded. It checks no external source, adds no candidate,
+reactivates no target, starts no proof attempt, creates no numbered module,
+and creates no theorem claim.
+
+The audit decision is that no recorded lane currently has a gate-satisfying
+payload for cycle 006. `T-001`, `CAND-T001-005`, the Artin lane, the
+foundational source queue, deferred group-class lines, and WIP / provisional
+`FJ53` all remain gated.
+
+The audit resolves `OQ-124`, completes `OBL-C6-001`, creates `OQ-125`,
+records `OBL-C6-002`, and selects `PAY-C6-PAYLOAD-2026-001` as the next
+queued governance payload.
+
+The next bounded project move is `next_prompts.md`, Prompt 024: a cycle-006
+payload acquisition or project-pause decision.
+
 ## GitHub persistence policy
 
 The GitHub repository `flaritycat/KTheory_FarrelJones` is the durable archive and source of truth.

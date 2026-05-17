@@ -1344,5 +1344,25 @@ Residual-bucket effect:
 - `T-001` remains paused / payload-blocked.
 
 The review resolves `OQ-123`, completes `OBL-POST100-001`, creates
-`OQ-124`, and records `OBL-C6-001`. The next queued object is the
-cycle-006 entry-gate audit, not a residual-bucket attack.
+`OQ-124`, and records `OBL-C6-001`. The next queued object at that stage was
+the cycle-006 entry-gate audit, not a residual-bucket attack; that audit is
+now recorded in `ledgers/cycle_006_entry_gate.md`.
+
+## Cycle 006 entry-gate update
+
+`ledgers/cycle_006_entry_gate.md` completes the cycle-006 entry-gate audit.
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- no candidate row is added;
+- no external source is checked;
+- no target is reactivated;
+- no proof attempt is started;
+- no active `T-001` candidate route is reopened;
+- `T-001` remains paused / payload-blocked.
+
+The audit resolves `OQ-124`, completes `OBL-C6-001`, creates `OQ-125`, and
+records `OBL-C6-002`. The next queued object is the cycle-006 payload
+acquisition / project-pause decision, not a residual-bucket attack.

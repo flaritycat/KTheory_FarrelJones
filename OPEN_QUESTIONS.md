@@ -4956,7 +4956,7 @@ decorative-bookkeeping risk, and the next-cycle entry gate. It completes
 
 ### Status
 
-Open inside project; queued by `next_prompts.md`, Prompt 023.
+Resolved by `ledgers/cycle_006_entry_gate.md`.
 
 ### Context
 
@@ -4983,6 +4983,46 @@ residual subtraction.
 
 ### Next action
 
-Execute the queued cycle-006 entry-gate audit, or record an explicit skip
-reason and replacement gate. Do not open a mathematical `cycle_006` module
-before this entry gate is handled.
+Resolved by accepted governance payload `PAY-C6-GATE-2026-001`. The audit
+records that no current lane has a gate-satisfying payload for cycle 006. It
+completes `OBL-C6-001`, creates `OQ-125`, and records `OBL-C6-002`.
+
+## OQ-125. What payload-acquisition or project-pause decision should follow the cycle-006 no-gate-ready audit?
+
+### Status
+
+Open inside project; queued by `next_prompts.md`, Prompt 024.
+
+### Context
+
+`ledgers/cycle_006_entry_gate.md` records a no-gate-ready state for cycle
+006. `T-001`, `CAND-T001-005`, the Artin lane, the foundational source
+queue, automatic / biautomatic groups, Thompson-type groups, and WIP /
+provisional `FJ53` remain gated, paused, deferred, or provisional.
+
+The next governance question is whether a concrete accepted payload exists
+for the next numbered module. If not, the project should record a cycle-006
+payload-gated pause rather than beginning source work, candidate work, or
+proof work.
+
+This is a governance question only. It does not authorize a theorem claim,
+source summary, proof attempt, candidate invention, target reactivation, or
+residual subtraction.
+
+### Relevant modules
+
+- `ledgers/cycle_006_entry_gate.md`
+- `reflections/post_100_module_strategic_review.md`
+- `reflections/cycle_005_reflection.md`
+
+### Dependencies
+
+`next_prompts.md`, Prompt 024, `ledgers/payload_intake_protocol.md`,
+`ledgers/cycle_006_entry_gate.md`, `SCOPE_LEDGER.md`,
+`NOTATION_LEDGER.md`, `AGENTS.md`, and `OBL-C6-002`.
+
+### Next action
+
+Execute the queued cycle-006 payload acquisition / project-pause decision.
+Do not open a mathematical numbered module without a concrete accepted
+payload.

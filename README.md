@@ -15,7 +15,7 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 ## Current module cycle
 
-- Active cycle: post-100 review complete; `cycle_006` entry-gate audit
+- Active cycle: cycle-006 entry-gate audit complete; payload decision
   pending.
 - Completed cycles: `cycle_001`, `cycle_002`, `cycle_003`, and
   `cycle_004`, and `cycle_005`.
@@ -23,11 +23,11 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - `FJ53` is retained as WIP / provisional.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md`, `reflections/cycle_002_reflection.md`, `reflections/cycle_003_reflection.md`, `reflections/cycle_004_reflection.md`, and `reflections/cycle_005_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current active project status: post-100-module strategic review completed;
-  `cycle_006` has not opened as a mathematical proof cycle.
-- Current procedural target: execute `next_prompts.md`, Prompt 023, as the
-  cycle-006 entry-gate audit unless a higher-priority accepted payload is
-  recorded.
+- Current active project status: cycle-006 no-gate-ready state. `cycle_006`
+  has not opened as a mathematical proof cycle.
+- Current procedural target: execute `next_prompts.md`, Prompt 024, as the
+  cycle-006 payload acquisition / project-pause decision unless a
+  higher-priority accepted payload is recorded.
 
 ## Current established results
 
@@ -214,6 +214,10 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
   review gate. It resolves `OQ-123`, completes `OBL-POST100-001`, creates
   `OQ-124` and `OBL-C6-001`, and selects Prompt 023, the cycle-006
   entry-gate audit, as the next governance step.
+- `ledgers/cycle_006_entry_gate.md` completes the cycle-006 entry-gate
+  audit. It resolves `OQ-124`, completes `OBL-C6-001`, records a no-gate-ready
+  state, creates `OQ-125` and `OBL-C6-002`, and selects Prompt 024, the
+  cycle-006 payload acquisition / project-pause decision.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.

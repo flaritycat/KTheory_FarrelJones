@@ -725,9 +725,9 @@ Governance only unless the repository has already recorded the required input.
 
 ## Prompt 023
 
-Status: Open
+Status: Completed
 
-Completed by:
+Completed by: `ledgers/cycle_006_entry_gate.md`
 
 Commit:
 
