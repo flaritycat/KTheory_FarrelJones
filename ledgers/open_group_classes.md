@@ -113,3 +113,26 @@ target-readiness status is:
 Thus no recorded mathematical target lane has a concrete next object after
 `FJ97`. The next queued object is the governance-only cycle-005 strategic
 checkpoint in `next_prompts.md`, Prompt 018.
+
+## FJ99 strategic checkpoint update
+
+`FJ99` records accepted governance payload
+`PAY-C5-STRATEGIC-CHECKPOINT-2026-001`.
+
+Cycle 005 did make real candidate-level progress through `CAND-T001-004` and
+`CAND-T001-005`. However, after `FJ96`--`FJ98`, no group-class target has a
+concrete next mathematical object in the current repository state.
+
+Current group-class posture:
+
+| Target or lane | FJ99 status | Next acceptable object |
+|---|---|---|
+| `T-001` | unresolved but no-target-ready / payload-blocked | accepted `PAY-T001-CAND`, `PAY-T001-BRIDGE`, or `PAY-T001-BLOCKER` with a concrete changed project object |
+| Artin groups | paused | accepted `PAY-ARTIN` satisfying `OBL-ARTIN-004` |
+| Foundational source queue | paused | accepted `PAY-FND` satisfying `FND-QUEUE-PAUSE-001` |
+| Automatic / biautomatic groups | deferred | exact target-pivot payload with changed project object |
+| Thompson-type groups | deferred | exact target-pivot payload with changed project object |
+| `FJ53` / `RB-006` | WIP / provisional | accepted `PAY-FJ53-RB006` with a genuinely non-hyperbolic bridge or subtractive object |
+
+The next queued object is the governance-only closure-readiness audit in
+`next_prompts.md`, Prompt 019.

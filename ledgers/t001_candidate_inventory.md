@@ -33,7 +33,7 @@ branch checkpoint demoting `CAND-T001-005` to blocked / inactive proof-target
 status, by `FJ96` with the post-`FJ95` live-candidate audit, and by `FJ97`
 with the formulation-safety audit after the no-live-candidate state, and by
 `FJ98` with the target-pivot readiness checkpoint recording no target-ready
-mathematical lane.
+mathematical lane, and by `FJ99` with the cycle-005 strategic checkpoint.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -771,8 +771,26 @@ finite-rank free-kernel identification, source-verified route bridge, new
 FJ83 weaker \(K_0\) hypothesis data, formulation comparison, reopening
 decision, or prior-art object satisfying the payload protocol.
 
+## FJ99 cycle-005 strategic checkpoint
+
+`FJ99` records accepted payload `PAY-C5-STRATEGIC-CHECKPOINT-2026-001`.
+
+For this `T-001` inventory, the strategic checkpoint records that cycle 005
+did make candidate-level progress:
+
+- `CAND-T001-004` was added, checked, and source-routed / prior-art-blocked
+  through `ER-015`;
+- `CAND-T001-005` was added, checked for torsion-free status, given a
+  Brown/BNS finite-generation computation, audited for named routes and FJ83
+  eligibility, and demoted to blocked / inactive proof-target status.
+
+The current status is not candidate-progressing. No live non-routed row is
+active, and no `T-001` route or proof-target update is scheduled without a
+new accepted payload changing this inventory, residual status, proof
+obligation, formulation comparison, or prior-art blocker state.
+
 ## Next update
 
-The next queued prompt is the cycle-005 strategic checkpoint in
-`next_prompts.md`, Prompt 018. No `FJ99` module is selected without an
+The next queued prompt is the cycle-005 closure-readiness audit in
+`next_prompts.md`, Prompt 019. No `FJ100` module is selected without an
 accepted payload or queued prompt.

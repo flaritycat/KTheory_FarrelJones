@@ -1960,11 +1960,38 @@ payload-blocked.
 creates `OQ-120`, and makes no full `T-001` claim, no target reactivation,
 no source claim, and no residual subtraction.
 
-The next bounded project move is the cycle-005 strategic checkpoint queued in
-`next_prompts.md`, Prompt 018. Since `FJ98` records all-targets-paused /
-no-target-ready status, that checkpoint should decide whether cycle 005 is
-still producing candidate-level progress or has returned to decorative
-bookkeeping.
+At the close of `FJ98`, the next bounded project move was the cycle-005
+strategic checkpoint queued in `next_prompts.md`, Prompt 018. `FJ99` was
+later instantiated from that queued prompt.
+
+## FJ99 cycle-005 strategic checkpoint
+
+Current status: `FJ99` has first-pass coverage as the cycle-005 strategic
+checkpoint after the post-`FJ98` all-targets-paused state.
+
+`FJ99` records accepted payload `PAY-C5-STRATEGIC-CHECKPOINT-2026-001`,
+whose object is to audit cycle-005 modules from `FJ81` onward and decide
+whether the project is still making candidate-level progress or has returned
+to decorative bookkeeping.
+
+The audit is bounded. It checks no external source, adds no candidate,
+reactivates no target, and starts no proof attempt.
+
+The audit result is mixed but precise: cycle 005 did make real
+candidate-level progress through `CAND-T001-004` and `CAND-T001-005`, but
+the current post-`FJ98` state is no-target-ready / governance-only. Further
+numbered modules that only summarize sources, restate paused targets, or
+repeat gate checks would be decorative bookkeeping.
+
+`FJ99` resolves `OQ-120`, completes `OBL-C5-019`, creates `OBL-C5-020`,
+creates `OQ-121`, and makes no full `T-001` claim, no target reactivation,
+no source claim, and no residual subtraction.
+
+The next bounded project move is the cycle-005 closure-readiness audit queued
+in `next_prompts.md`, Prompt 019. It should decide whether cycle 005 should
+close, continue only with a concrete active payload, or pause, without
+creating a reflection before a handoff table and exact unresolved gates are
+recorded.
 
 ## GitHub persistence policy
 

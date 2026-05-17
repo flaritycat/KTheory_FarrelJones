@@ -4724,6 +4724,7 @@ criterion, and stop condition.
 - FJ96
 - FJ97
 - FJ98
+- FJ99
 
 ### Dependencies
 
@@ -4744,7 +4745,7 @@ cycle-005 strategic checkpoint queued as governance work.
 
 ### Status
 
-Open inside project; queued by `next_prompts.md`, Prompt 018.
+Resolved by `FJ99`.
 
 ### Context
 
@@ -4789,6 +4790,63 @@ add source summaries, reactivate a target, or create a proof attempt.
 
 ### Next action
 
-Execute the queued cycle-005 strategic checkpoint only as a bounded
-governance audit. Do not add a source summary, proof attempt, or target
-reactivation without an accepted payload and a changed project object.
+Resolved by accepted payload `PAY-C5-STRATEGIC-CHECKPOINT-2026-001`.
+`FJ99` records that cycle 005 made real candidate-level progress through
+`CAND-T001-004` and `CAND-T001-005`, but that the current post-`FJ98` state
+is no-target-ready / governance-only. The next queued object is the
+cycle-005 closure-readiness audit.
+
+## OQ-121. Should cycle 005 close, continue only with a concrete active payload, or pause after the FJ99 strategic checkpoint?
+
+### Status
+
+Open inside project; queued by `next_prompts.md`, Prompt 019.
+
+### Context
+
+`FJ99` records that cycle 005 has not been purely decorative: it produced
+bounded candidate-level work on `CAND-T001-004` and `CAND-T001-005`.
+However, after `FJ96`--`FJ98`, no mathematical target lane has a concrete
+next object and the project is again in a governance-only state.
+
+The next queued prompt asks for a closure-readiness audit. It must determine
+whether cycle 005 should close, continue only with a concrete active payload,
+or pause. It must not create a reflection until a handoff table and exact
+unresolved gates are recorded.
+
+### Relevant modules
+
+- FJ81
+- FJ82
+- FJ83
+- FJ84
+- FJ85
+- FJ86
+- FJ87
+- FJ88
+- FJ89
+- FJ90
+- FJ91
+- FJ92
+- FJ93
+- FJ94
+- FJ95
+- FJ96
+- FJ97
+- FJ98
+- FJ99
+
+### Dependencies
+
+`next_prompts.md`, Prompt 019, `ledgers/payload_intake_protocol.md`,
+`OBL-C5-020`, `ledgers/open_group_classes.md`,
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
+`ledgers/artin_subclass_gap_inventory.md`, `SCOPE_LEDGER.md`,
+`NOTATION_LEDGER.md`, and `AGENTS.md`.
+
+### Next action
+
+Execute the queued cycle-005 closure-readiness audit only as a bounded
+governance audit. Do not create a reflection, source summary, proof attempt,
+or target reactivation before the handoff table and unresolved gates are
+recorded.

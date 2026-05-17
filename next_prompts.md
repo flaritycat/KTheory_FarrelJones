@@ -543,11 +543,11 @@ Stop after target-pivot readiness update.
 
 ## Prompt 018
 
-Status: Open
+Status: Completed
 
-Completed by:
+Completed by: `FJ99`
 
-Commit:
+Commit: this commit (`[module] complete FJ99 cycle-005 strategic checkpoint`)
 
 Prompt:
 
@@ -592,8 +592,9 @@ Payload type: PAY-GOV
 
 Exact statement or object:
 Determine whether cycle_005 should close, continue with a concrete active
-payload, or pause. Do not create a reflection until the closure-readiness
-audit records a handoff table and exact unresolved gates.
+payload, or pause. Use the post-FJ99 gate, `OQ-121`, and `OBL-C5-020`. Do
+not create a reflection until the closure-readiness audit records a handoff
+table and exact unresolved gates.
 
 Success criterion:
 Record closure-ready, continue-with-payload, or pause status.

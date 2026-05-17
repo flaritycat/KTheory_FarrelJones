@@ -171,7 +171,8 @@ Unless explicitly imported later:
 121. Does any live non-routed `T-001` candidate row remain after the FJ95 branch decision? Tracked as `OQ-117`; resolved by `FJ96`, which records post-`FJ95` no-live-candidate blocker `NLC-T001-002`.
 122. Does the next queued formulation-safety prompt apply to any active candidate row after FJ96? Tracked as `OQ-118`; resolved by `FJ97`, which records formulation-irrelevant status because no active candidate route remains.
 123. What target-pivot readiness status follows the post-FJ97 formulation-irrelevant audit? Tracked as `OQ-119`; resolved by `FJ98`, which records all-targets-paused / no-target-ready status.
-124. What cycle-005 strategic status follows the post-FJ98 all-targets-paused checkpoint? Tracked as `OQ-120`; open and queued by `next_prompts.md`, Prompt 018.
+124. What cycle-005 strategic status follows the post-FJ98 all-targets-paused checkpoint? Tracked as `OQ-120`; resolved by `FJ99`, which records that cycle 005 made candidate-level progress but is now no-target-ready / governance-only.
+125. Should cycle 005 close, continue only with a concrete active payload, or pause after the FJ99 strategic checkpoint? Tracked as `OQ-121`; open and queued by `next_prompts.md`, Prompt 019.
 
 ## Established results
 
@@ -201,7 +202,7 @@ specialization of the additive-category coefficient convention recorded in
 `FJ02`. Here \(R\) is an associative unital ring and \(G\) is a discrete
 group unless stated otherwise.
 
-The active project posture is post-`FJ98` target-pivot-readiness gate.
+The active project posture is post-`FJ99` strategic-checkpoint gate.
 `T-001`,
 torsion-free one-relator residual gap analysis, remains unresolved as a
 global target. The concrete row `CAND-T001-004` is no longer live as a
@@ -221,8 +222,11 @@ the current `T-001` inventory because no active candidate route remains.
 `FJ98` records that no mathematical target lane has a concrete next object:
 `T-001`, the Artin lane, the foundational source queue, automatic /
 biautomatic groups, Thompson-type groups, and the WIP / provisional `FJ53`
-line remain paused, deferred, WIP / provisional, or payload-blocked. The
-next queued gate is the cycle-005 strategic checkpoint in Prompt 018.
+line remain paused, deferred, WIP / provisional, or payload-blocked. `FJ99`
+records that cycle 005 made real candidate-level progress through
+`CAND-T001-004` and `CAND-T001-005`, but that the current state is
+no-target-ready / governance-only. The next queued gate is the cycle-005
+closure-readiness audit in Prompt 019.
 
 ## What has been established
 
@@ -652,6 +656,12 @@ Current source toolkit:
   no-target-ready status, resolves `OQ-119`, completes `OBL-C5-018`, creates
   `OBL-C5-019` and `OQ-120`, and makes no source, route, candidate,
   proof-attempt, or theorem claim;
+- cycle-005 strategic checkpoint: `FJ99` records accepted payload
+  `PAY-C5-STRATEGIC-CHECKPOINT-2026-001`, audits `FJ81` onward, records
+  that cycle 005 made candidate-level progress but is now no-target-ready /
+  governance-only, resolves `OQ-120`, completes `OBL-C5-019`, creates
+  `OBL-C5-020` and `OQ-121`, and makes no source, route, candidate,
+  proof-attempt, target-reactivation, or theorem claim;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -659,7 +669,7 @@ Current source toolkit:
 
 ## Next mathematical move
 
-The next queued open prompt is the cycle-005 strategic checkpoint in
-`next_prompts.md`, Prompt 018. It should be executed only as a bounded
-governance audit and must not start a source survey, proof attempt, or target
-reactivation.
+The next queued open prompt is the cycle-005 closure-readiness audit in
+`next_prompts.md`, Prompt 019. It should be executed only as a bounded
+governance audit and must not create a reflection until it records a handoff
+table and exact unresolved gates.

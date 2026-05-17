@@ -18,16 +18,17 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - Active cycle: `cycle_005`.
 - Completed cycles: `cycle_001`, `cycle_002`, `cycle_003`, and
   `cycle_004`.
-- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, `FJ77`, `FJ78`, `FJ79`, `FJ80`, `FJ81`, `FJ82`, `FJ83`, `FJ84`, `FJ85`, `FJ86`, `FJ87`, `FJ88`, `FJ89`, `FJ90`, `FJ91`, `FJ92`, `FJ93`, `FJ94`, `FJ95`, `FJ96`, `FJ97`, and `FJ98`.
+- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, `FJ77`, `FJ78`, `FJ79`, `FJ80`, `FJ81`, `FJ82`, `FJ83`, `FJ84`, `FJ85`, `FJ86`, `FJ87`, `FJ88`, `FJ89`, `FJ90`, `FJ91`, `FJ92`, `FJ93`, `FJ94`, `FJ95`, `FJ96`, `FJ97`, `FJ98`, and `FJ99`.
 - `FJ53` is retained as WIP / provisional.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md`, `reflections/cycle_002_reflection.md`, `reflections/cycle_003_reflection.md`, and `reflections/cycle_004_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current active project status: post-`FJ98` target-pivot-readiness gate.
-  `FJ98` was instantiated by accepted governance payload
-  `PAY-PIVOT-READINESS-2026-001`.
-- Current procedural target: execute the cycle-005 strategic checkpoint in
-  `next_prompts.md`, Prompt 018, only as a bounded governance audit. Do not
-  start a source survey, proof attempt, or target reactivation in that step.
+- Current active project status: post-`FJ99` strategic-checkpoint gate.
+  `FJ99` was instantiated by accepted governance payload
+  `PAY-C5-STRATEGIC-CHECKPOINT-2026-001`.
+- Current procedural target: execute the cycle-005 closure-readiness audit in
+  `next_prompts.md`, Prompt 019, only as a bounded governance audit. Do not
+  create a reflection before recording a handoff table and exact unresolved
+  gates.
 
 ## Current established results
 
@@ -193,6 +194,13 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
   WIP / provisional, or payload-blocked. It resolves `OQ-119`, completes
   `OBL-C5-018`, creates `OBL-C5-019` and `OQ-120`, and makes no target
   reactivation or theorem claim.
+- `FJ99` records accepted payload `PAY-C5-STRATEGIC-CHECKPOINT-2026-001` and
+  audits cycle 005 from `FJ81` onward. It records that cycle 005 made real
+  candidate-level progress through `CAND-T001-004` and `CAND-T001-005`, but
+  that the current state is no-target-ready / governance-only. It resolves
+  `OQ-120`, completes `OBL-C5-019`, creates `OBL-C5-020` and `OQ-121`, and
+  makes no source, route, candidate, target-reactivation, proof-attempt, or
+  theorem claim.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.

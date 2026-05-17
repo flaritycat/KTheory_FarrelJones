@@ -212,6 +212,12 @@ groups, Thompson-type groups, and WIP / provisional `FJ53` remain paused,
 deferred, WIP / provisional, or payload-blocked. The next queued work is a
 cycle-005 strategic checkpoint, not source reading or proof work.
 
+After `FJ99`, cycle 005 is classified as having made real candidate-level
+progress earlier, but the current state is no-target-ready / governance-only.
+The next queued work is a closure-readiness audit. Do not continue with
+source summaries or proof attempts unless a new accepted payload supplies a
+concrete changed project object.
+
 `FJ83` verifies Jaikin-Zapirain--Linton--Sanchez-Peralta (2025) only as a
 weaker \(K_0\) / Cohen--Lyndon source payload. Do not cite it as full
 `T-001`, coefficient FJC, `FJCw`, `FICwF`, full \(\mathcal{FJ}\), or a
@@ -283,8 +289,9 @@ Current module handoff:
 - `FJ97`: Formulation-Safety Audit After No-Live-Candidate State is
   completed.
 - `FJ98`: Target-Pivot Readiness After Formulation Audit is completed.
-- `FJ99`: no module selected; instantiate only from a new accepted payload or
-  the queued cycle-005 strategic checkpoint.
+- `FJ99`: Cycle-005 Strategic Checkpoint is completed.
+- `FJ100`: no module selected; instantiate only from a new accepted payload or
+  the queued cycle-005 closure-readiness audit.
 
 Current obstruction:
 
@@ -493,10 +500,13 @@ Current obstruction:
   which instantiated `FJ98`.
 - `OBL-C5-019`: no `FJ99` module may be created until a new accepted payload
   is recorded or the queued Prompt 018 cycle-005 strategic checkpoint is
-  executed. That checkpoint should audit whether cycle 005 is producing
-  candidate-level progress or decorative bookkeeping; it must not add source
-  summaries, proof attempts, candidates, or target reactivation without a
-  changed project object.
+  executed. Completed by accepted payload
+  `PAY-C5-STRATEGIC-CHECKPOINT-2026-001`, which instantiated `FJ99`.
+- `OBL-C5-020`: no `FJ100` module may be created until a new accepted payload
+  is recorded or the queued Prompt 019 cycle-005 closure-readiness audit is
+  executed. That checkpoint should decide whether cycle 005 should close,
+  continue only with a concrete active payload, or pause; it must not create a
+  reflection before recording a handoff table and exact unresolved gates.
 
 ## Repository Hygiene
 
