@@ -2,7 +2,8 @@
 
 ## Status
 
-Initial ledger.
+Initial ledger. Updated by `ledgers/theorem_dependency_status_audit.md` with
+the post-cycle-006 active / inactive / blocked dependency map.
 
 | Result or module | Depends on | Dependency status | Notes |
 |---|---|---|---|
@@ -130,3 +131,39 @@ Initial ledger.
 | Cycle 006 payload acquisition / project-pause decision | Prompt 024; PAY-C6-PAYLOAD-2026-001; cycle-006 entry-gate audit; OQ-125; OBL-C6-002; ledgers/payload_intake_protocol.md; ledgers/cycle_006_payload_decision.md | completed | Records `C6-PAUSE-001`, resolves `OQ-125`, completes `OBL-C6-002`, creates `OQ-126` and `OBL-C6-003`, selects no `FJ101` module, and makes no theorem, source, route, candidate, target-reactivation, proof-attempt, or residual-subtraction claim. |
 | Cycle 006 payload-gated pause | C6-PAUSE-001; OQ-126; OBL-C6-003; ledgers/payload_intake_protocol.md; next_prompts.md templates | active / no numbered module selected | A future numbered module requires a concrete accepted payload; template prompts and general continuation requests do not satisfy this gate. |
 | Open-question and obligation integrity audit | Prompt 004 from `the 15-next-steps.md`; OQ-126; OBL-C6-003; OQ-122--OQ-125; OBL-C5-021; OBL-POST100-001; OBL-C6-001; OBL-C6-002; ledgers/open_question_obligation_integrity_audit.md | completed governance audit | Confirms that `OQ-126` remains open, `OBL-C6-003` remains active, predecessor gates are completed or resolved by expected repository objects, and no `FJ101` module, theorem claim, source work, target reactivation, or residual subtraction is created. |
+
+## Current dependency status map after cycle-006 pause
+
+`ledgers/theorem_dependency_status_audit.md` executes Prompt 009 from
+`the 15-next-steps.md`.
+
+The current active dependency is governance-only:
+
+| Dependency | Current status | Allowed use |
+|---|---|---|
+| `OQ-126` / `OBL-C6-003` / `C6-PAUSE-001` | active governance gate | controls whether a concrete accepted payload can instantiate the next numbered module |
+
+No mathematical theorem dependency is active for a current proof target.
+
+Current-use classification:
+
+| Dependency cluster | Status after audit | Next required object |
+|---|---|---|
+| `ER-001`--`ER-015` | established only under recorded hypotheses and formulation labels | none, unless a later module needs a correction or narrower formulation comparison |
+| `T-001` global target | unresolved but paused / payload-blocked | accepted `PAY-T001-CAND`, `PAY-T001-BRIDGE`, or `PAY-T001-BLOCKER` satisfying the current gate |
+| `CAND-T001-005` | blocked / inactive proof-target row | payload satisfying `OBL-T001-023` |
+| FJ83 weaker \(K_0\) / Cohen--Lyndon package | source-only for current inventory | new or amended candidate data satisfying `OBL-T001-015`, or `OBL-T001-023` for `CAND-T001-005` |
+| `CAND-T001-004` / \(G_{BS23}\) | source-routed / prior-art-blocked | none for residual work; correction or route-comparison payload only |
+| `RB-006` / `FJ53` | WIP / provisional; demoted / provisionally non-subtractive | genuinely non-hyperbolic CAT(0), compact-special, or Farrell--Jones bridge |
+| Artin lane | paused | accepted `PAY-ARTIN` satisfying `OBL-ARTIN-004` |
+| Foundational source queue | paused | accepted `PAY-FND` satisfying `FND-QUEUE-PAUSE-001` |
+| Automatic / biautomatic and Thompson-type groups | deferred | target-pivot payload with a changed project object |
+| Formulation-safety package | inactive for current inventory | active candidate route requiring formulation comparison |
+| Missing-source-text items | blocked / no-promotion | exact source-text and hypothesis check |
+
+No dependency is promoted by this audit. In particular, missing-source-text
+items such as Farrell--Jones (1993), Farrell--Jones (1995) Lemma 2.5,
+Davis--Lueck (1998), Bass--Heller--Swan (1964), Mineyev (2005), Bieri
+(1976), Lueck (2018), and the classical one-relator monographs remain
+blocked for theorem-use promotion until exact source text and hypotheses are
+checked.

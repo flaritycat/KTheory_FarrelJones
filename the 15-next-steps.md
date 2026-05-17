@@ -422,7 +422,11 @@ Stop after internal consistency fixes.
 
 ## Prompt 009. Theorem Dependency Active/Inactive Map Audit
 
-Status: Ready
+Status: Completed
+
+Completed by:
+- `ledgers/theorem_dependency_status_audit.md`
+- `ledgers/theorem_dependencies.md`
 
 ```text
 Run a theorem-dependency active/inactive map audit.
