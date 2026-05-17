@@ -521,9 +521,9 @@ Current obstruction:
   is recorded or the queued Prompt 019 cycle-005 closure-readiness audit is
   executed. Completed by accepted payload
   `PAY-C5-CLOSURE-READINESS-2026-001`, which instantiated `FJ100`.
-- `OBL-C5-021`: no `FJ101` module may be created until a new accepted payload
-  is recorded or the queued Prompt 020 prompt-backlog maintenance pass is
-  executed. Completed by Prompt 020 and `reflections/cycle_005_reflection.md`.
+- `OBL-C5-021`: post-FJ100 prompt-backlog maintenance / reflection
+  preparation. Completed by Prompt 020 and `reflections/cycle_005_reflection.md`;
+  the active `FJ101` blocker is now `OBL-C6-003`.
 - `OBL-POST100-001`: completed by
   `reflections/post_100_module_strategic_review.md`.
 - `OBL-C6-001`: completed by `ledgers/cycle_006_entry_gate.md`.

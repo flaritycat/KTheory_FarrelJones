@@ -188,7 +188,14 @@ Stop after protocol/checklist clarification.
 
 ## Prompt 004. Open Question and Obligation Integrity Audit
 
-Status: Ready
+Status: Completed
+
+Completed by:
+
+- `ledgers/open_question_obligation_integrity_audit.md`
+- `OPEN_QUESTIONS.md`
+- `ledgers/theorem_dependencies.md`
+- `AGENTS.md`
 
 ```text
 Run an internal open-question and proof-obligation integrity audit.

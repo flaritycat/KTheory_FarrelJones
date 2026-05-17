@@ -5062,3 +5062,12 @@ residual subtraction.
 Record a concrete accepted payload, or concretely fill a template prompt so
 that it satisfies the payload protocol. Do not instantiate `FJ101` from a
 template or general continuation request.
+
+### Integrity audit note
+
+`ledgers/open_question_obligation_integrity_audit.md` confirms that `OQ-126`
+remains open, `OBL-C6-003` remains active, and predecessor gates `OQ-122`
+through `OQ-125`, `OBL-C5-021`, `OBL-POST100-001`, `OBL-C6-001`, and
+`OBL-C6-002` are recorded as resolved or completed by their expected
+repository objects. No accepted payload or `FJ101` module is created by that
+audit.
