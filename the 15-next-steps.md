@@ -35,7 +35,11 @@ the repository root.
 
 ## Prompt 001. Cycle-006 Pause Integrity Audit
 
-Status: Ready
+Status: Completed
+
+Completed by:
+
+- `ledgers/cycle_006_pause_integrity_audit.md`
 
 ```text
 Run a non-numbered cycle-006 pause integrity audit.
@@ -677,4 +681,3 @@ The task records a drafted form as an accepted payload or creates `FJ101`.
 Stop condition:
 Stop after drafting-pack creation and optional README cross-reference.
 ```
-
