@@ -2856,5 +2856,35 @@ Reasons:
 This creates `OBL-C6-050` for any later use of `CAND-T001-C6-047`. Future
 work must supply a new accepted payload naming a kernel-control computation,
 route bridge, formulation comparison, prior-art blocker, or branch decision.
-At the close of `FJ147`, no `FJ148` module is selected; the next queue row
+At the close of `FJ147`, `CAND-T001-C6-047` remains governed by
+`OBL-C6-050`; `FJ148` was later instantiated from a separate callback queue
+row and does not resolve this row's follow-up question.
+
+## FJ148 CAND-T001-C6-048 candidate-intake update
+
+`FJ148` records accepted payload `PAY-T001-CAND-C6-048-2026-001` and adds
+`CAND-T001-C6-048`:
+\[
+G_{C6,048}=\langle a,b\mid a b^{50} a^{-1} b^{-99} a b^{100} a^{-1} b^{-50}\rangle.
+\]
+
+Residual status: possible `RB-004` / `RB-008` kernel-control object only.
+No residual bucket is subtracted.
+
+Reasons:
+
+- the relator has exponent-sum vector \((0,1)\), giving a first-pass
+  non-proper-power check;
+- the existing Putman / Karrass--Magnus--Solitar source-status row used in
+  `FJ91` and reused in `FJ101`--`FJ148` supports first-pass torsion-free
+  candidate status;
+- the epimorphism \(\chi(a)=1,\chi(b)=0\) places the row near the
+  `RB-004` / `RB-008` kernel-control and extension-uncertainty lane;
+- kernel control, known-route overlap, prior-art comparison, and formulation
+  safety are all unresolved.
+
+This creates `OBL-C6-051` for any later use of `CAND-T001-C6-048`. Future
+work must supply a new accepted payload naming a kernel-control computation,
+route bridge, formulation comparison, prior-art blocker, or branch decision.
+At the close of `FJ148`, no `FJ149` module is selected; the next queue row
 can be consumed only by the exact callback phrase `Continue payload`.
