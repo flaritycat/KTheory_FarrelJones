@@ -88,4 +88,3 @@ unless the payload explicitly supplies and satisfies the relevant module gate.
 The project is currently in `C6-PAUSE-001`. `OBL-C6-003` blocks `FJ101` until
 a concrete accepted payload is recorded. Template prompts are not accepted
 payloads.
-
