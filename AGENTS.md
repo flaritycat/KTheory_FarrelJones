@@ -321,12 +321,16 @@ Current module handoff:
   `PAY-T001-CAND-C6-004-2026-001`. It adds `CAND-T001-C6-004` as a
   candidate-admissible but route-unresolved intake row and makes no route,
   theorem, prior-art, weaker \(K_0\), or residual-subtraction claim.
+- `FJ105`: instantiated only from accepted callback-queue row
+  `PAY-T001-CAND-C6-005-2026-001`. It adds `CAND-T001-C6-005` as a
+  candidate-admissible but route-unresolved intake row and makes no route,
+  theorem, prior-art, weaker \(K_0\), or residual-subtraction claim.
 
 Cycle-006 pause rule:
 
 - Current state is a cycle-006 payload-gated callback posture.
-- `OQ-126` is resolved only for the accepted row-001 through row-004
-  payloads that created `FJ101`--`FJ104`.
+- `OQ-126` is resolved only for the accepted row-001 through row-005
+  payloads that created `FJ101`--`FJ105`.
 - `OQ-127` and `OBL-C6-004` now govern follow-up work on
   `CAND-T001-C6-001`.
 - `OQ-128` and `OBL-C6-005` now govern follow-up work on
@@ -335,6 +339,8 @@ Cycle-006 pause rule:
   `CAND-T001-C6-003`.
 - `OQ-130` and `OBL-C6-007` now govern follow-up work on
   `CAND-T001-C6-004`.
+- `OQ-131` and `OBL-C6-008` now govern follow-up work on
+  `CAND-T001-C6-005`.
 - Future numbered work may be created only from a selected queued row or a
   separately supplied concrete accepted payload, not from a template prompt,
   generic continuation request, or governance alignment task.
@@ -397,6 +403,10 @@ Current obstruction:
   prior-art blocker, or branch decision.
 - `OBL-C6-007`: active after `FJ104`. Do not promote or route
   `CAND-T001-C6-004` until a new accepted payload records a kernel-control
+  computation, source-verified route bridge, formulation comparison,
+  prior-art blocker, or branch decision.
+- `OBL-C6-008`: active after `FJ105`. Do not promote or route
+  `CAND-T001-C6-005` until a new accepted payload records a kernel-control
   computation, source-verified route bridge, formulation comparison,
   prior-art blocker, or branch decision.
 - `OBL-T001-018`: partially completed by `FJ91` for torsion-free status and
