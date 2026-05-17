@@ -376,7 +376,12 @@ Stop after handoff consolidation.
 
 ## Prompt 008. Source Status and Bibliography Consistency Audit
 
-Status: Ready
+Status: Completed
+
+Completed by:
+- `ledgers/source_bibliography_consistency_audit.md`
+- `BIBLIOGRAPHY.md`
+- `ledgers/source_status.md`
 
 ```text
 Run an internal source-status and bibliography consistency audit.
