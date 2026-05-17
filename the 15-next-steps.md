@@ -329,7 +329,11 @@ Stop after residual-status reconciliation.
 
 ## Prompt 007. CAND-T001-005 Handoff Consolidation
 
-Status: Ready
+Status: Completed
+
+Completed by:
+- `ledgers/cand_t001_005_handoff.md`
+- `ledgers/t001_candidate_inventory.md`
 
 ```text
 Run a handoff consolidation for CAND-T001-005.

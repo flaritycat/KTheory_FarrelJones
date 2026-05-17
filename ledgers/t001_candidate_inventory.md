@@ -35,7 +35,8 @@ with the formulation-safety audit after the no-live-candidate state, and by
 `FJ98` with the target-pivot readiness checkpoint recording no target-ready
 mathematical lane, by `FJ99` with the cycle-005 strategic checkpoint, and by
 `ledgers/t001_candidate_readiness_audit.md` with the post-cycle-006
-candidate-readiness classification.
+candidate-readiness classification, and by `ledgers/cand_t001_005_handoff.md`
+with the `CAND-T001-005` handoff consolidation.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -906,3 +907,30 @@ Readiness classification:
 Conclusion: no current `T-001` candidate-inventory row is live, non-routed,
 and actionable without a new accepted payload. Prior closures from `FJ88`,
 `FJ96`, and `FJ100` remain in force.
+
+## CAND-T001-005 handoff consolidation
+
+`ledgers/cand_t001_005_handoff.md` executes Prompt 007 from
+`the 15-next-steps.md`.
+
+Handoff classification:
+
+| Candidate row | Current status | Reopening requirement |
+|---|---|---|
+| `CAND-T001-005` | concrete torsion-free but blocked / inactive proof-target row | payload satisfying `OBL-T001-023`: finite-rank free-kernel identification, source-verified route bridge, new FJ83 data, formulation comparison tied to a route, prior-art object, or explicit reopening payload |
+
+The handoff makes no candidate-inventory addition and does not reopen
+`CAND-T001-005`. It only consolidates the existing repository record:
+
+- `FJ90` added the row and recorded the non-proper-power and epimorphism data;
+- `FJ91` recorded first-pass torsion-free status;
+- `FJ92` recorded Brown-positive finite generation but no finite-rank
+  free-kernel bridge;
+- `FJ93` recorded no current known route or prior-art blocker;
+- `FJ94` recorded no FJ83 eligibility from current data;
+- `FJ95` demoted the row to blocked / inactive status under `OBL-T001-023`;
+- `FJ96` recorded no live non-routed candidate after that demotion.
+
+Conclusion: future runs should read `ledgers/cand_t001_005_handoff.md` before
+proposing work on this row. `CAND-T001-005` remains non-live unless a new
+accepted payload satisfies `OBL-T001-023`.
