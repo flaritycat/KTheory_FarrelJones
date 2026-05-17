@@ -2110,13 +2110,14 @@ Template prompts still do not count as accepted payloads.
 ## Current state handoff after cycle-006 pause
 
 Current status: `C6-PAUSE-001` has been exited only for accepted row-001
-candidate intake in `FJ101` and accepted row-002 candidate intake in
-`FJ102`. The cycle remains payload-gated for all later numbered work.
+candidate intake in `FJ101`, accepted row-002 candidate intake in `FJ102`,
+and accepted row-003 candidate intake in `FJ103`. The cycle remains
+payload-gated for all later numbered work.
 
 The public README and this charter now record the same current project
 position:
 
-- `FJ01`--`FJ102` are the completed numbered module archive, with `FJ53`
+- `FJ01`--`FJ103` are the completed numbered module archive, with `FJ53`
   retained as WIP / provisional;
 - `cycle_005` is closed;
 - the post-100 strategic review is complete;
@@ -2128,9 +2129,13 @@ position:
 - `FJ102` later consumed `PAY-T001-CAND-C6-002-2026-001` from
   `ledgers/payload_execution_queue.md` and added `CAND-T001-C6-002` as a
   candidate-admissible but route-unresolved row;
-- `OQ-126` is resolved only for rows 001 and 002, while `OQ-127` /
-  `OBL-C6-004` govern follow-up work on `CAND-T001-C6-001` and `OQ-128` /
-  `OBL-C6-005` govern follow-up work on `CAND-T001-C6-002`;
+- `FJ103` later consumed `PAY-T001-CAND-C6-003-2026-001` from
+  `ledgers/payload_execution_queue.md` and added `CAND-T001-C6-003` as a
+  candidate-admissible but route-unresolved row;
+- `OQ-126` is resolved only for rows 001, 002, and 003, while `OQ-127` /
+  `OBL-C6-004` govern follow-up work on `CAND-T001-C6-001`, `OQ-128` /
+  `OBL-C6-005` govern follow-up work on `CAND-T001-C6-002`, and `OQ-129` /
+  `OBL-C6-006` govern follow-up work on `CAND-T001-C6-003`;
 - no mathematical target lane is active beyond bounded payload-gated
   candidate intake;
 - template prompts are not executable until concretely filled and accepted

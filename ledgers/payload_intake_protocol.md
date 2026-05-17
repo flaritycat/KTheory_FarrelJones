@@ -145,6 +145,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-C6-PAYLOAD-2026-001` | `PAY-GOV` | accepted for `ledgers/cycle_006_payload_decision.md` only | Internal cycle-006 payload acquisition / project-pause decision; records that no concrete accepted payload exists, enters `C6-PAUSE-001`, and selects no `FJ101` module. |
 | `PAY-T001-CAND-C6-001-2026-001` | `PAY-T001-CAND` | accepted for `FJ101` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-001`; exits `C6-PAUSE-001` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
 | `PAY-T001-CAND-C6-002-2026-001` | `PAY-T001-CAND` | accepted for `FJ102` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-002`; consumes callback queue row `002` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
+| `PAY-T001-CAND-C6-003-2026-001` | `PAY-T001-CAND` | accepted for `FJ103` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-003`; consumes callback queue row `003` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
 
 ## Accepted intake records
 
@@ -737,6 +738,12 @@ prior-art claim, or residual subtraction.
 `FJ102` consumes only queue row `002`, adds `CAND-T001-C6-002` as a
 candidate-admissible but route-unresolved first-pass intake row, marks that
 queue row completed, creates `OQ-128` and `OBL-C6-005`, and makes no
+Farrell--Jones route claim, theorem promotion, weaker \(K_0\) claim,
+prior-art claim, or residual subtraction.
+
+`FJ103` consumes only queue row `003`, adds `CAND-T001-C6-003` as a
+candidate-admissible but route-unresolved first-pass intake row, marks that
+queue row completed, creates `OQ-129` and `OBL-C6-006`, and makes no
 Farrell--Jones route claim, theorem promotion, weaker \(K_0\) claim,
 prior-art claim, or residual subtraction.
 

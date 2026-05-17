@@ -134,6 +134,7 @@ the post-cycle-006 active / inactive / blocked dependency map.
 | Continue-payload queue infrastructure | AGENTS.md; ledgers/payload_execution_queue.md; ledgers/payload_intake_protocol.md | active governance infrastructure | The exact callback phrase `Continue payload` consumes the first `Ready for intake` row, at most one row per run, after protocol review. The queue is not a batch accepted-payload ledger. |
 | FJ101 CAND-T001-C6-001 candidate intake | Accepted payload `PAY-T001-CAND-C6-001-2026-001`; OQ-126; OBL-C6-003; OBL-T001-013; Putman (n.d.) source-status row inherited from FJ91; ledgers/payload_execution_queue.md | completed candidate-intake audit | Adds `CAND-T001-C6-001`, checks the relator as first-pass non-proper-power by exponent-sum vector \((0,1)\), records first-pass torsion-free status using the existing Putman source-status row, records \(\chi(a)=1,\chi(b)=0\), creates `OBL-C6-004` and `OQ-127`, and makes no Farrell--Jones route, prior-art claim, theorem promotion, weaker \(K_0\) claim, or residual subtraction. |
 | FJ102 CAND-T001-C6-002 candidate intake | Accepted payload `PAY-T001-CAND-C6-002-2026-001`; OQ-126; OBL-C6-003; OBL-T001-013; Putman (n.d.) source-status row inherited from FJ91 and FJ101; ledgers/payload_execution_queue.md | completed candidate-intake audit | Adds `CAND-T001-C6-002`, checks the relator as first-pass non-proper-power by exponent-sum vector \((0,1)\), records first-pass torsion-free status using the existing Putman source-status row, records \(\chi(a)=1,\chi(b)=0\), creates `OBL-C6-005` and `OQ-128`, and makes no Farrell--Jones route, prior-art claim, theorem promotion, weaker \(K_0\) claim, or residual subtraction. |
+| FJ103 CAND-T001-C6-003 candidate intake | Accepted payload `PAY-T001-CAND-C6-003-2026-001`; OQ-126; OBL-C6-003; OBL-T001-013; Putman (n.d.) source-status row inherited from FJ91, FJ101, and FJ102; ledgers/payload_execution_queue.md | completed candidate-intake audit | Adds `CAND-T001-C6-003`, checks the relator as first-pass non-proper-power by exponent-sum vector \((0,1)\), records first-pass torsion-free status using the existing Putman source-status row, records \(\chi(a)=1,\chi(b)=0\), creates `OBL-C6-006` and `OQ-129`, and makes no Farrell--Jones route, prior-art claim, theorem promotion, weaker \(K_0\) claim, or residual subtraction. |
 
 ## Current dependency status map after cycle-006 pause
 
@@ -144,9 +145,10 @@ The current active dependency is governance-only:
 
 | Dependency | Current status | Allowed use |
 |---|---|---|
-| `OQ-126` / `OBL-C6-003` / `C6-PAUSE-001` | partially resolved for `FJ101` and `FJ102`; queue discipline remains active | rows 001 and 002 instantiated `FJ101` and `FJ102`; future numbered work still requires selected queued or separately supplied accepted payload |
+| `OQ-126` / `OBL-C6-003` / `C6-PAUSE-001` | partially resolved for `FJ101`, `FJ102`, and `FJ103`; queue discipline remains active | rows 001, 002, and 003 instantiated `FJ101`, `FJ102`, and `FJ103`; future numbered work still requires selected queued or separately supplied accepted payload |
 | `OQ-127` / `OBL-C6-004` / `CAND-T001-C6-001` | active candidate follow-up gate | controls whether the new candidate can receive kernel-control, route/prior-art, formulation, route-bridge, or branch work |
 | `OQ-128` / `OBL-C6-005` / `CAND-T001-C6-002` | active candidate follow-up gate | controls whether the new candidate can receive kernel-control, route/prior-art, formulation, route-bridge, or branch work |
+| `OQ-129` / `OBL-C6-006` / `CAND-T001-C6-003` | active candidate follow-up gate | controls whether the new candidate can receive kernel-control, route/prior-art, formulation, route-bridge, or branch work |
 
 No mathematical theorem dependency is active for a current proof target.
 
