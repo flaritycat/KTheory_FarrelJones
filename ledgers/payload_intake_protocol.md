@@ -1011,3 +1011,9 @@ candidate-admissible but route-unresolved first-pass intake row, marks that
 queue row completed, creates `OQ-163` and `OBL-C6-040`, and makes no
 Farrell--Jones route claim, theorem promotion, weaker \(K_0\) claim,
 prior-art claim, or residual subtraction.
+
+`FJ138` consumes only queue row `038`, adds `CAND-T001-C6-038` as a
+candidate-admissible but route-unresolved first-pass intake row, marks that
+queue row completed, creates `OQ-164` and `OBL-C6-041`, and makes no
+Farrell--Jones route claim, theorem promotion, weaker \(K_0\) claim,
+prior-art claim, or residual subtraction.
