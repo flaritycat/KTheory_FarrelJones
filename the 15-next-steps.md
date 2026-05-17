@@ -513,7 +513,10 @@ Stop after alignment edits.
 
 ## Prompt 011. AGENTS Instruction Alignment
 
-Status: Ready
+Status: Completed
+
+Completed by:
+- `AGENTS.md`
 
 ```text
 Run an AGENTS instruction alignment pass.

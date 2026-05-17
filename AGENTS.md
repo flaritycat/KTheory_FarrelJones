@@ -8,8 +8,8 @@ Persistent instructions for future Codex runs in this repository.
 - Do not claim that `T-001` is solved.
 - Treat `FJ53` as WIP / provisional until a later module explicitly finalizes
   it.
-- For `T-001`, distinguish full Farrell--Jones, `FJCw`, coefficient versions,
-  \(K_0\)-level statements, and finite-index inheritance.
+- For `T-001`, distinguish full Farrell--Jones, coefficient `FJC`, `FJCw`,
+  `FICwF`, weaker \(K_0\)-level statements, and finite-index inheritance.
 - Do not count known hyperbolic, finite-dimensional CAT(0), virtually
   solvable, finite-index/`FJCw`, or free-by-cyclic / hyperbolic-by-cyclic
   routes as new residual subtraction.
@@ -308,6 +308,26 @@ Current module handoff:
 - `FJ101`: no module selected. Do not instantiate it unless a future accepted
   payload explicitly satisfies `OBL-C6-003`.
 
+Cycle-006 pause rule:
+
+- Current state is `C6-PAUSE-001`, a payload-gated pause.
+- `OQ-126` remains open until a concrete accepted payload exits the pause.
+- `OBL-C6-003` blocks `FJ101`; no `modules/cycle_006/FJ101*` file may be
+  created from a template prompt, generic continuation request, or governance
+  alignment task.
+- `the 15-next-steps.md` is a governance/alignment queue. Executing a ready
+  prompt from that file may update instructions, indexes, ledgers, or status
+  clarity, but it must not be treated as a mathematical payload unless the
+  prompt itself records a concrete accepted payload satisfying
+  `ledgers/payload_intake_protocol.md`.
+- Template prompts in `next_prompts.md` or `the 15-next-steps.md` are not
+  executable until every placeholder is concretely filled and the payload
+  protocol accepts the result.
+- Generic requests such as "Continue", "Execute payload object", or "Continue
+  with the 15-next-steps" do not by themselves create a candidate, source
+  theorem, bridge, computation, prior-art blocker, theorem promotion, target
+  reactivation, residual subtraction, or numbered module.
+
 Current obstruction:
 
 - `OBL-T001-003`: no live non-routed kernel-control candidate is currently
@@ -537,12 +557,15 @@ Current obstruction:
 - Use the repository as the source of truth.
 - Do not import mathematical content from chat memory unless it is present in
   the repository or pasted by the user.
-- Maintain `next_prompts.md` as a prompt backlog when prompt status changes:
+- Maintain `next_prompts.md` and `the 15-next-steps.md` as prompt backlogs
+  when prompt status changes:
   mark executed prompts `Completed`, rejected prompts `Rejected`, superseded
   prompts `Superseded`, and do not renumber existing prompts.
-- Prompts listed in `next_prompts.md` are not accepted payloads by themselves;
-  a prompt becomes actionable only when the user submits it or it is recorded
-  under the payload protocol.
+- Prompts listed in `next_prompts.md` or `the 15-next-steps.md` are not
+  accepted payloads by themselves. A non-template prompt becomes actionable
+  when the user submits it; a template prompt becomes actionable only after
+  its placeholders are concretely filled and the result is accepted under the
+  payload protocol.
 - Preserve strict claim labels: Definition, Example, Proposition, Theorem,
   Proof, Conjecture, Heuristic, Remark, Warning, Open problem, Speculation,
   Failed attempt, Literature claim, Source-verified claim.
