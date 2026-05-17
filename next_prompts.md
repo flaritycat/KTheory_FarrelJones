@@ -1,4 +1,4 @@
-# Next Prompts
+﻿# Next Prompts
 
 ## Status
 
@@ -612,7 +612,7 @@ Status: Completed
 
 Completed by: `PAY-PROMPT-BACKLOG-MAINT-2026-001`
 
-Commit: this commit (`[cleanup] complete prompt backlog maintenance`)
+Commit: `2c2f40f` (`[cleanup] complete prompt backlog maintenance`)
 
 Prompt:
 
@@ -639,3 +639,4362 @@ without a payload.
 Stop condition:
 Stop after next_prompts.md update and commit.
 ```
+
+## Prompt Backlog Expansion After Prompt 020
+
+This expansion preserves the payload discipline introduced in `FJ82` and
+the closure-ready state recorded in `FJ100`.
+
+Execution rule for future runs:
+
+- `Completed`, `Rejected`, `Superseded`, and `Template` prompts are not executable.
+- The first executable prompt is the first prompt whose status is exactly `Open`.
+- Template prompts must be filled with a concrete candidate, source, bridge,
+  computation, blocker, or governance object before execution.
+- Do not create mathematical claims from prompt text alone.
+
+## Prompt 021
+
+Status: Open
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Continue with the cycle_005 reflection after the FJ100 closure-ready handoff.
+
+Payload ID: PAY-C5-REFLECTION-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+`FJ100`, `ledgers/cycle_005_handoff.md`, `OQ-122`, and `OBL-C5-021`.
+
+Exact statement or object:
+Create `reflections/cycle_005_reflection.md` as a bounded cycle reflection. Summarize what cycle_005 actually achieved, what remains gated, and what the next cycle should do. Do not prove new mathematics.
+
+Success criterion:
+Record a reflection-ready or next-cycle-ready state with exact gates.
+
+Failure criterion:
+The reflection invents a source theorem, candidate, route, or residual subtraction.
+
+Stop condition:
+Stop after reflection and ledger updates.
+
+Notes:
+Governance only unless the repository has already recorded the required input.
+```
+
+## Prompt 022
+
+Status: Open
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Continue with a post-100-module strategic review after cycle_005 reflection.
+
+Payload ID: PAY-POST100-REVIEW-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+Requires `reflections/cycle_005_reflection.md` or an explicit skip record.
+
+Exact statement or object:
+Audit modules `FJ01` through the latest completed module and identify structural debt, live mathematical objects, and decorative-bookkeeping risk.
+
+Success criterion:
+Record a compact post-100-module review and next-cycle entry gate.
+
+Failure criterion:
+The review becomes a theorem claim or literature survey.
+
+Stop condition:
+Stop after review and ledger updates.
+
+Notes:
+Governance only unless the repository has already recorded the required input.
+```
+
+## Prompt 023
+
+Status: Open
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Continue with a cycle_006 entry-gate audit.
+
+Payload ID: PAY-C6-GATE-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+Requires cycle_005 reflection or post-100-module review.
+
+Exact statement or object:
+Check whether `T-001`, Artin groups, foundational conventions, or another recorded lane has a gate-satisfying payload for cycle_006.
+
+Success criterion:
+Record one selected gate-ready packet or a no-gate-ready state.
+
+Failure criterion:
+The audit reactivates a target without satisfying its gate.
+
+Stop condition:
+Stop after entry-gate update.
+
+Notes:
+Governance only unless the repository has already recorded the required input.
+```
+
+## Prompt 024
+
+Status: Open
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Continue with a payload acquisition or project-pause decision for cycle_006.
+
+Payload ID: PAY-C6-PAYLOAD-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+Requires a cycle_006 gate audit with no immediately selected mathematical packet.
+
+Exact statement or object:
+Apply the payload intake protocol and decide whether a concrete accepted payload exists for the next numbered module.
+
+Success criterion:
+Record accepted payload or a payload-gated pause.
+
+Failure criterion:
+The module starts mathematical work without a payload.
+
+Stop condition:
+Stop after payload decision.
+
+Notes:
+Governance only unless the repository has already recorded the required input.
+```
+
+## Prompt 025
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 candidate-intake audit template.
+
+Payload ID: PAY-BACKLOG-025-2026-001
+Payload type: PAY-T001-CAND
+
+Target gate:
+`OBL-T001-013` or a later recorded T-001 candidate gate.
+
+Exact statement or object:
+Fill this prompt with one concrete torsion-free one-relator group or family before execution. The audit must check candidate-admissibility, already-routed status, missing data, and next proof obligation.
+
+Success criterion:
+A concrete row is classified as candidate-admissible, routed, blocked, or obstruction-only.
+
+Failure criterion:
+The candidate is a placeholder, already known without new information, or lacks target data.
+
+Stop condition:
+Stop after candidate-admissibility audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 026
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 kernel-control computation template.
+
+Payload ID: PAY-BACKLOG-026-2026-001
+Payload type: PAY-T001-COMPUTATION
+
+Target gate:
+A recorded candidate row with a named epimorphism to Z.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row and epimorphism to Z before execution. The computation must decide whether the relevant kernel is finite-rank free, finitely generated but unresolved, blocked, or unsuitable for an FJ route.
+
+Success criterion:
+Kernel-control status changes in the candidate inventory or residual ledger.
+
+Failure criterion:
+The computation becomes a broad Brown/BNS survey or assumes a kernel theorem.
+
+Stop condition:
+Stop after computation and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 027
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded known-route / prior-art blocker template.
+
+Payload ID: PAY-BACKLOG-027-2026-001
+Payload type: PAY-T001-BLOCKER
+
+Target gate:
+A recorded candidate row with unresolved route status.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row or family before execution. The audit must check only named repository routes and record exact formulation status.
+
+Success criterion:
+The row is routed, prior-art blocked, or remains blocked with exact missing hypotheses.
+
+Failure criterion:
+The audit becomes a broad literature survey.
+
+Stop condition:
+Stop after route/prior-art blocker update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 028
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded weaker K0 / Cohen-Lyndon hypothesis template.
+
+Payload ID: PAY-BACKLOG-028-2026-001
+Payload type: PAY-T001-BRIDGE
+
+Target gate:
+A concrete candidate/family row and a recorded weaker K0 source payload.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate/family and the exact FJ83 hypothesis package before execution. Do not treat weaker K0 as full Farrell-Jones.
+
+Success criterion:
+The row is classified as eligible, partially eligible, or not eligible from repository data.
+
+Failure criterion:
+The prompt collapses weaker K0 into full FJ or lacks a candidate object.
+
+Stop condition:
+Stop after hypothesis audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 029
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded Artin-lane reactivation template.
+
+Payload ID: PAY-BACKLOG-029-2026-001
+Payload type: PAY-ARTIN
+
+Target gate:
+`OBL-ARTIN-004` or a later recorded Artin reactivation gate.
+
+Exact statement or object:
+Fill this prompt with a named graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object before execution.
+
+Success criterion:
+An Artin subclass row changes status or a blocker is documented.
+
+Failure criterion:
+The prompt says only all Artin groups or names no changed object.
+
+Stop condition:
+Stop after Artin ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 030
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded foundational source-payload template.
+
+Payload ID: PAY-BACKLOG-030-2026-001
+Payload type: PAY-FND
+
+Target gate:
+`FND-QUEUE-PAUSE-001` or later source-queue gate.
+
+Exact statement or object:
+Fill this prompt with an exact foundational source theorem or convention whose use is required by a current proof, candidate, or route object.
+
+Success criterion:
+A convention, source-status row, or dependency changes.
+
+Failure criterion:
+The prompt is broad background or bibliography-only.
+
+Stop condition:
+Stop after source-status and dependency update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 031
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded formulation-comparison template.
+
+Payload ID: PAY-BACKLOG-031-2026-001
+Payload type: PAY-FORM
+
+Target gate:
+A recorded route or candidate whose formulation safety is unresolved.
+
+Exact statement or object:
+Fill this prompt with exact formulations to compare, such as coefficient K-theory FJC, full FJ, FJCw, FICwF, or finite-index inheritance.
+
+Success criterion:
+The formulation status becomes safe, blocked, or irrelevant with exact source labels preserved.
+
+Failure criterion:
+The comparison collapses formulation labels without a theorem.
+
+Stop condition:
+Stop after formulation ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 032
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded RB-006 non-hyperbolic bridge template.
+
+Payload ID: PAY-BACKLOG-032-2026-001
+Payload type: PAY-FJ53-RB006
+
+Target gate:
+The WIP / provisional `FJ53` and `RB-006` gate.
+
+Exact statement or object:
+Fill this prompt with a genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge, or another subtractive object. Hyperbolic overlap alone is not enough.
+
+Success criterion:
+`RB-006` status changes through a non-overlapping bridge or remains demoted with a documented blocker.
+
+Failure criterion:
+The prompt repeats the Louder-Wilton hyperbolic-overlap path only.
+
+Stop condition:
+Stop after RB-006 ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 033
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded target-pivot comparison template.
+
+Payload ID: PAY-BACKLOG-033-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded pivot or all-targets-paused gate.
+
+Exact statement or object:
+Fill this prompt with the exact target lanes to compare and the repository objects that may change. Do not select a target without a gate-satisfying object.
+
+Success criterion:
+One target is selected with exact payload requirements, or all remain paused.
+
+Failure criterion:
+The comparison becomes motivational prose with no ledger effect.
+
+Stop condition:
+Stop after target-pivot ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 034
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded reflection or handoff template.
+
+Payload ID: PAY-BACKLOG-034-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded cycle-closure or reflection-ready state.
+
+Exact statement or object:
+Fill this prompt with the cycle, module span, and handoff ledgers to review. Do not add mathematics.
+
+Success criterion:
+The reflection records achieved work, unresolved gates, and the next exact move.
+
+Failure criterion:
+The reflection invents results or skips unresolved gates.
+
+Stop condition:
+Stop after reflection and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 035
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 candidate-intake audit template.
+
+Payload ID: PAY-BACKLOG-035-2026-001
+Payload type: PAY-T001-CAND
+
+Target gate:
+`OBL-T001-013` or a later recorded T-001 candidate gate.
+
+Exact statement or object:
+Fill this prompt with one concrete torsion-free one-relator group or family before execution. The audit must check candidate-admissibility, already-routed status, missing data, and next proof obligation.
+
+Success criterion:
+A concrete row is classified as candidate-admissible, routed, blocked, or obstruction-only.
+
+Failure criterion:
+The candidate is a placeholder, already known without new information, or lacks target data.
+
+Stop condition:
+Stop after candidate-admissibility audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 036
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 kernel-control computation template.
+
+Payload ID: PAY-BACKLOG-036-2026-001
+Payload type: PAY-T001-COMPUTATION
+
+Target gate:
+A recorded candidate row with a named epimorphism to Z.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row and epimorphism to Z before execution. The computation must decide whether the relevant kernel is finite-rank free, finitely generated but unresolved, blocked, or unsuitable for an FJ route.
+
+Success criterion:
+Kernel-control status changes in the candidate inventory or residual ledger.
+
+Failure criterion:
+The computation becomes a broad Brown/BNS survey or assumes a kernel theorem.
+
+Stop condition:
+Stop after computation and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 037
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded known-route / prior-art blocker template.
+
+Payload ID: PAY-BACKLOG-037-2026-001
+Payload type: PAY-T001-BLOCKER
+
+Target gate:
+A recorded candidate row with unresolved route status.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row or family before execution. The audit must check only named repository routes and record exact formulation status.
+
+Success criterion:
+The row is routed, prior-art blocked, or remains blocked with exact missing hypotheses.
+
+Failure criterion:
+The audit becomes a broad literature survey.
+
+Stop condition:
+Stop after route/prior-art blocker update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 038
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded weaker K0 / Cohen-Lyndon hypothesis template.
+
+Payload ID: PAY-BACKLOG-038-2026-001
+Payload type: PAY-T001-BRIDGE
+
+Target gate:
+A concrete candidate/family row and a recorded weaker K0 source payload.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate/family and the exact FJ83 hypothesis package before execution. Do not treat weaker K0 as full Farrell-Jones.
+
+Success criterion:
+The row is classified as eligible, partially eligible, or not eligible from repository data.
+
+Failure criterion:
+The prompt collapses weaker K0 into full FJ or lacks a candidate object.
+
+Stop condition:
+Stop after hypothesis audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 039
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded Artin-lane reactivation template.
+
+Payload ID: PAY-BACKLOG-039-2026-001
+Payload type: PAY-ARTIN
+
+Target gate:
+`OBL-ARTIN-004` or a later recorded Artin reactivation gate.
+
+Exact statement or object:
+Fill this prompt with a named graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object before execution.
+
+Success criterion:
+An Artin subclass row changes status or a blocker is documented.
+
+Failure criterion:
+The prompt says only all Artin groups or names no changed object.
+
+Stop condition:
+Stop after Artin ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 040
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded foundational source-payload template.
+
+Payload ID: PAY-BACKLOG-040-2026-001
+Payload type: PAY-FND
+
+Target gate:
+`FND-QUEUE-PAUSE-001` or later source-queue gate.
+
+Exact statement or object:
+Fill this prompt with an exact foundational source theorem or convention whose use is required by a current proof, candidate, or route object.
+
+Success criterion:
+A convention, source-status row, or dependency changes.
+
+Failure criterion:
+The prompt is broad background or bibliography-only.
+
+Stop condition:
+Stop after source-status and dependency update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 041
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded formulation-comparison template.
+
+Payload ID: PAY-BACKLOG-041-2026-001
+Payload type: PAY-FORM
+
+Target gate:
+A recorded route or candidate whose formulation safety is unresolved.
+
+Exact statement or object:
+Fill this prompt with exact formulations to compare, such as coefficient K-theory FJC, full FJ, FJCw, FICwF, or finite-index inheritance.
+
+Success criterion:
+The formulation status becomes safe, blocked, or irrelevant with exact source labels preserved.
+
+Failure criterion:
+The comparison collapses formulation labels without a theorem.
+
+Stop condition:
+Stop after formulation ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 042
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded RB-006 non-hyperbolic bridge template.
+
+Payload ID: PAY-BACKLOG-042-2026-001
+Payload type: PAY-FJ53-RB006
+
+Target gate:
+The WIP / provisional `FJ53` and `RB-006` gate.
+
+Exact statement or object:
+Fill this prompt with a genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge, or another subtractive object. Hyperbolic overlap alone is not enough.
+
+Success criterion:
+`RB-006` status changes through a non-overlapping bridge or remains demoted with a documented blocker.
+
+Failure criterion:
+The prompt repeats the Louder-Wilton hyperbolic-overlap path only.
+
+Stop condition:
+Stop after RB-006 ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 043
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded target-pivot comparison template.
+
+Payload ID: PAY-BACKLOG-043-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded pivot or all-targets-paused gate.
+
+Exact statement or object:
+Fill this prompt with the exact target lanes to compare and the repository objects that may change. Do not select a target without a gate-satisfying object.
+
+Success criterion:
+One target is selected with exact payload requirements, or all remain paused.
+
+Failure criterion:
+The comparison becomes motivational prose with no ledger effect.
+
+Stop condition:
+Stop after target-pivot ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 044
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded reflection or handoff template.
+
+Payload ID: PAY-BACKLOG-044-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded cycle-closure or reflection-ready state.
+
+Exact statement or object:
+Fill this prompt with the cycle, module span, and handoff ledgers to review. Do not add mathematics.
+
+Success criterion:
+The reflection records achieved work, unresolved gates, and the next exact move.
+
+Failure criterion:
+The reflection invents results or skips unresolved gates.
+
+Stop condition:
+Stop after reflection and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 045
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 candidate-intake audit template.
+
+Payload ID: PAY-BACKLOG-045-2026-001
+Payload type: PAY-T001-CAND
+
+Target gate:
+`OBL-T001-013` or a later recorded T-001 candidate gate.
+
+Exact statement or object:
+Fill this prompt with one concrete torsion-free one-relator group or family before execution. The audit must check candidate-admissibility, already-routed status, missing data, and next proof obligation.
+
+Success criterion:
+A concrete row is classified as candidate-admissible, routed, blocked, or obstruction-only.
+
+Failure criterion:
+The candidate is a placeholder, already known without new information, or lacks target data.
+
+Stop condition:
+Stop after candidate-admissibility audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 046
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 kernel-control computation template.
+
+Payload ID: PAY-BACKLOG-046-2026-001
+Payload type: PAY-T001-COMPUTATION
+
+Target gate:
+A recorded candidate row with a named epimorphism to Z.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row and epimorphism to Z before execution. The computation must decide whether the relevant kernel is finite-rank free, finitely generated but unresolved, blocked, or unsuitable for an FJ route.
+
+Success criterion:
+Kernel-control status changes in the candidate inventory or residual ledger.
+
+Failure criterion:
+The computation becomes a broad Brown/BNS survey or assumes a kernel theorem.
+
+Stop condition:
+Stop after computation and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 047
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded known-route / prior-art blocker template.
+
+Payload ID: PAY-BACKLOG-047-2026-001
+Payload type: PAY-T001-BLOCKER
+
+Target gate:
+A recorded candidate row with unresolved route status.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row or family before execution. The audit must check only named repository routes and record exact formulation status.
+
+Success criterion:
+The row is routed, prior-art blocked, or remains blocked with exact missing hypotheses.
+
+Failure criterion:
+The audit becomes a broad literature survey.
+
+Stop condition:
+Stop after route/prior-art blocker update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 048
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded weaker K0 / Cohen-Lyndon hypothesis template.
+
+Payload ID: PAY-BACKLOG-048-2026-001
+Payload type: PAY-T001-BRIDGE
+
+Target gate:
+A concrete candidate/family row and a recorded weaker K0 source payload.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate/family and the exact FJ83 hypothesis package before execution. Do not treat weaker K0 as full Farrell-Jones.
+
+Success criterion:
+The row is classified as eligible, partially eligible, or not eligible from repository data.
+
+Failure criterion:
+The prompt collapses weaker K0 into full FJ or lacks a candidate object.
+
+Stop condition:
+Stop after hypothesis audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 049
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded Artin-lane reactivation template.
+
+Payload ID: PAY-BACKLOG-049-2026-001
+Payload type: PAY-ARTIN
+
+Target gate:
+`OBL-ARTIN-004` or a later recorded Artin reactivation gate.
+
+Exact statement or object:
+Fill this prompt with a named graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object before execution.
+
+Success criterion:
+An Artin subclass row changes status or a blocker is documented.
+
+Failure criterion:
+The prompt says only all Artin groups or names no changed object.
+
+Stop condition:
+Stop after Artin ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 050
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded foundational source-payload template.
+
+Payload ID: PAY-BACKLOG-050-2026-001
+Payload type: PAY-FND
+
+Target gate:
+`FND-QUEUE-PAUSE-001` or later source-queue gate.
+
+Exact statement or object:
+Fill this prompt with an exact foundational source theorem or convention whose use is required by a current proof, candidate, or route object.
+
+Success criterion:
+A convention, source-status row, or dependency changes.
+
+Failure criterion:
+The prompt is broad background or bibliography-only.
+
+Stop condition:
+Stop after source-status and dependency update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 051
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded formulation-comparison template.
+
+Payload ID: PAY-BACKLOG-051-2026-001
+Payload type: PAY-FORM
+
+Target gate:
+A recorded route or candidate whose formulation safety is unresolved.
+
+Exact statement or object:
+Fill this prompt with exact formulations to compare, such as coefficient K-theory FJC, full FJ, FJCw, FICwF, or finite-index inheritance.
+
+Success criterion:
+The formulation status becomes safe, blocked, or irrelevant with exact source labels preserved.
+
+Failure criterion:
+The comparison collapses formulation labels without a theorem.
+
+Stop condition:
+Stop after formulation ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 052
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded RB-006 non-hyperbolic bridge template.
+
+Payload ID: PAY-BACKLOG-052-2026-001
+Payload type: PAY-FJ53-RB006
+
+Target gate:
+The WIP / provisional `FJ53` and `RB-006` gate.
+
+Exact statement or object:
+Fill this prompt with a genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge, or another subtractive object. Hyperbolic overlap alone is not enough.
+
+Success criterion:
+`RB-006` status changes through a non-overlapping bridge or remains demoted with a documented blocker.
+
+Failure criterion:
+The prompt repeats the Louder-Wilton hyperbolic-overlap path only.
+
+Stop condition:
+Stop after RB-006 ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 053
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded target-pivot comparison template.
+
+Payload ID: PAY-BACKLOG-053-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded pivot or all-targets-paused gate.
+
+Exact statement or object:
+Fill this prompt with the exact target lanes to compare and the repository objects that may change. Do not select a target without a gate-satisfying object.
+
+Success criterion:
+One target is selected with exact payload requirements, or all remain paused.
+
+Failure criterion:
+The comparison becomes motivational prose with no ledger effect.
+
+Stop condition:
+Stop after target-pivot ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 054
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded reflection or handoff template.
+
+Payload ID: PAY-BACKLOG-054-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded cycle-closure or reflection-ready state.
+
+Exact statement or object:
+Fill this prompt with the cycle, module span, and handoff ledgers to review. Do not add mathematics.
+
+Success criterion:
+The reflection records achieved work, unresolved gates, and the next exact move.
+
+Failure criterion:
+The reflection invents results or skips unresolved gates.
+
+Stop condition:
+Stop after reflection and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 055
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 candidate-intake audit template.
+
+Payload ID: PAY-BACKLOG-055-2026-001
+Payload type: PAY-T001-CAND
+
+Target gate:
+`OBL-T001-013` or a later recorded T-001 candidate gate.
+
+Exact statement or object:
+Fill this prompt with one concrete torsion-free one-relator group or family before execution. The audit must check candidate-admissibility, already-routed status, missing data, and next proof obligation.
+
+Success criterion:
+A concrete row is classified as candidate-admissible, routed, blocked, or obstruction-only.
+
+Failure criterion:
+The candidate is a placeholder, already known without new information, or lacks target data.
+
+Stop condition:
+Stop after candidate-admissibility audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 056
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 kernel-control computation template.
+
+Payload ID: PAY-BACKLOG-056-2026-001
+Payload type: PAY-T001-COMPUTATION
+
+Target gate:
+A recorded candidate row with a named epimorphism to Z.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row and epimorphism to Z before execution. The computation must decide whether the relevant kernel is finite-rank free, finitely generated but unresolved, blocked, or unsuitable for an FJ route.
+
+Success criterion:
+Kernel-control status changes in the candidate inventory or residual ledger.
+
+Failure criterion:
+The computation becomes a broad Brown/BNS survey or assumes a kernel theorem.
+
+Stop condition:
+Stop after computation and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 057
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded known-route / prior-art blocker template.
+
+Payload ID: PAY-BACKLOG-057-2026-001
+Payload type: PAY-T001-BLOCKER
+
+Target gate:
+A recorded candidate row with unresolved route status.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row or family before execution. The audit must check only named repository routes and record exact formulation status.
+
+Success criterion:
+The row is routed, prior-art blocked, or remains blocked with exact missing hypotheses.
+
+Failure criterion:
+The audit becomes a broad literature survey.
+
+Stop condition:
+Stop after route/prior-art blocker update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 058
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded weaker K0 / Cohen-Lyndon hypothesis template.
+
+Payload ID: PAY-BACKLOG-058-2026-001
+Payload type: PAY-T001-BRIDGE
+
+Target gate:
+A concrete candidate/family row and a recorded weaker K0 source payload.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate/family and the exact FJ83 hypothesis package before execution. Do not treat weaker K0 as full Farrell-Jones.
+
+Success criterion:
+The row is classified as eligible, partially eligible, or not eligible from repository data.
+
+Failure criterion:
+The prompt collapses weaker K0 into full FJ or lacks a candidate object.
+
+Stop condition:
+Stop after hypothesis audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 059
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded Artin-lane reactivation template.
+
+Payload ID: PAY-BACKLOG-059-2026-001
+Payload type: PAY-ARTIN
+
+Target gate:
+`OBL-ARTIN-004` or a later recorded Artin reactivation gate.
+
+Exact statement or object:
+Fill this prompt with a named graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object before execution.
+
+Success criterion:
+An Artin subclass row changes status or a blocker is documented.
+
+Failure criterion:
+The prompt says only all Artin groups or names no changed object.
+
+Stop condition:
+Stop after Artin ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 060
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded foundational source-payload template.
+
+Payload ID: PAY-BACKLOG-060-2026-001
+Payload type: PAY-FND
+
+Target gate:
+`FND-QUEUE-PAUSE-001` or later source-queue gate.
+
+Exact statement or object:
+Fill this prompt with an exact foundational source theorem or convention whose use is required by a current proof, candidate, or route object.
+
+Success criterion:
+A convention, source-status row, or dependency changes.
+
+Failure criterion:
+The prompt is broad background or bibliography-only.
+
+Stop condition:
+Stop after source-status and dependency update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 061
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded formulation-comparison template.
+
+Payload ID: PAY-BACKLOG-061-2026-001
+Payload type: PAY-FORM
+
+Target gate:
+A recorded route or candidate whose formulation safety is unresolved.
+
+Exact statement or object:
+Fill this prompt with exact formulations to compare, such as coefficient K-theory FJC, full FJ, FJCw, FICwF, or finite-index inheritance.
+
+Success criterion:
+The formulation status becomes safe, blocked, or irrelevant with exact source labels preserved.
+
+Failure criterion:
+The comparison collapses formulation labels without a theorem.
+
+Stop condition:
+Stop after formulation ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 062
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded RB-006 non-hyperbolic bridge template.
+
+Payload ID: PAY-BACKLOG-062-2026-001
+Payload type: PAY-FJ53-RB006
+
+Target gate:
+The WIP / provisional `FJ53` and `RB-006` gate.
+
+Exact statement or object:
+Fill this prompt with a genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge, or another subtractive object. Hyperbolic overlap alone is not enough.
+
+Success criterion:
+`RB-006` status changes through a non-overlapping bridge or remains demoted with a documented blocker.
+
+Failure criterion:
+The prompt repeats the Louder-Wilton hyperbolic-overlap path only.
+
+Stop condition:
+Stop after RB-006 ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 063
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded target-pivot comparison template.
+
+Payload ID: PAY-BACKLOG-063-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded pivot or all-targets-paused gate.
+
+Exact statement or object:
+Fill this prompt with the exact target lanes to compare and the repository objects that may change. Do not select a target without a gate-satisfying object.
+
+Success criterion:
+One target is selected with exact payload requirements, or all remain paused.
+
+Failure criterion:
+The comparison becomes motivational prose with no ledger effect.
+
+Stop condition:
+Stop after target-pivot ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 064
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded reflection or handoff template.
+
+Payload ID: PAY-BACKLOG-064-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded cycle-closure or reflection-ready state.
+
+Exact statement or object:
+Fill this prompt with the cycle, module span, and handoff ledgers to review. Do not add mathematics.
+
+Success criterion:
+The reflection records achieved work, unresolved gates, and the next exact move.
+
+Failure criterion:
+The reflection invents results or skips unresolved gates.
+
+Stop condition:
+Stop after reflection and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 065
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 candidate-intake audit template.
+
+Payload ID: PAY-BACKLOG-065-2026-001
+Payload type: PAY-T001-CAND
+
+Target gate:
+`OBL-T001-013` or a later recorded T-001 candidate gate.
+
+Exact statement or object:
+Fill this prompt with one concrete torsion-free one-relator group or family before execution. The audit must check candidate-admissibility, already-routed status, missing data, and next proof obligation.
+
+Success criterion:
+A concrete row is classified as candidate-admissible, routed, blocked, or obstruction-only.
+
+Failure criterion:
+The candidate is a placeholder, already known without new information, or lacks target data.
+
+Stop condition:
+Stop after candidate-admissibility audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 066
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 kernel-control computation template.
+
+Payload ID: PAY-BACKLOG-066-2026-001
+Payload type: PAY-T001-COMPUTATION
+
+Target gate:
+A recorded candidate row with a named epimorphism to Z.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row and epimorphism to Z before execution. The computation must decide whether the relevant kernel is finite-rank free, finitely generated but unresolved, blocked, or unsuitable for an FJ route.
+
+Success criterion:
+Kernel-control status changes in the candidate inventory or residual ledger.
+
+Failure criterion:
+The computation becomes a broad Brown/BNS survey or assumes a kernel theorem.
+
+Stop condition:
+Stop after computation and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 067
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded known-route / prior-art blocker template.
+
+Payload ID: PAY-BACKLOG-067-2026-001
+Payload type: PAY-T001-BLOCKER
+
+Target gate:
+A recorded candidate row with unresolved route status.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row or family before execution. The audit must check only named repository routes and record exact formulation status.
+
+Success criterion:
+The row is routed, prior-art blocked, or remains blocked with exact missing hypotheses.
+
+Failure criterion:
+The audit becomes a broad literature survey.
+
+Stop condition:
+Stop after route/prior-art blocker update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 068
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded weaker K0 / Cohen-Lyndon hypothesis template.
+
+Payload ID: PAY-BACKLOG-068-2026-001
+Payload type: PAY-T001-BRIDGE
+
+Target gate:
+A concrete candidate/family row and a recorded weaker K0 source payload.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate/family and the exact FJ83 hypothesis package before execution. Do not treat weaker K0 as full Farrell-Jones.
+
+Success criterion:
+The row is classified as eligible, partially eligible, or not eligible from repository data.
+
+Failure criterion:
+The prompt collapses weaker K0 into full FJ or lacks a candidate object.
+
+Stop condition:
+Stop after hypothesis audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 069
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded Artin-lane reactivation template.
+
+Payload ID: PAY-BACKLOG-069-2026-001
+Payload type: PAY-ARTIN
+
+Target gate:
+`OBL-ARTIN-004` or a later recorded Artin reactivation gate.
+
+Exact statement or object:
+Fill this prompt with a named graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object before execution.
+
+Success criterion:
+An Artin subclass row changes status or a blocker is documented.
+
+Failure criterion:
+The prompt says only all Artin groups or names no changed object.
+
+Stop condition:
+Stop after Artin ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 070
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded foundational source-payload template.
+
+Payload ID: PAY-BACKLOG-070-2026-001
+Payload type: PAY-FND
+
+Target gate:
+`FND-QUEUE-PAUSE-001` or later source-queue gate.
+
+Exact statement or object:
+Fill this prompt with an exact foundational source theorem or convention whose use is required by a current proof, candidate, or route object.
+
+Success criterion:
+A convention, source-status row, or dependency changes.
+
+Failure criterion:
+The prompt is broad background or bibliography-only.
+
+Stop condition:
+Stop after source-status and dependency update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 071
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded formulation-comparison template.
+
+Payload ID: PAY-BACKLOG-071-2026-001
+Payload type: PAY-FORM
+
+Target gate:
+A recorded route or candidate whose formulation safety is unresolved.
+
+Exact statement or object:
+Fill this prompt with exact formulations to compare, such as coefficient K-theory FJC, full FJ, FJCw, FICwF, or finite-index inheritance.
+
+Success criterion:
+The formulation status becomes safe, blocked, or irrelevant with exact source labels preserved.
+
+Failure criterion:
+The comparison collapses formulation labels without a theorem.
+
+Stop condition:
+Stop after formulation ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 072
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded RB-006 non-hyperbolic bridge template.
+
+Payload ID: PAY-BACKLOG-072-2026-001
+Payload type: PAY-FJ53-RB006
+
+Target gate:
+The WIP / provisional `FJ53` and `RB-006` gate.
+
+Exact statement or object:
+Fill this prompt with a genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge, or another subtractive object. Hyperbolic overlap alone is not enough.
+
+Success criterion:
+`RB-006` status changes through a non-overlapping bridge or remains demoted with a documented blocker.
+
+Failure criterion:
+The prompt repeats the Louder-Wilton hyperbolic-overlap path only.
+
+Stop condition:
+Stop after RB-006 ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 073
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded target-pivot comparison template.
+
+Payload ID: PAY-BACKLOG-073-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded pivot or all-targets-paused gate.
+
+Exact statement or object:
+Fill this prompt with the exact target lanes to compare and the repository objects that may change. Do not select a target without a gate-satisfying object.
+
+Success criterion:
+One target is selected with exact payload requirements, or all remain paused.
+
+Failure criterion:
+The comparison becomes motivational prose with no ledger effect.
+
+Stop condition:
+Stop after target-pivot ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 074
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded reflection or handoff template.
+
+Payload ID: PAY-BACKLOG-074-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded cycle-closure or reflection-ready state.
+
+Exact statement or object:
+Fill this prompt with the cycle, module span, and handoff ledgers to review. Do not add mathematics.
+
+Success criterion:
+The reflection records achieved work, unresolved gates, and the next exact move.
+
+Failure criterion:
+The reflection invents results or skips unresolved gates.
+
+Stop condition:
+Stop after reflection and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 075
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 candidate-intake audit template.
+
+Payload ID: PAY-BACKLOG-075-2026-001
+Payload type: PAY-T001-CAND
+
+Target gate:
+`OBL-T001-013` or a later recorded T-001 candidate gate.
+
+Exact statement or object:
+Fill this prompt with one concrete torsion-free one-relator group or family before execution. The audit must check candidate-admissibility, already-routed status, missing data, and next proof obligation.
+
+Success criterion:
+A concrete row is classified as candidate-admissible, routed, blocked, or obstruction-only.
+
+Failure criterion:
+The candidate is a placeholder, already known without new information, or lacks target data.
+
+Stop condition:
+Stop after candidate-admissibility audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 076
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 kernel-control computation template.
+
+Payload ID: PAY-BACKLOG-076-2026-001
+Payload type: PAY-T001-COMPUTATION
+
+Target gate:
+A recorded candidate row with a named epimorphism to Z.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row and epimorphism to Z before execution. The computation must decide whether the relevant kernel is finite-rank free, finitely generated but unresolved, blocked, or unsuitable for an FJ route.
+
+Success criterion:
+Kernel-control status changes in the candidate inventory or residual ledger.
+
+Failure criterion:
+The computation becomes a broad Brown/BNS survey or assumes a kernel theorem.
+
+Stop condition:
+Stop after computation and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 077
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded known-route / prior-art blocker template.
+
+Payload ID: PAY-BACKLOG-077-2026-001
+Payload type: PAY-T001-BLOCKER
+
+Target gate:
+A recorded candidate row with unresolved route status.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row or family before execution. The audit must check only named repository routes and record exact formulation status.
+
+Success criterion:
+The row is routed, prior-art blocked, or remains blocked with exact missing hypotheses.
+
+Failure criterion:
+The audit becomes a broad literature survey.
+
+Stop condition:
+Stop after route/prior-art blocker update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 078
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded weaker K0 / Cohen-Lyndon hypothesis template.
+
+Payload ID: PAY-BACKLOG-078-2026-001
+Payload type: PAY-T001-BRIDGE
+
+Target gate:
+A concrete candidate/family row and a recorded weaker K0 source payload.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate/family and the exact FJ83 hypothesis package before execution. Do not treat weaker K0 as full Farrell-Jones.
+
+Success criterion:
+The row is classified as eligible, partially eligible, or not eligible from repository data.
+
+Failure criterion:
+The prompt collapses weaker K0 into full FJ or lacks a candidate object.
+
+Stop condition:
+Stop after hypothesis audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 079
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded Artin-lane reactivation template.
+
+Payload ID: PAY-BACKLOG-079-2026-001
+Payload type: PAY-ARTIN
+
+Target gate:
+`OBL-ARTIN-004` or a later recorded Artin reactivation gate.
+
+Exact statement or object:
+Fill this prompt with a named graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object before execution.
+
+Success criterion:
+An Artin subclass row changes status or a blocker is documented.
+
+Failure criterion:
+The prompt says only all Artin groups or names no changed object.
+
+Stop condition:
+Stop after Artin ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 080
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded foundational source-payload template.
+
+Payload ID: PAY-BACKLOG-080-2026-001
+Payload type: PAY-FND
+
+Target gate:
+`FND-QUEUE-PAUSE-001` or later source-queue gate.
+
+Exact statement or object:
+Fill this prompt with an exact foundational source theorem or convention whose use is required by a current proof, candidate, or route object.
+
+Success criterion:
+A convention, source-status row, or dependency changes.
+
+Failure criterion:
+The prompt is broad background or bibliography-only.
+
+Stop condition:
+Stop after source-status and dependency update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 081
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded formulation-comparison template.
+
+Payload ID: PAY-BACKLOG-081-2026-001
+Payload type: PAY-FORM
+
+Target gate:
+A recorded route or candidate whose formulation safety is unresolved.
+
+Exact statement or object:
+Fill this prompt with exact formulations to compare, such as coefficient K-theory FJC, full FJ, FJCw, FICwF, or finite-index inheritance.
+
+Success criterion:
+The formulation status becomes safe, blocked, or irrelevant with exact source labels preserved.
+
+Failure criterion:
+The comparison collapses formulation labels without a theorem.
+
+Stop condition:
+Stop after formulation ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 082
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded RB-006 non-hyperbolic bridge template.
+
+Payload ID: PAY-BACKLOG-082-2026-001
+Payload type: PAY-FJ53-RB006
+
+Target gate:
+The WIP / provisional `FJ53` and `RB-006` gate.
+
+Exact statement or object:
+Fill this prompt with a genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge, or another subtractive object. Hyperbolic overlap alone is not enough.
+
+Success criterion:
+`RB-006` status changes through a non-overlapping bridge or remains demoted with a documented blocker.
+
+Failure criterion:
+The prompt repeats the Louder-Wilton hyperbolic-overlap path only.
+
+Stop condition:
+Stop after RB-006 ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 083
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded target-pivot comparison template.
+
+Payload ID: PAY-BACKLOG-083-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded pivot or all-targets-paused gate.
+
+Exact statement or object:
+Fill this prompt with the exact target lanes to compare and the repository objects that may change. Do not select a target without a gate-satisfying object.
+
+Success criterion:
+One target is selected with exact payload requirements, or all remain paused.
+
+Failure criterion:
+The comparison becomes motivational prose with no ledger effect.
+
+Stop condition:
+Stop after target-pivot ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 084
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded reflection or handoff template.
+
+Payload ID: PAY-BACKLOG-084-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded cycle-closure or reflection-ready state.
+
+Exact statement or object:
+Fill this prompt with the cycle, module span, and handoff ledgers to review. Do not add mathematics.
+
+Success criterion:
+The reflection records achieved work, unresolved gates, and the next exact move.
+
+Failure criterion:
+The reflection invents results or skips unresolved gates.
+
+Stop condition:
+Stop after reflection and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 085
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 candidate-intake audit template.
+
+Payload ID: PAY-BACKLOG-085-2026-001
+Payload type: PAY-T001-CAND
+
+Target gate:
+`OBL-T001-013` or a later recorded T-001 candidate gate.
+
+Exact statement or object:
+Fill this prompt with one concrete torsion-free one-relator group or family before execution. The audit must check candidate-admissibility, already-routed status, missing data, and next proof obligation.
+
+Success criterion:
+A concrete row is classified as candidate-admissible, routed, blocked, or obstruction-only.
+
+Failure criterion:
+The candidate is a placeholder, already known without new information, or lacks target data.
+
+Stop condition:
+Stop after candidate-admissibility audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 086
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 kernel-control computation template.
+
+Payload ID: PAY-BACKLOG-086-2026-001
+Payload type: PAY-T001-COMPUTATION
+
+Target gate:
+A recorded candidate row with a named epimorphism to Z.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row and epimorphism to Z before execution. The computation must decide whether the relevant kernel is finite-rank free, finitely generated but unresolved, blocked, or unsuitable for an FJ route.
+
+Success criterion:
+Kernel-control status changes in the candidate inventory or residual ledger.
+
+Failure criterion:
+The computation becomes a broad Brown/BNS survey or assumes a kernel theorem.
+
+Stop condition:
+Stop after computation and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 087
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded known-route / prior-art blocker template.
+
+Payload ID: PAY-BACKLOG-087-2026-001
+Payload type: PAY-T001-BLOCKER
+
+Target gate:
+A recorded candidate row with unresolved route status.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row or family before execution. The audit must check only named repository routes and record exact formulation status.
+
+Success criterion:
+The row is routed, prior-art blocked, or remains blocked with exact missing hypotheses.
+
+Failure criterion:
+The audit becomes a broad literature survey.
+
+Stop condition:
+Stop after route/prior-art blocker update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 088
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded weaker K0 / Cohen-Lyndon hypothesis template.
+
+Payload ID: PAY-BACKLOG-088-2026-001
+Payload type: PAY-T001-BRIDGE
+
+Target gate:
+A concrete candidate/family row and a recorded weaker K0 source payload.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate/family and the exact FJ83 hypothesis package before execution. Do not treat weaker K0 as full Farrell-Jones.
+
+Success criterion:
+The row is classified as eligible, partially eligible, or not eligible from repository data.
+
+Failure criterion:
+The prompt collapses weaker K0 into full FJ or lacks a candidate object.
+
+Stop condition:
+Stop after hypothesis audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 089
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded Artin-lane reactivation template.
+
+Payload ID: PAY-BACKLOG-089-2026-001
+Payload type: PAY-ARTIN
+
+Target gate:
+`OBL-ARTIN-004` or a later recorded Artin reactivation gate.
+
+Exact statement or object:
+Fill this prompt with a named graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object before execution.
+
+Success criterion:
+An Artin subclass row changes status or a blocker is documented.
+
+Failure criterion:
+The prompt says only all Artin groups or names no changed object.
+
+Stop condition:
+Stop after Artin ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 090
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded foundational source-payload template.
+
+Payload ID: PAY-BACKLOG-090-2026-001
+Payload type: PAY-FND
+
+Target gate:
+`FND-QUEUE-PAUSE-001` or later source-queue gate.
+
+Exact statement or object:
+Fill this prompt with an exact foundational source theorem or convention whose use is required by a current proof, candidate, or route object.
+
+Success criterion:
+A convention, source-status row, or dependency changes.
+
+Failure criterion:
+The prompt is broad background or bibliography-only.
+
+Stop condition:
+Stop after source-status and dependency update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 091
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded formulation-comparison template.
+
+Payload ID: PAY-BACKLOG-091-2026-001
+Payload type: PAY-FORM
+
+Target gate:
+A recorded route or candidate whose formulation safety is unresolved.
+
+Exact statement or object:
+Fill this prompt with exact formulations to compare, such as coefficient K-theory FJC, full FJ, FJCw, FICwF, or finite-index inheritance.
+
+Success criterion:
+The formulation status becomes safe, blocked, or irrelevant with exact source labels preserved.
+
+Failure criterion:
+The comparison collapses formulation labels without a theorem.
+
+Stop condition:
+Stop after formulation ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 092
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded RB-006 non-hyperbolic bridge template.
+
+Payload ID: PAY-BACKLOG-092-2026-001
+Payload type: PAY-FJ53-RB006
+
+Target gate:
+The WIP / provisional `FJ53` and `RB-006` gate.
+
+Exact statement or object:
+Fill this prompt with a genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge, or another subtractive object. Hyperbolic overlap alone is not enough.
+
+Success criterion:
+`RB-006` status changes through a non-overlapping bridge or remains demoted with a documented blocker.
+
+Failure criterion:
+The prompt repeats the Louder-Wilton hyperbolic-overlap path only.
+
+Stop condition:
+Stop after RB-006 ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 093
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded target-pivot comparison template.
+
+Payload ID: PAY-BACKLOG-093-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded pivot or all-targets-paused gate.
+
+Exact statement or object:
+Fill this prompt with the exact target lanes to compare and the repository objects that may change. Do not select a target without a gate-satisfying object.
+
+Success criterion:
+One target is selected with exact payload requirements, or all remain paused.
+
+Failure criterion:
+The comparison becomes motivational prose with no ledger effect.
+
+Stop condition:
+Stop after target-pivot ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 094
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded reflection or handoff template.
+
+Payload ID: PAY-BACKLOG-094-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded cycle-closure or reflection-ready state.
+
+Exact statement or object:
+Fill this prompt with the cycle, module span, and handoff ledgers to review. Do not add mathematics.
+
+Success criterion:
+The reflection records achieved work, unresolved gates, and the next exact move.
+
+Failure criterion:
+The reflection invents results or skips unresolved gates.
+
+Stop condition:
+Stop after reflection and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 095
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 candidate-intake audit template.
+
+Payload ID: PAY-BACKLOG-095-2026-001
+Payload type: PAY-T001-CAND
+
+Target gate:
+`OBL-T001-013` or a later recorded T-001 candidate gate.
+
+Exact statement or object:
+Fill this prompt with one concrete torsion-free one-relator group or family before execution. The audit must check candidate-admissibility, already-routed status, missing data, and next proof obligation.
+
+Success criterion:
+A concrete row is classified as candidate-admissible, routed, blocked, or obstruction-only.
+
+Failure criterion:
+The candidate is a placeholder, already known without new information, or lacks target data.
+
+Stop condition:
+Stop after candidate-admissibility audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 096
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 kernel-control computation template.
+
+Payload ID: PAY-BACKLOG-096-2026-001
+Payload type: PAY-T001-COMPUTATION
+
+Target gate:
+A recorded candidate row with a named epimorphism to Z.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row and epimorphism to Z before execution. The computation must decide whether the relevant kernel is finite-rank free, finitely generated but unresolved, blocked, or unsuitable for an FJ route.
+
+Success criterion:
+Kernel-control status changes in the candidate inventory or residual ledger.
+
+Failure criterion:
+The computation becomes a broad Brown/BNS survey or assumes a kernel theorem.
+
+Stop condition:
+Stop after computation and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 097
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded known-route / prior-art blocker template.
+
+Payload ID: PAY-BACKLOG-097-2026-001
+Payload type: PAY-T001-BLOCKER
+
+Target gate:
+A recorded candidate row with unresolved route status.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row or family before execution. The audit must check only named repository routes and record exact formulation status.
+
+Success criterion:
+The row is routed, prior-art blocked, or remains blocked with exact missing hypotheses.
+
+Failure criterion:
+The audit becomes a broad literature survey.
+
+Stop condition:
+Stop after route/prior-art blocker update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 098
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded weaker K0 / Cohen-Lyndon hypothesis template.
+
+Payload ID: PAY-BACKLOG-098-2026-001
+Payload type: PAY-T001-BRIDGE
+
+Target gate:
+A concrete candidate/family row and a recorded weaker K0 source payload.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate/family and the exact FJ83 hypothesis package before execution. Do not treat weaker K0 as full Farrell-Jones.
+
+Success criterion:
+The row is classified as eligible, partially eligible, or not eligible from repository data.
+
+Failure criterion:
+The prompt collapses weaker K0 into full FJ or lacks a candidate object.
+
+Stop condition:
+Stop after hypothesis audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 099
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded Artin-lane reactivation template.
+
+Payload ID: PAY-BACKLOG-099-2026-001
+Payload type: PAY-ARTIN
+
+Target gate:
+`OBL-ARTIN-004` or a later recorded Artin reactivation gate.
+
+Exact statement or object:
+Fill this prompt with a named graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object before execution.
+
+Success criterion:
+An Artin subclass row changes status or a blocker is documented.
+
+Failure criterion:
+The prompt says only all Artin groups or names no changed object.
+
+Stop condition:
+Stop after Artin ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 100
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded foundational source-payload template.
+
+Payload ID: PAY-BACKLOG-100-2026-001
+Payload type: PAY-FND
+
+Target gate:
+`FND-QUEUE-PAUSE-001` or later source-queue gate.
+
+Exact statement or object:
+Fill this prompt with an exact foundational source theorem or convention whose use is required by a current proof, candidate, or route object.
+
+Success criterion:
+A convention, source-status row, or dependency changes.
+
+Failure criterion:
+The prompt is broad background or bibliography-only.
+
+Stop condition:
+Stop after source-status and dependency update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 101
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded formulation-comparison template.
+
+Payload ID: PAY-BACKLOG-101-2026-001
+Payload type: PAY-FORM
+
+Target gate:
+A recorded route or candidate whose formulation safety is unresolved.
+
+Exact statement or object:
+Fill this prompt with exact formulations to compare, such as coefficient K-theory FJC, full FJ, FJCw, FICwF, or finite-index inheritance.
+
+Success criterion:
+The formulation status becomes safe, blocked, or irrelevant with exact source labels preserved.
+
+Failure criterion:
+The comparison collapses formulation labels without a theorem.
+
+Stop condition:
+Stop after formulation ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 102
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded RB-006 non-hyperbolic bridge template.
+
+Payload ID: PAY-BACKLOG-102-2026-001
+Payload type: PAY-FJ53-RB006
+
+Target gate:
+The WIP / provisional `FJ53` and `RB-006` gate.
+
+Exact statement or object:
+Fill this prompt with a genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge, or another subtractive object. Hyperbolic overlap alone is not enough.
+
+Success criterion:
+`RB-006` status changes through a non-overlapping bridge or remains demoted with a documented blocker.
+
+Failure criterion:
+The prompt repeats the Louder-Wilton hyperbolic-overlap path only.
+
+Stop condition:
+Stop after RB-006 ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 103
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded target-pivot comparison template.
+
+Payload ID: PAY-BACKLOG-103-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded pivot or all-targets-paused gate.
+
+Exact statement or object:
+Fill this prompt with the exact target lanes to compare and the repository objects that may change. Do not select a target without a gate-satisfying object.
+
+Success criterion:
+One target is selected with exact payload requirements, or all remain paused.
+
+Failure criterion:
+The comparison becomes motivational prose with no ledger effect.
+
+Stop condition:
+Stop after target-pivot ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 104
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded reflection or handoff template.
+
+Payload ID: PAY-BACKLOG-104-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded cycle-closure or reflection-ready state.
+
+Exact statement or object:
+Fill this prompt with the cycle, module span, and handoff ledgers to review. Do not add mathematics.
+
+Success criterion:
+The reflection records achieved work, unresolved gates, and the next exact move.
+
+Failure criterion:
+The reflection invents results or skips unresolved gates.
+
+Stop condition:
+Stop after reflection and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 105
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 candidate-intake audit template.
+
+Payload ID: PAY-BACKLOG-105-2026-001
+Payload type: PAY-T001-CAND
+
+Target gate:
+`OBL-T001-013` or a later recorded T-001 candidate gate.
+
+Exact statement or object:
+Fill this prompt with one concrete torsion-free one-relator group or family before execution. The audit must check candidate-admissibility, already-routed status, missing data, and next proof obligation.
+
+Success criterion:
+A concrete row is classified as candidate-admissible, routed, blocked, or obstruction-only.
+
+Failure criterion:
+The candidate is a placeholder, already known without new information, or lacks target data.
+
+Stop condition:
+Stop after candidate-admissibility audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 106
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 kernel-control computation template.
+
+Payload ID: PAY-BACKLOG-106-2026-001
+Payload type: PAY-T001-COMPUTATION
+
+Target gate:
+A recorded candidate row with a named epimorphism to Z.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row and epimorphism to Z before execution. The computation must decide whether the relevant kernel is finite-rank free, finitely generated but unresolved, blocked, or unsuitable for an FJ route.
+
+Success criterion:
+Kernel-control status changes in the candidate inventory or residual ledger.
+
+Failure criterion:
+The computation becomes a broad Brown/BNS survey or assumes a kernel theorem.
+
+Stop condition:
+Stop after computation and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 107
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded known-route / prior-art blocker template.
+
+Payload ID: PAY-BACKLOG-107-2026-001
+Payload type: PAY-T001-BLOCKER
+
+Target gate:
+A recorded candidate row with unresolved route status.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row or family before execution. The audit must check only named repository routes and record exact formulation status.
+
+Success criterion:
+The row is routed, prior-art blocked, or remains blocked with exact missing hypotheses.
+
+Failure criterion:
+The audit becomes a broad literature survey.
+
+Stop condition:
+Stop after route/prior-art blocker update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 108
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded weaker K0 / Cohen-Lyndon hypothesis template.
+
+Payload ID: PAY-BACKLOG-108-2026-001
+Payload type: PAY-T001-BRIDGE
+
+Target gate:
+A concrete candidate/family row and a recorded weaker K0 source payload.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate/family and the exact FJ83 hypothesis package before execution. Do not treat weaker K0 as full Farrell-Jones.
+
+Success criterion:
+The row is classified as eligible, partially eligible, or not eligible from repository data.
+
+Failure criterion:
+The prompt collapses weaker K0 into full FJ or lacks a candidate object.
+
+Stop condition:
+Stop after hypothesis audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 109
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded Artin-lane reactivation template.
+
+Payload ID: PAY-BACKLOG-109-2026-001
+Payload type: PAY-ARTIN
+
+Target gate:
+`OBL-ARTIN-004` or a later recorded Artin reactivation gate.
+
+Exact statement or object:
+Fill this prompt with a named graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object before execution.
+
+Success criterion:
+An Artin subclass row changes status or a blocker is documented.
+
+Failure criterion:
+The prompt says only all Artin groups or names no changed object.
+
+Stop condition:
+Stop after Artin ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 110
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded foundational source-payload template.
+
+Payload ID: PAY-BACKLOG-110-2026-001
+Payload type: PAY-FND
+
+Target gate:
+`FND-QUEUE-PAUSE-001` or later source-queue gate.
+
+Exact statement or object:
+Fill this prompt with an exact foundational source theorem or convention whose use is required by a current proof, candidate, or route object.
+
+Success criterion:
+A convention, source-status row, or dependency changes.
+
+Failure criterion:
+The prompt is broad background or bibliography-only.
+
+Stop condition:
+Stop after source-status and dependency update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 111
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded formulation-comparison template.
+
+Payload ID: PAY-BACKLOG-111-2026-001
+Payload type: PAY-FORM
+
+Target gate:
+A recorded route or candidate whose formulation safety is unresolved.
+
+Exact statement or object:
+Fill this prompt with exact formulations to compare, such as coefficient K-theory FJC, full FJ, FJCw, FICwF, or finite-index inheritance.
+
+Success criterion:
+The formulation status becomes safe, blocked, or irrelevant with exact source labels preserved.
+
+Failure criterion:
+The comparison collapses formulation labels without a theorem.
+
+Stop condition:
+Stop after formulation ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 112
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded RB-006 non-hyperbolic bridge template.
+
+Payload ID: PAY-BACKLOG-112-2026-001
+Payload type: PAY-FJ53-RB006
+
+Target gate:
+The WIP / provisional `FJ53` and `RB-006` gate.
+
+Exact statement or object:
+Fill this prompt with a genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge, or another subtractive object. Hyperbolic overlap alone is not enough.
+
+Success criterion:
+`RB-006` status changes through a non-overlapping bridge or remains demoted with a documented blocker.
+
+Failure criterion:
+The prompt repeats the Louder-Wilton hyperbolic-overlap path only.
+
+Stop condition:
+Stop after RB-006 ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 113
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded target-pivot comparison template.
+
+Payload ID: PAY-BACKLOG-113-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded pivot or all-targets-paused gate.
+
+Exact statement or object:
+Fill this prompt with the exact target lanes to compare and the repository objects that may change. Do not select a target without a gate-satisfying object.
+
+Success criterion:
+One target is selected with exact payload requirements, or all remain paused.
+
+Failure criterion:
+The comparison becomes motivational prose with no ledger effect.
+
+Stop condition:
+Stop after target-pivot ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 114
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded reflection or handoff template.
+
+Payload ID: PAY-BACKLOG-114-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded cycle-closure or reflection-ready state.
+
+Exact statement or object:
+Fill this prompt with the cycle, module span, and handoff ledgers to review. Do not add mathematics.
+
+Success criterion:
+The reflection records achieved work, unresolved gates, and the next exact move.
+
+Failure criterion:
+The reflection invents results or skips unresolved gates.
+
+Stop condition:
+Stop after reflection and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 115
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 candidate-intake audit template.
+
+Payload ID: PAY-BACKLOG-115-2026-001
+Payload type: PAY-T001-CAND
+
+Target gate:
+`OBL-T001-013` or a later recorded T-001 candidate gate.
+
+Exact statement or object:
+Fill this prompt with one concrete torsion-free one-relator group or family before execution. The audit must check candidate-admissibility, already-routed status, missing data, and next proof obligation.
+
+Success criterion:
+A concrete row is classified as candidate-admissible, routed, blocked, or obstruction-only.
+
+Failure criterion:
+The candidate is a placeholder, already known without new information, or lacks target data.
+
+Stop condition:
+Stop after candidate-admissibility audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 116
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 kernel-control computation template.
+
+Payload ID: PAY-BACKLOG-116-2026-001
+Payload type: PAY-T001-COMPUTATION
+
+Target gate:
+A recorded candidate row with a named epimorphism to Z.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row and epimorphism to Z before execution. The computation must decide whether the relevant kernel is finite-rank free, finitely generated but unresolved, blocked, or unsuitable for an FJ route.
+
+Success criterion:
+Kernel-control status changes in the candidate inventory or residual ledger.
+
+Failure criterion:
+The computation becomes a broad Brown/BNS survey or assumes a kernel theorem.
+
+Stop condition:
+Stop after computation and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 117
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded known-route / prior-art blocker template.
+
+Payload ID: PAY-BACKLOG-117-2026-001
+Payload type: PAY-T001-BLOCKER
+
+Target gate:
+A recorded candidate row with unresolved route status.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row or family before execution. The audit must check only named repository routes and record exact formulation status.
+
+Success criterion:
+The row is routed, prior-art blocked, or remains blocked with exact missing hypotheses.
+
+Failure criterion:
+The audit becomes a broad literature survey.
+
+Stop condition:
+Stop after route/prior-art blocker update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 118
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded weaker K0 / Cohen-Lyndon hypothesis template.
+
+Payload ID: PAY-BACKLOG-118-2026-001
+Payload type: PAY-T001-BRIDGE
+
+Target gate:
+A concrete candidate/family row and a recorded weaker K0 source payload.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate/family and the exact FJ83 hypothesis package before execution. Do not treat weaker K0 as full Farrell-Jones.
+
+Success criterion:
+The row is classified as eligible, partially eligible, or not eligible from repository data.
+
+Failure criterion:
+The prompt collapses weaker K0 into full FJ or lacks a candidate object.
+
+Stop condition:
+Stop after hypothesis audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 119
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded Artin-lane reactivation template.
+
+Payload ID: PAY-BACKLOG-119-2026-001
+Payload type: PAY-ARTIN
+
+Target gate:
+`OBL-ARTIN-004` or a later recorded Artin reactivation gate.
+
+Exact statement or object:
+Fill this prompt with a named graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object before execution.
+
+Success criterion:
+An Artin subclass row changes status or a blocker is documented.
+
+Failure criterion:
+The prompt says only all Artin groups or names no changed object.
+
+Stop condition:
+Stop after Artin ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 120
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded foundational source-payload template.
+
+Payload ID: PAY-BACKLOG-120-2026-001
+Payload type: PAY-FND
+
+Target gate:
+`FND-QUEUE-PAUSE-001` or later source-queue gate.
+
+Exact statement or object:
+Fill this prompt with an exact foundational source theorem or convention whose use is required by a current proof, candidate, or route object.
+
+Success criterion:
+A convention, source-status row, or dependency changes.
+
+Failure criterion:
+The prompt is broad background or bibliography-only.
+
+Stop condition:
+Stop after source-status and dependency update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 121
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded formulation-comparison template.
+
+Payload ID: PAY-BACKLOG-121-2026-001
+Payload type: PAY-FORM
+
+Target gate:
+A recorded route or candidate whose formulation safety is unresolved.
+
+Exact statement or object:
+Fill this prompt with exact formulations to compare, such as coefficient K-theory FJC, full FJ, FJCw, FICwF, or finite-index inheritance.
+
+Success criterion:
+The formulation status becomes safe, blocked, or irrelevant with exact source labels preserved.
+
+Failure criterion:
+The comparison collapses formulation labels without a theorem.
+
+Stop condition:
+Stop after formulation ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 122
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded RB-006 non-hyperbolic bridge template.
+
+Payload ID: PAY-BACKLOG-122-2026-001
+Payload type: PAY-FJ53-RB006
+
+Target gate:
+The WIP / provisional `FJ53` and `RB-006` gate.
+
+Exact statement or object:
+Fill this prompt with a genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge, or another subtractive object. Hyperbolic overlap alone is not enough.
+
+Success criterion:
+`RB-006` status changes through a non-overlapping bridge or remains demoted with a documented blocker.
+
+Failure criterion:
+The prompt repeats the Louder-Wilton hyperbolic-overlap path only.
+
+Stop condition:
+Stop after RB-006 ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 123
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded target-pivot comparison template.
+
+Payload ID: PAY-BACKLOG-123-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded pivot or all-targets-paused gate.
+
+Exact statement or object:
+Fill this prompt with the exact target lanes to compare and the repository objects that may change. Do not select a target without a gate-satisfying object.
+
+Success criterion:
+One target is selected with exact payload requirements, or all remain paused.
+
+Failure criterion:
+The comparison becomes motivational prose with no ledger effect.
+
+Stop condition:
+Stop after target-pivot ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 124
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded reflection or handoff template.
+
+Payload ID: PAY-BACKLOG-124-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded cycle-closure or reflection-ready state.
+
+Exact statement or object:
+Fill this prompt with the cycle, module span, and handoff ledgers to review. Do not add mathematics.
+
+Success criterion:
+The reflection records achieved work, unresolved gates, and the next exact move.
+
+Failure criterion:
+The reflection invents results or skips unresolved gates.
+
+Stop condition:
+Stop after reflection and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 125
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 candidate-intake audit template.
+
+Payload ID: PAY-BACKLOG-125-2026-001
+Payload type: PAY-T001-CAND
+
+Target gate:
+`OBL-T001-013` or a later recorded T-001 candidate gate.
+
+Exact statement or object:
+Fill this prompt with one concrete torsion-free one-relator group or family before execution. The audit must check candidate-admissibility, already-routed status, missing data, and next proof obligation.
+
+Success criterion:
+A concrete row is classified as candidate-admissible, routed, blocked, or obstruction-only.
+
+Failure criterion:
+The candidate is a placeholder, already known without new information, or lacks target data.
+
+Stop condition:
+Stop after candidate-admissibility audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 126
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 kernel-control computation template.
+
+Payload ID: PAY-BACKLOG-126-2026-001
+Payload type: PAY-T001-COMPUTATION
+
+Target gate:
+A recorded candidate row with a named epimorphism to Z.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row and epimorphism to Z before execution. The computation must decide whether the relevant kernel is finite-rank free, finitely generated but unresolved, blocked, or unsuitable for an FJ route.
+
+Success criterion:
+Kernel-control status changes in the candidate inventory or residual ledger.
+
+Failure criterion:
+The computation becomes a broad Brown/BNS survey or assumes a kernel theorem.
+
+Stop condition:
+Stop after computation and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 127
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded known-route / prior-art blocker template.
+
+Payload ID: PAY-BACKLOG-127-2026-001
+Payload type: PAY-T001-BLOCKER
+
+Target gate:
+A recorded candidate row with unresolved route status.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row or family before execution. The audit must check only named repository routes and record exact formulation status.
+
+Success criterion:
+The row is routed, prior-art blocked, or remains blocked with exact missing hypotheses.
+
+Failure criterion:
+The audit becomes a broad literature survey.
+
+Stop condition:
+Stop after route/prior-art blocker update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 128
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded weaker K0 / Cohen-Lyndon hypothesis template.
+
+Payload ID: PAY-BACKLOG-128-2026-001
+Payload type: PAY-T001-BRIDGE
+
+Target gate:
+A concrete candidate/family row and a recorded weaker K0 source payload.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate/family and the exact FJ83 hypothesis package before execution. Do not treat weaker K0 as full Farrell-Jones.
+
+Success criterion:
+The row is classified as eligible, partially eligible, or not eligible from repository data.
+
+Failure criterion:
+The prompt collapses weaker K0 into full FJ or lacks a candidate object.
+
+Stop condition:
+Stop after hypothesis audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 129
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded Artin-lane reactivation template.
+
+Payload ID: PAY-BACKLOG-129-2026-001
+Payload type: PAY-ARTIN
+
+Target gate:
+`OBL-ARTIN-004` or a later recorded Artin reactivation gate.
+
+Exact statement or object:
+Fill this prompt with a named graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object before execution.
+
+Success criterion:
+An Artin subclass row changes status or a blocker is documented.
+
+Failure criterion:
+The prompt says only all Artin groups or names no changed object.
+
+Stop condition:
+Stop after Artin ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 130
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded foundational source-payload template.
+
+Payload ID: PAY-BACKLOG-130-2026-001
+Payload type: PAY-FND
+
+Target gate:
+`FND-QUEUE-PAUSE-001` or later source-queue gate.
+
+Exact statement or object:
+Fill this prompt with an exact foundational source theorem or convention whose use is required by a current proof, candidate, or route object.
+
+Success criterion:
+A convention, source-status row, or dependency changes.
+
+Failure criterion:
+The prompt is broad background or bibliography-only.
+
+Stop condition:
+Stop after source-status and dependency update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 131
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded formulation-comparison template.
+
+Payload ID: PAY-BACKLOG-131-2026-001
+Payload type: PAY-FORM
+
+Target gate:
+A recorded route or candidate whose formulation safety is unresolved.
+
+Exact statement or object:
+Fill this prompt with exact formulations to compare, such as coefficient K-theory FJC, full FJ, FJCw, FICwF, or finite-index inheritance.
+
+Success criterion:
+The formulation status becomes safe, blocked, or irrelevant with exact source labels preserved.
+
+Failure criterion:
+The comparison collapses formulation labels without a theorem.
+
+Stop condition:
+Stop after formulation ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 132
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded RB-006 non-hyperbolic bridge template.
+
+Payload ID: PAY-BACKLOG-132-2026-001
+Payload type: PAY-FJ53-RB006
+
+Target gate:
+The WIP / provisional `FJ53` and `RB-006` gate.
+
+Exact statement or object:
+Fill this prompt with a genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge, or another subtractive object. Hyperbolic overlap alone is not enough.
+
+Success criterion:
+`RB-006` status changes through a non-overlapping bridge or remains demoted with a documented blocker.
+
+Failure criterion:
+The prompt repeats the Louder-Wilton hyperbolic-overlap path only.
+
+Stop condition:
+Stop after RB-006 ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 133
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded target-pivot comparison template.
+
+Payload ID: PAY-BACKLOG-133-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded pivot or all-targets-paused gate.
+
+Exact statement or object:
+Fill this prompt with the exact target lanes to compare and the repository objects that may change. Do not select a target without a gate-satisfying object.
+
+Success criterion:
+One target is selected with exact payload requirements, or all remain paused.
+
+Failure criterion:
+The comparison becomes motivational prose with no ledger effect.
+
+Stop condition:
+Stop after target-pivot ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 134
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded reflection or handoff template.
+
+Payload ID: PAY-BACKLOG-134-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded cycle-closure or reflection-ready state.
+
+Exact statement or object:
+Fill this prompt with the cycle, module span, and handoff ledgers to review. Do not add mathematics.
+
+Success criterion:
+The reflection records achieved work, unresolved gates, and the next exact move.
+
+Failure criterion:
+The reflection invents results or skips unresolved gates.
+
+Stop condition:
+Stop after reflection and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 135
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 candidate-intake audit template.
+
+Payload ID: PAY-BACKLOG-135-2026-001
+Payload type: PAY-T001-CAND
+
+Target gate:
+`OBL-T001-013` or a later recorded T-001 candidate gate.
+
+Exact statement or object:
+Fill this prompt with one concrete torsion-free one-relator group or family before execution. The audit must check candidate-admissibility, already-routed status, missing data, and next proof obligation.
+
+Success criterion:
+A concrete row is classified as candidate-admissible, routed, blocked, or obstruction-only.
+
+Failure criterion:
+The candidate is a placeholder, already known without new information, or lacks target data.
+
+Stop condition:
+Stop after candidate-admissibility audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 136
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded T-001 kernel-control computation template.
+
+Payload ID: PAY-BACKLOG-136-2026-001
+Payload type: PAY-T001-COMPUTATION
+
+Target gate:
+A recorded candidate row with a named epimorphism to Z.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row and epimorphism to Z before execution. The computation must decide whether the relevant kernel is finite-rank free, finitely generated but unresolved, blocked, or unsuitable for an FJ route.
+
+Success criterion:
+Kernel-control status changes in the candidate inventory or residual ledger.
+
+Failure criterion:
+The computation becomes a broad Brown/BNS survey or assumes a kernel theorem.
+
+Stop condition:
+Stop after computation and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 137
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded known-route / prior-art blocker template.
+
+Payload ID: PAY-BACKLOG-137-2026-001
+Payload type: PAY-T001-BLOCKER
+
+Target gate:
+A recorded candidate row with unresolved route status.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate row or family before execution. The audit must check only named repository routes and record exact formulation status.
+
+Success criterion:
+The row is routed, prior-art blocked, or remains blocked with exact missing hypotheses.
+
+Failure criterion:
+The audit becomes a broad literature survey.
+
+Stop condition:
+Stop after route/prior-art blocker update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 138
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded weaker K0 / Cohen-Lyndon hypothesis template.
+
+Payload ID: PAY-BACKLOG-138-2026-001
+Payload type: PAY-T001-BRIDGE
+
+Target gate:
+A concrete candidate/family row and a recorded weaker K0 source payload.
+
+Exact statement or object:
+Fill this prompt with a concrete candidate/family and the exact FJ83 hypothesis package before execution. Do not treat weaker K0 as full Farrell-Jones.
+
+Success criterion:
+The row is classified as eligible, partially eligible, or not eligible from repository data.
+
+Failure criterion:
+The prompt collapses weaker K0 into full FJ or lacks a candidate object.
+
+Stop condition:
+Stop after hypothesis audit and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 139
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded Artin-lane reactivation template.
+
+Payload ID: PAY-BACKLOG-139-2026-001
+Payload type: PAY-ARTIN
+
+Target gate:
+`OBL-ARTIN-004` or a later recorded Artin reactivation gate.
+
+Exact statement or object:
+Fill this prompt with a named graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object before execution.
+
+Success criterion:
+An Artin subclass row changes status or a blocker is documented.
+
+Failure criterion:
+The prompt says only all Artin groups or names no changed object.
+
+Stop condition:
+Stop after Artin ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 140
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded foundational source-payload template.
+
+Payload ID: PAY-BACKLOG-140-2026-001
+Payload type: PAY-FND
+
+Target gate:
+`FND-QUEUE-PAUSE-001` or later source-queue gate.
+
+Exact statement or object:
+Fill this prompt with an exact foundational source theorem or convention whose use is required by a current proof, candidate, or route object.
+
+Success criterion:
+A convention, source-status row, or dependency changes.
+
+Failure criterion:
+The prompt is broad background or bibliography-only.
+
+Stop condition:
+Stop after source-status and dependency update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 141
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded formulation-comparison template.
+
+Payload ID: PAY-BACKLOG-141-2026-001
+Payload type: PAY-FORM
+
+Target gate:
+A recorded route or candidate whose formulation safety is unresolved.
+
+Exact statement or object:
+Fill this prompt with exact formulations to compare, such as coefficient K-theory FJC, full FJ, FJCw, FICwF, or finite-index inheritance.
+
+Success criterion:
+The formulation status becomes safe, blocked, or irrelevant with exact source labels preserved.
+
+Failure criterion:
+The comparison collapses formulation labels without a theorem.
+
+Stop condition:
+Stop after formulation ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 142
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded RB-006 non-hyperbolic bridge template.
+
+Payload ID: PAY-BACKLOG-142-2026-001
+Payload type: PAY-FJ53-RB006
+
+Target gate:
+The WIP / provisional `FJ53` and `RB-006` gate.
+
+Exact statement or object:
+Fill this prompt with a genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge, or another subtractive object. Hyperbolic overlap alone is not enough.
+
+Success criterion:
+`RB-006` status changes through a non-overlapping bridge or remains demoted with a documented blocker.
+
+Failure criterion:
+The prompt repeats the Louder-Wilton hyperbolic-overlap path only.
+
+Stop condition:
+Stop after RB-006 ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 143
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded target-pivot comparison template.
+
+Payload ID: PAY-BACKLOG-143-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded pivot or all-targets-paused gate.
+
+Exact statement or object:
+Fill this prompt with the exact target lanes to compare and the repository objects that may change. Do not select a target without a gate-satisfying object.
+
+Success criterion:
+One target is selected with exact payload requirements, or all remain paused.
+
+Failure criterion:
+The comparison becomes motivational prose with no ledger effect.
+
+Stop condition:
+Stop after target-pivot ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+## Prompt 144
+
+Status: Template
+
+Completed by:
+
+Commit:
+
+Prompt:
+
+```text
+Prepare a bounded reflection or handoff template.
+
+Payload ID: PAY-BACKLOG-144-2026-001
+Payload type: PAY-GOV
+
+Target gate:
+A recorded cycle-closure or reflection-ready state.
+
+Exact statement or object:
+Fill this prompt with the cycle, module span, and handoff ledgers to review. Do not add mathematics.
+
+Success criterion:
+The reflection records achieved work, unresolved gates, and the next exact move.
+
+Failure criterion:
+The reflection invents results or skips unresolved gates.
+
+Stop condition:
+Stop after reflection and ledger update.
+
+Notes:
+Template prompt generated for backlog capacity. It is not executable until all placeholders are concretely filled and the payload protocol accepts it.
+```
+
+
+Backlog expansion note: remaining generated templates are intentionally non-executable until concretized.
+
+Backlog expansion note: remaining generated templates are intentionally non-executable until concretized.
+Backlog expansion note: file intentionally stops at the 5000-line ceiling.
