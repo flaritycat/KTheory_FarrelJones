@@ -92,3 +92,24 @@ No group-class target becomes active from this route closure. The global
 class of torsion-free one-relator groups remains unresolved in the project.
 The \(G_{BS23}\) row is now a source-routed / prior-art-blocked candidate
 row, not a live non-routed residual target.
+
+## FJ98 target-pivot readiness update
+
+`FJ98` records accepted governance payload
+`PAY-PIVOT-READINESS-2026-001`.
+
+No group-class target becomes active from this checkpoint. The current
+target-readiness status is:
+
+| Target or lane | FJ98 status | Reason |
+|---|---|---|
+| `T-001` | paused / payload-blocked | `FJ96` records no live non-routed candidate row and `FJ97` records no active candidate route requiring formulation classification. |
+| Artin groups | paused | `OBL-ARTIN-004` remains unsatisfied; no named graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object is recorded. |
+| Foundational source queue | paused | `FND-QUEUE-PAUSE-001` remains unsatisfied; no exact application-tethered source payload is recorded. |
+| Automatic / biautomatic groups | deferred | no source-ready bounded object is recorded. |
+| Thompson-type groups | deferred | no source-ready bounded object is recorded. |
+| `FJ53` / `RB-006` | WIP / provisional | no independent non-hyperbolic CAT(0), compact-special, or FJ bridge is recorded. |
+
+Thus no recorded mathematical target lane has a concrete next object after
+`FJ97`. The next queued object is the governance-only cycle-005 strategic
+checkpoint in `next_prompts.md`, Prompt 018.

@@ -31,7 +31,9 @@ audit for `CAND-T001-005`, and by `FJ94` with the FJ83 weaker \(K_0\) /
 Cohen--Lyndon hypothesis audit for `CAND-T001-005`, and by `FJ95` with the
 branch checkpoint demoting `CAND-T001-005` to blocked / inactive proof-target
 status, by `FJ96` with the post-`FJ95` live-candidate audit, and by `FJ97`
-with the formulation-safety audit after the no-live-candidate state.
+with the formulation-safety audit after the no-live-candidate state, and by
+`FJ98` with the target-pivot readiness checkpoint recording no target-ready
+mathematical lane.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -176,6 +178,13 @@ live non-routed row, no active candidate route remains. The audit result is
 formulation-irrelevant for the current inventory. This does not collapse
 simplified ring-coefficient FJ, coefficient K-theory FJC, full
 \(\mathcal{FJ}\), `FJCw`, `FICwF`, or weaker \(K_0\)-level statements.
+
+Current status after `FJ98`: accepted payload
+`PAY-PIVOT-READINESS-2026-001` records that no recorded mathematical target
+lane has a concrete next object. For `T-001`, no active candidate row or
+route is reopened; the target remains paused / payload-blocked until a later
+accepted payload changes the inventory, residual status, proof obligation,
+formulation comparison, or prior-art blocker state.
 
 Current status after `reflections/cycle_003_reflection.md`: `T-001` remains
 important but is not currently candidate-ready. The next module is `FJ61`,
@@ -752,12 +761,18 @@ Conclusion: no active candidate route remains, so formulation safety is not
 currently applicable to an active `T-001` candidate. Future modules must
 still preserve all formulation boundaries.
 
-## Next update
+## FJ98 target-pivot readiness checkpoint
 
-The next queued prompt is the target-pivot readiness checkpoint in
-`next_prompts.md`, Prompt 017. No active `T-001` proof-target update is
-scheduled unless a later accepted payload supplies a live candidate,
+`FJ98` executes the target-pivot readiness checkpoint in `next_prompts.md`,
+Prompt 017. It records that no mathematical target lane has a concrete next
+object after `FJ97`. For this `T-001` inventory, no active proof-target update
+is scheduled unless a later accepted payload supplies a live candidate,
 finite-rank free-kernel identification, source-verified route bridge, new
 FJ83 weaker \(K_0\) hypothesis data, formulation comparison, reopening
-decision, or prior-art object satisfying the payload protocol. No `FJ98`
-module is selected without an accepted payload or queued prompt.
+decision, or prior-art object satisfying the payload protocol.
+
+## Next update
+
+The next queued prompt is the cycle-005 strategic checkpoint in
+`next_prompts.md`, Prompt 018. No `FJ99` module is selected without an
+accepted payload or queued prompt.

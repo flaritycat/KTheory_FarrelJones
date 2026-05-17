@@ -91,6 +91,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-T001-CAND005-BRANCH-2026-001` | `PAY-GOV` | accepted for `FJ95` only | Governance branch checkpoint for `CAND-T001-005`; demotes the row to blocked / inactive proof-target status without adding mathematics or subtracting a residual bucket. |
 | `PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` | `PAY-T001-BLOCKER` | accepted for `FJ96` only | Internal live-candidate audit after the `FJ95` demotion of `CAND-T001-005`; records post-`FJ95` no-live-candidate blocker `NLC-T001-002` without adding a candidate, source, route, or residual subtraction. |
 | `PAY-FORMULATION-SAFETY-AUDIT-2026-001` | `PAY-FORMULATION` | accepted for `FJ97` only | Internal formulation-safety applicability audit after `FJ96`; records formulation-irrelevant status because no active candidate route remains, without collapsing source formulations. |
+| `PAY-PIVOT-READINESS-2026-001` | `PAY-GOV` | accepted for `FJ98` only | Internal target-pivot readiness checkpoint after `FJ97`; records that no mathematical target lane has a concrete next object and all target lanes remain paused, deferred, WIP / provisional, or payload-blocked. |
 
 ## Accepted intake records
 
@@ -394,6 +395,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for `FJ97` formulation-safety audit only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ97_formulation_safety_audit_after_no_live_candidate.md` |
 
+### `PAY-PIVOT-READINESS-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-PIVOT-READINESS-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-GOV` |
+| Target gate | Post-`FJ97` gate, `OQ-119`, and `OBL-C5-018`. |
+| Candidate, source, bridge, computation, or blocker | Target-pivot readiness checkpoint after the no-live-candidate and formulation-irrelevant audits. |
+| Exact statement or object | Compare whether `T-001`, the Artin lane, the foundational source queue, automatic / biautomatic groups, Thompson-type groups, or the WIP / provisional `FJ53` line has a concrete next object. Do not start source work unless a target has an accepted payload with changed repository object, success criterion, failure criterion, and stop condition. |
+| APA citation if external source is used | No external source is used. |
+| Source-status label | No new external source checked; internal ledger audit only. |
+| Hypotheses and formulation level | Project-governance / target-readiness audit only. Do not claim full Farrell--Jones, coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, weaker \(K_0\), route closure, or residual subtraction. |
+| Repository object changed | `modules/cycle_005/FJ98_target_pivot_readiness_after_formulation_audit.md`; `next_prompts.md`; `ledgers/payload_intake_protocol.md`; `ledgers/open_group_classes.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `SCOPE_LEDGER.md`; `NOTATION_LEDGER.md`; `AGENTS.md`. |
+| Success criterion | `FJ98` records whether a target remains active with a concrete next object or all recorded mathematical targets remain paused, deferred, WIP / provisional, or payload-blocked. |
+| Failure criterion | The checkpoint starts a source survey, proof attempt, target reactivation, or mathematical claim without an accepted payload and changed project object. |
+| Stop condition | Stop after target-pivot readiness update. Do not create `FJ99`. |
+| Accepted? | Yes, for `FJ98` target-pivot readiness audit only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ98_target_pivot_readiness_after_formulation_audit.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -539,12 +560,20 @@ for the current `T-001` candidate inventory because no active candidate route
 remains. It preserves all formulation boundaries and records no source,
 theorem, route, candidate, or residual subtraction.
 
-After `FJ97`, no `FJ98` module is selected except through the next accepted
+`FJ98` records that no mathematical target lane has a concrete next object
+after `FJ97`. `T-001`, the Artin lane, the foundational source queue,
+automatic / biautomatic groups, Thompson-type groups, and the WIP /
+provisional `FJ53` line remain paused, deferred, WIP / provisional, or
+payload-blocked. It records no source, theorem, route, candidate, proof
+attempt, or residual subtraction.
+
+After `FJ98`, no `FJ99` module is selected except through the next accepted
 payload or queued prompt.
 
 The latest accepted payload,
-`PAY-FORMULATION-SAFETY-AUDIT-2026-001`, changes the state by instantiating
-`FJ97`; the earlier accepted payload
+`PAY-PIVOT-READINESS-2026-001`, changes the state by instantiating `FJ98`;
+the earlier accepted payload `PAY-FORMULATION-SAFETY-AUDIT-2026-001`
+instantiated `FJ97`; the earlier accepted payload
 `PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` instantiated `FJ96`; the earlier accepted payload
 `PAY-T001-CAND005-BRANCH-2026-001` instantiated `FJ95`; the earlier accepted payload
 `PAY-T001-CAND005-K0-CL-HYP-2026-001` instantiated `FJ94`; the earlier

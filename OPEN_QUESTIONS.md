@@ -4700,7 +4700,7 @@ It does not collapse source formulations.
 
 ### Status
 
-Open inside project; queued by `next_prompts.md`, Prompt 017.
+Resolved by `FJ98`.
 
 ### Context
 
@@ -4723,6 +4723,7 @@ criterion, and stop condition.
 - FJ81
 - FJ96
 - FJ97
+- FJ98
 
 ### Dependencies
 
@@ -4734,6 +4735,60 @@ and `AGENTS.md`.
 
 ### Next action
 
-Execute the queued target-pivot readiness checkpoint only as a bounded
-governance audit. Do not start a new source survey, proof attempt, or target
-lane without an accepted payload and a changed project object.
+Resolved by accepted payload `PAY-PIVOT-READINESS-2026-001`. `FJ98` records
+that no mathematical target lane currently has a concrete next object. The
+correct current status is all-targets-paused / no-target-ready, with only the
+cycle-005 strategic checkpoint queued as governance work.
+
+## OQ-120. What cycle-005 strategic status follows the post-FJ98 all-targets-paused checkpoint?
+
+### Status
+
+Open inside project; queued by `next_prompts.md`, Prompt 018.
+
+### Context
+
+`FJ98` records that `T-001`, the Artin lane, the foundational source queue,
+automatic / biautomatic groups, Thompson-type groups, and the WIP /
+provisional `FJ53` line have no concrete next mathematical object in the
+current repository state.
+
+The next queued prompt asks for a cycle-005 strategic checkpoint. Its purpose
+is to decide whether cycle 005 is still producing candidate-level progress or
+has returned to decorative bookkeeping. It must not prove new mathematics,
+add source summaries, reactivate a target, or create a proof attempt.
+
+### Relevant modules
+
+- FJ81
+- FJ82
+- FJ83
+- FJ84
+- FJ85
+- FJ86
+- FJ87
+- FJ88
+- FJ89
+- FJ90
+- FJ91
+- FJ92
+- FJ93
+- FJ94
+- FJ95
+- FJ96
+- FJ97
+- FJ98
+
+### Dependencies
+
+`next_prompts.md`, Prompt 018, `ledgers/payload_intake_protocol.md`,
+`OBL-C5-019`, `ledgers/open_group_classes.md`,
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
+`ledgers/artin_subclass_gap_inventory.md`, `SCOPE_LEDGER.md`,
+`NOTATION_LEDGER.md`, and `AGENTS.md`.
+
+### Next action
+
+Execute the queued cycle-005 strategic checkpoint only as a bounded
+governance audit. Do not add a source summary, proof attempt, or target
+reactivation without an accepted payload and a changed project object.

@@ -509,11 +509,11 @@ Stop after formulation-safety ledger update.
 
 ## Prompt 017
 
-Status: Open
+Status: Completed
 
-Completed by:
+Completed by: `FJ98`
 
-Commit:
+Commit: this commit (`[module] complete FJ98 target-pivot readiness checkpoint`)
 
 Prompt:
 
@@ -560,7 +560,8 @@ Payload type: PAY-GOV
 Exact statement or object:
 Audit cycle_005 modules from FJ81 onward and record whether the project is
 still making candidate-level progress or has returned to decorative
-bookkeeping. Do not prove new mathematics and do not add source summaries.
+bookkeeping. Use the post-FJ98 gate, `OQ-120`, and `OBL-C5-019`. Do not
+prove new mathematics and do not add source summaries.
 
 Success criterion:
 Record the current active gate, blocked lanes, and the exact next acceptable

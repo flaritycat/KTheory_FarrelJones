@@ -206,6 +206,12 @@ formulation-irrelevant status for the current inventory, not a permission to
 collapse `FJCw`, coefficient FJC, full \(\mathcal{FJ}\), `FICwF`, or weaker
 \(K_0\) statements in later modules.
 
+After `FJ98`, no mathematical target lane has a concrete next object. `T-001`,
+the Artin lane, the foundational source queue, automatic / biautomatic
+groups, Thompson-type groups, and WIP / provisional `FJ53` remain paused,
+deferred, WIP / provisional, or payload-blocked. The next queued work is a
+cycle-005 strategic checkpoint, not source reading or proof work.
+
 `FJ83` verifies Jaikin-Zapirain--Linton--Sanchez-Peralta (2025) only as a
 weaker \(K_0\) / Cohen--Lyndon source payload. Do not cite it as full
 `T-001`, coefficient FJC, `FJCw`, `FICwF`, full \(\mathcal{FJ}\), or a
@@ -276,8 +282,9 @@ Current module handoff:
 - `FJ96`: Live-Candidate Audit After CAND-T001-005 Demotion is completed.
 - `FJ97`: Formulation-Safety Audit After No-Live-Candidate State is
   completed.
-- `FJ98`: no module selected; instantiate only from a new accepted payload or
-  the queued target-pivot readiness checkpoint.
+- `FJ98`: Target-Pivot Readiness After Formulation Audit is completed.
+- `FJ99`: no module selected; instantiate only from a new accepted payload or
+  the queued cycle-005 strategic checkpoint.
 
 Current obstruction:
 
@@ -482,9 +489,14 @@ Current obstruction:
   which instantiated `FJ97`.
 - `OBL-C5-018`: no `FJ98` module may be created until a new accepted payload
   is recorded or the queued Prompt 017 target-pivot readiness checkpoint is
-  executed. That checkpoint should decide whether any target lane has a
-  concrete next object; it must not add candidates, source summaries, or proof
-  attempts without a changed project object.
+  executed. Completed by accepted payload `PAY-PIVOT-READINESS-2026-001`,
+  which instantiated `FJ98`.
+- `OBL-C5-019`: no `FJ99` module may be created until a new accepted payload
+  is recorded or the queued Prompt 018 cycle-005 strategic checkpoint is
+  executed. That checkpoint should audit whether cycle 005 is producing
+  candidate-level progress or decorative bookkeeping; it must not add source
+  summaries, proof attempts, candidates, or target reactivation without a
+  changed project object.
 
 ## Repository Hygiene
 

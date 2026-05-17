@@ -89,6 +89,9 @@ inventory after that demotion, recording post-`FJ95` no-live-candidate
 blocker `NLC-T001-002`. `FJ97` then records accepted payload
 `PAY-FORMULATION-SAFETY-AUDIT-2026-001` and records formulation-irrelevant
 status for the current inventory because no active candidate route remains.
+`FJ98` records accepted payload `PAY-PIVOT-READINESS-2026-001` and records
+that no mathematical target lane has a concrete next object; `T-001` remains
+paused / payload-blocked.
 `reflections/cycle_003_reflection.md`
 closes the third cycle and selects `FJ61` to set candidate-intake and exit
 criteria for the next `T-001` decision. `FJ61` records `OBL-T001-008`, the
@@ -1233,3 +1236,24 @@ Residual-bucket effect:
 This resolves `OQ-118`, completes `OBL-C5-017`, creates `OBL-C5-018`, and
 creates `OQ-119` for the next queued target-pivot readiness checkpoint. No
 `FJ98` module is selected without an accepted payload or queued prompt.
+
+## FJ98 target-pivot readiness checkpoint
+
+`FJ98` records accepted payload `PAY-PIVOT-READINESS-2026-001` and checks
+whether any recorded mathematical target lane has a concrete next object after
+`FJ97`.
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- no candidate row is added;
+- no external source is checked;
+- no target is reactivated;
+- no proof attempt is started;
+- no active `T-001` candidate route is reopened;
+- the current target-pivot status is all-targets-paused / no-target-ready.
+
+This resolves `OQ-119`, completes `OBL-C5-018`, creates `OBL-C5-019`, and
+creates `OQ-120` for the next queued cycle-005 strategic checkpoint. No
+`FJ99` module is selected without an accepted payload or queued prompt.
