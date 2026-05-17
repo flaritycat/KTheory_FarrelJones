@@ -92,7 +92,12 @@ Stop after the integrity audit and any strictly necessary consistency edits.
 
 ## Prompt 002. Prompt Queue Status Normalization
 
-Status: Ready
+Status: Completed
+
+Completed by:
+
+- `ledgers/cycle_006_prompt_queue_audit.md`
+- `next_prompts.md`
 
 ```text
 Run a prompt-queue status normalization pass.

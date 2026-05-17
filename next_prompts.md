@@ -9,6 +9,12 @@ It is not itself an accepted payload ledger. A prompt becomes actionable only
 when the user submits it in chat or records it under the repository's payload
 protocol.
 
+## Queue Gate Warning
+
+Template prompts are not executable. A template becomes actionable only after
+all placeholders are concretely filled and the resulting prompt is accepted
+under `ledgers/payload_intake_protocol.md`.
+
 ## Update Rule
 
 When a prompt from this file is executed:
@@ -659,7 +665,7 @@ Status: Completed
 
 Completed by: `reflections/cycle_005_reflection.md`
 
-Commit: this commit (`[reflection] close cycle 005`)
+Commit: `b044522` (`[reflection] close cycle 005`)
 
 Prompt:
 
@@ -694,7 +700,7 @@ Status: Completed
 
 Completed by: `reflections/post_100_module_strategic_review.md`
 
-Commit:
+Commit: `44ba064` (`[reflection] complete post-100 strategic review`)
 
 Prompt:
 
@@ -729,7 +735,7 @@ Status: Completed
 
 Completed by: `ledgers/cycle_006_entry_gate.md`
 
-Commit:
+Commit: `fa6dec0` (`[ledger] record cycle-006 entry gate`)
 
 Prompt:
 
@@ -764,7 +770,7 @@ Status: Completed
 
 Completed by: `ledgers/cycle_006_payload_decision.md`
 
-Commit:
+Commit: `984e4a5` (`[ledger] record cycle-006 payload pause`)
 
 Prompt:
 
