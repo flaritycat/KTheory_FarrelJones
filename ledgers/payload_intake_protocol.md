@@ -163,6 +163,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-T001-CAND-C6-018-2026-001` | `PAY-T001-CAND` | accepted for `FJ118` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-018`; consumes callback queue row `018` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
 | `PAY-T001-CAND-C6-019-2026-001` | `PAY-T001-CAND` | accepted for `FJ119` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-019`; consumes callback queue row `019` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
 | `PAY-T001-CAND-C6-020-2026-001` | `PAY-T001-CAND` | accepted for `FJ120` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-020`; consumes callback queue row `020` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
+| `PAY-T001-CAND-C6-021-2026-001` | `PAY-T001-CAND` | accepted for `FJ121` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-021`; consumes callback queue row `021` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
 
 ## Accepted intake records
 
@@ -863,6 +864,12 @@ prior-art claim, or residual subtraction.
 `FJ120` consumes only queue row `020`, adds `CAND-T001-C6-020` as a
 candidate-admissible but route-unresolved first-pass intake row, marks that
 queue row completed, creates `OQ-146` and `OBL-C6-023`, and makes no
+Farrell--Jones route claim, theorem promotion, weaker \(K_0\) claim,
+prior-art claim, or residual subtraction.
+
+`FJ121` consumes only queue row `021`, adds `CAND-T001-C6-021` as a
+candidate-admissible but route-unresolved first-pass intake row, marks that
+queue row completed, creates `OQ-147` and `OBL-C6-024`, and makes no
 Farrell--Jones route claim, theorem promotion, weaker \(K_0\) claim,
 prior-art claim, or residual subtraction.
 
