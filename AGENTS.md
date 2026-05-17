@@ -373,12 +373,16 @@ Current module handoff:
   `PAY-T001-CAND-C6-017-2026-001`. It adds `CAND-T001-C6-017` as a
   candidate-admissible but route-unresolved intake row and makes no route,
   theorem, prior-art, weaker \(K_0\), or residual-subtraction claim.
+- `FJ118`: instantiated only from accepted callback-queue row
+  `PAY-T001-CAND-C6-018-2026-001`. It adds `CAND-T001-C6-018` as a
+  candidate-admissible but route-unresolved intake row and makes no route,
+  theorem, prior-art, weaker \(K_0\), or residual-subtraction claim.
 
 Cycle-006 pause rule:
 
 - Current state is a cycle-006 payload-gated callback posture.
-- `OQ-126` is resolved only for the accepted row-001 through row-017
-  payloads that created `FJ101`--`FJ117`.
+- `OQ-126` is resolved only for the accepted row-001 through row-018
+  payloads that created `FJ101`--`FJ118`.
 - `OQ-127` and `OBL-C6-004` now govern follow-up work on
   `CAND-T001-C6-001`.
 - `OQ-128` and `OBL-C6-005` now govern follow-up work on
@@ -413,6 +417,8 @@ Cycle-006 pause rule:
   `CAND-T001-C6-016`.
 - `OQ-143` and `OBL-C6-020` now govern follow-up work on
   `CAND-T001-C6-017`.
+- `OQ-144` and `OBL-C6-021` now govern follow-up work on
+  `CAND-T001-C6-018`.
 - Future numbered work may be created only from a selected queued row or a
   separately supplied concrete accepted payload, not from a template prompt,
   generic continuation request, or governance alignment task.
@@ -527,6 +533,10 @@ Current obstruction:
   prior-art blocker, or branch decision.
 - `OBL-C6-020`: active after `FJ117`. Do not promote or route
   `CAND-T001-C6-017` until a new accepted payload records a kernel-control
+  computation, source-verified route bridge, formulation comparison,
+  prior-art blocker, or branch decision.
+- `OBL-C6-021`: active after `FJ118`. Do not promote or route
+  `CAND-T001-C6-018` until a new accepted payload records a kernel-control
   computation, source-verified route bridge, formulation comparison,
   prior-art blocker, or branch decision.
 - `OBL-T001-018`: partially completed by `FJ91` for torsion-free status and
@@ -714,13 +724,13 @@ Current obstruction:
 - `OBL-C5-021`: post-FJ100 prompt-backlog maintenance / reflection
   preparation. Completed by Prompt 020 and `reflections/cycle_005_reflection.md`;
   the later cycle-006 blocker `OBL-C6-003` has been completed only for
-  accepted callback rows 001--017.
+  accepted callback rows 001--018.
 - `OBL-POST100-001`: completed by
   `reflections/post_100_module_strategic_review.md`.
 - `OBL-C6-001`: completed by `ledgers/cycle_006_entry_gate.md`.
 - `OBL-C6-002`: completed by `ledgers/cycle_006_payload_decision.md`.
-- `OBL-C6-003`: completed only for accepted callback rows 001--017, which
-  instantiated `FJ101`--`FJ117`. Template prompts and generic continuation
+- `OBL-C6-003`: completed only for accepted callback rows 001--018, which
+  instantiated `FJ101`--`FJ118`. Template prompts and generic continuation
   requests do not satisfy future numbered-work gates.
 
 ## Continue Payload Callback Rule

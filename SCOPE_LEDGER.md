@@ -180,7 +180,7 @@ Unless explicitly imported later:
 127. What post-100-module strategic review should follow the cycle-005 reflection? Tracked as `OQ-123`; resolved by `reflections/post_100_module_strategic_review.md`.
 128. What cycle-006 entry-gate status follows the post-100-module strategic review? Tracked as `OQ-124`; resolved by `ledgers/cycle_006_entry_gate.md`, which records a no-gate-ready state.
 129. What payload-acquisition or project-pause decision should follow the cycle-006 no-gate-ready audit? Tracked as `OQ-125`; resolved by `ledgers/cycle_006_payload_decision.md`, which records `C6-PAUSE-001`.
-130. Which accepted payload, if any, should exit the cycle-006 payload-gated pause and instantiate the next numbered module? Tracked as `OQ-126`; partially resolved by `FJ101` for queue row `001`, by `FJ102` for queue row `002`, by `FJ103` for queue row `003`, by `FJ104` for queue row `004`, by `FJ105` for queue row `005`, by `FJ106` for queue row `006`, by `FJ107` for queue row `007`, by `FJ108` for queue row `008`, by `FJ109` for queue row `009`, by `FJ110` for queue row `010`, by `FJ111` for queue row `011`, by `FJ112` for queue row `012`, by `FJ113` for queue row `013`, by `FJ114` for queue row `014`, by `FJ115` for queue row `015`, by `FJ116` for queue row `016`, and by `FJ117` for queue row `017` only.
+130. Which accepted payload, if any, should exit the cycle-006 payload-gated pause and instantiate the next numbered module? Tracked as `OQ-126`; partially resolved by `FJ101` for queue row `001`, by `FJ102` for queue row `002`, by `FJ103` for queue row `003`, by `FJ104` for queue row `004`, by `FJ105` for queue row `005`, by `FJ106` for queue row `006`, by `FJ107` for queue row `007`, by `FJ108` for queue row `008`, by `FJ109` for queue row `009`, by `FJ110` for queue row `010`, by `FJ111` for queue row `011`, by `FJ112` for queue row `012`, by `FJ113` for queue row `013`, by `FJ114` for queue row `014`, by `FJ115` for queue row `015`, by `FJ116` for queue row `016`, by `FJ117` for queue row `017`, and by `FJ118` for queue row `018` only.
 131. Which accepted payload, if any, should act on `CAND-T001-C6-001` after `FJ101`? Tracked as `OQ-127`; open and blocked until a kernel-control, route/prior-art, formulation, route-bridge, or branch payload is accepted.
 132. Which accepted payload, if any, should act on `CAND-T001-C6-002` after `FJ102`? Tracked as `OQ-128`; open and blocked until a kernel-control, route/prior-art, formulation, route-bridge, or branch payload is accepted.
 133. Which accepted payload, if any, should act on `CAND-T001-C6-003` after `FJ103`? Tracked as `OQ-129`; open and blocked until a kernel-control, route/prior-art, formulation, route-bridge, or branch payload is accepted.
@@ -198,6 +198,7 @@ Unless explicitly imported later:
 145. Which accepted payload, if any, should act on `CAND-T001-C6-015` after `FJ115`? Tracked as `OQ-141`; open and blocked until a kernel-control, route/prior-art, formulation, route-bridge, or branch payload is accepted.
 146. Which accepted payload, if any, should act on `CAND-T001-C6-016` after `FJ116`? Tracked as `OQ-142`; open and blocked until a kernel-control, route/prior-art, formulation, route-bridge, or branch payload is accepted.
 147. Which accepted payload, if any, should act on `CAND-T001-C6-017` after `FJ117`? Tracked as `OQ-143`; open and blocked until a kernel-control, route/prior-art, formulation, route-bridge, or branch payload is accepted.
+148. Which accepted payload, if any, should act on `CAND-T001-C6-018` after `FJ118`? Tracked as `OQ-144`; open and blocked until a kernel-control, route/prior-art, formulation, route-bridge, or branch payload is accepted.
 
 ## Established results
 
@@ -723,7 +724,7 @@ Current source toolkit:
 - cycle-006 payload decision: `ledgers/cycle_006_payload_decision.md`
   resolves `OQ-125`, completes `OBL-C6-002`, records `C6-PAUSE-001`, creates
   `OQ-126`, records `OBL-C6-003`, and originally selects no `FJ101` module;
-- continue-payload queue and FJ101--FJ117 intake: `FJ101` consumes only row
+- continue-payload queue and FJ101--FJ118 intake: `FJ101` consumes only row
   `001`, `FJ102` consumes only row `002`, `FJ103` consumes only row `003`,
   `FJ104` consumes only row `004`, `FJ105` consumes only row `005`, and
   `FJ106` consumes only row `006`, `FJ107` consumes only row `007`, and
@@ -731,9 +732,10 @@ Current source toolkit:
   `FJ110` consumes only row `010`, `FJ111` consumes only row `011`, and
   `FJ112` consumes only row `012`, `FJ113` consumes only row `013`, and
   `FJ114` consumes only row `014`, `FJ115` consumes only row `015`,
-  `FJ116` consumes only row `016`, and `FJ117` consumes only row `017` of
+  `FJ116` consumes only row `016`, `FJ117` consumes only row `017`, and
+  `FJ118` consumes only row `018` of
   `ledgers/payload_execution_queue.md`, adding `CAND-T001-C6-001` through
-  `CAND-T001-C6-017` as
+  `CAND-T001-C6-018` as
   candidate-admissible but route-unresolved rows, creating `OQ-127` /
   `OBL-C6-004`, `OQ-128` / `OBL-C6-005`, `OQ-129` / `OBL-C6-006`,
   `OQ-130` / `OBL-C6-007`, `OQ-131` / `OBL-C6-008`, and `OQ-132` /
@@ -742,8 +744,8 @@ Current source toolkit:
   `OBL-C6-014`, and `OQ-138` / `OBL-C6-015`, and `OQ-139` /
   `OBL-C6-016`, and `OQ-140` / `OBL-C6-017`, and `OQ-141` /
   `OBL-C6-018`, and `OQ-142` / `OBL-C6-019`, and `OQ-143` /
-  `OBL-C6-020`, and making no Farrell--Jones theorem claim or residual
-  subtraction;
+  `OBL-C6-020`, and `OQ-144` / `OBL-C6-021`, and making no
+  Farrell--Jones theorem claim or residual subtraction;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -752,8 +754,8 @@ Current source toolkit:
 ## Next mathematical move
 
 The project is in a cycle-006 payload-gated callback posture.
-`ledgers/payload_execution_queue.md` rows `001`--`017` have been completed by
-`FJ101`--`FJ117`; the next mathematical move requires either the exact
+`ledgers/payload_execution_queue.md` rows `001`--`018` have been completed by
+`FJ101`--`FJ118`; the next mathematical move requires either the exact
 callback phrase `Continue payload` to consume the next `Ready for intake`
 queue row, or a separately supplied concrete accepted payload under
 `ledgers/payload_intake_protocol.md`.
