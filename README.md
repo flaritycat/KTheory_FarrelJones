@@ -28,6 +28,13 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - Current procedural target: record a concrete accepted payload under
   `ledgers/payload_intake_protocol.md`, or concretely fill a template prompt
   before execution.
+- Current handoff: `the 15-next-steps.md` is a governance/alignment queue
+  only. Its completed prompts through the README/charter alignment pass do
+  not instantiate `FJ101`, reactivate a target, promote a theorem, add a
+  source claim, or subtract a residual bucket.
+- Active gate: `OQ-126` / `OBL-C6-003`. Future numbered work requires a
+  concrete accepted payload; template prompts remain non-executable until
+  filled and accepted under the payload protocol.
 
 ## Current established results
 
@@ -222,6 +229,11 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
   decision. It resolves `OQ-125`, completes `OBL-C6-002`, records
   `C6-PAUSE-001`, creates `OQ-126` and `OBL-C6-003`, and selects no `FJ101`
   module.
+- `the 15-next-steps.md` records post-pause governance/alignment prompts.
+  The completed consistency, handoff, source-status, theorem-dependency, and
+  README/charter alignment passes preserve the same state: no mathematical
+  proof cycle has opened, no target is active, no template prompt is an
+  accepted payload, and no `FJ101` module is selected.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.

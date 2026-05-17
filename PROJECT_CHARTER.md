@@ -2106,6 +2106,32 @@ The decision resolves `OQ-125`, completes `OBL-C6-002`, records
 The next project move is to supply a concrete accepted payload, not to
 execute a template prompt.
 
+## Current state handoff after cycle-006 pause
+
+Current status: `C6-PAUSE-001` remains active.
+
+The public README and this charter now record the same current project
+position:
+
+- `FJ01`--`FJ100` are the completed numbered module archive, with `FJ53`
+  retained as WIP / provisional;
+- `cycle_005` is closed;
+- the post-100 strategic review is complete;
+- the cycle-006 entry-gate audit found no gate-satisfying payload;
+- the cycle-006 payload decision selected no `FJ101` module;
+- `OQ-126` remains open and `OBL-C6-003` remains the active governance gate;
+- no mathematical target lane is active;
+- template prompts are not executable until concretely filled and accepted
+  under `ledgers/payload_intake_protocol.md`;
+- future numbered work requires a concrete accepted payload.
+
+The completed governance/alignment prompts in `the 15-next-steps.md`,
+including the README/charter alignment pass, do not create mathematical
+progress by themselves. They are permitted only to clarify status, preserve
+payload discipline, and prevent accidental theorem promotion, target
+reactivation, source-summary drift, or creation of `FJ101` without a
+gate-satisfying payload.
+
 ## GitHub persistence policy
 
 The GitHub repository `flaritycat/KTheory_FarrelJones` is the durable archive and source of truth.

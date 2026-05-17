@@ -467,7 +467,11 @@ Stop after dependency-status clarification.
 
 ## Prompt 010. README and Project Charter Current-State Alignment
 
-Status: Ready
+Status: Completed
+
+Completed by:
+- `README.md`
+- `PROJECT_CHARTER.md`
 
 ```text
 Run a current-state alignment pass for `README.md` and `PROJECT_CHARTER.md`.
