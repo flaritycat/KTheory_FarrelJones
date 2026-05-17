@@ -108,6 +108,9 @@ or fabrication. `FJ65` records no exact prior-art blocker object, treats the
 no-candidate state as a target-pause trigger, and sends the project to the
 `FJ66` branch checkpoint. `FJ66` pauses `T-001` as an active proof-target
 sequence while keeping it unresolved and archived.
+`ledgers/t001_residual_consistency_audit.md` later records the post-cycle-006
+residual-bucket consistency audit and confirms that no `RB-*` bucket is
+removed by the cycle-006 pause state.
 
 ## Warning
 
@@ -1389,3 +1392,39 @@ Residual-bucket effect:
 The decision resolves `OQ-125`, completes `OBL-C6-002`, records
 `C6-PAUSE-001`, creates `OQ-126`, and records `OBL-C6-003`. Future residual
 work requires a concrete accepted payload, not a template prompt.
+
+## Residual-bucket consistency audit after cycle-006 pause
+
+`ledgers/t001_residual_consistency_audit.md` executes Prompt 006 from
+`the 15-next-steps.md`.
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- no candidate row is added;
+- no external source is checked;
+- no target is reactivated;
+- no proof attempt is started;
+- no active `T-001` candidate route is reopened;
+- `T-001` remains paused / payload-blocked under `C6-PAUSE-001`;
+- no `FJ101` module is selected.
+
+Bucket status after this audit:
+
+| Bucket | Status | Required next object |
+|---|---|---|
+| RB-001 | blocked / waiting for bridge payload | source-verified or internally proved bridge to an existing route |
+| RB-002 | inactive structural bucket | route bridge beyond local indicability alone |
+| RB-003 | blocked / waiting for candidate or bridge payload | hierarchy / primitive-extension object that changes a proof obligation |
+| RB-004 | blocked / waiting for kernel-control or route payload | finite-rank free-kernel identification, route bridge, or prior-art object satisfying current reopening rules |
+| RB-005 | paused | formulation-safe finite-index / `FJCw` cleanup case or bridge payload |
+| RB-006 | demoted / provisionally non-subtractive | genuinely non-hyperbolic CAT(0), compact-special, or Farrell--Jones bridge |
+| RB-007 | inactive recognition bucket | virtually solvable recognition source or candidate payload |
+| RB-008 | blocked / waiting for inheritance-safe extension data | kernel or exact-sequence package compatible with a recorded inheritance theorem |
+
+Consistency conclusion: no bucket is counted as subtractive merely because it
+overlaps a known hyperbolic, CAT(0), virtually solvable, finite-index /
+`FJCw`, free-by-cyclic, or hyperbolic-by-cyclic route. `RB-006` remains
+demoted / provisionally non-subtractive because the current Louder--Wilton /
+`pi(w)>2` lane records hyperbolic-route overlap only.

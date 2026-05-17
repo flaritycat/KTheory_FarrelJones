@@ -283,7 +283,11 @@ Stop after row classification and blocker notes.
 
 ## Prompt 006. T-001 Residual Bucket Consistency Audit
 
-Status: Ready
+Status: Completed
+
+Completed by:
+- `ledgers/t001_residual_consistency_audit.md`
+- `ledgers/t001_residual.md`
 
 ```text
 Run a residual-bucket consistency audit for T-001.
