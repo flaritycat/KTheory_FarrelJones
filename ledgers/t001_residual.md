@@ -135,11 +135,11 @@ cases not yet removed by the repository's current source-verified route data.
 | RB-001 | Groups that may be hyperbolic, CAT(0), virtually solvable, hyperbolic-by-cyclic, or inherited from known cases, but no bridge is recorded | The route exists only after the bridge is source-verified or proved internally | OQ-026, OQ-038 |
 | RB-002 | Locally indicable-only torsion-free one-relator data | Local indicability is structural and is not a Farrell--Jones theorem route in the project | OQ-026 |
 | RB-003 | One-relator hierarchy-only data from the Linton vocabulary | A hierarchy is not automatically a bridge to hyperbolicity, CAT(0), virtual solvability, a mapping torus, or an inheritance row | OQ-038, OQ-039 |
-| RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge. `FJ86` adds \(G_{BS23}\) as an intake row and `FJ87` verifies torsion-free / HNN status, but `FJ88` routes this specific row through the graph-of-abelian-groups prior-art theorem instead of kernel control. `FJ90` adds `CAND-T001-005` with an epimorphism to \(\mathbb Z\), `FJ91` source-checks torsion-free status, `FJ92` verifies Brown-positive finite generation of the \(\chi\)-kernel, and `FJ93` finds no recorded known route or prior-art blocker; the kernel is still not identified as finite-rank free. | OQ-036 |
+| RB-004 | Epimorphisms to \(\mathbb Z\) or HNN splittings with unknown kernel control | `FJ26` requires a mapping-torus bridge or a finite-rank free-by-cyclic bridge. `FJ86` adds \(G_{BS23}\) as an intake row and `FJ87` verifies torsion-free / HNN status, but `FJ88` routes this specific row through the graph-of-abelian-groups prior-art theorem instead of kernel control. `FJ90` adds `CAND-T001-005` with an epimorphism to \(\mathbb Z\), `FJ91` source-checks torsion-free status, `FJ92` verifies Brown-positive finite generation of the \(\chi\)-kernel, and `FJ93` finds no recorded known route or prior-art blocker; the kernel is still not identified as finite-rank free. `FJ101` adds `CAND-T001-C6-001` with epimorphism \(\chi(a)=1,\chi(b)=0\), but no kernel-control computation is recorded. | OQ-036 |
 | RB-005 | Virtually compact special or finite-index bridge cases with formulation gaps | `FJ50` pauses this bucket after the `FJCw` application audit and direct CAT(0) finite-extension check produce no residual subtraction | OQ-032, OQ-068, OQ-069, OQ-070, OQ-071 |
 | RB-006 | Compact special or CAT(0)-looking one-relator cases beyond the hyperbolic route | Selected by `FJ50`; `FJ52` checks Louder--Wilton and finds no independent compact-special/CAT(0) route delta; WIP / provisional `FJ53` records \(\pi(w)>2\) only as hyperbolic overlap through `FJ23`; `FJ54` demotes this bucket as provisionally non-subtractive pending a genuinely non-hyperbolic bridge | OQ-033, OQ-072, OQ-073, OQ-074, OQ-075 |
 | RB-007 | Virtually solvable-looking one-relator cases without a recognition source | `FJ25` deliberately does not classify virtually solvable one-relator groups | OQ-034 |
-| RB-008 | Countable-free-kernel or extension cases without exact inheritance data | `FJ27` requires the exact sequence, quotient status, and source version flag. `FJ86`/`FJ87` do not identify the \(G_{BS23}\) kernel type, but `FJ88` routes that specific row by prior art, so no extension-inheritance row is needed for it. `FJ92` records finite generation for the `CAND-T001-005` \(\chi\)-kernel, and `FJ93` records no alternate route or prior-art blocker; no finite-rank free, hyperbolic, or inheritance-safe kernel type is recorded. | OQ-037 |
+| RB-008 | Countable-free-kernel or extension cases without exact inheritance data | `FJ27` requires the exact sequence, quotient status, and source version flag. `FJ86`/`FJ87` do not identify the \(G_{BS23}\) kernel type, but `FJ88` routes that specific row by prior art, so no extension-inheritance row is needed for it. `FJ92` records finite generation for the `CAND-T001-005` \(\chi\)-kernel, and `FJ93` records no alternate route or prior-art blocker; no finite-rank free, hyperbolic, or inheritance-safe kernel type is recorded. `FJ101` records an epimorphism for `CAND-T001-C6-001`, but no kernel type or inheritance-safe extension package is recorded. | OQ-037 |
 
 ## Candidate next attack surfaces
 
@@ -1386,8 +1386,8 @@ Residual-bucket effect:
 - no target is reactivated;
 - no proof attempt is started;
 - no active `T-001` candidate route is reopened;
-- `T-001` remains paused / payload-blocked;
-- no `FJ101` module is selected.
+- `T-001` remains paused / payload-blocked at this pre-FJ101 decision point;
+- no `FJ101` module is selected by this decision itself.
 
 The decision resolves `OQ-125`, completes `OBL-C6-002`, records
 `C6-PAUSE-001`, creates `OQ-126`, and records `OBL-C6-003`. Future residual
@@ -1407,8 +1407,9 @@ Residual-bucket effect:
 - no target is reactivated;
 - no proof attempt is started;
 - no active `T-001` candidate route is reopened;
-- `T-001` remains paused / payload-blocked under `C6-PAUSE-001`;
-- no `FJ101` module is selected.
+- `T-001` remains paused / payload-blocked under `C6-PAUSE-001` at this
+  pre-FJ101 audit point;
+- no `FJ101` module is selected by this audit itself.
 
 Bucket status after this audit:
 
@@ -1428,3 +1429,32 @@ overlaps a known hyperbolic, CAT(0), virtually solvable, finite-index /
 `FJCw`, free-by-cyclic, or hyperbolic-by-cyclic route. `RB-006` remains
 demoted / provisionally non-subtractive because the current Louder--Wilton /
 `pi(w)>2` lane records hyperbolic-route overlap only.
+
+## FJ101 CAND-T001-C6-001 candidate-intake update
+
+`FJ101` records accepted payload `PAY-T001-CAND-C6-001-2026-001` and adds
+`CAND-T001-C6-001`:
+\[
+G_{C6,001}=\langle a,b\mid a b^3 a^{-1} b^{-5} a b^6 a^{-1} b^{-3}\rangle.
+\]
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- the relator is first-pass checked as not a proper power by the
+  abelianization vector \((0,1)\);
+- the existing Putman / Karrass--Magnus--Solitar source-status row used in
+  `FJ91` supports first-pass torsion-free candidate status;
+- the epimorphism \(\chi(a)=1,\chi(b)=0\) places the row near the
+  `RB-004` / `RB-008` kernel-control and extension-uncertainty lane;
+- kernel control, known-route overlap, prior-art comparison, and formulation
+  safety remain unresolved;
+- no coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`,
+  weaker \(K_0\), or residual subtraction is recorded.
+
+This creates `OBL-C6-004` for any later use of `CAND-T001-C6-001`. Future
+work must supply a new accepted payload naming a kernel-control computation,
+route bridge, formulation comparison, prior-art blocker, or branch decision.
+At the close of `FJ101`, no `FJ102` module is selected; the next queue row
+can be consumed only by the exact callback phrase `Continue payload`.

@@ -304,17 +304,22 @@ Current module handoff:
   project-pause decision.
 - `ledgers/cycle_006_payload_decision.md`: completed. It resolves `OQ-125`,
   completes `OBL-C6-002`, records `C6-PAUSE-001`, creates `OQ-126`, records
-  `OBL-C6-003`, and selects no `FJ101` module.
-- `FJ101`: no module selected. Do not instantiate it unless a future accepted
-  payload explicitly satisfies `OBL-C6-003`.
+  `OBL-C6-003`, and originally selects no `FJ101` module.
+- `FJ101`: instantiated only from accepted callback-queue row
+  `PAY-T001-CAND-C6-001-2026-001`. It adds `CAND-T001-C6-001` as a
+  candidate-admissible but route-unresolved intake row and makes no route,
+  theorem, prior-art, weaker \(K_0\), or residual-subtraction claim.
 
 Cycle-006 pause rule:
 
-- Current state is `C6-PAUSE-001`, a payload-gated pause.
-- `OQ-126` remains open until a concrete accepted payload exits the pause.
-- `OBL-C6-003` blocks `FJ101`; no `modules/cycle_006/FJ101*` file may be
-  created from a template prompt, generic continuation request, or governance
-  alignment task.
+- Current state is a cycle-006 payload-gated callback posture.
+- `OQ-126` is resolved only for the accepted row-001 payload that created
+  `FJ101`.
+- `OQ-127` and `OBL-C6-004` now govern follow-up work on
+  `CAND-T001-C6-001`.
+- Future numbered work may be created only from a selected queued row or a
+  separately supplied concrete accepted payload, not from a template prompt,
+  generic continuation request, or governance alignment task.
 - `the 15-next-steps.md` is a governance/alignment queue. Executing a ready
   prompt from that file may update instructions, indexes, ledgers, or status
   clarity, but it must not be treated as a mathematical payload unless the
@@ -356,9 +361,14 @@ Current obstruction:
   closure. It was superseded for intake purposes by `FJ90`, which added
   `CAND-T001-005`; do not use it to claim that the post-FJ94 inventory has no
   concrete row.
-- `NLC-T001-002`: active no-live-candidate blocker after the `FJ95` demotion
-  of `CAND-T001-005`. It records that no current candidate-inventory row is
-  live and non-routed after `FJ96`; it is not a theorem about `T-001`.
+- `NLC-T001-002`: historical no-live-candidate blocker after the `FJ95`
+  demotion of `CAND-T001-005`. It was superseded for intake purposes by
+  `FJ101`, which added `CAND-T001-C6-001`; it remains a warning that no row
+  before `FJ101` was live and non-routed.
+- `OBL-C6-004`: active after `FJ101`. Do not promote or route
+  `CAND-T001-C6-001` until a new accepted payload records a kernel-control
+  computation, source-verified route bridge, formulation comparison,
+  prior-art blocker, or branch decision.
 - `OBL-T001-018`: partially completed by `FJ91` for torsion-free status and
   superseded for route promotion by `OBL-T001-019`. Do not promote
   `CAND-T001-005` from torsion-free status alone.
@@ -543,14 +553,35 @@ Current obstruction:
   `PAY-C5-CLOSURE-READINESS-2026-001`, which instantiated `FJ100`.
 - `OBL-C5-021`: post-FJ100 prompt-backlog maintenance / reflection
   preparation. Completed by Prompt 020 and `reflections/cycle_005_reflection.md`;
-  the active `FJ101` blocker is now `OBL-C6-003`.
+  the later `FJ101` blocker `OBL-C6-003` was completed only for callback
+  queue row `001`.
 - `OBL-POST100-001`: completed by
   `reflections/post_100_module_strategic_review.md`.
 - `OBL-C6-001`: completed by `ledgers/cycle_006_entry_gate.md`.
 - `OBL-C6-002`: completed by `ledgers/cycle_006_payload_decision.md`.
-- `OBL-C6-003`: no `FJ101` module may be created until a concrete accepted
-  payload is recorded. Template prompts and generic continuation requests do
-  not satisfy this gate.
+- `OBL-C6-003`: completed only for `PAY-T001-CAND-C6-001-2026-001`, which
+  instantiated `FJ101`. Template prompts and generic continuation requests do
+  not satisfy future numbered-work gates.
+
+## Continue Payload Callback Rule
+
+- If the user prompt is exactly `Continue payload`, Codex must open
+  `ledgers/payload_execution_queue.md`, select the first row with status
+  `Ready for intake`, expand that row using the common inherited fields in
+  the same file, and apply `ledgers/payload_intake_protocol.md` before
+  creating any module.
+- Codex must execute at most one queued payload per run.
+- Codex must mark the selected queue row as `Completed`, `Rejected`, or
+  `Blocked` with a short reason before stopping.
+- Codex must not skip silently to later rows.
+- Codex must not mark the entire queue accepted.
+- Codex must not create `FJ101` or any later numbered module from the
+  callback unless the selected row passes the payload intake protocol.
+- Codex must not use `Continue`, `Continue with the next step`, or any other
+  vague wording as a payload. Only the exact callback phrase triggers queue
+  consumption.
+- If no row is `Ready for intake`, Codex must record that no queued payload is
+  ready and stop without inventing mathematics.
 
 ## Repository Hygiene
 

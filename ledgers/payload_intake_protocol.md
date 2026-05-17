@@ -143,6 +143,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-POST100-REVIEW-2026-001` | `PAY-GOV` | accepted for `reflections/post_100_module_strategic_review.md` only | Internal post-100-module strategic review after cycle 005; records structural debt, live mathematical objects, decorative-bookkeeping risk, and the cycle-006 entry gate without adding mathematics. |
 | `PAY-C6-GATE-2026-001` | `PAY-GOV` | accepted for `ledgers/cycle_006_entry_gate.md` only | Internal cycle-006 entry-gate audit after the post-100 review; records no-gate-ready status and selects the cycle-006 payload acquisition / project-pause decision without adding mathematics. |
 | `PAY-C6-PAYLOAD-2026-001` | `PAY-GOV` | accepted for `ledgers/cycle_006_payload_decision.md` only | Internal cycle-006 payload acquisition / project-pause decision; records that no concrete accepted payload exists, enters `C6-PAUSE-001`, and selects no `FJ101` module. |
+| `PAY-T001-CAND-C6-001-2026-001` | `PAY-T001-CAND` | accepted for `FJ101` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-001`; exits `C6-PAUSE-001` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
 
 ## Accepted intake records
 
@@ -722,9 +723,19 @@ records `C6-PAUSE-001`, creates `OQ-126`, records `OBL-C6-003`, and makes no
 source, theorem, route, candidate, proof-attempt, target-reactivation, or
 residual subtraction claim.
 
-After the cycle-006 payload decision, no `FJ101` module is selected. The
-project is in a payload-gated pause until a concrete accepted payload is
-recorded. Template prompts are not executable payloads.
+After the cycle-006 payload decision, no `FJ101` module was selected until
+`PAY-T001-CAND-C6-001-2026-001` was accepted from
+`ledgers/payload_execution_queue.md`.
+
+`FJ101` consumes only queue row `001`, adds `CAND-T001-C6-001` as a
+candidate-admissible but route-unresolved first-pass intake row, marks that
+queue row completed, creates `OQ-127` and `OBL-C6-004`, and makes no
+Farrell--Jones route claim, theorem promotion, weaker \(K_0\) claim,
+prior-art claim, or residual subtraction.
+
+Future callback work must use the exact phrase `Continue payload`; the next
+run may consume at most one `Ready for intake` row and must apply this
+protocol before any module is created.
 
 The latest accepted payload,
 `PAY-C6-PAYLOAD-2026-001`, changes the state by creating

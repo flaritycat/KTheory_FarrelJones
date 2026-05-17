@@ -2103,12 +2103,15 @@ The decision resolves `OQ-125`, completes `OBL-C6-002`, records
 `C6-PAUSE-001`, creates `OQ-126`, records `OBL-C6-003`, and selects no
 `FJ101` module.
 
-The next project move is to supply a concrete accepted payload, not to
-execute a template prompt.
+This was the pre-`FJ101` state. `FJ101` was later instantiated only after
+accepted callback-queue row `PAY-T001-CAND-C6-001-2026-001` was recorded.
+Template prompts still do not count as accepted payloads.
 
 ## Current state handoff after cycle-006 pause
 
-Current status: `C6-PAUSE-001` remains active.
+Current status: `C6-PAUSE-001` was exited only for accepted row-001
+candidate intake in `FJ101`. The cycle remains payload-gated for all later
+numbered work.
 
 The public README and this charter now record the same current project
 position:
@@ -2118,9 +2121,14 @@ position:
 - `cycle_005` is closed;
 - the post-100 strategic review is complete;
 - the cycle-006 entry-gate audit found no gate-satisfying payload;
-- the cycle-006 payload decision selected no `FJ101` module;
-- `OQ-126` remains open and `OBL-C6-003` remains the active governance gate;
-- no mathematical target lane is active;
+- the cycle-006 payload decision originally selected no `FJ101` module;
+- `FJ101` later consumed `PAY-T001-CAND-C6-001-2026-001` from
+  `ledgers/payload_execution_queue.md` and added `CAND-T001-C6-001` as a
+  candidate-admissible but route-unresolved row;
+- `OQ-126` is resolved only for row 001, while `OQ-127` and `OBL-C6-004`
+  govern follow-up work on `CAND-T001-C6-001`;
+- no mathematical target lane is active beyond bounded payload-gated
+  candidate intake;
 - template prompts are not executable until concretely filled and accepted
   under `ledgers/payload_intake_protocol.md`;
 - future numbered work requires a concrete accepted payload.
@@ -2129,8 +2137,20 @@ The completed governance/alignment prompts in `the 15-next-steps.md`,
 including the README/charter alignment pass, do not create mathematical
 progress by themselves. They are permitted only to clarify status, preserve
 payload discipline, and prevent accidental theorem promotion, target
-reactivation, source-summary drift, or creation of `FJ101` without a
-gate-satisfying payload.
+  reactivation, source-summary drift, or creation of later numbered work
+  without a gate-satisfying payload.
+
+## Continue payload workflow
+
+`ledgers/payload_execution_queue.md` is the current callback queue. The exact
+user prompt `Continue payload` selects the first row marked
+`Ready for intake`, expands the row using the common inherited fields in that
+file, applies `ledgers/payload_intake_protocol.md`, and consumes at most one
+row per run.
+
+Rows in the queue are not accepted in bulk. A selected row must be marked
+`Completed`, `Rejected`, or `Blocked` with a short reason before stopping.
+Generic continuation language does not trigger this workflow.
 
 ## GitHub persistence policy
 
