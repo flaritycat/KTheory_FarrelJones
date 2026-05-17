@@ -646,7 +646,10 @@ Stop after Artin reactivation requirements are recorded.
 
 ## Prompt 014. No-New-Module Validation Audit
 
-Status: Ready
+Status: Completed
+
+Completed by:
+- `ledgers/no_new_module_validation_audit.md`
 
 ```text
 Run a no-new-module validation audit.
