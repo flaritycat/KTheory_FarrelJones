@@ -602,7 +602,10 @@ Stop after foundational queue status check.
 
 ## Prompt 013. Artin Lane Reactivation Requirement Audit
 
-Status: Ready
+Status: Completed
+
+Completed by:
+- `ledgers/artin_reactivation_requirement_audit.md`
 
 ```text
 Run an Artin lane reactivation requirement audit.
