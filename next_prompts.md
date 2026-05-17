@@ -399,11 +399,11 @@ Stop after branch decision and ledger update.
 
 ## Prompt 014
 
-Status: Open
+Status: Completed
 
-Completed by:
+Completed by: `FJ96`
 
-Commit:
+Commit: this commit (`[module] complete FJ96 live-candidate audit after CAND-T001-005 demotion`)
 
 Prompt:
 
@@ -490,8 +490,10 @@ Payload type: PAY-FORMULATION
 
 Exact statement or object:
 Check whether the active candidate route uses the correct formulation label.
-Do not promote across finite-index, coefficient, finite-wreath-product,
-full-FJ, FICwF, or weaker K0 boundaries without an exact source bridge.
+Use the post-FJ96 gate, `OQ-118`, and `OBL-C5-017`. If no active candidate
+route remains, record formulation-irrelevant status. Do not promote across
+finite-index, coefficient, finite-wreath-product, full-FJ, FICwF, or weaker
+K0 boundaries without an exact source bridge.
 
 Success criterion:
 Record formulation-safe, formulation-blocked, or formulation-irrelevant

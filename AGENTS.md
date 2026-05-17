@@ -267,8 +267,9 @@ Current module handoff:
   completed.
 - `FJ94`: CAND-T001-005 K0 Cohen--Lyndon Hypothesis Audit is completed.
 - `FJ95`: CAND-T001-005 Branch Checkpoint After FJ94 is completed.
-- `FJ96`: no module selected; instantiate only from a new accepted payload or
-  the queued post-FJ95 live-candidate audit.
+- `FJ96`: Live-Candidate Audit After CAND-T001-005 Demotion is completed.
+- `FJ97`: no module selected; instantiate only from a new accepted payload or
+  the queued formulation-safety audit.
 
 Current obstruction:
 
@@ -298,6 +299,9 @@ Current obstruction:
   closure. It was superseded for intake purposes by `FJ90`, which added
   `CAND-T001-005`; do not use it to claim that the post-FJ94 inventory has no
   concrete row.
+- `NLC-T001-002`: active no-live-candidate blocker after the `FJ95` demotion
+  of `CAND-T001-005`. It records that no current candidate-inventory row is
+  live and non-routed after `FJ96`; it is not a theorem about `T-001`.
 - `OBL-T001-018`: partially completed by `FJ91` for torsion-free status and
   superseded for route promotion by `OBL-T001-019`. Do not promote
   `CAND-T001-005` from torsion-free status alone.
@@ -461,8 +465,14 @@ Current obstruction:
   `PAY-T001-CAND005-BRANCH-2026-001`, which instantiated `FJ95`.
 - `OBL-C5-016`: no `FJ96` module may be created until a new accepted payload
   is recorded or the queued post-`FJ95` live-candidate audit is executed.
-  That audit is internal only: do not add a new candidate, source, theorem,
-  computation, route, or residual subtraction.
+  Completed by accepted payload
+  `PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001`, which instantiated
+  `FJ96`.
+- `OBL-C5-017`: no `FJ97` module may be created until a new accepted payload
+  is recorded or the queued Prompt 016 formulation-safety audit is executed.
+  That audit should record formulation-irrelevant status if no active
+  candidate route remains, and it must not add candidates or collapse source
+  formulations.
 
 ## Repository Hygiene
 

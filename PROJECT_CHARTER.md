@@ -1870,9 +1870,45 @@ prior-art closure, and not a residual subtraction.
 by branch decision, creates `OBL-T001-023` for any later reopening, creates
 `OBL-C5-016`, creates `OQ-117`, and makes no full `T-001` claim.
 
-The next bounded project move is the post-`FJ95` live-candidate audit queued
-in `next_prompts.md`, Prompt 014. It must remain an internal ledger audit:
-no new candidate, source, route theorem, or computation is introduced there.
+At the close of `FJ95`, the next bounded project move was the post-`FJ95`
+live-candidate audit queued in `next_prompts.md`, Prompt 014. `FJ96` was
+later instantiated from that queued payload.
+
+## FJ96 live-candidate audit after CAND-T001-005 demotion
+
+Current status: `FJ96` has first-pass coverage as the internal
+live-candidate audit after the `FJ95` demotion of `CAND-T001-005`.
+
+`FJ96` records accepted payload
+`PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001`, whose object is to audit
+`ledgers/t001_candidate_inventory.md` and `ledgers/t001_residual.md` after
+the latest `CAND-T001-005` branch decision.
+
+The audit is bounded. It adds no candidate, checks no external source, and
+does not reopen `CAND-T001-005`.
+
+The audit result is:
+
+- `CAND-T001-001` is calibration-only / already non-residual;
+- `CAND-T001-002` is routed through `FJ26`;
+- `CAND-T001-003` is a routed family through `FJ26`;
+- `CAND-T001-004` is source-routed / prior-art-blocked through `ER-015`;
+- `CAND-T001-005` is blocked / inactive after `FJ95`;
+- `TPL-RB003-004-008` is a placeholder.
+
+Thus no current candidate-inventory row is live and non-routed after `FJ95`.
+This records post-`FJ95` no-live-candidate blocker `NLC-T001-002`.
+
+This is not a Farrell--Jones theorem, not a weaker \(K_0\) consequence, and
+not a residual subtraction.
+
+`FJ96` resolves `OQ-117`, completes `OBL-C5-016`, creates `OBL-C5-017`,
+creates `OQ-118`, and makes no full `T-001` claim.
+
+The next bounded project move is the formulation-safety audit queued in
+`next_prompts.md`, Prompt 016. Since `FJ96` records no live candidate row,
+that audit should record formulation-irrelevant status unless a new accepted
+payload changes the candidate inventory first.
 
 ## GitHub persistence policy
 

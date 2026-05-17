@@ -83,7 +83,10 @@ checks the FJ83 weaker \(K_0\) / Cohen--Lyndon hypothesis package for
 data and makes no weaker \(K_0\) promotion. `FJ95` then records accepted
 governance payload `PAY-T001-CAND005-BRANCH-2026-001` and demotes
 `CAND-T001-005` to blocked / inactive proof-target status while retaining it
-as a concrete row.
+as a concrete row. `FJ96` then records accepted payload
+`PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` and audits the candidate
+inventory after that demotion, recording post-`FJ95` no-live-candidate
+blocker `NLC-T001-002`.
 `reflections/cycle_003_reflection.md`
 closes the third cycle and selects `FJ61` to set candidate-intake and exit
 criteria for the next `T-001` decision. `FJ61` records `OBL-T001-008`, the
@@ -1171,4 +1174,37 @@ Residual-bucket effect:
 
 This completes `OBL-T001-022` by branch decision and creates
 `OBL-T001-023` as the reopening requirement for `CAND-T001-005`. It creates
-`OQ-117` for the next live-candidate audit. No `FJ96` module is selected.
+`OQ-117` for the next live-candidate audit. At the close of `FJ95`, no
+`FJ96` module was selected; `FJ96` was later instantiated by accepted payload
+`PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001`.
+
+## FJ96 live-candidate audit after CAND-T001-005 demotion
+
+`FJ96` records accepted payload
+`PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` and audits the current
+candidate inventory after the `FJ95` demotion of `CAND-T001-005`.
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- no route is recorded for `CAND-T001-005`;
+- no candidate row is added;
+- no external source is checked;
+- no currently recorded row is live and non-routed after `FJ95`;
+- `NLC-T001-002` records the post-`FJ95` no-live-candidate blocker.
+
+Current row statuses:
+
+| Candidate row | Residual status after FJ96 |
+|---|---|
+| `CAND-T001-001` | calibration-only / already non-residual |
+| `CAND-T001-002` | routed through `FJ26` |
+| `CAND-T001-003` | routed family through `FJ26` |
+| `CAND-T001-004` | source-routed / prior-art-blocked through `ER-015` |
+| `CAND-T001-005` | blocked / inactive proof-target row after `FJ95` |
+| `TPL-RB003-004-008` | template placeholder |
+
+This resolves `OQ-117`, completes `OBL-C5-016`, creates `OBL-C5-017`, and
+creates `OQ-118` for the next queued formulation-safety audit. No `FJ97`
+module is selected without an accepted payload or queued prompt.

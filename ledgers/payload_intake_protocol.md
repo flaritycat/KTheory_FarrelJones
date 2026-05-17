@@ -88,6 +88,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-T001-CAND005-ROUTE-PRIORART-2026-001` | `PAY-T001-BLOCKER` | accepted for `FJ93` only | Bounded known-route / prior-art blocker audit for `CAND-T001-005`. Accepted only to check named repository routes and prior-art blocker status; not for adding sources or proving global `T-001`. |
 | `PAY-T001-CAND005-K0-CL-HYP-2026-001` | `PAY-T001-BRIDGE` | accepted for `FJ94` only | Bounded FJ83 weaker \(K_0\) / Cohen--Lyndon hypothesis audit for `CAND-T001-005`; records non-eligibility from current row data and no weaker \(K_0\) consequence. |
 | `PAY-T001-CAND005-BRANCH-2026-001` | `PAY-GOV` | accepted for `FJ95` only | Governance branch checkpoint for `CAND-T001-005`; demotes the row to blocked / inactive proof-target status without adding mathematics or subtracting a residual bucket. |
+| `PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` | `PAY-T001-BLOCKER` | accepted for `FJ96` only | Internal live-candidate audit after the `FJ95` demotion of `CAND-T001-005`; records post-`FJ95` no-live-candidate blocker `NLC-T001-002` without adding a candidate, source, route, or residual subtraction. |
 
 ## Accepted intake records
 
@@ -351,6 +352,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for `FJ95` branch checkpoint only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ95_cand005_branch_checkpoint_after_fj94.md` |
 
+### `PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-T001-BLOCKER` |
+| Target gate | Post-`FJ95` gate, `OQ-117`, and `OBL-C5-016`. |
+| Candidate, source, bridge, computation, or blocker | Internal live-candidate audit after the `FJ95` demotion of `CAND-T001-005`. |
+| Exact statement or object | Audit `ledgers/t001_candidate_inventory.md` and `ledgers/t001_residual.md` to determine whether any live non-routed `T-001` candidate row remains after the latest `CAND-T001-005` decision. Do not add a candidate, use external sources, or reopen closed rows without payload. |
+| APA citation if external source is used | No external source is used. |
+| Source-status label | No new external source checked; internal ledger audit only. |
+| Hypotheses and formulation level | Project-governance / candidate-status audit only. Do not claim full Farrell--Jones, coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, weaker \(K_0\), prior-art closure, or residual subtraction. |
+| Repository object changed | `modules/cycle_005/FJ96_live_candidate_audit_after_cand005_demotion.md`; `next_prompts.md`; `ledgers/payload_intake_protocol.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `SCOPE_LEDGER.md`; `NOTATION_LEDGER.md`; `AGENTS.md`. |
+| Success criterion | `FJ96` records whether a live candidate remains. If none remains, record the exact blocker and future payload requirements. |
+| Failure criterion | The module invents a candidate, starts a source survey, or reopens closed rows without payload. |
+| Stop condition | Stop after live-candidate audit and ledger update. Do not create `FJ97`. |
+| Accepted? | Yes, for `FJ96` live-candidate audit only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ96_live_candidate_audit_after_cand005_demotion.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -425,6 +446,9 @@ payload `PAY-T001-CAND005-K0-CL-HYP-2026-001` instantiated `FJ94`.
 After `FJ94`, accepted governance payload
 `PAY-T001-CAND005-BRANCH-2026-001` instantiated `FJ95`.
 
+After `FJ95`, accepted internal live-candidate audit payload
+`PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` instantiated `FJ96`.
+
 `FJ84` records that no currently recorded `T-001` candidate/family row is
 eligible for project use of the FJ83 weaker \(K_0\) / Cohen--Lyndon payload.
 This is not a full `T-001` theorem and not a residual subtraction.
@@ -479,12 +503,19 @@ blocked / inactive proof-target status while retaining it as a concrete
 candidate object. It records no new source, theorem, computation, candidate,
 route, weaker \(K_0\) consequence, or residual subtraction.
 
-After `FJ95`, no `FJ96` module is selected. A future `FJ96` may be created
-only after a new accepted payload row is added above or an equivalent accepted
-payload is recorded in the relevant target ledger.
+`FJ96` records that no current `T-001` candidate-inventory row remains live
+and non-routed after the `FJ95` demotion of `CAND-T001-005`. It records
+post-`FJ95` no-live-candidate blocker `NLC-T001-002` and does not add a
+candidate, source, route, theorem, weaker \(K_0\) consequence, or residual
+subtraction.
 
-The latest accepted payload, `PAY-T001-CAND005-BRANCH-2026-001`, changes the
-state by instantiating `FJ95`; the earlier accepted payload
+After `FJ96`, no `FJ97` module is selected except through the next accepted
+payload or queued prompt.
+
+The latest accepted payload,
+`PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001`, changes the state by
+instantiating `FJ96`; the earlier accepted payload
+`PAY-T001-CAND005-BRANCH-2026-001` instantiated `FJ95`; the earlier accepted payload
 `PAY-T001-CAND005-K0-CL-HYP-2026-001` instantiated `FJ94`; the earlier
 accepted payload
 `PAY-T001-CAND005-ROUTE-PRIORART-2026-001` instantiated `FJ93`; the earlier

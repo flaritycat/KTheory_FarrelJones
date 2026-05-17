@@ -168,7 +168,8 @@ Unless explicitly imported later:
 118. Which accepted payload, if any, should instantiate FJ93 after FJ92? Tracked as `OQ-114`; resolved by `FJ93`, which records no known route or prior-art blocker for `CAND-T001-005`.
 119. Which accepted payload, if any, should instantiate FJ94 after FJ93? Tracked as `OQ-115`; resolved by `FJ94`, which records `CAND-T001-005` as not FJ83-eligible from current repository data.
 120. Which accepted payload, if any, should instantiate FJ95 after FJ94? Tracked as `OQ-116`; resolved by `FJ95`, which demotes `CAND-T001-005` to blocked / inactive proof-target status.
-121. Does any live non-routed `T-001` candidate row remain after the FJ95 branch decision? Tracked as `OQ-117`; open and queued by `next_prompts.md`, Prompt 014.
+121. Does any live non-routed `T-001` candidate row remain after the FJ95 branch decision? Tracked as `OQ-117`; resolved by `FJ96`, which records post-`FJ95` no-live-candidate blocker `NLC-T001-002`.
+122. Does the next queued formulation-safety prompt apply to any active candidate row after FJ96? Tracked as `OQ-118`; open and queued by `next_prompts.md`, Prompt 016.
 
 ## Established results
 
@@ -198,8 +199,8 @@ specialization of the additive-category coefficient convention recorded in
 `FJ02`. Here \(R\) is an associative unital ring and \(G\) is a discrete
 group unless stated otherwise.
 
-The active project posture is post-`FJ95` CAND-T001-005 branch-checkpoint
-gate. `T-001`,
+The active project posture is post-`FJ96` live-candidate-audit gate.
+`T-001`,
 torsion-free one-relator residual gap analysis, remains unresolved as a
 global target. The concrete row `CAND-T001-004` is no longer live as a
 non-routed residual candidate, because `FJ88` routes it through `ER-015`.
@@ -211,8 +212,11 @@ finite-rank freeness. `FJ93` records no known route or prior-art blocker
 among the named repository routes. `FJ94` records that the row is not
 FJ83-eligible from current repository data. `FJ95` demotes the row to
 blocked / inactive proof-target status while retaining it as a concrete row.
-Route formulation and route promotion therefore remain blocked. The next
-queued gate is the post-`FJ95` live-candidate audit.
+`FJ96` records that no current candidate-inventory row is live and
+non-routed after that demotion. Route formulation and route promotion
+therefore remain blocked. The next queued gate is the formulation-safety
+audit in Prompt 016, which should record formulation-irrelevant status if no
+active candidate route remains.
 
 ## What has been established
 
@@ -624,6 +628,12 @@ Current source toolkit:
   and `OBL-T001-022`, creates `OBL-T001-023`, `OBL-C5-016`, and `OQ-117`,
   and makes no route, weaker \(K_0\), Farrell--Jones, or residual-subtraction
   claim;
+- live-candidate audit after `CAND-T001-005` demotion: `FJ96` records
+  accepted payload `PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001`, finds
+  no live non-routed `T-001` candidate row after `FJ95`, records
+  `NLC-T001-002`, resolves `OQ-117`, completes `OBL-C5-016`, creates
+  `OBL-C5-017` and `OQ-118`, and makes no route, source, candidate, or
+  theorem claim;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -631,6 +641,7 @@ Current source toolkit:
 
 ## Next mathematical move
 
-The next queued prompt is the post-`FJ95` live-candidate audit in
-`next_prompts.md`, Prompt 014. It should be executed only as an internal
-ledger audit and must not add candidates or external sources.
+The next queued open prompt is the formulation-safety audit in
+`next_prompts.md`, Prompt 016. It should be executed only as a bounded ledger
+audit and should record formulation-irrelevant status if no active candidate
+route remains.

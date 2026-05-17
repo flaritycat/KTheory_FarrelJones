@@ -18,16 +18,16 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - Active cycle: `cycle_005`.
 - Completed cycles: `cycle_001`, `cycle_002`, `cycle_003`, and
   `cycle_004`.
-- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, `FJ77`, `FJ78`, `FJ79`, `FJ80`, `FJ81`, `FJ82`, `FJ83`, `FJ84`, `FJ85`, `FJ86`, `FJ87`, `FJ88`, `FJ89`, `FJ90`, `FJ91`, `FJ92`, `FJ93`, `FJ94`, and `FJ95`.
+- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, `FJ77`, `FJ78`, `FJ79`, `FJ80`, `FJ81`, `FJ82`, `FJ83`, `FJ84`, `FJ85`, `FJ86`, `FJ87`, `FJ88`, `FJ89`, `FJ90`, `FJ91`, `FJ92`, `FJ93`, `FJ94`, `FJ95`, and `FJ96`.
 - `FJ53` is retained as WIP / provisional.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md`, `reflections/cycle_002_reflection.md`, `reflections/cycle_003_reflection.md`, and `reflections/cycle_004_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current active project status: post-`FJ95` CAND-T001-005 branch-checkpoint
-  gate. `FJ95` was instantiated by accepted governance payload
-  `PAY-T001-CAND005-BRANCH-2026-001`.
-- Current procedural target: execute the post-`FJ95` live-candidate audit
-  only as a bounded internal ledger audit. Do not add a new candidate or
-  external source in that step.
+- Current active project status: post-`FJ96` live-candidate-audit gate.
+  `FJ96` was instantiated by accepted internal audit payload
+  `PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001`.
+- Current procedural target: execute the formulation-safety audit in
+  `next_prompts.md`, Prompt 016, only as a bounded ledger audit. If no active
+  candidate route remains, record formulation-irrelevant status.
 
 ## Current established results
 
@@ -172,6 +172,13 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
   resolves `OQ-116`, completes `OBL-C5-015` and `OBL-T001-022`, creates
   `OBL-T001-023`, `OBL-C5-016`, and `OQ-117`, and makes no route, weaker
   \(K_0\), Farrell--Jones, or residual-subtraction claim.
+- `FJ96` records accepted payload
+  `PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` and audits the candidate
+  inventory after the `FJ95` demotion. No current row is live and non-routed:
+  the existing rows are calibration-only, routed, source-routed /
+  prior-art-blocked, blocked / inactive, or placeholder. It records
+  `NLC-T001-002`, resolves `OQ-117`, completes `OBL-C5-016`, creates
+  `OBL-C5-017` and `OQ-118`, and makes no theorem claim.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.

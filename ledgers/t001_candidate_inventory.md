@@ -30,7 +30,7 @@ for `CAND-T001-005`, by `FJ93` with the known-route / prior-art blocker
 audit for `CAND-T001-005`, and by `FJ94` with the FJ83 weaker \(K_0\) /
 Cohen--Lyndon hypothesis audit for `CAND-T001-005`, and by `FJ95` with the
 branch checkpoint demoting `CAND-T001-005` to blocked / inactive proof-target
-status.
+status, and by `FJ96` with the post-`FJ95` live-candidate audit.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -158,6 +158,15 @@ identification, a source-verified route bridge, new FJ83 hypothesis data, a
 formulation comparison, a prior-art object, or an explicit reopening object.
 No route, weaker \(K_0\) consequence, or residual bucket subtraction is
 recorded.
+
+Current status after `FJ96`: accepted payload
+`PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` audits the current
+candidate inventory after the `FJ95` demotion. No current row is live and
+non-routed. `CAND-T001-001` is calibration-only, `CAND-T001-002` and
+`CAND-T001-003` are routed through `FJ26`, `CAND-T001-004` is source-routed /
+prior-art-blocked by `FJ88`, `CAND-T001-005` is blocked / inactive after
+`FJ95`, and `TPL-RB003-004-008` is only a placeholder. The post-`FJ95`
+no-live-candidate blocker is recorded as `NLC-T001-002`.
 
 Current status after `reflections/cycle_003_reflection.md`: `T-001` remains
 important but is not currently candidate-ready. The next module is `FJ61`,
@@ -693,12 +702,33 @@ Audit result:
 Conclusion: `CAND-T001-005` is retained as a concrete row but demoted from
 live proof-target status. Future use is governed by `OBL-T001-023`.
 
+## FJ96 live-candidate audit after CAND-T001-005 demotion
+
+`FJ96` records accepted payload
+`PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` and audits the current
+inventory after the `FJ95` demotion of `CAND-T001-005`.
+
+Audit result:
+
+| Candidate row | FJ96 classification | Live non-routed? | Reason |
+|---|---|---|---|
+| `CAND-T001-001` | calibration-only / already non-residual | no | The row is the abelian calibration example already covered by the virtually solvable route. |
+| `CAND-T001-002` | routed | no | The row is already removed through the `FJ26` finite-rank free-by-cyclic route. |
+| `CAND-T001-003` | routed family | no | The family is already removed through the `FJ26` finite-rank free-by-cyclic route after the `FJ34`/`FJ36` bridge. |
+| `CAND-T001-004` | source-routed / prior-art-blocked | no | `FJ88` routes \(G_{BS23}=BS(2,3)\) through `ER-015`. |
+| `CAND-T001-005` | blocked / inactive proof-target row | no | `FJ95` demotes the row after the bounded `FJ91`--`FJ94` audits record no route, no finite-rank free-kernel bridge, no prior-art blocker, and no FJ83 eligibility. |
+| `TPL-RB003-004-008` | template placeholder | no | No mathematical candidate, presentation, family, route-output target, or proof obligation is recorded. |
+
+Conclusion: no current candidate-inventory row is live and non-routed after
+`FJ95`. This records post-`FJ95` no-live-candidate blocker `NLC-T001-002`.
+
 ## Next update
 
-The next queued prompt is the post-`FJ95` live-candidate audit. No active
-`T-001` proof-target update is scheduled unless that audit or a later accepted
-payload supplies a live candidate, finite-rank free-kernel identification,
-source-verified route bridge, new FJ83 weaker \(K_0\) hypothesis data,
-formulation comparison, reopening decision, or prior-art object satisfying
-the payload protocol. No `FJ96` module is selected without an accepted
-payload.
+The next queued prompt is the formulation-safety audit in `next_prompts.md`,
+Prompt 016. It should record formulation-irrelevant status if no active
+candidate route remains. No active `T-001` proof-target update is scheduled
+unless a later accepted payload supplies a live candidate, finite-rank
+free-kernel identification, source-verified route bridge, new FJ83 weaker
+\(K_0\) hypothesis data, formulation comparison, reopening decision, or
+prior-art object satisfying the payload protocol. No `FJ97` module is
+selected without an accepted payload or queued prompt.

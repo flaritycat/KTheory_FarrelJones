@@ -4612,7 +4612,7 @@ while retaining it as a concrete candidate row.
 
 ### Status
 
-Open inside project; queued by `next_prompts.md`, Prompt 014.
+Resolved by `FJ96`.
 
 ### Context
 
@@ -4622,8 +4622,8 @@ and Brown-positive finite generation is recorded, but it has no finite-rank
 free-kernel bridge, source-verified route bridge, prior-art blocker, FJ83
 hypothesis package, formulation comparison, or residual-subtractive object.
 
-The next bounded question is whether any live non-routed `T-001` candidate
-row remains in `ledgers/t001_candidate_inventory.md` and
+Before `FJ96`, the next bounded question was whether any live non-routed
+`T-001` candidate row remained in `ledgers/t001_candidate_inventory.md` and
 `ledgers/t001_residual.md` after that demotion.
 
 ### Relevant modules
@@ -4648,6 +4648,49 @@ row remains in `ledgers/t001_candidate_inventory.md` and
 
 ### Next action
 
-Execute the queued live-candidate audit only as a bounded internal ledger
-audit. Do not add a new candidate, use external sources, or reopen
-`CAND-T001-005` without a new accepted payload.
+Resolved by accepted payload
+`PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001`. `FJ96` records that no
+current candidate-inventory row is live and non-routed after the `FJ95`
+demotion of `CAND-T001-005`; this creates `NLC-T001-002`.
+
+## OQ-118. Does the next queued formulation-safety prompt apply to any active candidate row after FJ96?
+
+### Status
+
+Open inside project; queued by `next_prompts.md`, Prompt 016.
+
+### Context
+
+`FJ96` records post-`FJ95` no-live-candidate blocker `NLC-T001-002`. The
+current candidate inventory has no live non-routed `T-001` row. Prompt 016
+asks for a formulation-safety audit for any active candidate row whose route
+depends on `FJCw`, coefficient FJC, full FJ, `FICwF`, or weaker \(K_0\)-level
+statements.
+
+The bounded question is therefore whether the formulation-safety audit is
+applicable to any active candidate route, or whether formulation safety is
+currently irrelevant because no active candidate route remains.
+
+### Relevant modules
+
+- FJ47
+- FJ83
+- FJ84
+- FJ88
+- FJ93
+- FJ94
+- FJ95
+- FJ96
+
+### Dependencies
+
+`next_prompts.md`, Prompt 016, `ledgers/payload_intake_protocol.md`,
+`OBL-C5-017`, `NLC-T001-002`, `ledgers/t001_candidate_inventory.md`,
+`ledgers/t001_residual.md`, `ledgers/theorem_dependencies.md`,
+`NOTATION_LEDGER.md`, and `AGENTS.md`.
+
+### Next action
+
+Execute the queued formulation-safety audit only as a bounded ledger update.
+Do not use it to reopen `CAND-T001-005`, add a candidate, or collapse source
+formulations.
