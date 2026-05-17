@@ -7768,3 +7768,84 @@ Supply a new accepted payload for kernel-control computation, route/prior-art
 blocker audit, formulation comparison, route bridge, or branch decision.
 The callback queue may continue to add separate candidate-intake rows, but a
 future row does not by itself resolve this question for `CAND-T001-C6-045`.
+## OQ-172. Which accepted payload, if any, should act on CAND-T001-C6-046 after FJ146?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ146` records accepted payload `PAY-T001-CAND-C6-046-2026-001` and adds
+`CAND-T001-C6-046` as a concrete torsion-free one-relator candidate at
+first-pass intake level. The row has a non-proper-power relator check, an
+epimorphism \(\chi(a)=1,\chi(b)=0\), and first-pass torsion-free status via
+the existing Putman source-status row used in `FJ91` and reused in
+`FJ101`--`FJ146`.
+
+No kernel-control computation, known-route audit, prior-art blocker,
+formulation comparison, weaker \(K_0\) package, or Farrell--Jones route is
+recorded for the row.
+
+### Relevant modules
+
+- `FJ91`
+- `FJ101`
+- `FJ102`
+- `FJ103`
+- `FJ104`
+- `FJ105`
+- `FJ106`
+- `FJ107`
+- `FJ108`
+- `FJ109`
+- `FJ110`
+- `FJ111`
+- `FJ112`
+- `FJ113`
+- `FJ114`
+- `FJ115`
+- `FJ116`
+- `FJ117`
+- `FJ118`
+- `FJ119`
+- `FJ120`
+- `FJ121`
+- `FJ122`
+- `FJ123`
+- `FJ124`
+- `FJ125`
+- `FJ126`
+- `FJ127`
+- `FJ128`
+- `FJ129`
+- `FJ130`
+- `FJ131`
+- `FJ132`
+- `FJ133`
+- `FJ134`
+- `FJ135`
+- `FJ136`
+- `FJ137`
+- `FJ138`
+- `FJ139`
+- `FJ140`
+- `FJ141`
+- `FJ142`
+- `FJ143`
+- `FJ144`
+- `FJ145`
+- `FJ146`
+
+### Dependencies
+
+`ledgers/payload_execution_queue.md`, `ledgers/payload_intake_protocol.md`,
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
+`ledgers/theorem_dependencies.md`, and `OBL-C6-049`.
+
+### Next action
+
+Supply a new accepted payload for kernel-control computation, route/prior-art
+blocker audit, formulation comparison, route bridge, or branch decision.
+The callback queue may continue to add separate candidate-intake rows, but a
+future row does not by itself resolve this question for `CAND-T001-C6-046`.
