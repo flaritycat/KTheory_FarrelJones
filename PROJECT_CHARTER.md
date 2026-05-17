@@ -2127,14 +2127,15 @@ intake in `FJ120`, accepted row-021 candidate intake in `FJ121`, and
 accepted row-022 candidate intake in `FJ122`, and accepted row-023 candidate
 intake in `FJ123`, accepted row-024 candidate intake in `FJ124`, and
 accepted row-025 candidate intake in `FJ125`, accepted row-026 candidate
-intake in `FJ126`, accepted row-027 candidate intake in `FJ127`, and
-accepted row-028 candidate intake in `FJ128`.
+intake in `FJ126`, accepted row-027 candidate intake in `FJ127`, accepted
+row-028 candidate intake in `FJ128`, and accepted row-029 candidate intake
+in `FJ129`.
 It remains payload-gated for all later numbered work.
 
 The public README and this charter now record the same current project
 position:
 
-- `FJ01`--`FJ128` are the completed numbered module archive, with `FJ53`
+- `FJ01`--`FJ129` are the completed numbered module archive, with `FJ53`
   retained as WIP / provisional;
 - `cycle_005` is closed;
 - the post-100 strategic review is complete;
@@ -2224,7 +2225,10 @@ position:
 - `FJ128` later consumed `PAY-T001-CAND-C6-028-2026-001` from
   `ledgers/payload_execution_queue.md` and added `CAND-T001-C6-028` as a
   candidate-admissible but route-unresolved row;
-- `OQ-126` is resolved only for rows 001--028, while `OQ-127` /
+- `FJ129` later consumed `PAY-T001-CAND-C6-029-2026-001` from
+  `ledgers/payload_execution_queue.md` and added `CAND-T001-C6-029` as a
+  candidate-admissible but route-unresolved row;
+- `OQ-126` is resolved only for rows 001--029, while `OQ-127` /
   `OBL-C6-004` govern follow-up work on `CAND-T001-C6-001`, `OQ-128` /
   `OBL-C6-005` govern follow-up work on `CAND-T001-C6-002`, `OQ-129` /
   `OBL-C6-006` govern follow-up work on `CAND-T001-C6-003`, and `OQ-130` /
@@ -2252,7 +2256,8 @@ position:
   `OBL-C6-028` govern follow-up work on `CAND-T001-C6-025`, and `OQ-152` /
   `OBL-C6-029` govern follow-up work on `CAND-T001-C6-026`, and `OQ-153` /
   `OBL-C6-030` govern follow-up work on `CAND-T001-C6-027`, and `OQ-154` /
-  `OBL-C6-031` govern follow-up work on `CAND-T001-C6-028`;
+  `OBL-C6-031` govern follow-up work on `CAND-T001-C6-028`, and `OQ-155` /
+  `OBL-C6-032` govern follow-up work on `CAND-T001-C6-029`;
 - no mathematical target lane is active beyond bounded payload-gated
   candidate intake;
 - template prompts are not executable until concretely filled and accepted
