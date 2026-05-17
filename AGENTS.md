@@ -477,8 +477,12 @@ Cycle-006 pause rule:
   `PAY-T001-CAND-C6-042-2026-001`. It adds `CAND-T001-C6-042` as a
   candidate-admissible but route-unresolved intake row and makes no route,
   theorem, prior-art, weaker \(K_0\), or residual-subtraction claim.
-- `OQ-126` is resolved only for the accepted row-001 through row-042
-  payloads that created `FJ101`--`FJ142`.
+- `FJ143`: instantiated only from accepted callback-queue row
+  `PAY-T001-CAND-C6-043-2026-001`. It adds `CAND-T001-C6-043` as a
+  candidate-admissible but route-unresolved intake row and makes no route,
+  theorem, prior-art, weaker \(K_0\), or residual-subtraction claim.
+- `OQ-126` is resolved only for the accepted row-001 through row-043
+  payloads that created `FJ101`--`FJ143`.
 - `OQ-127` and `OBL-C6-004` now govern follow-up work on
   `CAND-T001-C6-001`.
 - `OQ-128` and `OBL-C6-005` now govern follow-up work on
@@ -563,6 +567,8 @@ Cycle-006 pause rule:
   `CAND-T001-C6-041`.
 - `OQ-168` and `OBL-C6-045` now govern follow-up work on
   `CAND-T001-C6-042`.
+- `OQ-169` and `OBL-C6-046` now govern follow-up work on
+  `CAND-T001-C6-043`.
 - Future numbered work may be created only from a selected queued row or a
   separately supplied concrete accepted payload, not from a template prompt,
   generic continuation request, or governance alignment task.
@@ -613,6 +619,10 @@ Current obstruction:
   before `FJ101` was live and non-routed.
 - `OBL-C6-004`: active after `FJ101`. Do not promote or route
   `CAND-T001-C6-001` until a new accepted payload records a kernel-control
+  computation, source-verified route bridge, formulation comparison,
+  prior-art blocker, or branch decision.
+- `OBL-C6-046`: active after `FJ143`. Do not promote or route
+  `CAND-T001-C6-043` until a new accepted payload records a kernel-control
   computation, source-verified route bridge, formulation comparison,
   prior-art blocker, or branch decision.
 - `OBL-C6-045`: active after `FJ142`. Do not promote or route
@@ -960,7 +970,7 @@ Current obstruction:
 - `OBL-C5-021`: post-FJ100 prompt-backlog maintenance / reflection
   preparation. Completed by Prompt 020 and `reflections/cycle_005_reflection.md`;
   the later cycle-006 blocker `OBL-C6-003` has been completed only for
-  accepted callback rows 001--042.
+  accepted callback rows 001--043.
 - `OBL-POST100-001`: completed by
   `reflections/post_100_module_strategic_review.md`.
 - `OBL-C6-001`: completed by `ledgers/cycle_006_entry_gate.md`.

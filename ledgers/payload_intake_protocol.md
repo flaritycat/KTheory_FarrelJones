@@ -183,6 +183,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-T001-CAND-C6-040-2026-001` | `PAY-T001-CAND` | accepted for `FJ140` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-040`; consumes callback queue row `040` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
 | `PAY-T001-CAND-C6-041-2026-001` | `PAY-T001-CAND` | accepted for `FJ141` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-041`; consumes callback queue row `041` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
 | `PAY-T001-CAND-C6-042-2026-001` | `PAY-T001-CAND` | accepted for `FJ142` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-042`; consumes callback queue row `042` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
+| `PAY-T001-CAND-C6-043-2026-001` | `PAY-T001-CAND` | accepted for `FJ143` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-043`; consumes callback queue row `043` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
 ## Accepted intake records
 
 ### `PAY-T001-K0-CL-2025-001`
@@ -1042,3 +1043,7 @@ prior-art claim, or residual subtraction.
 ### PAY-T001-CAND-C6-042-2026-001
 
 `FJ142` consumes callback queue row `042` for `CAND-T001-C6-042` only. It creates `OQ-168` and `OBL-C6-045`, records no Farrell--Jones route, theorem promotion, weaker \(K_0\) consequence, prior-art blocker, or residual subtraction, and stops before row `043`.
+
+### PAY-T001-CAND-C6-043-2026-001
+
+`FJ143` consumes callback queue row `043` for `CAND-T001-C6-043` only. It creates `OQ-169` and `OBL-C6-046`, records no Farrell--Jones route, theorem promotion, weaker \(K_0\) consequence, prior-art blocker, or residual subtraction, and stops before row `044`.
