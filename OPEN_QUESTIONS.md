@@ -5061,7 +5061,8 @@ payload `PAY-T001-CAND-C6-003-2026-001`, and by `FJ104` for payload
 `PAY-T001-CAND-C6-027-2026-001`, and by `FJ128` for payload
 `PAY-T001-CAND-C6-028-2026-001`, and by `FJ129` for payload
 `PAY-T001-CAND-C6-029-2026-001`, and by `FJ130` for payload
-`PAY-T001-CAND-C6-030-2026-001` only; callback queue remains active for
+`PAY-T001-CAND-C6-030-2026-001`, and by `FJ131` for payload
+`PAY-T001-CAND-C6-031-2026-001` only; callback queue remains active for
 later rows.
 
 ### Context
@@ -5092,8 +5093,8 @@ residual subtraction.
 `FJ101`, `FJ102`, `FJ103`, `FJ104`, `FJ105`, `FJ106`, `FJ107`, `FJ108`,
 `FJ109`, `FJ110`, `FJ111`, `FJ112`, `FJ113`, `FJ114`, `FJ115`, `FJ116`,
 `FJ117`, `FJ118`, `FJ119`, `FJ120`, `FJ121`, `FJ122`, `FJ123`, `FJ124`,
-`FJ125`, `FJ126`, `FJ127`, `FJ128`, `FJ129`, and `FJ130` have instantiated
-the first thirty
+`FJ125`, `FJ126`, `FJ127`, `FJ128`, `FJ129`, `FJ130`, and `FJ131` have instantiated
+the first thirty-one
 concrete callback-queue rows.
 Future numbered work still requires a concrete accepted payload. The
 exact callback phrase `Continue payload` may consume the next `Ready for
@@ -5106,8 +5107,8 @@ Before `FJ101`, `ledgers/open_question_obligation_integrity_audit.md`
 confirmed that `OQ-126` remained open, `OBL-C6-003` remained active, and
 predecessor gates `OQ-122` through `OQ-125`, `OBL-C5-021`,
 `OBL-POST100-001`, `OBL-C6-001`, and `OBL-C6-002` were recorded as resolved
-or completed by their expected repository objects. `FJ101`--`FJ130` later
-changed `OQ-126` only for accepted callback rows `001`--`030`.
+or completed by their expected repository objects. `FJ101`--`FJ131` later
+changed `OQ-126` only for accepted callback rows `001`--`031`.
 
 ## OQ-127. Which accepted payload, if any, should act on CAND-T001-C6-001 after FJ101?
 
@@ -6651,3 +6652,70 @@ Supply a new accepted payload for kernel-control computation, route/prior-art
 blocker audit, formulation comparison, route bridge, or branch decision.
 The callback queue may continue to add separate candidate-intake rows, but a
 future row does not by itself resolve this question for `CAND-T001-C6-030`.
+
+## OQ-157. Which accepted payload, if any, should act on CAND-T001-C6-031 after FJ131?
+
+### Status
+
+Open inside project.
+
+### Context
+
+`FJ131` records accepted payload `PAY-T001-CAND-C6-031-2026-001` and adds
+`CAND-T001-C6-031` as a concrete torsion-free one-relator candidate at
+first-pass intake level. The row has a non-proper-power relator check, an
+epimorphism \(\chi(a)=1,\chi(b)=0\), and first-pass torsion-free status via
+the existing Putman source-status row used in `FJ91` and reused in
+`FJ101`--`FJ131`.
+
+No kernel-control computation, known-route audit, prior-art blocker,
+formulation comparison, weaker \(K_0\) package, or Farrell--Jones route is
+recorded for the row.
+
+### Relevant modules
+
+- `FJ91`
+- `FJ101`
+- `FJ102`
+- `FJ103`
+- `FJ104`
+- `FJ105`
+- `FJ106`
+- `FJ107`
+- `FJ108`
+- `FJ109`
+- `FJ110`
+- `FJ111`
+- `FJ112`
+- `FJ113`
+- `FJ114`
+- `FJ115`
+- `FJ116`
+- `FJ117`
+- `FJ118`
+- `FJ119`
+- `FJ120`
+- `FJ121`
+- `FJ122`
+- `FJ123`
+- `FJ124`
+- `FJ125`
+- `FJ126`
+- `FJ127`
+- `FJ128`
+- `FJ129`
+- `FJ130`
+- `FJ131`
+
+### Dependencies
+
+`ledgers/payload_execution_queue.md`, `ledgers/payload_intake_protocol.md`,
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
+`ledgers/theorem_dependencies.md`, and `OBL-C6-034`.
+
+### Next action
+
+Supply a new accepted payload for kernel-control computation, route/prior-art
+blocker audit, formulation comparison, route bridge, or branch decision.
+The callback queue may continue to add separate candidate-intake rows, but a
+future row does not by itself resolve this question for `CAND-T001-C6-031`.
