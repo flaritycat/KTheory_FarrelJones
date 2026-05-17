@@ -28,6 +28,9 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - Current procedural target: record a concrete accepted payload under
   `ledgers/payload_intake_protocol.md`, or concretely fill a template prompt
   before execution.
+- Drafting aid: use `ledgers/payload_drafting_pack.md` for copy-ready payload
+  forms. A drafted form is not accepted until all placeholders are filled and
+  the payload passes the intake protocol.
 - Current handoff: `the 15-next-steps.md` is a governance/alignment queue
   only. Its completed prompts through the README/charter alignment pass do
   not instantiate `FJ101`, reactivate a target, promote a theorem, add a
@@ -337,6 +340,7 @@ ledgers/t001_kernel_recognition.md Brown/BNS kernel-recognition ledger for T-001
 ledgers/t001_candidate_inventory.md candidate inventory for the T-001 hybrid attack packet
 ledgers/cycle_004_handoff.md      cycle-004 handoff table and gate index
 ledgers/payload_intake_protocol.md payload intake rules after the FJ82 pause
+ledgers/payload_drafting_pack.md  copy-ready draft forms for future payloads
 references/                       reading lists and source notes
 diagrams/                         dependency maps
 drafts/                           proof attempts, conjecture variants, abandoned paths

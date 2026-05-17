@@ -688,7 +688,11 @@ Stop after validation and any contradiction note.
 
 ## Prompt 015. Self-Contained Payload Drafting Pack
 
-Status: Ready
+Status: Completed
+
+Completed by:
+- `ledgers/payload_drafting_pack.md`
+- `README.md`
 
 ```text
 Create a self-contained payload drafting pack for future human-supplied
