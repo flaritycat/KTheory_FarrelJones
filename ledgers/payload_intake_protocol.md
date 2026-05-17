@@ -84,6 +84,10 @@ Use this template before instantiating a future numbered module.
 | `PAY-T001-LIVE-CAND-AUDIT-2026-001` | `PAY-T001-BLOCKER` | accepted for `FJ89` only | Internal live-candidate audit after the FJ88 closure of `CAND-T001-004`. Accepted only to classify current rows and record whether a no-live-candidate blocker remains; not for adding candidates, searching externally, reopening \(G_{BS23}\), global `T-001`, or residual subtraction. |
 | `PAY-T001-CAND-FJ90-2026-001` | `PAY-T001-CAND` | accepted for `FJ90` only | Concrete one-relator candidate-intake payload for `CAND-T001-005`, \(G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle\). Accepted only for candidate-admissibility audit and ledger update; not for full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
 | `PAY-T001-CAND005-TF-2026-001` | `PAY-T001-BRIDGE` | accepted for `FJ91` only | Bounded torsion-free source-check payload for `CAND-T001-005`, \(G_{FJ90}\). Accepted only to check whether the `FJ90` non-proper-power result combines with a source-checked one-relator torsion theorem; not for Brown/BNS computation, route/prior-art audit, full `T-001`, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
+| `PAY-T001-CAND005-BROWN-BNS-2026-001` | `PAY-T001-BRIDGE` | accepted for `FJ92` only | Bounded Brown/BNS kernel-control computation for `CAND-T001-005`, \(G_{FJ90}\). Accepted only to record finite-generation data for the chosen \(\mathbb Z\)-epimorphism; not a finite-rank free-kernel bridge or residual subtraction. |
+| `PAY-T001-CAND005-ROUTE-PRIORART-2026-001` | `PAY-T001-BLOCKER` | accepted for `FJ93` only | Bounded known-route / prior-art blocker audit for `CAND-T001-005`. Accepted only to check named repository routes and prior-art blocker status; not for adding sources or proving global `T-001`. |
+| `PAY-T001-CAND005-K0-CL-HYP-2026-001` | `PAY-T001-BRIDGE` | accepted for `FJ94` only | Bounded FJ83 weaker \(K_0\) / Cohen--Lyndon hypothesis audit for `CAND-T001-005`; records non-eligibility from current row data and no weaker \(K_0\) consequence. |
+| `PAY-T001-CAND005-BRANCH-2026-001` | `PAY-GOV` | accepted for `FJ95` only | Governance branch checkpoint for `CAND-T001-005`; demotes the row to blocked / inactive proof-target status without adding mathematics or subtracting a residual bucket. |
 
 ## Accepted intake records
 
@@ -327,6 +331,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for `FJ94` candidate-hypothesis audit only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ94_cand005_k0_cohen_lyndon_hypothesis_audit.md` |
 
+### `PAY-T001-CAND005-BRANCH-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-T001-CAND005-BRANCH-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-GOV` |
+| Target gate | Active post-`FJ94` gate, `OQ-116`, `OBL-C5-015`, and `OBL-T001-022`. |
+| Candidate, source, bridge, computation, or blocker | Branch checkpoint for `CAND-T001-005`, \(G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle\), after the bounded torsion-free, kernel-control, prior-art, and FJ83 hypothesis audits. |
+| Exact statement or object | Determine whether `CAND-T001-005` should be kept as a live proof target, routed, demoted to blocked, converted into a calibration/prior-art example, or closed as non-actionable. Use only existing ledgers. |
+| APA citation if external source is used | No external source is used. |
+| Source-status label | No new external source checked; internal ledger audit only. |
+| Hypotheses and formulation level | Project-governance branch checkpoint only. Do not claim full Farrell--Jones, coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, weaker \(K_0\), prior-art closure, or residual subtraction. |
+| Repository object changed | `modules/cycle_005/FJ95_cand005_branch_checkpoint_after_fj94.md`; `next_prompts.md`; `ledgers/payload_intake_protocol.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `ledgers/t001_kernel_recognition.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `SCOPE_LEDGER.md`; `NOTATION_LEDGER.md`; `AGENTS.md`. |
+| Success criterion | `FJ95` records a branch decision and the next gate. |
+| Failure criterion | The checkpoint invents a new source, theorem, computation, or candidate. |
+| Stop condition | Stop after branch decision and ledger update. Do not create `FJ96`. |
+| Accepted? | Yes, for `FJ95` branch checkpoint only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ95_cand005_branch_checkpoint_after_fj94.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -398,6 +422,9 @@ After `FJ92`, accepted known-route / prior-art blocker payload
 After `FJ93`, accepted FJ83 weaker \(K_0\) / Cohen--Lyndon hypothesis-audit
 payload `PAY-T001-CAND005-K0-CL-HYP-2026-001` instantiated `FJ94`.
 
+After `FJ94`, accepted governance payload
+`PAY-T001-CAND005-BRANCH-2026-001` instantiated `FJ95`.
+
 `FJ84` records that no currently recorded `T-001` candidate/family row is
 eligible for project use of the FJ83 weaker \(K_0\) / Cohen--Lyndon payload.
 This is not a full `T-001` theorem and not a residual subtraction.
@@ -447,12 +474,19 @@ no Cohen--Lyndon presentation or group-pair data, matching quotient,
 normalizer package, finite cohomological dimension data, coherent group-ring
 hypotheses, or row-level weaker \(K_0\) application bridge is recorded.
 
-After `FJ94`, no `FJ95` module is selected. A future `FJ95` may be created
+`FJ95` records the branch decision for `CAND-T001-005`: demote the row to
+blocked / inactive proof-target status while retaining it as a concrete
+candidate object. It records no new source, theorem, computation, candidate,
+route, weaker \(K_0\) consequence, or residual subtraction.
+
+After `FJ95`, no `FJ96` module is selected. A future `FJ96` may be created
 only after a new accepted payload row is added above or an equivalent accepted
 payload is recorded in the relevant target ledger.
 
-The latest accepted payload, `PAY-T001-CAND005-K0-CL-HYP-2026-001`, changes
-the state by instantiating `FJ94`; the earlier accepted payload
+The latest accepted payload, `PAY-T001-CAND005-BRANCH-2026-001`, changes the
+state by instantiating `FJ95`; the earlier accepted payload
+`PAY-T001-CAND005-K0-CL-HYP-2026-001` instantiated `FJ94`; the earlier
+accepted payload
 `PAY-T001-CAND005-ROUTE-PRIORART-2026-001` instantiated `FJ93`; the earlier
 accepted payload `PAY-T001-CAND005-BROWN-BNS-2026-001` instantiated `FJ92`;
 the earlier accepted payload `PAY-T001-CAND005-TF-2026-001` instantiated

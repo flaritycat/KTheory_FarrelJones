@@ -1835,9 +1835,44 @@ FJ83-hypothesis-audit part of `OBL-T001-021`, creates `OBL-T001-022` for any
 later route promotion or branch decision, creates `OBL-C5-015`, creates
 `OQ-116`, and makes no full `T-001` claim.
 
-The next project move is not a numbered module. A future `FJ95` may be
-instantiated only after a new accepted payload is recorded under
-`ledgers/payload_intake_protocol.md` or in the relevant target ledger.
+At the close of `FJ94`, the next project move was not a numbered module.
+`FJ95` was later instantiated only after accepted governance payload
+`PAY-T001-CAND005-BRANCH-2026-001` was recorded.
+
+## FJ95 CAND-T001-005 branch checkpoint after FJ94
+
+Current status: `FJ95` has first-pass coverage as the governance branch
+checkpoint for `CAND-T001-005` after the bounded `FJ90`--`FJ94` audits.
+
+`FJ95` records accepted governance payload
+`PAY-T001-CAND005-BRANCH-2026-001`, whose object is to decide whether the
+current repository should keep
+\[
+G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle
+\]
+as a live proof target, route it, demote it to blocked, convert it into a
+calibration/prior-art example, or close it as non-actionable.
+
+The checkpoint is bounded. It uses only repository ledgers and adds no source,
+theorem, computation, or candidate.
+
+The branch decision is:
+
+- keep the row as a concrete torsion-free one-relator candidate object;
+- demote it to blocked / inactive proof-target status;
+- do not treat it as routed, prior-art-blocked, FJ83-eligible, weaker
+  \(K_0\)-positive, or residual-subtractive.
+
+This is not a Farrell--Jones route, not a weaker \(K_0\) consequence, not a
+prior-art closure, and not a residual subtraction.
+
+`FJ95` resolves `OQ-116`, completes `OBL-C5-015`, completes `OBL-T001-022`
+by branch decision, creates `OBL-T001-023` for any later reopening, creates
+`OBL-C5-016`, creates `OQ-117`, and makes no full `T-001` claim.
+
+The next bounded project move is the post-`FJ95` live-candidate audit queued
+in `next_prompts.md`, Prompt 014. It must remain an internal ledger audit:
+no new candidate, source, route theorem, or computation is introduced there.
 
 ## GitHub persistence policy
 

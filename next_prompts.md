@@ -362,11 +362,11 @@ Stop after candidate-hypothesis audit and ledger update.
 
 ## Prompt 013
 
-Status: Open
+Status: Completed
 
-Completed by:
+Completed by: `FJ95`
 
-Commit:
+Commit: this commit (`[module] complete FJ95 branch checkpoint for CAND-T001-005`)
 
 Prompt:
 
@@ -417,8 +417,8 @@ Payload type: PAY-T001-BLOCKER
 Exact statement or object:
 Audit ledgers/t001_candidate_inventory.md and ledgers/t001_residual.md to
 determine whether any live non-routed T-001 candidate row remains after the
-latest CAND-T001-005 decision. Do not add a new candidate or use external
-sources.
+latest CAND-T001-005 decision. Use the post-FJ95 gate, `OQ-117`, and
+`OBL-C5-016`. Do not add a new candidate or use external sources.
 
 Success criterion:
 Record whether a live candidate remains. If none remains, record the exact

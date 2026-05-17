@@ -167,7 +167,8 @@ Unless explicitly imported later:
 117. Which accepted payload, if any, should instantiate FJ92 after FJ91? Tracked as `OQ-113`; resolved by `FJ92`, which records Brown-positive finite generation for `CAND-T001-005`.
 118. Which accepted payload, if any, should instantiate FJ93 after FJ92? Tracked as `OQ-114`; resolved by `FJ93`, which records no known route or prior-art blocker for `CAND-T001-005`.
 119. Which accepted payload, if any, should instantiate FJ94 after FJ93? Tracked as `OQ-115`; resolved by `FJ94`, which records `CAND-T001-005` as not FJ83-eligible from current repository data.
-120. Which accepted payload, if any, should instantiate FJ95 after FJ94? Tracked as `OQ-116`; open and blocked until a new accepted payload is recorded.
+120. Which accepted payload, if any, should instantiate FJ95 after FJ94? Tracked as `OQ-116`; resolved by `FJ95`, which demotes `CAND-T001-005` to blocked / inactive proof-target status.
+121. Does any live non-routed `T-001` candidate row remain after the FJ95 branch decision? Tracked as `OQ-117`; open and queued by `next_prompts.md`, Prompt 014.
 
 ## Established results
 
@@ -197,8 +198,8 @@ specialization of the additive-category coefficient convention recorded in
 `FJ02`. Here \(R\) is an associative unital ring and \(G\) is a discrete
 group unless stated otherwise.
 
-The active project posture is post-`FJ94` FJ83 weaker \(K_0\) /
-Cohen--Lyndon hypothesis-audit gate. `T-001`,
+The active project posture is post-`FJ95` CAND-T001-005 branch-checkpoint
+gate. `T-001`,
 torsion-free one-relator residual gap analysis, remains unresolved as a
 global target. The concrete row `CAND-T001-004` is no longer live as a
 non-routed residual candidate, because `FJ88` routes it through `ER-015`.
@@ -208,9 +209,10 @@ source-checks torsion-free status for this row. `FJ92` records
 Brown-positive finite generation of the \(\chi\)-kernel, but not
 finite-rank freeness. `FJ93` records no known route or prior-art blocker
 among the named repository routes. `FJ94` records that the row is not
-FJ83-eligible from current repository data. Route formulation and route
-promotion therefore remain blocked. No `FJ95` module is selected without a
-new accepted payload.
+FJ83-eligible from current repository data. `FJ95` demotes the row to
+blocked / inactive proof-target status while retaining it as a concrete row.
+Route formulation and route promotion therefore remain blocked. The next
+queued gate is the post-`FJ95` live-candidate audit.
 
 ## What has been established
 
@@ -616,6 +618,12 @@ Current source toolkit:
   completes the FJ83-hypothesis part of `OBL-T001-021`, creates
   `OBL-T001-022`, `OBL-C5-015`, and `OQ-116`, and makes no weaker \(K_0\)
   or Farrell--Jones claim;
+- branch checkpoint for `CAND-T001-005`: `FJ95` records accepted governance
+  payload `PAY-T001-CAND005-BRANCH-2026-001`, demotes the row to blocked /
+  inactive proof-target status, resolves `OQ-116`, completes `OBL-C5-015`
+  and `OBL-T001-022`, creates `OBL-T001-023`, `OBL-C5-016`, and `OQ-117`,
+  and makes no route, weaker \(K_0\), Farrell--Jones, or residual-subtraction
+  claim;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -623,5 +631,6 @@ Current source toolkit:
 
 ## Next mathematical move
 
-No numbered module is currently selected. Record a new accepted payload under
-`ledgers/payload_intake_protocol.md` before instantiating `FJ95`.
+The next queued prompt is the post-`FJ95` live-candidate audit in
+`next_prompts.md`, Prompt 014. It should be executed only as an internal
+ledger audit and must not add candidates or external sources.

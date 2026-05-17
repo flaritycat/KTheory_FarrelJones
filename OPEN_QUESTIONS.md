@@ -4565,7 +4565,7 @@ current repository data.
 
 ### Status
 
-Open inside project; blocked until a new accepted payload is recorded.
+Resolved by `FJ95`.
 
 ### Context
 
@@ -4575,8 +4575,8 @@ concrete and torsion-free, and `FJ92` records Brown-positive finite generation
 of \(\ker(\chi)\), but no finite-rank free kernel, source-verified route
 bridge, prior-art blocker, or FJ83 application package is recorded.
 
-A future `FJ95` may be useful only if it supplies one exact project object,
-such as:
+Before `FJ95`, a useful payload had to supply one exact project object, such
+as:
 
 - finite-rank free-kernel identification for the \(\chi\)-kernel;
 - source-verified hyperbolicity, CAT(0), virtual-solvability,
@@ -4604,6 +4604,50 @@ such as:
 
 ### Next action
 
-Record a new accepted payload before instantiating `FJ95`. Do not create a
-broad one-relator, route, Cohen--Lyndon, or prior-art source-summary module
-without an exact changed repository object and stop condition.
+Resolved by accepted governance payload `PAY-T001-CAND005-BRANCH-2026-001`.
+`FJ95` demotes `CAND-T001-005` to blocked / inactive proof-target status
+while retaining it as a concrete candidate row.
+
+## OQ-117. Does any live non-routed T-001 candidate row remain after the FJ95 branch decision?
+
+### Status
+
+Open inside project; queued by `next_prompts.md`, Prompt 014.
+
+### Context
+
+`FJ95` resolves the branch decision for `CAND-T001-005` by demoting it to
+blocked / inactive proof-target status. The row is concrete and torsion-free,
+and Brown-positive finite generation is recorded, but it has no finite-rank
+free-kernel bridge, source-verified route bridge, prior-art blocker, FJ83
+hypothesis package, formulation comparison, or residual-subtractive object.
+
+The next bounded question is whether any live non-routed `T-001` candidate
+row remains in `ledgers/t001_candidate_inventory.md` and
+`ledgers/t001_residual.md` after that demotion.
+
+### Relevant modules
+
+- FJ56
+- FJ57
+- FJ84
+- FJ89
+- FJ90
+- FJ91
+- FJ92
+- FJ93
+- FJ94
+- FJ95
+
+### Dependencies
+
+`next_prompts.md`, Prompt 014, `ledgers/payload_intake_protocol.md`,
+`OBL-C5-016`, `OBL-T001-023`, `CAND-T001-005`,
+`ledgers/t001_candidate_inventory.md`, `ledgers/t001_residual.md`,
+`ledgers/theorem_dependencies.md`, `NOTATION_LEDGER.md`, and `AGENTS.md`.
+
+### Next action
+
+Execute the queued live-candidate audit only as a bounded internal ledger
+audit. Do not add a new candidate, use external sources, or reopen
+`CAND-T001-005` without a new accepted payload.

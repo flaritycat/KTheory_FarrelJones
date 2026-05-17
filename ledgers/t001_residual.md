@@ -80,7 +80,10 @@ known route or prior-art blocker and makes no residual subtraction. `FJ94`
 then records accepted payload `PAY-T001-CAND005-K0-CL-HYP-2026-001` and
 checks the FJ83 weaker \(K_0\) / Cohen--Lyndon hypothesis package for
 `CAND-T001-005`; it finds the row not FJ83-eligible from current repository
-data and makes no weaker \(K_0\) promotion.
+data and makes no weaker \(K_0\) promotion. `FJ95` then records accepted
+governance payload `PAY-T001-CAND005-BRANCH-2026-001` and demotes
+`CAND-T001-005` to blocked / inactive proof-target status while retaining it
+as a concrete row.
 `reflections/cycle_003_reflection.md`
 closes the third cycle and selects `FJ61` to set candidate-intake and exit
 criteria for the next `T-001` decision. `FJ61` records `OBL-T001-008`, the
@@ -1142,5 +1145,30 @@ This completes the FJ83-hypothesis-audit part of `OBL-T001-021` and creates
 `OBL-T001-022` for future route promotion or branch decision. Future work
 must use a new accepted payload naming finite-rank free-kernel identification,
 source-verified route bridge, new FJ83 hypothesis data, formulation
-comparison, prior-art object, or branch/pause decision. No `FJ95` module is
-selected.
+comparison, prior-art object, or branch/pause decision. At the close of
+`FJ94`, no `FJ95` module was selected; `FJ95` was later instantiated by the
+accepted governance payload `PAY-T001-CAND005-BRANCH-2026-001`.
+
+## FJ95 CAND-T001-005 branch-checkpoint update
+
+`FJ95` records accepted governance payload
+`PAY-T001-CAND005-BRANCH-2026-001` and makes the branch decision for
+`CAND-T001-005` after the completed bounded audits.
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- no route is recorded for `CAND-T001-005`;
+- no weaker \(K_0\) consequence is recorded for `CAND-T001-005`;
+- no prior-art closure is recorded for `CAND-T001-005`;
+- the row is retained as a concrete torsion-free one-relator candidate
+  object;
+- the row is demoted to blocked / inactive proof-target status because the
+  current repository has no finite-rank free-kernel bridge, source-verified
+  route bridge, prior-art blocker, FJ83 hypothesis package, or formulation
+  comparison for it.
+
+This completes `OBL-T001-022` by branch decision and creates
+`OBL-T001-023` as the reopening requirement for `CAND-T001-005`. It creates
+`OQ-117` for the next live-candidate audit. No `FJ96` module is selected.

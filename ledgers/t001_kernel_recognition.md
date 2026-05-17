@@ -346,10 +346,21 @@ recorded, but no finite-rank free-kernel bridge, hyperbolic-by-cyclic bridge,
 inheritance-safe kernel type, alternate route, or weaker \(K_0\) application
 bridge is recorded.
 
+## FJ95 branch-checkpoint effect
+
+`FJ95` does not change the kernel-recognition computation. It demotes
+`CAND-T001-005` to blocked / inactive proof-target status after the completed
+bounded audits.
+
+The kernel-recognition blocker remains recorded but inactive for this row:
+Brown finite generation is known from `FJ92`, but no finite-rank free-kernel
+bridge, hyperbolic-by-cyclic bridge, inheritance-safe kernel type, alternate
+route, weaker \(K_0\) application bridge, or reopening payload is recorded.
+
 ## Next action
 
-No active kernel-recognition action is scheduled for `T-001` after `FJ94`
+No active kernel-recognition action is scheduled for `T-001` after `FJ95`
 unless a future accepted payload supplies finite-rank free-kernel
 identification, source-verified route bridge, new FJ83 hypothesis data,
-formulation comparison, prior-art object, or branch/pause decision for
+formulation comparison, prior-art object, or reopening decision for
 `CAND-T001-005`.
