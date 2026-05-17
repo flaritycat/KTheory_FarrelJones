@@ -4471,7 +4471,7 @@ is recorded.
 
 ### Status
 
-Open inside project; blocked until a new accepted payload is recorded.
+Resolved by `FJ93`.
 
 ### Context
 
@@ -4480,8 +4480,8 @@ Open inside project; blocked until a new accepted payload is recorded.
 The row is therefore not yet routed through `FJ26`, and no residual bucket is
 subtracted.
 
-A future `FJ93` may be useful only if it supplies one exact project object,
-such as:
+Before `FJ93`, a useful payload had to supply one exact project object, such
+as:
 
 - finite-rank free-kernel identification for the \(\chi\)-kernel;
 - known-route / prior-art blocker audit for `CAND-T001-005`;
@@ -4505,6 +4505,57 @@ such as:
 
 ### Next action
 
-Record a new accepted payload before instantiating `FJ93`. Do not create a
-broad Brown/BNS, one-relator, or known-route source-summary module without an
-exact changed repository object and stop condition.
+Resolved by accepted payload `PAY-T001-CAND005-ROUTE-PRIORART-2026-001`.
+`FJ93` performs the bounded known-route / prior-art blocker audit and records
+no current repository route or prior-art blocker for `CAND-T001-005`.
+
+## OQ-115. Which accepted payload, if any, should instantiate FJ94 after the FJ93 known-route / prior-art blocker audit?
+
+### Status
+
+Open inside project; blocked until a new accepted payload is recorded.
+
+### Context
+
+`FJ93` audits the named repository routes for `CAND-T001-005` and finds no
+recorded hyperbolic, CAT(0), virtually solvable, finite-index/`FJCw`,
+finite-rank free-by-cyclic, hyperbolic-by-cyclic, graph-of-abelian-groups,
+inheritance, or weaker \(K_0\) / Cohen--Lyndon route.
+
+The candidate remains concrete, torsion-free, and Brown-positive for finite
+generation, but it is still route-blocked. A future `FJ94` may be useful only
+if it supplies one exact project object, such as:
+
+- finite-rank free-kernel identification for the \(\chi\)-kernel;
+- source-verified hyperbolicity, CAT(0), virtual-solvability,
+  finite-index/`FJCw`, graph-of-abelian-groups, or inheritance bridge;
+- FJ83 weaker \(K_0\) / Cohen--Lyndon hypothesis package;
+- formulation comparison tied to a named route;
+- branch/pause decision for the candidate.
+
+### Relevant modules
+
+- FJ23
+- FJ24
+- FJ25
+- FJ26
+- FJ27
+- FJ83
+- FJ84
+- FJ90
+- FJ91
+- FJ92
+- FJ93
+
+### Dependencies
+
+`ledgers/payload_intake_protocol.md`, `OBL-C5-014`, `OBL-T001-021`,
+`CAND-T001-005`, `ledgers/t001_candidate_inventory.md`,
+`ledgers/t001_residual.md`, `ledgers/theorem_dependencies.md`,
+`NOTATION_LEDGER.md`, and `AGENTS.md`.
+
+### Next action
+
+Record a new accepted payload before instantiating `FJ94`. Do not create a
+broad one-relator, route, or prior-art source-summary module without an exact
+changed repository object and stop condition.

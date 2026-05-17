@@ -1769,7 +1769,39 @@ audit, and does not subtract a residual bucket.
 `OBL-C5-013` blocking `FJ93` without a new accepted payload, creates
 `OQ-114`, and makes no full `T-001` claim.
 
-The next project move is not a numbered module. A future `FJ93` may be
+At the close of `FJ92`, the next project move was not a numbered module.
+`FJ93` was later instantiated only after a new accepted payload was recorded
+under `ledgers/payload_intake_protocol.md` or in the relevant target ledger.
+
+## FJ93 CAND-T001-005 known-route / prior-art blocker audit
+
+Current status: `FJ93` has first-pass coverage as the known-route /
+prior-art blocker audit for `CAND-T001-005`.
+
+`FJ93` records accepted payload `PAY-T001-CAND005-ROUTE-PRIORART-2026-001`,
+whose object is to decide whether the current repository already routes
+\[
+G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle
+\]
+through a named route or prior-art theorem.
+
+The audit is bounded. It checks only recorded repository routes: hyperbolic,
+CAT(0), virtually solvable, finite-index/`FJCw`, finite-rank free-by-cyclic,
+hyperbolic-by-cyclic, graph-of-abelian-groups, inheritance, and weaker
+\(K_0\) / Cohen--Lyndon. No source-verified bridge for any of those routes is
+recorded for `CAND-T001-005`.
+
+Thus `CAND-T001-005` remains a concrete torsion-free one-relator candidate
+object with Brown-positive finite generation of one kernel, but it is still
+route-blocked. This is not a Farrell--Jones route, not a prior-art closure,
+and not a residual subtraction.
+
+`FJ93` resolves `OQ-114`, completes `OBL-C5-013`, completes the
+route/prior-art-audit part of `OBL-T001-020`, creates `OBL-T001-021` for
+any later route promotion or branch decision, creates `OBL-C5-014`, creates
+`OQ-115`, and makes no full `T-001` claim.
+
+The next project move is not a numbered module. A future `FJ94` may be
 instantiated only after a new accepted payload is recorded under
 `ledgers/payload_intake_protocol.md` or in the relevant target ledger.
 

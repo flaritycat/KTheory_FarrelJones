@@ -287,6 +287,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for `FJ92` Brown/BNS kernel-control computation only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ92_cand005_brown_bns_kernel_control.md` |
 
+### `PAY-T001-CAND005-ROUTE-PRIORART-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-T001-CAND005-ROUTE-PRIORART-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-T001-BLOCKER` |
+| Target gate | Active post-`FJ92` gate, plus `OBL-T001-020`. |
+| Candidate, source, bridge, computation, or blocker | Known-route / prior-art blocker audit for `CAND-T001-005`, \(G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle\). |
+| Exact statement or object | Audit whether `CAND-T001-005` is already removed from the `T-001` residual bucket by an existing repository route or prior-art theorem. Check only named routes: hyperbolic, CAT(0), virtually solvable, finite-index/`FJCw`, finite-rank free-by-cyclic, hyperbolic-by-cyclic, graph-of-abelian-groups, or FJ83 weaker \(K_0\) / Cohen--Lyndon if the hypotheses are actually recorded. |
+| APA citation if external source is used | No new external source is checked in `FJ93`; existing route sources are cited through prior modules and bibliography entries. |
+| Source-status label | Existing route-source packages reused; no new source located or promoted. |
+| Hypotheses and formulation level | Candidate route-status audit only. Do not claim full Farrell--Jones, coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, weaker \(K_0\), prior-art closure, or residual subtraction unless exact route hypotheses are recorded. |
+| Repository object changed | `modules/cycle_005/FJ93_cand005_known_route_prior_art_audit.md`; `next_prompts.md`; `ledgers/payload_intake_protocol.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `SCOPE_LEDGER.md`; `NOTATION_LEDGER.md`; `AGENTS.md`. |
+| Success criterion | `FJ93` records whether `CAND-T001-005` is already routed, prior-art blocked, still blocked, or still live after named repository routes are checked. |
+| Failure criterion | The audit becomes a broad literature survey or fails to connect a source to a repository route. |
+| Stop condition | Stop after known-route / prior-art blocker audit and ledger update. Do not create `FJ94`. |
+| Accepted? | Yes, for `FJ93` known-route / prior-art blocker audit only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ93_cand005_known_route_prior_art_audit.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -352,6 +372,9 @@ After `FJ90`, accepted torsion-free source-check payload
 After `FJ91`, accepted Brown/BNS kernel-control computation payload
 `PAY-T001-CAND005-BROWN-BNS-2026-001` instantiated `FJ92`.
 
+After `FJ92`, accepted known-route / prior-art blocker payload
+`PAY-T001-CAND005-ROUTE-PRIORART-2026-001` instantiated `FJ93`.
+
 `FJ84` records that no currently recorded `T-001` candidate/family row is
 eligible for project use of the FJ83 weaker \(K_0\) / Cohen--Lyndon payload.
 This is not a full `T-001` theorem and not a residual subtraction.
@@ -390,11 +413,17 @@ and no residual subtraction.
 `CAND-T001-005`, but does not identify the kernel as finite-rank free and
 does not invoke the `FJ26` route.
 
-After `FJ92`, no `FJ93` module is selected. A future `FJ93` may be created
+`FJ93` records no known route or prior-art blocker for `CAND-T001-005` among
+the named repository routes. The row remains a concrete torsion-free
+one-relator candidate object with Brown-positive finite generation, but it is
+still route-blocked and not residual-subtractive.
+
+After `FJ93`, no `FJ94` module is selected. A future `FJ94` may be created
 only after a new accepted payload row is added above or an equivalent accepted
 payload is recorded in the relevant target ledger.
 
-The latest accepted payload, `PAY-T001-CAND005-BROWN-BNS-2026-001`, changes
-the state by instantiating `FJ92`; the earlier accepted payload
+The latest accepted payload, `PAY-T001-CAND005-ROUTE-PRIORART-2026-001`,
+changes the state by instantiating `FJ93`; the earlier accepted payload
+`PAY-T001-CAND005-BROWN-BNS-2026-001` instantiated `FJ92`; the earlier accepted payload
 `PAY-T001-CAND005-TF-2026-001` instantiated `FJ91`; the earlier rejected
 intake attempts through `REJECTED-PAYLOAD-030` do not instantiate any module.

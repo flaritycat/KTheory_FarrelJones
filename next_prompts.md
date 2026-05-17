@@ -277,11 +277,11 @@ module.
 
 ## Prompt 011
 
-Status: Open
+Status: Completed
 
-Completed by:
+Completed by: `FJ93`
 
-Commit:
+Commit: this commit (`[module] complete FJ93 known-route audit for CAND-T001-005`)
 
 Prompt:
 
@@ -336,7 +336,7 @@ Payload ID: PAY-T001-CAND005-K0-CL-HYP-2026-001
 Payload type: PAY-T001-BRIDGE
 
 Target gate:
-The active post-FJ92 gate and OBL-T001-020.
+The active post-FJ93 gate and OBL-T001-021.
 
 Object:
 CAND-T001-005 and the FJ83 Jaikin-Zapirain--Linton--Sanchez-Peralta

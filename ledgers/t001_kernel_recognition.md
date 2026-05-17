@@ -324,9 +324,21 @@ It is the missing finite-rank free-kernel identification, known-route /
 prior-art blocker, formulation comparison, or another checked route bridge
 for `CAND-T001-005`.
 
+## FJ93 route-audit effect
+
+`FJ93` does not change the kernel-recognition computation. It checks named
+repository routes and records no known route or prior-art blocker for
+`CAND-T001-005`.
+
+The kernel-recognition blocker is therefore sharper after `FJ93`: Brown
+finite generation is recorded, but no finite-rank free-kernel bridge,
+hyperbolic-by-cyclic bridge, inheritance-safe kernel type, or alternate route
+is recorded.
+
 ## Next action
 
-No active kernel-recognition action is scheduled for `T-001` after `FJ92`
+No active kernel-recognition action is scheduled for `T-001` after `FJ93`
 unless a future accepted payload supplies finite-rank free-kernel
-identification, a known-route / prior-art audit, formulation comparison, or
-another checked route bridge for `CAND-T001-005`.
+identification, source-verified route bridge, FJ83 hypothesis package,
+formulation comparison, prior-art object, or branch/pause decision for
+`CAND-T001-005`.

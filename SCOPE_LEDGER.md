@@ -165,7 +165,8 @@ Unless explicitly imported later:
 115. Which accepted payload, if any, should instantiate FJ90 after FJ89? Tracked as `OQ-111`; resolved by `FJ90`, which adds concrete blocked intake row `CAND-T001-005`.
 116. Which accepted payload, if any, should instantiate FJ91 after FJ90? Tracked as `OQ-112`; resolved by `FJ91`, which source-checks torsion-free status for `CAND-T001-005`.
 117. Which accepted payload, if any, should instantiate FJ92 after FJ91? Tracked as `OQ-113`; resolved by `FJ92`, which records Brown-positive finite generation for `CAND-T001-005`.
-118. Which accepted payload, if any, should instantiate FJ93 after FJ92? Tracked as `OQ-114`; open and blocked until a new accepted payload is recorded.
+118. Which accepted payload, if any, should instantiate FJ93 after FJ92? Tracked as `OQ-114`; resolved by `FJ93`, which records no known route or prior-art blocker for `CAND-T001-005`.
+119. Which accepted payload, if any, should instantiate FJ94 after FJ93? Tracked as `OQ-115`; open and blocked until a new accepted payload is recorded.
 
 ## Established results
 
@@ -195,7 +196,7 @@ specialization of the additive-category coefficient convention recorded in
 `FJ02`. Here \(R\) is an associative unital ring and \(G\) is a discrete
 group unless stated otherwise.
 
-The active project posture is post-`FJ92` Brown/BNS kernel-control gate. `T-001`,
+The active project posture is post-`FJ93` known-route / prior-art audit gate. `T-001`,
 torsion-free one-relator residual gap analysis, remains unresolved as a
 global target. The concrete row `CAND-T001-004` is no longer live as a
 non-routed residual candidate, because `FJ88` routes it through `ER-015`.
@@ -203,9 +204,10 @@ non-routed residual candidate, because `FJ88` routes it through `ER-015`.
 proper-power status and an epimorphism to \(\mathbb Z\) recorded. `FJ91`
 source-checks torsion-free status for this row. `FJ92` records
 Brown-positive finite generation of the \(\chi\)-kernel, but not
-finite-rank freeness. Known-route overlap, prior-art comparison, and route
-formulation remain unverified. No `FJ93` module is selected without a new
-accepted payload.
+finite-rank freeness. `FJ93` records no known route or prior-art blocker
+among the named repository routes. Route formulation and route promotion
+therefore remain blocked. No `FJ94` module is selected without a new accepted
+payload.
 
 ## What has been established
 
@@ -598,6 +600,12 @@ Current source toolkit:
   \(\chi(a)=0,\chi(b)=1\), resolves `OQ-113`, completes `OBL-C5-012`,
   partially completes `OBL-T001-019`, creates `OBL-T001-020`,
   `OBL-C5-013`, and `OQ-114`, and makes no Farrell--Jones route claim;
+- known-route / prior-art blocker audit for `CAND-T001-005`: `FJ93` records
+  accepted payload `PAY-T001-CAND005-ROUTE-PRIORART-2026-001`, finds no
+  recorded route or prior-art blocker among the named repository routes,
+  resolves `OQ-114`, completes `OBL-C5-013`, completes the route/prior-art
+  part of `OBL-T001-020`, creates `OBL-T001-021`, `OBL-C5-014`, and
+  `OQ-115`, and makes no Farrell--Jones route claim;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -606,4 +614,4 @@ Current source toolkit:
 ## Next mathematical move
 
 No numbered module is currently selected. Record a new accepted payload under
-`ledgers/payload_intake_protocol.md` before instantiating `FJ93`.
+`ledgers/payload_intake_protocol.md` before instantiating `FJ94`.

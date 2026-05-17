@@ -263,7 +263,9 @@ Current module handoff:
   completed.
 - `FJ91`: CAND-T001-005 Torsion-Free Source Check is completed.
 - `FJ92`: CAND-T001-005 Brown/BNS Kernel-Control Computation is completed.
-- `FJ93`: no module selected; instantiate only from a new accepted payload.
+- `FJ93`: CAND-T001-005 Known-Route and Prior-Art Blocker Audit is
+  completed.
+- `FJ94`: no module selected; instantiate only from a new accepted payload.
 
 Current obstruction:
 
@@ -291,7 +293,7 @@ Current obstruction:
   unless a later accepted payload names a different bounded object.
 - `NLC-T001-001`: historical no-live-candidate blocker after the FJ88
   closure. It was superseded for intake purposes by `FJ90`, which added
-  `CAND-T001-005`; do not use it to claim that the post-FJ92 inventory has no
+  `CAND-T001-005`; do not use it to claim that the post-FJ93 inventory has no
   concrete row.
 - `OBL-T001-018`: partially completed by `FJ91` for torsion-free status and
   superseded for route promotion by `OBL-T001-019`. Do not promote
@@ -300,10 +302,13 @@ Current obstruction:
   Brown-positive finite generation of \(\ker(\chi)\) for `CAND-T001-005`,
   but does not identify the kernel as finite-rank free and does not invoke
   `FJ26`.
-- `OBL-T001-020`: active after `FJ92`. Do not treat `CAND-T001-005` as
-  routed or residual-subtractive until a new accepted payload records
-  finite-rank free-kernel identification, known-route overlap, prior-art
-  comparison, formulation comparison, or another checked route bridge.
+- `OBL-T001-020`: completed for known-route / prior-art audit by `FJ93` and
+  superseded for route promotion by `OBL-T001-021`.
+- `OBL-T001-021`: active after `FJ93`. Do not treat `CAND-T001-005` as
+  routed, prior-art-blocked, or residual-subtractive until a new accepted
+  payload records finite-rank free-kernel identification, source-verified
+  route bridge, FJ83 hypothesis package, formulation comparison, prior-art
+  object, or branch/pause decision.
 - Cycle-003 reflection obstruction: historical. Later cycle-005 payloads
   added `CAND-T001-004` and `CAND-T001-005`; the current blocker is not
   absence of any concrete row but absence of kernel-control, route, or
@@ -437,11 +442,14 @@ Current obstruction:
   is recorded under `ledgers/payload_intake_protocol.md` or in the relevant
   target ledger. Completed by accepted payload
   `PAY-T001-CAND005-BROWN-BNS-2026-001`, which instantiated `FJ92`.
-- `OBL-C5-013`: no `FJ93` module may be created until a new accepted payload
+- `OBL-C5-013`: completed by accepted payload
+  `PAY-T001-CAND005-ROUTE-PRIORART-2026-001`, which instantiated `FJ93`.
+- `OBL-C5-014`: no `FJ94` module may be created until a new accepted payload
   is recorded under `ledgers/payload_intake_protocol.md` or in the relevant
   target ledger. Useful next payloads for `CAND-T001-005` include
-  finite-rank free-kernel identification, known-route / prior-art audit,
-  formulation comparison, or another checked route bridge.
+  finite-rank free-kernel identification, source-verified route bridge, FJ83
+  weaker \(K_0\) hypothesis package, formulation comparison, prior-art object,
+  or branch/pause decision.
 
 ## Repository Hygiene
 
