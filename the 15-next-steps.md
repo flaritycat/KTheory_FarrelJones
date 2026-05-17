@@ -557,7 +557,10 @@ Stop after instruction alignment.
 
 ## Prompt 012. Foundational Queue Pause Integrity Audit
 
-Status: Ready
+Status: Completed
+
+Completed by:
+- `ledgers/foundational_queue_pause_audit.md`
 
 ```text
 Run a foundational queue pause integrity audit.
