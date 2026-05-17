@@ -2061,5 +2061,36 @@ Residual-bucket effect:
 This creates `OBL-C6-024` for any later use of `CAND-T001-C6-021`. Future
 work must supply a new accepted payload naming a kernel-control computation,
 route bridge, formulation comparison, prior-art blocker, or branch decision.
-At the close of `FJ121`, no `FJ122` module is selected; the next queue row
+At the close of `FJ121`, `CAND-T001-C6-021` remains governed by
+`OBL-C6-024`; `FJ122` was later instantiated from a separate callback queue
+row and does not resolve this row's follow-up question.
+
+## FJ122 CAND-T001-C6-022 candidate-intake update
+
+`FJ122` records accepted payload `PAY-T001-CAND-C6-022-2026-001` and adds
+`CAND-T001-C6-022`:
+\[
+G_{C6,022}=\langle a,b\mid a b^{24} a^{-1} b^{-47} a b^{48} a^{-1} b^{-24}\rangle.
+\]
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- the relator is first-pass checked as not a proper power by the
+  abelianization vector \((0,1)\);
+- the existing Putman / Karrass--Magnus--Solitar source-status row used in
+  `FJ91` and reused in `FJ101`--`FJ122` supports first-pass torsion-free
+  candidate status;
+- the epimorphism \(\chi(a)=1,\chi(b)=0\) places the row near the
+  `RB-004` / `RB-008` kernel-control and extension-uncertainty lane;
+- kernel control, known-route overlap, prior-art comparison, and formulation
+  safety remain unresolved;
+- no coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`,
+  weaker \(K_0\), or residual subtraction is recorded.
+
+This creates `OBL-C6-025` for any later use of `CAND-T001-C6-022`. Future
+work must supply a new accepted payload naming a kernel-control computation,
+route bridge, formulation comparison, prior-art blocker, or branch decision.
+At the close of `FJ122`, no `FJ123` module is selected; the next queue row
 can be consumed only by the exact callback phrase `Continue payload`.
