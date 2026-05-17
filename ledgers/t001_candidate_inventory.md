@@ -36,8 +36,8 @@ with the formulation-safety audit after the no-live-candidate state, and by
 mathematical lane, by `FJ99` with the cycle-005 strategic checkpoint, and by
 `ledgers/t001_candidate_readiness_audit.md` with the post-cycle-006
 candidate-readiness classification, by `ledgers/cand_t001_005_handoff.md`
-with the `CAND-T001-005` handoff consolidation, and by `FJ101`--`FJ135`
-with the first thirty-five callback-queue candidate-intake rows.
+with the `CAND-T001-005` handoff consolidation, and by `FJ101`--`FJ136`
+with the first thirty-six callback-queue candidate-intake rows.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -280,6 +280,7 @@ FJ route, a candidate family, a bridge lemma, or a documented obstruction?
 | `CAND-T001-C6-033` | \(G_{C6,033}=\langle a,b\mid a b^{35} a^{-1} b^{-69} a b^{70} a^{-1} b^{-35}\rangle\) | no, first-pass internal exponent-sum check in `FJ133` gives vector \((0,1)\) | source-verified at first-pass candidate-ledger level in `FJ133` via the existing Putman / Karrass--Magnus--Solitar source-status row used in `FJ91` and `FJ101`--`FJ133` | not used | unresolved / no recorded bridge | unresolved / no recorded bridge | not computed | yes, \(\chi(a)=1,\chi(b)=0\) | unknown | possible `RB-004` / `RB-008` route only after kernel-control, route bridge, prior-art blocker, or branch payload | no formulation-safe FJ route recorded; keep full FJ, coefficient FJC, `FJCw`, `FICwF`, and weaker \(K_0\) labels separate | not audited; no prior-art claim made | `OBL-C6-036`: supply bounded kernel-control computation, route/prior-art blocker audit, formulation comparison, route bridge, or branch decision before promotion | stop if treated as routed, known by prior art, finite-rank free-by-cyclic, FJ83-eligible, or residual-subtractive from intake data alone |
 | `CAND-T001-C6-034` | \(G_{C6,034}=\langle a,b\mid a b^{36} a^{-1} b^{-71} a b^{72} a^{-1} b^{-36}\rangle\) | no, first-pass internal exponent-sum check in `FJ134` gives vector \((0,1)\) | source-verified at first-pass candidate-ledger level in `FJ134` via the existing Putman / Karrass--Magnus--Solitar source-status row used in `FJ91` and `FJ101`--`FJ134` | not used | unresolved / no recorded bridge | unresolved / no recorded bridge | not computed | yes, \(\chi(a)=1,\chi(b)=0\) | unknown | possible `RB-004` / `RB-008` route only after kernel-control, route bridge, prior-art blocker, or branch payload | no formulation-safe FJ route recorded; keep full FJ, coefficient FJC, `FJCw`, `FICwF`, and weaker \(K_0\) labels separate | not audited; no prior-art claim made | `OBL-C6-037`: supply bounded kernel-control computation, route/prior-art blocker audit, formulation comparison, route bridge, or branch decision before promotion | stop if treated as routed, known by prior art, finite-rank free-by-cyclic, FJ83-eligible, or residual-subtractive from intake data alone |
 | `CAND-T001-C6-035` | \(G_{C6,035}=\langle a,b\mid a b^{37} a^{-1} b^{-73} a b^{74} a^{-1} b^{-37}\rangle\) | no, first-pass internal exponent-sum check in `FJ135` gives vector \((0,1)\) | source-verified at first-pass candidate-ledger level in `FJ135` via the existing Putman / Karrass--Magnus--Solitar source-status row used in `FJ91` and `FJ101`--`FJ135` | not used | unresolved / no recorded bridge | unresolved / no recorded bridge | not computed | yes, \(\chi(a)=1,\chi(b)=0\) | unknown | possible `RB-004` / `RB-008` route only after kernel-control, route bridge, prior-art blocker, or branch payload | no formulation-safe FJ route recorded; keep full FJ, coefficient FJC, `FJCw`, `FICwF`, and weaker \(K_0\) labels separate | not audited; no prior-art claim made | `OBL-C6-038`: supply bounded kernel-control computation, route/prior-art blocker audit, formulation comparison, route bridge, or branch decision before promotion | stop if treated as routed, known by prior art, finite-rank free-by-cyclic, FJ83-eligible, or residual-subtractive from intake data alone |
+| `CAND-T001-C6-036` | \(G_{C6,036}=\langle a,b\mid a b^{38} a^{-1} b^{-75} a b^{76} a^{-1} b^{-38}\rangle\) | no, first-pass internal exponent-sum check in `FJ136` gives vector \((0,1)\) | source-verified at first-pass candidate-ledger level in `FJ136` via the existing Putman / Karrass--Magnus--Solitar source-status row used in `FJ91` and `FJ101`--`FJ136` | not used | unresolved / no recorded bridge | unresolved / no recorded bridge | not computed | yes, \(\chi(a)=1,\chi(b)=0\) | unknown | possible `RB-004` / `RB-008` route only after kernel-control, route bridge, prior-art blocker, or branch payload | no formulation-safe FJ route recorded; keep full FJ, coefficient FJC, `FJCw`, `FICwF`, and weaker \(K_0\) labels separate | not audited; no prior-art claim made | `OBL-C6-039`: supply bounded kernel-control computation, route/prior-art blocker audit, formulation comparison, route bridge, or branch decision before promotion | stop if treated as routed, known by prior art, finite-rank free-by-cyclic, FJ83-eligible, or residual-subtractive from intake data alone |
 | `TPL-RB003-004-008` | template placeholder only | unknown | unknown | unknown | unknown | unknown | not computed | unknown | unknown | none selected | unresolved | unrecorded | identify a real presentation or family before source work | stop unless future module supplies an actual candidate, bridge lemma, or obstruction |
 
 ## FJ56 kernel-control audit
@@ -1600,3 +1601,21 @@ Candidate-intake classification:
 Conclusion: the row supplies a thirty-fifth concrete `T-001` candidate object
 from the cycle-006 callback queue, but it is not routed and not
 residual-subtractive. Future use is governed by `OBL-C6-038`.
+
+## FJ136 CAND-T001-C6-036 candidate-intake audit
+
+`FJ136` records accepted payload `PAY-T001-CAND-C6-036-2026-001` from
+`ledgers/payload_execution_queue.md` and adds `CAND-T001-C6-036`:
+\[
+G_{C6,036}=\langle a,b\mid a b^{38} a^{-1} b^{-75} a b^{76} a^{-1} b^{-38}\rangle.
+\]
+
+Candidate-intake classification:
+
+| Candidate row | FJ136 status | Reason |
+|---|---|---|
+| `CAND-T001-C6-036` | candidate-admissible at first-pass intake level; route-unresolved | The relator has exponent-sum vector \((0,1)\), so it passes the first-pass non-proper-power check. The existing Putman source-status row used in `FJ91` and reused in `FJ101`--`FJ136` supports first-pass torsion-free status. The epimorphism \(\chi(a)=1,\chi(b)=0\) descends to \(\mathbb Z\), but no kernel type, known route, prior-art blocker, or formulation-safe Farrell--Jones bridge is recorded. |
+
+Conclusion: the row supplies a thirty-sixth concrete `T-001` candidate object
+from the cycle-006 callback queue, but it is not routed and not
+residual-subtractive. Future use is governed by `OBL-C6-039`.
