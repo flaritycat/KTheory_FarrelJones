@@ -690,9 +690,9 @@ Governance only unless the repository has already recorded the required input.
 
 ## Prompt 022
 
-Status: Open
+Status: Completed
 
-Completed by:
+Completed by: `reflections/post_100_module_strategic_review.md`
 
 Commit:
 

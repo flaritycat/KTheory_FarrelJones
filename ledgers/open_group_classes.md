@@ -181,5 +181,26 @@ Current group-class posture after the reflection:
 | Thompson-type groups | deferred | exact target-pivot payload with changed project object |
 | `FJ53` / `RB-006` | WIP / provisional | accepted `PAY-FJ53-RB006` with a genuinely non-hyperbolic bridge or subtractive object |
 
-The next queued object is Prompt 022, the post-100-module strategic review.
-It is a governance review gate, not a group-class reactivation.
+## Post-100-module strategic review update
+
+`reflections/post_100_module_strategic_review.md` completes the post-100
+review gate after `cycle_005`.
+
+No group-class target becomes active from this review. The review records
+structural debt, live mathematical objects, and decorative-bookkeeping risk
+after `FJ100`, then sends the project to a cycle-006 entry-gate audit.
+
+Current group-class posture after the review:
+
+| Target or lane | Post-100 review status | Next acceptable object |
+|---|---|---|
+| `T-001` | unresolved but paused / payload-blocked | accepted `PAY-T001-CAND`, `PAY-T001-BRIDGE`, or `PAY-T001-BLOCKER` satisfying a recorded `T-001` gate |
+| `CAND-T001-005` | blocked / inactive proof-target row | finite-rank free-kernel bridge, source-verified route bridge, new FJ83 data, formulation comparison, prior-art object, or explicit reopening payload |
+| Artin groups | paused | accepted `PAY-ARTIN` satisfying `OBL-ARTIN-004` |
+| Foundational source queue | paused | accepted `PAY-FND` satisfying `FND-QUEUE-PAUSE-001` |
+| Automatic / biautomatic groups | deferred | exact target-pivot payload with changed project object |
+| Thompson-type groups | deferred | exact target-pivot payload with changed project object |
+| `FJ53` / `RB-006` | WIP / provisional | accepted `PAY-FJ53-RB006` with a genuinely non-hyperbolic bridge or subtractive object |
+
+The next queued object is Prompt 023, the cycle-006 entry-gate audit. It is a
+governance gate, not a group-class reactivation.

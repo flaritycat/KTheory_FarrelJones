@@ -95,6 +95,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-C5-STRATEGIC-CHECKPOINT-2026-001` | `PAY-GOV` | accepted for `FJ99` only | Internal cycle-005 strategic checkpoint after `FJ98`; records that cycle 005 made real candidate-level progress but is now no-target-ready / governance-only, and selects closure-readiness as the next acceptable queued governance payload. |
 | `PAY-C5-CLOSURE-READINESS-2026-001` | `PAY-GOV` | accepted for `FJ100` only | Internal cycle-005 closure-readiness audit after `FJ99`; records closure-ready status, creates `ledgers/cycle_005_handoff.md`, records exact unresolved gates, and makes no mathematical claim. |
 | `PAY-C5-REFLECTION-2026-001` | `PAY-GOV` | accepted for `reflections/cycle_005_reflection.md` only | Internal cycle-005 reflection after `FJ100`; closes cycle 005, records what was achieved and what remains gated, and selects the post-100-module strategic review without adding mathematics. |
+| `PAY-POST100-REVIEW-2026-001` | `PAY-GOV` | accepted for `reflections/post_100_module_strategic_review.md` only | Internal post-100-module strategic review after cycle 005; records structural debt, live mathematical objects, decorative-bookkeeping risk, and the cycle-006 entry gate without adding mathematics. |
 
 ## Accepted intake records
 
@@ -648,12 +649,21 @@ subtraction claim.
 source, theorem, route, candidate, proof-attempt, target-reactivation, or
 residual subtraction claim.
 
-After the cycle-005 reflection, no `FJ101` module is selected. The next
-queued governance object is Prompt 022, the post-100-module strategic
-review, unless a higher-priority accepted payload is recorded.
+`reflections/post_100_module_strategic_review.md` completes
+`PAY-POST100-REVIEW-2026-001`, resolves `OQ-123`, completes
+`OBL-POST100-001`, creates `OQ-124`, records `OBL-C6-001`, and makes no
+source, theorem, route, candidate, proof-attempt, target-reactivation, or
+residual subtraction claim.
+
+After the post-100-module strategic review, no mathematical `cycle_006`
+module is selected. The next queued governance object is Prompt 023, the
+cycle-006 entry-gate audit, unless a higher-priority accepted payload is
+recorded.
 
 The latest accepted payload,
-`PAY-C5-REFLECTION-2026-001`, changes the state by creating
+`PAY-POST100-REVIEW-2026-001`, changes the state by creating
+`reflections/post_100_module_strategic_review.md`; the earlier accepted
+payload `PAY-C5-REFLECTION-2026-001` created
 `reflections/cycle_005_reflection.md`; the earlier accepted payload
 `PAY-C5-CLOSURE-READINESS-2026-001` instantiated `FJ100`; the earlier accepted payload
 `PAY-C5-STRATEGIC-CHECKPOINT-2026-001` instantiated `FJ99`; the earlier

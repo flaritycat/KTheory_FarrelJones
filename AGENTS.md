@@ -295,8 +295,11 @@ Current module handoff:
 - `reflections/cycle_005_reflection.md`: completed. It closes `cycle_005`,
   resolves `OQ-122`, completes `OBL-C5-021`, records `OBL-POST100-001`, and
   selects the post-100-module strategic review.
+- `reflections/post_100_module_strategic_review.md`: completed. It resolves
+  `OQ-123`, completes `OBL-POST100-001`, records `OBL-C6-001`, creates
+  `OQ-124`, and selects the cycle-006 entry-gate audit.
 - `FJ101`: no module selected. Do not instantiate it unless a future accepted
-  payload explicitly requires a numbered module after the post-100 review
+  payload explicitly requires a numbered module after the cycle-006 entry
   gate is handled.
 
 Current obstruction:
@@ -515,10 +518,12 @@ Current obstruction:
 - `OBL-C5-021`: no `FJ101` module may be created until a new accepted payload
   is recorded or the queued Prompt 020 prompt-backlog maintenance pass is
   executed. Completed by Prompt 020 and `reflections/cycle_005_reflection.md`.
-- `OBL-POST100-001`: the next governance artifact must run a post-100-module
-  strategic review or explicitly record why that review is being skipped.
-  Do not open `cycle_006` or select a new active target before this gate is
-  handled.
+- `OBL-POST100-001`: completed by
+  `reflections/post_100_module_strategic_review.md`.
+- `OBL-C6-001`: the next governance artifact must run a cycle-006
+  entry-gate audit or explicitly record why that audit is being skipped. Do
+  not open a mathematical `cycle_006` module or select a new active target
+  before this gate is handled.
 
 ## Repository Hygiene
 

@@ -4907,14 +4907,15 @@ maintenance pass, and `reflections/cycle_005_reflection.md` completed the
 review-preparation step by closing `cycle_005`, completing `OBL-C5-021`,
 creating `OQ-123`, and recording `OBL-POST100-001`.
 
-The next queued governance object is the post-100-module strategic review in
-`next_prompts.md`, Prompt 022.
+The next queued governance object was the post-100-module strategic review in
+`next_prompts.md`, Prompt 022; that review is now completed by
+`reflections/post_100_module_strategic_review.md`.
 
 ## OQ-123. What post-100-module strategic review should follow the cycle-005 reflection?
 
 ### Status
 
-Open inside project; queued by `next_prompts.md`, Prompt 022.
+Resolved by `reflections/post_100_module_strategic_review.md`.
 
 ### Context
 
@@ -4946,6 +4947,42 @@ residual subtraction.
 
 ### Next action
 
-Execute the queued post-100-module strategic review, or record an explicit
-skip reason and replacement gate. Do not open `cycle_006` before this review
-gate is handled.
+Resolved by accepted governance payload `PAY-POST100-REVIEW-2026-001`.
+The review records structural debt, live mathematical objects,
+decorative-bookkeeping risk, and the next-cycle entry gate. It completes
+`OBL-POST100-001`, creates `OQ-124`, and records `OBL-C6-001`.
+
+## OQ-124. What cycle-006 entry-gate status follows the post-100-module review?
+
+### Status
+
+Open inside project; queued by `next_prompts.md`, Prompt 023.
+
+### Context
+
+`reflections/post_100_module_strategic_review.md` resolves the post-100 review
+gate and records that no mathematical target should open merely because the
+project has passed `FJ100`. The next step is to check whether any recorded
+lane has a gate-satisfying payload for cycle 006.
+
+This is a governance question only. It does not authorize a theorem claim,
+source summary, proof attempt, candidate invention, target reactivation, or
+residual subtraction.
+
+### Relevant modules
+
+- `FJ01`--`FJ100`
+- `reflections/post_100_module_strategic_review.md`
+- `reflections/cycle_005_reflection.md`
+
+### Dependencies
+
+`next_prompts.md`, Prompt 023, `ledgers/cycle_005_handoff.md`,
+`ledgers/payload_intake_protocol.md`, `SCOPE_LEDGER.md`,
+`NOTATION_LEDGER.md`, `AGENTS.md`, and `OBL-C6-001`.
+
+### Next action
+
+Execute the queued cycle-006 entry-gate audit, or record an explicit skip
+reason and replacement gate. Do not open a mathematical `cycle_006` module
+before this entry gate is handled.

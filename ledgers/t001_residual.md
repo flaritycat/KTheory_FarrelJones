@@ -1323,5 +1323,26 @@ Residual-bucket effect:
 - `cycle_005` is closed with `T-001` paused / payload-blocked.
 
 The reflection resolves `OQ-122`, completes `OBL-C5-021`, creates
-`OQ-123`, and records `OBL-POST100-001`. The next queued object is the
-post-100-module strategic review, not a residual-bucket attack.
+`OQ-123`, and records `OBL-POST100-001`. The next queued object was the
+post-100-module strategic review, not a residual-bucket attack; that review
+is now recorded in `reflections/post_100_module_strategic_review.md`.
+
+## Post-100-module strategic review update
+
+`reflections/post_100_module_strategic_review.md` completes the post-100
+review gate.
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- no candidate row is added;
+- no external source is checked;
+- no target is reactivated;
+- no proof attempt is started;
+- no active `T-001` candidate route is reopened;
+- `T-001` remains paused / payload-blocked.
+
+The review resolves `OQ-123`, completes `OBL-POST100-001`, creates
+`OQ-124`, and records `OBL-C6-001`. The next queued object is the
+cycle-006 entry-gate audit, not a residual-bucket attack.

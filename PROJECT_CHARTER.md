@@ -2039,8 +2039,29 @@ The reflection resolves `OQ-122`, completes `OBL-C5-021`, creates
 `OQ-123`, records `OBL-POST100-001`, and selects
 `PAY-POST100-REVIEW-2026-001` as the next queued governance payload.
 
-The next bounded project move is `next_prompts.md`, Prompt 022: a
-post-100-module strategic review of `FJ01` through `FJ100`.
+The next bounded project move was `next_prompts.md`, Prompt 022: a
+post-100-module strategic review of `FJ01` through `FJ100`. That review is
+now recorded in `reflections/post_100_module_strategic_review.md`.
+
+## Post-100-module strategic review
+
+Current status: `reflections/post_100_module_strategic_review.md` completes
+the post-100-module strategic review required after the cycle-005 reflection.
+
+The review is bounded. It checks no external source, adds no candidate,
+reactivates no target, starts no proof attempt, and creates no theorem claim.
+
+The review decision is that the project has a useful source-disciplined
+archive after `FJ100`, but `cycle_006` should not open as a mathematical
+proof cycle until an entry-gate audit checks whether any recorded lane has a
+gate-satisfying payload.
+
+The review resolves `OQ-123`, completes `OBL-POST100-001`, creates
+`OQ-124`, records `OBL-C6-001`, and selects `PAY-C6-GATE-2026-001` as the
+next queued governance payload.
+
+The next bounded project move is `next_prompts.md`, Prompt 023: a cycle-006
+entry-gate audit.
 
 ## GitHub persistence policy
 
