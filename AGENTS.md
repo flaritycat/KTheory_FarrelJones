@@ -200,6 +200,12 @@ only after a new accepted payload is recorded under
 not create a new source-summary, target summary, or proof-attempt module
 merely to keep the cycle moving.
 
+After `FJ97`, no active `T-001` candidate route remains to which a
+formulation-safety label can currently be applied. This is
+formulation-irrelevant status for the current inventory, not a permission to
+collapse `FJCw`, coefficient FJC, full \(\mathcal{FJ}\), `FICwF`, or weaker
+\(K_0\) statements in later modules.
+
 `FJ83` verifies Jaikin-Zapirain--Linton--Sanchez-Peralta (2025) only as a
 weaker \(K_0\) / Cohen--Lyndon source payload. Do not cite it as full
 `T-001`, coefficient FJC, `FJCw`, `FICwF`, full \(\mathcal{FJ}\), or a
@@ -268,8 +274,10 @@ Current module handoff:
 - `FJ94`: CAND-T001-005 K0 Cohen--Lyndon Hypothesis Audit is completed.
 - `FJ95`: CAND-T001-005 Branch Checkpoint After FJ94 is completed.
 - `FJ96`: Live-Candidate Audit After CAND-T001-005 Demotion is completed.
-- `FJ97`: no module selected; instantiate only from a new accepted payload or
-  the queued formulation-safety audit.
+- `FJ97`: Formulation-Safety Audit After No-Live-Candidate State is
+  completed.
+- `FJ98`: no module selected; instantiate only from a new accepted payload or
+  the queued target-pivot readiness checkpoint.
 
 Current obstruction:
 
@@ -470,9 +478,13 @@ Current obstruction:
   `FJ96`.
 - `OBL-C5-017`: no `FJ97` module may be created until a new accepted payload
   is recorded or the queued Prompt 016 formulation-safety audit is executed.
-  That audit should record formulation-irrelevant status if no active
-  candidate route remains, and it must not add candidates or collapse source
-  formulations.
+  Completed by accepted payload `PAY-FORMULATION-SAFETY-AUDIT-2026-001`,
+  which instantiated `FJ97`.
+- `OBL-C5-018`: no `FJ98` module may be created until a new accepted payload
+  is recorded or the queued Prompt 017 target-pivot readiness checkpoint is
+  executed. That checkpoint should decide whether any target lane has a
+  concrete next object; it must not add candidates, source summaries, or proof
+  attempts without a changed project object.
 
 ## Repository Hygiene
 

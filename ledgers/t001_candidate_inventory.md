@@ -30,7 +30,8 @@ for `CAND-T001-005`, by `FJ93` with the known-route / prior-art blocker
 audit for `CAND-T001-005`, and by `FJ94` with the FJ83 weaker \(K_0\) /
 Cohen--Lyndon hypothesis audit for `CAND-T001-005`, and by `FJ95` with the
 branch checkpoint demoting `CAND-T001-005` to blocked / inactive proof-target
-status, and by `FJ96` with the post-`FJ95` live-candidate audit.
+status, by `FJ96` with the post-`FJ95` live-candidate audit, and by `FJ97`
+with the formulation-safety audit after the no-live-candidate state.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -167,6 +168,14 @@ non-routed. `CAND-T001-001` is calibration-only, `CAND-T001-002` and
 prior-art-blocked by `FJ88`, `CAND-T001-005` is blocked / inactive after
 `FJ95`, and `TPL-RB003-004-008` is only a placeholder. The post-`FJ95`
 no-live-candidate blocker is recorded as `NLC-T001-002`.
+
+Current status after `FJ97`: accepted payload
+`PAY-FORMULATION-SAFETY-AUDIT-2026-001` checks whether any active candidate
+route requires formulation-safety classification. Because `FJ96` records no
+live non-routed row, no active candidate route remains. The audit result is
+formulation-irrelevant for the current inventory. This does not collapse
+simplified ring-coefficient FJ, coefficient K-theory FJC, full
+\(\mathcal{FJ}\), `FJCw`, `FICwF`, or weaker \(K_0\)-level statements.
 
 Current status after `reflections/cycle_003_reflection.md`: `T-001` remains
 important but is not currently candidate-ready. The next module is `FJ61`,
@@ -722,13 +731,33 @@ Audit result:
 Conclusion: no current candidate-inventory row is live and non-routed after
 `FJ95`. This records post-`FJ95` no-live-candidate blocker `NLC-T001-002`.
 
+## FJ97 formulation-safety audit after no-live-candidate state
+
+`FJ97` records accepted payload `PAY-FORMULATION-SAFETY-AUDIT-2026-001` and
+checks whether any active candidate route requires formulation-safety
+classification after `FJ96`.
+
+Audit result:
+
+| Candidate row | FJ97 formulation status | Reason |
+|---|---|---|
+| `CAND-T001-001` | formulation-irrelevant | calibration-only / already non-residual |
+| `CAND-T001-002` | formulation-irrelevant | already routed through `FJ26` |
+| `CAND-T001-003` | formulation-irrelevant | routed family through `FJ26` |
+| `CAND-T001-004` | formulation-irrelevant for active-candidate work | source-routed / prior-art-blocked through `ER-015`; preserve source `FJCw` / finite-wreath-product label if cited later |
+| `CAND-T001-005` | formulation-irrelevant | blocked / inactive after `FJ95`; no active route |
+| `TPL-RB003-004-008` | formulation-irrelevant | template placeholder |
+
+Conclusion: no active candidate route remains, so formulation safety is not
+currently applicable to an active `T-001` candidate. Future modules must
+still preserve all formulation boundaries.
+
 ## Next update
 
-The next queued prompt is the formulation-safety audit in `next_prompts.md`,
-Prompt 016. It should record formulation-irrelevant status if no active
-candidate route remains. No active `T-001` proof-target update is scheduled
-unless a later accepted payload supplies a live candidate, finite-rank
-free-kernel identification, source-verified route bridge, new FJ83 weaker
-\(K_0\) hypothesis data, formulation comparison, reopening decision, or
-prior-art object satisfying the payload protocol. No `FJ97` module is
-selected without an accepted payload or queued prompt.
+The next queued prompt is the target-pivot readiness checkpoint in
+`next_prompts.md`, Prompt 017. No active `T-001` proof-target update is
+scheduled unless a later accepted payload supplies a live candidate,
+finite-rank free-kernel identification, source-verified route bridge, new
+FJ83 weaker \(K_0\) hypothesis data, formulation comparison, reopening
+decision, or prior-art object satisfying the payload protocol. No `FJ98`
+module is selected without an accepted payload or queued prompt.

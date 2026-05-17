@@ -4657,7 +4657,7 @@ demotion of `CAND-T001-005`; this creates `NLC-T001-002`.
 
 ### Status
 
-Open inside project; queued by `next_prompts.md`, Prompt 016.
+Resolved by `FJ97`.
 
 ### Context
 
@@ -4667,9 +4667,9 @@ asks for a formulation-safety audit for any active candidate row whose route
 depends on `FJCw`, coefficient FJC, full FJ, `FICwF`, or weaker \(K_0\)-level
 statements.
 
-The bounded question is therefore whether the formulation-safety audit is
-applicable to any active candidate route, or whether formulation safety is
-currently irrelevant because no active candidate route remains.
+Before `FJ97`, the bounded question was whether the formulation-safety audit
+was applicable to any active candidate route, or whether formulation safety
+was currently irrelevant because no active candidate route remained.
 
 ### Relevant modules
 
@@ -4691,6 +4691,49 @@ currently irrelevant because no active candidate route remains.
 
 ### Next action
 
-Execute the queued formulation-safety audit only as a bounded ledger update.
-Do not use it to reopen `CAND-T001-005`, add a candidate, or collapse source
-formulations.
+Resolved by accepted payload `PAY-FORMULATION-SAFETY-AUDIT-2026-001`.
+`FJ97` records formulation-irrelevant status for the current `T-001`
+candidate inventory because no active candidate route remains after `FJ96`.
+It does not collapse source formulations.
+
+## OQ-119. What target-pivot readiness status follows the post-FJ97 formulation-irrelevant audit?
+
+### Status
+
+Open inside project; queued by `next_prompts.md`, Prompt 017.
+
+### Context
+
+`FJ96` records no live non-routed `T-001` candidate row. `FJ97` records that
+formulation-safety checking is currently irrelevant for the `T-001` candidate
+inventory because no active candidate route remains.
+
+The next queued prompt asks whether `T-001`, the Artin lane, the foundational
+source queue, or another recorded target has a concrete next object. The
+checkpoint must not start source work unless one target has an accepted
+payload with a changed repository object, success criterion, failure
+criterion, and stop condition.
+
+### Relevant modules
+
+- FJ66
+- FJ71
+- FJ72
+- FJ77
+- FJ81
+- FJ96
+- FJ97
+
+### Dependencies
+
+`next_prompts.md`, Prompt 017, `ledgers/payload_intake_protocol.md`,
+`OBL-C5-018`, `NLC-T001-002`, `ledgers/t001_candidate_inventory.md`,
+`ledgers/open_group_classes.md`, `ledgers/artin_subclass_gap_inventory.md`,
+`ledgers/cycle_004_handoff.md`, `SCOPE_LEDGER.md`, `NOTATION_LEDGER.md`,
+and `AGENTS.md`.
+
+### Next action
+
+Execute the queued target-pivot readiness checkpoint only as a bounded
+governance audit. Do not start a new source survey, proof attempt, or target
+lane without an accepted payload and a changed project object.

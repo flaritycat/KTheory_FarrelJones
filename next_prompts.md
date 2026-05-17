@@ -472,11 +472,11 @@ Stop after candidate-admissibility audit and ledger update.
 
 ## Prompt 016
 
-Status: Open
+Status: Completed
 
-Completed by:
+Completed by: `FJ97`
 
-Commit:
+Commit: this commit (`[module] complete FJ97 formulation-safety audit after no-live-candidate state`)
 
 Prompt:
 
@@ -526,9 +526,10 @@ Payload type: PAY-GOV
 
 Exact statement or object:
 Compare whether T-001, the Artin lane, foundational source queue, or another
-recorded target has a concrete next object. Do not start source work unless
-one target has an accepted payload with changed repository object, success
-criterion, failure criterion, and stop condition.
+recorded target has a concrete next object. Use the post-FJ97 gate,
+`OQ-119`, and `OBL-C5-018`. Do not start source work unless one target has
+an accepted payload with changed repository object, success criterion,
+failure criterion, and stop condition.
 
 Success criterion:
 Record whether a target remains active or all targets are paused.

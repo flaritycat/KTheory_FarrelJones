@@ -1905,10 +1905,39 @@ not a residual subtraction.
 `FJ96` resolves `OQ-117`, completes `OBL-C5-016`, creates `OBL-C5-017`,
 creates `OQ-118`, and makes no full `T-001` claim.
 
-The next bounded project move is the formulation-safety audit queued in
-`next_prompts.md`, Prompt 016. Since `FJ96` records no live candidate row,
-that audit should record formulation-irrelevant status unless a new accepted
-payload changes the candidate inventory first.
+At the close of `FJ96`, the next bounded project move was the
+formulation-safety audit queued in `next_prompts.md`, Prompt 016. `FJ97` was
+later instantiated from that queued prompt.
+
+## FJ97 formulation-safety audit after no-live-candidate state
+
+Current status: `FJ97` has first-pass coverage as a formulation-safety audit
+after the post-`FJ96` no-live-candidate state.
+
+`FJ97` records accepted payload `PAY-FORMULATION-SAFETY-AUDIT-2026-001`,
+whose object is to check whether any active candidate route needs
+formulation-safety classification after `FJ96`.
+
+The audit is bounded. It adds no candidate, checks no external source, does
+not reopen `CAND-T001-005`, and does not collapse simplified ring-coefficient
+FJ, coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, or
+weaker \(K_0\)-level statements.
+
+The audit result is that no active candidate route remains after `FJ96`.
+Therefore the Prompt 016 formulation-safety audit is formulation-irrelevant
+for the current `T-001` candidate inventory. This is a project-ledger
+classification, not a theorem about any group and not permission to ignore
+formulation labels in later modules.
+
+`FJ97` resolves `OQ-118`, completes `OBL-C5-017`, creates `OBL-C5-018`,
+creates `OQ-119`, and makes no full `T-001` claim, no formulation promotion,
+and no residual subtraction.
+
+The next bounded project move is the target-pivot readiness checkpoint queued
+in `next_prompts.md`, Prompt 017. Since `FJ97` records formulation-irrelevant
+status and no active candidate route, that checkpoint should decide whether
+`T-001`, the Artin lane, the foundational source queue, or another target has
+a concrete next object.
 
 ## GitHub persistence policy
 

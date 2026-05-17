@@ -86,7 +86,9 @@ governance payload `PAY-T001-CAND005-BRANCH-2026-001` and demotes
 as a concrete row. `FJ96` then records accepted payload
 `PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` and audits the candidate
 inventory after that demotion, recording post-`FJ95` no-live-candidate
-blocker `NLC-T001-002`.
+blocker `NLC-T001-002`. `FJ97` then records accepted payload
+`PAY-FORMULATION-SAFETY-AUDIT-2026-001` and records formulation-irrelevant
+status for the current inventory because no active candidate route remains.
 `reflections/cycle_003_reflection.md`
 closes the third cycle and selects `FJ61` to set candidate-intake and exit
 criteria for the next `T-001` decision. `FJ61` records `OBL-T001-008`, the
@@ -1206,5 +1208,28 @@ Current row statuses:
 | `TPL-RB003-004-008` | template placeholder |
 
 This resolves `OQ-117`, completes `OBL-C5-016`, creates `OBL-C5-017`, and
-creates `OQ-118` for the next queued formulation-safety audit. No `FJ97`
-module is selected without an accepted payload or queued prompt.
+creates `OQ-118` for the next queued formulation-safety audit. At the close
+of `FJ96`, no `FJ97` module was selected; `FJ97` was later instantiated by
+accepted payload `PAY-FORMULATION-SAFETY-AUDIT-2026-001`.
+
+## FJ97 formulation-safety audit after no-live-candidate state
+
+`FJ97` records accepted payload `PAY-FORMULATION-SAFETY-AUDIT-2026-001` and
+checks whether any active candidate route depends on `FJCw`, coefficient
+FJC, full \(\mathcal{FJ}\), `FICwF`, or weaker \(K_0\)-level statements.
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- no candidate row is added;
+- no external source is checked;
+- no formulation comparison theorem is added;
+- no source formulation is collapsed;
+- no active candidate route remains after `FJ96`;
+- the current formulation-safety status is therefore formulation-irrelevant
+  for the `T-001` candidate inventory.
+
+This resolves `OQ-118`, completes `OBL-C5-017`, creates `OBL-C5-018`, and
+creates `OQ-119` for the next queued target-pivot readiness checkpoint. No
+`FJ98` module is selected without an accepted payload or queued prompt.

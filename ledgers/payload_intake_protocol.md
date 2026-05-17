@@ -32,6 +32,7 @@ No external source was checked for this ledger.
 | `PAY-ARTIN` | Named Artin graph, graph family, subclass, source theorem, bridge object, formulation label, prior-art-overlap note, and changed project object | `ledgers/artin_subclass_gap_inventory.md` or `ledgers/open_group_classes.md` | Stop if the item is merely "all Artin groups" or an unnamed outside subclass. |
 | `PAY-FND` | Exact foundational source payload with current proof/candidate/route need, changed project object, source status, and stop condition | `NOTATION_LEDGER.md`, `ledgers/theorem_dependencies.md`, or a module depending on the convention | Stop if the item is broad background or a bibliography-only task. |
 | `PAY-FORM` | Exact formulation-comparison payload for coefficient K-theory, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, or finite-index inheritance | `NOTATION_LEDGER.md`, `ledgers/inheritance_properties.md`, or `ledgers/theorem_dependencies.md` | Stop if the comparison would be used without exact hypotheses. |
+| `PAY-FORMULATION` | Prompt-backlog spelling for `PAY-FORM`; exact formulation-safety audit or comparison payload | `NOTATION_LEDGER.md`, `ledgers/inheritance_properties.md`, `ledgers/theorem_dependencies.md`, or the relevant candidate ledger | Stop if the comparison would be used without exact hypotheses or without an active candidate / route object. |
 | `PAY-FJ53-RB006` | A genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge for the `RB-006` line, or another recorded reason the route is subtractive | `modules/cycle_003/FJ53_pi_w_hyperbolic_overlap_checkpoint.md`, `ledgers/t001_residual.md`, or `ledgers/t001_candidate_inventory.md` | Stop if the payload only repeats hyperbolic-route overlap. |
 | `PAY-PRIOR` | Exact prior-art blocker or comparison object tied to a candidate, route claim, or target-pivot decision | The relevant candidate, route, or open-question ledger | Stop if no candidate, theorem payload, or route claim is named. |
 | `PAY-GOV` | Exact project-governance payload for payload intake, gate status, handoff instructions, open-question status, or proof-obligation status | `ledgers/payload_intake_protocol.md`, `OPEN_QUESTIONS.md`, `NOTATION_LEDGER.md`, `AGENTS.md`, or `ledgers/theorem_dependencies.md` | Stop if the payload is used to invent a mathematical candidate, source theorem, bridge, computation, or residual subtraction. |
@@ -89,6 +90,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-T001-CAND005-K0-CL-HYP-2026-001` | `PAY-T001-BRIDGE` | accepted for `FJ94` only | Bounded FJ83 weaker \(K_0\) / Cohen--Lyndon hypothesis audit for `CAND-T001-005`; records non-eligibility from current row data and no weaker \(K_0\) consequence. |
 | `PAY-T001-CAND005-BRANCH-2026-001` | `PAY-GOV` | accepted for `FJ95` only | Governance branch checkpoint for `CAND-T001-005`; demotes the row to blocked / inactive proof-target status without adding mathematics or subtracting a residual bucket. |
 | `PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` | `PAY-T001-BLOCKER` | accepted for `FJ96` only | Internal live-candidate audit after the `FJ95` demotion of `CAND-T001-005`; records post-`FJ95` no-live-candidate blocker `NLC-T001-002` without adding a candidate, source, route, or residual subtraction. |
+| `PAY-FORMULATION-SAFETY-AUDIT-2026-001` | `PAY-FORMULATION` | accepted for `FJ97` only | Internal formulation-safety applicability audit after `FJ96`; records formulation-irrelevant status because no active candidate route remains, without collapsing source formulations. |
 
 ## Accepted intake records
 
@@ -372,6 +374,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for `FJ96` live-candidate audit only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ96_live_candidate_audit_after_cand005_demotion.md` |
 
+### `PAY-FORMULATION-SAFETY-AUDIT-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-FORMULATION-SAFETY-AUDIT-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-FORMULATION` |
+| Target gate | Post-`FJ96` gate, `OQ-118`, and `OBL-C5-017`. |
+| Candidate, source, bridge, computation, or blocker | Formulation-safety applicability audit after post-`FJ95` no-live-candidate blocker `NLC-T001-002`. |
+| Exact statement or object | Check whether any active candidate route uses the correct formulation label. Since `FJ96` records no live candidate row, record formulation-irrelevant status if no active candidate route remains. Do not promote across finite-index, coefficient, finite-wreath-product, full-FJ, `FICwF`, or weaker \(K_0\) boundaries without an exact source bridge. |
+| APA citation if external source is used | No external source is used. |
+| Source-status label | No new external source checked; internal ledger audit only. |
+| Hypotheses and formulation level | Formulation-safety audit only. Preserve distinctions among simplified ring-coefficient FJ, coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, and weaker \(K_0\)-level statements. |
+| Repository object changed | `modules/cycle_005/FJ97_formulation_safety_audit_after_no_live_candidate.md`; `next_prompts.md`; `ledgers/payload_intake_protocol.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `SCOPE_LEDGER.md`; `NOTATION_LEDGER.md`; `AGENTS.md`. |
+| Success criterion | `FJ97` records formulation-safe, formulation-blocked, or formulation-irrelevant status for the active candidate state. |
+| Failure criterion | The module collapses source formulations or becomes a general formulation essay with no candidate effect. |
+| Stop condition | Stop after formulation-safety ledger update. Do not create `FJ98`. |
+| Accepted? | Yes, for `FJ97` formulation-safety audit only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ97_formulation_safety_audit_after_no_live_candidate.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -449,6 +471,9 @@ After `FJ94`, accepted governance payload
 After `FJ95`, accepted internal live-candidate audit payload
 `PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` instantiated `FJ96`.
 
+After `FJ96`, accepted formulation-safety audit payload
+`PAY-FORMULATION-SAFETY-AUDIT-2026-001` instantiated `FJ97`.
+
 `FJ84` records that no currently recorded `T-001` candidate/family row is
 eligible for project use of the FJ83 weaker \(K_0\) / Cohen--Lyndon payload.
 This is not a full `T-001` theorem and not a residual subtraction.
@@ -509,12 +534,18 @@ post-`FJ95` no-live-candidate blocker `NLC-T001-002` and does not add a
 candidate, source, route, theorem, weaker \(K_0\) consequence, or residual
 subtraction.
 
-After `FJ96`, no `FJ97` module is selected except through the next accepted
+`FJ97` records that the formulation-safety audit is formulation-irrelevant
+for the current `T-001` candidate inventory because no active candidate route
+remains. It preserves all formulation boundaries and records no source,
+theorem, route, candidate, or residual subtraction.
+
+After `FJ97`, no `FJ98` module is selected except through the next accepted
 payload or queued prompt.
 
 The latest accepted payload,
-`PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001`, changes the state by
-instantiating `FJ96`; the earlier accepted payload
+`PAY-FORMULATION-SAFETY-AUDIT-2026-001`, changes the state by instantiating
+`FJ97`; the earlier accepted payload
+`PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` instantiated `FJ96`; the earlier accepted payload
 `PAY-T001-CAND005-BRANCH-2026-001` instantiated `FJ95`; the earlier accepted payload
 `PAY-T001-CAND005-K0-CL-HYP-2026-001` instantiated `FJ94`; the earlier
 accepted payload
