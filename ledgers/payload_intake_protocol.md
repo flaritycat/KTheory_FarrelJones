@@ -181,6 +181,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-T001-CAND-C6-036-2026-001` | `PAY-T001-CAND` | accepted for `FJ136` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-036`; consumes callback queue row `036` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
 
 | `PAY-T001-CAND-C6-040-2026-001` | `PAY-T001-CAND` | accepted for `FJ140` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-040`; consumes callback queue row `040` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
+| `PAY-T001-CAND-C6-041-2026-001` | `PAY-T001-CAND` | accepted for `FJ141` only | Concrete two-generator one-relator candidate-intake payload for `CAND-T001-C6-041`; consumes callback queue row `041` only for the bounded candidate-intake audit and does not claim Farrell-Jones, route promotion, residual subtraction, prior art, or theorem novelty. |
 ## Accepted intake records
 
 ### `PAY-T001-K0-CL-2025-001`
@@ -1028,5 +1029,11 @@ prior-art claim, or residual subtraction.
 `FJ140` consumes only queue row `040`, adds `CAND-T001-C6-040` as a
 candidate-admissible but route-unresolved first-pass intake row, marks that
 queue row completed, creates `OQ-166` and `OBL-C6-043`, and makes no
+Farrell--Jones route claim, theorem promotion, weaker \(K_0\) claim,
+prior-art claim, or residual subtraction.
+
+`FJ141` consumes only queue row `041`, adds `CAND-T001-C6-041` as a
+candidate-admissible but route-unresolved first-pass intake row, marks that
+queue row completed, creates `OQ-167` and `OBL-C6-044`, and makes no
 Farrell--Jones route claim, theorem promotion, weaker \(K_0\) claim,
 prior-art claim, or residual subtraction.

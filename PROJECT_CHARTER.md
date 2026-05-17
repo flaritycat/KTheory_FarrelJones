@@ -2132,13 +2132,13 @@ row-028 candidate intake in `FJ128`, accepted row-029 candidate intake in
 `FJ129`, accepted row-030 candidate intake in `FJ130`, accepted row-031
 candidate intake in `FJ131`, and accepted row-032 candidate intake in
 `FJ132`, accepted row-033 candidate intake in `FJ133`, and accepted row-034
-candidate intake in `FJ134`, and accepted row-035 candidate intake in `FJ135`, and accepted row-036 candidate intake in `FJ136`, and accepted row-037 candidate intake in `FJ137`, and accepted row-038 candidate intake in `FJ138`, and accepted row-039 candidate intake in `FJ139`, and accepted row-040 candidate intake in `FJ140`.
+candidate intake in `FJ134`, and accepted row-035 candidate intake in `FJ135`, and accepted row-036 candidate intake in `FJ136`, and accepted row-037 candidate intake in `FJ137`, and accepted row-038 candidate intake in `FJ138`, and accepted row-039 candidate intake in `FJ139`, and accepted row-040 candidate intake in `FJ140`, and accepted row-041 candidate intake in `FJ141`.
 It remains payload-gated for all later numbered work.
 
 The public README and this charter now record the same current project
 position:
 
-- `FJ01`--`FJ140` are the completed numbered module archive, with `FJ53`
+- `FJ01`--`FJ141` are the completed numbered module archive, with `FJ53`
   retained as WIP / provisional;
 - `cycle_005` is closed;
 - the post-100 strategic review is complete;
@@ -2304,7 +2304,8 @@ position:
   `OQ-163` / `OBL-C6-040` govern follow-up work on `CAND-T001-C6-037`, and
   `OQ-164` / `OBL-C6-041` govern follow-up work on `CAND-T001-C6-038`, and
   `OQ-165` / `OBL-C6-042` govern follow-up work on `CAND-T001-C6-039`, and
-  `OQ-166` / `OBL-C6-043` govern follow-up work on `CAND-T001-C6-040`;
+  `OQ-166` / `OBL-C6-043` govern follow-up work on `CAND-T001-C6-040`, and
+  `OQ-167` / `OBL-C6-044` govern follow-up work on `CAND-T001-C6-041`;
 - no mathematical target lane is active beyond bounded payload-gated
   candidate intake;
 - template prompts are not executable until concretely filled and accepted
