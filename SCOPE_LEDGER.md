@@ -180,8 +180,9 @@ Unless explicitly imported later:
 127. What post-100-module strategic review should follow the cycle-005 reflection? Tracked as `OQ-123`; resolved by `reflections/post_100_module_strategic_review.md`.
 128. What cycle-006 entry-gate status follows the post-100-module strategic review? Tracked as `OQ-124`; resolved by `ledgers/cycle_006_entry_gate.md`, which records a no-gate-ready state.
 129. What payload-acquisition or project-pause decision should follow the cycle-006 no-gate-ready audit? Tracked as `OQ-125`; resolved by `ledgers/cycle_006_payload_decision.md`, which records `C6-PAUSE-001`.
-130. Which accepted payload, if any, should exit the cycle-006 payload-gated pause and instantiate the next numbered module? Tracked as `OQ-126`; partially resolved by `FJ101` for queue row `001` only.
+130. Which accepted payload, if any, should exit the cycle-006 payload-gated pause and instantiate the next numbered module? Tracked as `OQ-126`; partially resolved by `FJ101` for queue row `001` and by `FJ102` for queue row `002` only.
 131. Which accepted payload, if any, should act on `CAND-T001-C6-001` after `FJ101`? Tracked as `OQ-127`; open and blocked until a kernel-control, route/prior-art, formulation, route-bridge, or branch payload is accepted.
+132. Which accepted payload, if any, should act on `CAND-T001-C6-002` after `FJ102`? Tracked as `OQ-128`; open and blocked until a kernel-control, route/prior-art, formulation, route-bridge, or branch payload is accepted.
 
 ## Established results
 
@@ -707,11 +708,12 @@ Current source toolkit:
 - cycle-006 payload decision: `ledgers/cycle_006_payload_decision.md`
   resolves `OQ-125`, completes `OBL-C6-002`, records `C6-PAUSE-001`, creates
   `OQ-126`, records `OBL-C6-003`, and originally selects no `FJ101` module;
-- continue-payload queue and FJ101 intake: `FJ101` consumes only row `001` of
-  `ledgers/payload_execution_queue.md`, adds `CAND-T001-C6-001` as a
-  candidate-admissible but route-unresolved row, creates `OQ-127` and
-  `OBL-C6-004`, and makes no Farrell--Jones theorem claim or residual
-  subtraction;
+- continue-payload queue and FJ101/FJ102 intake: `FJ101` consumes only row
+  `001` and `FJ102` consumes only row `002` of
+  `ledgers/payload_execution_queue.md`, adding `CAND-T001-C6-001` and
+  `CAND-T001-C6-002` as candidate-admissible but route-unresolved rows,
+  creating `OQ-127` / `OBL-C6-004` and `OQ-128` / `OBL-C6-005`, and making
+  no Farrell--Jones theorem claim or residual subtraction;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -720,9 +722,10 @@ Current source toolkit:
 ## Next mathematical move
 
 The project is in a cycle-006 payload-gated callback posture. Row `001` of
-`ledgers/payload_execution_queue.md` has been completed by `FJ101`; the next
-mathematical move requires either the exact callback phrase `Continue payload`
-to consume the next `Ready for intake` queue row, or a separately supplied
-concrete accepted payload under `ledgers/payload_intake_protocol.md`.
+`ledgers/payload_execution_queue.md` rows `001` and `002` have been completed
+by `FJ101` and `FJ102`; the next mathematical move requires either the exact
+callback phrase `Continue payload` to consume the next `Ready for intake`
+queue row, or a separately supplied concrete accepted payload under
+`ledgers/payload_intake_protocol.md`.
 Template prompts in `next_prompts.md` are not executable until concretely
 filled.
