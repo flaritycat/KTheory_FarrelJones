@@ -33,7 +33,9 @@ branch checkpoint demoting `CAND-T001-005` to blocked / inactive proof-target
 status, by `FJ96` with the post-`FJ95` live-candidate audit, and by `FJ97`
 with the formulation-safety audit after the no-live-candidate state, and by
 `FJ98` with the target-pivot readiness checkpoint recording no target-ready
-mathematical lane, and by `FJ99` with the cycle-005 strategic checkpoint.
+mathematical lane, by `FJ99` with the cycle-005 strategic checkpoint, and by
+`ledgers/t001_candidate_readiness_audit.md` with the post-cycle-006
+candidate-readiness classification.
 
 This file is not a list of new examples. It records only candidate families
 already present in the repository, plus clearly marked template placeholders
@@ -881,3 +883,26 @@ candidate posture remains:
 
 The project is now in `C6-PAUSE-001`. No `T-001` candidate row becomes active
 from the cycle-006 payload decision alone.
+
+## Candidate readiness audit after cycle-006 pause
+
+`ledgers/t001_candidate_readiness_audit.md` executes Prompt 005 from
+`the 15-next-steps.md`.
+
+It makes no candidate-inventory addition and does not reopen `T-001`. It
+checks whether any current row can be acted on without a new accepted payload.
+
+Readiness classification:
+
+| Candidate row | Readiness classification | Actionable without new payload? | Exact missing object if blocked |
+|---|---|---|---|
+| `CAND-T001-001` | calibration-only / already non-residual | no | none for active proof work; stop if reused as a residual subtraction |
+| `CAND-T001-002` | routed | no | none for active proof work; correction or route-comparison payload only |
+| `CAND-T001-003` | routed family | no | none for active proof work; correction or route-comparison payload only |
+| `CAND-T001-004` | source-routed / prior-art-blocked | no | correction payload, route-comparison payload, or other bounded object that does not reopen it as unresolved |
+| `CAND-T001-005` | blocked / inactive proof-target row | no | payload satisfying `OBL-T001-023`: finite-rank free-kernel identification, source-verified route bridge, new FJ83 hypothesis data, formulation comparison tied to a route, prior-art object, or explicit reopening payload |
+| `TPL-RB003-004-008` | placeholder / template | no | concrete accepted candidate payload supplying an actual presentation or family and bounded audit criteria |
+
+Conclusion: no current `T-001` candidate-inventory row is live, non-routed,
+and actionable without a new accepted payload. Prior closures from `FJ88`,
+`FJ96`, and `FJ100` remain in force.

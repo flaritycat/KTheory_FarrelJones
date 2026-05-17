@@ -237,7 +237,12 @@ Stop after internal status reconciliation.
 
 ## Prompt 005. T-001 Candidate Inventory Readiness Audit
 
-Status: Ready
+Status: Completed
+
+Completed by:
+
+- `ledgers/t001_candidate_readiness_audit.md`
+- `ledgers/t001_candidate_inventory.md`
 
 ```text
 Run a readiness audit of the T-001 candidate inventory.
