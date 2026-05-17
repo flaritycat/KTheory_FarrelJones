@@ -2114,13 +2114,13 @@ candidate intake in `FJ101`, accepted row-002 candidate intake in `FJ102`,
 accepted row-003 candidate intake in `FJ103`, and accepted row-004 candidate
 intake in `FJ104`, accepted row-005 candidate intake in `FJ105`, and
 accepted row-006 candidate intake in `FJ106`, and accepted row-007 candidate
-intake in `FJ107`. The
+intake in `FJ107`, and accepted row-008 candidate intake in `FJ108`. The
 cycle remains payload-gated for all later numbered work.
 
 The public README and this charter now record the same current project
 position:
 
-- `FJ01`--`FJ107` are the completed numbered module archive, with `FJ53`
+- `FJ01`--`FJ108` are the completed numbered module archive, with `FJ53`
   retained as WIP / provisional;
 - `cycle_005` is closed;
 - the post-100 strategic review is complete;
@@ -2147,14 +2147,18 @@ position:
 - `FJ107` later consumed `PAY-T001-CAND-C6-007-2026-001` from
   `ledgers/payload_execution_queue.md` and added `CAND-T001-C6-007` as a
   candidate-admissible but route-unresolved row;
-- `OQ-126` is resolved only for rows 001--007, while `OQ-127` /
+- `FJ108` later consumed `PAY-T001-CAND-C6-008-2026-001` from
+  `ledgers/payload_execution_queue.md` and added `CAND-T001-C6-008` as a
+  candidate-admissible but route-unresolved row;
+- `OQ-126` is resolved only for rows 001--008, while `OQ-127` /
   `OBL-C6-004` govern follow-up work on `CAND-T001-C6-001`, `OQ-128` /
   `OBL-C6-005` govern follow-up work on `CAND-T001-C6-002`, `OQ-129` /
   `OBL-C6-006` govern follow-up work on `CAND-T001-C6-003`, and `OQ-130` /
   `OBL-C6-007` govern follow-up work on `CAND-T001-C6-004`, and `OQ-131` /
   `OBL-C6-008` govern follow-up work on `CAND-T001-C6-005`, and `OQ-132` /
   `OBL-C6-009` govern follow-up work on `CAND-T001-C6-006`, and `OQ-133` /
-  `OBL-C6-010` govern follow-up work on `CAND-T001-C6-007`;
+  `OBL-C6-010` govern follow-up work on `CAND-T001-C6-007`, and `OQ-134` /
+  `OBL-C6-011` govern follow-up work on `CAND-T001-C6-008`;
 - no mathematical target lane is active beyond bounded payload-gated
   candidate intake;
 - template prompts are not executable until concretely filled and accepted
