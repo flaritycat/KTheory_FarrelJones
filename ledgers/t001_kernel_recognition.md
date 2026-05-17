@@ -18,7 +18,9 @@ it. `FJ64` records a no-candidate note, so kernel recognition remains dormant
 for the next checkpoint. `FJ65` records no prior-art or branch object that
 reactivates kernel recognition. `FJ66` pauses `T-001` as an active
 proof-target sequence, so kernel recognition remains dormant unless the
-reactivation gate is later satisfied.
+reactivation gate is later satisfied. `FJ92` later reuses the checked Brown
+package for `CAND-T001-005`, recording Brown-positive finite generation of
+the \(\chi\)-kernel but no finite-rank free-kernel bridge.
 
 ## Warning
 
@@ -303,6 +305,28 @@ without satisfying `OBL-T001-013`.
 `T-001`. Brown/BNS/Karrass--Solitar data remain dormant until
 `OBL-T001-013` is satisfied.
 
+## FJ92 CAND-T001-005 Brown/BNS computation
+
+`FJ92` applies the Brown maximum-count test already checked in `FJ30` to
+`CAND-T001-005`:
+\[
+G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle,
+\qquad
+\chi(a)=0,\quad \chi(b)=1.
+\]
+
+| Presentation | Character | Brown result | Kernel bridge | Route status |
+|---|---|---|---|---|
+| \(G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle\) | \(\chi(a)=0,\ \chi(b)=1\) | \([\chi]\) has initial-segment values \(0,0,1,1,2,3,3,2,1\) and \([-\chi]\) has values \(0,0,-1,-1,-2,-3,-3,-2,-1\); both pass the zero-on-one-generator maximum-count test | Brown gives finite generation of \(\ker(\chi)\); finite-rank freeness is not identified in `FJ92` | kernel-control update only; no `FJ26` route bridge and no residual subtraction |
+
+The active kernel-recognition blocker after `FJ92` is not finite generation.
+It is the missing finite-rank free-kernel identification, known-route /
+prior-art blocker, formulation comparison, or another checked route bridge
+for `CAND-T001-005`.
+
 ## Next action
 
-No active kernel-recognition action is scheduled for `T-001`.
+No active kernel-recognition action is scheduled for `T-001` after `FJ92`
+unless a future accepted payload supplies finite-rank free-kernel
+identification, a known-route / prior-art audit, formulation comparison, or
+another checked route bridge for `CAND-T001-005`.

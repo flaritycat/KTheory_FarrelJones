@@ -232,11 +232,11 @@ modules/cycle_005/FJ91_cand005_torsion_free_source_check.md
 
 ## Prompt 010
 
-Status: Open
+Status: Completed
 
-Completed by:
+Completed by: `FJ92`
 
-Commit:
+Commit: this commit (`[module] complete FJ92 Brown/BNS kernel-control audit`)
 
 Prompt:
 
@@ -293,7 +293,7 @@ Payload ID: PAY-T001-CAND005-ROUTE-PRIORART-2026-001
 Payload type: PAY-T001-BLOCKER
 
 Target gate:
-The active post-FJ91 gate, plus OBL-T001-019.
+The active post-FJ92 gate, plus OBL-T001-020.
 
 Object:
 CAND-T001-005:
@@ -336,7 +336,7 @@ Payload ID: PAY-T001-CAND005-K0-CL-HYP-2026-001
 Payload type: PAY-T001-BRIDGE
 
 Target gate:
-The active post-FJ91 gate and OBL-T001-019.
+The active post-FJ92 gate and OBL-T001-020.
 
 Object:
 CAND-T001-005 and the FJ83 Jaikin-Zapirain--Linton--Sanchez-Peralta

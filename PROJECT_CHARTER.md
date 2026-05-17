@@ -1729,7 +1729,47 @@ remaining route/prior-art question, creates `OBL-C5-012` blocking `FJ92`
 without a new accepted payload, creates `OQ-113`, and makes no full `T-001`
 claim.
 
-The next project move is not a numbered module. A future `FJ92` may be
+At the close of `FJ91`, the next project move was not a numbered module. The
+later accepted payload `PAY-T001-CAND005-BROWN-BNS-2026-001` instantiated
+`FJ92`.
+
+## FJ92 CAND-T001-005 Brown/BNS kernel-control computation
+
+Current status: `FJ92` has first-pass coverage as the Brown/BNS
+kernel-control computation for `CAND-T001-005`.
+
+`FJ92` records accepted payload `PAY-T001-CAND005-BROWN-BNS-2026-001`, whose
+object is to decide whether the character
+\[
+\chi(a)=0,\qquad \chi(b)=1
+\]
+has finitely generated kernel under the Brown/BNS framework already recorded
+in the repository.
+
+The computation is bounded. For \(\chi\), the Brown initial-segment values
+are
+\[
+0,0,1,1,2,3,3,2,1,
+\]
+so the maximum \(3\) occurs exactly twice. For \(-\chi\), the values are
+\[
+0,0,-1,-1,-2,-3,-3,-2,-1,
+\]
+so the maximum \(0\) occurs exactly twice. In the zero-on-one-generator case
+recorded from Brown, both directions pass the maximum-count test.
+
+Thus `FJ92` records that \(\ker(\chi)\) is finitely generated. It does not
+identify the kernel as finite-rank free, does not invoke the `FJ26`
+finite-rank free-by-cyclic route, does not perform a known-route / prior-art
+audit, and does not subtract a residual bucket.
+
+`FJ92` resolves `OQ-113`, completes `OBL-C5-012`, partially completes
+`OBL-T001-019` for Brown-positive finite generation, creates
+`OBL-T001-020` for the remaining route/prior-art question, creates
+`OBL-C5-013` blocking `FJ93` without a new accepted payload, creates
+`OQ-114`, and makes no full `T-001` claim.
+
+The next project move is not a numbered module. A future `FJ93` may be
 instantiated only after a new accepted payload is recorded under
 `ledgers/payload_intake_protocol.md` or in the relevant target ledger.
 

@@ -267,6 +267,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for `FJ91` torsion-free source-check only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ91_cand005_torsion_free_source_check.md` |
 
+### `PAY-T001-CAND005-BROWN-BNS-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-T001-CAND005-BROWN-BNS-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-T001-COMPUTATION` |
+| Target gate | `OQ-113`, `OBL-C5-012`, and `OBL-T001-019`. |
+| Candidate, source, bridge, computation, or blocker | Brown/BNS kernel-control computation for `CAND-T001-005`, \(G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle\), with \(\chi(a)=0,\chi(b)=1\). |
+| Exact statement or object | Compute bounded Brown/BNS data needed to decide whether \(\ker(\chi)\) is finitely generated or whether the row remains kernel-control blocked. Use only the Brown/BNS framework already recorded in the repository unless a new source is explicitly required and cited. |
+| APA citation if external source is used | Brown, K. S. (1987). Trees, valuations, and the Bieri--Neumann--Strebel invariant. *Inventiones Mathematicae, 90*, 479--504. https://doi.org/10.1007/BF01389176. No new external source is checked in `FJ92`; this is the already-recorded `FJ30` Brown source package. |
+| Source-status label | Existing Brown/BNS source package active from `FJ30`; reused in `FJ92` for a bounded computation. No new source located or promoted. |
+| Hypotheses and formulation level | Candidate kernel-control computation only. The output may record Brown-positive finite generation of \(\ker(\chi)\), but must not claim finite-rank freeness, full Farrell--Jones, coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, weaker \(K_0\), or residual subtraction without additional checked data. |
+| Repository object changed | `modules/cycle_005/FJ92_cand005_brown_bns_kernel_control.md`; `next_prompts.md`; `ledgers/payload_intake_protocol.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `ledgers/t001_kernel_recognition.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `SCOPE_LEDGER.md`; `NOTATION_LEDGER.md`; `BIBLIOGRAPHY.md`; `ledgers/source_status.md`; `AGENTS.md`. |
+| Success criterion | `FJ92` records whether the \(\chi\)-kernel is finite-rank free, finitely generated but not identified, blocked, or unsuitable for the `FJ26` route. |
+| Failure criterion | The module becomes a broad Brown/BNS survey or makes a route claim without a checked kernel theorem. |
+| Stop condition | Stop after the kernel-control audit and ledger update. Do not create `FJ93`. |
+| Accepted? | Yes, for `FJ92` Brown/BNS kernel-control computation only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ92_cand005_brown_bns_kernel_control.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -329,6 +349,9 @@ After `FJ89`, accepted candidate-intake payload
 After `FJ90`, accepted torsion-free source-check payload
 `PAY-T001-CAND005-TF-2026-001` instantiated `FJ91`.
 
+After `FJ91`, accepted Brown/BNS kernel-control computation payload
+`PAY-T001-CAND005-BROWN-BNS-2026-001` instantiated `FJ92`.
+
 `FJ84` records that no currently recorded `T-001` candidate/family row is
 eligible for project use of the FJ83 weaker \(K_0\) / Cohen--Lyndon payload.
 This is not a full `T-001` theorem and not a residual subtraction.
@@ -363,11 +386,15 @@ through Putman's statement of the Karrass--Magnus--Solitar one-relator torsion
 theorem, but still records no Farrell--Jones route, no kernel-control result,
 and no residual subtraction.
 
-After `FJ91`, no `FJ92` module is selected. A future `FJ92` may be created
+`FJ92` records Brown-positive finite-generation data for
+`CAND-T001-005`, but does not identify the kernel as finite-rank free and
+does not invoke the `FJ26` route.
+
+After `FJ92`, no `FJ93` module is selected. A future `FJ93` may be created
 only after a new accepted payload row is added above or an equivalent accepted
 payload is recorded in the relevant target ledger.
 
-The latest accepted payload, `PAY-T001-CAND005-TF-2026-001`, changes the
-state by instantiating `FJ91`; the earlier accepted payload
-`PAY-T001-CAND-FJ90-2026-001` instantiated `FJ90`; the earlier rejected
+The latest accepted payload, `PAY-T001-CAND005-BROWN-BNS-2026-001`, changes
+the state by instantiating `FJ92`; the earlier accepted payload
+`PAY-T001-CAND005-TF-2026-001` instantiated `FJ91`; the earlier rejected
 intake attempts through `REJECTED-PAYLOAD-030` do not instantiate any module.

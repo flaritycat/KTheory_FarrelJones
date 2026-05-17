@@ -4426,7 +4426,7 @@ is recorded.
 
 ### Status
 
-Open inside project; blocked until a new accepted payload is recorded.
+Resolved by `FJ92`.
 
 ### Context
 
@@ -4435,15 +4435,25 @@ candidate-ledger level. The row remains blocked for route or residual use:
 kernel control, known-route overlap, prior-art comparison, and formulation
 safety are not checked.
 
-No `FJ92` module is selected. A future module must be instantiated by a new
-accepted payload with exact target gate, changed project object, success
-criterion, failure criterion, and stop condition.
+At the close of `FJ91`, no `FJ92` module was selected. The next module had
+to be instantiated by a new accepted payload with exact target gate, changed
+project object, success criterion, failure criterion, and stop condition.
+
+Accepted payload `PAY-T001-CAND005-BROWN-BNS-2026-001` instantiates `FJ92`.
+`FJ92` computes the Brown initial-segment data for `CAND-T001-005` with
+\(\chi(a)=0,\chi(b)=1\). Both \([\chi]\) and \([-\chi]\) pass the recorded
+Brown maximum-count test, so \(\ker(\chi)\) is finitely generated.
+
+The result stops there: `FJ92` does not identify the kernel as finite-rank
+free, does not invoke `FJ26`, does not perform a prior-art audit, and does
+not record a residual subtraction.
 
 ### Relevant modules
 
 - FJ82
 - FJ90
 - FJ91
+- FJ92
 
 ### Dependencies
 
@@ -4454,7 +4464,47 @@ criterion, failure criterion, and stop condition.
 
 ### Next action
 
-Record a new accepted payload before instantiating `FJ92`. A useful payload
-should name a Brown/BNS or kernel-control computation, known-route bridge,
-formulation comparison, or prior-art blocker for `CAND-T001-005`. Do not
-create a broad source-summary module without such an object.
+Resolved by `FJ92`. Continue only through `OQ-114` if a new accepted payload
+is recorded.
+
+## OQ-114. Which accepted payload, if any, should instantiate FJ93 after the FJ92 Brown/BNS kernel-control computation?
+
+### Status
+
+Open inside project; blocked until a new accepted payload is recorded.
+
+### Context
+
+`FJ92` records Brown-positive finite generation of \(\ker(\chi)\) for
+`CAND-T001-005`, but it does not identify \(\ker(\chi)\) as finite-rank free.
+The row is therefore not yet routed through `FJ26`, and no residual bucket is
+subtracted.
+
+A future `FJ93` may be useful only if it supplies one exact project object,
+such as:
+
+- finite-rank free-kernel identification for the \(\chi\)-kernel;
+- known-route / prior-art blocker audit for `CAND-T001-005`;
+- formulation comparison tied to a named route;
+- another checked route bridge.
+
+### Relevant modules
+
+- FJ30
+- FJ41
+- FJ90
+- FJ91
+- FJ92
+
+### Dependencies
+
+`ledgers/payload_intake_protocol.md`, `OBL-C5-013`, `OBL-T001-020`,
+`CAND-T001-005`, `ledgers/t001_candidate_inventory.md`,
+`ledgers/t001_residual.md`, `ledgers/t001_kernel_recognition.md`,
+`ledgers/theorem_dependencies.md`, `NOTATION_LEDGER.md`, and `AGENTS.md`.
+
+### Next action
+
+Record a new accepted payload before instantiating `FJ93`. Do not create a
+broad Brown/BNS, one-relator, or known-route source-summary module without an
+exact changed repository object and stop condition.
