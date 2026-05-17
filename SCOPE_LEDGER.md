@@ -227,6 +227,7 @@ Unless explicitly imported later:
 172. Which accepted payload, if any, should act on CAND-T001-C6-042 after FJ142? Tracked as OQ-168; open and blocked until a kernel-control, route/prior-art, formulation, route-bridge, or branch payload is accepted.
 173. Which accepted payload, if any, should act on CAND-T001-C6-043 after FJ143? Tracked as OQ-169; open and blocked until a kernel-control, route/prior-art, formulation, route-bridge, or branch payload is accepted.
 174. Which accepted payload, if any, should act on CAND-T001-C6-044 after FJ144? Tracked as OQ-170; open and blocked until a kernel-control, route/prior-art, formulation, route-bridge, or branch payload is accepted.
+175. Which accepted payload, if any, should act on CAND-T001-C6-045 after FJ145? Tracked as OQ-171; open and blocked until a kernel-control, route/prior-art, formulation, route-bridge, or branch payload is accepted.
 ## Established results
 
 - ER-001: For the trivial group \(G=1\), the simplified assembly map in module `FJ01` is the identity on \(K_n(R)\), assuming the black-box normalization of the equivariant homology theory.
@@ -751,7 +752,7 @@ Current source toolkit:
 - cycle-006 payload decision: `ledgers/cycle_006_payload_decision.md`
   resolves `OQ-125`, completes `OBL-C6-002`, records `C6-PAUSE-001`, creates
   `OQ-126`, records `OBL-C6-003`, and originally selects no `FJ101` module;
-- continue-payload queue and FJ101--FJ144 intake: `FJ101` consumes only row
+- continue-payload queue and FJ101--FJ145 intake: `FJ101` consumes only row
   `001`, `FJ102` consumes only row `002`, `FJ103` consumes only row `003`,
   `FJ104` consumes only row `004`, `FJ105` consumes only row `005`, and
   `FJ106` consumes only row `006`, `FJ107` consumes only row `007`, and
@@ -769,9 +770,9 @@ Current source toolkit:
   `FJ130` consumes only row `030`, `FJ131` consumes only row `031`,
   `FJ132` consumes only row `032`, `FJ133` consumes only row `033`, and
   `FJ134` consumes only row `034`, `FJ135` consumes only row `035`, and
-  `FJ136` consumes only row `036`, `FJ137` consumes only row `037`, `FJ138` consumes only row `038`, `FJ139` consumes only row `039`, `FJ140` consumes only row `040`, `FJ141` consumes only row `041`, `FJ142` consumes only row `042`, `FJ143` consumes only row `043`, and `FJ144` consumes only row `044` of
+  `FJ136` consumes only row `036`, `FJ137` consumes only row `037`, `FJ138` consumes only row `038`, `FJ139` consumes only row `039`, `FJ140` consumes only row `040`, `FJ141` consumes only row `041`, `FJ142` consumes only row `042`, `FJ143` consumes only row `043`, `FJ144` consumes only row `044`, and `FJ145` consumes only row `045` of
   `ledgers/payload_execution_queue.md`, adding `CAND-T001-C6-001` through
-  `CAND-T001-C6-044` as
+  `CAND-T001-C6-045` as
   candidate-admissible but route-unresolved rows, creating `OQ-127` /
   `OBL-C6-004`, `OQ-128` / `OBL-C6-005`, `OQ-129` / `OBL-C6-006`,
   `OQ-130` / `OBL-C6-007`, `OQ-131` / `OBL-C6-008`, and `OQ-132` /
@@ -789,7 +790,7 @@ Current source toolkit:
   `OBL-C6-032`, and `OQ-156` / `OBL-C6-033`, and `OQ-157` /
   `OBL-C6-034`, and `OQ-158` / `OBL-C6-035`, and `OQ-159` /
   `OBL-C6-036`, `OQ-160` / `OBL-C6-037`, `OQ-161` /
-  `OBL-C6-038`, `OQ-162` / `OBL-C6-039`, and `OQ-163` / `OBL-C6-040`, `OQ-164` / `OBL-C6-041`, `OQ-165` / `OBL-C6-042`, `OQ-166` / `OBL-C6-043`, `OQ-167` / `OBL-C6-044`, `OQ-168` / `OBL-C6-045`, `OQ-169` / `OBL-C6-046`, and `OQ-170` / `OBL-C6-047`, and making no
+  `OBL-C6-038`, `OQ-162` / `OBL-C6-039`, and `OQ-163` / `OBL-C6-040`, `OQ-164` / `OBL-C6-041`, `OQ-165` / `OBL-C6-042`, `OQ-166` / `OBL-C6-043`, `OQ-167` / `OBL-C6-044`, `OQ-168` / `OBL-C6-045`, `OQ-169` / `OBL-C6-046`, `OQ-170` / `OBL-C6-047`, and `OQ-171` / `OBL-C6-048`, and making no
   Farrell--Jones theorem claim or residual subtraction;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
@@ -799,8 +800,8 @@ Current source toolkit:
 ## Next mathematical move
 
 The project is in a cycle-006 payload-gated callback posture.
-`ledgers/payload_execution_queue.md` rows `001`--`039` have been completed by
-`FJ101`--`FJ139`; the next mathematical move requires either the exact
+`ledgers/payload_execution_queue.md` rows `001`--`045` have been completed by
+`FJ101`--`FJ145`; the next mathematical move requires either the exact
 callback phrase `Continue payload` to consume the next `Ready for intake`
 queue row, or a separately supplied concrete accepted payload under
 `ledgers/payload_intake_protocol.md`.

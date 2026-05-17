@@ -485,8 +485,12 @@ Cycle-006 pause rule:
   `PAY-T001-CAND-C6-044-2026-001`. It adds `CAND-T001-C6-044` as a
   candidate-admissible but route-unresolved intake row and makes no route,
   theorem, prior-art, weaker \(K_0\), or residual-subtraction claim.
-- `OQ-126` is resolved only for the accepted row-001 through row-044
-  payloads that created `FJ101`--`FJ144`.
+- `FJ145`: instantiated only from accepted callback-queue row
+  `PAY-T001-CAND-C6-045-2026-001`. It adds `CAND-T001-C6-045` as a
+  candidate-admissible but route-unresolved intake row and makes no route,
+  theorem, prior-art, weaker \(K_0\), or residual-subtraction claim.
+- `OQ-126` is resolved only for the accepted row-001 through row-045
+  payloads that created `FJ101`--`FJ145`.
 - `OQ-127` and `OBL-C6-004` now govern follow-up work on
   `CAND-T001-C6-001`.
 - `OQ-128` and `OBL-C6-005` now govern follow-up work on
@@ -575,6 +579,8 @@ Cycle-006 pause rule:
   `CAND-T001-C6-043`.
 - `OQ-170` and `OBL-C6-047` now govern follow-up work on
   `CAND-T001-C6-044`.
+- `OQ-171` and `OBL-C6-048` now govern follow-up work on
+  `CAND-T001-C6-045`.
 - Future numbered work may be created only from a selected queued row or a
   separately supplied concrete accepted payload, not from a template prompt,
   generic continuation request, or governance alignment task.
@@ -629,6 +635,10 @@ Current obstruction:
   prior-art blocker, or branch decision.
 - `OBL-C6-047`: active after `FJ144`. Do not promote or route
   `CAND-T001-C6-044` until a new accepted payload records a kernel-control
+  computation, source-verified route bridge, formulation comparison,
+  prior-art blocker, or branch decision.
+- `OBL-C6-048`: active after `FJ145`. Do not promote or route
+  `CAND-T001-C6-045` until a new accepted payload records a kernel-control
   computation, source-verified route bridge, formulation comparison,
   prior-art blocker, or branch decision.
 - `OBL-C6-046`: active after `FJ143`. Do not promote or route
