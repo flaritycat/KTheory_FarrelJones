@@ -320,11 +320,11 @@ Stop after known-route / prior-art blocker audit and ledger update.
 
 ## Prompt 012
 
-Status: Open
+Status: Completed
 
-Completed by:
+Completed by: `FJ94`
 
-Commit:
+Commit: this commit (`[module] complete FJ94 K0 Cohen-Lyndon audit for CAND-T001-005`)
 
 Prompt:
 
@@ -372,11 +372,14 @@ Prompt:
 
 ```text
 Continue with a branch checkpoint for CAND-T001-005 after the bounded
-torsion-free, kernel-control, or prior-art audit currently active in the
-repository.
+torsion-free, kernel-control, prior-art, and FJ83 hypothesis audits currently
+recorded in the repository.
 
 Payload ID: PAY-T001-CAND005-BRANCH-2026-001
 Payload type: PAY-GOV
+
+Target gate:
+The active post-FJ94 gate, OQ-116, OBL-C5-015, and OBL-T001-022.
 
 Exact statement or object:
 Determine whether CAND-T001-005 should be kept as a live proof target,

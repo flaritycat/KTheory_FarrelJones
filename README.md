@@ -18,15 +18,15 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 - Active cycle: `cycle_005`.
 - Completed cycles: `cycle_001`, `cycle_002`, `cycle_003`, and
   `cycle_004`.
-- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, `FJ77`, `FJ78`, `FJ79`, `FJ80`, `FJ81`, `FJ82`, `FJ83`, `FJ84`, `FJ85`, `FJ86`, `FJ87`, `FJ88`, `FJ89`, `FJ90`, `FJ91`, `FJ92`, and `FJ93`.
+- Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, `FJ77`, `FJ78`, `FJ79`, `FJ80`, `FJ81`, `FJ82`, `FJ83`, `FJ84`, `FJ85`, `FJ86`, `FJ87`, `FJ88`, `FJ89`, `FJ90`, `FJ91`, `FJ92`, `FJ93`, and `FJ94`.
 - `FJ53` is retained as WIP / provisional.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md`, `reflections/cycle_002_reflection.md`, `reflections/cycle_003_reflection.md`, and `reflections/cycle_004_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current active project status: post-`FJ93` known-route / prior-art audit
-  gate. `FJ93` was instantiated by accepted blocker payload
-  `PAY-T001-CAND005-ROUTE-PRIORART-2026-001`.
+- Current active project status: post-`FJ94` FJ83 weaker \(K_0\) /
+  Cohen--Lyndon hypothesis-audit gate. `FJ94` was instantiated by accepted
+  bridge payload `PAY-T001-CAND005-K0-CL-HYP-2026-001`.
 - Current procedural target: no numbered module is selected; instantiate
-  `FJ94` only after a new accepted payload is recorded in
+  `FJ95` only after a new accepted payload is recorded in
   `ledgers/payload_intake_protocol.md` or an equivalent target ledger.
 
 ## Current established results
@@ -156,6 +156,16 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
   `OBL-C5-013`, completes the route/prior-art part of `OBL-T001-020`,
   creates `OBL-T001-021`, `OBL-C5-014`, and `OQ-115`, and makes no
   Farrell--Jones route claim or residual subtraction.
+- `FJ94` records accepted payload `PAY-T001-CAND005-K0-CL-HYP-2026-001` and
+  audits `CAND-T001-005` against the FJ83 weaker \(K_0\) / Cohen--Lyndon
+  hypothesis package. The row is concrete and torsion-free, but no
+  Cohen--Lyndon presentation or group-pair data, matching quotient,
+  stabilizer/normalizer package, finite cohomological dimension data,
+  coherent group-ring hypotheses, or row-level weaker \(K_0\) application
+  bridge is recorded. It resolves `OQ-115`, completes `OBL-C5-014`, completes
+  the FJ83-hypothesis part of `OBL-T001-021`, creates `OBL-T001-022`,
+  `OBL-C5-015`, and `OQ-116`, and makes no weaker \(K_0\), Farrell--Jones,
+  or residual-subtraction claim.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.

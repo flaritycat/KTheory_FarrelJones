@@ -1801,7 +1801,41 @@ route/prior-art-audit part of `OBL-T001-020`, creates `OBL-T001-021` for
 any later route promotion or branch decision, creates `OBL-C5-014`, creates
 `OQ-115`, and makes no full `T-001` claim.
 
-The next project move is not a numbered module. A future `FJ94` may be
+At the close of `FJ93`, the next project move was not a numbered module.
+`FJ94` was later instantiated only after a new accepted payload was recorded
+under `ledgers/payload_intake_protocol.md` or in the relevant target ledger.
+
+## FJ94 CAND-T001-005 K0 Cohen--Lyndon hypothesis audit
+
+Current status: `FJ94` has first-pass coverage as the FJ83 weaker \(K_0\) /
+Cohen--Lyndon hypothesis audit for `CAND-T001-005`.
+
+`FJ94` records accepted payload `PAY-T001-CAND005-K0-CL-HYP-2026-001`, whose
+object is to decide whether the current repository has enough row-level data
+to apply the FJ83 source payload to
+\[
+G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle.
+\]
+
+The audit is bounded. It uses the FJ83 source package already verified for
+Jaikin-Zapirain--Linton--Sanchez-Peralta (2025), and checks only whether the
+candidate row records the needed Cohen--Lyndon presentation or group pair,
+matching quotient, normalizer data, finite cohomological dimension data,
+coherent group-ring hypotheses, and formulation-safety bridge.
+
+The row is concrete and torsion-free, but it does not record the
+Cohen--Lyndon/group-pair package required for FJ83 use. Thus
+`CAND-T001-005` is not FJ83-eligible from current repository data.
+
+This is not a weaker \(K_0\) consequence, not a Farrell--Jones route, not a
+prior-art closure, and not a residual subtraction.
+
+`FJ94` resolves `OQ-115`, completes `OBL-C5-014`, completes the
+FJ83-hypothesis-audit part of `OBL-T001-021`, creates `OBL-T001-022` for any
+later route promotion or branch decision, creates `OBL-C5-015`, creates
+`OQ-116`, and makes no full `T-001` claim.
+
+The next project move is not a numbered module. A future `FJ95` may be
 instantiated only after a new accepted payload is recorded under
 `ledgers/payload_intake_protocol.md` or in the relevant target ledger.
 

@@ -307,6 +307,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for `FJ93` known-route / prior-art blocker audit only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ93_cand005_known_route_prior_art_audit.md` |
 
+### `PAY-T001-CAND005-K0-CL-HYP-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-T001-CAND005-K0-CL-HYP-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-T001-BRIDGE` |
+| Target gate | Active post-`FJ93` gate and `OBL-T001-021`. |
+| Candidate, source, bridge, computation, or blocker | FJ83 weaker \(K_0\) / Cohen--Lyndon hypothesis audit for `CAND-T001-005`, \(G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle\). |
+| Exact statement or object | Check whether `CAND-T001-005` has enough recorded data to satisfy the FJ83 source-hypothesis package. Do not claim full Farrell--Jones, coefficient FJC, `FJCw`, `FICwF`, or residual subtraction. |
+| APA citation if external source is used | Jaikin-Zapirain, A., Linton, M., & Sanchez-Peralta, P. (2025). *Group pairs, coherence and Farrell-Jones Conjecture for K0* (arXiv:2510.23518v2). arXiv. https://doi.org/10.48550/arXiv.2510.23518. No new external source is checked in `FJ94`; this is the already-recorded `FJ83` source package. |
+| Source-status label | Existing FJ83 source package active; reused in `FJ94` for a bounded candidate-hypothesis audit. No new source located or promoted. |
+| Hypotheses and formulation level | Candidate weaker \(K_0\) hypothesis audit only. The output may record eligibility, partial eligibility, or non-eligibility from current repository data, but must not claim full Farrell--Jones, coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, weaker \(K_0\) consequence, or residual subtraction without additional checked data. |
+| Repository object changed | `modules/cycle_005/FJ94_cand005_k0_cohen_lyndon_hypothesis_audit.md`; `next_prompts.md`; `ledgers/payload_intake_protocol.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `ledgers/t001_kernel_recognition.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `SCOPE_LEDGER.md`; `NOTATION_LEDGER.md`; `BIBLIOGRAPHY.md`; `ledgers/source_status.md`; `AGENTS.md`. |
+| Success criterion | `FJ94` records whether the row is FJ83-eligible, partially eligible, or not eligible from current repository data. |
+| Failure criterion | The module becomes a source summary without changing candidate status or a proof obligation. |
+| Stop condition | Stop after candidate-hypothesis audit and ledger update. Do not create `FJ95`. |
+| Accepted? | Yes, for `FJ94` candidate-hypothesis audit only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ94_cand005_k0_cohen_lyndon_hypothesis_audit.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -375,6 +395,9 @@ After `FJ91`, accepted Brown/BNS kernel-control computation payload
 After `FJ92`, accepted known-route / prior-art blocker payload
 `PAY-T001-CAND005-ROUTE-PRIORART-2026-001` instantiated `FJ93`.
 
+After `FJ93`, accepted FJ83 weaker \(K_0\) / Cohen--Lyndon hypothesis-audit
+payload `PAY-T001-CAND005-K0-CL-HYP-2026-001` instantiated `FJ94`.
+
 `FJ84` records that no currently recorded `T-001` candidate/family row is
 eligible for project use of the FJ83 weaker \(K_0\) / Cohen--Lyndon payload.
 This is not a full `T-001` theorem and not a residual subtraction.
@@ -418,12 +441,20 @@ the named repository routes. The row remains a concrete torsion-free
 one-relator candidate object with Brown-positive finite generation, but it is
 still route-blocked and not residual-subtractive.
 
-After `FJ93`, no `FJ94` module is selected. A future `FJ94` may be created
+`FJ94` records that `CAND-T001-005` is not FJ83-eligible from current
+repository data. The row has concrete and torsion-free candidate status, but
+no Cohen--Lyndon presentation or group-pair data, matching quotient,
+normalizer package, finite cohomological dimension data, coherent group-ring
+hypotheses, or row-level weaker \(K_0\) application bridge is recorded.
+
+After `FJ94`, no `FJ95` module is selected. A future `FJ95` may be created
 only after a new accepted payload row is added above or an equivalent accepted
 payload is recorded in the relevant target ledger.
 
-The latest accepted payload, `PAY-T001-CAND005-ROUTE-PRIORART-2026-001`,
-changes the state by instantiating `FJ93`; the earlier accepted payload
-`PAY-T001-CAND005-BROWN-BNS-2026-001` instantiated `FJ92`; the earlier accepted payload
-`PAY-T001-CAND005-TF-2026-001` instantiated `FJ91`; the earlier rejected
-intake attempts through `REJECTED-PAYLOAD-030` do not instantiate any module.
+The latest accepted payload, `PAY-T001-CAND005-K0-CL-HYP-2026-001`, changes
+the state by instantiating `FJ94`; the earlier accepted payload
+`PAY-T001-CAND005-ROUTE-PRIORART-2026-001` instantiated `FJ93`; the earlier
+accepted payload `PAY-T001-CAND005-BROWN-BNS-2026-001` instantiated `FJ92`;
+the earlier accepted payload `PAY-T001-CAND005-TF-2026-001` instantiated
+`FJ91`; the earlier rejected intake attempts through `REJECTED-PAYLOAD-030`
+do not instantiate any module.

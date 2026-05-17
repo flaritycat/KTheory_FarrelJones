@@ -76,7 +76,11 @@ generation of \(\ker(\chi)\) for `CAND-T001-005`, but it does not identify
 the kernel as finite-rank free and does not invoke the `FJ26` route. `FJ93`
 then records accepted payload `PAY-T001-CAND005-ROUTE-PRIORART-2026-001` and
 audits named repository routes for `CAND-T001-005`; it finds no recorded
-known route or prior-art blocker and makes no residual subtraction.
+known route or prior-art blocker and makes no residual subtraction. `FJ94`
+then records accepted payload `PAY-T001-CAND005-K0-CL-HYP-2026-001` and
+checks the FJ83 weaker \(K_0\) / Cohen--Lyndon hypothesis package for
+`CAND-T001-005`; it finds the row not FJ83-eligible from current repository
+data and makes no weaker \(K_0\) promotion.
 `reflections/cycle_003_reflection.md`
 closes the third cycle and selects `FJ61` to set candidate-intake and exit
 criteria for the next `T-001` decision. `FJ61` records `OBL-T001-008`, the
@@ -1107,5 +1111,36 @@ This completes the route/prior-art-audit part of `OBL-T001-020` and creates
 `OBL-T001-021` for any future route promotion or branch decision. Future work
 must use a new accepted payload naming finite-rank free-kernel identification,
 source-verified route bridge, FJ83 hypothesis package, formulation
-comparison, prior-art object, or branch/pause decision. No `FJ94` module is
+comparison, prior-art object, or branch/pause decision. At the close of
+`FJ93`, no `FJ94` module was selected; `FJ94` was later instantiated only
+after accepted payload `PAY-T001-CAND005-K0-CL-HYP-2026-001` was recorded.
+
+## FJ94 CAND-T001-005 K0 Cohen--Lyndon hypothesis-audit update
+
+`FJ94` records accepted payload `PAY-T001-CAND005-K0-CL-HYP-2026-001` and
+checks whether
+\[
+G_{FJ90}=\langle a,b\mid a b a^{-1} b^2 a b^{-3}\rangle
+\]
+has enough recorded data to use the FJ83 weaker \(K_0\) / Cohen--Lyndon
+source payload.
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- no weaker \(K_0\) consequence is recorded for `CAND-T001-005`;
+- first-pass torsion-free status is recorded, but no Cohen--Lyndon
+  presentation or group-pair data is recorded;
+- no matching group-pair quotient, stabilizer/normalizer package, finite
+  cohomological dimension data, coherent group-ring hypotheses, or row-level
+  weaker \(K_0\) application bridge is recorded;
+- the row remains route-blocked and not FJ83-eligible from current repository
+  data.
+
+This completes the FJ83-hypothesis-audit part of `OBL-T001-021` and creates
+`OBL-T001-022` for future route promotion or branch decision. Future work
+must use a new accepted payload naming finite-rank free-kernel identification,
+source-verified route bridge, new FJ83 hypothesis data, formulation
+comparison, prior-art object, or branch/pause decision. No `FJ95` module is
 selected.

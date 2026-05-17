@@ -335,10 +335,21 @@ finite generation is recorded, but no finite-rank free-kernel bridge,
 hyperbolic-by-cyclic bridge, inheritance-safe kernel type, or alternate route
 is recorded.
 
+## FJ94 K0 Cohen--Lyndon hypothesis-audit effect
+
+`FJ94` does not change the kernel-recognition computation. It checks the FJ83
+weaker \(K_0\) / Cohen--Lyndon hypothesis package and records that
+`CAND-T001-005` is not FJ83-eligible from current repository data.
+
+The kernel-recognition blocker therefore remains: Brown finite generation is
+recorded, but no finite-rank free-kernel bridge, hyperbolic-by-cyclic bridge,
+inheritance-safe kernel type, alternate route, or weaker \(K_0\) application
+bridge is recorded.
+
 ## Next action
 
-No active kernel-recognition action is scheduled for `T-001` after `FJ93`
+No active kernel-recognition action is scheduled for `T-001` after `FJ94`
 unless a future accepted payload supplies finite-rank free-kernel
-identification, source-verified route bridge, FJ83 hypothesis package,
+identification, source-verified route bridge, new FJ83 hypothesis data,
 formulation comparison, prior-art object, or branch/pause decision for
 `CAND-T001-005`.
