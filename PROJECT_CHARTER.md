@@ -1993,6 +1993,32 @@ close, continue only with a concrete active payload, or pause, without
 creating a reflection before a handoff table and exact unresolved gates are
 recorded.
 
+## FJ100 cycle-005 closure-readiness audit
+
+Current status: `FJ100` has first-pass coverage as the cycle-005
+closure-readiness audit after the `FJ99` strategic checkpoint.
+
+`FJ100` records accepted payload `PAY-C5-CLOSURE-READINESS-2026-001`, whose
+object is to determine whether `cycle_005` should close, continue with a
+concrete active payload, or pause.
+
+The audit is bounded. It checks no external source, adds no candidate,
+reactivates no target, starts no proof attempt, and creates no reflection
+directly.
+
+The audit result is that `cycle_005` is closure-ready. `FJ100` records the
+handoff table and exact unresolved gates in `ledgers/cycle_005_handoff.md`.
+`FJ81`--`FJ100` now form the completed numbered span of `cycle_005`.
+
+`FJ100` resolves `OQ-121`, completes `OBL-C5-020`, creates `OQ-122`, creates
+`OBL-C5-021`, and makes no full `T-001` claim, no target reactivation, no
+source claim, no proof attempt, and no residual subtraction.
+
+The next bounded project move is the prompt-backlog maintenance pass queued
+in `next_prompts.md`, Prompt 020. After handoff and backlog maintenance, the
+project should prepare the cycle-005 reflection or larger post-100-module
+review unless a higher-priority accepted payload is recorded.
+
 ## GitHub persistence policy
 
 The GitHub repository `flaritycat/KTheory_FarrelJones` is the durable archive and source of truth.

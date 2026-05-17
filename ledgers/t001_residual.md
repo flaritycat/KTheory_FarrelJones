@@ -1282,3 +1282,25 @@ Residual-bucket effect:
 This resolves `OQ-120`, completes `OBL-C5-019`, creates `OBL-C5-020`, and
 creates `OQ-121` for the next queued cycle-005 closure-readiness audit. No
 `FJ100` module is selected without an accepted payload or queued prompt.
+
+## FJ100 cycle-005 closure-readiness audit
+
+`FJ100` records accepted payload `PAY-C5-CLOSURE-READINESS-2026-001` and
+creates `ledgers/cycle_005_handoff.md`.
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- no candidate row is added;
+- no external source is checked;
+- no target is reactivated;
+- no proof attempt is started;
+- no active `T-001` candidate route is reopened;
+- `cycle_005` is recorded as closure-ready;
+- the current `T-001` status is paused / payload-blocked with no live
+  non-routed candidate row.
+
+This resolves `OQ-121`, completes `OBL-C5-020`, creates `OQ-122`, and
+creates `OBL-C5-021` for the next queued prompt-backlog maintenance pass.
+No `FJ101` module is selected without an accepted payload or queued prompt.

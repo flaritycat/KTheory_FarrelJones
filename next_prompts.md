@@ -576,11 +576,11 @@ Stop after strategic checkpoint and ledger update.
 
 ## Prompt 019
 
-Status: Open
+Status: Completed
 
-Completed by:
+Completed by: `FJ100`
 
-Commit:
+Commit: this commit (`[module] complete FJ100 cycle-005 closure-readiness audit`)
 
 Prompt:
 
@@ -624,8 +624,9 @@ Payload type: PAY-GOV
 
 Exact statement or object:
 Open next_prompts.md and update statuses for prompts that have been completed,
-rejected, superseded, or made obsolete by repository state. Do not create a
-new mathematical module unless a separate accepted payload is supplied.
+rejected, superseded, or made obsolete by repository state. Use the post-FJ100
+gate, `OQ-122`, and `OBL-C5-021`. Do not create a new mathematical module
+unless a separate accepted payload is supplied.
 
 Success criterion:
 The prompt backlog matches repository state and no completed prompt remains

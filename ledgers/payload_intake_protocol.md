@@ -93,6 +93,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-FORMULATION-SAFETY-AUDIT-2026-001` | `PAY-FORMULATION` | accepted for `FJ97` only | Internal formulation-safety applicability audit after `FJ96`; records formulation-irrelevant status because no active candidate route remains, without collapsing source formulations. |
 | `PAY-PIVOT-READINESS-2026-001` | `PAY-GOV` | accepted for `FJ98` only | Internal target-pivot readiness checkpoint after `FJ97`; records that no mathematical target lane has a concrete next object and all target lanes remain paused, deferred, WIP / provisional, or payload-blocked. |
 | `PAY-C5-STRATEGIC-CHECKPOINT-2026-001` | `PAY-GOV` | accepted for `FJ99` only | Internal cycle-005 strategic checkpoint after `FJ98`; records that cycle 005 made real candidate-level progress but is now no-target-ready / governance-only, and selects closure-readiness as the next acceptable queued governance payload. |
+| `PAY-C5-CLOSURE-READINESS-2026-001` | `PAY-GOV` | accepted for `FJ100` only | Internal cycle-005 closure-readiness audit after `FJ99`; records closure-ready status, creates `ledgers/cycle_005_handoff.md`, records exact unresolved gates, and makes no mathematical claim. |
 
 ## Accepted intake records
 
@@ -436,6 +437,26 @@ Use this template before instantiating a future numbered module.
 | Accepted? | Yes, for `FJ99` strategic checkpoint only. |
 | Follow-up module if accepted | `modules/cycle_005/FJ99_cycle_005_strategic_checkpoint.md` |
 
+### `PAY-C5-CLOSURE-READINESS-2026-001`
+
+| Field | Entry |
+| --- | --- |
+| Payload ID | `PAY-C5-CLOSURE-READINESS-2026-001` |
+| Date recorded | 2026-05-17 |
+| Payload type | `PAY-GOV` |
+| Target gate | Post-`FJ99` gate, `OQ-121`, and `OBL-C5-020`. |
+| Candidate, source, bridge, computation, or blocker | Cycle-005 closure-readiness audit after the strategic checkpoint. |
+| Exact statement or object | Determine whether `cycle_005` should close, continue with a concrete active payload, or pause. Record a handoff table and exact unresolved gates before any reflection or larger review is created. |
+| APA citation if external source is used | No external source is used. |
+| Source-status label | No new external source checked; internal ledger audit only. |
+| Hypotheses and formulation level | Project-governance / closure-readiness audit only. Do not claim full Farrell--Jones, coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, weaker \(K_0\), route closure, target reactivation, or residual subtraction. |
+| Repository object changed | `modules/cycle_005/FJ100_cycle_005_closure_readiness_audit.md`; `ledgers/cycle_005_handoff.md`; `next_prompts.md`; `ledgers/payload_intake_protocol.md`; `ledgers/open_group_classes.md`; `ledgers/t001_candidate_inventory.md`; `ledgers/t001_residual.md`; `OPEN_QUESTIONS.md`; `ledgers/theorem_dependencies.md`; `README.md`; `PROJECT_CHARTER.md`; `SCOPE_LEDGER.md`; `NOTATION_LEDGER.md`; `AGENTS.md`. |
+| Success criterion | `FJ100` records closure-ready, continue-with-payload, or pause status. |
+| Failure criterion | The audit creates mathematical claims, source summaries, proof attempts, or target reactivation. |
+| Stop condition | Stop after closure-readiness audit and ledger update. Do not create a reflection directly. |
+| Accepted? | Yes, for `FJ100` closure-readiness audit only. |
+| Follow-up module if accepted | `modules/cycle_005/FJ100_cycle_005_closure_readiness_audit.md` |
+
 ## Rejected intake attempts
 
 | Intake ID | Date recorded | Request or object | Status | Reason | Follow-up |
@@ -594,12 +615,20 @@ is no-target-ready / governance-only. It records blocked lanes and exact next
 acceptable payload types. It records no source, theorem, route, candidate,
 proof attempt, target reactivation, or residual subtraction.
 
-After `FJ99`, no `FJ100` module is selected except through the next accepted
-payload or queued prompt.
+`FJ100` records that `cycle_005` is closure-ready. It creates
+`ledgers/cycle_005_handoff.md`, resolves `OQ-121`, completes
+`OBL-C5-020`, creates `OQ-122` and `OBL-C5-021`, and makes no source,
+theorem, route, candidate, proof-attempt, target-reactivation, or residual
+subtraction claim.
+
+After `FJ100`, no `FJ101` module is selected except through a new accepted
+payload or the queued Prompt 020 prompt-backlog maintenance pass.
 
 The latest accepted payload,
-`PAY-C5-STRATEGIC-CHECKPOINT-2026-001`, changes the state by instantiating
-`FJ99`; the earlier accepted payload `PAY-PIVOT-READINESS-2026-001`
+`PAY-C5-CLOSURE-READINESS-2026-001`, changes the state by instantiating
+`FJ100`; the earlier accepted payload
+`PAY-C5-STRATEGIC-CHECKPOINT-2026-001` instantiated `FJ99`; the earlier
+accepted payload `PAY-PIVOT-READINESS-2026-001`
 instantiated `FJ98`; the earlier accepted payload
 `PAY-FORMULATION-SAFETY-AUDIT-2026-001` instantiated `FJ97`; the earlier accepted payload
 `PAY-T001-LIVE-CAND-AUDIT-AFTER-CAND005-2026-001` instantiated `FJ96`; the earlier accepted payload

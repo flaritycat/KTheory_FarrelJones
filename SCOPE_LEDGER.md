@@ -172,7 +172,8 @@ Unless explicitly imported later:
 122. Does the next queued formulation-safety prompt apply to any active candidate row after FJ96? Tracked as `OQ-118`; resolved by `FJ97`, which records formulation-irrelevant status because no active candidate route remains.
 123. What target-pivot readiness status follows the post-FJ97 formulation-irrelevant audit? Tracked as `OQ-119`; resolved by `FJ98`, which records all-targets-paused / no-target-ready status.
 124. What cycle-005 strategic status follows the post-FJ98 all-targets-paused checkpoint? Tracked as `OQ-120`; resolved by `FJ99`, which records that cycle 005 made candidate-level progress but is now no-target-ready / governance-only.
-125. Should cycle 005 close, continue only with a concrete active payload, or pause after the FJ99 strategic checkpoint? Tracked as `OQ-121`; open and queued by `next_prompts.md`, Prompt 019.
+125. Should cycle 005 close, continue only with a concrete active payload, or pause after the FJ99 strategic checkpoint? Tracked as `OQ-121`; resolved by `FJ100`, which records `cycle_005` as closure-ready and creates `ledgers/cycle_005_handoff.md`.
+126. What prompt-backlog maintenance or review-preparation step should follow the FJ100 cycle-005 closure-readiness audit? Tracked as `OQ-122`; open and queued by `next_prompts.md`, Prompt 020.
 
 ## Established results
 
@@ -225,8 +226,10 @@ biautomatic groups, Thompson-type groups, and the WIP / provisional `FJ53`
 line remain paused, deferred, WIP / provisional, or payload-blocked. `FJ99`
 records that cycle 005 made real candidate-level progress through
 `CAND-T001-004` and `CAND-T001-005`, but that the current state is
-no-target-ready / governance-only. The next queued gate is the cycle-005
-closure-readiness audit in Prompt 019.
+no-target-ready / governance-only. `FJ100` records that `cycle_005` is
+closure-ready, creates `ledgers/cycle_005_handoff.md`, resolves `OQ-121`,
+completes `OBL-C5-020`, and creates `OQ-122` and `OBL-C5-021`. The next
+queued gate is the prompt-backlog maintenance pass in Prompt 020.
 
 ## What has been established
 
@@ -662,6 +665,12 @@ Current source toolkit:
   governance-only, resolves `OQ-120`, completes `OBL-C5-019`, creates
   `OBL-C5-020` and `OQ-121`, and makes no source, route, candidate,
   proof-attempt, target-reactivation, or theorem claim;
+- cycle-005 closure-readiness audit: `FJ100` records accepted payload
+  `PAY-C5-CLOSURE-READINESS-2026-001`, records `cycle_005` as
+  closure-ready, creates `ledgers/cycle_005_handoff.md`, resolves
+  `OQ-121`, completes `OBL-C5-020`, creates `OQ-122` and `OBL-C5-021`, and
+  makes no source, route, candidate, proof-attempt, target-reactivation, or
+  theorem claim;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -669,7 +678,8 @@ Current source toolkit:
 
 ## Next mathematical move
 
-The next queued open prompt is the cycle-005 closure-readiness audit in
-`next_prompts.md`, Prompt 019. It should be executed only as a bounded
-governance audit and must not create a reflection until it records a handoff
-table and exact unresolved gates.
+The next queued open prompt is the prompt-backlog maintenance pass in
+`next_prompts.md`, Prompt 020. It should be executed only as governance
+maintenance unless a higher-priority accepted payload is recorded. After
+handoff and backlog maintenance, the project should prepare the cycle-005
+reflection or larger post-100-module review.

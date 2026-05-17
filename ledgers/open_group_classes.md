@@ -136,3 +136,27 @@ Current group-class posture:
 
 The next queued object is the governance-only closure-readiness audit in
 `next_prompts.md`, Prompt 019.
+
+## FJ100 closure-readiness update
+
+`FJ100` records accepted governance payload
+`PAY-C5-CLOSURE-READINESS-2026-001`.
+
+No group-class target becomes active from this checkpoint. `FJ100` records
+that `cycle_005` is closure-ready and creates
+`ledgers/cycle_005_handoff.md` as the post-cycle gate index.
+
+Current group-class posture:
+
+| Target or lane | FJ100 status | Next acceptable object |
+|---|---|---|
+| `T-001` | unresolved but paused / payload-blocked | accepted `PAY-T001-CAND`, `PAY-T001-BRIDGE`, or `PAY-T001-BLOCKER` with a concrete changed project object satisfying `OBL-T001-013` |
+| `CAND-T001-005` | blocked / inactive proof-target row | finite-rank free-kernel bridge, source-verified route bridge, new FJ83 data, formulation comparison, prior-art object, or explicit reopening payload satisfying `OBL-T001-023` |
+| Artin groups | paused | accepted `PAY-ARTIN` satisfying `OBL-ARTIN-004` |
+| Foundational source queue | paused | accepted `PAY-FND` satisfying `FND-QUEUE-PAUSE-001` |
+| Automatic / biautomatic groups | deferred | exact target-pivot payload with changed project object |
+| Thompson-type groups | deferred | exact target-pivot payload with changed project object |
+| `FJ53` / `RB-006` | WIP / provisional | accepted `PAY-FJ53-RB006` with a genuinely non-hyperbolic bridge or subtractive object |
+
+The next queued object is Prompt 020, a governance-only prompt-backlog
+maintenance pass. It is not a group-class reactivation.

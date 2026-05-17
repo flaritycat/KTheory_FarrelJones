@@ -290,8 +290,10 @@ Current module handoff:
   completed.
 - `FJ98`: Target-Pivot Readiness After Formulation Audit is completed.
 - `FJ99`: Cycle-005 Strategic Checkpoint is completed.
-- `FJ100`: no module selected; instantiate only from a new accepted payload or
-  the queued cycle-005 closure-readiness audit.
+- `FJ100`: Cycle-005 Closure-Readiness Audit is completed. It records
+  `cycle_005` as closure-ready and creates `ledgers/cycle_005_handoff.md`.
+- `FJ101`: no module selected; instantiate only from a new accepted payload
+  or the queued Prompt 020 prompt-backlog maintenance pass.
 
 Current obstruction:
 
@@ -504,9 +506,12 @@ Current obstruction:
   `PAY-C5-STRATEGIC-CHECKPOINT-2026-001`, which instantiated `FJ99`.
 - `OBL-C5-020`: no `FJ100` module may be created until a new accepted payload
   is recorded or the queued Prompt 019 cycle-005 closure-readiness audit is
-  executed. That checkpoint should decide whether cycle 005 should close,
-  continue only with a concrete active payload, or pause; it must not create a
-  reflection before recording a handoff table and exact unresolved gates.
+  executed. Completed by accepted payload
+  `PAY-C5-CLOSURE-READINESS-2026-001`, which instantiated `FJ100`.
+- `OBL-C5-021`: no `FJ101` module may be created until a new accepted payload
+  is recorded or the queued Prompt 020 prompt-backlog maintenance pass is
+  executed. The maintenance pass is governance only and must not create
+  mathematical work.
 
 ## Repository Hygiene
 

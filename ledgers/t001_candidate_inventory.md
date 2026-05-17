@@ -789,8 +789,29 @@ active, and no `T-001` route or proof-target update is scheduled without a
 new accepted payload changing this inventory, residual status, proof
 obligation, formulation comparison, or prior-art blocker state.
 
+## FJ100 cycle-005 closure-readiness audit
+
+`FJ100` records accepted payload `PAY-C5-CLOSURE-READINESS-2026-001` and
+creates `ledgers/cycle_005_handoff.md`.
+
+For this `T-001` inventory, the closure-readiness audit makes no candidate
+change. The current candidate posture remains:
+
+| Candidate row | FJ100 status | Next allowed change |
+|---|---|---|
+| `CAND-T001-001` | calibration-only / already non-residual | no active work |
+| `CAND-T001-002` | routed | no active work |
+| `CAND-T001-003` | routed family | no active work |
+| `CAND-T001-004` | source-routed / prior-art-blocked | correction or route-comparison payload only |
+| `CAND-T001-005` | blocked / inactive proof-target row | payload satisfying `OBL-T001-023` |
+| `TPL-RB003-004-008` | template placeholder | replace only with a concrete accepted candidate payload |
+
+No live non-routed `T-001` candidate row is active after `FJ100`. Future
+candidate work must supply an accepted payload that changes this inventory or
+reopens a recorded row under its gate.
+
 ## Next update
 
-The next queued prompt is the cycle-005 closure-readiness audit in
-`next_prompts.md`, Prompt 019. No `FJ100` module is selected without an
+The next queued prompt is the prompt-backlog maintenance pass in
+`next_prompts.md`, Prompt 020. No `FJ101` module is selected without an
 accepted payload or queued prompt.

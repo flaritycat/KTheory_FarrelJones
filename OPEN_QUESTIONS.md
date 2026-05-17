@@ -4800,7 +4800,7 @@ cycle-005 closure-readiness audit.
 
 ### Status
 
-Open inside project; queued by `next_prompts.md`, Prompt 019.
+Resolved by `FJ100`.
 
 ### Context
 
@@ -4846,7 +4846,63 @@ unresolved gates are recorded.
 
 ### Next action
 
-Execute the queued cycle-005 closure-readiness audit only as a bounded
-governance audit. Do not create a reflection, source summary, proof attempt,
-or target reactivation before the handoff table and unresolved gates are
+Resolved by accepted payload `PAY-C5-CLOSURE-READINESS-2026-001`.
+`FJ100` records that `cycle_005` is closure-ready, creates
+`ledgers/cycle_005_handoff.md`, completes `OBL-C5-020`, creates
+`OBL-C5-021`, and creates `OQ-122`. No reflection, source summary, proof
+attempt, target reactivation, theorem claim, or residual subtraction is
+created by this resolution.
+
+## OQ-122. What prompt-backlog maintenance or review-preparation step should follow the FJ100 cycle-005 closure-readiness audit?
+
+### Status
+
+Open inside project; queued by `next_prompts.md`, Prompt 020.
+
+### Context
+
+`FJ100` records that `cycle_005` is closure-ready and creates the handoff
+artifact `ledgers/cycle_005_handoff.md`. The project has reached a
+post-100-module control point, but the prompt backlog should first be made
+consistent with repository state unless a higher-priority accepted payload is
 recorded.
+
+This is a governance question only. It does not authorize a new source
+summary, proof attempt, target reactivation, candidate row, theorem claim, or
+residual subtraction.
+
+### Relevant modules
+
+- FJ81
+- FJ82
+- FJ83
+- FJ84
+- FJ85
+- FJ86
+- FJ87
+- FJ88
+- FJ89
+- FJ90
+- FJ91
+- FJ92
+- FJ93
+- FJ94
+- FJ95
+- FJ96
+- FJ97
+- FJ98
+- FJ99
+- FJ100
+
+### Dependencies
+
+`next_prompts.md`, Prompt 020, `ledgers/payload_intake_protocol.md`,
+`OBL-C5-021`, `ledgers/cycle_005_handoff.md`, `SCOPE_LEDGER.md`,
+`NOTATION_LEDGER.md`, and `AGENTS.md`.
+
+### Next action
+
+Execute the queued prompt-backlog maintenance pass only as governance, or
+record a new accepted payload with higher priority. Do not create `FJ101`
+unless the repository records a concrete accepted payload or Prompt 020 is
+explicitly instantiated as a numbered governance module.
