@@ -302,9 +302,11 @@ Current module handoff:
   completes `OBL-C6-001`, records no-gate-ready status, creates `OQ-125`,
   records `OBL-C6-002`, and selects the cycle-006 payload acquisition /
   project-pause decision.
+- `ledgers/cycle_006_payload_decision.md`: completed. It resolves `OQ-125`,
+  completes `OBL-C6-002`, records `C6-PAUSE-001`, creates `OQ-126`, records
+  `OBL-C6-003`, and selects no `FJ101` module.
 - `FJ101`: no module selected. Do not instantiate it unless a future accepted
-  payload explicitly requires a numbered module after the cycle-006 payload
-  decision gate is handled.
+  payload explicitly satisfies `OBL-C6-003`.
 
 Current obstruction:
 
@@ -525,10 +527,10 @@ Current obstruction:
 - `OBL-POST100-001`: completed by
   `reflections/post_100_module_strategic_review.md`.
 - `OBL-C6-001`: completed by `ledgers/cycle_006_entry_gate.md`.
-- `OBL-C6-002`: the next governance artifact must run a cycle-006 payload
-  acquisition / project-pause decision or explicitly record why that decision
-  is being skipped. Do not open a mathematical numbered module or select a
-  new active target before this gate is handled.
+- `OBL-C6-002`: completed by `ledgers/cycle_006_payload_decision.md`.
+- `OBL-C6-003`: no `FJ101` module may be created until a concrete accepted
+  payload is recorded. Template prompts and generic continuation requests do
+  not satisfy this gate.
 
 ## Repository Hygiene
 

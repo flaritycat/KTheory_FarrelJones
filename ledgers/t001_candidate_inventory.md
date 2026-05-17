@@ -858,6 +858,26 @@ candidate posture remains:
 - no payload satisfying `OBL-T001-013` or `OBL-T001-023` is currently
   recorded.
 
-The next queued prompt is the cycle-006 payload acquisition / project-pause
-decision in `next_prompts.md`, Prompt 024. No `T-001` candidate row becomes
-active from the cycle-006 entry-gate audit alone.
+The next queued prompt at that stage was the cycle-006 payload acquisition /
+project-pause decision in `next_prompts.md`, Prompt 024. That decision is now
+recorded in `ledgers/cycle_006_payload_decision.md`.
+
+## Cycle 006 payload-decision update
+
+`ledgers/cycle_006_payload_decision.md` completes the cycle-006 payload
+acquisition / project-pause decision.
+
+The decision makes no candidate-inventory change. The durable `T-001`
+candidate posture remains:
+
+- no current row is live and non-routed;
+- `CAND-T001-004` remains source-routed / prior-art-blocked;
+- `CAND-T001-005` remains a concrete torsion-free but blocked / inactive
+  proof-target row;
+- no payload satisfying `OBL-T001-013` or `OBL-T001-023` is currently
+  recorded;
+- Prompt 025 is a template and is not executable until a concrete candidate
+  is supplied and accepted under the payload protocol.
+
+The project is now in `C6-PAUSE-001`. No `T-001` candidate row becomes active
+from the cycle-006 payload decision alone.

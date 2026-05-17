@@ -1364,5 +1364,28 @@ Residual-bucket effect:
 - `T-001` remains paused / payload-blocked.
 
 The audit resolves `OQ-124`, completes `OBL-C6-001`, creates `OQ-125`, and
-records `OBL-C6-002`. The next queued object is the cycle-006 payload
-acquisition / project-pause decision, not a residual-bucket attack.
+records `OBL-C6-002`. The next queued object at that stage was the
+cycle-006 payload acquisition / project-pause decision, not a residual-bucket
+attack; that decision is now recorded in
+`ledgers/cycle_006_payload_decision.md`.
+
+## Cycle 006 payload-decision update
+
+`ledgers/cycle_006_payload_decision.md` completes the cycle-006 payload
+acquisition / project-pause decision.
+
+Residual-bucket effect:
+
+- no `RB-*` bucket is removed globally;
+- no torsion-free one-relator class is promoted to Farrell--Jones;
+- no candidate row is added;
+- no external source is checked;
+- no target is reactivated;
+- no proof attempt is started;
+- no active `T-001` candidate route is reopened;
+- `T-001` remains paused / payload-blocked;
+- no `FJ101` module is selected.
+
+The decision resolves `OQ-125`, completes `OBL-C6-002`, records
+`C6-PAUSE-001`, creates `OQ-126`, and records `OBL-C6-003`. Future residual
+work requires a concrete accepted payload, not a template prompt.

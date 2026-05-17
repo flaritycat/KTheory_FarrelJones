@@ -2084,6 +2084,28 @@ queued governance payload.
 The next bounded project move is `next_prompts.md`, Prompt 024: a cycle-006
 payload acquisition or project-pause decision.
 
+## Cycle 006 payload decision
+
+Current status: `ledgers/cycle_006_payload_decision.md` completes the
+cycle-006 payload acquisition / project-pause decision after the no-gate-ready
+entry audit.
+
+The decision is bounded. It checks no external source, adds no candidate,
+reactivates no target, starts no proof attempt, creates no numbered module,
+and creates no theorem claim.
+
+The decision is that no concrete accepted payload exists for the next
+numbered module. Prompt 025 and later backlog entries are templates, not
+executable payloads until their placeholders are concretely filled and
+accepted under `ledgers/payload_intake_protocol.md`.
+
+The decision resolves `OQ-125`, completes `OBL-C6-002`, records
+`C6-PAUSE-001`, creates `OQ-126`, records `OBL-C6-003`, and selects no
+`FJ101` module.
+
+The next project move is to supply a concrete accepted payload, not to
+execute a template prompt.
+
 ## GitHub persistence policy
 
 The GitHub repository `flaritycat/KTheory_FarrelJones` is the durable archive and source of truth.

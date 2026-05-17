@@ -15,19 +15,19 @@ Develop a modular research program around the Farrell--Jones conjecture by:
 
 ## Current module cycle
 
-- Active cycle: cycle-006 entry-gate audit complete; payload decision
-  pending.
+- Active cycle: cycle-006 payload-gated pause.
 - Completed cycles: `cycle_001`, `cycle_002`, `cycle_003`, and
   `cycle_004`, and `cycle_005`.
 - Completed first-pass modules: `FJ01`, `FJ02`, `FJ03`, `FJ04`, `FJ05`, `FJ06`, `FJ07`, `FJ08`, `FJ09`, `FJ10`, `FJ11`, `FJ12`, `FJ13`, `FJ14`, `FJ15`, `FJ16`, `FJ17`, `FJ18`, `FJ19`, `FJ20`, `FJ21`, `FJ22`, `FJ23`, `FJ24`, `FJ25`, `FJ26`, `FJ27`, `FJ28`, `FJ29`, `FJ30`, `FJ31`, `FJ32`, `FJ33`, `FJ34`, `FJ35`, `FJ36`, `FJ37`, `FJ38`, `FJ39`, `FJ40`, `FJ41`, `FJ42`, `FJ43`, `FJ44`, `FJ45`, `FJ46`, `FJ47`, `FJ48`, `FJ49`, `FJ50`, `FJ51`, `FJ52`, `FJ54`, `FJ55`, `FJ56`, `FJ57`, `FJ58`, `FJ59`, `FJ60`, `FJ61`, `FJ62`, `FJ63`, `FJ64`, `FJ65`, `FJ66`, `FJ67`, `FJ68`, `FJ69`, `FJ70`, `FJ71`, `FJ72`, `FJ73`, `FJ74`, `FJ75`, `FJ76`, `FJ77`, `FJ78`, `FJ79`, `FJ80`, `FJ81`, `FJ82`, `FJ83`, `FJ84`, `FJ85`, `FJ86`, `FJ87`, `FJ88`, `FJ89`, `FJ90`, `FJ91`, `FJ92`, `FJ93`, `FJ94`, `FJ95`, `FJ96`, `FJ97`, `FJ98`, `FJ99`, and `FJ100`.
 - `FJ53` is retained as WIP / provisional.
 - Completed cycle reflections: `reflections/cycle_001_reflection.md`, `reflections/cycle_002_reflection.md`, `reflections/cycle_003_reflection.md`, `reflections/cycle_004_reflection.md`, and `reflections/cycle_005_reflection.md`.
 - Selected first serious target: `T-001`, torsion-free one-relator residual gap analysis.
-- Current active project status: cycle-006 no-gate-ready state. `cycle_006`
-  has not opened as a mathematical proof cycle.
-- Current procedural target: execute `next_prompts.md`, Prompt 024, as the
-  cycle-006 payload acquisition / project-pause decision unless a
-  higher-priority accepted payload is recorded.
+- Current active project status: cycle-006 payload-gated pause. `cycle_006`
+  has not opened as a mathematical proof cycle, and no `FJ101` module is
+  selected.
+- Current procedural target: record a concrete accepted payload under
+  `ledgers/payload_intake_protocol.md`, or concretely fill a template prompt
+  before execution.
 
 ## Current established results
 
@@ -218,6 +218,10 @@ See `ESTABLISHED_RESULTS.md` for exact statements, hypotheses, proof locations, 
   audit. It resolves `OQ-124`, completes `OBL-C6-001`, records a no-gate-ready
   state, creates `OQ-125` and `OBL-C6-002`, and selects Prompt 024, the
   cycle-006 payload acquisition / project-pause decision.
+- `ledgers/cycle_006_payload_decision.md` completes the cycle-006 payload
+  decision. It resolves `OQ-125`, completes `OBL-C6-002`, records
+  `C6-PAUSE-001`, creates `OQ-126` and `OBL-C6-003`, and selects no `FJ101`
+  module.
 - `FJ06` identifies \(R[\mathbb Z]\cong R[t,t^{-1}]\) after choosing a generator, but deliberately does not use the Bass--Heller--Swan decomposition.
 - `FJ07` imports Bass--Heller--Swan as a source-verified theorem, not as an internal proof.
 - `FJ08` records a conditional Whitehead-group consequence; it does not claim \(\mathrm{Wh}(G)=0\) for groups with torsion.

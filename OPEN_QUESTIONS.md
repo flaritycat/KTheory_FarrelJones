@@ -4991,7 +4991,7 @@ completes `OBL-C6-001`, creates `OQ-125`, and records `OBL-C6-002`.
 
 ### Status
 
-Open inside project; queued by `next_prompts.md`, Prompt 024.
+Resolved by `ledgers/cycle_006_payload_decision.md`.
 
 ### Context
 
@@ -5023,6 +5023,42 @@ residual subtraction.
 
 ### Next action
 
-Execute the queued cycle-006 payload acquisition / project-pause decision.
-Do not open a mathematical numbered module without a concrete accepted
-payload.
+Resolved by accepted governance payload `PAY-C6-PAYLOAD-2026-001`. The
+decision records that no concrete accepted payload exists for the next
+numbered module. It completes `OBL-C6-002`, records `C6-PAUSE-001`, creates
+`OQ-126`, and records `OBL-C6-003`.
+
+## OQ-126. Which accepted payload, if any, should exit the cycle-006 payload-gated pause and instantiate the next numbered module?
+
+### Status
+
+Open inside project; blocked until a concrete accepted payload is recorded.
+
+### Context
+
+`ledgers/cycle_006_payload_decision.md` records `C6-PAUSE-001`: no concrete
+accepted payload currently exists for the next numbered module. Prompt 025
+and later backlog entries are templates, not executable payloads, until their
+placeholders are concretely filled and accepted under
+`ledgers/payload_intake_protocol.md`.
+
+This is a governance question only. It does not authorize a theorem claim,
+source summary, proof attempt, candidate invention, target reactivation, or
+residual subtraction.
+
+### Relevant modules
+
+- `ledgers/cycle_006_entry_gate.md`
+- `ledgers/cycle_006_payload_decision.md`
+- `ledgers/payload_intake_protocol.md`
+
+### Dependencies
+
+`ledgers/payload_intake_protocol.md`, `next_prompts.md`,
+`SCOPE_LEDGER.md`, `NOTATION_LEDGER.md`, `AGENTS.md`, and `OBL-C6-003`.
+
+### Next action
+
+Record a concrete accepted payload, or concretely fill a template prompt so
+that it satisfies the payload protocol. Do not instantiate `FJ101` from a
+template or general continuation request.

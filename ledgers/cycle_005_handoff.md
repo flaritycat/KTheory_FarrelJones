@@ -42,8 +42,8 @@ cycle_005 is closure-ready.
 | Automatic / biautomatic line | deferred | no source-ready bounded object | Reactivate only with exact source-ready object changing a project ledger. |
 | Thompson-type line | deferred | no source-ready bounded object | Reactivate only with exact source-ready object changing a project ledger. |
 | `FJ53` / `RB-006` | WIP / provisional | no non-hyperbolic bridge | Continue only if a genuinely non-hyperbolic CAT(0), compact-special, or FJ bridge is supplied. |
-| Prompt backlog | Prompt 020 completed; Prompt 021 completed by the cycle-005 reflection; Prompt 022 completed by the post-100 review; Prompt 023 completed by the cycle-006 entry audit | `OQ-125` open | Preserve the backlog discipline; the next open prompt is Prompt 024. |
-| Reflection / review | cycle-005 reflection, post-100-module strategic review, and cycle-006 entry-gate audit completed | `OBL-C6-002`; `OQ-125` | Prepare the cycle-006 payload acquisition / project-pause decision unless a higher-priority accepted payload is recorded. |
+| Prompt backlog | Prompt 020 completed; Prompt 021 completed by the cycle-005 reflection; Prompt 022 completed by the post-100 review; Prompt 023 completed by the cycle-006 entry audit; Prompt 024 completed by the cycle-006 payload decision | `OQ-126` open | Preserve the backlog discipline; template prompts are not executable until concretely filled. |
+| Reflection / review | cycle-005 reflection, post-100-module strategic review, cycle-006 entry-gate audit, and cycle-006 payload decision completed | `OBL-C6-003`; `OQ-126` | Await a concrete accepted payload before any `FJ101` module. |
 
 ## Gate index
 
@@ -59,7 +59,8 @@ cycle_005 is closure-ready.
 | `OBL-C5-021` | post-FJ100 prompt-backlog maintenance / reflection preparation | completed by Prompt 020 and cycle-005 reflection | The later post-100 gate `OBL-POST100-001` is now completed. |
 | `OBL-POST100-001` | post-100-module strategic review | completed by post-100 review | The next gate is `OBL-C6-001`. |
 | `OBL-C6-001` | cycle-006 entry-gate audit | completed by `ledgers/cycle_006_entry_gate.md` | The next gate is `OBL-C6-002`. |
-| `OBL-C6-002` | cycle-006 payload acquisition / project-pause decision | active | Execute queued Prompt 024 or explicitly record why the payload decision is skipped. |
+| `OBL-C6-002` | cycle-006 payload acquisition / project-pause decision | completed by `ledgers/cycle_006_payload_decision.md` | The next gate is `OBL-C6-003`. |
+| `OBL-C6-003` | concrete payload required before `FJ101` | active | Record a concrete accepted payload under `ledgers/payload_intake_protocol.md`; templates and general continuation requests do not satisfy this gate. |
 
 ## FJ100 closure result
 
@@ -79,14 +80,17 @@ and records `OBL-C6-001`.
 resolves `OQ-124`, completes `OBL-C6-001`, records a no-gate-ready state,
 creates `OQ-125`, and records `OBL-C6-002`.
 
+`ledgers/cycle_006_payload_decision.md` completes the cycle-006 payload
+decision, resolves `OQ-125`, completes `OBL-C6-002`, records
+`C6-PAUSE-001`, creates `OQ-126`, and records `OBL-C6-003`.
+
 It records no new theorem, source claim, candidate row, proof attempt,
 target reactivation, or residual subtraction.
 
 ## Next allowed actions
 
-1. Execute queued Prompt 024 as cycle-006 payload acquisition / project-pause
-   decision.
-2. Record a new accepted concrete payload satisfying
+1. Record a new accepted concrete payload satisfying
    `ledgers/payload_intake_protocol.md`.
-3. If the cycle-006 payload decision is skipped, record the skip reason and
-   the replacement gate explicitly.
+2. Concretely fill a template prompt and accept it under the protocol before
+   execution.
+3. Do not instantiate `FJ101` from a template or general continuation request.

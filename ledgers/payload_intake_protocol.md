@@ -97,6 +97,7 @@ Use this template before instantiating a future numbered module.
 | `PAY-C5-REFLECTION-2026-001` | `PAY-GOV` | accepted for `reflections/cycle_005_reflection.md` only | Internal cycle-005 reflection after `FJ100`; closes cycle 005, records what was achieved and what remains gated, and selects the post-100-module strategic review without adding mathematics. |
 | `PAY-POST100-REVIEW-2026-001` | `PAY-GOV` | accepted for `reflections/post_100_module_strategic_review.md` only | Internal post-100-module strategic review after cycle 005; records structural debt, live mathematical objects, decorative-bookkeeping risk, and the cycle-006 entry gate without adding mathematics. |
 | `PAY-C6-GATE-2026-001` | `PAY-GOV` | accepted for `ledgers/cycle_006_entry_gate.md` only | Internal cycle-006 entry-gate audit after the post-100 review; records no-gate-ready status and selects the cycle-006 payload acquisition / project-pause decision without adding mathematics. |
+| `PAY-C6-PAYLOAD-2026-001` | `PAY-GOV` | accepted for `ledgers/cycle_006_payload_decision.md` only | Internal cycle-006 payload acquisition / project-pause decision; records that no concrete accepted payload exists, enters `C6-PAUSE-001`, and selects no `FJ101` module. |
 
 ## Accepted intake records
 
@@ -666,13 +667,24 @@ Prompt 023, the cycle-006 entry-gate audit.
 candidate, proof-attempt, target-reactivation, or residual subtraction
 claim.
 
-After the cycle-006 entry-gate audit, no mathematical `cycle_006` module is
-selected. The next queued governance object is Prompt 024, the cycle-006
-payload acquisition / project-pause decision, unless a higher-priority
-accepted payload is recorded.
+After the cycle-006 entry-gate audit, no mathematical `cycle_006` module was
+selected. The next queued governance object at that stage was Prompt 024,
+the cycle-006 payload acquisition / project-pause decision.
+
+`ledgers/cycle_006_payload_decision.md` completes
+`PAY-C6-PAYLOAD-2026-001`, resolves `OQ-125`, completes `OBL-C6-002`,
+records `C6-PAUSE-001`, creates `OQ-126`, records `OBL-C6-003`, and makes no
+source, theorem, route, candidate, proof-attempt, target-reactivation, or
+residual subtraction claim.
+
+After the cycle-006 payload decision, no `FJ101` module is selected. The
+project is in a payload-gated pause until a concrete accepted payload is
+recorded. Template prompts are not executable payloads.
 
 The latest accepted payload,
-`PAY-C6-GATE-2026-001`, changes the state by creating
+`PAY-C6-PAYLOAD-2026-001`, changes the state by creating
+`ledgers/cycle_006_payload_decision.md`; the earlier accepted payload
+`PAY-C6-GATE-2026-001` created
 `ledgers/cycle_006_entry_gate.md`; the earlier accepted payload
 `PAY-POST100-REVIEW-2026-001` created
 `reflections/post_100_module_strategic_review.md`; the earlier accepted

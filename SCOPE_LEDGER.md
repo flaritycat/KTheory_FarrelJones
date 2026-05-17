@@ -176,7 +176,8 @@ Unless explicitly imported later:
 126. What prompt-backlog maintenance or review-preparation step should follow the FJ100 cycle-005 closure-readiness audit? Tracked as `OQ-122`; resolved by `reflections/cycle_005_reflection.md`, after Prompt 020 completed the backlog maintenance pass and Prompt 021 created the cycle-005 reflection.
 127. What post-100-module strategic review should follow the cycle-005 reflection? Tracked as `OQ-123`; resolved by `reflections/post_100_module_strategic_review.md`.
 128. What cycle-006 entry-gate status follows the post-100-module strategic review? Tracked as `OQ-124`; resolved by `ledgers/cycle_006_entry_gate.md`, which records a no-gate-ready state.
-129. What payload-acquisition or project-pause decision should follow the cycle-006 no-gate-ready audit? Tracked as `OQ-125`; open and queued by `next_prompts.md`, Prompt 024.
+129. What payload-acquisition or project-pause decision should follow the cycle-006 no-gate-ready audit? Tracked as `OQ-125`; resolved by `ledgers/cycle_006_payload_decision.md`, which records `C6-PAUSE-001`.
+130. Which accepted payload, if any, should exit the cycle-006 payload-gated pause and instantiate the next numbered module? Tracked as `OQ-126`; open and blocked until a concrete accepted payload is recorded.
 
 ## Established results
 
@@ -240,6 +241,9 @@ completes `OBL-POST100-001`, creates `OQ-124`, and records `OBL-C6-001`.
 `OBL-C6-001`, records a no-gate-ready state, creates `OQ-125`, and records
 `OBL-C6-002`. The next queued gate is the cycle-006 payload decision in
 Prompt 024.
+`ledgers/cycle_006_payload_decision.md` resolves `OQ-125`, completes
+`OBL-C6-002`, records `C6-PAUSE-001`, creates `OQ-126`, and records
+`OBL-C6-003`. No `FJ101` module is selected.
 
 ## What has been established
 
@@ -694,6 +698,9 @@ Current source toolkit:
   `OQ-124`, completes `OBL-C6-001`, records a no-gate-ready state, creates
   `OQ-125`, records `OBL-C6-002`, and selects Prompt 024, the cycle-006
   payload acquisition / project-pause decision;
+- cycle-006 payload decision: `ledgers/cycle_006_payload_decision.md`
+  resolves `OQ-125`, completes `OBL-C6-002`, records `C6-PAUSE-001`, creates
+  `OQ-126`, records `OBL-C6-003`, and selects no `FJ101` module;
 - bridge source: Linton's `Hyperbolic one-relator groups`;
 - orientation source: Linton--Nyberg-Brodda's one-relator survey;
 - classical sources to verify before proof-sensitive use:
@@ -701,7 +708,7 @@ Current source toolkit:
 
 ## Next mathematical move
 
-The next queued open prompt is the cycle-006 payload acquisition /
-project-pause decision in `next_prompts.md`, Prompt 024. It should apply
-`ledgers/payload_intake_protocol.md` after the cycle-006 no-gate-ready audit
-and either record an accepted concrete payload or a payload-gated pause.
+The project is in `C6-PAUSE-001`, a cycle-006 payload-gated pause. The next
+mathematical move requires a concrete accepted payload under
+`ledgers/payload_intake_protocol.md`; template prompts in `next_prompts.md`
+are not executable until concretely filled.

@@ -225,6 +225,29 @@ Current group-class posture after the audit:
 | Thompson-type groups | deferred | exact target-pivot payload with changed project object |
 | `FJ53` / `RB-006` | WIP / provisional | accepted `PAY-FJ53-RB006` with a genuinely non-hyperbolic bridge or subtractive object |
 
-The next queued object is Prompt 024, the cycle-006 payload acquisition /
-project-pause decision. It is a governance gate, not a group-class
-reactivation.
+The next queued object at that stage was Prompt 024, the cycle-006 payload
+acquisition / project-pause decision. That decision is now recorded in
+`ledgers/cycle_006_payload_decision.md`.
+
+## Cycle 006 payload-decision update
+
+`ledgers/cycle_006_payload_decision.md` completes the cycle-006 payload
+acquisition / project-pause decision.
+
+No group-class target becomes active from this decision. No concrete accepted
+payload exists for the next numbered module.
+
+Current group-class posture after the decision:
+
+| Target or lane | Cycle-006 payload status | Next acceptable object |
+|---|---|---|
+| `T-001` | unresolved but paused / payload-blocked | concrete accepted `PAY-T001-CAND`, `PAY-T001-BRIDGE`, or `PAY-T001-BLOCKER` satisfying `OBL-T001-013` |
+| `CAND-T001-005` | blocked / inactive proof-target row | concrete payload satisfying `OBL-T001-023` |
+| Artin groups | paused | concrete accepted `PAY-ARTIN` satisfying `OBL-ARTIN-004` |
+| Foundational source queue | paused | concrete accepted `PAY-FND` satisfying `FND-QUEUE-PAUSE-001` |
+| Automatic / biautomatic groups | deferred | exact target-pivot payload with changed project object |
+| Thompson-type groups | deferred | exact target-pivot payload with changed project object |
+| `FJ53` / `RB-006` | WIP / provisional | concrete accepted `PAY-FJ53-RB006` with a genuinely non-hyperbolic bridge or subtractive object |
+
+The project is now in `C6-PAUSE-001`. Template prompts are not executable
+until concretely filled and accepted under the payload protocol.

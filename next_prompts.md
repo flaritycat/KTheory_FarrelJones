@@ -760,9 +760,9 @@ Governance only unless the repository has already recorded the required input.
 
 ## Prompt 024
 
-Status: Open
+Status: Completed
 
-Completed by:
+Completed by: `ledgers/cycle_006_payload_decision.md`
 
 Commit:
 
