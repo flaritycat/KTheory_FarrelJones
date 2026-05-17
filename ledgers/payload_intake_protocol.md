@@ -22,6 +22,47 @@ No external source was checked for this ledger.
   CAT(0), compact-special, or FJ bridge, or another recorded subtractive
   payload.
 
+## Acceptance checklist
+
+Before accepting any future payload, check every item in this table. If any
+required item is missing, record the request as rejected, blocked, or only a
+draft; do not instantiate a numbered module.
+
+| Required item | Acceptance test |
+| --- | --- |
+| Payload ID | A stable identifier is supplied; it is not a bracketed placeholder and does not reuse a rejected placeholder-only ID without adding a concrete object. |
+| Payload type | The type is one of the protocol types below, or the payload explicitly records a project-governance reason for introducing a new type. |
+| Target gate | The payload names the active open question, proof obligation, pause marker, or handoff gate it is meant to change. |
+| Concrete object | The payload names an actual candidate, source theorem, bridge lemma, computation, blocker, formulation comparison, governance object, or ledger object. A label such as `T-001`, `RB-006`, "next best payload", or "continue" is not enough. |
+| Exact statement or object | The payload states what must be checked or changed, with enough detail that the module can stop after a bounded audit. |
+| Formulation level | The payload states whether it concerns simplified ring-coefficient FJ, coefficient K-theory FJC, full \(\mathcal{FJ}\), `FJCw`, `FICwF`, weaker \(K_0\)-level statements, governance only, or another explicitly named formulation. |
+| Repository objects changed | The payload names the module, ledger, reflection, README, charter, source-status file, or other repository object expected to change. |
+| Success criterion | The payload says what repository-visible outcome counts as success. |
+| Failure criterion | The payload says when the run must stop without promotion. |
+| Stop condition | The payload gives a bounded stopping point and prevents drift into a broad survey. |
+| Citation requirement | If an external source is used, the payload requires an APA-style citation and source-status label. If no external source is used, it says so explicitly. |
+| Acceptance scope | The payload says whether it is accepted for one module, one ledger, one reflection, or one governance artifact only. |
+
+## Internal governance payload acceptance tests
+
+Repository-internal governance payloads may be accepted without an external
+source only when all of the following tests pass:
+
+- the payload names an existing repository state, gate, handoff, open question,
+  proof obligation, prompt queue, or protocol object;
+- the payload names the exact repository object to create or update;
+- the payload states that it does not add a candidate, source theorem, bridge,
+  computation, proof attempt, target reactivation, residual subtraction, or
+  mathematical theorem claim;
+- the success criterion is a ledger, reflection, queue, status, or handoff
+  update rather than a mathematical theorem;
+- the stop condition blocks follow-on numbered work unless a separate accepted
+  payload is recorded.
+
+An internal governance payload fails if it is used to smuggle in a new
+mathematical object, source claim, route claim, or `FJ101` module while
+`OBL-C6-003` remains active.
+
 ## Accepted payload types
 
 | Payload type | Minimum content | Changed project object | Stop condition |
@@ -48,6 +89,10 @@ No external source was checked for this ledger.
 | Theorem name without statement and hypotheses | Not proof-sensitive enough for route use. |
 | Hyperbolic-overlap restatement for `RB-006` | Not a new residual subtraction. |
 | Placeholder candidate row | Not a mathematical candidate. |
+| Bracketed placeholder such as `[give one concrete group here]` | A placeholder is an instruction to supply a later object, not a supplied object. |
+| `Accepted? Yes` attached to an incomplete template | Self-labeling an incomplete template as accepted does not satisfy the protocol. |
+| Prompt 015 or Prompt 025 onward copied without filling placeholders | Template prompts in `next_prompts.md` are not executable until concretely filled and accepted. |
+| Generic continuation request | Does not name a changed project object, success criterion, failure criterion, or stop condition. |
 
 ## Intake record template
 

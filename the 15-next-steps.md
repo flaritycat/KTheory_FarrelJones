@@ -140,7 +140,12 @@ Stop after queue-label and warning normalization.
 
 ## Prompt 003. Payload Protocol Usability Audit
 
-Status: Ready
+Status: Completed
+
+Completed by:
+
+- `ledgers/payload_intake_protocol.md`
+- `ledgers/payload_submission_checklist.md`
 
 ```text
 Run a usability audit of `ledgers/payload_intake_protocol.md`.
